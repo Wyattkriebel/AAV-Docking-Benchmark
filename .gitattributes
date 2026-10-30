@@ -1,0 +1,7 @@
+# Preserve byte-identical third-party fixtures and raw scientific outputs.
+tests/fixtures/external/* -text -whitespace
+results/**/*.pdbqt* -text -whitespace
+results/**/*.log* -text -whitespace
+results/**/*.csv -text -whitespace
+# GitHub can collapse generated evidence while keeping it available for review.
+results/** linguist-generated=true

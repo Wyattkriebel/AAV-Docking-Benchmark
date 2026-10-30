@@ -1,0 +1,570 @@
+{
+  "schema_version": 1,
+  "curation_date": "2026-10-28",
+  "status": "candidate_inventory_not_confirmatory_freeze",
+  "source_benchmark": {
+    "repository": "https://github.com/haddocking/protein-glycans",
+    "commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+    "paper": "https://doi.org/10.1021/acs.jcim.4c01372",
+    "license": "Apache-2.0 for upstream repository; wwPDB data retain own terms"
+  },
+  "eligibility_policy": {
+    "unknown_is_not_pass": true,
+    "source_reproduction_is_not_confirmatory_accuracy": true,
+    "unresolved_full_glycan_is_not_full_atomic_reference": true,
+    "test_partition_frozen": false
+  },
+  "cases": [
+    {
+      "case_id": "154L",
+      "partition": "development_inventory",
+      "family_label": "goose_type_lysozyme",
+      "family_assignment_status": "provisional_manual_functional_group; sequence/fold independence not audited",
+      "pdb_id": "154L",
+      "assembly_ids_available": [
+        "1"
+      ],
+      "assembly_id_selected": null,
+      "model_number": 1,
+      "experimental_method": "X-ray",
+      "nominal_resolution_angstrom": [
+        1.6
+      ],
+      "deposited_revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 1,
+        "ordinal": 5,
+        "revision_date": "2024-11-20T00:00:00.000+00:00"
+      },
+      "structure_source": {
+        "url": "https://files.rcsb.org/download/154L.cif",
+        "sha256": "a883c45350c4fdd0812123e47d9ea77b3e4fdbb1aaa80b2f0192f6e0658e62ca"
+      },
+      "prepared_source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+      "connectivity_record": "sources/glycan_connectivity.json#154L",
+      "ligand": {
+        "chemistry_class": "linear_chitotriose",
+        "deposited_residue_count": 3,
+        "expected_deposited_heavy_atoms": 43,
+        "formal_charge_expected": 0,
+        "graph_source": "wwPDB CCD component graphs plus deposited _pdbx_entity_branch_link",
+        "input_conformer_rule": "Generate independently from graph; do not use native coordinates as docking input",
+        "ordered_atom_map_status": "must validate generated map against prepared and deposited coordinates",
+        "unresolved_tail_status": "not independently checked against local density"
+      },
+      "apo_reference": {
+        "status": "prepared unbound receptor available; original independently solved entry and sequence alignment unresolved",
+        "source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/154L/154L_r_u.pdb",
+          "sha256": "cda947449e49a6b0eee490194b837f05e9d952f8bfe623865330172bc8b08deb",
+          "bytes": 115996
+        }
+      },
+      "reference_quality": {
+        "local_density_review": "pending",
+        "validation_report_review": "machine diagnostic extracted; independent review pending",
+        "covalent_attachment_check": "pending",
+        "assembly_context_check": "pending",
+        "water_metal_treatment": "not independently reviewed",
+        "validation_record": "sources/reference_validation.json#154L"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": true,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Released example supports software reproduction. Local quality, assemblies, atom maps, and independence remain required; no confirmatory claims from this inventory.",
+      "protein_name": "Goose lysozyme",
+      "uniprot_id": "P00718",
+      "protein_metadata_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/154L/1"
+    },
+    {
+      "case_id": "1GNY",
+      "partition": "development_inventory",
+      "family_label": "CBM15",
+      "family_assignment_status": "provisional_manual_functional_group; sequence/fold independence not audited",
+      "pdb_id": "1GNY",
+      "assembly_ids_available": [
+        "1"
+      ],
+      "assembly_id_selected": null,
+      "model_number": 1,
+      "experimental_method": "X-ray",
+      "nominal_resolution_angstrom": [
+        1.63
+      ],
+      "deposited_revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 2,
+        "ordinal": 6,
+        "revision_date": "2024-11-06T00:00:00.000+00:00"
+      },
+      "structure_source": {
+        "url": "https://files.rcsb.org/download/1GNY.cif",
+        "sha256": "cca70307b2ba7c918e9ed4dc170f17975df86ca931ce7f1dec5014bb81a96329"
+      },
+      "prepared_source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+      "connectivity_record": "sources/glycan_connectivity.json#1GNY",
+      "ligand": {
+        "chemistry_class": "linear_xylopentaose",
+        "deposited_residue_count": 5,
+        "expected_deposited_heavy_atoms": 46,
+        "formal_charge_expected": 0,
+        "graph_source": "wwPDB CCD component graphs plus deposited _pdbx_entity_branch_link",
+        "input_conformer_rule": "Generate independently from graph; do not use native coordinates as docking input",
+        "ordered_atom_map_status": "must validate generated map against prepared and deposited coordinates",
+        "unresolved_tail_status": "not independently checked against local density"
+      },
+      "apo_reference": {
+        "status": "prepared unbound receptor available; original independently solved entry and sequence alignment unresolved",
+        "source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_r_u.pdb",
+          "sha256": "ac25c5212fca9e11fd8a704221f4fb9862ce1106e47a9c95f5ce6c1be78cadff",
+          "bytes": 71446
+        }
+      },
+      "reference_quality": {
+        "local_density_review": "pending",
+        "validation_report_review": "machine diagnostic extracted; independent review pending",
+        "covalent_attachment_check": "pending",
+        "assembly_context_check": "pending",
+        "water_metal_treatment": "not independently reviewed",
+        "validation_record": "sources/reference_validation.json#1GNY"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": true,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Released example supports software reproduction. Local quality, assemblies, atom maps, and independence remain required; no confirmatory claims from this inventory.",
+      "protein_name": "Xylanase 10C carbohydrate-binding module 15",
+      "uniprot_id": "Q59675",
+      "protein_metadata_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1GNY/1"
+    },
+    {
+      "case_id": "1KJL",
+      "partition": "development_inventory",
+      "family_label": "galectin",
+      "family_assignment_status": "provisional_manual_functional_group; sequence/fold independence not audited",
+      "pdb_id": "1KJL",
+      "assembly_ids_available": [
+        "1"
+      ],
+      "assembly_id_selected": null,
+      "model_number": 1,
+      "experimental_method": "X-ray",
+      "nominal_resolution_angstrom": [
+        1.4
+      ],
+      "deposited_revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 1,
+        "ordinal": 5,
+        "revision_date": "2023-08-16T00:00:00.000+00:00"
+      },
+      "structure_source": {
+        "url": "https://files.rcsb.org/download/1KJL.cif",
+        "sha256": "df637376e7f2ecbaf6a0f8c1c9d1a4923b3c047b0c32891db2d7dea5c44a5e90"
+      },
+      "prepared_source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+      "connectivity_record": "sources/glycan_connectivity.json#1KJL",
+      "ligand": {
+        "chemistry_class": "linear_LacNAc",
+        "deposited_residue_count": 2,
+        "expected_deposited_heavy_atoms": 26,
+        "formal_charge_expected": 0,
+        "graph_source": "wwPDB CCD component graphs plus deposited _pdbx_entity_branch_link",
+        "input_conformer_rule": "Generate independently from graph; do not use native coordinates as docking input",
+        "ordered_atom_map_status": "must validate generated map against prepared and deposited coordinates",
+        "unresolved_tail_status": "not independently checked against local density"
+      },
+      "apo_reference": {
+        "status": "prepared unbound receptor available; original independently solved entry and sequence alignment unresolved",
+        "source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_r_u.pdb",
+          "sha256": "00f07bbe812ae9d03b10caa18df546fa956c3da6e3659799c5cb7c0f10b7202e",
+          "bytes": 89752
+        }
+      },
+      "reference_quality": {
+        "local_density_review": "pending",
+        "validation_report_review": "machine diagnostic extracted; independent review pending",
+        "covalent_attachment_check": "pending",
+        "assembly_context_check": "pending",
+        "water_metal_treatment": "not independently reviewed",
+        "validation_record": "sources/reference_validation.json#1KJL"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": true,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Released example supports software reproduction. Local quality, assemblies, atom maps, and independence remain required; no confirmatory claims from this inventory.",
+      "protein_name": "Galectin-3",
+      "uniprot_id": "P17931",
+      "protein_metadata_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1KJL/1"
+    },
+    {
+      "case_id": "1QFO",
+      "partition": "development_inventory",
+      "family_label": "siglec",
+      "family_assignment_status": "provisional_manual_functional_group; sequence/fold independence not audited",
+      "pdb_id": "1QFO",
+      "assembly_ids_available": [
+        "1",
+        "2",
+        "3"
+      ],
+      "assembly_id_selected": null,
+      "model_number": 1,
+      "experimental_method": "X-ray",
+      "nominal_resolution_angstrom": [
+        1.85
+      ],
+      "deposited_revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 2,
+        "ordinal": 6,
+        "revision_date": "2024-10-30T00:00:00.000+00:00"
+      },
+      "structure_source": {
+        "url": "https://files.rcsb.org/download/1QFO.cif",
+        "sha256": "ac932455ee2d2de9726af0e52c9c733831b4d3e8f1afc67f52b23e849989ffc1"
+      },
+      "prepared_source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+      "connectivity_record": "sources/glycan_connectivity.json#1QFO",
+      "ligand": {
+        "chemistry_class": "sialyllactose",
+        "deposited_residue_count": 3,
+        "expected_deposited_heavy_atoms": 43,
+        "formal_charge_expected": -1,
+        "graph_source": "wwPDB CCD component graphs plus deposited _pdbx_entity_branch_link",
+        "input_conformer_rule": "Generate independently from graph; do not use native coordinates as docking input",
+        "ordered_atom_map_status": "must validate generated map against prepared and deposited coordinates",
+        "unresolved_tail_status": "not independently checked against local density"
+      },
+      "apo_reference": {
+        "status": "prepared unbound receptor available; original independently solved entry and sequence alignment unresolved",
+        "source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1QFO/1QFO_r_u.pdb",
+          "sha256": "6c4a6b0f1c70d98c9fe390459d8c4cfb4348978cfac24c635064329e3cd041fe",
+          "bytes": 71446
+        }
+      },
+      "reference_quality": {
+        "local_density_review": "pending",
+        "validation_report_review": "machine diagnostic extracted; independent review pending",
+        "covalent_attachment_check": "pending",
+        "assembly_context_check": "pending",
+        "water_metal_treatment": "not independently reviewed",
+        "validation_record": "sources/reference_validation.json#1QFO"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": true,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Released example supports software reproduction. Local quality, assemblies, atom maps, and independence remain required; no confirmatory claims from this inventory.",
+      "protein_name": "Sialoadhesin N-terminal sialic-acid-binding domain",
+      "uniprot_id": "Q62230",
+      "protein_metadata_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1QFO/1"
+    },
+    {
+      "case_id": "2J1T",
+      "partition": "development_inventory",
+      "family_label": "fucolectin_related_protein",
+      "family_assignment_status": "provisional_manual_functional_group; sequence/fold independence not audited",
+      "pdb_id": "2J1T",
+      "assembly_ids_available": [
+        "1",
+        "2"
+      ],
+      "assembly_id_selected": null,
+      "model_number": 1,
+      "experimental_method": "X-ray",
+      "nominal_resolution_angstrom": [
+        1.6
+      ],
+      "deposited_revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 1,
+        "ordinal": 5,
+        "revision_date": "2024-05-08T00:00:00.000+00:00"
+      },
+      "structure_source": {
+        "url": "https://files.rcsb.org/download/2J1T.cif",
+        "sha256": "a2aa0a444e5893a883c311a469d9ff75279d500b213b7696b34ba7e22a22609d"
+      },
+      "prepared_source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+      "connectivity_record": "sources/glycan_connectivity.json#2J1T",
+      "ligand": {
+        "chemistry_class": "branched_Lewis_Y",
+        "deposited_residue_count": 4,
+        "expected_deposited_heavy_atoms": 46,
+        "formal_charge_expected": 0,
+        "graph_source": "wwPDB CCD component graphs plus deposited _pdbx_entity_branch_link",
+        "input_conformer_rule": "Generate independently from graph; do not use native coordinates as docking input",
+        "ordered_atom_map_status": "must validate generated map against prepared and deposited coordinates",
+        "unresolved_tail_status": "not independently checked against local density"
+      },
+      "apo_reference": {
+        "status": "prepared unbound receptor available; original independently solved entry and sequence alignment unresolved",
+        "source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_r_u.pdb",
+          "sha256": "4649257f4b49a48a75e95936b19784509ad08da421a10109d85d6b5114dbf049",
+          "bytes": 86917
+        }
+      },
+      "reference_quality": {
+        "local_density_review": "pending",
+        "validation_report_review": "machine diagnostic extracted; independent review pending",
+        "covalent_attachment_check": "pending",
+        "assembly_context_check": "pending",
+        "water_metal_treatment": "not independently reviewed",
+        "validation_record": "sources/reference_validation.json#2J1T"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": true,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Released example supports software reproduction. Local quality, assemblies, atom maps, and independence remain required; no confirmatory claims from this inventory.",
+      "protein_name": "Fucolectin-related protein",
+      "uniprot_id": "A0A0H2US34",
+      "protein_metadata_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2J1T/1"
+    },
+    {
+      "case_id": "2VUZ",
+      "partition": "development_inventory",
+      "family_label": "codakine_C_type_lectin",
+      "family_assignment_status": "provisional_manual_functional_group; sequence/fold independence not audited",
+      "pdb_id": "2VUZ",
+      "assembly_ids_available": [
+        "1"
+      ],
+      "assembly_id_selected": null,
+      "model_number": 1,
+      "experimental_method": "X-ray",
+      "nominal_resolution_angstrom": [
+        1.7
+      ],
+      "deposited_revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 1,
+        "ordinal": 6,
+        "revision_date": "2023-12-13T00:00:00.000+00:00"
+      },
+      "structure_source": {
+        "url": "https://files.rcsb.org/download/2VUZ.cif",
+        "sha256": "fd1edcd6228042ba02383eeb2c524dd1bea3c4605a614d46a01201956ff22f8a"
+      },
+      "prepared_source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+      "connectivity_record": "sources/glycan_connectivity.json#2VUZ",
+      "ligand": {
+        "chemistry_class": "branched_partial_N_glycan",
+        "deposited_residue_count": 7,
+        "expected_deposited_heavy_atoms": 90,
+        "formal_charge_expected": 0,
+        "graph_source": "wwPDB CCD component graphs plus deposited _pdbx_entity_branch_link",
+        "input_conformer_rule": "Generate independently from graph; do not use native coordinates as docking input",
+        "ordered_atom_map_status": "must validate generated map against prepared and deposited coordinates",
+        "unresolved_tail_status": "deposition has 7 residues despite nonasaccharide title; full-tail coordinates unavailable"
+      },
+      "apo_reference": {
+        "status": "prepared unbound receptor available; original independently solved entry and sequence alignment unresolved",
+        "source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2VUZ/2VUZ_r_u.pdb",
+          "sha256": "d697ca1422bb4f9a5e05d80430605e3981769b75373d8c2ca461cd508685be94",
+          "bytes": 79789
+        }
+      },
+      "reference_quality": {
+        "local_density_review": "pending",
+        "validation_report_review": "machine diagnostic extracted; independent review pending",
+        "covalent_attachment_check": "pending",
+        "assembly_context_check": "pending",
+        "water_metal_treatment": "calcium-dependent recognition requires explicit retained-metal treatment",
+        "validation_record": "sources/reference_validation.json#2VUZ"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": true,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Released example supports software reproduction. Local quality, assemblies, atom maps, and independence remain required; no confirmatory claims from this inventory.",
+      "protein_name": "Codakine",
+      "uniprot_id": "Q3KVL7",
+      "protein_metadata_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2VUZ/1"
+    },
+    {
+      "case_id": "1PWB",
+      "partition": "development_inventory",
+      "family_label": "collectin",
+      "family_assignment_status": "provisional_manual_functional_group; sequence/fold independence not audited",
+      "pdb_id": "1PWB",
+      "assembly_ids_available": [
+        "1"
+      ],
+      "assembly_id_selected": null,
+      "model_number": 1,
+      "experimental_method": "X-ray",
+      "nominal_resolution_angstrom": [
+        1.4
+      ],
+      "deposited_revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 3,
+        "ordinal": 7,
+        "revision_date": "2024-11-13T00:00:00.000+00:00"
+      },
+      "structure_source": {
+        "url": "https://files.rcsb.org/download/1PWB.cif",
+        "sha256": "2a51985b47bb986ab968e559d23e7b0ecdb37860a60972020629c648641aa38d"
+      },
+      "prepared_source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+      "connectivity_record": "sources/glycan_connectivity.json#1PWB",
+      "ligand": {
+        "chemistry_class": "maltose",
+        "deposited_residue_count": 2,
+        "expected_deposited_heavy_atoms": 23,
+        "formal_charge_expected": 0,
+        "graph_source": "wwPDB CCD component graphs plus deposited _pdbx_entity_branch_link",
+        "input_conformer_rule": "Generate independently from graph; do not use native coordinates as docking input",
+        "ordered_atom_map_status": "must validate generated map against prepared and deposited coordinates",
+        "unresolved_tail_status": "not independently checked against local density"
+      },
+      "apo_reference": {
+        "status": "prepared unbound receptor available; original independently solved entry and sequence alignment unresolved",
+        "source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_r_u.pdb",
+          "sha256": "ef74ab6905592e926aeadbc85711a44fd67fdf7e2b2653ae07a6eec9a2f27b22",
+          "bytes": 93559
+        }
+      },
+      "reference_quality": {
+        "local_density_review": "pending",
+        "validation_report_review": "machine diagnostic extracted; independent review pending",
+        "covalent_attachment_check": "pending",
+        "assembly_context_check": "pending",
+        "water_metal_treatment": "calcium-dependent recognition requires explicit retained-metal treatment",
+        "validation_record": "sources/reference_validation.json#1PWB"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": true,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Released example supports software reproduction. Local quality, assemblies, atom maps, and independence remain required; no confirmatory claims from this inventory.",
+      "protein_name": "Pulmonary surfactant-associated protein D",
+      "uniprot_id": "P35247",
+      "protein_metadata_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1PWB/1"
+    },
+    {
+      "case_id": "AAV9_7MTZ_7MT0",
+      "partition": "development_diagnostic",
+      "family_label": "AAV_capsid",
+      "pdb_id": "7MTZ",
+      "apo_pdb_id": "7MT0",
+      "assembly_id_selected": "1",
+      "model_number": 1,
+      "structure_sources": [
+        "https://www.rcsb.org/structure/7MTZ",
+        "https://www.rcsb.org/structure/7MT0"
+      ],
+      "nominal_resolution_angstrom": {
+        "holo": 2.43,
+        "apo": 2.82
+      },
+      "revision_date": "2025-06-04",
+      "ligand": {
+        "ccd_id": "GAL",
+        "deposited_residue_count": 1,
+        "expected_deposited_heavy_atoms": 12,
+        "formal_charge_expected": 0,
+        "glycosidic_linkage_count": 0
+      },
+      "reference_quality": {
+        "local_density_review": "pending",
+        "assembly_context_check": "must verify 60-mer materialized once",
+        "apo_holo_sequence_alignment": "must retain alignment and transforms",
+        "validation_report_review": "machine diagnostic extracted; independent review pending",
+        "validation_record": "sources/reference_validation.json#7MTZ"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": true,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Diagnostic only until local reference quality and mapping reviewed. Monosaccharide cannot validate glycosidic torsions; GAL structure does not define intact-glycan assay negatives."
+    },
+    {
+      "case_id": "AAV2_heparin_2009",
+      "partition": "site_evidence_inventory",
+      "family_label": "AAV_capsid",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19144372/",
+      "nominal_resolution_angstrom": 8.3,
+      "endpoint_eligibility": {
+        "source_reproduction": false,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Regional evidence candidate only; no chemically exact atomic RMSD reference at this resolution. Reference site assignment requires independent review."
+    },
+    {
+      "case_id": "AAV_DJ_5UF6",
+      "partition": "sulfated_reference_inventory",
+      "family_label": "AAV_capsid",
+      "pdb_id": "5UF6",
+      "assembly_id_selected": "1",
+      "model_number": 1,
+      "nominal_resolution_angstrom": 2.8,
+      "revision_date": "2024-03-06",
+      "source_url": "https://www.rcsb.org/structure/5UF6",
+      "ligand": {
+        "chemistry_class": "heparinoid_pentasaccharide",
+        "completeness_status": "pending coordinate and local-density review"
+      },
+      "endpoint_eligibility": {
+        "source_reproduction": false,
+        "confirmatory_pose": false,
+        "confirmatory_site": false,
+        "specificity": false
+      },
+      "eligibility_reason": "Sulfated-glycan candidate. AAV-DJ labels cannot be transferred from AAV2; local density, chemical graph, preparation and assembly unreviewed."
+    }
+  ],
+  "confirmatory_cohort": {
+    "status": "not_frozen",
+    "complex_target": [
+      24,
+      36
+    ],
+    "family_target_minimum": 12,
+    "precision_requirement": "must declare before scoring",
+    "unmet_requirements": [
+      "independent family clustering",
+      "local validation and density review",
+      "assembly selection and materialization",
+      "complete atom maps and chemistry",
+      "apo identity and alignment",
+      "assay-qualified independent controls",
+      "method availability and external-example reproduction"
+    ]
+  }
+}

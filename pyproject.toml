@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aav-docking-benchmark"
+version = "0.1.0"
+description = "Reproducible, information-labelled glycan docking evaluation"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy==2.4.2", "scipy==1.17.0", "gemmi==0.7.5",
+  "rdkit==2026.9.1", "meeko==0.8.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.2.2"]
+
+[project.scripts]
+aav-benchmark = "aav_benchmark.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["aav_benchmark*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

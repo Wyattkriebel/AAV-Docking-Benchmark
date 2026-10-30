@@ -1,0 +1,131 @@
+{
+  "files": [
+    {
+      "archive": "apo_complete_receptor.pdb.gz",
+      "archive_sha256": "763d1b95096508ff9c6e06956c3b20eb07e2f1c8d9d48372b538d284422bae37",
+      "filename": "apo_complete_receptor.pdb",
+      "original_bytes": 1004238,
+      "sha256": "8016e8ff57b6f7526be783a108ee477d9bec098a319bfa2a5504058bdff5d1e1"
+    },
+    {
+      "archive": "apo_complete_receptor.pdbqt.gz",
+      "archive_sha256": "a183070e4e345b07ae0c4222b6d7772279b8db0f476417db6ab636e6a6e17666",
+      "filename": "apo_complete_receptor.pdbqt",
+      "original_bytes": 1218000,
+      "sha256": "4db42fa73f7248f09d3a1f75a660a60f7a046e45c3d40792647771890a8e17e9"
+    },
+    {
+      "archive": "apo_complete_receptor_atom_changes.json.gz",
+      "archive_sha256": "3531833ac228daff190e1f2cd885ce6e5e7527a078baaafddb9cf6e234bedd71",
+      "filename": "apo_complete_receptor_atom_changes.json",
+      "original_bytes": 1964341,
+      "sha256": "c1fed4fef626c73d29ad28c5db6fe9338c3015fd00024d5e76e5af68379338b9"
+    },
+    {
+      "archive": "apo_monomer_receptor.pdb.gz",
+      "archive_sha256": "2e80bc463a9b8730e435b5f215319f43f5173666ffe8181e36823eaec5ec146b",
+      "filename": "apo_monomer_receptor.pdb",
+      "original_bytes": 334854,
+      "sha256": "8f21dd46dbb21412b5db5d5c13638253158e6e433207c9e8a995f0a6b7b4140a"
+    },
+    {
+      "archive": "apo_monomer_receptor.pdbqt.gz",
+      "archive_sha256": "654e75e166b6e1ad5c08c5ab60b09e2d8f82568dc550eda97725d886de25d29c",
+      "filename": "apo_monomer_receptor.pdbqt",
+      "original_bytes": 406000,
+      "sha256": "7c250b81c0cfa8d174881f23cd95ae1e9a3e901bcb700d059b3638dcb2240797"
+    },
+    {
+      "archive": "apo_monomer_receptor_atom_changes.json.gz",
+      "archive_sha256": "d5f3ed97843101b079916f76712eb981c97d67d1d1a4989660de0c4a5a5fbf7a",
+      "filename": "apo_monomer_receptor_atom_changes.json",
+      "original_bytes": 655398,
+      "sha256": "215118f3b53356443286ceff0aa3e975341e6a447ff1a8c2e3b6834a29c8b00c"
+    },
+    {
+      "archive": "full_assembly.npz.gz",
+      "archive_sha256": "db54f9b2b44f2d6fdb2569c274fbc8803fd7a70f3d14a0a6f3af618de3150a3b",
+      "filename": "full_assembly.npz",
+      "original_bytes": 9961203,
+      "sha256": "5252fdb971d6aa8fc3098c642c0734f9a9f38d576fb2361228226d5dc36eaf65"
+    },
+    {
+      "archive": "galactose.pdbqt.gz",
+      "archive_sha256": "06d2e6d8c0632e0cc7ec561ed0a14c11c28c9024f51dd38cf35db7c5d80eb4a3",
+      "filename": "galactose.pdbqt",
+      "original_bytes": 1753,
+      "sha256": "e00f9f9cc8301c1e53a67e60b8a082b2195d85169dfe25bf816fb3520cd851d3"
+    },
+    {
+      "archive": "galactose.sdf.gz",
+      "archive_sha256": "e95b488d7e193fa1a4fced27aa362f625a5a1dc3635de38f01f8aaa159804e62",
+      "filename": "galactose.sdf",
+      "original_bytes": 2069,
+      "sha256": "61bf15df736a4fd05277d332ee7569fe6d159342ee598393720d4912a666b46e"
+    },
+    {
+      "archive": "holo_complete_receptor.pdb.gz",
+      "archive_sha256": "13c141742a605db086e491332bff3148d04f6211255f1db72043ddb90900686e",
+      "filename": "holo_complete_receptor.pdb",
+      "original_bytes": 1004238,
+      "sha256": "e12a0b344f495f6d81a736092b45bc029ed1003b22bf56fe6119d7be7a4f86e8"
+    },
+    {
+      "archive": "holo_complete_receptor.pdbqt.gz",
+      "archive_sha256": "5e3878aee977a2d26466e9f4c1c357860c238a7b04ebdd481fc3d99ea7153fd1",
+      "filename": "holo_complete_receptor.pdbqt",
+      "original_bytes": 1218000,
+      "sha256": "1826be1c921e6d6be48fe4b56d0c763554a9e1eb4fa8983885957f07c54b8dbb"
+    },
+    {
+      "archive": "holo_complete_receptor_atom_changes.json.gz",
+      "archive_sha256": "0d3d7cbd161e1a5d991915aa38f7d12e59e36f01df95ce875fcdfa8da9a22cdd",
+      "filename": "holo_complete_receptor_atom_changes.json",
+      "original_bytes": 1963398,
+      "sha256": "3fe7cd90658106ec4518d51e1c6ed7fd896edf699f83e4c9e5a7d77a6f4e7ea0"
+    },
+    {
+      "archive": "holo_monomer_receptor.pdb.gz",
+      "archive_sha256": "ccf1fa8ad41cd89b40adbf3fe1f03037638a1ed237bb327d8eab730d9a789f27",
+      "filename": "holo_monomer_receptor.pdb",
+      "original_bytes": 334854,
+      "sha256": "06511e4f1f86beaf970e67bc440bcee683eaa13c22b114c13b0378fc2f046f16"
+    },
+    {
+      "archive": "holo_monomer_receptor.pdbqt.gz",
+      "archive_sha256": "d175ae572009a5f4fdf41973f8252a5c60d06bf76e4466bf31c2e387d6c8bdeb",
+      "filename": "holo_monomer_receptor.pdbqt",
+      "original_bytes": 406000,
+      "sha256": "a6b46a784d529bc652b4d251d7f4a526cc338229c247d8957590d766d6be360c"
+    },
+    {
+      "archive": "holo_monomer_receptor_atom_changes.json.gz",
+      "archive_sha256": "b3c4c88c7b1875c6460fdc6dc9680cd5c2645af9d97b9784bcc8462de0eb8083",
+      "filename": "holo_monomer_receptor_atom_changes.json",
+      "original_bytes": 655226,
+      "sha256": "420fcb8e147cc2b7ac1a6dffe819425d902bf359e4839ca79a50e9fd71a10a59"
+    },
+    {
+      "archive": "native_chemistry_validation.json.gz",
+      "archive_sha256": "3df0e9478bc7493c8f3dad8a83f5082562c48b8c138ae44e32c7a315c68a37ed",
+      "filename": "native_chemistry_validation.json",
+      "original_bytes": 418,
+      "sha256": "a5b250a6f4372ae9ceb79749df60b2df6dc57bf1a3b0552658bf966692ea1a0c"
+    },
+    {
+      "archive": "preparation.json.gz",
+      "archive_sha256": "277b562101b48dfa7313addf0b69c2f1c33dfe7b3174b3e9d4c4e4ffea660a01",
+      "filename": "preparation.json",
+      "original_bytes": 4422,
+      "sha256": "97102047c2f1b67baece59e2596d31ff14f499db3a8e2a7c897577fa79b59087"
+    },
+    {
+      "archive": "reference.json.gz",
+      "archive_sha256": "3f30b0e1ec04073d5618a803df6ca4c7a353599890b2752a2898aff215a42609",
+      "filename": "reference.json",
+      "original_bytes": 1522977,
+      "sha256": "5bef54d1289ae93465cdcaa1d1415e8583b560ea810cc76d99860417c9fd6ae1"
+    }
+  ],
+  "schema_version": 1
+}

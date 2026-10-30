@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "retrieved_date": "2026-10-28",
+  "note": "SHA256 pins retrieved bytes, not independent authentication. RCSB revisions must be reviewed before changing a digest.",
+  "sources": [
+    {
+      "filename": "7MTZ.cif",
+      "url": "https://files.rcsb.org/download/7MTZ.cif",
+      "sha256": "680d2c5f39ed6f4899718f55f5f0891e4cd7fbfd1fce8e9f555f45b7de64d582",
+      "archive": "data/archive/7MTZ.cif.gz"
+    },
+    {
+      "filename": "7MT0.cif",
+      "url": "https://files.rcsb.org/download/7MT0.cif",
+      "sha256": "3ed60cbf0170dc8f6a7a79cec521ad0a81ca98d71b4c246e3b3ec654cf4108b2",
+      "archive": "data/archive/7MT0.cif.gz"
+    },
+    {
+      "filename": "GAL.cif",
+      "url": "https://files.rcsb.org/ligands/download/GAL.cif",
+      "sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+      "archive": "data/archive/GAL.cif.gz"
+    }
+  ]
+}

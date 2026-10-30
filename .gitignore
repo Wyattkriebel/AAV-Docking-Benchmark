@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Recreated from frozen manifests; retained scientific outputs are committed explicitly.
+/data/raw/
+/data/raw_clean_validation/
+/data/processed/
+/tools/vina-1.2.7
+
+# Raw scientific logs are required evidence, despite the generic Python log rule.
+!/results/**/*.log

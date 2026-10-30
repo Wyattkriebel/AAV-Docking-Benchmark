@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "panel_id": "sindrewicz_2019_gal3_itc",
+  "curation_date": "2026-10-28",
+  "partition": "exploratory_development",
+  "source": {
+    "doi": "10.1038/s41598-019-47658-8",
+    "url": "https://www.nature.com/articles/s41598-019-47658-8",
+    "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6694196/",
+    "measurement_locator": "Figure 3G-I and corresponding Results text; ITC Experimental Procedures",
+    "source_data_type": "published fitted estimates, not raw injection data"
+  },
+  "target": {
+    "name": "human galectin-3",
+    "uniprot_id": "P17931",
+    "assayed_construct": "full-length residues 1-250",
+    "tag": "cleaved His tag",
+    "reported_solution_state": "monomeric by SEC-MALS",
+    "docking_receptor_candidate": "1KJL ligand-stripped CRD",
+    "construct_mismatch": "1KJL is an isolated CRD; disclose domain approximation and do not claim complete assayed construct reproduction"
+  },
+  "assay": {
+    "method": "ITC",
+    "instrument": "MicroCal iTC200",
+    "temperature_C": 25,
+    "buffer": "PBS, same for protein and ligands",
+    "pH": null,
+    "ionic_composition": null,
+    "presentation": "soluble free reducing sugars; no array/linker",
+    "protein_concentration_uM": 100,
+    "cell_volume_uL": 200,
+    "injections": 19,
+    "injection_volume_uL": 2,
+    "injection_spacing_s": 120,
+    "fit": "one set of sites",
+    "controls": [
+      "ligand into buffer",
+      "buffer into protein"
+    ],
+    "n_independent_experiments": 3,
+    "reported_error": "SEM",
+    "detection_limit": null
+  },
+  "endpoint_policy": {
+    "qualified_endpoint": "descriptive within-assay quantitative affinity ranking",
+    "binary_classifier_eligible": false,
+    "binary_label_rule": null,
+    "all_compounds_are_tested_binders": true,
+    "kd_direction": "lower is stronger",
+    "score_direction": "lower Vina score predicts stronger",
+    "analysis": "Spearman and Kendall rank correlations descriptive only; compare score rank with heavy-atom-count baseline",
+    "matched_comparison": "LacNAc versus lactose: same net charge, heavy atom count difference3; do not call exact size match",
+    "reducing_end_rule": "alpha and beta pyranose conformers separately as sensitivity; do not assume measured equilibrium weights or fit them to measured KD",
+    "score_aggregation_rule": "must freeze before docking; keep anomer-stratified results and seed-averaged ligand scores",
+    "uncertainty_limit": "3 ligands, 1 target/family; no held-out generalization or family bootstrap claim"
+  },
+  "rows": [
+    {
+      "ligand_id": "LacNAc",
+      "name": "N-acetyl-D-lactosamine",
+      "glycan_notation": "D-Galp-beta1-4-D-GlcpNAc(reducing)",
+      "ccd_monomers": [
+        "NAG",
+        "GAL"
+      ],
+      "branch_links": [
+        {
+          "donor_residue": 2,
+          "donor_atom": "C1",
+          "acceptor_residue": 1,
+          "acceptor_atom": "O4",
+          "bond_order": "SING",
+          "donor_leaving_atom": "O1",
+          "acceptor_leaving_atom": "HO4"
+        }
+      ],
+      "expected_heavy_atoms": 26,
+      "formal_charge": 0,
+      "reducing_end": "free; alpha/beta solution ensemble not specified",
+      "source_material": "Dextra Laboratories",
+      "syringe_concentration_mM": 2,
+      "kd_uM": 24.0,
+      "kd_sem_uM": 3.6,
+      "measured": true,
+      "censoring": null,
+      "binary_label": null,
+      "context_id": "sindrewicz_2019_gal3_itc",
+      "target_id": "P17931",
+      "kd": 24.0,
+      "kd_unit": "uM",
+      "censored": false,
+      "heavy_atom_count": 26
+    },
+    {
+      "ligand_id": "lactose",
+      "name": "lactose",
+      "glycan_notation": "D-Galp-beta1-4-D-Glcp(reducing)",
+      "ccd_monomers": [
+        "GLC",
+        "GAL"
+      ],
+      "branch_links": [
+        {
+          "donor_residue": 2,
+          "donor_atom": "C1",
+          "acceptor_residue": 1,
+          "acceptor_atom": "O4",
+          "bond_order": "SING",
+          "donor_leaving_atom": "O1",
+          "acceptor_leaving_atom": "HO4"
+        }
+      ],
+      "expected_heavy_atoms": 23,
+      "formal_charge": 0,
+      "reducing_end": "free; purchased alpha-lactose may mutarotate in solution",
+      "source_material": "alpha-lactose, Acros Organics",
+      "syringe_concentration_mM": 4,
+      "kd_uM": 93.5,
+      "kd_sem_uM": 9.1,
+      "measured": true,
+      "censoring": null,
+      "binary_label": null,
+      "context_id": "sindrewicz_2019_gal3_itc",
+      "target_id": "P17931",
+      "kd": 93.5,
+      "kd_unit": "uM",
+      "censored": false,
+      "heavy_atom_count": 23
+    },
+    {
+      "ligand_id": "galactose",
+      "name": "D-galactose",
+      "glycan_notation": "D-Galp(reducing)",
+      "ccd_monomers": [
+        "GAL"
+      ],
+      "branch_links": [],
+      "expected_heavy_atoms": 12,
+      "formal_charge": 0,
+      "reducing_end": "free; solution anomer proportions not specified",
+      "source_material": "Sigma-Aldrich",
+      "syringe_concentration_mM": 20,
+      "kd_uM": 3100.0,
+      "kd_sem_uM": 1100.0,
+      "measured": true,
+      "censoring": null,
+      "binary_label": null,
+      "context_id": "sindrewicz_2019_gal3_itc",
+      "target_id": "P17931",
+      "kd": 3100.0,
+      "kd_unit": "uM",
+      "censored": false,
+      "heavy_atom_count": 12
+    }
+  ]
+}

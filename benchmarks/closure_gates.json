@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "assessment_date": "2026-10-29",
+  "scientific_purpose_complete": false,
+  "gates": [
+    {
+      "id": "reference_quality",
+      "status": "pending",
+      "requirement": "Independent assembly, chemical graph, atom map and local structural reference checks for all eligible cases"
+    },
+    {
+      "id": "development_validation",
+      "status": "in_progress",
+      "requirement": "Analytic metric controls plus AAV9 and six unrelated nonviral development cases, including linked glycans",
+      "evidence": "Analytic controls and AAV9 plus six supported external complexes execute; 1QFO failure retained. 1PWB and 2VUZ share a broad C-type lectin fold, so six unrelated nonviral families are not established."
+    },
+    {
+      "id": "confirmatory_eligibility",
+      "status": "pending",
+      "requirement": "Frozen eligible families, leakage audit, precision target, independent tested specificity labels"
+    },
+    {
+      "id": "confirmatory_execution",
+      "status": "pending",
+      "requirement": "Paired information, conformation and assembly comparisons, failure denominators, family-aware uncertainty"
+    },
+    {
+      "id": "independent_reproduction",
+      "status": "in_progress",
+      "requirement": "Independent end-to-end replay from archived sources and raw outputs",
+      "evidence": "Separate parser and actual one-seed replay, clean-environment source-to-12-run replay, and all-table archive recomputation pass on the same host. Cross-platform/final scientific reference adjudication remains outside these checks."
+    }
+  ],
+  "interpretation": "Development oracle redocking can validate implementation. It cannot establish blind site recovery, molecular specificity, or universal docking reliability.",
+  "completed_milestone": {
+    "description": "Executed and reproducible development diagnostics; original scientific purpose remains incomplete",
+    "primary_completed_runs": 48,
+    "retained_poses": 958,
+    "external_eligible_preparations": 7,
+    "external_successful_preparations": 6,
+    "external_chemical_reference_failures": 1,
+    "exactly_recomputed_tables": 15,
+    "evidence": [
+      "docs/DEVELOPMENT_RESULTS.md",
+      "docs/FINAL_IMPLEMENTATION_REVIEW.md",
+      "docs/INDEPENDENT_REPRODUCTION.md",
+      "docs/CLEAN_ENVIRONMENT_REPLAY.md",
+      "results/archive_verification.json"
+    ]
+  }
+}

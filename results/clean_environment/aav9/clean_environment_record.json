@@ -1,0 +1,215 @@
+{
+  "all_poses_match": true,
+  "all_preparation_files_match": true,
+  "archived_preparation_manifest": "results/development/aav9/inputs/manifest.json",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "pose_comparisons": [
+    {
+      "clean_pose_sha256": "2e2c5d7857f757f5ead40f44bd7b859a7711ae0bca8021c54e7dfbef6d956031",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "2e2c5d7857f757f5ead40f44bd7b859a7711ae0bca8021c54e7dfbef6d956031",
+      "receptor": "holo_complete",
+      "seed": 104729
+    },
+    {
+      "clean_pose_sha256": "87a2645bc2e2bbfa01e598743b642bb5fbbb75599fc322f57f843fc89c1021fa",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "87a2645bc2e2bbfa01e598743b642bb5fbbb75599fc322f57f843fc89c1021fa",
+      "receptor": "holo_complete",
+      "seed": 130363
+    },
+    {
+      "clean_pose_sha256": "544e9b2e45c1529866edba34693446cd5577eb3eea0d4f5670bc95ae670e0347",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "544e9b2e45c1529866edba34693446cd5577eb3eea0d4f5670bc95ae670e0347",
+      "receptor": "holo_complete",
+      "seed": 155921
+    },
+    {
+      "clean_pose_sha256": "dcda3952dda15a8a18c0af978fdc25e2a0911a29df32700608b365a5ed96f3b0",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "dcda3952dda15a8a18c0af978fdc25e2a0911a29df32700608b365a5ed96f3b0",
+      "receptor": "holo_monomer",
+      "seed": 104729
+    },
+    {
+      "clean_pose_sha256": "c83a2274b4bf59dd5583b2133c6fa2c961454d62168cacd11523256f85125a85",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "c83a2274b4bf59dd5583b2133c6fa2c961454d62168cacd11523256f85125a85",
+      "receptor": "holo_monomer",
+      "seed": 130363
+    },
+    {
+      "clean_pose_sha256": "ff878d026ffb6bfcf4b8196c111f9ee2540fb67be64b45c47aef216f713f1f7a",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "ff878d026ffb6bfcf4b8196c111f9ee2540fb67be64b45c47aef216f713f1f7a",
+      "receptor": "holo_monomer",
+      "seed": 155921
+    },
+    {
+      "clean_pose_sha256": "cfafc70ba94c7b90880a96615358523d5a84d6b92d8abbc0217d9b024f4ac5a8",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "cfafc70ba94c7b90880a96615358523d5a84d6b92d8abbc0217d9b024f4ac5a8",
+      "receptor": "apo_complete",
+      "seed": 104729
+    },
+    {
+      "clean_pose_sha256": "1b40a2e2aecc4fce16f3b79c0a824b503d3473d425626bcffd863791baaf12ff",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "1b40a2e2aecc4fce16f3b79c0a824b503d3473d425626bcffd863791baaf12ff",
+      "receptor": "apo_complete",
+      "seed": 130363
+    },
+    {
+      "clean_pose_sha256": "eef852cc19fece5b3caef7e81f1def140dd81860dc4c5ee137075cf5b3276a25",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "eef852cc19fece5b3caef7e81f1def140dd81860dc4c5ee137075cf5b3276a25",
+      "receptor": "apo_complete",
+      "seed": 155921
+    },
+    {
+      "clean_pose_sha256": "8a3b2fa2e77dd7569d1d5a1a45a1c2e71424ac527dcc0883db6ac5c8b362f560",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "8a3b2fa2e77dd7569d1d5a1a45a1c2e71424ac527dcc0883db6ac5c8b362f560",
+      "receptor": "apo_monomer",
+      "seed": 104729
+    },
+    {
+      "clean_pose_sha256": "f4836af143cfe121566256e4abaeef375ad6b759a83b55984f37a6593ca131fe",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "f4836af143cfe121566256e4abaeef375ad6b759a83b55984f37a6593ca131fe",
+      "receptor": "apo_monomer",
+      "seed": 130363
+    },
+    {
+      "clean_pose_sha256": "1ddaf2140d91032863b2860c1723a6e0ac4aa79ccb73d8dfa6b00608631851bf",
+      "exact_pose_match": true,
+      "primary_pose_sha256": "1ddaf2140d91032863b2860c1723a6e0ac4aa79ccb73d8dfa6b00608631851bf",
+      "receptor": "apo_monomer",
+      "seed": 155921
+    }
+  ],
+  "preparation_comparisons": [
+    {
+      "clean_sha256": "8016e8ff57b6f7526be783a108ee477d9bec098a319bfa2a5504058bdff5d1e1",
+      "exact_match": true,
+      "filename": "apo_complete_receptor.pdb",
+      "primary_sha256": "8016e8ff57b6f7526be783a108ee477d9bec098a319bfa2a5504058bdff5d1e1"
+    },
+    {
+      "clean_sha256": "4db42fa73f7248f09d3a1f75a660a60f7a046e45c3d40792647771890a8e17e9",
+      "exact_match": true,
+      "filename": "apo_complete_receptor.pdbqt",
+      "primary_sha256": "4db42fa73f7248f09d3a1f75a660a60f7a046e45c3d40792647771890a8e17e9"
+    },
+    {
+      "clean_sha256": "c1fed4fef626c73d29ad28c5db6fe9338c3015fd00024d5e76e5af68379338b9",
+      "exact_match": true,
+      "filename": "apo_complete_receptor_atom_changes.json",
+      "primary_sha256": "c1fed4fef626c73d29ad28c5db6fe9338c3015fd00024d5e76e5af68379338b9"
+    },
+    {
+      "clean_sha256": "8f21dd46dbb21412b5db5d5c13638253158e6e433207c9e8a995f0a6b7b4140a",
+      "exact_match": true,
+      "filename": "apo_monomer_receptor.pdb",
+      "primary_sha256": "8f21dd46dbb21412b5db5d5c13638253158e6e433207c9e8a995f0a6b7b4140a"
+    },
+    {
+      "clean_sha256": "7c250b81c0cfa8d174881f23cd95ae1e9a3e901bcb700d059b3638dcb2240797",
+      "exact_match": true,
+      "filename": "apo_monomer_receptor.pdbqt",
+      "primary_sha256": "7c250b81c0cfa8d174881f23cd95ae1e9a3e901bcb700d059b3638dcb2240797"
+    },
+    {
+      "clean_sha256": "215118f3b53356443286ceff0aa3e975341e6a447ff1a8c2e3b6834a29c8b00c",
+      "exact_match": true,
+      "filename": "apo_monomer_receptor_atom_changes.json",
+      "primary_sha256": "215118f3b53356443286ceff0aa3e975341e6a447ff1a8c2e3b6834a29c8b00c"
+    },
+    {
+      "clean_sha256": "5252fdb971d6aa8fc3098c642c0734f9a9f38d576fb2361228226d5dc36eaf65",
+      "exact_match": true,
+      "filename": "full_assembly.npz",
+      "primary_sha256": "5252fdb971d6aa8fc3098c642c0734f9a9f38d576fb2361228226d5dc36eaf65"
+    },
+    {
+      "clean_sha256": "e00f9f9cc8301c1e53a67e60b8a082b2195d85169dfe25bf816fb3520cd851d3",
+      "exact_match": true,
+      "filename": "galactose.pdbqt",
+      "primary_sha256": "e00f9f9cc8301c1e53a67e60b8a082b2195d85169dfe25bf816fb3520cd851d3"
+    },
+    {
+      "clean_sha256": "61bf15df736a4fd05277d332ee7569fe6d159342ee598393720d4912a666b46e",
+      "exact_match": true,
+      "filename": "galactose.sdf",
+      "primary_sha256": "61bf15df736a4fd05277d332ee7569fe6d159342ee598393720d4912a666b46e"
+    },
+    {
+      "clean_sha256": "e12a0b344f495f6d81a736092b45bc029ed1003b22bf56fe6119d7be7a4f86e8",
+      "exact_match": true,
+      "filename": "holo_complete_receptor.pdb",
+      "primary_sha256": "e12a0b344f495f6d81a736092b45bc029ed1003b22bf56fe6119d7be7a4f86e8"
+    },
+    {
+      "clean_sha256": "1826be1c921e6d6be48fe4b56d0c763554a9e1eb4fa8983885957f07c54b8dbb",
+      "exact_match": true,
+      "filename": "holo_complete_receptor.pdbqt",
+      "primary_sha256": "1826be1c921e6d6be48fe4b56d0c763554a9e1eb4fa8983885957f07c54b8dbb"
+    },
+    {
+      "clean_sha256": "3fe7cd90658106ec4518d51e1c6ed7fd896edf699f83e4c9e5a7d77a6f4e7ea0",
+      "exact_match": true,
+      "filename": "holo_complete_receptor_atom_changes.json",
+      "primary_sha256": "3fe7cd90658106ec4518d51e1c6ed7fd896edf699f83e4c9e5a7d77a6f4e7ea0"
+    },
+    {
+      "clean_sha256": "06511e4f1f86beaf970e67bc440bcee683eaa13c22b114c13b0378fc2f046f16",
+      "exact_match": true,
+      "filename": "holo_monomer_receptor.pdb",
+      "primary_sha256": "06511e4f1f86beaf970e67bc440bcee683eaa13c22b114c13b0378fc2f046f16"
+    },
+    {
+      "clean_sha256": "a6b46a784d529bc652b4d251d7f4a526cc338229c247d8957590d766d6be360c",
+      "exact_match": true,
+      "filename": "holo_monomer_receptor.pdbqt",
+      "primary_sha256": "a6b46a784d529bc652b4d251d7f4a526cc338229c247d8957590d766d6be360c"
+    },
+    {
+      "clean_sha256": "420fcb8e147cc2b7ac1a6dffe819425d902bf359e4839ca79a50e9fd71a10a59",
+      "exact_match": true,
+      "filename": "holo_monomer_receptor_atom_changes.json",
+      "primary_sha256": "420fcb8e147cc2b7ac1a6dffe819425d902bf359e4839ca79a50e9fd71a10a59"
+    },
+    {
+      "clean_sha256": "a5b250a6f4372ae9ceb79749df60b2df6dc57bf1a3b0552658bf966692ea1a0c",
+      "exact_match": true,
+      "filename": "native_chemistry_validation.json",
+      "primary_sha256": "a5b250a6f4372ae9ceb79749df60b2df6dc57bf1a3b0552658bf966692ea1a0c"
+    },
+    {
+      "clean_sha256": "97102047c2f1b67baece59e2596d31ff14f499db3a8e2a7c897577fa79b59087",
+      "exact_match": true,
+      "filename": "preparation.json",
+      "primary_sha256": "97102047c2f1b67baece59e2596d31ff14f499db3a8e2a7c897577fa79b59087"
+    },
+    {
+      "clean_sha256": "5bef54d1289ae93465cdcaa1d1415e8583b560ea810cc76d99860417c9fd6ae1",
+      "exact_match": true,
+      "filename": "reference.json",
+      "primary_sha256": "5bef54d1289ae93465cdcaa1d1415e8583b560ea810cc76d99860417c9fd6ae1"
+    }
+  ],
+  "purpose": "Full source restoration, preparation, 12-run docking and analysis in isolated fresh environment on same host; implementation validation only",
+  "python": "3.11.8",
+  "source_manifest_sha256": "50678311febd428c1094ed1a38e0c3943bfda9117869228b2bf3bbbea670cb82",
+  "versions": {
+    "Pillow": "13.0.0",
+    "gemmi": "0.7.5",
+    "meeko": "0.8.0",
+    "numpy": "2.4.2",
+    "pytest": "8.2.2",
+    "rdkit": "2026.9.1",
+    "scipy": "1.17.0"
+  },
+  "wall_seconds": 169.15599508400004
+}

@@ -1,0 +1,17 @@
+{
+  "policy": "retain original derived tables; final tables are recomputed from unchanged raw poses and frozen references",
+  "revisions": [
+    {
+      "after": {
+        "pose_metrics.csv": "b4fb545937dc55b66aa8b471ab6db392a76f059a809661d280b775107d479564",
+        "summary.json": "01f6c09bd0c5277c8ca7e4560bf061e94ebd4f886771e37072ff00bc1bf237dc"
+      },
+      "before": {
+        "pose_metrics.csv": "f6adfd13a333d566bdfd11850842bced4d9dbfaf0ad64b48141264516cc9af09",
+        "summary.json": "2e14539ee4a96d46dd8986143cae11ac5e361e65cbd43e9c8dea7beca88e0a23"
+      },
+      "case": "154l",
+      "reason": "Early long-running analysis imported engine before insertion-code normalization fix; only atom/contact matching changes, docking poses/scores/RMSDs unchanged"
+    }
+  ]
+}

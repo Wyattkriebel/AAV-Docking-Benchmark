@@ -1,0 +1,14 @@
+{
+  "configuration_sha256": "6c86cf008e9d1cbeea48fe847767abcdcae3b6410a475607e16f7c2bb63d4148",
+  "contact_cutoff_A": 4.0,
+  "contact_identity_policy": "full holo atom universe; insertion-code whitespace normalized",
+  "coordinate_frame": "prepared receptor frame; no ligand-only superposition",
+  "engine_sha256": "a1e42e360e375a9927e9bd996f6a4bca9feac18aff129d9685ec4692df906c0b",
+  "metrics_sha256": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+  "overlap_screen_distance_A": 1.5,
+  "pose_metrics_sha256": "b4fb545937dc55b66aa8b471ab6db392a76f059a809661d280b775107d479564",
+  "reference_sha256": "48b3c932e15148071c13143ad4b191a2d3941fe42343125bd4340dbba508f957",
+  "run_manifest_sha256": "30aad06fd4a79b212162298db9083a42cce872a3672caca96a6a57c7c77c2ef0",
+  "schema_version": 1,
+  "summary_sha256": "01f6c09bd0c5277c8ca7e4560bf061e94ebd4f886771e37072ff00bc1bf237dc"
+}

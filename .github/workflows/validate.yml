@@ -1,0 +1,16 @@
+name: Validate benchmark implementation
+on: [push, pull_request]
+jobs:
+  controls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -e '.[test]'
+      - run: python -m pytest -q
+      - run: python scripts/verify_archived_results.py --numeric-tolerance 1e-10
+      - run: python scripts/regenerate_report.py --check
+      - run: python -m aav_benchmark status

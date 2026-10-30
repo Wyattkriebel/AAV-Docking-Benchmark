@@ -1,0 +1,306 @@
+{
+  "binary_classification": "ineligible: all three compounds are binders",
+  "correlations": [
+    {
+      "anomer": "alpha",
+      "heavy_atom_baseline": {
+        "affinity_transform": "-log10(KD in M), measured affinities only",
+        "contexts": [
+          {
+            "affinity_only_ties": 0,
+            "both_ties": 0,
+            "concordant_pairs": 3,
+            "confidence_intervals": null,
+            "context_id": "sindrewicz_2019_gal3_itc",
+            "discordant_pairs": 0,
+            "kendall_tau_b": 1.0,
+            "ligands": [
+              {
+                "kd": 24.0,
+                "kd_unit": "uM",
+                "ligand_id": "LacNAc",
+                "pkd": 4.619788758288394,
+                "score": 26.0
+              },
+              {
+                "kd": 93.5,
+                "kd_unit": "uM",
+                "ligand_id": "lactose",
+                "pkd": 4.029188389127482,
+                "score": 23.0
+              },
+              {
+                "kd": 3100.0,
+                "kd_unit": "uM",
+                "ligand_id": "galactose",
+                "pkd": 2.5086383061657274,
+                "score": 12.0
+              }
+            ],
+            "n_ligands": 3,
+            "p_values": null,
+            "score_only_ties": 0,
+            "spearman_rho": 1.0,
+            "status": "evaluated_descriptive",
+            "target_id": "P17931"
+          }
+        ],
+        "interpretation": "exploratory within-assay association; no significance or generalization claim",
+        "measurement_uncertainty": "correlations use reported point estimates; experimental uncertainty is not propagated",
+        "pooled_assay_metrics": null,
+        "score_direction": "higher predicts stronger binding"
+      },
+      "vina": {
+        "affinity_transform": "-log10(KD in M), measured affinities only",
+        "contexts": [
+          {
+            "affinity_only_ties": 0,
+            "both_ties": 0,
+            "concordant_pairs": 3,
+            "confidence_intervals": null,
+            "context_id": "sindrewicz_2019_gal3_itc",
+            "discordant_pairs": 0,
+            "kendall_tau_b": 1.0,
+            "ligands": [
+              {
+                "kd": 24.0,
+                "kd_unit": "uM",
+                "ligand_id": "LacNAc",
+                "pkd": 4.619788758288394,
+                "score": 5.8726666666666665
+              },
+              {
+                "kd": 93.5,
+                "kd_unit": "uM",
+                "ligand_id": "lactose",
+                "pkd": 4.029188389127482,
+                "score": 5.036333333333333
+              },
+              {
+                "kd": 3100.0,
+                "kd_unit": "uM",
+                "ligand_id": "galactose",
+                "pkd": 2.5086383061657274,
+                "score": 4.135666666666666
+              }
+            ],
+            "n_ligands": 3,
+            "p_values": null,
+            "score_only_ties": 0,
+            "spearman_rho": 1.0,
+            "status": "evaluated_descriptive",
+            "target_id": "P17931"
+          }
+        ],
+        "interpretation": "exploratory within-assay association; no significance or generalization claim",
+        "measurement_uncertainty": "correlations use reported point estimates; experimental uncertainty is not propagated",
+        "pooled_assay_metrics": null,
+        "score_direction": "higher predicts stronger binding"
+      }
+    },
+    {
+      "anomer": "beta",
+      "heavy_atom_baseline": {
+        "affinity_transform": "-log10(KD in M), measured affinities only",
+        "contexts": [
+          {
+            "affinity_only_ties": 0,
+            "both_ties": 0,
+            "concordant_pairs": 3,
+            "confidence_intervals": null,
+            "context_id": "sindrewicz_2019_gal3_itc",
+            "discordant_pairs": 0,
+            "kendall_tau_b": 1.0,
+            "ligands": [
+              {
+                "kd": 24.0,
+                "kd_unit": "uM",
+                "ligand_id": "LacNAc",
+                "pkd": 4.619788758288394,
+                "score": 26.0
+              },
+              {
+                "kd": 93.5,
+                "kd_unit": "uM",
+                "ligand_id": "lactose",
+                "pkd": 4.029188389127482,
+                "score": 23.0
+              },
+              {
+                "kd": 3100.0,
+                "kd_unit": "uM",
+                "ligand_id": "galactose",
+                "pkd": 2.5086383061657274,
+                "score": 12.0
+              }
+            ],
+            "n_ligands": 3,
+            "p_values": null,
+            "score_only_ties": 0,
+            "spearman_rho": 1.0,
+            "status": "evaluated_descriptive",
+            "target_id": "P17931"
+          }
+        ],
+        "interpretation": "exploratory within-assay association; no significance or generalization claim",
+        "measurement_uncertainty": "correlations use reported point estimates; experimental uncertainty is not propagated",
+        "pooled_assay_metrics": null,
+        "score_direction": "higher predicts stronger binding"
+      },
+      "vina": {
+        "affinity_transform": "-log10(KD in M), measured affinities only",
+        "contexts": [
+          {
+            "affinity_only_ties": 0,
+            "both_ties": 0,
+            "concordant_pairs": 3,
+            "confidence_intervals": null,
+            "context_id": "sindrewicz_2019_gal3_itc",
+            "discordant_pairs": 0,
+            "kendall_tau_b": 1.0,
+            "ligands": [
+              {
+                "kd": 24.0,
+                "kd_unit": "uM",
+                "ligand_id": "LacNAc",
+                "pkd": 4.619788758288394,
+                "score": 6.011
+              },
+              {
+                "kd": 93.5,
+                "kd_unit": "uM",
+                "ligand_id": "lactose",
+                "pkd": 4.029188389127482,
+                "score": 5.250666666666667
+              },
+              {
+                "kd": 3100.0,
+                "kd_unit": "uM",
+                "ligand_id": "galactose",
+                "pkd": 2.5086383061657274,
+                "score": 4.549
+              }
+            ],
+            "n_ligands": 3,
+            "p_values": null,
+            "score_only_ties": 0,
+            "spearman_rho": 1.0,
+            "status": "evaluated_descriptive",
+            "target_id": "P17931"
+          }
+        ],
+        "interpretation": "exploratory within-assay association; no significance or generalization claim",
+        "measurement_uncertainty": "correlations use reported point estimates; experimental uncertainty is not propagated",
+        "pooled_assay_metrics": null,
+        "score_direction": "higher predicts stronger binding"
+      }
+    }
+  ],
+  "ligands": [
+    {
+      "anomer": "alpha",
+      "case_id": "gal3_LacNAc_alpha",
+      "completed_runs": 3,
+      "eligible_runs": 3,
+      "heavy_atoms": 26,
+      "kd_sem_uM": 3.6,
+      "kd_uM": 24.0,
+      "ligand_id": "LacNAc",
+      "seed_mean_top1_score": -5.8726666666666665,
+      "top1_scores_kcal_mol": [
+        -5.869,
+        -5.874,
+        -5.875
+      ]
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "gal3_lactose_alpha",
+      "completed_runs": 3,
+      "eligible_runs": 3,
+      "heavy_atoms": 23,
+      "kd_sem_uM": 9.1,
+      "kd_uM": 93.5,
+      "ligand_id": "lactose",
+      "seed_mean_top1_score": -5.036333333333333,
+      "top1_scores_kcal_mol": [
+        -5.136,
+        -5.103,
+        -4.87
+      ]
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "gal3_galactose_alpha",
+      "completed_runs": 3,
+      "eligible_runs": 3,
+      "heavy_atoms": 12,
+      "kd_sem_uM": 1100.0,
+      "kd_uM": 3100.0,
+      "ligand_id": "galactose",
+      "seed_mean_top1_score": -4.135666666666666,
+      "top1_scores_kcal_mol": [
+        -4.136,
+        -4.135,
+        -4.136
+      ]
+    },
+    {
+      "anomer": "beta",
+      "case_id": "gal3_LacNAc_beta",
+      "completed_runs": 3,
+      "eligible_runs": 3,
+      "heavy_atoms": 26,
+      "kd_sem_uM": 3.6,
+      "kd_uM": 24.0,
+      "ligand_id": "LacNAc",
+      "seed_mean_top1_score": -6.011,
+      "top1_scores_kcal_mol": [
+        -6.014,
+        -6.005,
+        -6.014
+      ]
+    },
+    {
+      "anomer": "beta",
+      "case_id": "gal3_lactose_beta",
+      "completed_runs": 3,
+      "eligible_runs": 3,
+      "heavy_atoms": 23,
+      "kd_sem_uM": 9.1,
+      "kd_uM": 93.5,
+      "ligand_id": "lactose",
+      "seed_mean_top1_score": -5.250666666666667,
+      "top1_scores_kcal_mol": [
+        -5.244,
+        -5.25,
+        -5.258
+      ]
+    },
+    {
+      "anomer": "beta",
+      "case_id": "gal3_galactose_beta",
+      "completed_runs": 3,
+      "eligible_runs": 3,
+      "heavy_atoms": 12,
+      "kd_sem_uM": 1100.0,
+      "kd_uM": 3100.0,
+      "ligand_id": "galactose",
+      "seed_mean_top1_score": -4.549,
+      "top1_scores_kcal_mol": [
+        -4.53,
+        -4.563,
+        -4.554
+      ]
+    }
+  ],
+  "limitations": [
+    "one target; three ligand identities; no held-out evaluation",
+    "1KJL is an isolated CRD; disclose domain approximation and do not claim complete assayed construct reproduction",
+    "unknown solution anomer weights; anomers are sensitivity conditions, not extra observations",
+    "size alone perfectly ranks this panel; matching is not available at n=3",
+    "experimental PBS pH/ionic composition unreported; rigid dry receptor and modeled protonation"
+  ],
+  "panel_id": "sindrewicz_2019_gal3_itc",
+  "role": "exploratory_development"
+}
