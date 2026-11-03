@@ -1,0 +1,107 @@
+{
+  "files": {
+    "apo_complete_104729.log": {
+      "sha256": "d1822de52602696a19b2982104251652dd57f5b252b40c79c06dd51976dd8305",
+      "source_path": "results/development/aav9/apo_complete_104729.log",
+      "source_sha256": "d1822de52602696a19b2982104251652dd57f5b252b40c79c06dd51976dd8305",
+      "transformation": "unchanged"
+    },
+    "apo_complete_104729.pdbqt": {
+      "sha256": "cfafc70ba94c7b90880a96615358523d5a84d6b92d8abbc0217d9b024f4ac5a8",
+      "source_path": "results/development/aav9/apo_complete_104729.pdbqt",
+      "source_sha256": "cfafc70ba94c7b90880a96615358523d5a84d6b92d8abbc0217d9b024f4ac5a8",
+      "transformation": "unchanged"
+    },
+    "apo_complete_130363.log": {
+      "sha256": "7b3f1f9b89b8727182a042d739cb7d71747c39fdac6846bb4b746eec29f41530",
+      "source_path": "results/development/aav9/apo_complete_130363.log",
+      "source_sha256": "7b3f1f9b89b8727182a042d739cb7d71747c39fdac6846bb4b746eec29f41530",
+      "transformation": "unchanged"
+    },
+    "apo_complete_130363.pdbqt": {
+      "sha256": "1b40a2e2aecc4fce16f3b79c0a824b503d3473d425626bcffd863791baaf12ff",
+      "source_path": "results/development/aav9/apo_complete_130363.pdbqt",
+      "source_sha256": "1b40a2e2aecc4fce16f3b79c0a824b503d3473d425626bcffd863791baaf12ff",
+      "transformation": "unchanged"
+    },
+    "apo_complete_155921.log": {
+      "sha256": "19f5ce28fbf2b15a42a3ac47daf1247c4329a796aa737c2d710c6224d1475ebf",
+      "source_path": "results/development/aav9/apo_complete_155921.log",
+      "source_sha256": "19f5ce28fbf2b15a42a3ac47daf1247c4329a796aa737c2d710c6224d1475ebf",
+      "transformation": "unchanged"
+    },
+    "apo_complete_155921.pdbqt": {
+      "sha256": "eef852cc19fece5b3caef7e81f1def140dd81860dc4c5ee137075cf5b3276a25",
+      "source_path": "results/development/aav9/apo_complete_155921.pdbqt",
+      "source_sha256": "eef852cc19fece5b3caef7e81f1def140dd81860dc4c5ee137075cf5b3276a25",
+      "transformation": "unchanged"
+    },
+    "configuration.json": {
+      "sha256": "6c86cf008e9d1cbeea48fe847767abcdcae3b6410a475607e16f7c2bb63d4148",
+      "source_path": "results/development/aav9/configuration.json",
+      "source_sha256": "6c86cf008e9d1cbeea48fe847767abcdcae3b6410a475607e16f7c2bb63d4148",
+      "transformation": "unchanged"
+    },
+    "holo_complete_104729.log": {
+      "sha256": "a9eab5b54c3e54c23dfdc72725d6fbefe53b810cac2d81cca6a8c1e0510183fb",
+      "source_path": "results/development/aav9/holo_complete_104729.log",
+      "source_sha256": "a9eab5b54c3e54c23dfdc72725d6fbefe53b810cac2d81cca6a8c1e0510183fb",
+      "transformation": "unchanged"
+    },
+    "holo_complete_104729.pdbqt": {
+      "sha256": "2e2c5d7857f757f5ead40f44bd7b859a7711ae0bca8021c54e7dfbef6d956031",
+      "source_path": "results/development/aav9/holo_complete_104729.pdbqt",
+      "source_sha256": "2e2c5d7857f757f5ead40f44bd7b859a7711ae0bca8021c54e7dfbef6d956031",
+      "transformation": "unchanged"
+    },
+    "holo_complete_130363.log": {
+      "sha256": "b4f03b822c39db6a3fedadb018821eac0ec679b7570e57c1ca860e174edcd6e2",
+      "source_path": "results/development/aav9/holo_complete_130363.log",
+      "source_sha256": "b4f03b822c39db6a3fedadb018821eac0ec679b7570e57c1ca860e174edcd6e2",
+      "transformation": "unchanged"
+    },
+    "holo_complete_130363.pdbqt": {
+      "sha256": "87a2645bc2e2bbfa01e598743b642bb5fbbb75599fc322f57f843fc89c1021fa",
+      "source_path": "results/development/aav9/holo_complete_130363.pdbqt",
+      "source_sha256": "87a2645bc2e2bbfa01e598743b642bb5fbbb75599fc322f57f843fc89c1021fa",
+      "transformation": "unchanged"
+    },
+    "holo_complete_155921.log": {
+      "sha256": "1805d64eaf9f30d7a0dac5da7bcbfc007bcd8a8d72eaed419f6d21b8d531254a",
+      "source_path": "results/development/aav9/holo_complete_155921.log",
+      "source_sha256": "1805d64eaf9f30d7a0dac5da7bcbfc007bcd8a8d72eaed419f6d21b8d531254a",
+      "transformation": "unchanged"
+    },
+    "holo_complete_155921.pdbqt": {
+      "sha256": "544e9b2e45c1529866edba34693446cd5577eb3eea0d4f5670bc95ae670e0347",
+      "source_path": "results/development/aav9/holo_complete_155921.pdbqt",
+      "source_sha256": "544e9b2e45c1529866edba34693446cd5577eb3eea0d4f5670bc95ae670e0347",
+      "transformation": "unchanged"
+    },
+    "preparation.json": {
+      "sha256": "97102047c2f1b67baece59e2596d31ff14f499db3a8e2a7c897577fa79b59087",
+      "source_path": "results/development/aav9/inputs/preparation.json.gz",
+      "source_sha256": "277b562101b48dfa7313addf0b69c2f1c33dfe7b3174b3e9d4c4e4ffea660a01",
+      "source_uncompressed_sha256": "97102047c2f1b67baece59e2596d31ff14f499db3a8e2a7c897577fa79b59087",
+      "transformation": "gzip decompression"
+    },
+    "reference.json": {
+      "selection": "Only names, coordinates and reference_ligand from the archived reference.",
+      "sha256": "d89653fa4b04b68699785171bb66544026e129169effccb854698cdaa5742ad9",
+      "source_path": "results/development/aav9/inputs/reference.json.gz",
+      "source_sha256": "3f30b0e1ec04073d5618a803df6ca4c7a353599890b2752a2898aff215a42609",
+      "source_uncompressed_sha256": "5bef54d1289ae93465cdcaa1d1415e8583b560ea810cc76d99860417c9fd6ae1",
+      "transformation": "JSON subset"
+    },
+    "runs.json": {
+      "selection": "Rows with receptor in [holo_complete, apo_complete], retaining original row contents and order.",
+      "sha256": "f136b527134113360f16fc1ca9121cea68d3d57b1b24c5b9e1e4da804ca56fb9",
+      "source_path": "results/development/aav9/runs.json",
+      "source_sha256": "f2368cc9f0afd8d82e2df1ca6998fff39df1b18918134e6c1b80e1ef45fd607e",
+      "transformation": "JSON subset"
+    }
+  },
+  "selection": "All three configured seeds for holo_complete and apo_complete; monomer controls and other systems are outside this comparison.",
+  "source_commit": "ddd84f9c9021d43a4c58868c9116d0523f3cbb79",
+  "source_repository": "https://github.com/AlecKriebel/AAV-Docking-Benchmark"
+}
