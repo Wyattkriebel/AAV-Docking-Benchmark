@@ -21,6 +21,16 @@ borderline density and occupancy cautions and do not imply that every scored
 atom is uniquely resolved. The frozen old docking results remain unchanged.
 Replay the source checks with `python scripts/verify_atomic_references.py`.
 
+The [new structural-source audit](docs/HELDOUT_REFERENCE_QUALIFICATION.md)
+retains a fixed twelve-candidate inventory: six full modeled ligands, five
+explicit cores and one atomic rejection. A separate
+[family and training audit](docs/FAMILY_LEAKAGE_AUDIT.md) identifies substantial
+training-family overlap and unknown provenance. These sources support a new
+workflow test; they do not establish model-family novelty. The six priority
+cases are fixed before docking. Public replay retains all numerical inputs and
+recomputes qualification and 56,366 archived sequence comparisons with
+`python scripts/verify_public_source_cohort.py`.
+
 The [site-localization report](docs/SITE_LOCALIZATION_RESULTS.md) evaluates
 fpocket 4.2.3, P2Rank 2.5.1 and 100 area-weighted surface draws per receptor,
 using whole protein inputs without reference-derived crops or search boxes.

@@ -12,6 +12,7 @@ jobs:
       - run: python -m pip install -e '.[test]'
       - run: python -m pytest -q
       - run: python scripts/verify_atomic_references.py --density-tolerance-sigma 1e-5
+      - run: python scripts/verify_public_source_cohort.py
       - run: python scripts/verify_archived_results.py --numeric-tolerance 1e-10
       - run: python scripts/regenerate_report.py --check
       - run: python scripts/verify_site_predictions.py --output results/site_discovery/prediction_verification.json --check

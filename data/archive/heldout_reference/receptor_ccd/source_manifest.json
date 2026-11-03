@@ -1,0 +1,42 @@
+[
+  {
+    "component_id": "C5P",
+    "url": "https://files.rcsb.org/ligands/download/C5P.cif",
+    "archive": "data/archive/heldout_reference/receptor_ccd/C5P.cif.gz",
+    "sha256": "01fa8eba7595d72cb1fd0e7aa4b3cd5112ebc751b5c25e4185b865b4830ac999",
+    "uncompressed_sha256": "5c2e215be230bd9b24b4671b9c36f33ebd352ae1afaaa1ebe0f856b177e89e2a",
+    "bytes": 2689,
+    "license_context": "PDB archive CC0 1.0",
+    "purpose": "Exact source receptor/cofactor chemical representation; no implicit MSE-to-MET substitution authorized."
+  },
+  {
+    "component_id": "MSE",
+    "url": "https://files.rcsb.org/ligands/download/MSE.cif",
+    "archive": "data/archive/heldout_reference/receptor_ccd/MSE.cif.gz",
+    "sha256": "aa124b94dd62ab0e93dd7dd0b7315b479b9a70f3dbf2970bf9779065ce545cf7",
+    "uncompressed_sha256": "2f8373207105fd6e18aa25ec22cfb229987da61cc79a3980e64d7ee31fb4d31c",
+    "bytes": 2056,
+    "license_context": "PDB archive CC0 1.0",
+    "purpose": "Exact source receptor/cofactor chemical representation; no implicit MSE-to-MET substitution authorized."
+  },
+  {
+    "component_id": "CA",
+    "url": "https://files.rcsb.org/ligands/download/CA.cif",
+    "archive": "data/archive/heldout_reference/receptor_ccd/CA.cif.gz",
+    "sha256": "eb955cd1c8adb1b505b5b5ed67b6a2fd6819ab230da0be34acc5cb57cff1276b",
+    "uncompressed_sha256": "5713e078d7604837c4169d281dd40da4dfa21e96340f239776cf32bd3946d65d",
+    "bytes": 838,
+    "license_context": "PDB archive CC0 1.0",
+    "purpose": "Exact source receptor/cofactor chemical representation; no implicit MSE-to-MET substitution authorized."
+  },
+  {
+    "component_id": "MN",
+    "url": "https://files.rcsb.org/ligands/download/MN.cif",
+    "archive": "data/archive/heldout_reference/receptor_ccd/MN.cif.gz",
+    "sha256": "78e6b8f72d52af6973782ee591cfbc5ec7b835385137794d0218a17067245dca",
+    "uncompressed_sha256": "34069721472535643756eb140039ced4053cec1f4814f69658e7b244ee2bebc6",
+    "bytes": 849,
+    "license_context": "PDB archive CC0 1.0",
+    "purpose": "Exact source receptor/cofactor chemical representation; no implicit MSE-to-MET substitution authorized."
+  }
+]

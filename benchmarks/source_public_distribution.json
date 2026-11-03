@@ -1,0 +1,305 @@
+{
+  "date": "2026-11-03",
+  "distribution_id": "fixed12_source_public_distribution_v1",
+  "download_required_for_numerical_replay": false,
+  "frozen_local_sources_unchanged": true,
+  "frozen_manifest_records": 174,
+  "frozen_reference_ledger": "benchmarks/heldout_reference_ledger.json",
+  "frozen_reference_ledger_sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e",
+  "frozen_replay_helper": "aav_benchmark/heldout_reference.py",
+  "frozen_replay_helper_sha256": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28",
+  "frozen_source_manifest": "data/archive/heldout_reference/source_manifest.json",
+  "frozen_source_manifest_sha256": "c18d983eb6b970664ad71a34c410847827c15a28db9f007936b430270ccd3e57",
+  "license_policy_url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+  "metadata_only_publication_snapshots": [
+    {
+      "archive": "data/archive/heldout_reference/papers/1I3H.primary_abstract.html",
+      "bytes": 20320,
+      "reason": "Publisher-copyright abstract snapshot; no redistribution license established.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "e0c65d6dc79fbad733d3296005d69cf2249682e7bc0d9c7333488b2391e10ca3",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11453694/"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/2G7C.primary_abstract.html",
+      "bytes": 19211,
+      "reason": "Publisher-copyright abstract snapshot; no redistribution license established.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "42268e95badb2efaed5301ca6f0e2c69c6f9e44ce41e1004b38685ffae3956d1",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/16622409/"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/2GUP.deposition_page.html",
+      "bytes": 117056,
+      "reason": "Provider web-page snapshot; structural facts remain available in CC0 PDB coordinate and API records.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "a8b4ce7da8752bab4ab3c434a5d7089b94d74daa30b898305fa8077cadcc31a0",
+      "source_url": "https://www.rcsb.org/structure/2GUP"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/2RDK.PMC2327273.html",
+      "bytes": 165630,
+      "reason": "Protein Society copyright notice and Wiley version-of-record terms; no open redistribution license established.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "e073536313d0b238791616cdafd266ab2210abacbbcaeda630d3187a61085a51",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2327273/"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/2WNB.publisher_response.html",
+      "bytes": 281809,
+      "reason": "Closed publisher article/response HTML; no open redistribution license established.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "daf607c5ac03be6393c4f4e84237868200ddb8093f02872a4f06c5cdaa274a2f",
+      "source_url": "https://www.nature.com/articles/nsmb.1685.pdf"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/2WNB.supplement.pdf",
+      "bytes": 824961,
+      "reason": "Publisher supplementary PDF associated with closed article; no open redistribution license established.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "f52fe95e0fa58472079fb82badb960948ab73ea85a8de23e8d1400430aa42a03",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnsmb.1685/MediaObjects/41594_2009_BFnsmb1685_MOESM12_ESM.pdf"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/3A2S.PMC2872391.html",
+      "bytes": 206159,
+      "reason": "No explicit redistribution license in archived PMC article; access does not establish reuse permission.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "ceec1a3e437db50a6a99aed1024bb2bc97218ad2418ce87aa39dd3f930bf0ddc",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2872391/"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/3ZWE.supplement.pdf.response.html",
+      "bytes": 21542,
+      "reason": "Google browser-check response, not a downloaded scientific supplement.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "866003de65a013eb27a7cd5014435cb7ecf25a299e0cc6467b988bd309eda067",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/3281725/bin/supp_M111.314831_jbc.M111.314831-1.pdf"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/5HZA.PMC4836343.html",
+      "bytes": 155540,
+      "reason": "American Society for Microbiology notice states all rights reserved; no open redistribution license established.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "ab03eaa8012e27648822896692effb18a69af82e26924a318cab3528e06c2702",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4836343/"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/5HZA.primary_density_figure.jpg",
+      "bytes": 193791,
+      "reason": "Figure from the same uncleared ASM article; figure not required for numerical map replay.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "6d33616e54a31076bf66d20c8edf35008a48fa4bf2b38ac29fe8fc1f2b7c72a8",
+      "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9e5f/4836343/9880810b7efd/zjv9990915740002.jpg"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/8I5U.supplement.pdf.response.html",
+      "bytes": 21496,
+      "reason": "Google browser-check response, not a downloaded scientific supplement.",
+      "role": "Noncomputational publication/context snapshot; omitted from public distribution, original retrieval hash preserved.",
+      "sha256": "adb44e88e4ca744074e0744e098d6dcd454c74b2462fe29a26ee265ec2798346",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/10167657/bin/cs3c00620_si_001.pdf"
+    }
+  ],
+  "replay_scope": "All numerical coordinates, validation, CCD, structure factors, coefficients, source masks, assembly copies and domain/alignment records remain exact. The manually reviewed external-publication judgments are pinned provenance, not independently re-proven by numerical replay.",
+  "retained_archive_records": 163,
+  "retained_licensed_publications": [
+    {
+      "archive": "data/archive/heldout_reference/papers/2WAB.PMC2661963.html",
+      "authors": [
+        "Cedric Montanier",
+        "Victoria A Money",
+        "Virginia M R Pires",
+        "James E Flint",
+        "Benedita A Pinheiro",
+        "Arun Goyal",
+        "José A M Prates",
+        "Atsushi Izumi",
+        "Henrik Stålbrand",
+        "Carl Morland",
+        "Alan Cartmell",
+        "Katarina Kolenova",
+        "Evangelos Topakas",
+        "Eleanor J Dodson",
+        "David N Bolam",
+        "Gideon J Davies",
+        "Carlos M G A Fontes",
+        "Harry J Gilbert"
+      ],
+      "bytes": 217221,
+      "changes": "Unmodified source bytes; not relicensed under repository software license.",
+      "doi": "10.1371/journal.pbio.1000071",
+      "license": "Creative Commons Attribution; version not stated in archived notice",
+      "license_evidence": "Archived article copyright/license notice and PLOS publisher article copyright paragraph.",
+      "license_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000071",
+      "license_version": null,
+      "pdb_id": "2WAB",
+      "sha256": "6ff77f4536dc59eba723f5285cb2072811e2433e769fbf3873e08b80243114a1",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2661963/",
+      "title": "The Active Site of a Carbohydrate Esterase Displays Divergent Catalytic and Noncatalytic Binding Functions"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/3ZWE.PMC3281725.html",
+      "authors": [
+        "Aymeric Audfray",
+        "Julie Claudinon",
+        "Saïda Abounit",
+        "Nathalie Ruvoën-Clouet",
+        "Göran Larson",
+        "David F Smith",
+        "Michaela Wimmerová",
+        "Jacques Le Pendu",
+        "Winfried Römer",
+        "Annabelle Varrot",
+        "Anne Imberty"
+      ],
+      "bytes": 243380,
+      "changes": "Unmodified source bytes; not relicensed under repository software license.",
+      "doi": "10.1074/jbc.M111.314831",
+      "license": "CC-BY-4.0",
+      "license_evidence": "Publisher-deposited Crossref version-of-record license effective 2020-09-10; archived 3ZWE.crossref.json.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdb_id": "3ZWE",
+      "sha256": "cc6862bbb0dab7183c85317131af66c9d1b61cdc956e1ad7db971a54b9a1e267",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3281725/",
+      "title": "Fucose-binding Lectin from Opportunistic Pathogen Burkholderia ambifaria Binds to Both Plant and Human Oligosaccharidic Epitopes"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/4R9F.PMC4263893.html",
+      "authors": [
+        "Jonathan R Chekan",
+        "In Hyuk Kwon",
+        "Vinayak Agarwal",
+        "Dylan Dodd",
+        "Vanessa Revindran",
+        "Roderick I Mackie",
+        "Isaac Cann",
+        "Satish K Nair"
+      ],
+      "bytes": 221009,
+      "changes": "Unmodified source bytes; not relicensed under repository software license.",
+      "doi": "10.1074/jbc.M114.579904",
+      "license": "CC-BY-4.0",
+      "license_evidence": "Publisher-deposited Crossref version-of-record license effective 2020-10-10; archived 4R9F.crossref.json.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdb_id": "4R9F",
+      "sha256": "1c72c83e4e5f7373a4bab4e9e43b8132ecc34f6a54792eb9116e12060aed34c8",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4263893/",
+      "title": "Structural and Biochemical Basis for Mannan Utilization by Caldanaerobius polysaccharolyticus Strain ATCC BAA-17"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/5V6F.PMC5825169.html",
+      "authors": [
+        "Swastik De",
+        "Katherine Kaus",
+        "Shada Sinclair",
+        "Brandon C Case",
+        "Rich Olson"
+      ],
+      "bytes": 280222,
+      "changes": "Unmodified source bytes; not relicensed under repository software license.",
+      "doi": "10.1371/journal.ppat.1006841",
+      "license": "CC-BY-4.0",
+      "license_evidence": "Archived article notice links CC-BY-4.0; matching PLOS publisher copyright paragraph.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdb_id": "5V6F",
+      "sha256": "1121b748ff30f37e8bdf39cef10e211da2de0a82d1d21e6ff215b6b6016b93a0",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5825169/",
+      "title": "Structural basis of mammalian glycan targeting by Vibrio cholerae cytolysin and biofilm proteins"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/8I5U.PMC10167657.html",
+      "authors": [
+        "Salila Pengthaisong",
+        "Beatriz Piniello",
+        "Gideon J Davies",
+        "Carme Rovira",
+        "James R Ketudat Cairns"
+      ],
+      "bytes": 268840,
+      "changes": "Unmodified source bytes; not relicensed under repository software license.",
+      "doi": "10.1021/acscatal.3c00620",
+      "license": "CC-BY-4.0",
+      "license_evidence": "Archived ACS article copyright/license notice explicitly links CC-BY-4.0.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdb_id": "8I5U",
+      "sha256": "9778d6513debc95a451a396bf812bdbd4f83d4aa335f2032c6d5333a585e3cf9",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10167657/",
+      "title": "Reaction Mechanism of Glycoside Hydrolase Family 116 Utilizes Perpendicular Protonation"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/3ZWE.primary_density_figure.jpg",
+      "authors": [
+        "Aymeric Audfray",
+        "Julie Claudinon",
+        "Saïda Abounit",
+        "Nathalie Ruvoën-Clouet",
+        "Göran Larson",
+        "David F Smith",
+        "Michaela Wimmerová",
+        "Jacques Le Pendu",
+        "Winfried Römer",
+        "Annabelle Varrot",
+        "Anne Imberty"
+      ],
+      "bytes": 234381,
+      "changes": "Unmodified source bytes; not relicensed under repository software license.",
+      "doi": "10.1074/jbc.M111.314831",
+      "figure": "Original Figure 4; unmodified source image.",
+      "license": "CC-BY-4.0",
+      "license_evidence": "Publisher-deposited Crossref version-of-record license effective 2020-09-10; archived 3ZWE.crossref.json.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdb_id": "3ZWE",
+      "sha256": "4ab558a9daf57f5ab9f789b50dba8289976f05f7ee8b0cba9bcc71c289a3a212",
+      "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f551/3281725/4e44e06e08d5/zbc0071296490004.jpg",
+      "title": "Fucose-binding Lectin from Opportunistic Pathogen Burkholderia ambifaria Binds to Both Plant and Human Oligosaccharidic Epitopes"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/4R9F.primary_density_figure.jpg",
+      "authors": [
+        "Jonathan R Chekan",
+        "In Hyuk Kwon",
+        "Vinayak Agarwal",
+        "Dylan Dodd",
+        "Vanessa Revindran",
+        "Roderick I Mackie",
+        "Isaac Cann",
+        "Satish K Nair"
+      ],
+      "bytes": 119652,
+      "changes": "Unmodified source bytes; not relicensed under repository software license.",
+      "doi": "10.1074/jbc.M114.579904",
+      "figure": "Original Figure 4; unmodified source image.",
+      "license": "CC-BY-4.0",
+      "license_evidence": "Publisher-deposited Crossref version-of-record license effective 2020-10-10; archived 4R9F.crossref.json.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdb_id": "4R9F",
+      "sha256": "ec3eb293c67b393534ce61a58d0d02f7f1446bcd2f9cb3d0ba9af57f9f43367c",
+      "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/225d/4263893/0f5bdeb00290/zbc0011503750004.jpg",
+      "title": "Structural and Biochemical Basis for Mannan Utilization by Caldanaerobius polysaccharolyticus Strain ATCC BAA-17"
+    },
+    {
+      "archive": "data/archive/heldout_reference/papers/5V6F.primary_density_figure.jpg",
+      "authors": [
+        "Swastik De",
+        "Katherine Kaus",
+        "Shada Sinclair",
+        "Brandon C Case",
+        "Rich Olson"
+      ],
+      "bytes": 149562,
+      "changes": "Unmodified source bytes; not relicensed under repository software license.",
+      "doi": "10.1371/journal.ppat.1006841",
+      "figure": "Original Figure 4; unmodified source image.",
+      "license": "CC-BY-4.0",
+      "license_evidence": "Archived article notice links CC-BY-4.0; matching PLOS publisher copyright paragraph.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdb_id": "5V6F",
+      "sha256": "05369660ebe8c3862fb905972477f0900e171d986d9949957a82545084aa5f75",
+      "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f1ed/5825169/a67ed439b686/ppat.1006841.g004.jpg",
+      "title": "Structural basis of mammalian glycan targeting by Vibrio cholerae cytolysin and biofilm proteins"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Publication packaging only; no reference, map, graph, copy, family, eligibility or prediction decision changed."
+}
