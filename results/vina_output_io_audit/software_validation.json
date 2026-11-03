@@ -1,0 +1,97 @@
+{
+  "accuracy_computed": false,
+  "artifact": "source_independent_vina_output_io_software_validation",
+  "experimental_reference_access": false,
+  "molecular_source_required": false,
+  "native_execution": false,
+  "replay_command": "python -m pytest -q tests/test_vina_output_audit.py",
+  "schema_version": 1,
+  "scope": "Synthetic score/control text only; no new molecular predictions or experimental metrics",
+  "software_files": [
+    {
+      "bytes": 22065,
+      "path": "aav_benchmark/vina_output_audit.py",
+      "sha256": "41a247c4ccd9b825d14bfbc04e0d321d18fe2bbb13ec83467ed8e779649cc316"
+    },
+    {
+      "bytes": 1011,
+      "path": "scripts/audit_vina_outputs.py",
+      "sha256": "0e63b481071faae0bfd65c785a16dd2dfd0418071466dcc8eafa6aa7f191d229"
+    },
+    {
+      "bytes": 14660,
+      "path": "tests/test_vina_output_audit.py",
+      "sha256": "904ccec74c7a99ee57be96c18654b0cc3f32dedf423443ffc091547df711da9f"
+    },
+    {
+      "bytes": 2885,
+      "path": "tests/fixtures/vina_output_io_controls.json",
+      "sha256": "e281ddd32f4c2e84a78d897eb9e26154fdc097e90653eceabae1ce5f77bb9adc"
+    },
+    {
+      "bytes": 4344,
+      "path": "docs/VINA_OUTPUT_IO_AUDIT.md",
+      "sha256": "b0d0a6a55f4e714416421476ab740b2253bc47fe69c8317682af3424a9c65fcb"
+    }
+  ],
+  "synthetic_control_results": [
+    {
+      "boundary_ambiguous_omissions": 0,
+      "id": "complete_prefix",
+      "log_sha256": "e2a9b831558df9d6da080c80d6d29f4afed5e58f25f1a353eb72f616fdc28b2c",
+      "logged_modes": 2,
+      "proven_outside_window_omissions": 0,
+      "saved_models": 2,
+      "saved_sha256": "091eca60ce69715f6e7cd1fb36eed43384ccf0b905e842a73118d895c4e37ad7",
+      "status": "valid_writer_compatible"
+    },
+    {
+      "boundary_ambiguous_omissions": 0,
+      "id": "proven_outside_suffix",
+      "log_sha256": "0c3d6c53645ec90329468806b5bb12c61d96810b19bc1a0dd114ab37c83bb044",
+      "logged_modes": 2,
+      "proven_outside_window_omissions": 1,
+      "saved_models": 1,
+      "saved_sha256": "7b1f637cc6a69fcb6c4a2f3be671c72755298e91b7b315e8ddd3780a91b9c8ea",
+      "status": "valid_writer_compatible"
+    },
+    {
+      "boundary_ambiguous_omissions": 1,
+      "id": "ambiguous_boundary_suffix",
+      "log_sha256": "c6aba5a47414a6b2e47048edf772d97f50b5d705ef2e4e888c68078afb57a0ac",
+      "logged_modes": 2,
+      "proven_outside_window_omissions": 0,
+      "saved_models": 1,
+      "saved_sha256": "7b1f637cc6a69fcb6c4a2f3be671c72755298e91b7b315e8ddd3780a91b9c8ea",
+      "status": "valid_writer_compatible"
+    },
+    {
+      "error": "Omitted logged mode is inside the output energy window",
+      "id": "inside_window_omission",
+      "log_sha256": "71038d785e82c2390f9a3541a5ca8fc5a07e1084e4416e959500ce65902f5b40",
+      "saved_sha256": "7b1f637cc6a69fcb6c4a2f3be671c72755298e91b7b315e8ddd3780a91b9c8ea",
+      "status": "invalid_output"
+    },
+    {
+      "error": "Saved/log score prefix has incompatible rounding intervals",
+      "id": "incompatible_adjacent_score_bins",
+      "log_sha256": "7940eb16fba0bbd5c5e89a7df7f113e2fb08cf9b376067a748ea16b1c433af72",
+      "saved_sha256": "843607be20a3529bef6ad2fc36f524eeae1587cd160406881cc51af78df15917",
+      "status": "invalid_output"
+    },
+    {
+      "error": "Noncontiguous or reordered log ranks",
+      "id": "noncontiguous_log_rank",
+      "log_sha256": "bb03722eff27f2fcf4e29f7a94a8de1cb7a255de5719c97850caa5e464a38000",
+      "saved_sha256": "091eca60ce69715f6e7cd1fb36eed43384ccf0b905e842a73118d895c4e37ad7",
+      "status": "invalid_output"
+    },
+    {
+      "error": "Malformed Vina score table separator",
+      "id": "injected_row_before_separator",
+      "log_sha256": "1e37b16d86dc53269a135b2b0cd31cc6bd5ba20686baa32a7023e2d956e7f3f1",
+      "saved_sha256": "7b1f637cc6a69fcb6c4a2f3be671c72755298e91b7b315e8ddd3780a91b9c8ea",
+      "status": "invalid_output"
+    }
+  ]
+}
