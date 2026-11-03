@@ -236,3 +236,16 @@ __marimo__/
 
 # Raw scientific logs are required evidence, despite the generic Python log rule.
 !/results/**/*.log
+
+# Local publication snapshots retained as metadata-only public provenance.
+data/archive/heldout_reference/papers/1I3H.primary_abstract.html
+data/archive/heldout_reference/papers/2G7C.primary_abstract.html
+data/archive/heldout_reference/papers/2GUP.deposition_page.html
+data/archive/heldout_reference/papers/2RDK.PMC2327273.html
+data/archive/heldout_reference/papers/2WNB.publisher_response.html
+data/archive/heldout_reference/papers/2WNB.supplement.pdf
+data/archive/heldout_reference/papers/3A2S.PMC2872391.html
+data/archive/heldout_reference/papers/3ZWE.supplement.pdf.response.html
+data/archive/heldout_reference/papers/5HZA.PMC4836343.html
+data/archive/heldout_reference/papers/5HZA.primary_density_figure.jpg
+data/archive/heldout_reference/papers/8I5U.supplement.pdf.response.html
