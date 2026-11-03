@@ -1,5 +1,6 @@
 """Public packaging may omit named papers, never computational evidence."""
 from copy import deepcopy
+from concurrent.futures import ThreadPoolExecutor
 import json
 from pathlib import Path
 import shutil
@@ -7,9 +8,10 @@ import shutil
 import pytest
 
 from aav_benchmark import heldout_reference as reference
+from aav_benchmark import atomic_reference as atomic
 from aav_benchmark.public_source_replay import (
     OMITTED_PUBLICATION_NAMES, PAPER_DIRECTORY, PUBLIC_MANIFEST,
-    validate_public_manifest, verify_public_source_references,
+    source_bond_distance_replay, validate_public_manifest, verify_public_source_references,
 )
 
 
@@ -59,6 +61,10 @@ def test_all_eleven_absent_publication_snapshots_preserve_exact_numerical_replay
     assert numerical["primary_scored_atom_count"] == 298
     assert numerical["qualified_assembly_copy_count"] == 16
     assert numerical["maximum_absolute_density_difference_sigma"] <= 1e-5
+    roundoff = result["derived_bond_distance_roundoff"]
+    assert roundoff["tolerance_A"] == 1e-12
+    assert roundoff["compared_distance_fields"] > 0
+    assert roundoff["maximum_absolute_difference_A"] <= 1e-12
 
 
 def test_original_strict_verifier_still_rejects_missing_publication_bytes(public_root):
@@ -118,3 +124,85 @@ def test_a_numerical_consumer_cannot_receive_missing_publication_bytes(public_ro
     with pytest.raises(ValueError, match="numerical source consumer"):
         verify_public_source_references(public_root)
     assert reference._pin is original_pin
+
+
+@pytest.mark.parametrize("label", [
+    "heldout primary source diagnostics.cases[0].native_bond_graph[8].distance_A",
+    "1I3H native bond graph[8].distance_A",
+])
+def test_observed_one_ulp_bond_distance_roundoff_is_explicitly_reported(label):
+    actual, expected = 1.4351466823986994, 1.4351466823986996
+    density_deltas = []
+    with source_bond_distance_replay() as report:
+        atomic._compare_replay(actual, expected, label, 1e-5, density_deltas)
+    assert report["maximum_absolute_difference_A"] == abs(actual - expected)
+    assert report["compared_distance_fields"] == report["nonzero_difference_fields"] == 1
+    assert density_deltas == []
+
+
+def test_native_bond_distance_profile_reaches_only_the_named_nested_scalar():
+    actual = {"cases": [{"native_bond_graph": [{"atom1": "B:1:MAN:C1", "distance_A": 1.4351466823986994}]}]}
+    expected = deepcopy(actual)
+    expected["cases"][0]["native_bond_graph"][0]["distance_A"] = 1.4351466823986996
+    with source_bond_distance_replay() as report:
+        reference._compare_replay(actual, expected, "heldout primary source diagnostics", 1e-5, [])
+    assert report["nonzero_difference_fields"] == 1
+
+
+@pytest.mark.parametrize("label", [
+    "heldout primary source diagnostics.cases[0].native_atom_map[8].xyz_A[0]",
+    "heldout primary source diagnostics.cases[0].native_bond_graph[8].struct_conn_distance_A",
+    "heldout primary source diagnostics.cases[0].other_bond_graph[8].distance_A",
+    "heldout primary source diagnostics.cases[0].native_bond_graph_extra[8].distance_A",
+    "heldout primary source diagnostics.cases[0].native_bond_graph[8].distance_A_extra",
+])
+def test_raw_coordinates_deposited_distances_and_other_fields_remain_exact(label):
+    with source_bond_distance_replay(), pytest.raises(atomic.AtomicReferenceError, match="source replay differs"):
+        atomic._compare_replay(1.4351466823986994, 1.4351466823986996, label, 100, [])
+
+
+@pytest.mark.parametrize("field,actual,expected", [
+    ("atom1", "B:1:MAN:C1", "B:1:MAN:C2"),
+    ("order", "SING", "DOUB"),
+    ("source_gate_pass", False, True),
+    ("sha256", "0" * 64, "1" * 64),
+])
+def test_graph_identities_decisions_and_hashes_cannot_use_bond_tolerance(field, actual, expected):
+    with source_bond_distance_replay(), pytest.raises(atomic.AtomicReferenceError, match="source replay differs"):
+        atomic._compare_replay({field: actual}, {field: expected},
+                              "heldout primary source diagnostics.cases[0].native_bond_graph[8]", 1e-5, [])
+
+
+def test_larger_bond_difference_and_zero_tolerance_fail_and_restore_original_comparator():
+    original = atomic._compare_replay
+    label = "heldout primary source diagnostics.cases[0].native_bond_graph[8].distance_A"
+    for tolerance, actual, expected in [(1e-12, 1.4 + 2e-12, 1.4),
+                                        (0, 1.4351466823986994, 1.4351466823986996)]:
+        with pytest.raises(atomic.AtomicReferenceError, match="derived bond distance differs"):
+            with source_bond_distance_replay(tolerance):
+                atomic._compare_replay(actual, expected, label, 1e-5, [])
+        assert atomic._compare_replay is original
+    with pytest.raises(atomic.AtomicReferenceError, match="source replay differs"):
+        atomic._compare_replay(1.4351466823986994, 1.4351466823986996, label, 1e-5, [])
+
+
+@pytest.mark.parametrize("value", [-1, float("nan"), float("inf"), True, "1e-12"])
+def test_bond_tolerance_requires_an_explicit_finite_nonnegative_number(value):
+    with pytest.raises(ValueError, match="finite and nonnegative"):
+        with source_bond_distance_replay(value):
+            pass
+
+
+def test_bond_roundoff_context_does_not_relax_another_thread():
+    label = "heldout primary source diagnostics.cases[0].native_bond_graph[8].distance_A"
+    with source_bond_distance_replay(), ThreadPoolExecutor(max_workers=1) as worker:
+        future = worker.submit(atomic._compare_replay, 1.4351466823986994, 1.4351466823986996,
+                               label, 1e-5, [])
+        with pytest.raises(atomic.AtomicReferenceError, match="source replay differs"):
+            future.result()
+
+
+def test_existing_density_threshold_classifications_remain_exact():
+    key = "two_mFo_DFc_max_within_0p5A_sigma"
+    with source_bond_distance_replay(), pytest.raises(atomic.AtomicReferenceError, match="coverage_classification"):
+        atomic._compare_replay({key: .9999999999999999}, {key: 1.0}, "native density", 1e-5, [])

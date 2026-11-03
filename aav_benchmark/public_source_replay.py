@@ -4,18 +4,24 @@ The original ledger, 174-record manifest and numerical verifier are immutable.
 Exactly eleven publication/context snapshots may be absent in the public tree.
 No missing-byte waiver is available to a numerical source consumer. Present
 optional snapshots still have to match their original hashes.
+The public profile separately allows 1e-12 A only on derived bond distances;
+the original frozen helpers and all raw sources remain unchanged.
 """
 from __future__ import annotations
 
+from contextlib import contextmanager
 from contextvars import ContextVar
 import hashlib
 import inspect
 import json
+import math
 from pathlib import Path
+import re
 from threading import RLock
 from unittest.mock import patch
 
 from . import heldout_reference as reference
+from . import atomic_reference as atomic
 
 
 PUBLIC_MANIFEST = Path("benchmarks/source_public_distribution.json")
@@ -39,6 +45,11 @@ RETAINED_LICENSED_NAMES = frozenset({
 })
 _ACTIVE = ContextVar("public_source_replay_active", default=False)
 _LOCK = RLock()
+DEFAULT_BOND_DISTANCE_TOLERANCE_A = 1e-12
+_BOND_CONTEXT = ContextVar("public_source_bond_distance_roundoff", default=None)
+_BOND_DISTANCE_FIELD = re.compile(
+    r"(?:^|\.)native_bond_graph\[\d+\]\.distance_A\Z|"
+    r"^[0-9A-Z]{4} native bond graph\[\d+\]\.distance_A\Z")
 
 
 def _require(condition, message):
@@ -52,6 +63,53 @@ def _sha(path):
 
 def _load(path):
     return json.loads(Path(path).read_text())
+
+
+def _bond_tolerance(value):
+    _require(isinstance(value, (int, float)) and not isinstance(value, bool)
+             and math.isfinite(value) and value >= 0,
+             "Derived bond-distance tolerance must be finite and nonnegative")
+    return float(value)
+
+
+@contextmanager
+def source_bond_distance_replay(tolerance_A=DEFAULT_BOND_DISTANCE_TOLERANCE_A):
+    """Allow only derived native_bond_graph[*].distance_A scalar roundoff.
+
+    The original comparator still handles all other fields and its existing
+    density policy. In particular, raw coordinates, deposited LINK distances,
+    graph identities, masks, classifications and source pins stay exact. Zero
+    requests strict equality. The hook is restored on success or failure and
+    does not relax a comparison in another thread/context.
+    """
+    tolerance_A = _bond_tolerance(tolerance_A)
+    statistics = dict(tolerance_A=tolerance_A, maximum_absolute_difference_A=0.0,
+                      compared_distance_fields=0, nonzero_difference_fields=0,
+                      scope="Only derived native_bond_graph[*].distance_A; raw coordinates, deposited distances, graph identities, decisions and SHA pins stay exact; density policy unchanged.")
+    with _LOCK:
+        original = atomic._compare_replay
+
+        def compare(actual, expected, label, density_tolerance, density_deltas):
+            if _BOND_CONTEXT.get() is not statistics or not _BOND_DISTANCE_FIELD.search(label):
+                return original(actual, expected, label, density_tolerance, density_deltas)
+            if (not isinstance(actual, float) or not isinstance(expected, float)
+                    or not math.isfinite(actual) or not math.isfinite(expected)):
+                raise atomic.AtomicReferenceError(label + ": nonfinite or non-float derived bond distance")
+            difference = abs(actual - expected)
+            statistics["compared_distance_fields"] += 1
+            statistics["maximum_absolute_difference_A"] = max(
+                statistics["maximum_absolute_difference_A"], difference)
+            statistics["nonzero_difference_fields"] += difference != 0
+            if difference > tolerance_A:
+                raise atomic.AtomicReferenceError(
+                    f"{label}: derived bond distance differs by {difference:g} A (tolerance {tolerance_A:g} A)")
+
+        token = _BOND_CONTEXT.set(statistics)
+        try:
+            with patch.object(atomic, "_compare_replay", compare):
+                yield statistics
+        finally:
+            _BOND_CONTEXT.reset(token)
 
 
 def validate_public_manifest(root):
@@ -113,7 +171,8 @@ def validate_public_manifest(root):
     return manifest, pins
 
 
-def verify_public_source_references(root=reference.DEFAULT_ROOT, *, density_tolerance_sigma=1e-5):
+def verify_public_source_references(root=reference.DEFAULT_ROOT, *, density_tolerance_sigma=1e-5,
+                                    bond_distance_tolerance_A=DEFAULT_BOND_DISTANCE_TOLERANCE_A):
     """Run unchanged numerical replay with a narrowly scoped publication waiver.
 
     This does not create placeholder files. A missing optional snapshot may be
@@ -123,6 +182,7 @@ def verify_public_source_references(root=reference.DEFAULT_ROOT, *, density_tole
     thread/context. Every available optional snapshot is verified strictly.
     """
     root = Path(root).resolve()
+    bond_distance_tolerance_A = _bond_tolerance(bond_distance_tolerance_A)
     manifest, pins = validate_public_manifest(root)
     omitted = {row["archive"]: row for row in manifest["metadata_only_publication_snapshots"]}
     skipped, optional_present = set(), set()
@@ -150,8 +210,9 @@ def verify_public_source_references(root=reference.DEFAULT_ROOT, *, density_tole
         token = _ACTIVE.set(True)
         try:
             with patch.object(reference, "_pin", public_pin):
-                numerical = reference.verify_heldout_references(
-                    root, density_tolerance_sigma=density_tolerance_sigma)
+                with source_bond_distance_replay(bond_distance_tolerance_A) as bond_roundoff:
+                    numerical = reference.verify_heldout_references(
+                        root, density_tolerance_sigma=density_tolerance_sigma)
         finally:
             _ACTIVE.reset(token)
     _require(skipped | optional_present == set(omitted),
@@ -161,6 +222,11 @@ def verify_public_source_references(root=reference.DEFAULT_ROOT, *, density_tole
     numerical.update(checked_archive_count=163, original_manifest_record_count=174,
                      metadata_only_publication_count=11,
                      optional_local_publication_byte_checks=len(optional_present))
+    numerical["frozen_helper_tolerance_scope"] = numerical["tolerance_scope"]
+    numerical["tolerance_scope"] = (
+        "Unchanged density policy plus the explicitly reported public tolerance only for derived "
+        "native_bond_graph[*].distance_A. Native identities, coordinates, graph connectivity, deposited "
+        "distances, cutoff decisions, canonical masks, source hashes and rigid assembly transforms stay exact.")
     return dict(status="verified", distribution_id=manifest["distribution_id"],
                 source_only=True, prediction_outcomes_consulted=False,
                 public_manifest_sha256=_sha(root / PUBLIC_MANIFEST),
@@ -168,6 +234,7 @@ def verify_public_source_references(root=reference.DEFAULT_ROOT, *, density_tole
                 optional_publication_snapshots_present=len(optional_present),
                 optional_publication_snapshots_absent=len(skipped),
                 all_consumed_numerical_sources_verified=True,
+                derived_bond_distance_roundoff=bond_roundoff,
                 publication_judgments_independently_reproven=False,
                 numerical_reference_replay=numerical,
                 omitted_publication_snapshot_paths=sorted(skipped),

@@ -12,7 +12,9 @@ import gemmi
 
 from aav_benchmark.atomic_reference import AtomicReferenceError, DEFAULT_ROOT
 from aav_benchmark.heldout_reference import audit_all, audit_candidate, derive_copy_entries, verify_heldout_references
-from aav_benchmark.public_source_replay import OMITTED_PUBLICATION_NAMES, PAPER_DIRECTORY, verify_public_source_references
+from aav_benchmark.public_source_replay import (
+    OMITTED_PUBLICATION_NAMES, PAPER_DIRECTORY, source_bond_distance_replay, verify_public_source_references,
+)
 
 
 class HeldoutReferenceAuditControls(unittest.TestCase):
@@ -191,14 +193,14 @@ class HeldoutFrozenLedgerControls(unittest.TestCase):
         case["scored_atom_map"].pop()
         case["scored_atom_count"] -= 1
         self._repin_fixture_ledger()
-        with self.assertRaisesRegex(AtomicReferenceError, "primary scored map: array length mismatch"):
+        with source_bond_distance_replay(), self.assertRaisesRegex(AtomicReferenceError, "primary scored map: array length mismatch"):
             verify_heldout_references(self.root)
 
     def test_misplaced_assembly_copy_fails_even_with_large_density_tolerance(self):
         case = next(case for case in self.ledger["cases"] if case["case_id"] == "1I3H")
         case["qualified_copies"][1]["scored_atom_map"][0]["xyz_A"][0] += .01
         self._repin_fixture_ledger()
-        with self.assertRaisesRegex(AtomicReferenceError, "transformed qualified copies.*xyz_A"):
+        with source_bond_distance_replay(), self.assertRaisesRegex(AtomicReferenceError, "transformed qualified copies.*xyz_A"):
             verify_heldout_references(self.root, density_tolerance_sigma=100)
 
     def test_equally_valid_copy_from_another_assembly_cannot_be_substituted(self):
@@ -208,7 +210,7 @@ class HeldoutFrozenLedgerControls(unittest.TestCase):
         copy["assembly_id"] = "2"
         copy["copy_id"] = "2RDK:D@assembly2:1"
         self._repin_fixture_ledger()
-        with self.assertRaisesRegex(AtomicReferenceError, "transformed qualified copies.*copy_id"):
+        with source_bond_distance_replay(), self.assertRaisesRegex(AtomicReferenceError, "transformed qualified copies.*copy_id"):
             verify_heldout_references(self.root)
 
 

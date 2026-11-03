@@ -194,6 +194,13 @@ rounding across CPU architectures. It still requires exact identities, counts,
 decisions and input/pose hashes, and reports the actual numerical differences.
 The default development-host verification remains byte-exact.
 
+The public structural-source replay has a separate 0.000000000001 Å allowance
+only for recomputed native bond-length diagnostics. It addresses an observed
+0.000000000000000222 Å replay difference; raw coordinates, connectivity,
+reference masks and eligibility decisions remain exact. The
+[field-specific policy](docs/SOURCE_REPLAY_ROUNDOFF.md) records the evidence and
+the option to request strict equality.
+
 Site replay has a separate explicit 0.000001 Å² allowance for accumulated
 surface-area totals on Linux. This addresses an observed 0.00000004 Å²
 cross-platform difference in a roughly 859,673 Å² total. It does not relax
