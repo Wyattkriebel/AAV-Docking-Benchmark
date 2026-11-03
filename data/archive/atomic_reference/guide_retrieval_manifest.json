@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.rcsb.org/docs/general-help/electron-density-maps-and-coefficient-files",
+    "archive": "data/archive/atomic_reference/rcsb_density_map_guide.html",
+    "bytes": 88356,
+    "sha256": "afeef401ec94c8151e102832bec0f5830da98faaf6166970059775b06f889601"
+  },
+  {
+    "url": "https://www.wwpdb.org/about/usage-policies",
+    "archive": "data/archive/atomic_reference/wwpdb_usage_policy.html",
+    "bytes": 14815,
+    "sha256": "3aa07e42a4fbf6651f9e21f5a9d253c6fc6a7414d943278b69c167de1aecc419"
+  },
+  {
+    "url": "https://www.rcsb.org/docs/general-help/ligand-structure-quality-in-pdb-structures",
+    "archive": "data/archive/atomic_reference/rcsb_ligand_quality_guide.html",
+    "bytes": 100219,
+    "sha256": "86b2e5585d23d6ac4579144e86678f6bb179c2558a08992a7f47642d7f2f389e"
+  }
+]

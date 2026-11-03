@@ -1,0 +1,197 @@
+[
+  {
+    "pdb_id": "2J1T",
+    "url": "https://www.jbc.org/article/S0021925819350045/pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2VUZ",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2662075/?report=xml",
+    "resolved_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2662075/?report=xml",
+    "path": "data/archive/atomic_reference/papers/2vuz_pmc.html",
+    "bytes": 215595,
+    "sha256": "50c78193ca461018ac934182152d08aef406b5e77689b25c5e37f307d426f9ef",
+    "content_type": "text/html; charset=utf-8",
+    "status": "retrieved",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1GNY",
+    "url": "https://www.jbc.org/article/S0021925820881459/pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1GNY",
+    "url": "https://www.jbc.org/article/S0021-9258(20)88145-9/pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2J1T",
+    "url": "https://www.jbc.org/article/S0021-9258(19)35004-5/pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1GNY",
+    "url": "https://api.elsevier.com/content/article/PII:S0021925820881459?httpAccept=text/xml",
+    "resolved_url": "https://api.elsevier.com/content/article/PII:S0021925820881459?httpAccept=text/xml",
+    "path": "data/archive/atomic_reference/papers/1gny_primary.xml",
+    "bytes": 2031,
+    "sha256": "944d243f2f085c1288cd906ead7d1ce9b8ba4c26fa172eb2341900417fc7899a",
+    "content_type": "text/xml;charset=UTF-8",
+    "status": "retrieved",
+    "sample": "<full-text-retrieval-response xmlns=\"http://www.elsevier.com/xml/svapi/article/dtd\" xmlns:bk=\"http:/",
+    "retrieved_date": "2026-11-03",
+    "kind": "citation_and_license_metadata_only_not_full_text"
+  },
+  {
+    "pdb_id": "2J1T",
+    "url": "https://api.elsevier.com/content/article/PII:S0021925819350045?httpAccept=text/xml",
+    "resolved_url": "https://api.elsevier.com/content/article/PII:S0021925819350045?httpAccept=text/xml",
+    "path": "data/archive/atomic_reference/papers/2j1t_primary.xml",
+    "bytes": 2096,
+    "sha256": "04128ca62ce7e9714f08ddfc6de964cac2c885baea82a0f433b04b7827bf2e86",
+    "content_type": "text/xml;charset=UTF-8",
+    "status": "retrieved",
+    "sample": "<full-text-retrieval-response xmlns=\"http://www.elsevier.com/xml/svapi/article/dtd\" xmlns:bk=\"http:/",
+    "retrieved_date": "2026-11-03",
+    "kind": "citation_and_license_metadata_only_not_full_text"
+  },
+  {
+    "pdb_id": "2VUZ",
+    "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC2662075",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1GNY",
+    "url": "https://api.elsevier.com/content/article/PII:S0021925820881459?httpAccept=text/xml&view=FULL",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1GNY",
+    "url": "https://api.elsevier.com/content/article/PII:S0021925820881459?httpAccept=application/pdf&view=FULL",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2J1T",
+    "url": "https://api.elsevier.com/content/article/PII:S0021925819350045?httpAccept=text/xml&view=FULL",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2J1T",
+    "url": "https://api.elsevier.com/content/article/PII:S0021925819350045?httpAccept=application/pdf&view=FULL",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1QFO",
+    "url": "https://api.elsevier.com/content/article/PII:S1097276500800714?httpAccept=text/xml&view=FULL",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1QFO",
+    "url": "https://api.elsevier.com/content/article/PII:S1097276500800714?httpAccept=application/pdf&view=FULL",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2VUZ",
+    "url": "https://api.elsevier.com/content/article/PII:S0021925820407290?httpAccept=text/xml&view=FULL",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized",
+    "retrieved_date": "2026-11-03",
+    "note": "Speculative URL failed; not a source and not relied upon."
+  },
+  {
+    "pdb_id": "2VUZ",
+    "url": "https://api.elsevier.com/content/article/PII:S0021925820407290?httpAccept=application/pdf&view=FULL",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized",
+    "retrieved_date": "2026-11-03",
+    "note": "Speculative URL failed; not a source and not relied upon."
+  },
+  {
+    "pdb_id": "154L",
+    "kind": "citation_and_license_metadata",
+    "url": "https://api.crossref.org/works/10.1016%2FS0022-2836%2895%2980038-7",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1GNY",
+    "kind": "citation_and_license_metadata",
+    "url": "https://api.crossref.org/works/10.1074%2FJBC.M109558200",
+    "path": "data/archive/atomic_reference/papers/1gny_crossref.json",
+    "bytes": 11036,
+    "sha256": "0786fc9a48cbb81dd8f1a18d0950d635baadbeb142508af6e6357ad3fe67691c",
+    "status": "retrieved",
+    "content_type": "application/json",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1KJL",
+    "kind": "citation_and_license_metadata",
+    "url": "https://api.crossref.org/works/10.1021%2Fja043475p",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1QFO",
+    "kind": "citation_and_license_metadata",
+    "url": "https://api.crossref.org/works/10.1016%2FS1097-2765%2800%2980071-4",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2J1T",
+    "kind": "citation_and_license_metadata",
+    "url": "https://api.crossref.org/works/10.1074%2FJBC.M607620200",
+    "path": "data/archive/atomic_reference/papers/2j1t_crossref.json",
+    "bytes": 8491,
+    "sha256": "2e384d52d9831db3fe6c451c1319835f87120adaf329e6bc2653efe4740d3f52",
+    "status": "retrieved",
+    "content_type": "application/json",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1PWB",
+    "kind": "citation_and_license_metadata",
+    "url": "https://api.crossref.org/works/10.1016%2FS0022-2836%2803%2900761-7",
+    "status": "failed",
+    "error": "HTTP Error 429: Too Many Requests",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2VUZ",
+    "kind": "citation_and_license_metadata",
+    "url": "https://api.crossref.org/works/10.1074%2FJBC.M804353200",
+    "path": "data/archive/atomic_reference/papers/2vuz_crossref.json",
+    "bytes": 15081,
+    "sha256": "6f0e065b0fb35671dfb67f9884a0afd07908ca8a9b5f6105975ffbed29124657",
+    "status": "retrieved",
+    "content_type": "application/json",
+    "retrieved_date": "2026-11-03"
+  }
+]

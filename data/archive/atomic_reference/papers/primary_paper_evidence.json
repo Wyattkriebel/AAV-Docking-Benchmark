@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-03",
+  "source_only": true,
+  "prediction_outcomes_consulted": false,
+  "reviewed_by": "atomic_reference_audit/atomic_papers",
+  "cases": [
+    {
+      "pdb_id": "154L",
+      "doi": "10.1016/S0022-2836(95)80038-7",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022283695800387",
+      "access_scope": "publisher_abstract_and_deposition_reproduced_abstract",
+      "density_evidence": "No residue-specific density statement or figure was accessible in the primary abstract; no claim of independently viewed paper density.",
+      "ligand_and_context_evidence": "The primary abstract reports 1.6 A refinement of goose lysozyme with a GlcNAc trisaccharide occupying analogous B/C/D subsites. It describes conserved protein-backbone interactions with the acetamido group in subsite C.",
+      "locations": [
+        "Abstract"
+      ],
+      "license_context": "No OA license found in Crossref; full primary text not archived."
+    },
+    {
+      "pdb_id": "1GNY",
+      "doi": "10.1074/JBC.M109558200",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021925820881459",
+      "access_scope": "publisher_and_deposition_abstract_only; full PDF inaccessible via HTTP403",
+      "density_evidence": "The abstract states five observed binding subsites but supplies no residue-specific electron-density figure or fit diagnostic. This does not independently certify terminal xylose atom positions.",
+      "ligand_and_context_evidence": "Isolated noncatalytic CBM15 from Pseudomonas cellulosa/Cellvibrio japonicus Xyn10C binds xylopentaose in a 20-25 A concave groove. Two tryptophan stacking faces separated by about 240 degrees complement approximate threefold helical ligand conformation; 2/3 hydroxyls exposed in four of five subsites.",
+      "locations": [
+        "Abstract"
+      ],
+      "license_context": "Crossref and Elsevier API metadata identify CC BY 4.0 for published version; retrieved XML is metadata only, not full text."
+    },
+    {
+      "pdb_id": "1KJL",
+      "doi": "10.1021/ja043475p",
+      "url": "https://pubs.acs.org/doi/10.1021/ja043475p",
+      "access_scope": "deposition_reproduced_primary_abstract; ACS publisher returned HTTP403",
+      "density_evidence": "No ligand density figure or residue-specific density statement accessible in reviewed primary abstract.",
+      "ligand_and_context_evidence": "The reported crystal structures are the human galectin-3 carbohydrate recognition domain complexed with LacNAc and with an aromatic high-affinity inhibitor; those are different complexes. Arg144 orientation changes in the inhibitor complex relative to LacNAc. The LacNAc reference must not be assigned inhibitor density/interaction evidence.",
+      "locations": [
+        "Abstract"
+      ],
+      "license_context": "No OA license present in Crossref metadata; unauthorized third-party mirror not downloaded."
+    },
+    {
+      "pdb_id": "1QFO",
+      "doi": "10.1016/S1097-2765(00)80071-4",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1097276500800714",
+      "access_scope": "indexed_publisher_full_text_Results_and_Discussion_and_Figure_1_caption; raw full-text retrieval failed",
+      "density_evidence": "Results reports clear sialyllactose density for protein molecules A and B, whereas molecule C shows only sialic acid and disordered lactose. Figure 1A depicts complete 3-prime sialyllactose bound to molecule B in the final 2Fo-Fc map contoured at 1 sigma. This directly concerns the already fixed selected deposited protein B/glycan E copy; no new copy selection made.",
+      "ligand_and_context_evidence": "The construct is the functional N-terminal 119-residue SnD1 domain, with three crystallographic molecules. A/B contain residues 1-118, C 1-119. Density is poor for protein residues33-34 and102 in all copies. Main article refinement is1.85 A at295K, R20.6%/Rfree25%; 2.3 A100K data are a separate comparison.",
+      "locations": [
+        "Results and Discussion first paragraph",
+        "Figure 1A caption",
+        "Table 1"
+      ],
+      "license_context": "Publisher labels open archive under Elsevier user license; Crossref license https://www.elsevier.com/open-access/userlicense/1.0/. No raw full text archived."
+    },
+    {
+      "pdb_id": "2J1T",
+      "doi": "10.1074/JBC.M607620200",
+      "url": "https://www.jbc.org/article/S0021925819350045/pdf",
+      "access_scope": "indexed_publisher_full_PDF_specific_Results_and_Figure_5_caption; raw PDF retrieval HTTP403",
+      "density_evidence": "Primary Results says oligosaccharide density was well defined and allowed unambiguous modeling for H-trisaccharide, A-tetrasaccharide analogue and Lewis y. Fig5D shows Lewis y with maximum-likelihood/sigma-A-weighted 2Fo-Fc map at1 sigma, corresponding to0.28 e/A^3. Only one of two crystallographic SpX-1 molecules binds oligosaccharide; packing occludes the other.",
+      "ligand_and_context_evidence": "This is the SpX-1 fucose-binding module from the C-terminal CBM47 triplet of1038-aa SpGH98. The paper describes the alpha1,2 terminal fucose recognition and additional interactions for the Lewis y antigen. Complete multivalent parent protein is outside the crystal module.",
+      "locations": [
+        "Results around Figure5",
+        "Figure5D caption",
+        "Introduction"
+      ],
+      "license_context": "Publisher indexed PDF and official Elsevier metadata identify CC BY; Crossref identifies CC BY4.0. Downloaded XML is citation/license metadata only."
+    },
+    {
+      "pdb_id": "1PWB",
+      "doi": "10.1016/S0022-2836(03)00761-7",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283603007617",
+      "access_scope": "publisher_abstract_and_section_excerpts_Overall_structures_Maltose_binding_Preparation",
+      "density_evidence": "Reviewed publisher excerpt says the first24 residues (hSP-D179-202) lack visible electron density; ligand-bound structure is described as monosaccharide recognition with minimal conformational change. No full maltose density figure was accessible in this review.",
+      "ligand_and_context_evidence": "The construct is a recombinant human homotrimer with each chain Gly179-Phe355. Three CRDs236-355 are spatially separated and linked through coiled-coil neck203-235; therefore released single-chain receptor does not represent the published full trimer.",
+      "locations": [
+        "Overall structures excerpt",
+        "Maltose binding excerpt",
+        "Preparation of rfhSP-D excerpt"
+      ],
+      "license_context": "No OA license found in Crossref; only accessible publisher excerpts reviewed, no full text archived."
+    },
+    {
+      "pdb_id": "2VUZ",
+      "doi": "10.1074/JBC.M804353200",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2662075/",
+      "access_scope": "downloaded_primary_full_text; Methods_Results_Figures1_4_5_Table3_reviewed",
+      "density_evidence": "Methods reports initially clear residual density for at least five sugar monomers, manual building according to known chemistry, with no ambiguous glycosidic linkage. Results identifies five initial residues then two further GlcNAc residues; both antennal capping Gal and Asn could not be located. Fig4A presents final weighted2mFo-DFc map at1 sigma (0.34 e/A^3). Seven modeled sugars are not the complete administered nonasaccharide-Asn ligand.",
+      "ligand_and_context_evidence": "The alpha1-6-arm mannose O3/O4 coordinate recognition calcium. The alpha1-3-arm mannose has no direct protein contact; its GlcNAc stacks onTrp108. Both chitobiose core residues lack direct protein contact. Paper reports a disulfide dimer in crystal2-fold symmetry and Cys bridge2.33 A for complex, possibly radiation damaged (native2.05 A). Pro91 is4-hydroxyproline.",
+      "locations": [
+        "Structure determination Methods",
+        "Crystal Structure of Codakine-Nona-Asn Results",
+        "Figure4",
+        "Table3",
+        "Overall Structure of Codakine",
+        "Figure5"
+      ],
+      "license_context": "PMC archived version shows copyright2008 ASBMB; current published version CC BY4.0 according to Crossref (from2020-09-18). Both provenance and current license retained."
+    }
+  ]
+}

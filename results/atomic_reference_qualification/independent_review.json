@@ -1,0 +1,32 @@
+{
+  "archive_replay_passed": true,
+  "checked_archives": 86,
+  "docking_results_opened": false,
+  "ledger_sha256": "8ed3887e2575f8ed92d73562f9b79c088036f326ed177af2c71b55522eedf383",
+  "max_density_difference_sigma": 0.0,
+  "review_date": "2026-11-03",
+  "review_findings": [
+    {
+      "case": "1GNY",
+      "density_supported_atoms_fraction": 0.9,
+      "residue_average_occupancy": 0.95,
+      "scope": "full modeled ligand under residue-level operational criteria",
+      "uncertain_terminal_O1": {
+        "atom_density_sigma": 0.6085929870605469,
+        "max_within_half_A_sigma": 0.6204137802124023,
+        "occupancy": 0.5
+      },
+      "wording_limit": "Frozen policy says occupancy_min at residue level but does not explicitly name the average; code and report use wwPDB avgoccu. Do not claim atom-level occupancy>=0.9 or every atom resolved."
+    },
+    {
+      "borderline_difference_density_sigma": -2.866601,
+      "case": "1PWB",
+      "criterion": "greater than -3sigma",
+      "interpretation": "Passes operational threshold with an explicit structural caution; numerical tolerance does not determine classification."
+    }
+  ],
+  "reviewer_interpretation": "Full modeled ligand passes the operational residue criteria is defensible; unique atomic truth is not established.",
+  "schema_version": 1,
+  "scored_decisions_reproduced": 7,
+  "source_only": true
+}

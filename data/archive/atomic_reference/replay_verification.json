@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "source_only": true,
+  "prediction_outcomes_consulted": false,
+  "status": "verified",
+  "ledger_sha256": "8ed3887e2575f8ed92d73562f9b79c088036f326ed177af2c71b55522eedf383",
+  "policy_sha256": "93887a57a341a8b40eb1f755a4617570ee09fe703f6c4213ca891e5d5ef8f733",
+  "manual_adjudication_sha256": "8d6c8dfe5daf6718038c11944bcadd77db19d66449885cab9894de578d471fd1",
+  "manual_adjudications": "Pinned source-quality judgments retained; not independently automated or proved.",
+  "density_tolerance_sigma": 1e-05,
+  "tolerance_scope": "Only normalized Fourier-map samples. Exact atom identities, coordinates, inventories, validation and cutoff decisions. Chirality determinant signs, named neighbors and substitutions are exact; magnitudes are informative.",
+  "maximum_absolute_density_difference_sigma": 0.0,
+  "checked_archive_count": 86,
+  "software": {
+    "gemmi": "0.7.5",
+    "numpy": "2.4.2"
+  },
+  "cases": [
+    {
+      "case_id": "154L",
+      "qualification": "rejected",
+      "scored_residues": [],
+      "scored_atoms": 0,
+      "released_atoms": 43,
+      "residue_count": 3,
+      "status": "verified"
+    },
+    {
+      "case_id": "1GNY",
+      "qualification": "full_ligand",
+      "scored_residues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scored_atoms": 46,
+      "released_atoms": 46,
+      "residue_count": 5,
+      "status": "verified"
+    },
+    {
+      "case_id": "1KJL",
+      "qualification": "modeled_core",
+      "scored_residues": [
+        2
+      ],
+      "scored_atoms": 11,
+      "released_atoms": 26,
+      "residue_count": 2,
+      "status": "verified"
+    },
+    {
+      "case_id": "1QFO",
+      "qualification": "modeled_core",
+      "scored_residues": [
+        2,
+        3
+      ],
+      "scored_atoms": 31,
+      "released_atoms": 43,
+      "residue_count": 3,
+      "status": "verified"
+    },
+    {
+      "case_id": "2J1T",
+      "qualification": "modeled_core",
+      "scored_residues": [
+        2,
+        3
+      ],
+      "scored_atoms": 21,
+      "released_atoms": 46,
+      "residue_count": 4,
+      "status": "verified"
+    },
+    {
+      "case_id": "1PWB",
+      "qualification": "full_ligand",
+      "scored_residues": [
+        1,
+        2
+      ],
+      "scored_atoms": 23,
+      "released_atoms": 23,
+      "residue_count": 2,
+      "status": "verified"
+    },
+    {
+      "case_id": "2VUZ",
+      "qualification": "modeled_core",
+      "scored_residues": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "scored_atoms": 47,
+      "released_atoms": 90,
+      "residue_count": 7,
+      "status": "verified"
+    }
+  ]
+}

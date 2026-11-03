@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "source_only": true,
+  "contact_cutoff_A": 4,
+  "cases": [
+    {
+      "case_id": "154L",
+      "protein_chain_min_distance_to_full_selected_ligand_A": {
+        "A": 2.797845957160617
+      },
+      "protein_atoms_absent_from_released_coordinates_within_4A": [],
+      "assembly_generation": {
+        "assembly_id": [
+          "1"
+        ],
+        "oper_expression": [
+          "1"
+        ],
+        "asym_id_list": [
+          "A,B,C"
+        ]
+      }
+    },
+    {
+      "case_id": "1GNY",
+      "protein_chain_min_distance_to_full_selected_ligand_A": {
+        "A": 2.6178886530943197
+      },
+      "protein_atoms_absent_from_released_coordinates_within_4A": [],
+      "assembly_generation": {
+        "assembly_id": [
+          "1"
+        ],
+        "oper_expression": [
+          "1"
+        ],
+        "asym_id_list": [
+          "A,B,C,D"
+        ]
+      }
+    },
+    {
+      "case_id": "1KJL",
+      "protein_chain_min_distance_to_full_selected_ligand_A": {
+        "A": 2.538158781479204
+      },
+      "protein_atoms_absent_from_released_coordinates_within_4A": [],
+      "assembly_generation": {
+        "assembly_id": [
+          "1"
+        ],
+        "oper_expression": [
+          "1"
+        ],
+        "asym_id_list": [
+          "A,B,C,D,E,F"
+        ]
+      }
+    },
+    {
+      "case_id": "1QFO",
+      "protein_chain_min_distance_to_full_selected_ligand_A": {
+        "A": 20.500295558845,
+        "B": 2.6429464618111345,
+        "C": 20.791973691787895
+      },
+      "protein_atoms_absent_from_released_coordinates_within_4A": [],
+      "assembly_generation": {
+        "assembly_id": [
+          "1",
+          "2",
+          "3"
+        ],
+        "oper_expression": [
+          "1",
+          "1",
+          "1"
+        ],
+        "asym_id_list": [
+          "A,D,G",
+          "B,E,H",
+          "C,F,I"
+        ]
+      }
+    },
+    {
+      "case_id": "2J1T",
+      "protein_chain_min_distance_to_full_selected_ligand_A": {
+        "A": 2.6811122691897875,
+        "B": 17.55036996761037
+      },
+      "protein_atoms_absent_from_released_coordinates_within_4A": [],
+      "assembly_generation": {
+        "assembly_id": [
+          "1",
+          "2"
+        ],
+        "oper_expression": [
+          "1",
+          "1"
+        ],
+        "asym_id_list": [
+          "A,C,D,F",
+          "B,E,G"
+        ]
+      }
+    },
+    {
+      "case_id": "1PWB",
+      "protein_chain_min_distance_to_full_selected_ligand_A": {
+        "A": 2.482899917435259,
+        "B": 22.02977714367533,
+        "C": 23.88975724029024
+      },
+      "protein_atoms_absent_from_released_coordinates_within_4A": [
+        {
+          "author_chain": "A",
+          "author_resnum": "343",
+          "resname": "ARG",
+          "atom_name": "CD",
+          "alt_id": "B",
+          "occupancy": 0.5,
+          "distance_full_ligand_A": 3.8925513484089067,
+          "distance_scored_core_A": 3.8925513484089067
+        },
+        {
+          "author_chain": "A",
+          "author_resnum": "343",
+          "resname": "ARG",
+          "atom_name": "NE",
+          "alt_id": "B",
+          "occupancy": 0.5,
+          "distance_full_ligand_A": 3.4281664195310015,
+          "distance_scored_core_A": 3.4281664195310015
+        },
+        {
+          "author_chain": "A",
+          "author_resnum": "343",
+          "resname": "ARG",
+          "atom_name": "CZ",
+          "alt_id": "B",
+          "occupancy": 0.5,
+          "distance_full_ligand_A": 3.0558146213407653,
+          "distance_scored_core_A": 3.0558146213407653
+        },
+        {
+          "author_chain": "A",
+          "author_resnum": "343",
+          "resname": "ARG",
+          "atom_name": "NH1",
+          "alt_id": "B",
+          "occupancy": 0.5,
+          "distance_full_ligand_A": 3.492717280284792,
+          "distance_scored_core_A": 3.492717280284792
+        },
+        {
+          "author_chain": "A",
+          "author_resnum": "343",
+          "resname": "ARG",
+          "atom_name": "NH2",
+          "alt_id": "B",
+          "occupancy": 0.5,
+          "distance_full_ligand_A": 3.057877041347477,
+          "distance_scored_core_A": 3.057877041347477
+        }
+      ],
+      "assembly_generation": {
+        "assembly_id": [
+          "1"
+        ],
+        "oper_expression": [
+          "1"
+        ],
+        "asym_id_list": [
+          "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R"
+        ]
+      }
+    },
+    {
+      "case_id": "2VUZ",
+      "protein_chain_min_distance_to_full_selected_ligand_A": {
+        "A": 2.476532656760254
+      },
+      "protein_atoms_absent_from_released_coordinates_within_4A": [
+        {
+          "author_chain": "A",
+          "author_resnum": "61",
+          "resname": "SER",
+          "atom_name": "OG",
+          "alt_id": "B",
+          "occupancy": 0.5,
+          "distance_full_ligand_A": 3.6474240225123262,
+          "distance_scored_core_A": 3.6474240225123262
+        },
+        {
+          "author_chain": "A",
+          "author_resnum": "91",
+          "resname": "HYP",
+          "atom_name": "O",
+          "alt_id": false,
+          "occupancy": 1.0,
+          "distance_full_ligand_A": 3.8728275200426863,
+          "distance_scored_core_A": 5.217517896471462
+        }
+      ],
+      "assembly_generation": {
+        "assembly_id": [
+          "1"
+        ],
+        "oper_expression": [
+          "1"
+        ],
+        "asym_id_list": [
+          "A,B,C,D,E,F,G"
+        ]
+      },
+      "published_dimer_operator_4_555": {
+        "operator": "-x,y,-z+1/2",
+        "distance_partner_protein_to_scored_core_A": 15.6964637100208
+      }
+    }
+  ]
+}

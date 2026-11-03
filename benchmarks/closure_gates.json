@@ -1,5 +1,18 @@
 {
-  "assessment_date": "2026-11-01",
+  "assessment_date": "2026-11-03",
+  "atomic_reference_milestone": {
+    "evidence": [
+      "docs/ATOMIC_REFERENCE_QUALIFICATION.md",
+      "benchmarks/atomic_reference_ledger.json",
+      "data/archive/atomic_reference/replay_verification.json"
+    ],
+    "full_modeled_ligands": 2,
+    "qualified_modeled_cores": 4,
+    "rejected_references": 1,
+    "scope": "seven existing external development cases, source-only before new pose scoring",
+    "scored_atoms": 179,
+    "source_only_replay_archives": 86
+  },
   "completed_milestone": {
     "description": "Executed and reproducible development diagnostics; original scientific purpose remains incomplete",
     "evidence": [
@@ -18,7 +31,7 @@
   },
   "gates": [
     {
-      "evidence": "All eight site references audited with assembly/graph/map/local quality cautions; accepted for descriptive site localization only. No new atomic-pose reference or held-out confirmatory reference qualification earned.",
+      "evidence": "Source-only atomic review now covers all seven external development cases, with frozen operational density/geometry rules and exact scored atom maps: two full modeled ligands, four modeled cores, one rejected. All86source archives and317sourceatoms reproduce; borderline occupancy/density and model bias remain explicit. Untouched cohort atomic/family qualification remains in progress.",
       "id": "reference_quality",
       "requirement": "Independent assembly, chemical graph, atom map and local structural reference checks for all eligible cases",
       "status": "in_progress"

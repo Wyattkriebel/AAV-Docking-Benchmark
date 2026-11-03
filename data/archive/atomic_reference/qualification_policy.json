@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "frozen_date": "2026-11-03",
+  "frozen_before": "This auditor inspected any atomic density maps or docking/pocket outcomes; no docking outcomes are read in this audit.",
+  "cohort": ["154L","1GNY","1KJL","1QFO","2J1T","1PWB","2VUZ"],
+  "selected_copies": "Exactly the existing released ligand copies identified in site_reference_ledger.json; no alternative crystal-copy substitution.",
+  "required_per_scored_residue": {
+    "RSCC_min": 0.80,
+    "RSR_max": 0.25,
+    "occupancy_min": 0.90,
+    "fraction_heavy_atoms_with_local_2mFo_DFc_at_least_1sigma_min": 0.90,
+    "local_density_search_radius_A": 0.50,
+    "local_density_sampling_grid_A": 0.25,
+    "atom_center_mFo_DFc_min_sigma_exclusive": -3.0,
+    "unresolved_chirality_outlier_allowed": false,
+    "absolute_mogul_bond_or_angle_Zscore_max_exclusive": 5.0,
+    "density_map_type": "wwPDB validation weighted coefficients transformed to complete unit-cell Fourier maps; mean-subtracted and normalized by full-cell standard deviation",
+    "map_fft_sample_rate": 3.0
+  },
+  "full_ligand": "All released heavy atoms and all intended carbohydrate residues present, exact coordinate/atom-name correspondence, chemically consistent CCD/link graph and stereochemistry, every residue passes.",
+  "modeled_core": "Largest covalently connected component of whole qualifying modeled sugar residues; at least one complete sugar ring; tie-break by heavy-atom count, then ascending prepared residue-number tuple. All modeled atoms of each retained residue are scored. Never delete individual atoms to obtain a pass. Missing external substituents and original full graph are disclosed.",
+  "geometry": "Chirality flags and absolute bond/angle Z>=5 block a residue. Lower-Z and torsion/clash flags are retained and inspected; torsion alone is not rejected because binding can stabilize rare conformers. Unresolved linkage stereochemistry or CCD/coordinate disagreement blocks affected residues.",
+  "assembly": "Missing biological subunits are disclosed; absence blocks atomic qualification if omitted atoms contact the scored ligand within 4 A or supply required recognition cofactor. No biological-assembly-completeness or independent-fold claim.",
+  "map_limit": "Maps are model-phased validation reconstructions, not independent omit maps. Passing is an operational experimental-reference gate, not proof of a unique ligand conformation or coordinate accuracy.",
+  "unknown_evidence": "Unknown required evidence is not a pass; all seven remain in the denominator with explicit rejection/inconclusive reason.",
+  "use": "Source qualification only, development references; native positions, residue identities and this audit may not influence prediction search or ranking."
+}

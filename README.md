@@ -13,6 +13,14 @@ requirements. A successful software run does not establish biological reliabilit
 
 ## New site and specificity evidence
 
+The [atomic-reference qualification](docs/ATOMIC_REFERENCE_QUALIFICATION.md)
+now reviews the seven external development cases against deposited validation
+and Fourier maps. Two full modeled ligands and four explicitly mapped cores
+pass the operational criteria; one case is rejected. These decisions retain
+borderline density and occupancy cautions and do not imply that every scored
+atom is uniquely resolved. The frozen old docking results remain unchanged.
+Replay the source checks with `python scripts/verify_atomic_references.py`.
+
 The [site-localization report](docs/SITE_LOCALIZATION_RESULTS.md) evaluates
 fpocket 4.2.3, P2Rank 2.5.1 and 100 area-weighted surface draws per receptor,
 using whole protein inputs without reference-derived crops or search boxes.
