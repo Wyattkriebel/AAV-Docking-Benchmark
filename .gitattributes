@@ -11,5 +11,6 @@ results/site_discovery/**/evaluation_details.json -diff
 results/site_discovery/**/p2rank/result.json -diff
 results/site_discovery/**/random_surface_v2/result.json -diff
 data/archive/atomic_reference/** -text -whitespace -diff
+data/archive/independent_specificity_sources/** -text -whitespace -diff
 # GitHub can collapse generated evidence while keeping it available for review.
 results/** linguist-generated=true

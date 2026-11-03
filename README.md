@@ -39,6 +39,17 @@ pairs; size and charge each give AUROC 0.5000. This known-site experiment
 describes one assay and chemical series. No-binding labels are categorical,
 not numerical affinity bounds, and no alternative has atomic pose truth.
 
+The independent [POL specificity experiment](docs/POL_SPECIFICITY_RESULTS.md)
+compares natural D-galactose with actually tested D-glucose from one ITC study.
+All 96 prespecified runs completed across two anomers, two sites, independently
+solved holo/apo receptors and calcium-retained/dry profiles. The primary
+equal-anomer mean favors galactose by only 0.0273 kcal/mol; six of seven
+sensitivity conditions reverse that preference. The matched anomers also
+favor different sugars. This workflow therefore does not robustly distinguish
+this measured epimer contrast under the tested preparation choices. Equal
+anomer weighting is a model heuristic, and one pair cannot estimate classifier
+accuracy or cross-family specificity.
+
 Recompute the new results from archived bytes without installing predictors:
 
 ```sh
@@ -46,6 +57,7 @@ python scripts/verify_site_predictions.py --output results/site_discovery/predic
 python scripts/verify_site_experiment.py --numeric-tolerance 1e-10 --surface-area-tolerance 1e-6
 python scripts/regenerate_site_report.py --check
 python scripts/regenerate_specificity_report.py --check --numeric-tolerance 1e-10
+python scripts/regenerate_pol_report.py --check
 ```
 
 The site verifier restores native sources offline, reparses all 27 predictor

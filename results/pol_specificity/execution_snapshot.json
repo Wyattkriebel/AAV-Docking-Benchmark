@@ -1,0 +1,57 @@
+{
+  "configuration_sha256": "802e044255248bdaf5d75675e3105158722c1aed29541bcf38eec01e3494b71f",
+  "cpu_per_run": 2,
+  "driver_sha256": "de4619f585df35aebfef1aea2fbab572cc50ef975b9844091e846eb20f60349f",
+  "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+  "files": [
+    {
+      "path": "aav_benchmark/aav.py",
+      "sha256": "dbd05bbedaf6b2d9eb4ba8ebdc3b152d178b21af28b43cb4bafb337d17661983",
+      "snapshot_path": "execution_snapshot/aav_benchmark/aav.py"
+    },
+    {
+      "path": "aav_benchmark/engine.py",
+      "sha256": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8",
+      "snapshot_path": "execution_snapshot/aav_benchmark/engine.py"
+    },
+    {
+      "path": "aav_benchmark/external.py",
+      "sha256": "2b224a39a71db9a4856c384d11d48de986c89d1b6afd733166936e57ed0caf1f",
+      "snapshot_path": "execution_snapshot/aav_benchmark/external.py"
+    },
+    {
+      "path": "aav_benchmark/metrics.py",
+      "sha256": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+      "snapshot_path": "execution_snapshot/aav_benchmark/metrics.py"
+    },
+    {
+      "path": "aav_benchmark/pol_specificity.py",
+      "sha256": "b94b8911ce0cb5e2eab94f4c63114dbbf3a00777022807e6022019f7a6fb04c6",
+      "snapshot_path": "execution_snapshot/aav_benchmark/pol_specificity.py"
+    },
+    {
+      "path": "aav_benchmark/provenance.py",
+      "sha256": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+      "snapshot_path": "execution_snapshot/aav_benchmark/provenance.py"
+    },
+    {
+      "path": "aav_benchmark/specificity.py",
+      "sha256": "e62e0296a0e3561707fde0a6184770260916d35f394eb2b86cf206c66fdeae8b",
+      "snapshot_path": "execution_snapshot/aav_benchmark/specificity.py"
+    },
+    {
+      "path": "aav_benchmark/archive.py",
+      "sha256": "3925ddb1ac90e12d4fc14364c10e91f7daf27256d17641bbb8a83188d9f748bb",
+      "snapshot_path": "execution_snapshot/aav_benchmark/archive.py"
+    },
+    {
+      "path": "scripts/run_pol_specificity.py",
+      "sha256": "87e11fa32e576ffdb2e1afd5b7aa4b88d744be3c83bcc936a8ef6444b124c3fa",
+      "snapshot_path": "execution_snapshot/scripts/run_pol_specificity.py"
+    }
+  ],
+  "pid": 79675,
+  "schema_version": 1,
+  "started_UTC": "2026-11-03T15:47:16.711086+00:00",
+  "workers": 1
+}

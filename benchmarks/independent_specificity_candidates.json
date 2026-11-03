@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "curation_date": "2026-11-03",
+  "status": "source_inventory_and_POL_qualification_frozen_computational_freeze_separate",
+  "purpose": "Identify independent protein-family assays with actually tested binding alternatives before independent-target score inspection.",
+  "protocol": "PROTOCOL.md, Specificity and Gate 3",
+  "existing_records_modified": false,
+  "new_docking_performed": false,
+  "selection_basis": "Primary assay endpoint, chemical identity, context recoverability, and structure correspondence; no independent-target docking results used.",
+  "inventory_rule": "Retain every candidate below, including failed qualifications. Parent workflow must freeze any accepted cohort and computational rules separately.",
+  "recommended_candidate_id": "perduca_2020_POL_free_hexose_ITC",
+  "candidates": [
+    {
+      "candidate_id": "perduca_2020_POL_free_hexose_ITC",
+      "target": "Pleurotus ostreatus lectin, recombinant POL (rPOL)",
+      "protein_family": "POL/CBM67-like calcium-dependent carbohydrate recognition; outside galectins",
+      "primary_source": {
+        "doi": "10.1093/glycob/cwaa006",
+        "url": "https://academic.oup.com/glycob/article/30/8/550/5716261",
+        "public_article_copy": "https://floydfungi.ch/wp-content/uploads/2023/09/cwaa006.pdf",
+        "article_pdf_sha256": "e00d644cc707fc8336059554c5c655c95f94abc067c5e6fe536179932fd92d85",
+        "locators": [
+          "p.557 Figure 4A-C and accompanying text",
+          "p.560 Recombinant protein expression and purification",
+          "p.560 Isothermal titration calorimetry",
+          "p.560 Saturation transfer difference-NMR spectroscopy",
+          "p.551 Amino acid sequence"
+        ],
+        "chemical_figure_visually_checked": true,
+        "supplementary_file_name": "SI_cwaa006 - pdf file",
+        "supplementary_retrieved": false,
+        "supplementary_gap": "Oxford lists SI, but its downloadable bytes and Table SIII were not recovered; no exact SD or extra numerical values are transcribed."
+      },
+      "assay": {
+        "method": "solution ITC, NanoITC (TA Instruments)",
+        "temperature_C": 25,
+        "protein_concentration_uM": 100,
+        "initial_protein_solution_uL": 190,
+        "ligand_titrant_concentration_mM": 10,
+        "injection_count": 20,
+        "injection_volume_uL": 2.5,
+        "stirring_rpm": 250,
+        "buffer": {
+          "Tris_HCl_mM": 20,
+          "pH": 7.5,
+          "CaCl2_mM": 0.1,
+          "NaCl_added_in_reported_ITC_recipe": null
+        },
+        "buffer_caveat": "No NaCl is listed in the ITC recipe. Earlier gel filtration used 0.15 M NaCl; residual salt/dialysis exchange is not specified. Do not assert zero ionic strength or transfer 0.15 M into this assay by inference.",
+        "presentation": "free soluble reducing carbohydrates, no linker or multivalent glycan carrier",
+        "blank": "each ligand titrated into buffer; dilution heats subtracted",
+        "fit": "independent model",
+        "ligand_valency": 1,
+        "protein_oligomer": "disulfide-linked homodimer; two sites per protein monomer",
+        "numerical_detection_limit": null,
+        "NB_semantics": "No binding can be detected with glucose under the reported titration; categorical absence of detectable ITC binding, not a universal zero-affinity assertion or a numerical Kd lower bound.",
+        "ten_mM_is": "syringe/titrant concentration, not stated terminal concentration in the protein cell"
+      },
+      "source_tested_inventory": [
+        {
+          "species_id": "D_galactose",
+          "source_name": "galactose",
+          "source_chemical_locator": "Figure 4E D-pyranose drawing",
+          "ITC_outcome": "measured_binding",
+          "reported_Kd_M_approximate": 0.00078,
+          "reported_Kd_precision": "approximately; main text describes melibiose and galactose as having approximately the same affinity",
+          "uncertainty": null,
+          "matched_comparison_role": "positive"
+        },
+        {
+          "species_id": "D_glucose",
+          "source_name": "glucose",
+          "source_chemical_locator": "Figure 4F D-pyranose drawing",
+          "ITC_outcome": "no_binding_detected",
+          "Kd_M": null,
+          "matched_comparison_role": "actually tested alternative"
+        },
+        {
+          "species_id": "melibiose",
+          "source_name": "melibiose",
+          "ITC_outcome": "measured_binding",
+          "reported_Kd_M_approximate": 0.00078,
+          "matched_comparison_role": "excluded from size-matched primary pair; separately retain as source-tested larger ligand",
+          "exact_graph_transcribed": false
+        }
+      ],
+      "orthogonal_evidence": {
+        "method": "STD-NMR, separate context",
+        "outcomes": {
+          "D_galactose": "clear saturation transfer",
+          "D_glucose": "no detectable STD signals"
+        },
+        "protein_uM": 10,
+        "sugar_mM": 0.5,
+        "buffer": "20 mM potassium phosphate in D2O, pH 7.5",
+        "temperature_C": 5,
+        "scope": "corroborative qualitative evidence; do not pool its observations with ITC or treat it as an ITC detection threshold"
+      },
+      "construct": {
+        "source": "same-study recombinant protein",
+        "native_mature_protein_length_reported": 353,
+        "signal_peptide_length_reported": 20,
+        "cloning": "mature POL cDNA; pET15b; N-terminal His tag and thrombin site",
+        "expression_host": "Rosetta E. coli in main methods",
+        "tag_cleavage": "overnight thrombin digestion; subsequent gel filtration",
+        "sequence_provenance": "four independently sequenced clones reportedly agreed; their variant sequence was used to model native and recombinant structures",
+        "exact_assay_batch_sequence_independently_recovered": false,
+        "provenance_caveat": "RCSB summary lists BL21(DE3) while article methods specify Rosetta. Main text reports three variant positions against GenBank; deposition annotates four differences against UniProt. Preserve the deposited sequence and disclose this discrepancy."
+      },
+      "structure_proxy": {
+        "pdb": "6T1D",
+        "source_url": "https://files.rcsb.org/download/6T1D.cif",
+        "sha256": "b6aff9dad0e696d5179ba3fe52fac851bc858deb9287859f950cf3e4f0149eef",
+        "resolution_A": 2.2,
+        "structure_context": "same-study recombinant POL crystallized with melibiose; specificity receptor proxy, not pose truth for glucose/galactose",
+        "assembly": "author-defined assembly 1, chains A/B; dimer already present by identity operation",
+        "assembly_caveat": "Three biological dimers in asymmetric unit; do not treat six chains as six independent targets. Full reference validation and actual preparation remain for a separate freeze.",
+        "sequence_correspondence": {
+          "declared_sequence": "GSHMAPDSQVCDVGSTATCKITATPRQFQPALLSTSKWIWTGENPIPGGSNIISTRPFRKNITAPCGKCSVCATIVVASDDAHTFYVNGVRIGTGAGFRQGQALFVALQPTWNLFAIAGQNLVANSPAGIMASILVHFSDGTSETFVTDESWKTLRAAPPENFQLPSTNDSNWPSAAVQGAYQNSVWGPPVLPPVLPLRGSNWIWTSDNVNGAAPVGSRAFRKTVNQCTKVAVCATVLIAADDRYTLYVNGATVGSGSSYTVADAYTIPNLHPTFNTFAINATNGGGPAGVIATILITYSDGSNETVVTDASWKAIQTIPQGFQPPLIDEFGWESAKIIGAFGVAPWGAGMVIPSA",
+          "declared_length": 356,
+          "declared_sequence_sha256": "539ffecca41a1f7d91120f21da580a2be4d5d2a6daa34d05610864556206f333",
+          "reference": "UniProt E7E2M2",
+          "mapping": "entity label_seq_id 5-356 corresponds to author/UniProt positions 22-373; label_seq_id 1-4 is GSHM, annotated expression tag at author positions 18-21",
+          "reference_conflicts": [
+            "D31G",
+            "S43R",
+            "N51S",
+            "A52T"
+          ],
+          "observed_A_B_author_residues": "36-373 inclusive, 338 per chain",
+          "unmodeled_declared_N_terminal_residues_per_chain": 18,
+          "assay_to_structure_status": "same-study recombinant construct correspondence; exact assayed-batch sequence not independently established",
+          "apo_comparison": {
+            "pdb": "6T0Q",
+            "source_url": "https://files.rcsb.org/download/6T0Q.cif",
+            "sha256": "92d28955cfa58f11e6471afa531bfc141df6b3563b49196b8dcd29264177ee89",
+            "declared_length": 353,
+            "declared_author_range": "21-373",
+            "observed_author_range": "34-373",
+            "observed_residues": 340,
+            "core22_373_identical_to_6T1D": true,
+            "core22_373_length": 352,
+            "core22_373_sha256": "4c35cb0249121dde64fc8fcff1548039bd888b96335114a9d0494c2b508889a3",
+            "scope": "native glycosylated protein; it is not the same recombinant assay protein"
+          }
+        },
+        "site_audit": "data/archive/independent_specificity_sources/POL_site_audit.json",
+        "known_site_selection": "Choose author-defined assembly 1; lexical first protein author chain, then lexical first attached glycan label_asym_id. Choose the centroid of the nonreducing GLA heavy atoms as known-site center.",
+        "selected_known_site": {
+          "protein_author_chain": "A",
+          "glycan_label_asym_id": "G",
+          "galactosyl_auth_chain": "G",
+          "galactosyl_auth_seq_id": 2,
+          "original_depositor_alias": "A/MLB501",
+          "center_A": [
+            21.664,
+            44.973364,
+            26.502545
+          ],
+          "center_definition": "arithmetic centroid of 11 nonhydrogen atoms of GLA G:2",
+          "native_calcium": "CA author A:401, label_asym_id S",
+          "selection_precedes_any_POL_docking_scores": true
+        },
+        "sites_per_chain": 2,
+        "sites_per_dimer": 4,
+        "heavy_atom_audit": {
+          "method": "Count unique heavy atom names for every observed standard amino acid against standard residue heavy atom counts; no modeled repairs.",
+          "chains_A_B_observed_author_range": "36-373 inclusive",
+          "observed_polymer_residues_per_chain": 338,
+          "observed_unique_heavy_atoms_per_chain": 2517,
+          "total_heavy_protein_atoms_AB": 5034,
+          "observed_residues_with_missing_standard_heavy_atom_count": [],
+          "scope": "Complete heavy atoms for observed residues; 18 declared N-terminal residues per chain are unmodeled. No claim of a full-length all-atom model."
+        }
+      },
+      "chemistry": {
+        "source_species_count_in_matched_pair": 2,
+        "model_graphs": [
+          {
+            "ccd": "GLA",
+            "name": "alpha-D-galactopyranose",
+            "smiles": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+            "canonical_smiles": "OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+            "formula": "C6H12O6",
+            "heavy_atoms": 12,
+            "formal_charge": 0,
+            "cif_sha256": "b25f41e8fac93225b955151c538d0996ea0a7032077d2dc5465083ee4d54ba96",
+            "source_url": "https://files.rcsb.org/ligands/download/GLA.cif",
+            "role": "explicit pyranose model state; not a separately measured assay species",
+            "defined_stereocentre_count": 5
+          },
+          {
+            "ccd": "GAL",
+            "name": "beta-D-galactopyranose",
+            "smiles": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O)O)O)O)O",
+            "canonical_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+            "formula": "C6H12O6",
+            "heavy_atoms": 12,
+            "formal_charge": 0,
+            "cif_sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+            "source_url": "https://files.rcsb.org/ligands/download/GAL.cif",
+            "role": "explicit pyranose model state; not a separately measured assay species",
+            "defined_stereocentre_count": 5
+          },
+          {
+            "ccd": "GLC",
+            "name": "alpha-D-glucopyranose",
+            "smiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+            "canonical_smiles": "OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O",
+            "formula": "C6H12O6",
+            "heavy_atoms": 12,
+            "formal_charge": 0,
+            "cif_sha256": "07eedff69de20c995d0aaf1f582bc6b9ecbf63bd6b4702dbb5141dcb3ab0f260",
+            "source_url": "https://files.rcsb.org/ligands/download/GLC.cif",
+            "role": "explicit pyranose model state; not a separately measured assay species",
+            "defined_stereocentre_count": 5
+          },
+          {
+            "ccd": "BGC",
+            "name": "beta-D-glucopyranose",
+            "smiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)O)O)O)O)O",
+            "canonical_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O",
+            "formula": "C6H12O6",
+            "heavy_atoms": 12,
+            "formal_charge": 0,
+            "cif_sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+            "source_url": "https://files.rcsb.org/ligands/download/BGC.cif",
+            "role": "explicit pyranose model state; not a separately measured assay species",
+            "defined_stereocentre_count": 5
+          }
+        ],
+        "shared_formula": "C6H12O6",
+        "shared_heavy_atom_count": 12,
+        "shared_model_formal_charge": 0,
+        "matched_relationship": "D-galactose and D-glucose differ at C4. Each matched-anomer pyranose pair differs at one stereocentre.",
+        "experimental_anomer_fractions": null,
+        "fixed_anomer_assay": false,
+        "reducing_end_caveat": "Free reducing sugars interconvert; Figure 4 depicts alpha pyranoses but does not establish anomerically locked assay reagents. Four model states are two chemical species, not four independent tested labels.",
+        "other_ring_forms_or_open_chain_fractions": null,
+        "model_scope": "CCD alpha/beta D-pyranose states only; not a claim that other solution forms were excluded experimentally",
+        "RDKit_validation": "four graphs parse; each C6H12O6, 12 heavy atoms, graph charge zero, five defined stereocentres"
+      },
+      "qualification": {
+        "source_qualified_tested_contrast": true,
+        "eligible_endpoint": "exploratory same-context D-galactose versus tested D-glucose ITC contrast, with declared reducing-sugar model scope",
+        "ready_for_fixed_single_graph_affinity_classifier": false,
+        "ready_for_docking_now": false,
+        "reason_not_frozen": "Source inventory and lexical known-site rule are frozen; parent must separately freeze computational preparation, metadata integrity, scoring and aggregation before any execution.",
+        "recommended_primary_inventory": [
+          "D_galactose",
+          "D_glucose"
+        ],
+        "recommended_source_sensitivity_inventory": [
+          "melibiose"
+        ],
+        "source_tested_alternatives_are_actual": true,
+        "size_and_charge_baseline": "tie: both primary species have identical formula/12-heavy-atom/neutral graph models",
+        "limits": [
+          "One independent protein family and one matched epimer contrast; no precision or reliability certification.",
+          "Free-sugar experimental labels belong to solution species; do not assign separate measured labels to alpha/beta models.",
+          "ITC noise threshold, replicate counts, exact uncertainties and Table SIII are not recovered.",
+          "Exact anomer fractions and assayed-batch sequence are not reported/recovered.",
+          "Calcium-dependent recognition needs a declared metal-aware receptor preparation.",
+          "A predeclared ring/anomer sensitivity may yield an exploratory computational test; it cannot establish an anomer-specific experimental classifier."
+        ],
+        "source_qualification_frozen": true,
+        "source_qualification_frozen_on": "2026-11-03",
+        "parent_authorized_computational_scope": {
+          "species": [
+            "D_galactose",
+            "D_glucose"
+          ],
+          "model_states_per_species": [
+            "alpha_D_pyranose",
+            "beta_D_pyranose"
+          ],
+          "seeds_per_model_state": 3,
+          "primary_aggregation": "equal-anomer mean; explicitly a model heuristic, not experimentally measured population weighting",
+          "anomer_sensitivity": "best and worst anomer per species; exact computational aggregation belongs in separate experiment freeze",
+          "unknown_solution_forms": "furanose, open-chain and solution anomer fractions remain unmeasured; no invented populations",
+          "claims": "one exploratory natural epimer contrast in one independent family, no calibrated affinity or population generalization"
+        }
+      }
+    },
+    {
+      "candidate_id": "duff_2011_ConA_septanoside_ITC",
+      "target": "Concanavalin A",
+      "protein_family": "legume lectin; outside galectins",
+      "primary_source": "https://pubs.rsc.org/en/content/articlehtml/2011/ob/c0ob00425a",
+      "doi": "10.1039/C0OB00425A",
+      "locators": [
+        "Figure 2",
+        "Figure 3",
+        "Table 1 and footnotes, p.157",
+        "ITC Studies, p.159"
+      ],
+      "recovered_assay": {
+        "temperature_K": 298,
+        "ConA_mM_range": [
+          0.2,
+          0.3
+        ],
+        "ligand_mM_range": [
+          15,
+          30
+        ],
+        "buffer": "50 mM 3,3-dimethylglutarate, pH 5.2; 250 mM NaCl; 1 mM CaCl2; 1 mM MnCl2",
+        "protein_form": "dimer",
+        "NB_semantics": "no binding detected under these conditions; no numerical Kd censoring"
+      },
+      "source_rows": [
+        {
+          "compound": "7",
+          "source_description": "methyl manno beta-septanoside",
+          "Ka_M_inverse": 840,
+          "reported_plus_minus": 40,
+          "entry_source": "new Table 1 measurement"
+        },
+        {
+          "compound": "8",
+          "source_description": "methyl galacto beta-septanoside",
+          "outcome": "NB",
+          "entry_source": "new Table 1 measurement"
+        },
+        {
+          "compound": "14",
+          "source_description": "methyl manno alpha-septanoside",
+          "outcome": "NB",
+          "entry_source": "new Table 1 measurement"
+        }
+      ],
+      "cross_source_controls_excluded": {
+        "compounds": [
+          "5",
+          "6",
+          "9",
+          "10"
+        ],
+        "reason": "Table 1 footnote b attributes these values to Castro et al. 2005 DOI 10.1039/B509243D",
+        "compound11": "methyl alpha-D-galactopyranoside NB imported from reference 46, Senear and Teller 1981; not a new matched same-assay result"
+      },
+      "proxy_pdb": {
+        "pdb": "1GIC",
+        "source_url": "https://files.rcsb.org/download/1GIC.cif",
+        "sha256": "ca29d109d79e9f616012fc5c046efb1e3d646049549d4bff323de49596f7f5ee",
+        "declared_protein_chain_length": 237,
+        "chains": "A/B",
+        "assay_construct_sequence_correspondence": "not independently established"
+      },
+      "qualification": {
+        "source_qualified_tested_contrast": false,
+        "status": "promising_but_not_ready",
+        "chemical_graphs": null,
+        "remaining_requirements": [
+          "Recover and visually verify the complete original 7, 8 and 14 stereochemical drawings and their synthesis-source correspondence; do not infer a septanose graph from shorthand gluco/manno/galacto.",
+          "In particular do not assume 7 and 14 differ only at the anomeric centre: C2 stereochemistry must be checked.",
+          "Recover protein reagent provenance, source construct and assay-to-1GIC sequence correspondence.",
+          "Recover injection schedule and compound-specific concentrations if available."
+        ],
+        "reason": "Text establishes real tested alternatives, but exact graph and construct gates remain open. No candidate was promoted from published calculations."
+      }
+    },
+    {
+      "candidate_id": "bouckaert_2004_FimH_hexose_SPR",
+      "target": "E. coli FimH isolated lectin domain",
+      "protein_family": "FimH adhesin; outside galectins",
+      "doi": "10.1111/j.1365-2958.2004.04415.x",
+      "primary_source": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2958.2004.04415.x",
+      "locators": [
+        "Table 1",
+        "Table 2",
+        "Experimental procedures > Binding studies"
+      ],
+      "source_measurements": [
+        {
+          "name": "mannose",
+          "Kd_SPR_M": 2.3e-06
+        },
+        {
+          "name": "glucose",
+          "Kd_M": 0.00924
+        },
+        {
+          "name": "galactose",
+          "Kd_M": 0.1
+        }
+      ],
+      "semantics": "All three are tabulated finite-affinity values. Prose calling galactose virtually no affinity must not turn its 100 mM table entry into NB.",
+      "presentation": "free soluble saccharide competition for binding of FimH to immobilized anti-site antibody Fab",
+      "recovered_context": {
+        "construct": "residues 1-158 with C-terminal 6-His tag, produced in minimal medium to avoid bound butyl mannoside",
+        "temperature_K": 298,
+        "running_buffer": "PBS, 0.005% surfactant P20, 3 mM EDTA",
+        "competition_protein_concentration": "fixed near antibody interaction Kd; no exact number recovered",
+        "saccharide_stocks": "typically 200 mM",
+        "saccharide_dose_series": "10-fold pilot dilutions, then extended/adapted range; exact per-sugar schedule not given"
+      },
+      "structure_lead": {
+        "pdb": "1UWF",
+        "primary_source_match": "same publication; explicit sequence/assay tag mapping not performed in this audit"
+      },
+      "qualification": {
+        "source_qualified_tested_contrast": false,
+        "status": "quantitative_low_affinity_lead_not_frozen",
+        "remaining_requirements": [
+          "Recover precise competition protein concentration and per-sugar concentration ranges or accept a named assay reconstruction limitation.",
+          "Freeze reducing-sugar ring/anomer treatment and perform the assay-to-PDB sequence correspondence.",
+          "Keep Table 2 finite values quantitative; no binary NB label or inferred detection bound."
+        ]
+      }
+    },
+    {
+      "candidate_id": "ficko_blean_2009_NagHCBM32_GlcNAc_GalNAc",
+      "target": "C. perfringens NagHCBM32-2",
+      "protein_family": "CBM32; outside galectins",
+      "doi": "10.1016/j.jmb.2009.04.066",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2937040/",
+      "locators": [
+        "Results > Carbohydrate binding specificity",
+        "Materials and methods > UV difference experiments"
+      ],
+      "source_tested_pair": [
+        "N-acetyl-D-glucosamine",
+        "N-acetyl-D-galactosamine"
+      ],
+      "source_outcome": "Characteristic UV difference signal for GlcNAc, not GalNAc or the other tested monosaccharides.",
+      "recovered_context": {
+        "protein_uM_approximate": 30,
+        "buffer": "20 mM Tris-HCl, pH 8.0",
+        "negative_ligand_concentration": "excess solid monosaccharide; numerical concentration unreported"
+      },
+      "positive_GlcNAc_Ka_UV_M_inverse": 2220,
+      "positive_GlcNAc_Ka_ITC_M_inverse": 1880,
+      "structure_lead": [
+        "2W1Q",
+        "2W1U",
+        "2WDB"
+      ],
+      "qualification": {
+        "source_qualified_tested_contrast": false,
+        "status": "fails_concentration_recovery",
+        "reason": "The negative screen used an unspecified excess of solid sugar; do not transfer the quantitative positive ITC recipe to GalNAc or interpret lack of UV perturbation as a Kd bound."
+      }
+    },
+    {
+      "candidate_id": "weatherman_1996_ConA_C_glycosides",
+      "target": "Concanavalin A and Dioclea grandiflora lectin",
+      "protein_family": "legume lectins; outside galectins",
+      "primary_source": "https://kiesslinglab.com/sites/default/files/labs/kiessling/pdfs/1996.weatherman.biochem.pdf",
+      "article_pdf_sha256": "22ad3c4ac088888755dd2d1be6a0dcb0c6cd50e6603c90e5c275329057fc624c",
+      "citation": "Weatherman et al. Biochemistry 35 (1996), 3619-3624",
+      "locators": [
+        "Figure 1 p.3620",
+        "Tables 1-3 p.3621",
+        "p.3622 discussion of compounds 3/4"
+      ],
+      "chemical_figure_visually_checked": true,
+      "source_tested_alternatives": "C-allyl glycosides 1/2 bind; monovalent norbornyl 3/4 mixture and bivalent 7 show NB; bivalent 5/6 show target-dependent results.",
+      "qualification": {
+        "source_qualified_tested_contrast": false,
+        "status": "fails_clean_matched_monovalent_series",
+        "reason": "3/4 is an assayed diastereomer mixture; 5/6/7 are bivalent and do not form the requested single-epitope matched panel. No mixture component is separately labeled from the combined NB result."
+      }
+    }
+  ],
+  "source_inventory_frozen_on": "2026-11-03",
+  "source_archive": "data/archive/independent_specificity_sources/manifest.json"
+}

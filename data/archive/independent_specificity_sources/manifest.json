@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "retrieval_date": "2026-11-03",
+  "purpose": "Primary source qualification before POL docking; immutable source bytes and source-derived geometry only.",
+  "archive_policy_url": "https://www.rcsb.org/pages/policies#usage",
+  "source_files": [
+    {
+      "path": "6T1D.cif",
+      "url": "https://files.rcsb.org/download/6T1D.cif",
+      "bytes": 3071458,
+      "sha256": "b6aff9dad0e696d5179ba3fe52fac851bc858deb9287859f950cf3e4f0149eef",
+      "license": "CC0-1.0, PDB archive data",
+      "raw_source_bytes": true
+    },
+    {
+      "path": "6T0Q.cif",
+      "url": "https://files.rcsb.org/download/6T0Q.cif",
+      "bytes": 629468,
+      "sha256": "92d28955cfa58f11e6471afa531bfc141df6b3563b49196b8dcd29264177ee89",
+      "license": "CC0-1.0, PDB archive data",
+      "raw_source_bytes": true
+    },
+    {
+      "path": "GLA.cif",
+      "url": "https://files.rcsb.org/ligands/download/GLA.cif",
+      "bytes": 8989,
+      "sha256": "b25f41e8fac93225b955151c538d0996ea0a7032077d2dc5465083ee4d54ba96",
+      "license": "CC0-1.0, PDB archive data",
+      "raw_source_bytes": true
+    },
+    {
+      "path": "GAL.cif",
+      "url": "https://files.rcsb.org/ligands/download/GAL.cif",
+      "bytes": 9091,
+      "sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+      "license": "CC0-1.0, PDB archive data",
+      "raw_source_bytes": true
+    },
+    {
+      "path": "GLC.cif",
+      "url": "https://files.rcsb.org/ligands/download/GLC.cif",
+      "bytes": 9281,
+      "sha256": "07eedff69de20c995d0aaf1f582bc6b9ecbf63bd6b4702dbb5141dcb3ab0f260",
+      "license": "CC0-1.0, PDB archive data",
+      "raw_source_bytes": true
+    },
+    {
+      "path": "BGC.cif",
+      "url": "https://files.rcsb.org/ligands/download/BGC.cif",
+      "bytes": 9789,
+      "sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+      "license": "CC0-1.0, PDB archive data",
+      "raw_source_bytes": true
+    }
+  ],
+  "article_metadata_only": [
+    {
+      "title": "Perduca et al. 2020 main article",
+      "url": "https://floydfungi.ch/wp-content/uploads/2023/09/cwaa006.pdf",
+      "bytes": 3597148,
+      "sha256": "e00d644cc707fc8336059554c5c655c95f94abc067c5e6fe536179932fd92d85",
+      "archived_bytes": false,
+      "reason": "No redistribution license established; public access does not imply repository relicensing."
+    },
+    {
+      "title": "Weatherman et al. 1996 main article",
+      "url": "https://kiesslinglab.com/sites/default/files/labs/kiessling/pdfs/1996.weatherman.biochem.pdf",
+      "bytes": 414316,
+      "sha256": "22ad3c4ac088888755dd2d1be6a0dcb0c6cd50e6603c90e5c275329057fc624c",
+      "archived_bytes": false,
+      "reason": "No redistribution license established; public access does not imply repository relicensing."
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "POL_site_audit.json",
+      "bytes": 9781,
+      "sha256": "0a789fbb09e46920523ca86a01849fa28d54795dae8344f6743790626b7dbbe1",
+      "role": "source-derived geometry; no docking or score information"
+    }
+  ]
+}

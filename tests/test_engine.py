@@ -32,3 +32,39 @@ def test_corrupt_or_incomplete_pose_is_not_a_success(tmp_path, text):
     path.write_text(text)
     with pytest.raises(ValueError):
         read_poses(path, ["C1"])
+
+
+@pytest.mark.parametrize("execution_label,expected", [(None, "true-site-local"),
+                                                       ("true-site-local", "true-site-local"),
+                                                       ("predicted-site-local", "predicted-site-local")])
+def test_execution_information_is_explicit_and_legacy_labels_stay_unchanged(tmp_path, monkeypatch, execution_label, expected):
+    import json
+    from types import SimpleNamespace
+    import aav_benchmark.engine as engine
+    prepared = tmp_path / "prepared"
+    prepared.mkdir()
+    prep = {"information_regime": "legacy descriptive text; not a machine execution label",
+            "box_center": [0, 0, 0], "box_size": [24, 24, 24], "ligand_file": "ligand.pdbqt",
+            "receptors": [{"id": "r", "state": "holo", "assembly_condition": "full",
+                           "pdb_file": "r.pdb", "pdbqt_file": "r.pdbqt"}]}
+    if execution_label is not None:
+        prep["execution_information_regime"] = execution_label
+    (prepared / "preparation.json").write_text(json.dumps(prep))
+    (prepared / "reference.json").write_text(json.dumps({"names": ["C1"]}))
+    for name in ("ligand.pdbqt", "r.pdb", "r.pdbqt"):
+        (prepared / name).write_text("input fixture\n")
+    executable = tmp_path / "vina"
+    executable.write_text("test executable identity\n")
+    config = tmp_path / "config.json"
+    config.write_text(json.dumps({"seeds": [1], "cpu": 2, "exhaustiveness": 16, "num_modes": 20,
+                                  "min_rmsd_A": .5, "energy_range_kcal_mol": 10}))
+    monkeypatch.setattr(engine.platform, "platform", lambda: "test-platform")
+    monkeypatch.setattr(engine.subprocess, "check_output", lambda *a, **k: "AutoDock Vina v1.2.7")
+    def run(command, **kwargs):
+        output = Path(command[command.index("--out") + 1])
+        output.write_text("MODEL 1\nREMARK VINA RESULT: -1 0 0\n" + atom("C1") + "\nENDMDL\n")
+        return SimpleNamespace(returncode=0)
+    monkeypatch.setattr(engine.subprocess, "run", run)
+    rows = engine.dock(prepared, tmp_path / "results", executable, config)
+    assert rows[0]["status"] == "ok"
+    assert rows[0]["information_regime"] == expected

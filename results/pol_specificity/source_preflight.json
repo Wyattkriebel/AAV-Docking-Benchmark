@@ -1,0 +1,1210 @@
+{
+  "alignment": {
+    "atom_selection": "N/CA/C/O of exact chain, author residue number, residue identity matches in A/B",
+    "backbone_rmsd_A": 1.1317382789741257,
+    "candidate_chain_correspondences": [
+      {
+        "backbone_rmsd_A": 1.1317382789741257,
+        "chain_map": {
+          "A": "A",
+          "B": "B"
+        }
+      },
+      {
+        "backbone_rmsd_A": 1.1317382789859063,
+        "chain_map": {
+          "A": "B",
+          "B": "A"
+        }
+      }
+    ],
+    "centers": {
+      "apo": {
+        "C": [
+          12.766201830644121,
+          67.97080170799686,
+          -1.9791662010010356
+        ],
+        "N": [
+          9.789983416827987,
+          107.76199703014973,
+          21.235217484436607
+        ]
+      },
+      "holo": {
+        "C": [
+          12.544818,
+          27.796455,
+          68.370182
+        ],
+        "N": [
+          21.664,
+          44.973364,
+          26.502545
+        ]
+      }
+    },
+    "direction": "holo center to independently solved native apo coordinate frame",
+    "holo_to_apo_chain_correspondence": {
+      "A": "A",
+      "B": "B"
+    },
+    "matched_backbone_atoms": 2704,
+    "native_ligand_coordinates_used_for_alignment": false,
+    "receptor_coordinates_transformed": false,
+    "rotation_row_vector": [
+      [
+        -0.3773203200961536,
+        -0.30847376879026,
+        0.8731971770515919
+      ],
+      [
+        -0.8528298518550702,
+        0.48328033350621813,
+        -0.19779121070203545
+      ],
+      [
+        -0.36098562274333656,
+        -0.8193192620794725,
+        -0.4454271286733149
+      ]
+    ],
+    "translation_A": [
+      65.8859159000435,
+      114.4240760170334,
+      23.018562477579575
+    ]
+  },
+  "cases": [
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GAL_alpha__holo__N",
+      "ccd_id": "GLA",
+      "model_id": "POL_GAL_alpha",
+      "site": "N",
+      "species_id": "D_galactose",
+      "state": "holo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GAL_alpha__holo__C",
+      "ccd_id": "GLA",
+      "model_id": "POL_GAL_alpha",
+      "site": "C",
+      "species_id": "D_galactose",
+      "state": "holo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GAL_alpha__apo__N",
+      "ccd_id": "GLA",
+      "model_id": "POL_GAL_alpha",
+      "site": "N",
+      "species_id": "D_galactose",
+      "state": "apo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GAL_alpha__apo__C",
+      "ccd_id": "GLA",
+      "model_id": "POL_GAL_alpha",
+      "site": "C",
+      "species_id": "D_galactose",
+      "state": "apo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GAL_beta__holo__N",
+      "ccd_id": "GAL",
+      "model_id": "POL_GAL_beta",
+      "site": "N",
+      "species_id": "D_galactose",
+      "state": "holo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GAL_beta__holo__C",
+      "ccd_id": "GAL",
+      "model_id": "POL_GAL_beta",
+      "site": "C",
+      "species_id": "D_galactose",
+      "state": "holo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GAL_beta__apo__N",
+      "ccd_id": "GAL",
+      "model_id": "POL_GAL_beta",
+      "site": "N",
+      "species_id": "D_galactose",
+      "state": "apo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GAL_beta__apo__C",
+      "ccd_id": "GAL",
+      "model_id": "POL_GAL_beta",
+      "site": "C",
+      "species_id": "D_galactose",
+      "state": "apo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GLC_alpha__holo__N",
+      "ccd_id": "GLC",
+      "model_id": "POL_GLC_alpha",
+      "site": "N",
+      "species_id": "D_glucose",
+      "state": "holo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GLC_alpha__holo__C",
+      "ccd_id": "GLC",
+      "model_id": "POL_GLC_alpha",
+      "site": "C",
+      "species_id": "D_glucose",
+      "state": "holo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GLC_alpha__apo__N",
+      "ccd_id": "GLC",
+      "model_id": "POL_GLC_alpha",
+      "site": "N",
+      "species_id": "D_glucose",
+      "state": "apo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GLC_alpha__apo__C",
+      "ccd_id": "GLC",
+      "model_id": "POL_GLC_alpha",
+      "site": "C",
+      "species_id": "D_glucose",
+      "state": "apo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GLC_beta__holo__N",
+      "ccd_id": "BGC",
+      "model_id": "POL_GLC_beta",
+      "site": "N",
+      "species_id": "D_glucose",
+      "state": "holo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GLC_beta__holo__C",
+      "ccd_id": "BGC",
+      "model_id": "POL_GLC_beta",
+      "site": "C",
+      "species_id": "D_glucose",
+      "state": "holo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GLC_beta__apo__N",
+      "ccd_id": "BGC",
+      "model_id": "POL_GLC_beta",
+      "site": "N",
+      "species_id": "D_glucose",
+      "state": "apo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GLC_beta__apo__C",
+      "ccd_id": "BGC",
+      "model_id": "POL_GLC_beta",
+      "site": "C",
+      "species_id": "D_glucose",
+      "state": "apo"
+    }
+  ],
+  "cohort_id": "perduca_2020_POL_free_hexose_ITC",
+  "cost_denominators": {
+    "cpus_per_run": 2,
+    "engine_case_directories": 16,
+    "experimental_species": 2,
+    "independent_epimer_contrasts": 1,
+    "independent_families": 1,
+    "independently_embedded_model_states": 4,
+    "maximum_returned_poses": 1920,
+    "per_run_timeout_seconds": 3600,
+    "prepared_receptor_profiles": 4,
+    "primary_runs": 12,
+    "seed_runs": 96,
+    "sensitivity_runs": 84,
+    "wall_time_estimate": "unmeasured before docking; 96 times observed mean run duration for serial execution"
+  },
+  "experiment_sha256": "802e044255248bdaf5d75675e3105158722c1aed29541bcf38eec01e3494b71f",
+  "model_states": [
+    {
+      "anomer": "alpha",
+      "ccd_id": "GLA",
+      "embedding_seed": 20261024,
+      "experimental_anomer_fraction": null,
+      "formal_charge": 0,
+      "heavy_atoms": 12,
+      "isomeric_smiles": "OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+      "model_id": "POL_GAL_alpha",
+      "native_coordinates_used_for_embedding": false,
+      "other_solution_forms": "unknown",
+      "pose_reference_eligible": false,
+      "protonation": "CCD formal charges; RDKit valence hydrogens",
+      "source_ccd_sha256": "b25f41e8fac93225b955151c538d0996ea0a7032077d2dc5465083ee4d54ba96",
+      "species_id": "D_galactose",
+      "stereochemistry": "CCD ideal stereochemistry; explicit neighbor-order parity preserved across branch links",
+      "stereochemistry_verified_from_3d": true
+    },
+    {
+      "anomer": "beta",
+      "ccd_id": "GAL",
+      "embedding_seed": 20261024,
+      "experimental_anomer_fraction": null,
+      "formal_charge": 0,
+      "heavy_atoms": 12,
+      "isomeric_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+      "model_id": "POL_GAL_beta",
+      "native_coordinates_used_for_embedding": false,
+      "other_solution_forms": "unknown",
+      "pose_reference_eligible": false,
+      "protonation": "CCD formal charges; RDKit valence hydrogens",
+      "source_ccd_sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+      "species_id": "D_galactose",
+      "stereochemistry": "CCD ideal stereochemistry; explicit neighbor-order parity preserved across branch links",
+      "stereochemistry_verified_from_3d": true
+    },
+    {
+      "anomer": "alpha",
+      "ccd_id": "GLC",
+      "embedding_seed": 20261024,
+      "experimental_anomer_fraction": null,
+      "formal_charge": 0,
+      "heavy_atoms": 12,
+      "isomeric_smiles": "OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O",
+      "model_id": "POL_GLC_alpha",
+      "native_coordinates_used_for_embedding": false,
+      "other_solution_forms": "unknown",
+      "pose_reference_eligible": false,
+      "protonation": "CCD formal charges; RDKit valence hydrogens",
+      "source_ccd_sha256": "07eedff69de20c995d0aaf1f582bc6b9ecbf63bd6b4702dbb5141dcb3ab0f260",
+      "species_id": "D_glucose",
+      "stereochemistry": "CCD ideal stereochemistry; explicit neighbor-order parity preserved across branch links",
+      "stereochemistry_verified_from_3d": true
+    },
+    {
+      "anomer": "beta",
+      "ccd_id": "BGC",
+      "embedding_seed": 20261024,
+      "experimental_anomer_fraction": null,
+      "formal_charge": 0,
+      "heavy_atoms": 12,
+      "isomeric_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O",
+      "model_id": "POL_GLC_beta",
+      "native_coordinates_used_for_embedding": false,
+      "other_solution_forms": "unknown",
+      "pose_reference_eligible": false,
+      "protonation": "CCD formal charges; RDKit valence hydrogens",
+      "source_ccd_sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+      "species_id": "D_glucose",
+      "stereochemistry": "CCD ideal stereochemistry; explicit neighbor-order parity preserved across branch links",
+      "stereochemistry_verified_from_3d": true
+    }
+  ],
+  "receptors": [
+    {
+      "max_heavy_displacement_A": 0.0,
+      "metal_profile": "Ca_retained",
+      "prepared_calcium_count": 4,
+      "prepared_heavy_atoms": 5038,
+      "source_audit": {
+        "alternate_conformers": [],
+        "apo_context_caveat": null,
+        "assembly_id": "1",
+        "assembly_operators": [
+          {
+            "name": "1",
+            "rotation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "translation_A": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "chain_copy_map": {
+          "A1": "A",
+          "B1": "B"
+        },
+        "chain_operator_correspondence": [
+          {
+            "operator": "1",
+            "prepared_chain": "A",
+            "source_author_chain": "A"
+          },
+          {
+            "operator": "1",
+            "prepared_chain": "B",
+            "source_author_chain": "B"
+          }
+        ],
+        "materializations": 1,
+        "native_calcium_count": 4,
+        "observed_residue_heavy_atom_completion": false,
+        "operator_count": 1,
+        "pdb_id": "6T1D",
+        "protein_heavy_atom_minimization": false,
+        "protein_heavy_atoms_per_chain": {
+          "A": 2517,
+          "B": 2517
+        },
+        "protein_residues_per_chain": {
+          "A": 338,
+          "B": 338
+        },
+        "raw_protein_heavy_atoms_per_chain_before_altloc_selection": {
+          "A": 2517,
+          "B": 2517
+        },
+        "removed_nonprotein_heavy_atoms_by_resname": {
+          "GLA": 44,
+          "GLC": 26,
+          "HOH": 138
+        },
+        "source_ion_to_prepared_label_map": [
+          {
+            "assembly_copy_source_key": [
+              "A1",
+              401,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              23.3,
+              42.291,
+              23.883
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "A",
+              401,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "A1",
+              402,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              13.564,
+              24.13,
+              68.284
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "A",
+              402,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "B1",
+              401,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              8.455,
+              -42.656,
+              32.558
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "B",
+              401,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "B1",
+              402,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              49.967,
+              -24.273,
+              50.361
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "B",
+              402,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          }
+        ],
+        "source_sha256": "b6aff9dad0e696d5179ba3fe52fac851bc858deb9287859f950cf3e4f0149eef",
+        "state": "holo",
+        "unmodeled_N_terminal_residues_per_chain": 18
+      },
+      "state": "holo"
+    },
+    {
+      "max_heavy_displacement_A": 0.0,
+      "metal_profile": "dry",
+      "prepared_calcium_count": 0,
+      "prepared_heavy_atoms": 5034,
+      "source_audit": {
+        "alternate_conformers": [],
+        "apo_context_caveat": null,
+        "assembly_id": "1",
+        "assembly_operators": [
+          {
+            "name": "1",
+            "rotation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "translation_A": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "chain_copy_map": {
+          "A1": "A",
+          "B1": "B"
+        },
+        "chain_operator_correspondence": [
+          {
+            "operator": "1",
+            "prepared_chain": "A",
+            "source_author_chain": "A"
+          },
+          {
+            "operator": "1",
+            "prepared_chain": "B",
+            "source_author_chain": "B"
+          }
+        ],
+        "materializations": 1,
+        "native_calcium_count": 4,
+        "observed_residue_heavy_atom_completion": false,
+        "operator_count": 1,
+        "pdb_id": "6T1D",
+        "protein_heavy_atom_minimization": false,
+        "protein_heavy_atoms_per_chain": {
+          "A": 2517,
+          "B": 2517
+        },
+        "protein_residues_per_chain": {
+          "A": 338,
+          "B": 338
+        },
+        "raw_protein_heavy_atoms_per_chain_before_altloc_selection": {
+          "A": 2517,
+          "B": 2517
+        },
+        "removed_nonprotein_heavy_atoms_by_resname": {
+          "GLA": 44,
+          "GLC": 26,
+          "HOH": 138
+        },
+        "source_ion_to_prepared_label_map": [
+          {
+            "assembly_copy_source_key": [
+              "A1",
+              401,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              23.3,
+              42.291,
+              23.883
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "A",
+              401,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "A1",
+              402,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              13.564,
+              24.13,
+              68.284
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "A",
+              402,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "B1",
+              401,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              8.455,
+              -42.656,
+              32.558
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "B",
+              401,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "B1",
+              402,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              49.967,
+              -24.273,
+              50.361
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "B",
+              402,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          }
+        ],
+        "source_sha256": "b6aff9dad0e696d5179ba3fe52fac851bc858deb9287859f950cf3e4f0149eef",
+        "state": "holo",
+        "unmodeled_N_terminal_residues_per_chain": 18
+      },
+      "state": "holo"
+    },
+    {
+      "max_heavy_displacement_A": 0.0,
+      "metal_profile": "Ca_retained",
+      "prepared_calcium_count": 4,
+      "prepared_heavy_atoms": 5062,
+      "source_audit": {
+        "alternate_conformers": [
+          {
+            "assembly_copy_chain": "A1",
+            "author_residue": 218,
+            "discarded_atom_names": [
+              "CA",
+              "CB",
+              "OG"
+            ],
+            "occupancy_normalized": false,
+            "retained_selected_atom_names": [
+              "CA",
+              "CB",
+              "OG"
+            ],
+            "retained_shared_atom_names": [
+              "N",
+              "C",
+              "O"
+            ],
+            "rule": "one whole residue conformer by highest mean occupancy; lexical tie break",
+            "selected": "B",
+            "selected_altloc_cleared": true,
+            "source_occupancies": {
+              "A": [
+                0.41999998688697815,
+                0.41999998688697815,
+                0.41999998688697815
+              ],
+              "B": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995
+              ]
+            }
+          },
+          {
+            "assembly_copy_chain": "A2",
+            "author_residue": 218,
+            "discarded_atom_names": [
+              "CA",
+              "CB",
+              "OG"
+            ],
+            "occupancy_normalized": false,
+            "retained_selected_atom_names": [
+              "CA",
+              "CB",
+              "OG"
+            ],
+            "retained_shared_atom_names": [
+              "N",
+              "C",
+              "O"
+            ],
+            "rule": "one whole residue conformer by highest mean occupancy; lexical tie break",
+            "selected": "B",
+            "selected_altloc_cleared": true,
+            "source_occupancies": {
+              "A": [
+                0.41999998688697815,
+                0.41999998688697815,
+                0.41999998688697815
+              ],
+              "B": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995
+              ]
+            }
+          }
+        ],
+        "apo_context_caveat": "native glycosylated apo protein; covalent glycans removed explicitly",
+        "assembly_id": "1",
+        "assembly_operators": [
+          {
+            "name": "1",
+            "rotation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "translation_A": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "2",
+            "rotation": [
+              [
+                -0.5,
+                0.8660254038,
+                0.0
+              ],
+              [
+                0.8660254038,
+                0.5,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "translation_A": [
+              0.0,
+              0.0,
+              48.6036666667
+            ]
+          }
+        ],
+        "chain_copy_map": {
+          "A1": "A",
+          "A2": "B"
+        },
+        "chain_operator_correspondence": [
+          {
+            "operator": "1",
+            "prepared_chain": "A",
+            "source_author_chain": "A"
+          },
+          {
+            "operator": "2",
+            "prepared_chain": "B",
+            "source_author_chain": "A"
+          }
+        ],
+        "materializations": 1,
+        "native_calcium_count": 4,
+        "observed_residue_heavy_atom_completion": false,
+        "operator_count": 2,
+        "pdb_id": "6T0Q",
+        "protein_heavy_atom_minimization": false,
+        "protein_heavy_atoms_per_chain": {
+          "A": 2529,
+          "B": 2529
+        },
+        "protein_residues_per_chain": {
+          "A": 340,
+          "B": 340
+        },
+        "raw_protein_heavy_atoms_per_chain_before_altloc_selection": {
+          "A": 2532,
+          "B": 2532
+        },
+        "removed_nonprotein_heavy_atoms_by_resname": {
+          "GOL": 48,
+          "HOH": 556,
+          "NAG": 168
+        },
+        "source_ion_to_prepared_label_map": [
+          {
+            "assembly_copy_source_key": [
+              "A1",
+              403,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              11.113,
+              107.014,
+              24.332
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "A",
+              403,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "A1",
+              404,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              15.771,
+              65.875,
+              -0.193
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "A",
+              404,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "A2",
+              403,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              87.1203425622532,
+              63.131140312429395,
+              24.2716666667
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "B",
+              403,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "A2",
+              404,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              49.163923475325,
+              46.5955866433298,
+              48.7966666667
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "B",
+              404,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          }
+        ],
+        "source_sha256": "92d28955cfa58f11e6471afa531bfc141df6b3563b49196b8dcd29264177ee89",
+        "state": "apo",
+        "unmodeled_N_terminal_residues_per_chain": 13
+      },
+      "state": "apo"
+    },
+    {
+      "max_heavy_displacement_A": 0.0,
+      "metal_profile": "dry",
+      "prepared_calcium_count": 0,
+      "prepared_heavy_atoms": 5058,
+      "source_audit": {
+        "alternate_conformers": [
+          {
+            "assembly_copy_chain": "A1",
+            "author_residue": 218,
+            "discarded_atom_names": [
+              "CA",
+              "CB",
+              "OG"
+            ],
+            "occupancy_normalized": false,
+            "retained_selected_atom_names": [
+              "CA",
+              "CB",
+              "OG"
+            ],
+            "retained_shared_atom_names": [
+              "N",
+              "C",
+              "O"
+            ],
+            "rule": "one whole residue conformer by highest mean occupancy; lexical tie break",
+            "selected": "B",
+            "selected_altloc_cleared": true,
+            "source_occupancies": {
+              "A": [
+                0.41999998688697815,
+                0.41999998688697815,
+                0.41999998688697815
+              ],
+              "B": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995
+              ]
+            }
+          },
+          {
+            "assembly_copy_chain": "A2",
+            "author_residue": 218,
+            "discarded_atom_names": [
+              "CA",
+              "CB",
+              "OG"
+            ],
+            "occupancy_normalized": false,
+            "retained_selected_atom_names": [
+              "CA",
+              "CB",
+              "OG"
+            ],
+            "retained_shared_atom_names": [
+              "N",
+              "C",
+              "O"
+            ],
+            "rule": "one whole residue conformer by highest mean occupancy; lexical tie break",
+            "selected": "B",
+            "selected_altloc_cleared": true,
+            "source_occupancies": {
+              "A": [
+                0.41999998688697815,
+                0.41999998688697815,
+                0.41999998688697815
+              ],
+              "B": [
+                0.5799999833106995,
+                0.5799999833106995,
+                0.5799999833106995
+              ]
+            }
+          }
+        ],
+        "apo_context_caveat": "native glycosylated apo protein; covalent glycans removed explicitly",
+        "assembly_id": "1",
+        "assembly_operators": [
+          {
+            "name": "1",
+            "rotation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "translation_A": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "2",
+            "rotation": [
+              [
+                -0.5,
+                0.8660254038,
+                0.0
+              ],
+              [
+                0.8660254038,
+                0.5,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "translation_A": [
+              0.0,
+              0.0,
+              48.6036666667
+            ]
+          }
+        ],
+        "chain_copy_map": {
+          "A1": "A",
+          "A2": "B"
+        },
+        "chain_operator_correspondence": [
+          {
+            "operator": "1",
+            "prepared_chain": "A",
+            "source_author_chain": "A"
+          },
+          {
+            "operator": "2",
+            "prepared_chain": "B",
+            "source_author_chain": "A"
+          }
+        ],
+        "materializations": 1,
+        "native_calcium_count": 4,
+        "observed_residue_heavy_atom_completion": false,
+        "operator_count": 2,
+        "pdb_id": "6T0Q",
+        "protein_heavy_atom_minimization": false,
+        "protein_heavy_atoms_per_chain": {
+          "A": 2529,
+          "B": 2529
+        },
+        "protein_residues_per_chain": {
+          "A": 340,
+          "B": 340
+        },
+        "raw_protein_heavy_atoms_per_chain_before_altloc_selection": {
+          "A": 2532,
+          "B": 2532
+        },
+        "removed_nonprotein_heavy_atoms_by_resname": {
+          "GOL": 48,
+          "HOH": 556,
+          "NAG": 168
+        },
+        "source_ion_to_prepared_label_map": [
+          {
+            "assembly_copy_source_key": [
+              "A1",
+              403,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              11.113,
+              107.014,
+              24.332
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "A",
+              403,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "A1",
+              404,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              15.771,
+              65.875,
+              -0.193
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "A",
+              404,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "A2",
+              403,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              87.1203425622532,
+              63.131140312429395,
+              24.2716666667
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "B",
+              403,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          },
+          {
+            "assembly_copy_source_key": [
+              "A2",
+              404,
+              "",
+              "CA",
+              "CA"
+            ],
+            "coordinates_A": [
+              49.163923475325,
+              46.5955866433298,
+              48.7966666667
+            ],
+            "formal_charge": 2,
+            "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+            "prepared_key": [
+              "B",
+              404,
+              "",
+              "CA2",
+              "CA+2"
+            ]
+          }
+        ],
+        "source_sha256": "92d28955cfa58f11e6471afa531bfc141df6b3563b49196b8dcd29264177ee89",
+        "state": "apo",
+        "unmodeled_N_terminal_residues_per_chain": 13
+      },
+      "state": "apo"
+    }
+  ],
+  "status": "preflight_passed_no_docking"
+}

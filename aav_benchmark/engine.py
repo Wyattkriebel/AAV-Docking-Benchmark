@@ -88,6 +88,9 @@ def dock(prepared_dir, output_dir, executable, config_path, *, resume=False, see
     if not scheduled_seeds or len(set(scheduled_seeds)) != len(scheduled_seeds) or any(seed not in config["seeds"] for seed in scheduled_seeds):
         raise ValueError("Scheduled seeds must be a nonempty unique subset of the frozen configuration")
     preparation = json.loads((prepared_dir / "preparation.json").read_text())
+    information_regime = preparation.get("execution_information_regime", "true-site-local")
+    if information_regime not in {"true-site-local", "predicted-site-local"}:
+        raise ValueError("Unknown execution information regime")
     version = subprocess.check_output([str(executable), "--version"], text=True).strip()
     if version != "AutoDock Vina v1.2.7":
         raise ValueError(f"Unexpected docking version: {version}")
@@ -142,7 +145,7 @@ def dock(prepared_dir, output_dir, executable, config_path, *, resume=False, see
             row = {"receptor": receptor["id"], "receptor_state": receptor["state"],
                    "assembly_condition": receptor["assembly_condition"], "seed": seed,
                    "case_id": preparation.get("case_id", "AAV9"), "family_id": preparation.get("family_id", "AAV"),
-                   "information_regime": "true-site-local", "status": "running", "fingerprint": fingerprint,
+                   "information_regime": information_regime, "status": "running", "fingerprint": fingerprint,
                    "command": command, "pose_file": pose_path.name, "log_file": log_path.name,
                    "platform": platform.platform(), "machine": platform.machine(), "available_logical_cpus": os.cpu_count(),
                    "software": {p: importlib.metadata.version(p) for p in ("numpy", "scipy", "gemmi", "rdkit", "meeko")},

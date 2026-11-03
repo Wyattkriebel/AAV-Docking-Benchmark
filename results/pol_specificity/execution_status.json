@@ -1,0 +1,15 @@
+{
+  "completed_cases": 16,
+  "configuration_sha256": "802e044255248bdaf5d75675e3105158722c1aed29541bcf38eec01e3494b71f",
+  "expected_runs": 96,
+  "failed_runs": 0,
+  "finished_UTC": "2026-11-03T16:04:20.136954+00:00",
+  "last_case": "POL_GLC_beta__apo__C",
+  "pid": 79675,
+  "schema_version": 1,
+  "started_UTC": "2026-11-03T15:47:16.711086+00:00",
+  "status": "completed",
+  "successful_runs": 96,
+  "terminal_runs": 96,
+  "updated_UTC": "2026-11-03T16:04:20.122100+00:00"
+}

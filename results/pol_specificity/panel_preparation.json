@@ -1,0 +1,920 @@
+{
+  "alignment": {
+    "atom_selection": "N/CA/C/O of exact chain, author residue number, residue identity matches in A/B",
+    "backbone_rmsd_A": 1.1317382789741257,
+    "candidate_chain_correspondences": [
+      {
+        "backbone_rmsd_A": 1.1317382789741257,
+        "chain_map": {
+          "A": "A",
+          "B": "B"
+        }
+      },
+      {
+        "backbone_rmsd_A": 1.1317382789859063,
+        "chain_map": {
+          "A": "B",
+          "B": "A"
+        }
+      }
+    ],
+    "centers": {
+      "apo": {
+        "C": [
+          12.766201830644121,
+          67.97080170799686,
+          -1.9791662010010356
+        ],
+        "N": [
+          9.789983416827987,
+          107.76199703014973,
+          21.235217484436607
+        ]
+      },
+      "holo": {
+        "C": [
+          12.544818,
+          27.796455,
+          68.370182
+        ],
+        "N": [
+          21.664,
+          44.973364,
+          26.502545
+        ]
+      }
+    },
+    "direction": "holo center to independently solved native apo coordinate frame",
+    "holo_to_apo_chain_correspondence": {
+      "A": "A",
+      "B": "B"
+    },
+    "matched_backbone_atoms": 2704,
+    "native_ligand_coordinates_used_for_alignment": false,
+    "receptor_coordinates_transformed": false,
+    "rotation_row_vector": [
+      [
+        -0.3773203200961536,
+        -0.30847376879026,
+        0.8731971770515919
+      ],
+      [
+        -0.8528298518550702,
+        0.48328033350621813,
+        -0.19779121070203545
+      ],
+      [
+        -0.36098562274333656,
+        -0.8193192620794725,
+        -0.4454271286733149
+      ]
+    ],
+    "translation_A": [
+      65.8859159000435,
+      114.4240760170334,
+      23.018562477579575
+    ]
+  },
+  "cases": [
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GAL_alpha__holo__N",
+      "ccd_id": "GLA",
+      "model_id": "POL_GAL_alpha",
+      "preparation_sha256": "34ef17d1318fc6dd794074ccdbd1a98b489b07e40c7de936ae3f7b4bd5f0d9de",
+      "prepared_artifact_sha256": {
+        "chemistry.json": "306a488aace3c67f43115efb10388f65e96146f0896adef0a904e186df5b7b4d",
+        "holo_Ca_retained.pdb": "bc5a9dd90140f61acb5feb2aef2ad219c91d19d86d67f007c0cb7239dc293122",
+        "holo_Ca_retained.pdbqt": "fc480272a793c72daf25380ddb2ae812dbec230cfea8c2c15b99356281f7c280",
+        "holo_Ca_retained_atom_changes.json": "3f9a55e06a9ce2889250d9b48f123ce3b09304a2cbd211f5db172d59c8e33ded",
+        "holo_dry.pdb": "3e654342f5cfa9670228d65d56ecb2a7f3895f0be780c26d955ccf926d15bd52",
+        "holo_dry.pdbqt": "d5cc0c10b63dcea04d19f9328420cc3efe360ec6fae8b54d5a935c04e2b45559",
+        "holo_dry_atom_changes.json": "9b42d1f182f1e943235a2645274a54397a4fc7edb14b1cb3a07c03cbac49367f",
+        "ligand.pdbqt": "7d11f0b3bc36b07b83db55b5fc5f2afc4c5f2c6c831ab2c9649b1946db0c197e",
+        "ligand.sdf": "04ad4f2bba49ca7b777b017285a15c5c52d5c09a4d6817f1bb01e4392c2c3a21",
+        "preparation.json": "34ef17d1318fc6dd794074ccdbd1a98b489b07e40c7de936ae3f7b4bd5f0d9de",
+        "reference.json": "0de068c16e4d53c20310db4cf4ea3c16e7ade55f83288946e64fe8e8cc0dbbaf",
+        "source_graph.json": "f9f4c3190f7052de020ea6d8d0869087de8f1b3f6aa5431654c84d682d7756a7"
+      },
+      "prepared_dir": "cases/POL_GAL_alpha__holo__N",
+      "site": "N",
+      "species_id": "D_galactose",
+      "state": "holo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GAL_alpha__holo__C",
+      "ccd_id": "GLA",
+      "model_id": "POL_GAL_alpha",
+      "preparation_sha256": "13101bf295a70ded6c67feb2ce9df0bb829371caeb3c51da8c8d8a7430ee5b0f",
+      "prepared_artifact_sha256": {
+        "chemistry.json": "306a488aace3c67f43115efb10388f65e96146f0896adef0a904e186df5b7b4d",
+        "holo_Ca_retained.pdb": "bc5a9dd90140f61acb5feb2aef2ad219c91d19d86d67f007c0cb7239dc293122",
+        "holo_Ca_retained.pdbqt": "fc480272a793c72daf25380ddb2ae812dbec230cfea8c2c15b99356281f7c280",
+        "holo_Ca_retained_atom_changes.json": "3f9a55e06a9ce2889250d9b48f123ce3b09304a2cbd211f5db172d59c8e33ded",
+        "holo_dry.pdb": "3e654342f5cfa9670228d65d56ecb2a7f3895f0be780c26d955ccf926d15bd52",
+        "holo_dry.pdbqt": "d5cc0c10b63dcea04d19f9328420cc3efe360ec6fae8b54d5a935c04e2b45559",
+        "holo_dry_atom_changes.json": "9b42d1f182f1e943235a2645274a54397a4fc7edb14b1cb3a07c03cbac49367f",
+        "ligand.pdbqt": "1d5fe6845a53719d556cb06c9a136be3d5e1c23ad0a753e26b8a4644a8e0ae26",
+        "ligand.sdf": "30041d33049d2302d9fd4d1d53ced2c87145aea914edc1f66caf728301255f20",
+        "preparation.json": "13101bf295a70ded6c67feb2ce9df0bb829371caeb3c51da8c8d8a7430ee5b0f",
+        "reference.json": "d145c59977fb62d2bd6149231fc592cac4f498a4d2794204081b0ef8f9daf5b0",
+        "source_graph.json": "f9f4c3190f7052de020ea6d8d0869087de8f1b3f6aa5431654c84d682d7756a7"
+      },
+      "prepared_dir": "cases/POL_GAL_alpha__holo__C",
+      "site": "C",
+      "species_id": "D_galactose",
+      "state": "holo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GAL_alpha__apo__N",
+      "ccd_id": "GLA",
+      "model_id": "POL_GAL_alpha",
+      "preparation_sha256": "becdb1ee466d8b2a117581259b168db8d84aa3a9cac11f5cc77b0f7dc2118e5f",
+      "prepared_artifact_sha256": {
+        "apo_Ca_retained.pdb": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447",
+        "apo_Ca_retained.pdbqt": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658",
+        "apo_Ca_retained_atom_changes.json": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc",
+        "apo_dry.pdb": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4",
+        "apo_dry.pdbqt": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4",
+        "apo_dry_atom_changes.json": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20",
+        "chemistry.json": "306a488aace3c67f43115efb10388f65e96146f0896adef0a904e186df5b7b4d",
+        "ligand.pdbqt": "c3705318cc64f4361607e207ffd2e6ddc5d408fcb0f9eb0966c863ae8a7991d6",
+        "ligand.sdf": "1a9ef0276f62b3072b7a64868d5b423f2f17d262ac24a4b6aaea3670727a0392",
+        "preparation.json": "becdb1ee466d8b2a117581259b168db8d84aa3a9cac11f5cc77b0f7dc2118e5f",
+        "reference.json": "cc21273e9d21becbfac5f6b79531e805de118b8b1a632214a0a88fef067627a3",
+        "source_graph.json": "f9f4c3190f7052de020ea6d8d0869087de8f1b3f6aa5431654c84d682d7756a7"
+      },
+      "prepared_dir": "cases/POL_GAL_alpha__apo__N",
+      "site": "N",
+      "species_id": "D_galactose",
+      "state": "apo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GAL_alpha__apo__C",
+      "ccd_id": "GLA",
+      "model_id": "POL_GAL_alpha",
+      "preparation_sha256": "5ec4419441742e6ac1d929ff7710a55420f9ddeb7dd55f555b64248974c845ba",
+      "prepared_artifact_sha256": {
+        "apo_Ca_retained.pdb": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447",
+        "apo_Ca_retained.pdbqt": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658",
+        "apo_Ca_retained_atom_changes.json": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc",
+        "apo_dry.pdb": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4",
+        "apo_dry.pdbqt": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4",
+        "apo_dry_atom_changes.json": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20",
+        "chemistry.json": "306a488aace3c67f43115efb10388f65e96146f0896adef0a904e186df5b7b4d",
+        "ligand.pdbqt": "64ae20d854276b6ad78e1dcf6beed10a30ae5bdfbabc61142500f8381df650a7",
+        "ligand.sdf": "94c0421b4face842d5722ce80d6515443b5d0c053856a956d342e2a7ad625bd0",
+        "preparation.json": "5ec4419441742e6ac1d929ff7710a55420f9ddeb7dd55f555b64248974c845ba",
+        "reference.json": "92b941f17589211e54b2b8613fac9ff2ac4c76618aa2ae2f0e5f52c3f04399dd",
+        "source_graph.json": "f9f4c3190f7052de020ea6d8d0869087de8f1b3f6aa5431654c84d682d7756a7"
+      },
+      "prepared_dir": "cases/POL_GAL_alpha__apo__C",
+      "site": "C",
+      "species_id": "D_galactose",
+      "state": "apo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GAL_beta__holo__N",
+      "ccd_id": "GAL",
+      "model_id": "POL_GAL_beta",
+      "preparation_sha256": "71c2a6204aec6041bcbece12494bbac71d232c1da89d0b7f781fc042fd0a7aa4",
+      "prepared_artifact_sha256": {
+        "chemistry.json": "f0a3a59a2c352328be7f3c5af00a3727993c30cc1e767c1b1d0cb0ac15dd7267",
+        "holo_Ca_retained.pdb": "bc5a9dd90140f61acb5feb2aef2ad219c91d19d86d67f007c0cb7239dc293122",
+        "holo_Ca_retained.pdbqt": "fc480272a793c72daf25380ddb2ae812dbec230cfea8c2c15b99356281f7c280",
+        "holo_Ca_retained_atom_changes.json": "3f9a55e06a9ce2889250d9b48f123ce3b09304a2cbd211f5db172d59c8e33ded",
+        "holo_dry.pdb": "3e654342f5cfa9670228d65d56ecb2a7f3895f0be780c26d955ccf926d15bd52",
+        "holo_dry.pdbqt": "d5cc0c10b63dcea04d19f9328420cc3efe360ec6fae8b54d5a935c04e2b45559",
+        "holo_dry_atom_changes.json": "9b42d1f182f1e943235a2645274a54397a4fc7edb14b1cb3a07c03cbac49367f",
+        "ligand.pdbqt": "b7faa3d21bafbfb08ddb9d1e3ca0071a831a1db5c2ca69ef8568e8e02762435d",
+        "ligand.sdf": "eca125bbae82be992f74444a474b33114042e9f335762f8fbb4993314721cb0a",
+        "preparation.json": "71c2a6204aec6041bcbece12494bbac71d232c1da89d0b7f781fc042fd0a7aa4",
+        "reference.json": "2ea193ca084b2bb5edccf3f3cabbc63caa4cabb5a9af58888c5cb8fda2d3948d",
+        "source_graph.json": "99718202324b4585bc9489bf9195bf2d65303b27b3710cd8b0d5aca8a95197c1"
+      },
+      "prepared_dir": "cases/POL_GAL_beta__holo__N",
+      "site": "N",
+      "species_id": "D_galactose",
+      "state": "holo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GAL_beta__holo__C",
+      "ccd_id": "GAL",
+      "model_id": "POL_GAL_beta",
+      "preparation_sha256": "0dabf0441a96a163fe195c9d03d03534951aa30ba1102d1a68a7bdf22dc26d8e",
+      "prepared_artifact_sha256": {
+        "chemistry.json": "f0a3a59a2c352328be7f3c5af00a3727993c30cc1e767c1b1d0cb0ac15dd7267",
+        "holo_Ca_retained.pdb": "bc5a9dd90140f61acb5feb2aef2ad219c91d19d86d67f007c0cb7239dc293122",
+        "holo_Ca_retained.pdbqt": "fc480272a793c72daf25380ddb2ae812dbec230cfea8c2c15b99356281f7c280",
+        "holo_Ca_retained_atom_changes.json": "3f9a55e06a9ce2889250d9b48f123ce3b09304a2cbd211f5db172d59c8e33ded",
+        "holo_dry.pdb": "3e654342f5cfa9670228d65d56ecb2a7f3895f0be780c26d955ccf926d15bd52",
+        "holo_dry.pdbqt": "d5cc0c10b63dcea04d19f9328420cc3efe360ec6fae8b54d5a935c04e2b45559",
+        "holo_dry_atom_changes.json": "9b42d1f182f1e943235a2645274a54397a4fc7edb14b1cb3a07c03cbac49367f",
+        "ligand.pdbqt": "d53370ad3159064bc27d815e76f9fe66f3475511eaabe5d59c9d97e259d0dd89",
+        "ligand.sdf": "d2cf05bb28a3d34d52b12c9266b7e4ac66146bb98a34889dc8c71dded569bef8",
+        "preparation.json": "0dabf0441a96a163fe195c9d03d03534951aa30ba1102d1a68a7bdf22dc26d8e",
+        "reference.json": "0790d5dc508b768acb666bd671c732aeeb317465e539eaa198cc43462c688fbb",
+        "source_graph.json": "99718202324b4585bc9489bf9195bf2d65303b27b3710cd8b0d5aca8a95197c1"
+      },
+      "prepared_dir": "cases/POL_GAL_beta__holo__C",
+      "site": "C",
+      "species_id": "D_galactose",
+      "state": "holo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GAL_beta__apo__N",
+      "ccd_id": "GAL",
+      "model_id": "POL_GAL_beta",
+      "preparation_sha256": "c2a20d23070ad91a17dbcef3e577e7652a8cf5437b1a9acfe8cb7d2cc6cb0e48",
+      "prepared_artifact_sha256": {
+        "apo_Ca_retained.pdb": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447",
+        "apo_Ca_retained.pdbqt": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658",
+        "apo_Ca_retained_atom_changes.json": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc",
+        "apo_dry.pdb": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4",
+        "apo_dry.pdbqt": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4",
+        "apo_dry_atom_changes.json": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20",
+        "chemistry.json": "f0a3a59a2c352328be7f3c5af00a3727993c30cc1e767c1b1d0cb0ac15dd7267",
+        "ligand.pdbqt": "75550df61ca9f32284afede7b968b5a692327a9a127714b0fe054930788b4a45",
+        "ligand.sdf": "370940bc538bd1dfdaba7f97b59f6076a11281bb6ce864eb268c6b822391eac2",
+        "preparation.json": "c2a20d23070ad91a17dbcef3e577e7652a8cf5437b1a9acfe8cb7d2cc6cb0e48",
+        "reference.json": "092dc22b42dda365e27ab0ce7b59fa02b23c2d09278031f5ae4d3655560c9022",
+        "source_graph.json": "99718202324b4585bc9489bf9195bf2d65303b27b3710cd8b0d5aca8a95197c1"
+      },
+      "prepared_dir": "cases/POL_GAL_beta__apo__N",
+      "site": "N",
+      "species_id": "D_galactose",
+      "state": "apo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GAL_beta__apo__C",
+      "ccd_id": "GAL",
+      "model_id": "POL_GAL_beta",
+      "preparation_sha256": "df6f21b20b39e56092e2e1e4b7d58141a2125ec9dcff87514df283830f150992",
+      "prepared_artifact_sha256": {
+        "apo_Ca_retained.pdb": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447",
+        "apo_Ca_retained.pdbqt": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658",
+        "apo_Ca_retained_atom_changes.json": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc",
+        "apo_dry.pdb": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4",
+        "apo_dry.pdbqt": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4",
+        "apo_dry_atom_changes.json": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20",
+        "chemistry.json": "f0a3a59a2c352328be7f3c5af00a3727993c30cc1e767c1b1d0cb0ac15dd7267",
+        "ligand.pdbqt": "7cf38c26087b665a1a43b26411ed8b1dbe4de9b536f32d87d3fdff23d28def14",
+        "ligand.sdf": "a4cc137db0930eca3b00e2b30fbfaa4a1562daeeac7c79087ce388fad7bb1305",
+        "preparation.json": "df6f21b20b39e56092e2e1e4b7d58141a2125ec9dcff87514df283830f150992",
+        "reference.json": "66f6b75293d04282cf8602be42ca6a461897c639994c068b4e2dbd04544ff81c",
+        "source_graph.json": "99718202324b4585bc9489bf9195bf2d65303b27b3710cd8b0d5aca8a95197c1"
+      },
+      "prepared_dir": "cases/POL_GAL_beta__apo__C",
+      "site": "C",
+      "species_id": "D_galactose",
+      "state": "apo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GLC_alpha__holo__N",
+      "ccd_id": "GLC",
+      "model_id": "POL_GLC_alpha",
+      "preparation_sha256": "cd0816f29db53eae3bf35349ae1916cb6e5b02d75b47c7224c7ea59274ba45e2",
+      "prepared_artifact_sha256": {
+        "chemistry.json": "ab08774181c5666a2ab372cdab8d37768ce062b612fe08217334b87317fe906f",
+        "holo_Ca_retained.pdb": "bc5a9dd90140f61acb5feb2aef2ad219c91d19d86d67f007c0cb7239dc293122",
+        "holo_Ca_retained.pdbqt": "fc480272a793c72daf25380ddb2ae812dbec230cfea8c2c15b99356281f7c280",
+        "holo_Ca_retained_atom_changes.json": "3f9a55e06a9ce2889250d9b48f123ce3b09304a2cbd211f5db172d59c8e33ded",
+        "holo_dry.pdb": "3e654342f5cfa9670228d65d56ecb2a7f3895f0be780c26d955ccf926d15bd52",
+        "holo_dry.pdbqt": "d5cc0c10b63dcea04d19f9328420cc3efe360ec6fae8b54d5a935c04e2b45559",
+        "holo_dry_atom_changes.json": "9b42d1f182f1e943235a2645274a54397a4fc7edb14b1cb3a07c03cbac49367f",
+        "ligand.pdbqt": "679493438a869d6091464078b2d7f691cb5d883852e3e7d4cc4b63c0e8a67dd4",
+        "ligand.sdf": "adbbba6b39055281b4feccb026829e9748d276828130a96dca3f2b9ae1709e8d",
+        "preparation.json": "cd0816f29db53eae3bf35349ae1916cb6e5b02d75b47c7224c7ea59274ba45e2",
+        "reference.json": "2c87d8a7b06ce3cc77fccbee2b6975c0afe969da6cbf80319e9a5d3a927a92ab",
+        "source_graph.json": "be787205b79426c17cc0e8264eb93febf4dc123dd30099336a2969098e7aa627"
+      },
+      "prepared_dir": "cases/POL_GLC_alpha__holo__N",
+      "site": "N",
+      "species_id": "D_glucose",
+      "state": "holo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GLC_alpha__holo__C",
+      "ccd_id": "GLC",
+      "model_id": "POL_GLC_alpha",
+      "preparation_sha256": "e8e3c9a39e327531821ba011f687a4cfd437111b7616c24f251bc6bd1d25982c",
+      "prepared_artifact_sha256": {
+        "chemistry.json": "ab08774181c5666a2ab372cdab8d37768ce062b612fe08217334b87317fe906f",
+        "holo_Ca_retained.pdb": "bc5a9dd90140f61acb5feb2aef2ad219c91d19d86d67f007c0cb7239dc293122",
+        "holo_Ca_retained.pdbqt": "fc480272a793c72daf25380ddb2ae812dbec230cfea8c2c15b99356281f7c280",
+        "holo_Ca_retained_atom_changes.json": "3f9a55e06a9ce2889250d9b48f123ce3b09304a2cbd211f5db172d59c8e33ded",
+        "holo_dry.pdb": "3e654342f5cfa9670228d65d56ecb2a7f3895f0be780c26d955ccf926d15bd52",
+        "holo_dry.pdbqt": "d5cc0c10b63dcea04d19f9328420cc3efe360ec6fae8b54d5a935c04e2b45559",
+        "holo_dry_atom_changes.json": "9b42d1f182f1e943235a2645274a54397a4fc7edb14b1cb3a07c03cbac49367f",
+        "ligand.pdbqt": "7cb26914891fb8f28fd0ce128a71e0a79c1ec3c041b6e6b4fd13c23657ba93ce",
+        "ligand.sdf": "8b4ba5a5e2f17c1ba32a83b54e2cde0f04cec3a26184e9ee0444eceddf202785",
+        "preparation.json": "e8e3c9a39e327531821ba011f687a4cfd437111b7616c24f251bc6bd1d25982c",
+        "reference.json": "1044e3d98613134ec5c6609d143251714c67d0726cf7dbda309118e92b773cef",
+        "source_graph.json": "be787205b79426c17cc0e8264eb93febf4dc123dd30099336a2969098e7aa627"
+      },
+      "prepared_dir": "cases/POL_GLC_alpha__holo__C",
+      "site": "C",
+      "species_id": "D_glucose",
+      "state": "holo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GLC_alpha__apo__N",
+      "ccd_id": "GLC",
+      "model_id": "POL_GLC_alpha",
+      "preparation_sha256": "bb0ba3a986d2cf7733b96990c7b9d2f82f7bc9db4aca4b6624341a787335b412",
+      "prepared_artifact_sha256": {
+        "apo_Ca_retained.pdb": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447",
+        "apo_Ca_retained.pdbqt": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658",
+        "apo_Ca_retained_atom_changes.json": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc",
+        "apo_dry.pdb": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4",
+        "apo_dry.pdbqt": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4",
+        "apo_dry_atom_changes.json": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20",
+        "chemistry.json": "ab08774181c5666a2ab372cdab8d37768ce062b612fe08217334b87317fe906f",
+        "ligand.pdbqt": "2a38944d7323284e842ae91b43186d86991016596dfcd43cae1adb5851ddc01e",
+        "ligand.sdf": "2e5f9cedf723bcd1d98c815fc6ae047ea272272fd66312401eed6a3ed60781a2",
+        "preparation.json": "bb0ba3a986d2cf7733b96990c7b9d2f82f7bc9db4aca4b6624341a787335b412",
+        "reference.json": "b19e90a6afcca1240a8243a2dc2d14f043cc3d463935e5e1bf85ba36c3332206",
+        "source_graph.json": "be787205b79426c17cc0e8264eb93febf4dc123dd30099336a2969098e7aa627"
+      },
+      "prepared_dir": "cases/POL_GLC_alpha__apo__N",
+      "site": "N",
+      "species_id": "D_glucose",
+      "state": "apo"
+    },
+    {
+      "anomer": "alpha",
+      "case_id": "POL_GLC_alpha__apo__C",
+      "ccd_id": "GLC",
+      "model_id": "POL_GLC_alpha",
+      "preparation_sha256": "780688feaebc4ee866d6942845be8ec715279fdedf9f99ededc6157aaa540724",
+      "prepared_artifact_sha256": {
+        "apo_Ca_retained.pdb": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447",
+        "apo_Ca_retained.pdbqt": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658",
+        "apo_Ca_retained_atom_changes.json": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc",
+        "apo_dry.pdb": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4",
+        "apo_dry.pdbqt": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4",
+        "apo_dry_atom_changes.json": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20",
+        "chemistry.json": "ab08774181c5666a2ab372cdab8d37768ce062b612fe08217334b87317fe906f",
+        "ligand.pdbqt": "49125330646cd5eea093f9d2158fee0e72d17b744dd3c932f1b0a89f315cec6e",
+        "ligand.sdf": "8cc60594dda227badc034d533cbae4445711d9432b140611e89bec0d73c4cc4f",
+        "preparation.json": "780688feaebc4ee866d6942845be8ec715279fdedf9f99ededc6157aaa540724",
+        "reference.json": "f1e0a0fe483558ea75f74e10c218464b8e08b1f86195567b5c06253c5f427fb9",
+        "source_graph.json": "be787205b79426c17cc0e8264eb93febf4dc123dd30099336a2969098e7aa627"
+      },
+      "prepared_dir": "cases/POL_GLC_alpha__apo__C",
+      "site": "C",
+      "species_id": "D_glucose",
+      "state": "apo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GLC_beta__holo__N",
+      "ccd_id": "BGC",
+      "model_id": "POL_GLC_beta",
+      "preparation_sha256": "7ae4310749abe4bab50edce5becfa0a483b491534c489dcaf1cbe345fccfe1ab",
+      "prepared_artifact_sha256": {
+        "chemistry.json": "9c63022960521546fb7d5751bdd75d74b89e59f8275e476c5fdeeaaa9324cbfd",
+        "holo_Ca_retained.pdb": "bc5a9dd90140f61acb5feb2aef2ad219c91d19d86d67f007c0cb7239dc293122",
+        "holo_Ca_retained.pdbqt": "fc480272a793c72daf25380ddb2ae812dbec230cfea8c2c15b99356281f7c280",
+        "holo_Ca_retained_atom_changes.json": "3f9a55e06a9ce2889250d9b48f123ce3b09304a2cbd211f5db172d59c8e33ded",
+        "holo_dry.pdb": "3e654342f5cfa9670228d65d56ecb2a7f3895f0be780c26d955ccf926d15bd52",
+        "holo_dry.pdbqt": "d5cc0c10b63dcea04d19f9328420cc3efe360ec6fae8b54d5a935c04e2b45559",
+        "holo_dry_atom_changes.json": "9b42d1f182f1e943235a2645274a54397a4fc7edb14b1cb3a07c03cbac49367f",
+        "ligand.pdbqt": "3d1bd48bda1e23dbe963e261c172176c5e0b955db93a0dce1568fe787d03bbf2",
+        "ligand.sdf": "bb1c52b5501b65c216dec4de37d2bc3fe95dfadc67dffef012419964fd56b03b",
+        "preparation.json": "7ae4310749abe4bab50edce5becfa0a483b491534c489dcaf1cbe345fccfe1ab",
+        "reference.json": "5cbcf329a80c85fc0c42de6221961a91bc8607eb1d653b5e94571e8310de0afd",
+        "source_graph.json": "cfc6ed77025218c6c07e9bf8ba13f9b463599cd2eff4a9e48c485dce374698ca"
+      },
+      "prepared_dir": "cases/POL_GLC_beta__holo__N",
+      "site": "N",
+      "species_id": "D_glucose",
+      "state": "holo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GLC_beta__holo__C",
+      "ccd_id": "BGC",
+      "model_id": "POL_GLC_beta",
+      "preparation_sha256": "690080f63fffa18bf1712ab25ace594f99accabeffe81cbd7ea8d74ea4f0df88",
+      "prepared_artifact_sha256": {
+        "chemistry.json": "9c63022960521546fb7d5751bdd75d74b89e59f8275e476c5fdeeaaa9324cbfd",
+        "holo_Ca_retained.pdb": "bc5a9dd90140f61acb5feb2aef2ad219c91d19d86d67f007c0cb7239dc293122",
+        "holo_Ca_retained.pdbqt": "fc480272a793c72daf25380ddb2ae812dbec230cfea8c2c15b99356281f7c280",
+        "holo_Ca_retained_atom_changes.json": "3f9a55e06a9ce2889250d9b48f123ce3b09304a2cbd211f5db172d59c8e33ded",
+        "holo_dry.pdb": "3e654342f5cfa9670228d65d56ecb2a7f3895f0be780c26d955ccf926d15bd52",
+        "holo_dry.pdbqt": "d5cc0c10b63dcea04d19f9328420cc3efe360ec6fae8b54d5a935c04e2b45559",
+        "holo_dry_atom_changes.json": "9b42d1f182f1e943235a2645274a54397a4fc7edb14b1cb3a07c03cbac49367f",
+        "ligand.pdbqt": "29cc5f417bfd18942dd620801bcac0cd34f100f65dd60bc5f4dfc280ad888769",
+        "ligand.sdf": "8e617810ebc8a9032278280d841d45d6d2d0f1c77cfe8c4c79604d3758153d04",
+        "preparation.json": "690080f63fffa18bf1712ab25ace594f99accabeffe81cbd7ea8d74ea4f0df88",
+        "reference.json": "4d974ed02bb7e88bf3b9ea42c1d58ffac1acc0f49e9f79080018818b4f05b3cb",
+        "source_graph.json": "cfc6ed77025218c6c07e9bf8ba13f9b463599cd2eff4a9e48c485dce374698ca"
+      },
+      "prepared_dir": "cases/POL_GLC_beta__holo__C",
+      "site": "C",
+      "species_id": "D_glucose",
+      "state": "holo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GLC_beta__apo__N",
+      "ccd_id": "BGC",
+      "model_id": "POL_GLC_beta",
+      "preparation_sha256": "a1d9d98ed4625c7e5781d2c3aebc83df5a24c0bbfbc1ea90331e5545dab280da",
+      "prepared_artifact_sha256": {
+        "apo_Ca_retained.pdb": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447",
+        "apo_Ca_retained.pdbqt": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658",
+        "apo_Ca_retained_atom_changes.json": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc",
+        "apo_dry.pdb": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4",
+        "apo_dry.pdbqt": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4",
+        "apo_dry_atom_changes.json": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20",
+        "chemistry.json": "9c63022960521546fb7d5751bdd75d74b89e59f8275e476c5fdeeaaa9324cbfd",
+        "ligand.pdbqt": "8777e06b532fea324b52aa448527a5209ef9e639acab622b330c101aa75ce4b1",
+        "ligand.sdf": "f118afde4c6e7ec9dbb98ffc5dacf02a78f89f0c98903e6ea0d0856caa0009f5",
+        "preparation.json": "a1d9d98ed4625c7e5781d2c3aebc83df5a24c0bbfbc1ea90331e5545dab280da",
+        "reference.json": "345dd5b992497ec2d138714e632941bcd111957763c91056ca71862a1637c52f",
+        "source_graph.json": "cfc6ed77025218c6c07e9bf8ba13f9b463599cd2eff4a9e48c485dce374698ca"
+      },
+      "prepared_dir": "cases/POL_GLC_beta__apo__N",
+      "site": "N",
+      "species_id": "D_glucose",
+      "state": "apo"
+    },
+    {
+      "anomer": "beta",
+      "case_id": "POL_GLC_beta__apo__C",
+      "ccd_id": "BGC",
+      "model_id": "POL_GLC_beta",
+      "preparation_sha256": "a6bb271020df2dfa1f9b6282f08e2df009b019fb60117a4714f1fc8656b45f0a",
+      "prepared_artifact_sha256": {
+        "apo_Ca_retained.pdb": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447",
+        "apo_Ca_retained.pdbqt": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658",
+        "apo_Ca_retained_atom_changes.json": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc",
+        "apo_dry.pdb": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4",
+        "apo_dry.pdbqt": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4",
+        "apo_dry_atom_changes.json": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20",
+        "chemistry.json": "9c63022960521546fb7d5751bdd75d74b89e59f8275e476c5fdeeaaa9324cbfd",
+        "ligand.pdbqt": "af3767cdf6cf095d2e1a1f6cf2ebe03063484ea00a57645e944ccae90e52afc3",
+        "ligand.sdf": "7c686d1aa17129d8fb4587779c13da4c325ec4b1f33e466f559f4d09998f2703",
+        "preparation.json": "a6bb271020df2dfa1f9b6282f08e2df009b019fb60117a4714f1fc8656b45f0a",
+        "reference.json": "0a366e8ac28a6765b2cae8b2c3e89ad4fc3002f9b66c4acbdfe9af6cfdf0bdb0",
+        "source_graph.json": "cfc6ed77025218c6c07e9bf8ba13f9b463599cd2eff4a9e48c485dce374698ca"
+      },
+      "prepared_dir": "cases/POL_GLC_beta__apo__C",
+      "site": "C",
+      "species_id": "D_glucose",
+      "state": "apo"
+    }
+  ],
+  "cohort_id": "perduca_2020_POL_free_hexose_ITC",
+  "expected_runs": 96,
+  "experiment_sha256": "802e044255248bdaf5d75675e3105158722c1aed29541bcf38eec01e3494b71f",
+  "schema_version": 1,
+  "source_ledger_sha256": "d909d92620718b4a558eed83715ebc04fc3da9be0bf3d0914521582a59faae13",
+  "source_receptor_audits": {
+    "apo": {
+      "alternate_conformers": [
+        {
+          "assembly_copy_chain": "A1",
+          "author_residue": 218,
+          "discarded_atom_names": [
+            "CA",
+            "CB",
+            "OG"
+          ],
+          "occupancy_normalized": false,
+          "retained_selected_atom_names": [
+            "CA",
+            "CB",
+            "OG"
+          ],
+          "retained_shared_atom_names": [
+            "N",
+            "C",
+            "O"
+          ],
+          "rule": "one whole residue conformer by highest mean occupancy; lexical tie break",
+          "selected": "B",
+          "selected_altloc_cleared": true,
+          "source_occupancies": {
+            "A": [
+              0.41999998688697815,
+              0.41999998688697815,
+              0.41999998688697815
+            ],
+            "B": [
+              0.5799999833106995,
+              0.5799999833106995,
+              0.5799999833106995
+            ]
+          }
+        },
+        {
+          "assembly_copy_chain": "A2",
+          "author_residue": 218,
+          "discarded_atom_names": [
+            "CA",
+            "CB",
+            "OG"
+          ],
+          "occupancy_normalized": false,
+          "retained_selected_atom_names": [
+            "CA",
+            "CB",
+            "OG"
+          ],
+          "retained_shared_atom_names": [
+            "N",
+            "C",
+            "O"
+          ],
+          "rule": "one whole residue conformer by highest mean occupancy; lexical tie break",
+          "selected": "B",
+          "selected_altloc_cleared": true,
+          "source_occupancies": {
+            "A": [
+              0.41999998688697815,
+              0.41999998688697815,
+              0.41999998688697815
+            ],
+            "B": [
+              0.5799999833106995,
+              0.5799999833106995,
+              0.5799999833106995
+            ]
+          }
+        }
+      ],
+      "apo_context_caveat": "native glycosylated apo protein; covalent glycans removed explicitly",
+      "assembly_id": "1",
+      "assembly_operators": [
+        {
+          "name": "1",
+          "rotation": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_A": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "2",
+          "rotation": [
+            [
+              -0.5,
+              0.8660254038,
+              0.0
+            ],
+            [
+              0.8660254038,
+              0.5,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "translation_A": [
+            0.0,
+            0.0,
+            48.6036666667
+          ]
+        }
+      ],
+      "chain_copy_map": {
+        "A1": "A",
+        "A2": "B"
+      },
+      "chain_operator_correspondence": [
+        {
+          "operator": "1",
+          "prepared_chain": "A",
+          "source_author_chain": "A"
+        },
+        {
+          "operator": "2",
+          "prepared_chain": "B",
+          "source_author_chain": "A"
+        }
+      ],
+      "materializations": 1,
+      "native_calcium_count": 4,
+      "observed_residue_heavy_atom_completion": false,
+      "operator_count": 2,
+      "pdb_id": "6T0Q",
+      "protein_heavy_atom_minimization": false,
+      "protein_heavy_atoms_per_chain": {
+        "A": 2529,
+        "B": 2529
+      },
+      "protein_residues_per_chain": {
+        "A": 340,
+        "B": 340
+      },
+      "raw_protein_heavy_atoms_per_chain_before_altloc_selection": {
+        "A": 2532,
+        "B": 2532
+      },
+      "removed_nonprotein_heavy_atoms_by_resname": {
+        "GOL": 48,
+        "HOH": 556,
+        "NAG": 168
+      },
+      "source_ion_to_prepared_label_map": [
+        {
+          "assembly_copy_source_key": [
+            "A1",
+            403,
+            "",
+            "CA",
+            "CA"
+          ],
+          "coordinates_A": [
+            11.113,
+            107.014,
+            24.332
+          ],
+          "formal_charge": 2,
+          "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+          "prepared_key": [
+            "A",
+            403,
+            "",
+            "CA2",
+            "CA+2"
+          ]
+        },
+        {
+          "assembly_copy_source_key": [
+            "A1",
+            404,
+            "",
+            "CA",
+            "CA"
+          ],
+          "coordinates_A": [
+            15.771,
+            65.875,
+            -0.193
+          ],
+          "formal_charge": 2,
+          "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+          "prepared_key": [
+            "A",
+            404,
+            "",
+            "CA2",
+            "CA+2"
+          ]
+        },
+        {
+          "assembly_copy_source_key": [
+            "A2",
+            403,
+            "",
+            "CA",
+            "CA"
+          ],
+          "coordinates_A": [
+            87.1203425622532,
+            63.131140312429395,
+            24.2716666667
+          ],
+          "formal_charge": 2,
+          "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+          "prepared_key": [
+            "B",
+            403,
+            "",
+            "CA2",
+            "CA+2"
+          ]
+        },
+        {
+          "assembly_copy_source_key": [
+            "A2",
+            404,
+            "",
+            "CA",
+            "CA"
+          ],
+          "coordinates_A": [
+            49.163923475325,
+            46.5955866433298,
+            48.7966666667
+          ],
+          "formal_charge": 2,
+          "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+          "prepared_key": [
+            "B",
+            404,
+            "",
+            "CA2",
+            "CA+2"
+          ]
+        }
+      ],
+      "source_sha256": "92d28955cfa58f11e6471afa531bfc141df6b3563b49196b8dcd29264177ee89",
+      "state": "apo",
+      "unmodeled_N_terminal_residues_per_chain": 13
+    },
+    "holo": {
+      "alternate_conformers": [],
+      "apo_context_caveat": null,
+      "assembly_id": "1",
+      "assembly_operators": [
+        {
+          "name": "1",
+          "rotation": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "translation_A": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "chain_copy_map": {
+        "A1": "A",
+        "B1": "B"
+      },
+      "chain_operator_correspondence": [
+        {
+          "operator": "1",
+          "prepared_chain": "A",
+          "source_author_chain": "A"
+        },
+        {
+          "operator": "1",
+          "prepared_chain": "B",
+          "source_author_chain": "B"
+        }
+      ],
+      "materializations": 1,
+      "native_calcium_count": 4,
+      "observed_residue_heavy_atom_completion": false,
+      "operator_count": 1,
+      "pdb_id": "6T1D",
+      "protein_heavy_atom_minimization": false,
+      "protein_heavy_atoms_per_chain": {
+        "A": 2517,
+        "B": 2517
+      },
+      "protein_residues_per_chain": {
+        "A": 338,
+        "B": 338
+      },
+      "raw_protein_heavy_atoms_per_chain_before_altloc_selection": {
+        "A": 2517,
+        "B": 2517
+      },
+      "removed_nonprotein_heavy_atoms_by_resname": {
+        "GLA": 44,
+        "GLC": 26,
+        "HOH": 138
+      },
+      "source_ion_to_prepared_label_map": [
+        {
+          "assembly_copy_source_key": [
+            "A1",
+            401,
+            "",
+            "CA",
+            "CA"
+          ],
+          "coordinates_A": [
+            23.3,
+            42.291,
+            23.883
+          ],
+          "formal_charge": 2,
+          "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+          "prepared_key": [
+            "A",
+            401,
+            "",
+            "CA2",
+            "CA+2"
+          ]
+        },
+        {
+          "assembly_copy_source_key": [
+            "A1",
+            402,
+            "",
+            "CA",
+            "CA"
+          ],
+          "coordinates_A": [
+            13.564,
+            24.13,
+            68.284
+          ],
+          "formal_charge": 2,
+          "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+          "prepared_key": [
+            "A",
+            402,
+            "",
+            "CA2",
+            "CA+2"
+          ]
+        },
+        {
+          "assembly_copy_source_key": [
+            "B1",
+            401,
+            "",
+            "CA",
+            "CA"
+          ],
+          "coordinates_A": [
+            8.455,
+            -42.656,
+            32.558
+          ],
+          "formal_charge": 2,
+          "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+          "prepared_key": [
+            "B",
+            401,
+            "",
+            "CA2",
+            "CA+2"
+          ]
+        },
+        {
+          "assembly_copy_source_key": [
+            "B1",
+            402,
+            "",
+            "CA",
+            "CA"
+          ],
+          "coordinates_A": [
+            49.967,
+            -24.273,
+            50.361
+          ],
+          "formal_charge": 2,
+          "mapping_reason": "native CA/CA mapped to explicit standalone CA2/CA+2 for the audited Meeko ion helper",
+          "prepared_key": [
+            "B",
+            402,
+            "",
+            "CA2",
+            "CA+2"
+          ]
+        }
+      ],
+      "source_sha256": "b6aff9dad0e696d5179ba3fe52fac851bc858deb9287859f950cf3e4f0149eef",
+      "state": "holo",
+      "unmodeled_N_terminal_residues_per_chain": 18
+    }
+  },
+  "status": "prepared"
+}

@@ -43,25 +43,44 @@
       "status": "in_progress"
     },
     {
-      "evidence": "One source-qualified Gal9C assay with six measured/NB epimer pairs frozen and executed. Untouched family/chemical splits, learned-method overlap and precision targets remain pending.",
+      "evidence": "Gal9C provides six measured/NB epimer pairs in one assay. An independently sourced POL assay adds a natural galactose/glucose contrast, frozen before docking, with both anomers, native calcium and independently solved apo/holo sensitivity. Structural cohort, training overlap and precision qualification remain separate unfinished work.",
       "id": "confirmatory_eligibility",
       "requirement": "Frozen eligible families, leakage audit, precision target, independent tested specificity labels",
       "status": "pending"
     },
     {
-      "evidence": "Whole-protein blind site localization completed on eight complexes plus paired AAV apo with two predictors and surface nulls. One known-site assay-specific scoring arm completed. Held-out family inference and blind-site docking pose recovery remain pending.",
+      "evidence": "Whole-protein site localization completed on eight complexes plus paired AAV apo. All 36 Gal9C and 96 POL known-site assay runs completed; POL ranking is preparation-dependent. Blind-site docking pose recovery and the new structural cohort remain pending.",
       "id": "confirmatory_execution",
       "requirement": "Paired information, conformation and assembly comparisons, failure denominators, family-aware uncertainty",
       "status": "in_progress"
     },
     {
-      "evidence": "Original archived pose tables reproduce in Linux CI. New 27 predictor attempts have raw archive reparse verification, 900 surface draws have portable source replay, and all 36 assay scores have independent arithmetic/stereochemical review. These establish implementation reproducibility, not independent biological confirmation.",
+      "evidence": "Original archived pose tables reproduce in Linux CI. New 27 predictor attempts have raw archive reparse verification, 900 surface draws have portable source replay, and all 36 assay scores have independent arithmetic/stereochemical review. These establish implementation reproducibility, not independent biological confirmation. POL adds raw reparse of 96 runs, all 1919 saved poses, preparation archives, stereochemistry and frozen source/configuration/helper hashes; an omitted logged mode is explained by the fixed output energy window.",
       "id": "independent_reproduction",
       "requirement": "Independent end-to-end replay from archived sources and raw outputs",
       "status": "in_progress"
     }
   ],
-  "interpretation": "Separate evidence now supports descriptive known-site pose diagnostics, whole-protein site localization and one matched-epimer assay ranking experiment. Scientific scope remains development-only; held-out-family reliability and universally accurate docking remain unestablished.",
+  "independent_specificity_milestone": {
+    "assay_families": 1,
+    "completed_runs": 96,
+    "description": "Prespecified independent natural-epimer assay contrast; weak primary score preference reverses in six of seven sensitivity conditions",
+    "evidence": [
+      "docs/INDEPENDENT_SPECIFICITY_CANDIDATES.md",
+      "docs/POL_SPECIFICITY_RESULTS.md",
+      "benchmarks/pol_experiment.json",
+      "results/pol_specificity/summary.json",
+      "docs/POL_INDEPENDENT_REVIEW.md"
+    ],
+    "experimental_species": 2,
+    "model_anomers": 4,
+    "opposite_direction_sensitivity_conditions": 6,
+    "primary_glucose_minus_galactose_mean_kcal_mol": 0.027333333333333876,
+    "returned_poses": 1919,
+    "scope": "one independent assay contrast; no classifier accuracy, calibrated affinity or cross-family reliability estimate",
+    "sensitivity_conditions": 7
+  },
+  "interpretation": "Separate evidence supports descriptive known-site pose diagnostics, whole-protein site localization and two assay-specific matched-epimer experiments. POL shows a small and condition-dependent score preference. Held-out structural reliability, calibrated specificity and universally accurate docking remain unestablished.",
   "new_completed_milestone": {
     "description": "Whole-protein site localization and source-qualified matched-epimer specificity",
     "evidence": [
