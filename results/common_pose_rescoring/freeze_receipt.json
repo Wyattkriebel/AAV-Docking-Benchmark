@@ -1,0 +1,7 @@
+{
+  "atomic_reference_ledger_sha256": "8ed3887e2575f8ed92d73562f9b79c088036f326ed177af2c71b55522eedf383",
+  "configuration_sha256": "c55eb53ec440df889d6d2256b3fb76f8b389874a71d0b1e9a670e0f78c74a227",
+  "frozen_before_benchmark_rescoring": true,
+  "method_lock_sha256": "ebe5b1fdbc14c14dcd8943702eb71890d00a2b884b4c52f4808d9fb0c1ad3634",
+  "new_rescoring_outcomes_consulted": false
+}

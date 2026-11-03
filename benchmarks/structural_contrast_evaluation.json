@@ -1,0 +1,105 @@
+{
+  "case_ids": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "case_to_family": {
+    "2RDK": "cyanovirin_N",
+    "3ZWE": "BambL_RSL_propeller",
+    "4R9F": "CpMnBP1_SBP_II",
+    "5HZA": "norovirus_P_domain",
+    "5V6F": "RbmC_beta_prism",
+    "8I5U": "GH116"
+  },
+  "endpoints": {
+    "alignments": [
+      "global",
+      "local_interface"
+    ],
+    "atomic_strata": [
+      "full_ligand",
+      "modeled_core"
+    ],
+    "rank_budgets": [
+      "top1",
+      "top5",
+      "best_returned"
+    ],
+    "thresholds_A": [
+      1,
+      2,
+      3
+    ]
+  },
+  "existing_contrasts": {
+    "H2": "reference216existing",
+    "H4": "reference108existing",
+    "HADDOCK_H1_guidance": "reference144existing"
+  },
+  "family_mapping_source": {
+    "bytes": 3670,
+    "path": "benchmarks/structural_pose_reference_evaluation.json",
+    "sha256": "1c96e8822c85f9b4f215a606271ce69affcd155e3e95dc4d137247f171c6f596"
+  },
+  "frozen_before_any_structural_accuracy": true,
+  "generation_receipt": "results/structural_pose_v3/global_report_release/generation_receipt.json",
+  "global_authorization": {
+    "bytes": 1083,
+    "path": "results/structural_pose_v3/global_report_release/freeze_receipt.json",
+    "sha256": "70bf37f1b2c56a08e8eeb3b527f2304d19924ca9fbf2177ab2db679c500d470f"
+  },
+  "global_contract": {
+    "bytes": 10414,
+    "path": "benchmarks/global_pose_report_gate.json",
+    "sha256": "ab0f9613b80f90d82725bd37d4e3d766285081848cce175437fd7e7c405746ee"
+  },
+  "hypothesis_labels": {
+    "H1": "true-site guidance",
+    "H2": "candidate ranking",
+    "H3": "assay specificity",
+    "H4": "assembly"
+  },
+  "new_contrasts": {
+    "haddock_preparation_sensitivity": 108,
+    "main_H1_guidance": 288,
+    "main_preparation_sensitivity": 216
+  },
+  "new_structural_accuracy_consulted": false,
+  "protocol_source": {
+    "bytes": 11596,
+    "path": "PROTOCOL.md",
+    "sha256": "84d632968fb81cbf50900e29fe4120baa15b182453bd81a4ec04afb8e715a590"
+  },
+  "release_binding": "results/structural_pose_v3/global_report_release/released_reports_binding.json",
+  "release_binding_timing": "Post-generation file hashes, separately bound to the successful frozen global generation result; never represented as contemporaneous producer hashes.",
+  "repair_is_hypothesis_H3": false,
+  "report_directory": "results/structural_pose_v3/global_reports",
+  "report_roles": [
+    "main_paired",
+    "haddock",
+    "assembly_control",
+    "fixed_union"
+  ],
+  "schema_version": 1,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "source_code_sha256": {
+    "aav_benchmark/statistics.py": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e",
+    "aav_benchmark/structural_contrast_report.py": "1d31336fbb97bf702f46e433d5ad29cf9fa0ad443d923441f8920aeca9aab938"
+  },
+  "statistics": {
+    "conditional_CI": false,
+    "confidence": 0.95,
+    "eligible_failures_zero": true,
+    "n_resamples": 10000,
+    "seed": 20261103,
+    "unit": "source_family"
+  }
+}

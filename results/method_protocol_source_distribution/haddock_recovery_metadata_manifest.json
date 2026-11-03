@@ -1,0 +1,74 @@
+{
+  "archive": "recovery_metadata.tar.gz",
+  "archive_sha256": "d8df825f6ede8e77a01c7b6806856131f8949eb7e4714b64cf5aa7295f6abfc9",
+  "embedded_original_manifest": "orchestration_recovery/recovery_metadata_manifest.json",
+  "files": [
+    {
+      "bytes": 55318,
+      "path": "orchestration_recovery/completed_first_job_manifest.json",
+      "sha256": "7bbae28624ea8556e6b903ef638598e996f7fdb6e4695d7e9e4aff49af043ac2"
+    },
+    {
+      "bytes": 59,
+      "path": "orchestration_recovery/concurrency_control.json",
+      "sha256": "969967d9c5698e9f10cac58cd7b0e3faaa95ae1fd2466098e5195779bafd6fd7"
+    },
+    {
+      "bytes": 109868,
+      "path": "orchestration_recovery/orphan_completion_proof.json",
+      "sha256": "7312e033822d71b9221339ccfd45de783ee95261c96015cf06d12502793c7e8d"
+    },
+    {
+      "bytes": 1215,
+      "path": "orchestration_recovery/recovery_freeze.proposal.json",
+      "sha256": "1371370dd7c9a48c1a952b0a0d28d9b7b3c17970c9375159744e76c5f6c13967"
+    },
+    {
+      "bytes": 2265,
+      "path": "orchestration_recovery/recovery_metadata_manifest.json",
+      "sha256": "8179b51cf12179111387f27de2db6a1061a74097b900debf222ff02e7b021c0d"
+    },
+    {
+      "bytes": 1671,
+      "path": "orchestration_recovery/recovery_plan.json",
+      "sha256": "330bf31f9061d435e615e4e23712e627255e1774aeb82c70aee2af88c86dba38"
+    },
+    {
+      "bytes": 7480,
+      "path": "orchestration_recovery/source_snapshot/HADDOCK_EXECUTION_RECOVERY.md",
+      "sha256": "10c04b1d3617183ad56c124f62ae037978f723751f57c5cf537649c001688e01"
+    },
+    {
+      "bytes": 34361,
+      "path": "orchestration_recovery/source_snapshot/haddock_cohort_resume.py",
+      "sha256": "6a2b233ebc817c5c1c64ed8f47da5fda609a3eca99083ec8a58f972cf884490a"
+    },
+    {
+      "bytes": 3487,
+      "path": "orchestration_recovery/source_snapshot/haddock_orchestration_recovery_policy.json",
+      "sha256": "90524bd41d29c93e894603838bb2ecf9d9395731638f3445ce6a08d285c1b000"
+    },
+    {
+      "bytes": 11039,
+      "path": "orchestration_recovery/source_snapshot/test_haddock_cohort_resume.py",
+      "sha256": "17d6d07cd1c65d9696a7ba6d53a1b31907875eb6aa8cd0adbfa24ace86caf4fb"
+    },
+    {
+      "bytes": 727,
+      "path": "orchestration_recovery/validation_tests.log",
+      "sha256": "809c1cd89b7f3c1799c06c2eba10cdc7ca28bab15e7dc04ae7d58f0364c7e17e"
+    }
+  ],
+  "frozen_original_manifest": {
+    "bytes": 2265,
+    "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_metadata_manifest.json",
+    "sha256": "8179b51cf12179111387f27de2db6a1061a74097b900debf222ff02e7b021c0d"
+  },
+  "no_new_native_or_accuracy_calls": true,
+  "original_manifest_records": 10,
+  "packaging_after_execution_started": true,
+  "schema_version": 1,
+  "scientific_inputs_and_original_receipts_unchanged": true,
+  "scope": "Full-coverage public hydration manifest for existing frozen archive bytes; original manifest remains provenance.",
+  "target_prefix": "results/haddock_paired_cohort"
+}

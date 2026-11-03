@@ -1,0 +1,9 @@
+{
+  "all_main216_HADDOCK108_control_comparator72_outcomes_required_before_accuracy": true,
+  "evaluation_plan_sha256": "a96bc6ab1d0425ce6e6b55a76736ecd35746b78e7d71facd464995b4ad72ffbf",
+  "frozen_at_UTC": "2026-11-03T18:43:32.077036+00:00",
+  "frozen_before_test_pose_accuracy": true,
+  "new_test_pose_accuracy_consulted": false,
+  "new_test_site_accuracy_consulted": false,
+  "shared_reference_thresholds_and_atom_masks_unchanged": true
+}

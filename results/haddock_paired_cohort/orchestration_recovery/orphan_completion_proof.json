@@ -1,0 +1,2787 @@
+{
+  "schema_version": 1,
+  "job_id": "strict/2RDK/fpocket/box01/s104729",
+  "source_only_recovery": true,
+  "no_native_rerun": true,
+  "no_accuracy_evaluation": true,
+  "frozen_plan": {
+    "path": "results/haddock_paired_cohort/prepared_plan.json",
+    "sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2",
+    "bytes": 297244
+  },
+  "frozen_helper": {
+    "path": "aav_benchmark/haddock_paired_cohort.py",
+    "sha256": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6",
+    "bytes": 21858
+  },
+  "original_execution_freeze": {
+    "path": "results/haddock_paired_cohort/execution_freeze.json",
+    "sha256": "f5c9a8503a6ebcb08cb9b5b6c3b1f698b36868c610a3816352829bf416cda904",
+    "bytes": 726
+  },
+  "frozen_config": {
+    "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run.cfg",
+    "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda",
+    "bytes": 479
+  },
+  "original_failed_driver_log": {
+    "path": "results/haddock_paired_cohort/execution_driver.log",
+    "sha256": "573eda32b82f5886ec2f2325f5a096d17761983090c817479ef4ce9b1ad2b757",
+    "bytes": 1690
+  },
+  "input_preprocessing_identity": {
+    "receptor": {
+      "atom_count": 760,
+      "exact_atom_identity": true,
+      "maximum_coordinate_change_A": 0.0,
+      "byte_identical": false
+    },
+    "glycan": {
+      "atom_count": 23,
+      "exact_atom_identity": true,
+      "maximum_coordinate_change_A": 0.0,
+      "byte_identical": false
+    }
+  },
+  "native_completion": {
+    "normal_finished_marker": true,
+    "elapsed_seconds": 373,
+    "elapsed_source": "explicit integer-second HADDOCK native stdout runtime report",
+    "measured_external_elapsed_seconds": null,
+    "process_CPU_seconds": null,
+    "first_native_log_timestamp": "2026-11-03 09:47:38,799",
+    "native_log_timezone_context": "America/Los_Angeles",
+    "first_native_log_UTC_derived": "2026-11-03T17:47:38.799000+00:00",
+    "process_return_code": null,
+    "return_code_reason": "Not captured before original post-native Python receipt serialization exception; completion markers do not establish exit0."
+  },
+  "output_proof": {
+    "stages": [
+      {
+        "stage": "0_topoaa",
+        "actual_physical_model_files": 2,
+        "models": [
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/0_topoaa/glycan_haddock.pdb",
+            "original_model_number": null,
+            "file_name": "glycan_haddock.pdb",
+            "sha256": "927aa3c9cda296d62063826978ce56d84e33a3c63f0c594191ee6a87bf9675af",
+            "atom_count": 45,
+            "score": null,
+            "energies": null,
+            "actual_CNS_seed": null,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/0_topoaa/receptor_haddock.pdb",
+            "original_model_number": null,
+            "file_name": "receptor_haddock.pdb",
+            "sha256": "ab56cc48bfd44ff2468d1ca1814c5d33ddea07d3ab3a17745417e39154fdbfd2",
+            "atom_count": 1038,
+            "score": null,
+            "energies": null,
+            "actual_CNS_seed": null,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null
+          }
+        ],
+        "io_sha256": "602b1d820e3d117636d4b84b56706f8b58ed3c6b50ecd2782fbc80a7c58ba62c",
+        "individual_score_order": []
+      },
+      {
+        "stage": "1_rigidbody",
+        "actual_physical_model_files": 20,
+        "models": [
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_1.pdb",
+            "original_model_number": 1,
+            "file_name": "rigidbody_1.pdb",
+            "sha256": "1d098dc2de9281a04568d363c7245d46f1c7bd80c39fa161520ca3bf465ea58c",
+            "atom_count": 1083,
+            "score": -17.923069310000002,
+            "energies": {
+              "air": 0.436069,
+              "angles": 282.435,
+              "bonds": 54.8529,
+              "bsa": 345.065,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 6.03774,
+              "dihe": 534.395,
+              "elec": -2.68372,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -20.0785,
+              "vdw": -17.8308,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104730,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 19
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_10.pdb",
+            "original_model_number": 10,
+            "file_name": "rigidbody_10.pdb",
+            "sha256": "a189da4b7b37edef712188a12aa834a60a6f5872ad5159956b6d4db68afe84c7",
+            "atom_count": 1083,
+            "score": -22.089056000000003,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.434,
+              "bonds": 54.858,
+              "bsa": 344.773,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 4.77863,
+              "dihe": 534.395,
+              "elec": -0.979956,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -23.4199,
+              "vdw": -22.44,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104739,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 5
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_11.pdb",
+            "original_model_number": 11,
+            "file_name": "rigidbody_11.pdb",
+            "sha256": "ad7e84f577afeeaa9917686dc7315ff7d0d12321c57947ad75c40c8d89ac51d2",
+            "atom_count": 1083,
+            "score": -19.488104999999997,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.434,
+              "bonds": 54.8501,
+              "bsa": 360.535,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 3.89672,
+              "dihe": 534.395,
+              "elec": 0.870025,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -19.7795,
+              "vdw": -20.6495,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104740,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 13
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_12.pdb",
+            "original_model_number": 12,
+            "file_name": "rigidbody_12.pdb",
+            "sha256": "513a2a228b3418348a245d557aaa9ec0292f9619b0fa49f260dc61b9d3647c2e",
+            "atom_count": 1083,
+            "score": -21.519070000000003,
+            "energies": {
+              "air": 207.677,
+              "angles": 282.434,
+              "bonds": 54.8497,
+              "bsa": 456.513,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 6.67017,
+              "dihe": 534.395,
+              "elec": -4.30768,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 181.976,
+              "vdw": -21.3932,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104741,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 9
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_13.pdb",
+            "original_model_number": 13,
+            "file_name": "rigidbody_13.pdb",
+            "sha256": "a029c7fd2a10f557843e138ccd3e85daece44e9bf88b1b7f4bf1e584a1257aba",
+            "atom_count": 1083,
+            "score": -21.634776409999997,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.435,
+              "bonds": 54.8554,
+              "bsa": 363.512,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 3.27464,
+              "dihe": 534.395,
+              "elec": -0.04689641,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -21.2743,
+              "vdw": -21.2274,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104742,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 8
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_14.pdb",
+            "original_model_number": 14,
+            "file_name": "rigidbody_14.pdb",
+            "sha256": "4dad203f57061582156362ab9f8e54903c278b7ad2e0bef8c9979b3a00b9f4ce",
+            "atom_count": 1083,
+            "score": -25.905832999999998,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.435,
+              "bonds": 54.848,
+              "bsa": 349.147,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": -0.240284,
+              "dihe": 534.395,
+              "elec": -0.181779,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -22.1741,
+              "vdw": -21.9923,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104743,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 1
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_15.pdb",
+            "original_model_number": 15,
+            "file_name": "rigidbody_15.pdb",
+            "sha256": "642224d3554a83066aadf6162ed7b5960cd33095b0cd004a29dc85895fdb1ecb",
+            "atom_count": 1083,
+            "score": -19.420523,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.434,
+              "bonds": 54.8489,
+              "bsa": 362.503,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 1.4305,
+              "dihe": 534.395,
+              "elec": -0.162893,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -17.226,
+              "vdw": -17.0631,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104744,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 15
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_16.pdb",
+            "original_model_number": 16,
+            "file_name": "rigidbody_16.pdb",
+            "sha256": "106c1849929212a3d2afc1d2deab730bae37d1996c0f7ec046395d658d499713",
+            "atom_count": 1083,
+            "score": -19.48599799,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.435,
+              "bonds": 54.8511,
+              "bsa": 312.57,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 5.41161,
+              "dihe": 534.395,
+              "elec": -0.09340799,
+              "improper": 807.637,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -21.7719,
+              "vdw": -21.6785,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104745,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 14
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_17.pdb",
+            "original_model_number": 17,
+            "file_name": "rigidbody_17.pdb",
+            "sha256": "026a54f183934a68f2b957f3b774e95fff6d9054d6e2c242190d471fe78a66f6",
+            "atom_count": 1083,
+            "score": -19.05873324,
+            "energies": {
+              "air": 0.782876,
+              "angles": 282.433,
+              "bonds": 54.8508,
+              "bsa": 384.847,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 5.62899,
+              "dihe": 534.395,
+              "elec": -0.441882,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -20.0642,
+              "vdw": -20.4052,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104746,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 16
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_18.pdb",
+            "original_model_number": 18,
+            "file_name": "rigidbody_18.pdb",
+            "sha256": "58d1c3aff320eebbefffe1e7dc997e641ebc725ce83001c8b716a6a01169b54f",
+            "atom_count": 1083,
+            "score": -20.00142,
+            "energies": {
+              "air": 158.955,
+              "angles": 282.432,
+              "bonds": 54.8537,
+              "bsa": 371.323,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 5.27049,
+              "dihe": 534.395,
+              "elec": -2.59473,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 135.807,
+              "vdw": -20.5535,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104747,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 11
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_19.pdb",
+            "original_model_number": 19,
+            "file_name": "rigidbody_19.pdb",
+            "sha256": "600d75dc8e50e804ff43c5e1d4b3d058616a9a0774b2e7b93609a1f94e91cceb",
+            "atom_count": 1083,
+            "score": -18.424390000000002,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.434,
+              "bonds": 54.8513,
+              "bsa": 287.72,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 3.92985,
+              "dihe": 534.395,
+              "elec": -1.62714,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -19.477,
+              "vdw": -17.8499,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104748,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 18
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_2.pdb",
+            "original_model_number": 2,
+            "file_name": "rigidbody_2.pdb",
+            "sha256": "1de3c8ef9e6d5b80b95b6da6dca25aea67a19dd2d00a6fda5eedc1a601cef882",
+            "atom_count": 1083,
+            "score": -23.932139999999997,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.435,
+              "bonds": 54.8499,
+              "bsa": 351.204,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 0.29755,
+              "dihe": 534.395,
+              "elec": -1.11335,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -20.7176,
+              "vdw": -19.6043,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104731,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 2
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_20.pdb",
+            "original_model_number": 20,
+            "file_name": "rigidbody_20.pdb",
+            "sha256": "ffa2e380749dc2c951ddd0bb81c1052ac42ec5f8c7e94d340e9ce2f0749915ed",
+            "atom_count": 1083,
+            "score": -23.582530000000002,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.434,
+              "bonds": 54.853,
+              "bsa": 383.656,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 4.11648,
+              "dihe": 534.395,
+              "elec": -1.12975,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -23.8625,
+              "vdw": -22.7327,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104749,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 3
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_3.pdb",
+            "original_model_number": 3,
+            "file_name": "rigidbody_3.pdb",
+            "sha256": "beca3b2865126efb5950b436e373cd170ffc3111d24e6d0cd742a27d0397272e",
+            "atom_count": 1083,
+            "score": -21.884235999999998,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.435,
+              "bonds": 54.8514,
+              "bsa": 423.132,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 3.7036,
+              "dihe": 534.395,
+              "elec": 0.329284,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -21.3565,
+              "vdw": -21.6858,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104732,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 6
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_4.pdb",
+            "original_model_number": 4,
+            "file_name": "rigidbody_4.pdb",
+            "sha256": "7d52fa3873067f3b6ea8b852d233c04237248b712cc28f6454efb77262a14c06",
+            "atom_count": 1083,
+            "score": -19.509089999999997,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.436,
+              "bonds": 54.8565,
+              "bsa": 280.553,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 3.48711,
+              "dihe": 534.395,
+              "elec": -1.34087,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -20.1906,
+              "vdw": -18.8498,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104733,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 12
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_5.pdb",
+            "original_model_number": 5,
+            "file_name": "rigidbody_5.pdb",
+            "sha256": "749fde806f82fce9aaf86165d58c5f87a7fbed6980f17ec2eff9fa1efd75cdff",
+            "atom_count": 1083,
+            "score": -22.620164,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.435,
+              "bonds": 54.85,
+              "bsa": 350.307,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 4.21033,
+              "dihe": 534.395,
+              "elec": -0.697124,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -23.3274,
+              "vdw": -22.6303,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104734,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 4
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_6.pdb",
+            "original_model_number": 6,
+            "file_name": "rigidbody_6.pdb",
+            "sha256": "20d0346942b850c36ea9260be6915606590eede43ae4f656c38048158a724fe3",
+            "atom_count": 1083,
+            "score": -21.799048000000003,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.434,
+              "bonds": 54.8531,
+              "bsa": 341.047,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 2.69881,
+              "dihe": 534.395,
+              "elec": -0.981388,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -21.0874,
+              "vdw": -20.106,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104735,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 7
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_7.pdb",
+            "original_model_number": 7,
+            "file_name": "rigidbody_7.pdb",
+            "sha256": "3a2bf45d41b3f3b01e2f4a19ff529aa12d05976d7f26a9deccb4cf1c6dcc0886",
+            "atom_count": 1083,
+            "score": -20.906109999999998,
+            "energies": {
+              "air": 0.0,
+              "angles": 282.434,
+              "bonds": 54.8496,
+              "bsa": 344.33,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 4.46664,
+              "dihe": 534.395,
+              "elec": -1.34875,
+              "improper": 807.638,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -21.9294,
+              "vdw": -20.5807,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104736,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 10
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_8.pdb",
+            "original_model_number": 8,
+            "file_name": "rigidbody_8.pdb",
+            "sha256": "0c9c014fa976e258c4e70e55a2ddb3c704b111354ec0a3b851a321c1239891d8",
+            "atom_count": 1083,
+            "score": -18.95195583595,
+            "energies": {
+              "air": 0.002416405,
+              "angles": 282.435,
+              "bonds": 54.8507,
+              "bsa": 320.893,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 4.48617,
+              "dihe": 534.395,
+              "elec": -1.21452,
+              "improper": 807.637,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -20.2268,
+              "vdw": -19.0147,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104737,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 17
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_9.pdb",
+            "original_model_number": 9,
+            "file_name": "rigidbody_9.pdb",
+            "sha256": "e4852b5deb4aa5ac34800f4dc11f799007035d272d63c0e81c865131191acb1a",
+            "atom_count": 1083,
+            "score": -15.657444340000001,
+            "energies": {
+              "air": 0.970866,
+              "angles": 282.435,
+              "bonds": 54.8511,
+              "bsa": 385.893,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 6.85446,
+              "dihe": 534.395,
+              "elec": -0.208683,
+              "improper": 807.637,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -17.6918,
+              "vdw": -18.454,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104738,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 20
+          }
+        ],
+        "io_sha256": "93881f9fe074aabe884d48afb52feb4b35c22e5f49708afa0990b18b3da9ea88",
+        "individual_score_order": [
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_14.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_2.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_20.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_5.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_10.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_3.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_6.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_13.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_12.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_7.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_18.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_4.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_11.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_16.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_15.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_17.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_8.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_19.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_1.pdb",
+          "strict/2RDK/fpocket/box01/s104729/1_rigidbody/rigidbody_9.pdb"
+        ]
+      },
+      {
+        "stage": "2_flexref",
+        "actual_physical_model_files": 20,
+        "models": [
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_1.pdb",
+            "original_model_number": 1,
+            "file_name": "flexref_1.pdb",
+            "sha256": "a622fa85c5831481a745ac793246489d01c72bba09185a0fc56780e6319144dc",
+            "atom_count": 1083,
+            "score": 10001.68878407,
+            "energies": {
+              "air": 42.1765,
+              "angles": 224.838,
+              "bonds": 45.5966,
+              "bsa": -999999.0,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": -1.09102,
+              "dihe": 540.354,
+              "elec": -1.33551,
+              "improper": 484.284,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 40.7486,
+              "vdw": -0.09233593,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104730,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 20
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_10.pdb",
+            "original_model_number": 10,
+            "file_name": "flexref_10.pdb",
+            "sha256": "f8ecdee690a07ff2c73eb0ac40cf901700f1557c102246fec5eef82fdc767907",
+            "atom_count": 1083,
+            "score": -0.9068089999999998,
+            "energies": {
+              "air": 2.58729,
+              "angles": 241.789,
+              "bonds": 48.301,
+              "bsa": 120.852,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 2.31841,
+              "dihe": 535.661,
+              "elec": -0.358638,
+              "improper": 488.281,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 0.31186,
+              "vdw": -1.91679,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104739,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 19
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_11.pdb",
+            "original_model_number": 11,
+            "file_name": "flexref_11.pdb",
+            "sha256": "97a8d5df5e8433ec5715c417c18cbb0b2425021f0a594c88907c8f83c876d6bd",
+            "atom_count": 1083,
+            "score": -9.168317,
+            "energies": {
+              "air": 1.43183,
+              "angles": 233.584,
+              "bonds": 46.534,
+              "bsa": 139.596,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 1.37818,
+              "dihe": 534.403,
+              "elec": -6.64686,
+              "improper": 466.579,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -7.8619,
+              "vdw": -2.64686,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104740,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 11
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_12.pdb",
+            "original_model_number": 12,
+            "file_name": "flexref_12.pdb",
+            "sha256": "b4d8512ea11d3de40742bb94c48dbb4bf0270ff065b1d8605b5a6562118aa298",
+            "atom_count": 1083,
+            "score": -3.8660959999999998,
+            "energies": {
+              "air": 45.4379,
+              "angles": 240.946,
+              "bonds": 41.4856,
+              "bsa": 161.399,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 2.09471,
+              "dihe": 533.229,
+              "elec": -8.11391,
+              "improper": 398.486,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 36.5472,
+              "vdw": -0.776696,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104741,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 15
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_13.pdb",
+            "original_model_number": 13,
+            "file_name": "flexref_13.pdb",
+            "sha256": "2d8ce940a683f1c741f7486a0b246bffeefe0d1d5e1528c0bd07300881efcd44",
+            "atom_count": 1083,
+            "score": -9.2856458,
+            "energies": {
+              "air": 2.65623,
+              "angles": 261.502,
+              "bonds": 49.117,
+              "bsa": 46.37,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 0.0360212,
+              "dihe": 534.0,
+              "elec": -13.6444,
+              "improper": 574.083,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -6.46733,
+              "vdw": 4.52081,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104742,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 10
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_14.pdb",
+            "original_model_number": 14,
+            "file_name": "flexref_14.pdb",
+            "sha256": "60b36c4b3254d59e9c0b8e84027c4036ccfb1368c352af8562e35039829ddb9a",
+            "atom_count": 1083,
+            "score": -16.59911,
+            "energies": {
+              "air": 0.0,
+              "angles": 256.986,
+              "bonds": 47.1256,
+              "bsa": 206.108,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 1.16027,
+              "dihe": 532.776,
+              "elec": -5.4485,
+              "improper": 530.445,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -15.6983,
+              "vdw": -10.2498,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104743,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 8
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_15.pdb",
+            "original_model_number": 15,
+            "file_name": "flexref_15.pdb",
+            "sha256": "ceda4c09423a8cec4ced17555e011e4006e5459cde1e560128069d07d42cea39",
+            "atom_count": 1083,
+            "score": -5.2778279999999995,
+            "energies": {
+              "air": 5.1464,
+              "angles": 251.048,
+              "bonds": 45.8635,
+              "bsa": 97.3682,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": -0.209483,
+              "dihe": 532.306,
+              "elec": -4.50831,
+              "improper": 498.269,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 0.537098,
+              "vdw": -0.100993,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104744,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 13
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_16.pdb",
+            "original_model_number": 16,
+            "file_name": "flexref_16.pdb",
+            "sha256": "e4714b1a60c4092d98dad63ee75eec10d28fba59bc8bca9a01afe018cf28405f",
+            "atom_count": 1083,
+            "score": -39.34806999999999,
+            "energies": {
+              "air": 2.3978,
+              "angles": 225.84,
+              "bonds": 46.3796,
+              "bsa": 190.533,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 4.47844,
+              "dihe": 536.558,
+              "elec": -41.032,
+              "improper": 485.451,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -39.7632,
+              "vdw": -1.12896,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104745,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 2
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_17.pdb",
+            "original_model_number": 17,
+            "file_name": "flexref_17.pdb",
+            "sha256": "55d632a6ed77d1fb69e23ff6da878c3f67cd1e1e6f9cdac6b1227d80b79aa1b9",
+            "atom_count": 1083,
+            "score": -12.37833369,
+            "energies": {
+              "air": 25.318,
+              "angles": 239.069,
+              "bonds": 47.8322,
+              "bsa": 135.979,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 0.07204631,
+              "dihe": 537.276,
+              "elec": -11.849,
+              "improper": 470.772,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 11.6956,
+              "vdw": -1.77339,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104746,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 9
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_18.pdb",
+            "original_model_number": 18,
+            "file_name": "flexref_18.pdb",
+            "sha256": "acee8e15bb57cdf2d4e8ff954d326bc94468aaa94759e3fcf00feef7418525cc",
+            "atom_count": 1083,
+            "score": -45.869240000000005,
+            "energies": {
+              "air": 26.4215,
+              "angles": 245.679,
+              "bonds": 47.4387,
+              "bsa": 239.886,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 6.3081,
+              "dihe": 538.777,
+              "elec": -45.8997,
+              "improper": 512.172,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -25.9992,
+              "vdw": -6.52093,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104747,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 1
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_19.pdb",
+            "original_model_number": 19,
+            "file_name": "flexref_19.pdb",
+            "sha256": "db6808674e74dfb2f291b0d42941d28d852db5f8c1f9c9e392e4fc18c339ccae",
+            "atom_count": 1083,
+            "score": -3.8602999999999996,
+            "energies": {
+              "air": 2.1114,
+              "angles": 227.425,
+              "bonds": 45.0446,
+              "bsa": 117.772,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 2.9484,
+              "dihe": 531.726,
+              "elec": -2.47626,
+              "improper": 465.111,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -3.73071,
+              "vdw": -3.36586,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104748,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 16
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_2.pdb",
+            "original_model_number": 2,
+            "file_name": "flexref_2.pdb",
+            "sha256": "7b3f49ba4070a25efa516d23ca349a1d7a10a04b87929673abea2f309d551e40",
+            "atom_count": 1083,
+            "score": -27.2329,
+            "energies": {
+              "air": 0.0,
+              "angles": 237.524,
+              "bonds": 44.611,
+              "bsa": 350.093,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 3.91703,
+              "dihe": 530.604,
+              "elec": -11.6003,
+              "improper": 483.707,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -27.649,
+              "vdw": -16.0487,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104731,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 4
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_20.pdb",
+            "original_model_number": 20,
+            "file_name": "flexref_20.pdb",
+            "sha256": "11b572f2d9a8512fae8dc5fbdcf1e0934bf8261115a39d69392dca99af992948",
+            "atom_count": 1083,
+            "score": -4.616918,
+            "energies": {
+              "air": 3.22611,
+              "angles": 237.44,
+              "bonds": 47.3198,
+              "bsa": 105.494,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": -0.932619,
+              "dihe": 535.399,
+              "elec": -1.9022,
+              "improper": 514.554,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 0.274144,
+              "vdw": -1.04977,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104749,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 14
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_3.pdb",
+            "original_model_number": 3,
+            "file_name": "flexref_3.pdb",
+            "sha256": "2c5f5f6e9e33c3556244a9a8195cb75ce163adc0c5d0b8786d262faf4e80c4d8",
+            "atom_count": 1083,
+            "score": -3.26239,
+            "energies": {
+              "air": 21.3124,
+              "angles": 238.284,
+              "bonds": 44.4084,
+              "bsa": 136.125,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": -0.70883,
+              "dihe": 536.131,
+              "elec": 0.21359,
+              "improper": 497.791,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 17.9888,
+              "vdw": -3.53714,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104732,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 17
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_4.pdb",
+            "original_model_number": 4,
+            "file_name": "flexref_4.pdb",
+            "sha256": "098995dbf62b6ccfa0ef3f21ff4c7f5d2c31603f1efa793e36dd40ab9db94860",
+            "atom_count": 1083,
+            "score": -25.099321581999998,
+            "energies": {
+              "air": 0.02978418,
+              "angles": 249.773,
+              "bonds": 48.0739,
+              "bsa": 272.387,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 2.78657,
+              "dihe": 532.391,
+              "elec": -14.5509,
+              "improper": 515.199,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -25.1353,
+              "vdw": -10.6141,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104733,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 5
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_5.pdb",
+            "original_model_number": 5,
+            "file_name": "flexref_5.pdb",
+            "sha256": "3178387adf79b25afbae78229b443e886a5cd1d03b561199210e927b0b421c86",
+            "atom_count": 1083,
+            "score": -0.9755339999999999,
+            "energies": {
+              "air": 6.26926,
+              "angles": 242.059,
+              "bonds": 43.5282,
+              "bsa": 180.474,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 1.37816,
+              "dihe": 531.423,
+              "elec": 1.30752,
+              "improper": 487.524,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": 5.09338,
+              "vdw": -2.4834,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104734,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 18
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_6.pdb",
+            "original_model_number": 6,
+            "file_name": "flexref_6.pdb",
+            "sha256": "92d07817f2872e79c36913e9a47553205ab91588a730ae2ae048de2c9bce5aa1",
+            "atom_count": 1083,
+            "score": -19.866010123699997,
+            "energies": {
+              "air": 0.009798763,
+              "angles": 224.78,
+              "bonds": 44.8903,
+              "bsa": 285.277,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 4.17717,
+              "dihe": 533.118,
+              "elec": -8.52109,
+              "improper": 487.533,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -21.1816,
+              "vdw": -12.6703,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104735,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 7
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_7.pdb",
+            "original_model_number": 7,
+            "file_name": "flexref_7.pdb",
+            "sha256": "815e7b561d6064369e151e1e717fe4fba6ec18c45c77f9ae35dc4f3ea0138e14",
+            "atom_count": 1083,
+            "score": -7.8475214,
+            "energies": {
+              "air": 0.303306,
+              "angles": 238.059,
+              "bonds": 46.3374,
+              "bsa": 218.25,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": -0.139137,
+              "dihe": 528.178,
+              "elec": 0.838225,
+              "improper": 434.34,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -5.25291,
+              "vdw": -6.39444,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104736,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 12
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_8.pdb",
+            "original_model_number": 8,
+            "file_name": "flexref_8.pdb",
+            "sha256": "05890f90797f5a071176b04af5c12991583d2efccc83e64705b6d9b70fa72a3c",
+            "atom_count": 1083,
+            "score": -34.092560000000006,
+            "energies": {
+              "air": 0.0,
+              "angles": 222.977,
+              "bonds": 45.2441,
+              "bsa": 245.554,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 2.78818,
+              "dihe": 534.867,
+              "elec": -23.5001,
+              "improper": 460.497,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -34.4252,
+              "vdw": -10.9251,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104737,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 3
+          },
+          {
+            "model_id": "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_9.pdb",
+            "original_model_number": 9,
+            "file_name": "flexref_9.pdb",
+            "sha256": "f06d4a5c1aa676c172756f2ce2259fd34a9a804d7bd7b1b6b50f50619e209621",
+            "atom_count": 1083,
+            "score": -20.137817000000005,
+            "energies": {
+              "air": 5.10723,
+              "angles": 238.867,
+              "bonds": 47.611,
+              "bsa": 324.994,
+              "cdih": 0.0,
+              "coup": 0.0,
+              "dani": 0.0,
+              "desolv": 1.24691,
+              "dihe": 536.805,
+              "elec": -7.69421,
+              "improper": 468.58,
+              "rdcs": 0.0,
+              "rg": 0.0,
+              "sym": 0.0,
+              "total": -13.5382,
+              "vdw": -10.9513,
+              "vean": 0.0,
+              "xpcs": 0.0
+            },
+            "actual_CNS_seed": 104738,
+            "cluster_id": null,
+            "cluster_rank": null,
+            "within_cluster_rank": null,
+            "individual_score_rank": 6
+          }
+        ],
+        "io_sha256": "e75d841c0912be3d3f49cbe861bf3168bd2fb13bc48d985a105637c49f440e07",
+        "individual_score_order": [
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_18.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_16.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_8.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_2.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_4.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_9.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_6.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_14.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_17.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_13.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_11.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_7.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_15.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_20.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_12.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_19.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_3.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_5.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_10.pdb",
+          "strict/2RDK/fpocket/box01/s104729/2_flexref/flexref_1.pdb"
+        ]
+      }
+    ],
+    "actual_initial_models": 20,
+    "actual_refined_models": 20,
+    "topology_atom_counts": {
+      "receptor": 1038,
+      "glycan": 45
+    },
+    "full_model_atom_count": 1083,
+    "complete_model_score_inventory": true,
+    "complete_finite_energy_inventory": true,
+    "refinement_lineage": [
+      {
+        "refined_model": "flexref_1.pdb",
+        "initial_model": "rigidbody_1.pdb",
+        "actual_CNS_seed": 104730
+      },
+      {
+        "refined_model": "flexref_10.pdb",
+        "initial_model": "rigidbody_10.pdb",
+        "actual_CNS_seed": 104739
+      },
+      {
+        "refined_model": "flexref_11.pdb",
+        "initial_model": "rigidbody_11.pdb",
+        "actual_CNS_seed": 104740
+      },
+      {
+        "refined_model": "flexref_12.pdb",
+        "initial_model": "rigidbody_12.pdb",
+        "actual_CNS_seed": 104741
+      },
+      {
+        "refined_model": "flexref_13.pdb",
+        "initial_model": "rigidbody_13.pdb",
+        "actual_CNS_seed": 104742
+      },
+      {
+        "refined_model": "flexref_14.pdb",
+        "initial_model": "rigidbody_14.pdb",
+        "actual_CNS_seed": 104743
+      },
+      {
+        "refined_model": "flexref_15.pdb",
+        "initial_model": "rigidbody_15.pdb",
+        "actual_CNS_seed": 104744
+      },
+      {
+        "refined_model": "flexref_16.pdb",
+        "initial_model": "rigidbody_16.pdb",
+        "actual_CNS_seed": 104745
+      },
+      {
+        "refined_model": "flexref_17.pdb",
+        "initial_model": "rigidbody_17.pdb",
+        "actual_CNS_seed": 104746
+      },
+      {
+        "refined_model": "flexref_18.pdb",
+        "initial_model": "rigidbody_18.pdb",
+        "actual_CNS_seed": 104747
+      },
+      {
+        "refined_model": "flexref_19.pdb",
+        "initial_model": "rigidbody_19.pdb",
+        "actual_CNS_seed": 104748
+      },
+      {
+        "refined_model": "flexref_2.pdb",
+        "initial_model": "rigidbody_2.pdb",
+        "actual_CNS_seed": 104731
+      },
+      {
+        "refined_model": "flexref_20.pdb",
+        "initial_model": "rigidbody_20.pdb",
+        "actual_CNS_seed": 104749
+      },
+      {
+        "refined_model": "flexref_3.pdb",
+        "initial_model": "rigidbody_3.pdb",
+        "actual_CNS_seed": 104732
+      },
+      {
+        "refined_model": "flexref_4.pdb",
+        "initial_model": "rigidbody_4.pdb",
+        "actual_CNS_seed": 104733
+      },
+      {
+        "refined_model": "flexref_5.pdb",
+        "initial_model": "rigidbody_5.pdb",
+        "actual_CNS_seed": 104734
+      },
+      {
+        "refined_model": "flexref_6.pdb",
+        "initial_model": "rigidbody_6.pdb",
+        "actual_CNS_seed": 104735
+      },
+      {
+        "refined_model": "flexref_7.pdb",
+        "initial_model": "rigidbody_7.pdb",
+        "actual_CNS_seed": 104736
+      },
+      {
+        "refined_model": "flexref_8.pdb",
+        "initial_model": "rigidbody_8.pdb",
+        "actual_CNS_seed": 104737
+      },
+      {
+        "refined_model": "flexref_9.pdb",
+        "initial_model": "rigidbody_9.pdb",
+        "actual_CNS_seed": 104738
+      }
+    ],
+    "normal_CNS_model_logs": 40
+  },
+  "raw_artifacts": [
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c",
+      "bytes": 34864
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/glycan.out.gz",
+      "sha256": "e0edaa182b43cc9356f4d9d5c0b6db9a73c0e5e2e4bc53b09476f6b24e2f4635",
+      "bytes": 17460
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/glycan_haddock.pdb",
+      "sha256": "927aa3c9cda296d62063826978ce56d84e33a3c63f0c594191ee6a87bf9675af",
+      "bytes": 3771
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/glycan_haddock.psf",
+      "sha256": "e7d491645a523401b3491355a67885096945b48fe444ddcb0c205c3274918914",
+      "bytes": 4376
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/io.json",
+      "sha256": "602b1d820e3d117636d4b84b56706f8b58ed3c6b50ecd2782fbc80a7c58ba62c",
+      "bytes": 5879
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/params.cfg",
+      "sha256": "efedbb9ef34da3e49e59861d553e511630f58908337e55e7e3a21085e90585a0",
+      "bytes": 685
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385",
+      "bytes": 34870
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/receptor.out.gz",
+      "sha256": "75f10f9dd2d957ef1dd934f6a9f1f4d8c081fddb3e55c1611b9eee356830b09f",
+      "bytes": 17094
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/receptor_haddock.pdb",
+      "sha256": "ab56cc48bfd44ff2468d1ca1814c5d33ddea07d3ab3a17745417e39154fdbfd2",
+      "bytes": 84308
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/0_topoaa/receptor_haddock.psf",
+      "sha256": "82bd215c01b45a132cdb891c607fd321e30e099f25c4e9f98e6e178c6ad62783",
+      "bytes": 127501
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/io.json",
+      "sha256": "93881f9fe074aabe884d48afb52feb4b35c22e5f49708afa0990b18b3da9ea88",
+      "bytes": 50598
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/params.cfg",
+      "sha256": "1073af367232aab6b4f0875da9724376b44ae888f6fd475f6b8b6d1b0dfd8b81",
+      "bytes": 6655
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_1.inp",
+      "sha256": "35f1f459fc7777330ac6d5fb89f236a5be3f01aa63ef67f2c551f3d0f3d80929",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_1.out.gz",
+      "sha256": "775a493690096ea1b541cda024d74b265728c3e01608cfda143c2e7e179b7375",
+      "bytes": 37603
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_1.pdb",
+      "sha256": "1d098dc2de9281a04568d363c7245d46f1c7bd80c39fa161520ca3bf465ea58c",
+      "bytes": 90191
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_10.inp",
+      "sha256": "157fc8e265d86b352eea1c6d5f06ceb7c400594ea77ffc7a49993fc15956928e",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_10.out.gz",
+      "sha256": "8c746a3f29b66fd7134cf0a0f28fa07619c096838e4ae4996ea4e018cf0190b8",
+      "bytes": 36173
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_10.pdb",
+      "sha256": "a189da4b7b37edef712188a12aa834a60a6f5872ad5159956b6d4db68afe84c7",
+      "bytes": 90172
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_11.inp",
+      "sha256": "8773450c828e49a8a7e58759c0b666c1489ad4ffcaa0e155721b314ee7cc3fd2",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_11.out.gz",
+      "sha256": "1bec096f8467b08e1f9fe9abc2a3ba77c091e5f5f3f0f6f20d758d7d6cca4c95",
+      "bytes": 35267
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_11.pdb",
+      "sha256": "ad7e84f577afeeaa9917686dc7315ff7d0d12321c57947ad75c40c8d89ac51d2",
+      "bytes": 90175
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_12.inp",
+      "sha256": "ac22d6e7e86371715d6e4ebd92755e97e8a7162c96962d3f7bfaa0e7b9f3286a",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_12.out.gz",
+      "sha256": "18817fc352f65f9217ca2f412c9c1bd5e1f245dfebf51e90e39c3e819f90afd2",
+      "bytes": 37399
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_12.pdb",
+      "sha256": "513a2a228b3418348a245d557aaa9ec0292f9619b0fa49f260dc61b9d3647c2e",
+      "bytes": 90186
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_13.inp",
+      "sha256": "645583715cbb1f75f6249fbb700f55a8c8d0cb6db487a3180e14b84ba9644ceb",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_13.out.gz",
+      "sha256": "1937fe2d01fc6423ea1bbe0cc36df709264ca0c3cc05026ccd82a54d62d09037",
+      "bytes": 35983
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_13.pdb",
+      "sha256": "a029c7fd2a10f557843e138ccd3e85daece44e9bf88b1b7f4bf1e584a1257aba",
+      "bytes": 90180
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_14.inp",
+      "sha256": "c3eb9f2d3516d3b565cde178ee8a1835c6b80571e67672942c0907dfef978310",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_14.out.gz",
+      "sha256": "a9a3dff52845dbca8f5697287182981c96bafc7f46a63a0f28cca8812a64cf9f",
+      "bytes": 35251
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_14.pdb",
+      "sha256": "4dad203f57061582156362ab9f8e54903c278b7ad2e0bef8c9979b3a00b9f4ce",
+      "bytes": 90177
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_15.inp",
+      "sha256": "ea1e48159ad9b848278f12b683423e7f1a7099e45bf472960de50e3cde355cf6",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_15.out.gz",
+      "sha256": "e9efdc578ca097b5ddc8f7037cfd818b0bb1b37f527490108fc1620f12e832ed",
+      "bytes": 35465
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_15.pdb",
+      "sha256": "642224d3554a83066aadf6162ed7b5960cd33095b0cd004a29dc85895fdb1ecb",
+      "bytes": 90174
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_16.inp",
+      "sha256": "152c5e82cd5fadd6648aaa0d3cd5f812f87bb0ff08058c526ea4ca4b7928e823",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_16.out.gz",
+      "sha256": "afc4bb1c3e9118edf44e7f3ea921517feaf48abdbe1ec8007d1549402d607b18",
+      "bytes": 36133
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_16.pdb",
+      "sha256": "106c1849929212a3d2afc1d2deab730bae37d1996c0f7ec046395d658d499713",
+      "bytes": 90178
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_17.inp",
+      "sha256": "5306839ed3355041d6ff509b88fa568b192dd2a36583c5021de9e3f106f1983e",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_17.out.gz",
+      "sha256": "1333699d5e04e3b03c6a2016983be55ddb8a715577bc901c2f3a8200b853431d",
+      "bytes": 36965
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_17.pdb",
+      "sha256": "026a54f183934a68f2b957f3b774e95fff6d9054d6e2c242190d471fe78a66f6",
+      "bytes": 90189
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_18.inp",
+      "sha256": "378c279f60048e02c2c79ae894ebfaafd20175599f5db7c4fa62c98a98e955d5",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_18.out.gz",
+      "sha256": "e3ec060bb342e00790344d468cde8d8cee636737f1ac98ddb8284872eb09af25",
+      "bytes": 36003
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_18.pdb",
+      "sha256": "58d1c3aff320eebbefffe1e7dc997e641ebc725ce83001c8b716a6a01169b54f",
+      "bytes": 90186
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_19.inp",
+      "sha256": "d6bab3d063d3975355f788eeac815a35a39e66559146fe0e415b86ff2da18138",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_19.out.gz",
+      "sha256": "c4bcb0c9980698643a061584f42d201fd8a716cb1086d1061b304079a7beeaba",
+      "bytes": 35580
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_19.pdb",
+      "sha256": "600d75dc8e50e804ff43c5e1d4b3d058616a9a0774b2e7b93609a1f94e91cceb",
+      "bytes": 90173
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_2.inp",
+      "sha256": "a1e23b93dde1ee2c3ba6e26a764f0303a6884e755e04a71644dd1c5b2fcbbe4a",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_2.out.gz",
+      "sha256": "db3260568f5bc88836d7aada1933ce5c5b64c095a8ed3e7b6608940f87ed233a",
+      "bytes": 36094
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_2.pdb",
+      "sha256": "1de3c8ef9e6d5b80b95b6da6dca25aea67a19dd2d00a6fda5eedc1a601cef882",
+      "bytes": 90173
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_20.inp",
+      "sha256": "9b1c68b169055d9cae61f45e84da29c0ee08d5e5991361a4ceb7c73a69c3b788",
+      "bytes": 26274
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_20.out.gz",
+      "sha256": "3161d5aa92b2d3c24ccb95029a1476b0488bacfa73fbfc8f9a23665125a7a298",
+      "bytes": 35871
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_20.pdb",
+      "sha256": "ffa2e380749dc2c951ddd0bb81c1052ac42ec5f8c7e94d340e9ce2f0749915ed",
+      "bytes": 90173
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_3.inp",
+      "sha256": "744e6759c780dd02858c0e1b7ae99d25d7c6864f25275878310027ea0b26bd54",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_3.out.gz",
+      "sha256": "6ec4c606267c80159991f522b1e1145cc20c9dacd390f531c089fb9a0daa3f05",
+      "bytes": 34779
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_3.pdb",
+      "sha256": "beca3b2865126efb5950b436e373cd170ffc3111d24e6d0cd742a27d0397272e",
+      "bytes": 90172
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_4.inp",
+      "sha256": "d6a72a7b8652a1f95fa4f4135dedaf8582b292912d3bc6f9d47d1795886c385c",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_4.out.gz",
+      "sha256": "e438f0be88b714f89dbbdfbcf6110bce3f3efb1b505e6a0f323ae19bef16f65d",
+      "bytes": 37183
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_4.pdb",
+      "sha256": "7d52fa3873067f3b6ea8b852d233c04237248b712cc28f6454efb77262a14c06",
+      "bytes": 90172
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_5.inp",
+      "sha256": "fe1c3902d2100f78658056ea2ebd1c8c5a52c727d5f263f00ddd761f8c375fa9",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_5.out.gz",
+      "sha256": "f4c3587d3be4a647e2970e2a412164c7b57d8a8c0c197049f39418de6b82253d",
+      "bytes": 35601
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_5.pdb",
+      "sha256": "749fde806f82fce9aaf86165d58c5f87a7fbed6980f17ec2eff9fa1efd75cdff",
+      "bytes": 90172
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_6.inp",
+      "sha256": "0a8173b464b0457c11fff85c6153581ffbcd54346959fa3dca33acae39d6cf32",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_6.out.gz",
+      "sha256": "3f44788b8d7d12261be54bc1cdf0321585db0cbd8d7206a2e76cdaca657fb9dd",
+      "bytes": 35732
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_6.pdb",
+      "sha256": "20d0346942b850c36ea9260be6915606590eede43ae4f656c38048158a724fe3",
+      "bytes": 90173
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_7.inp",
+      "sha256": "8ed605f1c11b668dea51d9e9be0c48416df688f6f7c81db052d1015252c73616",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_7.out.gz",
+      "sha256": "41b76f4e1557225dbd93da631785d641c7d342742eed0bdc3eb050b097a40092",
+      "bytes": 35699
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_7.pdb",
+      "sha256": "3a2bf45d41b3f3b01e2f4a19ff529aa12d05976d7f26a9deccb4cf1c6dcc0886",
+      "bytes": 90172
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_8.inp",
+      "sha256": "c1955c45057603c3891e0f6b55b807de70bad729f6d93ab7c4b13317c7fbe81a",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_8.out.gz",
+      "sha256": "808b8ac6acf4ed7671351f29956581899689cd80a375fe2d3820d25eb36b5967",
+      "bytes": 37190
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_8.pdb",
+      "sha256": "0c9c014fa976e258c4e70e55a2ddb3c704b111354ec0a3b851a321c1239891d8",
+      "bytes": 90194
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_9.inp",
+      "sha256": "d07ab8536230a5542602ea5e449a4e6541b6948868b9ac1dee75d73b4d15dc00",
+      "bytes": 26272
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_9.out.gz",
+      "sha256": "41f12796138f9c132cab8db5ed099520c47105fe5e11e4459bf6dc47f93a95af",
+      "bytes": 35569
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/1_rigidbody/rigidbody_9.pdb",
+      "sha256": "e4852b5deb4aa5ac34800f4dc11f799007035d272d63c0e81c865131191acb1a",
+      "bytes": 90187
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_1.inp",
+      "sha256": "c329cb74e2b927bfb0de1d7496796677da69260285015ac34f64b40f9d7b9b51",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_1.out.gz",
+      "sha256": "4ff119d910c2d04b2763200717e0a738606e110785e98aac11e8c7bd1a764d69",
+      "bytes": 42114
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_1.pdb",
+      "sha256": "a622fa85c5831481a745ac793246489d01c72bba09185a0fc56780e6319144dc",
+      "bytes": 90126
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_10.inp",
+      "sha256": "e91b57de0a971acab1093a4c26519fc9e2b8939debb40dee435d11c398c088e8",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_10.out.gz",
+      "sha256": "599a0727642875c6230f8e1815169a11b4a7bebf913232e74566fb1f255a0a64",
+      "bytes": 44353
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_10.pdb",
+      "sha256": "f8ecdee690a07ff2c73eb0ac40cf901700f1557c102246fec5eef82fdc767907",
+      "bytes": 90123
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_11.inp",
+      "sha256": "f3280a7365d67e59e21c607d72a0fae972889f94f405d06bdf2ea3057d2e42b2",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_11.out.gz",
+      "sha256": "80cdda1bd14dc1f14ecbb129482cdb549421b94921866e5175c377b15fbac084",
+      "bytes": 43961
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_11.pdb",
+      "sha256": "97a8d5df5e8433ec5715c417c18cbb0b2425021f0a594c88907c8f83c876d6bd",
+      "bytes": 90124
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_12.inp",
+      "sha256": "d44c77c1b9db7a6ef71dc31c3060f4d1e5feeb6be033dad864bfc8e9394456ae",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_12.out.gz",
+      "sha256": "0ddc869f544baf43aecfed067eb48476b01bcb42bdb41c186006cf70a63dbb31",
+      "bytes": 45657
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_12.pdb",
+      "sha256": "b4d8512ea11d3de40742bb94c48dbb4bf0270ff065b1d8605b5a6562118aa298",
+      "bytes": 90123
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_13.inp",
+      "sha256": "5544d2280a4a2685874893ecfdff1db659664410719c6db3f05ad7cd8ff11768",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_13.out.gz",
+      "sha256": "8d0535ec5a473e661a59946d24cda09513332e266fbf009a4e1dd32b76162302",
+      "bytes": 43645
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_13.pdb",
+      "sha256": "2d8ce940a683f1c741f7486a0b246bffeefe0d1d5e1528c0bd07300881efcd44",
+      "bytes": 90122
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_14.inp",
+      "sha256": "a51066a738b895a02ca9d98a85951a7d810d013467c79984eb96a2e13687d766",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_14.out.gz",
+      "sha256": "9cb7ff106ea854c415c91d2b0045f8c736ebfbefe416957aa6b08e8c88084e2a",
+      "bytes": 44152
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_14.pdb",
+      "sha256": "60b36c4b3254d59e9c0b8e84027c4036ccfb1368c352af8562e35039829ddb9a",
+      "bytes": 90112
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_15.inp",
+      "sha256": "afd55f1f2d2d8254a48ce303b519cdfbbb0a1880fddde9b97339cbe7bf9b70f5",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_15.out.gz",
+      "sha256": "8d7183d3df8a3fe00915a1af31bd92e1119502f613f02259b2f6eeae1749e53a",
+      "bytes": 45816
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_15.pdb",
+      "sha256": "ceda4c09423a8cec4ced17555e011e4006e5459cde1e560128069d07d42cea39",
+      "bytes": 90128
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_16.inp",
+      "sha256": "11b8079cb1e303424a47a9a23263ce32d3c449e9d2a534644bec5aec581e9f65",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_16.out.gz",
+      "sha256": "fe7b7e888326092065ce2ba915c0519f0e1544cd70dc1d98a92f66279e71995d",
+      "bytes": 44540
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_16.pdb",
+      "sha256": "e4714b1a60c4092d98dad63ee75eec10d28fba59bc8bca9a01afe018cf28405f",
+      "bytes": 90123
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_17.inp",
+      "sha256": "ff26820a086c3a5f8ae8884670a8ccdd60d7d36c20331d6bb42dbbbf605c5dc6",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_17.out.gz",
+      "sha256": "5d8a2098505edd3180cf9543ec0a0932703d6228ebecc6e09029f536fa55db40",
+      "bytes": 45757
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_17.pdb",
+      "sha256": "55d632a6ed77d1fb69e23ff6da878c3f67cd1e1e6f9cdac6b1227d80b79aa1b9",
+      "bytes": 90128
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_18.inp",
+      "sha256": "3352bdd23fe22297e6867dfc2714b7d5429493c457f5fb6bf860ba5a2443e3b3",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_18.out.gz",
+      "sha256": "f9ddeb919849bd980f2461f5e7c91ab2cb94f7d15c351aafd25279accd81a403",
+      "bytes": 45830
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_18.pdb",
+      "sha256": "acee8e15bb57cdf2d4e8ff954d326bc94468aaa94759e3fcf00feef7418525cc",
+      "bytes": 90122
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_19.inp",
+      "sha256": "9300cd144746523e2feb846e1aef76347994b70cc55632fb5a8d4f243488638b",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_19.out.gz",
+      "sha256": "637b674892b87f74e971607dace976a89ef558e575f6f1fa71fad75da48b0871",
+      "bytes": 43949
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_19.pdb",
+      "sha256": "db6808674e74dfb2f291b0d42941d28d852db5f8c1f9c9e392e4fc18c339ccae",
+      "bytes": 90122
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_2.inp",
+      "sha256": "2266144b830d0c05e22cbd05c7102058d4ca540754590e24487f4a7212d7a259",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_2.out.gz",
+      "sha256": "0b6bc4a6c4c67a20cac53eb6b3da7178347ae11f0033da618c86d47ecdd9f90e",
+      "bytes": 43471
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_2.pdb",
+      "sha256": "7b3f49ba4070a25efa516d23ca349a1d7a10a04b87929673abea2f309d551e40",
+      "bytes": 90108
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_20.inp",
+      "sha256": "d89a1e29d30a2a15755afc14c8b48a82676d484ff6766b635a3a07a5634512d0",
+      "bytes": 28704
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_20.out.gz",
+      "sha256": "38193164e6c79d5847d37628d00dd19c23d434bb9c3e885d37d936dd08e402db",
+      "bytes": 44294
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_20.pdb",
+      "sha256": "11b572f2d9a8512fae8dc5fbdcf1e0934bf8261115a39d69392dca99af992948",
+      "bytes": 90125
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_3.inp",
+      "sha256": "c90397e8492835b52306a472e575a4b0aab3e6995fa44ff948185c9a397b115a",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_3.out.gz",
+      "sha256": "90e9c12a2ae519d41aa539062eff62801c1ae39f952fe828d8f77b0947369ebc",
+      "bytes": 45325
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_3.pdb",
+      "sha256": "2c5f5f6e9e33c3556244a9a8195cb75ce163adc0c5d0b8786d262faf4e80c4d8",
+      "bytes": 90121
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_4.inp",
+      "sha256": "0690d96e885b94701a65832209dcfa52960126bd15f53610ce89b9c73a6a1811",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_4.out.gz",
+      "sha256": "a5d6561fbed4ea2903cec5a880bdaa091e0daf52c388fb7564741630b515ab26",
+      "bytes": 44614
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_4.pdb",
+      "sha256": "098995dbf62b6ccfa0ef3f21ff4c7f5d2c31603f1efa793e36dd40ab9db94860",
+      "bytes": 90132
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_5.inp",
+      "sha256": "236f89fde1a2b44827a29589c5249a214a98d2429d61a58ce2da5b40a739ec08",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_5.out.gz",
+      "sha256": "566276b61a4c81d42d73a38e8bcb2e7a0bd9131325453e43643506de1d753860",
+      "bytes": 45802
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_5.pdb",
+      "sha256": "3178387adf79b25afbae78229b443e886a5cd1d03b561199210e927b0b421c86",
+      "bytes": 90120
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_6.inp",
+      "sha256": "f9a8a35f8b18fcc0d668b41ebb29d2d112907e820f8aeef3c924a20a8c24ec15",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_6.out.gz",
+      "sha256": "0e987f51edfa595e2e1e3b39cfc88e76ea9f2454e1fd6a65f23c271ba460946e",
+      "bytes": 44883
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_6.pdb",
+      "sha256": "92d07817f2872e79c36913e9a47553205ab91588a730ae2ae048de2c9bce5aa1",
+      "bytes": 90128
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_7.inp",
+      "sha256": "c883d660470ed795a4f715a95994eb8c3f856abb075c07ec73130d126285ec54",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_7.out.gz",
+      "sha256": "6ab8a4789549daa0f534d89190f024ad1fd5f96b35435c88b1fbeac326d899a8",
+      "bytes": 44088
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_7.pdb",
+      "sha256": "815e7b561d6064369e151e1e717fe4fba6ec18c45c77f9ae35dc4f3ea0138e14",
+      "bytes": 90126
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_8.inp",
+      "sha256": "c7e0d21f601529e82ac3fa17671fb5cabb892cc5befa49f5da55eff7a9a5b22a",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_8.out.gz",
+      "sha256": "59b504fe6acacb5d034bcd5c9de41b9c976bf02efdef83cb26dc2666c46c85e5",
+      "bytes": 43984
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_8.pdb",
+      "sha256": "05890f90797f5a071176b04af5c12991583d2efccc83e64705b6d9b70fa72a3c",
+      "bytes": 90109
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_9.inp",
+      "sha256": "925250221c07a1358c8ca35f1aab46fb7025dab5cc7657bd69611de511f2bd4f",
+      "bytes": 28700
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_9.out.gz",
+      "sha256": "f847cdf32915138ba6049bb7835e1d68323612b96ceda8761a0cedf35142488f",
+      "bytes": 46458
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/flexref_9.pdb",
+      "sha256": "f06d4a5c1aa676c172756f2ce2259fd34a9a804d7bd7b1b6b50f50619e209621",
+      "bytes": 90120
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/io.json",
+      "sha256": "e75d841c0912be3d3f49cbe861bf3168bd2fb13bc48d985a105637c49f440e07",
+      "bytes": 89824
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/2_flexref/params.cfg",
+      "sha256": "0df4e0cd49980fd81ea1679e9185248b353ed42cc702bf5309f50da0164e4ac4",
+      "bytes": 7746
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/air_clt.html",
+      "sha256": "fcf0f09d025855700cb76b0b5c7afdda7201e0468c216b5cbf7398eb274d158f",
+      "bytes": 8743
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/blosum62.izone",
+      "sha256": "d7f513d9ad16516c13b2316feaae6c89cbc1ab5697816491100ff117389b3d8f",
+      "bytes": 1325
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/blosum62_A.aln",
+      "sha256": "14ca506d282d19237885d522b7264eef26dacd25187414578d8d18c1d4175b83",
+      "bytes": 442
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/blosum62_L.aln",
+      "sha256": "7ab10e237452ce0d7bbb843142f5f44b7577d8b22989ef7cc8363a6a0b5be314",
+      "bytes": 75
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/bsa_clt.html",
+      "sha256": "a26352e9a1622d8360595d0275185ec0fdcfc01d2f2fe36619587e01358c1315",
+      "bytes": 8756
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/capri_clt.tsv",
+      "sha256": "17406c3cfec58ad6bba1b2941a7e3783e8f42e92d648bc4b410ed4e17482d68a",
+      "bytes": 887
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/capri_ss.tsv",
+      "sha256": "10c5cff4e9b9b688b62a8a63fed4b9cd992d9ab7eacf3a5afc49c1257493876c",
+      "bytes": 4470
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/desolv_clt.html",
+      "sha256": "7d61c8c836d794034e3c5ae6967e55176280ba358524edc285c22cb7ababbf67",
+      "bytes": 8747
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/dockq_air.html",
+      "sha256": "1c02ae65a4d3658e62931756818d956869c00522255419943e7a6fc41d602720",
+      "bytes": 10712
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/dockq_clt.html",
+      "sha256": "0d0244be42f3515324c3beef39f573941742119d560f034c034a796832d12645",
+      "bytes": 8778
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/dockq_desolv.html",
+      "sha256": "718bd968477ee906388c148d3bd12ad328f894f569f29dafd86d2aa87f048a5f",
+      "bytes": 10735
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/dockq_elec.html",
+      "sha256": "c04edfefebd9349d1e6fc395955fe5180391a0896c434cf03bf13970ff25a3c6",
+      "bytes": 10762
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/dockq_score.html",
+      "sha256": "8973fa649ab548dc2e6fc4caa383e0bd0acb800481358e36804090aa9a6775d7",
+      "bytes": 10712
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/dockq_vdw.html",
+      "sha256": "e480dd4b4213dfc1a0b31c9569b834782999d98a8aa19dd12b489fb77e41d0fe",
+      "bytes": 10737
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/elec_clt.html",
+      "sha256": "15b3d24e359d43f7ad88d8e22479236283fe03bdfddd17b6cc0bd244b1a397f2",
+      "bytes": 8782
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/fnat_air.html",
+      "sha256": "eba6a8839528ef070c3e24fd83e8b8851bb8a2a702a6de301e4ec1a6346a0722",
+      "bytes": 10680
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/fnat_clt.html",
+      "sha256": "0d6e6d43dabd4e3b604b26bddd5c8ddefba50d87a3ac6009a83bc615009d1d17",
+      "bytes": 8759
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/fnat_desolv.html",
+      "sha256": "4c578e84c31f62620965d1c916b758fb84068ddb760f2a0148e3c701225d7ad0",
+      "bytes": 10703
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/fnat_elec.html",
+      "sha256": "28befdc75ad18e709a68a4f04f9980fe1fa9dfdc49581642bc906684c68b8cae",
+      "bytes": 10730
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/fnat_score.html",
+      "sha256": "e13553877432b983387f662e57b09b6d7d6061f8a9204f63857c8da78ea6375a",
+      "bytes": 10680
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/fnat_vdw.html",
+      "sha256": "f5b4f5f3dd627302082fe6644863864ff0b98d1a1de9daff316c8fed18a3b917",
+      "bytes": 10705
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/ilrmsd_air.html",
+      "sha256": "a726476032eaaff4839ee2ad2608603933dab69abfd07a583b8cddf4b4a308cb",
+      "bytes": 10669
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/ilrmsd_clt.html",
+      "sha256": "1857429efbaa0cbac242e9239159e5214ced86badb37547962e5db424d419a3a",
+      "bytes": 8744
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/ilrmsd_desolv.html",
+      "sha256": "49d20e4442969b1b8ce9feb11cfe246756e975bfe921fb675266af44cbaefef1",
+      "bytes": 10692
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/ilrmsd_elec.html",
+      "sha256": "108b7491cd111984c43de833e427a8ec8364c87ae1efcd50dab11967d453194f",
+      "bytes": 10719
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/ilrmsd_score.html",
+      "sha256": "eaa117afba25e6e78f1a2e1d5744177df2ad93e3b4431801de00ef6b556f1fcc",
+      "bytes": 10669
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/ilrmsd_vdw.html",
+      "sha256": "2bf440be4424ee53079aed76f949d74fb7ffdb089ffc11825348493eba1bd447",
+      "bytes": 10694
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/io.json",
+      "sha256": "548a79e2afc8d87b7429cf610ea539c5f12da55eac87786ce46d7f20b757de9b",
+      "bytes": 48383
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/irmsd_air.html",
+      "sha256": "222a99e55283f983bdaeabd2ca5aac4169edbf7cd132e02cfa82fd10197e29b6",
+      "bytes": 10682
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/irmsd_clt.html",
+      "sha256": "1e71410370e9db541d48b31cd017fdefe95902fd5b7004d1fdb50d7642b59755",
+      "bytes": 8751
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/irmsd_desolv.html",
+      "sha256": "1fd57c55122f8abfdbc675f0b217b99b7535d9c2df7f865edc5da5d970c72029",
+      "bytes": 10705
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/irmsd_elec.html",
+      "sha256": "888a9eeb1221ad63fa1a34ff7c2ca7d814ec16404bd3188bccdb6e2864a4c7a6",
+      "bytes": 10732
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/irmsd_score.html",
+      "sha256": "40891b9942aa752cade0c564d0b192bb7da6084db57c9abfdb37978d38763d4e",
+      "bytes": 10682
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/irmsd_vdw.html",
+      "sha256": "55bf2923bea9e04efa9a3ab2f7775eca0b80f89571aaf96d9142b7967cb3f192",
+      "bytes": 10707
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/lrmsd_air.html",
+      "sha256": "c7806b7bc08b724b4c516e0adad90f6b0eded0bfe51d690003389cd281975a42",
+      "bytes": 10665
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/lrmsd_clt.html",
+      "sha256": "a3ec7f99c201c54eba3c7d76e94b3142cd597047ed447a651c0fec9c53d9f75d",
+      "bytes": 8733
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/lrmsd_desolv.html",
+      "sha256": "229c4b8b99311ae7d26e6c7d3de53c895e687813f1b7d09c39c74e0e74730bdc",
+      "bytes": 10688
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/lrmsd_elec.html",
+      "sha256": "72e97a9e25d10e3fd426903a4a71bf9102fce7689e250affcecffac5685691a0",
+      "bytes": 10715
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/lrmsd_score.html",
+      "sha256": "af2f692a370b05eb530a7bc304cebea927230fa34c72ece3cfafcc8dfa11d2fd",
+      "bytes": 10665
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/lrmsd_vdw.html",
+      "sha256": "e990d1c5e6adbff112d1288c7533d2b16db1c8a9572207cda7216a298e047f16",
+      "bytes": 10690
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/report.html",
+      "sha256": "d78aa5e289979e8c632c141116d1c3115acfe58e3e9940a323867e9b1f75c610",
+      "bytes": 119088
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/score_clt.html",
+      "sha256": "3f32adedceacde80b88203bbe1db6635746076fbe2090ee8923baed1e251198d",
+      "bytes": 8748
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/summary.tgz",
+      "sha256": "0b196576b96f720e46ad34689b401768a294b5f75b0fad16bbd16034c71a628a",
+      "bytes": 189062
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/1_rigidbody_analysis/vdw_clt.html",
+      "sha256": "d3b0f8cbedb0f47d1aec57d66a4f4ed831049bd09af05978b15273532926ef79",
+      "bytes": 8746
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/air_clt.html",
+      "sha256": "da18de173416da5d2899ae5bc44008bae1c1af944038881d0398b2a0a6dd61e4",
+      "bytes": 8753
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/blosum62.izone",
+      "sha256": "d7f513d9ad16516c13b2316feaae6c89cbc1ab5697816491100ff117389b3d8f",
+      "bytes": 1325
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/blosum62_A.aln",
+      "sha256": "14ca506d282d19237885d522b7264eef26dacd25187414578d8d18c1d4175b83",
+      "bytes": 442
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/blosum62_L.aln",
+      "sha256": "7ab10e237452ce0d7bbb843142f5f44b7577d8b22989ef7cc8363a6a0b5be314",
+      "bytes": 75
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/bsa_clt.html",
+      "sha256": "173a78dfcbdea6ebec1b0e08624adadf7d58542db475a04b928ea785033d86de",
+      "bytes": 8746
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/capri_clt.tsv",
+      "sha256": "cf1e920ae826cea3e374d5c46b09f78753657f8ab70aca130f805b8cf804c277",
+      "bytes": 885
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/capri_ss.tsv",
+      "sha256": "3a98e29c68b32025b82165695819cf0d646e900b133ff29cfb2e91bed240920e",
+      "bytes": 4364
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/desolv_clt.html",
+      "sha256": "8230ed4898199e35021a00f7f4e92f07d6c72d80bc52cf3d274cef7fe58f3ccf",
+      "bytes": 8777
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/dockq_air.html",
+      "sha256": "4b86ca94cfc79c649e148a9e461779e3350a394e376d631825535d1da25862a9",
+      "bytes": 10690
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/dockq_clt.html",
+      "sha256": "1052938109b053c0d9f74b74251bb417e58371c22f67d878af9a53a73ce0e2a9",
+      "bytes": 8778
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/dockq_desolv.html",
+      "sha256": "3ab1b39382d37c3d2517261388ef3737ff5a8a0be431d0d5b83dac39ffa48d53",
+      "bytes": 10729
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/dockq_elec.html",
+      "sha256": "d89060a01f4350fe96229d6138f7543430261c9610b95196f1f6780b75ff4d72",
+      "bytes": 10712
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/dockq_score.html",
+      "sha256": "3348ae481904663cfc439abac5dd847c48776af970cacf1287e7e312e8539cbc",
+      "bytes": 10668
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/dockq_vdw.html",
+      "sha256": "ff2e1b29abf40b76b3a6f7f4d8205e2de55d321b94b8454f875c7ca190de2d66",
+      "bytes": 10697
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/elec_clt.html",
+      "sha256": "b79efd1606ca33ec2ba64bb53cd42a207159b7dc4e02925705ee074daa18a230",
+      "bytes": 8752
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/fnat_air.html",
+      "sha256": "5df3f13e7c6b91fa419c404cb2308bf6f2aa84082c50c4e27eb8ad7d4db22943",
+      "bytes": 10630
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/fnat_clt.html",
+      "sha256": "884ea1c9e6eb1386c17912f36f42d2838b2c7b71deaf00135a191c5ed6bd5515",
+      "bytes": 8749
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/fnat_desolv.html",
+      "sha256": "4c26f259fb96a4138bb2b83946ef3ccf89e0044adc68cf724cbbb32edf78bcb5",
+      "bytes": 10669
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/fnat_elec.html",
+      "sha256": "643950bf8b8c2e9f709965cbb08a546ab0e721922c1790085f87bb890025a0b8",
+      "bytes": 10652
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/fnat_score.html",
+      "sha256": "4dd93d3401fcf28395339103e81dce4fcc6896c4f5b469f698ad92486153b62e",
+      "bytes": 10608
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/fnat_vdw.html",
+      "sha256": "5651f6c26649e195702180d70f5a6019ed0edc826c7d7072b64fb824905e4252",
+      "bytes": 10637
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/ilrmsd_air.html",
+      "sha256": "f3c4df49ce5da51b86ffccf2f0ea360c5b114df45e5b071edf73160eff7c637f",
+      "bytes": 10655
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/ilrmsd_clt.html",
+      "sha256": "67f72f57c7a72d71e547f8238ca2590e8942fb293ab20876ad0b78c96b0b6878",
+      "bytes": 8749
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/ilrmsd_desolv.html",
+      "sha256": "e60a406312ad9fc4761a7f1d7b0673f9e40611f096e76acb0c7b5954c41ace9c",
+      "bytes": 10694
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/ilrmsd_elec.html",
+      "sha256": "bfa262156c9e3f98b4c22ee3fb6c8946e5428cb093604c7a53a944f35807b734",
+      "bytes": 10677
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/ilrmsd_score.html",
+      "sha256": "0e1fbfd97b3d5a9b7273d783932a81def2297b54121aed47cb6083d31adf2156",
+      "bytes": 10633
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/ilrmsd_vdw.html",
+      "sha256": "e0d17e6052270698801a7aab87fd815d9521e33b10234074ebb8fdb5e46acdef",
+      "bytes": 10662
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/io.json",
+      "sha256": "ba5290725d1127b09f2f982ba163ada341e54ccaac39b999f2086a793033a556",
+      "bytes": 49032
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/irmsd_air.html",
+      "sha256": "bfbe4064f93e2ad2f1aa541ed5360363e8e3e5056897ba2327fb62c69af46359",
+      "bytes": 10648
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/irmsd_clt.html",
+      "sha256": "8d40c3647cd13e3efd24d95a47f0fe7bfb814431606b8fd02def06dda0aa5ca0",
+      "bytes": 8751
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/irmsd_desolv.html",
+      "sha256": "2e1e281729ada37d4403629307d39f09a55a35437cddeed5ce6ec8d073fde606",
+      "bytes": 10687
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/irmsd_elec.html",
+      "sha256": "bb7b2f79e6de2130f8b2e760459bb524791369d5a63a050e09b76684e167fcdc",
+      "bytes": 10670
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/irmsd_score.html",
+      "sha256": "8d3f4586998a5cd64449af15c05a85fec4b52ad1b9c52dba594cbd14f29507d2",
+      "bytes": 10626
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/irmsd_vdw.html",
+      "sha256": "fa88c6ccde98c1ecfed5aaaad4403e3de811097519a31e4b5774a2f5824f0ae0",
+      "bytes": 10655
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/lrmsd_air.html",
+      "sha256": "c747df45c34763ee98a8342bc389c08f49bf9dd32cce321d0100bb57db1b02ff",
+      "bytes": 10641
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/lrmsd_clt.html",
+      "sha256": "e09b0fcf61a3ec53f032561da67497639b9886d4d5053dce91de283ea4c9c09f",
+      "bytes": 8743
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/lrmsd_desolv.html",
+      "sha256": "4774d2f6ccd79a8f0d77cc3043a109c943a153057e93d076316d1252fdc4086f",
+      "bytes": 10680
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/lrmsd_elec.html",
+      "sha256": "bb59b866efdb8fd0462f32ad8926da7ee6fc17b6a4d295124a54c72083cd63d2",
+      "bytes": 10663
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/lrmsd_score.html",
+      "sha256": "09ab2a5bca03df28f088e241b302ac5d37a7bb3a3000774262ff885db8b54096",
+      "bytes": 10619
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/lrmsd_vdw.html",
+      "sha256": "cf4de5bb09690e7ecf45bd8699d47c142f413d441ba42ef0aed672fbb251092a",
+      "bytes": 10648
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/report.html",
+      "sha256": "989e21c71a658dff646a62b6e95d9cc735a2393e6f9ea3ded90e4215648066a4",
+      "bytes": 118085
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/score_clt.html",
+      "sha256": "2f041b5119bf58f283d8a4055eaae0a647bfbe8d1fb9262314293f929331bc33",
+      "bytes": 8743
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/summary.tgz",
+      "sha256": "6bf01120a819f5d6e4211acd6b0bd28e4d6d11d2d0f88e1f09d459265b202ffa",
+      "bytes": 188840
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/2_flexref_analysis/vdw_clt.html",
+      "sha256": "0798c5582e8100eeb55e33fc4d1f9f0b40f011400f5af395b83ef1186167684d",
+      "bytes": 8766
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/analysis/README.md",
+      "sha256": "9da6a1aed76b9b332c8e6d0f1ac8e8ca52088cd83d10717998db92ece0c0bc4e",
+      "bytes": 372
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/0_topoaa/glycan.pdb",
+      "sha256": "0855eb11cae619037c978434acbc4958d9e89ee9352600f8a18b8b3a09999e2f",
+      "bytes": 1867
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/0_topoaa/receptor.pdb",
+      "sha256": "1ebbd16bfbde918e3e2d1525400e789920181e23724af7174ce50fb4ff480dbf",
+      "bytes": 61564
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/1_rigidbody/box_air.tbl",
+      "sha256": "70cf0fa0f1ab3523a6b542cb664635ca94f597593281fa484fe6fee3e6c5d726",
+      "bytes": 12959
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/2_flexref/box_air.tbl",
+      "sha256": "70cf0fa0f1ab3523a6b542cb664635ca94f597593281fa484fe6fee3e6c5d726",
+      "bytes": 12959
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/configurations/README.txt",
+      "sha256": "7d09f0bd7ea05dd1d5255640287fe69e96600d885b209baa87874e1e7849ed02",
+      "bytes": 611
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/configurations/cleaned_input.toml",
+      "sha256": "e422b8154617aaa32be34fcf13cf09f0f3baaf5d0788ea4e2d0737a6ccde8df2",
+      "bytes": 491
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/configurations/enhanced_haddock_params.json",
+      "sha256": "f861390aec71f314484a47ec5dfac9a7fefdac91d7ab30bd5f23adf094951ca8",
+      "bytes": 24282
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "12d3c9104a799aaee6b7ac48767d1ca2952df741be33efe079de72162b2b9fbb",
+      "bytes": 15044
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/data/configurations/raw_input.toml",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda",
+      "bytes": 479
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/log",
+      "sha256": "95cf0ced3b0898d9eff6bc9955d01d140b7dfe61ba1ff656bff5805c9bd042d8",
+      "bytes": 9618
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/traceback/consensus.tsv",
+      "sha256": "050b3c86ed37c37b676b6ce0ea94e501f00a93ea7abc63b4e8de95fb7b489ebe",
+      "bytes": 502
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/traceback/traceback.html",
+      "sha256": "7682da973ce54907206f6006426d9d521703a7cded21cb2fe4291f4e40845971",
+      "bytes": 9173
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run/traceback/traceback.tsv",
+      "sha256": "d0af0b704c1454bbfd9f27bc69ec920214dd8812930c623d62beb523f8632680",
+      "bytes": 1596
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda",
+      "bytes": 479
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c",
+      "bytes": 396
+    },
+    {
+      "path": "results/haddock_paired_cohort/strict/2RDK/fpocket/s104729/stdout.log",
+      "sha256": "1bc64263ce61a43c384e2e8d5b350f284d427f08219e063bd2ebf61fe685719b",
+      "bytes": 10595
+    }
+  ],
+  "posthoc_hash_timing": "Output hashes are anchored now after the metadata failure; they are not claimed to have been recorded during the lost subprocess telemetry.",
+  "process_return_code": null,
+  "process_CPU_seconds": null,
+  "external_measured_wall_seconds": null
+}

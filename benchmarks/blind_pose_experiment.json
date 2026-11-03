@@ -1,0 +1,141 @@
+{
+  "atomic_reference_ledger": "benchmarks/atomic_reference_ledger.json",
+  "atomic_reference_ledger_sha256": "8ed3887e2575f8ed92d73562f9b79c088036f326ed177af2c71b55522eedf383",
+  "box_rule": {
+    "center": "predictor-only distinct-class representative; oracle uses modeled native whole-ligand heavy-atom centroid",
+    "margin_A": 8,
+    "maximum_side_A": 42,
+    "minimum_side_A": 24,
+    "review_of_protocol_40A_limit": "Source-only radius bound gives 1GNY side41A before any new docking; permit at most42A uniformly, with all other cases <=40A",
+    "side_A": "ceil(max(24,2*R+16)), R=max heavy-atom distance from independent input conformer centroid"
+  },
+  "budget_interpretation": "Top1 predicts with onebox versus one oraclebox, same per-box settings. Top5 permits up to5predicted boxes; total CPU is not matched to one oraclebox, so no equal-time superiority claim.",
+  "candidate_budgets": [
+    1,
+    5
+  ],
+  "candidate_merge_distance_A": 4.0,
+  "cases": [
+    {
+      "assembly_id": "1",
+      "complex_id": "aav9",
+      "condition_id": "aav9_holo",
+      "source": "data/raw/7MTZ.cif",
+      "source_sha256": "680d2c5f39ed6f4899718f55f5f0891e4cd7fbfd1fce8e9f555f45b7de64d582",
+      "state": "holo"
+    },
+    {
+      "assembly_id": "1",
+      "complex_id": "aav9",
+      "condition_id": "aav9_apo",
+      "source": "data/raw/7MT0.cif",
+      "source_sha256": "3ed60cbf0170dc8f6a7a79cec521ad0a81ca98d71b4c246e3b3ec654cf4108b2",
+      "state": "apo"
+    },
+    {
+      "assembly_id": null,
+      "complex_id": "154L",
+      "condition_id": "154L",
+      "source": "data/raw/external/154L_r_b.pdb",
+      "source_sha256": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b",
+      "state": "holo"
+    },
+    {
+      "assembly_id": null,
+      "complex_id": "1GNY",
+      "condition_id": "1GNY",
+      "source": "data/raw/external/1GNY_r_b.pdb",
+      "source_sha256": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf",
+      "state": "holo"
+    },
+    {
+      "assembly_id": null,
+      "complex_id": "1KJL",
+      "condition_id": "1KJL",
+      "source": "data/raw/external/1KJL_r_b.pdb",
+      "source_sha256": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae",
+      "state": "holo"
+    },
+    {
+      "assembly_id": null,
+      "complex_id": "1QFO",
+      "condition_id": "1QFO",
+      "source": "data/raw/external/1QFO_r_b.pdb",
+      "source_sha256": "c40a29bb1cca0e6c9e77c3f603afa8a5f774fa36acfc7026e38bd3aec758100a",
+      "state": "holo"
+    },
+    {
+      "assembly_id": null,
+      "complex_id": "2J1T",
+      "condition_id": "2J1T",
+      "source": "data/raw/external/2J1T_r_b.pdb",
+      "source_sha256": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a",
+      "state": "holo"
+    },
+    {
+      "assembly_id": null,
+      "complex_id": "1PWB",
+      "condition_id": "1PWB",
+      "source": "data/raw/external/1PWB_r_b.pdb",
+      "source_sha256": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce",
+      "state": "holo"
+    },
+    {
+      "assembly_id": null,
+      "complex_id": "2VUZ",
+      "condition_id": "2VUZ",
+      "source": "data/raw/external/2VUZ_r_b.pdb",
+      "source_sha256": "010940dec8054fd63b8fcbc514caf7d3ba89da552bf6e851642cdfc031eed845",
+      "state": "holo"
+    }
+  ],
+  "cohort_role": "development; existing site outcomes known; no held-out or prospective confirmatory claim",
+  "cpu": 2,
+  "energy_range_kcal_mol": 10,
+  "exhaustiveness": 16,
+  "failure_policy": "Retain all27 workflow conditions; reference-rejected cases cannot estimate atomic accuracy; all method/preparation failures among atomic-eligible cases are zero workflow successes. 1QFO graph preparation failure retained, no repair authorized.",
+  "freeze_date": "2026-11-03",
+  "frozen_before_new_docking": true,
+  "ligand_policy": "Archived independently embedded graph/stereo-validated PDBQT; remove old centroid translation; preserve internal geometry and orientation; no native-coordinate conformer or pose input",
+  "methods": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "min_rmsd_A": 0.5,
+  "num_modes": 20,
+  "pose_endpoints": {
+    "alignment": [
+      "global_receptor_backbone",
+      "local_native_interface_backbone_evaluation_only"
+    ],
+    "best_returned": true,
+    "full_vs_core": "Separate complete-ligand and source-qualified modeled-core summaries; do not call core recovery whole-ligand recovery",
+    "no_independent_ligand_fit": true,
+    "primary_RMSD_A": 2.0,
+    "rank_budgets": [
+      1,
+      5
+    ],
+    "sensitivity_RMSD_A": [
+      1.0,
+      3.0
+    ]
+  },
+  "purpose": "Paired predicted-site and oracle-site Vina development pose recovery under separately frozen atomic-reference scopes",
+  "ranking": "Within each seed and site budget, pool retained poses by Vina score ascending, candidate class rank ascending, then within-box model rank; preserve all identities",
+  "receptor_policy": {
+    "interaction_cutoff_A": 6.0,
+    "model": "dry rigid protein-only; metals/waters/glycans removed uniformly in predictor inputs; preserved whole-chain covalent identities",
+    "no_heavy_atom_repair": true,
+    "no_reference_based_selection_in_predicted_arm": true,
+    "selection": "all whole protein chains with any heavy atom within6A Euclidean distance of the closed search box"
+  },
+  "schema_version": 1,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "statistics": "Average3seeds withincondition; paired development summaries. Separate full/core strata. Existing complexes not independent held-out families; no population reliability certification."
+}

@@ -1,0 +1,115 @@
+{
+  "case_ids": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "case_to_family": {
+    "2RDK": "cyanovirin_N",
+    "3ZWE": "BambL_RSL_propeller",
+    "4R9F": "CpMnBP1_SBP_II",
+    "5HZA": "norovirus_P_domain",
+    "5V6F": "RbmC_beta_prism",
+    "8I5U": "GH116"
+  },
+  "endpoints": {
+    "best_returned": true,
+    "executed_pose_candidate_budget": 1,
+    "fits": [
+      "global_observed_backbone",
+      "local_native_interface_backbone_evaluation_only"
+    ],
+    "full_and_core_separate": true,
+    "independent_ligand_fit": false,
+    "pose_RMSD_A": [
+      1,
+      2,
+      3
+    ],
+    "pose_rank_budgets": [
+      1,
+      5
+    ],
+    "primary_RMSD_A": 2,
+    "site_DCA_A": [
+      3,
+      4,
+      5
+    ],
+    "site_candidate_budgets": [
+      1,
+      5
+    ]
+  },
+  "family_audit": {
+    "path": "benchmarks/family_overlap_audit.json",
+    "sha256": "1677bbd5b935632bb3a7b9eb845eea4c7e8e2f35acb8ca4e08413ac559caaea6"
+  },
+  "profiles": [
+    {
+      "configuration": {
+        "path": "benchmarks/structural_pose_v3_experiment.json",
+        "sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d"
+      },
+      "freeze_receipt": {
+        "path": "results/structural_pose_v3/freeze_receipt.json",
+        "sha256": "b66933340080ccf3782151cb7752d98a6f0af9a81724d4c98c70019665688020"
+      },
+      "id": "strict_CCD_ideal",
+      "role": "strict_primary",
+      "source_archive_manifest": {
+        "path": "results/structural_pose_v3/strict_sources_manifest.json",
+        "sha256": "74f56ab0205498a90975a461064277b7a3303c20d25f3051e45128d81f27c8bb"
+      }
+    },
+    {
+      "configuration": {
+        "path": "benchmarks/structural_pose_v3_experiment.json",
+        "sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d"
+      },
+      "freeze_receipt": {
+        "path": "results/structural_pose_v3/freeze_receipt.json",
+        "sha256": "b66933340080ccf3782151cb7752d98a6f0af9a81724d4c98c70019665688020"
+      },
+      "id": "modeled_sidechain_CCD_ideal",
+      "role": "modeled_sidechain_sensitivity",
+      "source_archive_manifest": {
+        "path": "results/structural_pose_v3/repair_sources_manifest.json",
+        "sha256": "a0596eadc53b56601080acb28af80f47bd162f1867311acf07e92cf5d41b56c5"
+      }
+    }
+  ],
+  "purpose": "Source/metric reference plan consumed by paired_method_report; old standalone heldout workflow loader is not this execution consumer",
+  "reference_source_manifest": {
+    "path": "data/archive/heldout_reference/source_manifest.json",
+    "sha256": "c18d983eb6b970664ad71a34c410847827c15a28db9f007936b430270ccd3e57"
+  },
+  "schema_version": 1,
+  "site_prediction": {
+    "configuration": {
+      "path": "benchmarks/structural_site_v2_experiment.json",
+      "sha256": "b03934e5d243bf5331c0517fad16e3bf35bcb061abd24fcbdaf7026ddd039e23"
+    },
+    "freeze_receipt": {
+      "path": "results/structural_test_v2/freeze_receipt.json",
+      "sha256": "295f8eaf98d95e4bc0062034acb069de3225d0b207839af6d249f049116c53b2"
+    },
+    "source_archive_manifest": {
+      "path": "results/structural_test_v2/source_archive_manifest.json",
+      "sha256": "d35dc3b4433b234f9d2b95c8ee00b55bf450ec40d51c2680cf55927a82e21edd"
+    }
+  },
+  "source_ledger": {
+    "path": "benchmarks/heldout_reference_ledger.json",
+    "sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e"
+  },
+  "statistics": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261103,
+    "confidence": 0.95,
+    "interpretation": "Conditional purposive fixed-cohort family resampling, not population or model-unseen-family reliability certification"
+  }
+}

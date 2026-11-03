@@ -1,0 +1,8 @@
+{
+  "evaluation_plan_sha256": "1c96e8822c85f9b4f215a606271ce69affcd155e3e95dc4d137247f171c6f596",
+  "frozen_at_UTC": "2026-11-03T17:49:56.441531+00:00",
+  "frozen_before_test_pose_accuracy": true,
+  "new_test_pose_accuracy_consulted": false,
+  "new_test_site_accuracy_consulted": false,
+  "scope": "Metric definitions and source decisions fixed before any computed site or pose accuracy; native execution has begun under earlier frozen input plans"
+}

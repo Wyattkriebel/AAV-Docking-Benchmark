@@ -1,0 +1,22 @@
+{
+  "adapter_source_sha256": "760fbe874a55c661c3cf4858ffd1c73d6aa84961cb69c28b678c7b5568d6bc75",
+  "configuration_sha256": "8b9b75de3fc0df376f867e2319d75b30b3f1f2b66a270f1a1af3e80c44454936",
+  "frozen_at_UTC": "2026-11-03T17:13:17.938906+00:00",
+  "frozen_before_native_execution": true,
+  "helper_sources": {
+    "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+    "aav_benchmark/common_pose_rescoring.py": "afa086f24fd5ab691b8a77c8a87276448cf09223b5eb9483b1ef92cb4aae4005",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "results/additional_method_reproduction/build/fixed_pose_score.cpp": "6d1d95a78af6f6adb306268b1fe846b1ec5ffeb879c1b7143e1c9bd8b300da08"
+  },
+  "initialization_algorithm_sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e",
+  "initialization_policy_sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+  "method_lock_sha256": "ebe5b1fdbc14c14dcd8943702eb71890d00a2b884b4c52f4808d9fb0c1ad3634",
+  "native_binary_sha256": "b213157502e059457900075953c10e0f6adc913b845e57bdef5bb8f62ca67d54",
+  "native_build_receipt_sha256": "f8da25e46470dda3c7438eb2ddc2c6fb6b9c60c225a55ea26fe4b9a4427b7940",
+  "native_preflight_binary_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+  "native_preflight_receipt_sha256": "e4e9bb1b0a9c3e4c5ab404c9182f2b7ca2338278e646382ff9960e7f7f4157e8",
+  "new_method_outcomes_consulted": false,
+  "paired_modern_vina_policy_sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d",
+  "prepared_inputs_sha256": "0dc9e3975d5451d3e21b2f474b7218ecf4d82e110e197fab95630bb13c22579b"
+}

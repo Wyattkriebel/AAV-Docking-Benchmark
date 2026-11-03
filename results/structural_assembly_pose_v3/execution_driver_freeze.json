@@ -1,0 +1,10 @@
+{
+  "concurrent_control_searches": 1,
+  "configuration_sha256": "f249e3e542fa5bb4fb4e8ab00d9f7752cb2b8959bf0303409cd783291da22062",
+  "driver_sha256": "378370c58c1fb6c227bcf5d47ceed8f8e44d275a92b1ad756b48407ebae107ff",
+  "frozen_at_UTC": "2026-11-03T18:04:10.268332+00:00",
+  "frozen_before_control_pose_execution": true,
+  "native_cpu_per_search": 2,
+  "native_models_reused_or_retried": false,
+  "prepared_conditions_sha256": "59a7501bf8221ecc67af95045530d1ace490ed4b790a207b032a04c60e183f5c"
+}

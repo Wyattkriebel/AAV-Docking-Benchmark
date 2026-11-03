@@ -1,0 +1,101 @@
+{
+  "case_ids": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "clustering_used_for_primary": false,
+  "execution_progress": "results/haddock_paired_cohort/execution_progress.json",
+  "method_id": "haddock3_guided_box_air",
+  "metric_code_sha256": {
+    "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+    "aav_benchmark/haddock_paired_cohort.py": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6",
+    "aav_benchmark/haddock_pose_report.py": "b87b150592c963c956bcb7d470acf13dbade63f642b4c51714060f5c49b07260",
+    "aav_benchmark/heldout_pose_report.py": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c",
+    "aav_benchmark/heldout_reference.py": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28",
+    "aav_benchmark/metrics.py": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+    "aav_benchmark/paired_method_report.py": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "aav_benchmark/public_source_replay.py": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943",
+    "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+    "aav_benchmark/site_geometry.py": "0b76f95db2e383604c43a1963829b928f9a030943647cae49f00d221d384d481",
+    "aav_benchmark/statistics.py": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e"
+  },
+  "native_execution_freeze": {
+    "bytes": 726,
+    "path": "results/haddock_paired_cohort/execution_freeze.json",
+    "sha256": "f5c9a8503a6ebcb08cb9b5b6c3b1f698b36868c610a3816352829bf416cda904"
+  },
+  "native_output_archives": [],
+  "no_equivalent_hard_box_information_claim": true,
+  "orchestration_recovery": {
+    "adoption_receipt": {
+      "bytes": 1376,
+      "path": "results/haddock_paired_cohort/orchestration_recovery/adoption_receipt.json",
+      "sha256": "0aeb5602fe333e90b73320091be1e7c2ab44fe570d25b3a04c7b4326f8bf4222"
+    },
+    "freeze": {
+      "bytes": 1292,
+      "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_freeze.json",
+      "sha256": "f131dbcffc56a7b6e83ec93b6a085ddf7478d5aa523ad5c1b4214a9e8cce5e9c"
+    },
+    "plan": {
+      "bytes": 1671,
+      "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_plan.json",
+      "sha256": "330bf31f9061d435e615e4e23712e627255e1774aeb82c70aee2af88c86dba38"
+    },
+    "preparation_receipt": {
+      "bytes": 3064,
+      "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_preparation_receipt.json",
+      "sha256": "ba22fd8fe088d17c591cf616b4d64da538f02dad148a1ce2727059d4c626b5d3"
+    }
+  },
+  "pose_thresholds_A": [
+    1,
+    2,
+    3
+  ],
+  "preparation_receipt": {
+    "bytes": 4266,
+    "path": "results/haddock_paired_cohort/preparation_receipt.json",
+    "sha256": "0e6f0827cb985a40d539f45aed9461abd4e3ad2197da33a7c236b00483cf6d1e"
+  },
+  "prepared_plan": {
+    "bytes": 297244,
+    "path": "results/haddock_paired_cohort/prepared_plan.json",
+    "sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2"
+  },
+  "primary_stage": "flexref",
+  "public_source_distribution": {
+    "bytes": 16077,
+    "path": "benchmarks/source_public_distribution.json",
+    "sha256": "0f3e9816f8edc1194033a3456c44c2766e01a48617c032eb0a0f3a105813c43e"
+  },
+  "rank_budgets": [
+    1,
+    5
+  ],
+  "reference_evaluation_freeze": {
+    "bytes": 451,
+    "path": "results/structural_pose_v3/reference_evaluation_freeze.json",
+    "sha256": "3a7818958771715d0251adf0706d6dea887059675797f48c50201e3a4c4cbb3b"
+  },
+  "reference_evaluation_plan": {
+    "bytes": 3670,
+    "path": "benchmarks/structural_pose_reference_evaluation.json",
+    "sha256": "1c96e8822c85f9b4f215a606271ce69affcd155e3e95dc4d137247f171c6f596"
+  },
+  "schema_version": 1,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "source_profiles": {
+    "repair": "modeled_sidechain_CCD_ideal",
+    "strict": "strict_CCD_ideal"
+  }
+}

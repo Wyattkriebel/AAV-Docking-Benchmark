@@ -1,0 +1,11 @@
+{
+  "aggregation_plan_sha256": "7862b8230cf19961b0e50e021075dbd3070ffcddfdf798fd13bf07595c9fc329",
+  "fixed_pose_score_records_already_exist": 900,
+  "frozen_at_UTC": "2026-11-03T20:30:06.410187+00:00",
+  "frozen_before_any_structural_accuracy": true,
+  "global_guard_unchanged": true,
+  "historical_development_results_already_exist": true,
+  "metric_and_comparison_choices_inherited_from_prior_freezes": true,
+  "new_structural_accuracy_consulted": false,
+  "scope": "new six-case globally released reports; historical development results already exist"
+}

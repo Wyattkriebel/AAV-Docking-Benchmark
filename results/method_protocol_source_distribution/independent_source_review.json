@@ -1,0 +1,61 @@
+{
+  "actual_accuracy_computed": false,
+  "actual_docking_reference_agreement_inspected": false,
+  "ignored_live_trees_copied": false,
+  "native_jobs_launched": false,
+  "original_frozen_implementations_changed": false,
+  "original_frozen_receipts_or_archives_changed": false,
+  "protected_supplemental_or_worksharing_included": false,
+  "reviewed_distribution": {
+    "bytes": 163459,
+    "path": "benchmarks/method_protocol_public_distribution.json",
+    "sha256": "bed3115a6ab2685aa3c9cd790ff5080e931ee813c37c720188b4e44901570beb"
+  },
+  "reviewed_helper": {
+    "bytes": 10280,
+    "path": "aav_benchmark/method_protocol_sources.py",
+    "sha256": "94ed1d69bf8a805941ec090687cbe1a06bbca23e0a89ac5f4eb37c3837a60382"
+  },
+  "reviewed_helper_tests": {
+    "bytes": 4525,
+    "path": "tests/test_method_protocol_sources.py",
+    "sha256": "bea52d0e0912a58f87feb6405c097030cfcbbc1cd3149987c77d59a048723c51"
+  },
+  "reviewers": [
+    {
+      "agent": "/root/pol_pr_review/development_packaging",
+      "archive_regular_files": [
+        215,
+        550,
+        240,
+        11
+      ],
+      "bounded_public_files": 735,
+      "excluded_from_independence": "Reviewer authored development input archive and four HADDOCK test adaptations.",
+      "findings": [],
+      "frozen_implementations_verified": 14,
+      "helper_tests_passed": 5,
+      "historical_temp_aliases": 12,
+      "scope": "Independent review of packaging helper, helper tests, sealed distribution and four normalized HADDOCK manifests.",
+      "source_map_entries_verified": 59
+    },
+    {
+      "agent": "/root/pol_pr_review",
+      "development_exact_expected_paths_and_original_bytes_verified": 525,
+      "development_gzip_compressed_and_uncompressed_hashes_verified": 385,
+      "findings": [],
+      "haddock_controls": "All numerical/source/topology/lineage/corruption controls remain public; only three explicit installation checks optional. Positive pin and duplicate-run controls use truthful synthetic fixtures.",
+      "scope": "Independent review of child-authored four HADDOCK active-test adapters against their exact archived originals, and child-authored development archive against independently enumerated immutable input set."
+    },
+    {
+      "agent": "/root/blind_pose_pipeline",
+      "findings": [],
+      "no_files_edited": true,
+      "scope": "Independent narrow review of public hydration integration and temporary historical receptor alias contract at reviewed helper hash.",
+      "targeted_temp_alias_symlink_git_bare_controls_passed": 3
+    }
+  ],
+  "schema_version": 1,
+  "scope_limit": "Source, input preservation and historical lineage packaging only; no claim of completed workflow or scientific performance.",
+  "status": "independent_source_packaging_review_no_blocking_findings"
+}

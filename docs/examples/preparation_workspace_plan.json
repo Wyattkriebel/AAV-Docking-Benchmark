@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "commit": "e4fb86f6756d33f609d88f60343672d0caad7b57",
+  "archives": [
+    {
+      "archive": {
+        "path": "results/prepared_input_foundation/prepared_inputs.tar.gz",
+        "sha256": "be844f1b5ce443b60a38146703487a364300f957980683f3c957382414e3a76c",
+        "bytes": 5361774
+      },
+      "manifest": {
+        "path": "results/prepared_input_foundation/prepared_inputs_manifest.json",
+        "sha256": "359ac7ac03395d7fc1fb9e666450882bf611ace3f12cafad9a95b2a5ee27d311",
+        "bytes": 161134
+      },
+      "target_prefix": ""
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "receipt_created_utc": "2026-11-03T17:17:40.408057+00:00",
+  "source_only": true,
+  "no_cohort_docking_performed": true,
+  "source_qualification_or_accuracy_ledgers_changed": false,
+  "executed_topoaa_jobs": 22,
+  "all_process_return_codes_zero": true,
+  "complete_glycans_supported": 6,
+  "case_profile_denominator": 12,
+  "exact_receptor_supported": 7,
+  "case_profiles": [
+    {
+      "profile": "strict",
+      "case_id": "2RDK",
+      "glycan_supported": true,
+      "exact_receptor_supported": true,
+      "CNS_receptor_status": "exact_named_heavy_receptor_preserved",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.0,
+      "charged_cter": false,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/strict/2RDK/paired_topology_audit.json",
+        "sha256": "9ff4eae62940a74d754e426b600ca505c80bb17cc8543a5f70abf47d2ed41a9a",
+        "bytes": 33659
+      }
+    },
+    {
+      "profile": "strict",
+      "case_id": "4R9F",
+      "glycan_supported": true,
+      "exact_receptor_supported": true,
+      "CNS_receptor_status": "exact_named_heavy_receptor_preserved",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.0,
+      "charged_cter": false,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/strict/4R9F/paired_topology_audit.json",
+        "sha256": "98e97062110982c4eb918968c4b37e018ce23bdcf169c281857593cc1c0ca971",
+        "bytes": 95582
+      }
+    },
+    {
+      "profile": "strict",
+      "case_id": "5HZA",
+      "glycan_supported": true,
+      "exact_receptor_supported": false,
+      "CNS_receptor_status": "CNS_receptor_preparation_differs",
+      "protein_heavy_built_or_renamed": 39,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.9838663527126017,
+      "charged_cter": false,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/strict/5HZA/paired_topology_audit.json",
+        "sha256": "8927133ffec5087060bf07a50474e5887afc54fafabc4c8ebf7d26216cd5ad3f",
+        "bytes": 956445
+      }
+    },
+    {
+      "profile": "strict",
+      "case_id": "8I5U",
+      "glycan_supported": true,
+      "exact_receptor_supported": false,
+      "CNS_receptor_status": "CNS_receptor_preparation_differs",
+      "protein_heavy_built_or_renamed": 13,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.9959292143521119,
+      "charged_cter": false,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/strict/8I5U/paired_topology_audit.json",
+        "sha256": "48ba67c3222f0a35d762d6c58df6fd8ae5608f7ceede4461ee112737bff5b55b",
+        "bytes": 1227191
+      }
+    },
+    {
+      "profile": "repair",
+      "case_id": "2RDK",
+      "glycan_supported": true,
+      "exact_receptor_supported": true,
+      "CNS_receptor_status": "exact_named_heavy_receptor_preserved",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.0,
+      "charged_cter": false,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/repair/2RDK/paired_topology_audit.json",
+        "sha256": "703569d347c568cb7f9773be30bf452543676cdc81d909ea113f1ff6ca9c9947",
+        "bytes": 33659
+      }
+    },
+    {
+      "profile": "repair",
+      "case_id": "4R9F",
+      "glycan_supported": true,
+      "exact_receptor_supported": true,
+      "CNS_receptor_status": "exact_named_heavy_receptor_preserved",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.0,
+      "charged_cter": false,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/repair/4R9F/paired_topology_audit.json",
+        "sha256": "788757e685f6e06960690f3b008b5513cdcd6a147c09360d1c5a7d2c43b90fc5",
+        "bytes": 95582
+      }
+    },
+    {
+      "profile": "repair",
+      "case_id": "5HZA",
+      "glycan_supported": true,
+      "exact_receptor_supported": false,
+      "CNS_receptor_status": "CNS_receptor_preparation_differs",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 2.647441217477736,
+      "charged_cter": false,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/repair/5HZA/paired_topology_audit.json",
+        "sha256": "87526840ac4d6dc7227f51499618398b5a058d6ed1cc0a4c65de34343aa1e76b",
+        "bytes": 960231
+      }
+    },
+    {
+      "profile": "repair",
+      "case_id": "8I5U",
+      "glycan_supported": true,
+      "exact_receptor_supported": false,
+      "CNS_receptor_status": "CNS_receptor_preparation_differs",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.9970802374934566,
+      "charged_cter": false,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/repair/8I5U/paired_topology_audit.json",
+        "sha256": "fa2b8ef6deb3a1d91d5224a49c18563860c5e196c0d6688d389b48947c14e376",
+        "bytes": 1228273
+      }
+    },
+    {
+      "profile": "strict",
+      "case_id": "3ZWE",
+      "glycan_supported": true,
+      "exact_receptor_supported": true,
+      "CNS_receptor_status": "exact_named_heavy_receptor_preserved",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.0,
+      "charged_cter": true,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/observed_termini_v2/strict/3ZWE/paired_topology_audit.json",
+        "sha256": "d681931c0e403b0f43cc461e47d72a206827f39e6e68043f7fc95c35f9e07b20",
+        "bytes": 72608
+      }
+    },
+    {
+      "profile": "strict",
+      "case_id": "5V6F",
+      "glycan_supported": true,
+      "exact_receptor_supported": false,
+      "CNS_receptor_status": "CNS_receptor_preparation_differs",
+      "protein_heavy_built_or_renamed": 7,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.0,
+      "charged_cter": true,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/observed_termini_v2/strict/5V6F/paired_topology_audit.json",
+        "sha256": "f6d39aa584418c141c1dc0305f40be245cec06794632fe5a17afe1aa886bbad8",
+        "bytes": 44814
+      }
+    },
+    {
+      "profile": "repair",
+      "case_id": "3ZWE",
+      "glycan_supported": true,
+      "exact_receptor_supported": true,
+      "CNS_receptor_status": "exact_named_heavy_receptor_preserved",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.0,
+      "charged_cter": true,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/observed_termini_v2/repair/3ZWE/paired_topology_audit.json",
+        "sha256": "4fae1b67d392135d4f1eb1c8e19980655496fa63587bcc788fd77b3ccda83634",
+        "bytes": 72607
+      }
+    },
+    {
+      "profile": "repair",
+      "case_id": "5V6F",
+      "glycan_supported": true,
+      "exact_receptor_supported": true,
+      "CNS_receptor_status": "exact_named_heavy_receptor_preserved",
+      "protein_heavy_built_or_renamed": 0,
+      "protein_heavy_lost": 0,
+      "protein_shared_heavy_max_change_A": 0.0,
+      "charged_cter": true,
+      "audit": {
+        "path": "results/haddock_prospective_preparation/paired_receptors/observed_termini_v2/repair/5V6F/paired_topology_audit.json",
+        "sha256": "fef694329957a418f57f9c9ea40df7f6a1427b52286e0481844a72a561f7f891",
+        "bytes": 44223
+      }
+    }
+  ],
+  "source_code_and_policies": [
+    {
+      "path": "aav_benchmark/haddock_cohort_preparation.py",
+      "sha256": "ef0ca4c30b95a6e7907d66da9f3b197f987cbedce7cb96b15d8c96155ec07739",
+      "bytes": 14046
+    },
+    {
+      "path": "scripts/preflight_haddock_pairs.py",
+      "sha256": "3d7016bc2543fc9a213e172f5d72ad450955d638adb8589e91044f7edc959475",
+      "bytes": 8575
+    },
+    {
+      "path": "scripts/preflight_haddock_terminals.py",
+      "sha256": "1e0a669233fbb9cd1633f94a720c97fe29147af273fc655a26f5f197831016ad",
+      "bytes": 4660
+    },
+    {
+      "path": "benchmarks/haddock_prospective_policy.json",
+      "sha256": "e6f780e65b97acb844e6e8fff01236ff0ca98c484b3a7cbf6904d3a6a72aadb6",
+      "bytes": 2747
+    },
+    {
+      "path": "benchmarks/haddock_paired_topology_policy.json",
+      "sha256": "01656a62a0c57707055ce539f81f6e9aa776b286d6b7c7b847bf656b6b063a2c",
+      "bytes": 1500
+    },
+    {
+      "path": "benchmarks/haddock_terminal_amendment.json",
+      "sha256": "d2612dce2f29034d242def95b486c13788e837768e1cd965924c8818f61a6ef9",
+      "bytes": 1254
+    },
+    {
+      "path": "benchmarks/haddock_paired_cohort_proposal.json",
+      "sha256": "f49139225cc5d501b2e3420164671418832f539c3256b6ec01e349a2e9ebe083",
+      "bytes": 4061
+    },
+    {
+      "path": "docs/HADDOCK_COHORT_PREPARATION.md",
+      "sha256": "4436a1c3afa973c31597b3f90cf5663b3a10a2100c9eb308f39e969b8ff86ad3",
+      "bytes": 11085
+    },
+    {
+      "path": "tests/test_haddock_cohort_preparation.py",
+      "sha256": "ae0b895b6f83aba60bef1b414f18c854a1319437c823b77f8fc81a74f3f96e00",
+      "bytes": 7114
+    },
+    {
+      "path": "tests/test_haddock_paired_topology.py",
+      "sha256": "0ea439812b332cd4ea6609c4aabeb6dcc3318b3eb7596de5cb04420803e2f5aa",
+      "bytes": 5144
+    }
+  ],
+  "independent_ligand_receipt": {
+    "path": "results/ideal_ring_conformer_feasibility/profile_receipt.json",
+    "sha256": "03997f897fbedeba967e5f9fbd17418e57b9a467350ea8b44fb36a272f720a7e",
+    "bytes": 20896
+  },
+  "source_integration": {
+    "path": "results/structural_pose_v3/source_integration.json",
+    "sha256": "edaa19591a071922fbc2ddfdf8362bb48e1c344c0e653a08eed35fea10ae0413",
+    "bytes": 3662
+  },
+  "unchanged_release_lock": {
+    "path": "benchmarks/haddock.lock.json",
+    "sha256": "5eec702d354597aa56b41a2fda30479bd8b481d35ee9498bb2ec0201f8f62bcb",
+    "bytes": 5331
+  },
+  "archive": {
+    "path": "results/haddock_prospective_preparation/topology_artifacts.tar.gz",
+    "sha256": "9ec8eb2c63810096b48bddb8b71d08d6b884faf14472a2ef5d1c8aaf253295c8",
+    "bytes": 6659787
+  },
+  "artifact_manifest": {
+    "path": "results/haddock_prospective_preparation/artifact_manifest.json",
+    "sha256": "4c84ea371ce45621987b1d3c9bb1c4c73708915128b85eb8db8ef7ca8e02d4f9",
+    "bytes": 107008
+  },
+  "archived_file_count": 550,
+  "uncompressed_artifact_bytes": 40411136,
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q tests/test_haddock_cohort_preparation.py tests/test_haddock_paired_topology.py",
+    "passed": 12,
+    "failed": 0
+  },
+  "interpretation": "Source-only chemical/topology feasibility with exact receptor eligibility. All six cases/twelve profiles retained. The paired cohort proposal is UNFROZEN and no docking has been performed."
+}

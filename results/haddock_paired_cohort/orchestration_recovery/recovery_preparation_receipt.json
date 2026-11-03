@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-03T18:22:08.924748+00:00",
+  "status": "review_ready_no_resumption_authorized",
+  "frozen_original_plan_sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2",
+  "frozen_original_helper_sha256": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6",
+  "frozen_original_execution_freeze_sha256": "f5c9a8503a6ebcb08cb9b5b6c3b1f698b36868c610a3816352829bf416cda904",
+  "original_scientific_inputs_changed": false,
+  "native_first_job_rerun": false,
+  "future_native_jobs_launched": 0,
+  "first_execution_receipt_written": false,
+  "first_actual_models": {
+    "rigidbody": 20,
+    "flexref": 20
+  },
+  "recovered_native_return_code": null,
+  "recovered_process_CPU_seconds": null,
+  "recovered_external_measured_wall_seconds": null,
+  "recovered_elapsed_seconds_from_native_log": 373,
+  "recovery_plan": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_plan.json",
+    "sha256": "330bf31f9061d435e615e4e23712e627255e1774aeb82c70aee2af88c86dba38",
+    "bytes": 1671
+  },
+  "orphan_completion_proof": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/orphan_completion_proof.json",
+    "sha256": "7312e033822d71b9221339ccfd45de783ee95261c96015cf06d12502793c7e8d",
+    "bytes": 109868
+  },
+  "recovery_wrapper": {
+    "path": "aav_benchmark/haddock_cohort_resume.py",
+    "sha256": "6a2b233ebc817c5c1c64ed8f47da5fda609a3eca99083ec8a58f972cf884490a",
+    "bytes": 34361
+  },
+  "recovery_policy": {
+    "path": "benchmarks/haddock_orchestration_recovery_policy.json",
+    "sha256": "90524bd41d29c93e894603838bb2ecf9d9395731638f3445ce6a08d285c1b000",
+    "bytes": 3487
+  },
+  "raw_archive": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/completed_first_job_raw.tar.gz",
+    "sha256": "c15799f6e92d38cf98d4d4c509a367ce14633faeb6a434dd5d0156ba23895ed7",
+    "bytes": 3254709
+  },
+  "raw_manifest": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/completed_first_job_manifest.json",
+    "sha256": "7bbae28624ea8556e6b903ef638598e996f7fdb6e4695d7e9e4aff49af043ac2",
+    "bytes": 55318
+  },
+  "raw_archived_files": 240,
+  "metadata_archive": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_metadata.tar.gz",
+    "sha256": "d8df825f6ede8e77a01c7b6806856131f8949eb7e4714b64cf5aa7295f6abfc9",
+    "bytes": 49245
+  },
+  "metadata_manifest": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_metadata_manifest.json",
+    "sha256": "8179b51cf12179111387f27de2db6a1061a74097b900debf222ff02e7b021c0d",
+    "bytes": 2265
+  },
+  "validation": {
+    "passed": 13,
+    "failed": 0,
+    "command": ".venv/bin/python -m pytest -q tests/test_haddock_cohort_resume.py"
+  },
+  "no_experimental_accuracy_evaluation": true,
+  "required_separate_recovery_freeze": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_freeze.proposal.json",
+    "sha256": "1371370dd7c9a48c1a952b0a0d28d9b7b3c17970c9375159744e76c5f6c13967",
+    "bytes": 1215
+  }
+}

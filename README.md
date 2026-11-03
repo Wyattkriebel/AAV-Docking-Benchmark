@@ -31,6 +31,13 @@ cases are fixed before docking. Public replay retains all numerical inputs and
 recomputes qualification and 56,366 archived sequence comparisons with
 `python scripts/verify_public_source_cohort.py`.
 
+The [frozen method and report source bundle](docs/METHOD_PROTOCOL_SOURCE_REPLAY.md)
+retains the preparation, preflight and historical recovery inputs for the new
+workflows. `python scripts/verify_method_protocol_sources.py` verifies their
+archive bytes and source pins in temporary files without executing native
+software or computing pose accuracy. Terminal outcome archives and scientific
+reports have a separate publication gate.
+
 The [site-localization report](docs/SITE_LOCALIZATION_RESULTS.md) evaluates
 fpocket 4.2.3, P2Rank 2.5.1 and 100 area-weighted surface draws per receptor,
 using whole protein inputs without reference-derived crops or search boxes.

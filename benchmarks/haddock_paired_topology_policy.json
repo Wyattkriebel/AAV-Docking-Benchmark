@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "profile_id": "haddock_v3_strict_repair_topology_v1",
+  "status": "source_only_topology_preflight_no_docking",
+  "cases": ["2RDK", "3ZWE", "4R9F", "5HZA", "5V6F", "8I5U"],
+  "receptor_profiles": ["strict", "repair"],
+  "receptor_root": "data/processed/heldout_pose_v3",
+  "receptor_policy": "Copy exact receptor.pdb bytes and preserve every source chain; keep observed protein_atom_map separate from repair modeled_atom_map. Audit actual CNS heavy inventory, atom names and coordinates; any missing or built protein heavy atoms is a preparation difference and prevents claiming exact matched receptor input.",
+  "ligand_policy": "Same frozen v3 independent full parent, CCD-named heavy atoms, chain L (fail if receptor already uses L). Rigid translation only: min ligand x = max receptor x +50A, y/z unchanged; translate all hydrogens consistently in the provenance SDF. Prevent unintended distance-detected protein-glycan covalent topology. Do not embed, optimize or use native ligand coordinates.",
+  "actual_workflow": "topoaa only, debug=true, clean=false, ncores=1, sequential12jobs; no rigidbody/flexref/accuracy stages or AIRs.",
+  "protein_coordinate_tolerance_A": 0.002,
+  "protein_chiral_signed_volume_min_A3": 0.05,
+  "glycan_gate": "All previously frozen complete-heavy-graph, charge, no-heavy-autobuild, namedstereo and chemicalidealring gates from benchmarks/haddock_prospective_policy.json apply after translation.",
+  "no_cohort_docking_authorized": true
+}

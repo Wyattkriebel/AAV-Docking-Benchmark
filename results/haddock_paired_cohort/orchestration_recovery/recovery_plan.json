@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "prepared_waiting_for_root_recovery_freeze",
+  "original_plan": {
+    "path": "results/haddock_paired_cohort/prepared_plan.json",
+    "sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2",
+    "bytes": 297244
+  },
+  "original_execution_freeze": {
+    "path": "results/haddock_paired_cohort/execution_freeze.json",
+    "sha256": "f5c9a8503a6ebcb08cb9b5b6c3b1f698b36868c610a3816352829bf416cda904",
+    "bytes": 726
+  },
+  "frozen_helper": {
+    "path": "aav_benchmark/haddock_paired_cohort.py",
+    "sha256": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6",
+    "bytes": 21858
+  },
+  "recovery_wrapper": {
+    "path": "aav_benchmark/haddock_cohort_resume.py",
+    "sha256": "6a2b233ebc817c5c1c64ed8f47da5fda609a3eca99083ec8a58f972cf884490a",
+    "bytes": 34361
+  },
+  "orphan_completion_proof": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/orphan_completion_proof.json",
+    "sha256": "7312e033822d71b9221339ccfd45de783ee95261c96015cf06d12502793c7e8d",
+    "bytes": 109868
+  },
+  "orphan_job_id": "strict/2RDK/fpocket/box01/s104729",
+  "existing_terminal_receipts": [],
+  "seed_cell_denominator": 108,
+  "original_ready_jobs": 39,
+  "recovered_completed_jobs": 1,
+  "remaining_unique_native_jobs": 38,
+  "native_cpus_per_job": 1,
+  "allowed_parallel_jobs_maximum": 6,
+  "native_model_parameters_changed": false,
+  "no_native_rerun": true,
+  "no_accuracy_evaluation": true,
+  "recovery_policy": {
+    "path": "benchmarks/haddock_orchestration_recovery_policy.json",
+    "sha256": "90524bd41d29c93e894603838bb2ecf9d9395731638f3445ce6a08d285c1b000",
+    "bytes": 3487
+  }
+}

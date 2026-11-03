@@ -1,0 +1,187 @@
+{
+  "actual_cost_reporting": "Per-job native wall and child user+system CPU seconds, plus source-only CHI preflight cost separately. Record actual returned modes. Report measured totals after terminal execution; no tutorial-time extrapolation.",
+  "actual_native_search_seed_slots": 57,
+  "actual_prepared_condition_count": 19,
+  "adapter_source": {
+    "path": "aav_benchmark/prospective_vina_carb.py",
+    "sha256": "760fbe874a55c661c3cf4858ffd1c73d6aa84961cb69c28b678c7b5568d6bc75"
+  },
+  "cases": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "eligible_condition_count": 36,
+  "eligible_failure_policy": "All six cases in both receptor profiles and each predictor/oracle stay eligible. Preserve unsupported chemistry, missing inputs, predictor and native failures. No pose/seed/case dropping or adaptive retry.",
+  "eligible_seed_slots": 108,
+  "evaluation": "Root frozen qualified full/core native-atom masks and global/local receptor-frame RMSD; no independent ligand fit. Primary top1 predicted box vs one oracle box per seed at matched per-box allocation; conditional completion separate from eligible-workflow endpoint. No across-ligand affinity comparison.",
+  "execution_authority": "Root owns separate freeze and execution; fully pinned prepared-input proposal. No native probes or full search launched by this adapter.",
+  "frozen_before_native_execution": true,
+  "full_search_CHI_validation": "Require every expected link in original VC_log.txt and all source atom identities/types/charges in every returned pose, regardless of exit0. No synthetic absent models when fewer than20 survive.",
+  "helper_sources": {
+    "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+    "aav_benchmark/common_pose_rescoring.py": "afa086f24fd5ab691b8a77c8a87276448cf09223b5eb9483b1ef92cb4aae4005",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "results/additional_method_reproduction/build/fixed_pose_score.cpp": "6d1d95a78af6f6adb306268b1fe846b1ec5ffeb879c1b7143e1c9bd8b300da08"
+  },
+  "initialization_algorithm": {
+    "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/algorithm.py",
+    "sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e"
+  },
+  "initialization_policy": {
+    "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/policy.json",
+    "sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4"
+  },
+  "initialization_profile_id": "ccd_ideal_pyranose_v3",
+  "method_differences": {
+    "base_search": "Original Vina1.1.2 implementation, not modern Vina1.2.7 with only an extra CHI term",
+    "modern_comparator_min_rmsd_A": 0.5,
+    "original_final_output_separation_A": 1.0,
+    "original_parallel_merge_separation_A": 2.0,
+    "original_saved_minima_per_task": 100,
+    "original_within_search_min_rmsd_A": 1.0,
+    "same_cpu_exhaustiveness_does_not_imply_equal_runtime_or_search_evaluations": true,
+    "same_seed_value_does_not_imply_same_random_trajectory": true
+  },
+  "method_lock": {
+    "path": "benchmarks/additional_method.lock.json",
+    "sha256": "ebe5b1fdbc14c14dcd8943702eb71890d00a2b884b4c52f4808d9fb0c1ad3634"
+  },
+  "methods": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "native_binary_sha256": "b213157502e059457900075953c10e0f6adc913b845e57bdef5bb8f62ca67d54",
+  "native_build_receipt": {
+    "path": "results/additional_method_reproduction/software/native_installation.json",
+    "sha256": "f8da25e46470dda3c7438eb2ddc2c6fb6b9c60c225a55ea26fe4b9a4427b7940"
+  },
+  "native_preflight_binary_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+  "native_preflight_receipt": {
+    "path": "results/common_pose_rescoring/scorer_source/fixed_pose_scorer.json",
+    "sha256": "e4e9bb1b0a9c3e4c5ab404c9182f2b7ca2338278e646382ff9960e7f7f4157e8"
+  },
+  "new_method_outcomes_consulted": false,
+  "optional_top5_nominal_cost_upper_bound": {
+    "maximum_VinaCarb_seed_box_jobs_before_preparation_failures": 396,
+    "maximum_jobs_per_receptor_profile": 198,
+    "paired_modern_Vina_additional_jobs_if_all_inputs_prepared": 396,
+    "per_search_cpu_allocation": 2,
+    "secondary_top5_enabled": true,
+    "wall_or_CPU_time_estimate_claimed": false
+  },
+  "paired_information": "Exactly the same independently initialized ligand coordinates/torsion tree/charges, receptor PDBQT, candidate class ranks, requested center/size and per-box nominal parameters. Export restores canonical names only.",
+  "paired_modern_vina_policy": {
+    "path": "benchmarks/structural_pose_v3_experiment.json",
+    "sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d"
+  },
+  "parameters": {
+    "chi_coeff": 1,
+    "chi_cutoff": 2,
+    "cpu": 2,
+    "energy_range_kcal_mol": 10,
+    "exhaustiveness": 16,
+    "num_modes": 20
+  },
+  "pre_search_CHI_probe": "Frozen original source-linked fixed-pose helper on the independent prepared ligand. Every expected glycosidic link must have both phi and psi recognized; preserve raw zero/partial/unsupported outputs as eligible failures and do not start search. Probe scores are not ranking or accuracy outcomes.",
+  "prepared_inputs": {
+    "path": "results/structural_pose_v3/vina_carb_prepared_inputs.json",
+    "sha256": "0dc9e3975d5451d3e21b2f474b7218ecf4d82e110e197fab95630bb13c22579b"
+  },
+  "primary_candidate_budget": 1,
+  "primary_nominal_cost_upper_bound": {
+    "maximum_VinaCarb_seed_box_jobs_before_preparation_failures": 108,
+    "maximum_jobs_per_receptor_profile": 54,
+    "paired_modern_Vina_additional_jobs_if_all_inputs_prepared": 108,
+    "per_search_cpu_allocation": 2,
+    "secondary_top5_enabled": false,
+    "wall_or_CPU_time_estimate_claimed": false
+  },
+  "purpose": "Equally informed original Vina-Carb1.0 full-search comparison against Vina1.2.7 on the six fixed structural-test full parents",
+  "receptor_profiles": [
+    "strict",
+    "repair"
+  ],
+  "retained_predictor_unavailable_conditions": 2,
+  "retained_preparation_failure_conditions": 15,
+  "reuse_byte_identical_profile_jobs": false,
+  "schema_version": 1,
+  "secondary_top5_enabled": false,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "source_audit": {
+    "main_cpp": "VC_1_0/autodock_vina_1_1_2/src/main/main.cpp",
+    "parallel_merge_cpp": "VC_1_0/autodock_vina_1_1_2/src/lib/parallel_mc.cpp",
+    "source_tar_sha256": "47d170bf434beb74f36d1688658c0ddf715629b79bdbcb0c49da28ed7a68d31f"
+  },
+  "source_initializer_receipts": {
+    "2RDK": {
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/report.json",
+        "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146"
+      },
+      "sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/ligand.sdf",
+        "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b"
+      }
+    },
+    "3ZWE": {
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+        "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+      },
+      "sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+        "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+      }
+    },
+    "4R9F": {
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/4R9F/report.json",
+        "sha256": "453d4255f8ca3882f43d122ee369ca3244777800705e5de8f6f3920b5c2543a0"
+      },
+      "sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/4R9F/ligand.sdf",
+        "sha256": "5cc6f5015d65ec8b94de45b2ce34d4e58e2181f4ad698b9bcf07080903a884bb"
+      }
+    },
+    "5HZA": {
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/report.json",
+        "sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90"
+      },
+      "sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/ligand.sdf",
+        "sha256": "d8e532d3cdce5815aacee220c60351e0ed60d9b59f1f7a370627a96fb353afe4"
+      }
+    },
+    "5V6F": {
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/report.json",
+        "sha256": "206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd"
+      },
+      "sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/ligand.sdf",
+        "sha256": "3817dc1c936a6c3cba04552fb983f66064bd91154b58af55932c036e38e60852"
+      }
+    },
+    "8I5U": {
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/report.json",
+        "sha256": "14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71"
+      },
+      "sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/ligand.sdf",
+        "sha256": "451faa8a6bad34f59524083543b9fef7c5fb4468114fe27efb5273871cb7709a"
+      }
+    }
+  },
+  "status": "frozen_before_native_full_search"
+}

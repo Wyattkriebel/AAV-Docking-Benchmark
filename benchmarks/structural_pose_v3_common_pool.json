@@ -1,0 +1,104 @@
+{
+  "accuracy_gate": "Every216 source-method slot terminal/verified plus all retained union poses recorded before any aggregate accuracy; source-only indexing may run earlier. Same frozen qualified full/core masks, receptor global/local frames, no ligand fit",
+  "adapter_source": {
+    "path": "aav_benchmark/paired_common_pose_rescoring.py",
+    "sha256": "3dabfa786f62e90c3c5e3062a65797f7a18c9497b69a610c2c6143c52a5d8269"
+  },
+  "arms": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "cases": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "chi_coefficient": 1,
+  "chi_cutoff_kcal_mol": 2,
+  "deduplicate_or_filter_poses": false,
+  "eligible_rescore_method_slots": 216,
+  "eligible_seed_pools": 108,
+  "eligible_source_method_slots": 216,
+  "expanded_pool_comparison_limit": "Only coeff0 versus coeff1 on this exact union isolates CHI ranking. Comparing a union ranker to either original source order also changes candidate-pool membership and cannot isolate the CHI effect.",
+  "failure_policy": "Any failed source engine or any failed export/CHI/native validation invalidates the entire paired pool; no bad pose or source removed; all108pools and216source/rescore method slots remain eligible; conditional complete counts separate",
+  "frozen_before_fixed_pose_scoring": true,
+  "helper_sources": {
+    "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+    "aav_benchmark/common_pose_rescoring.py": "afa086f24fd5ab691b8a77c8a87276448cf09223b5eb9483b1ef92cb4aae4005",
+    "aav_benchmark/engine.py": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8",
+    "aav_benchmark/heldout_pose_report.py": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c",
+    "aav_benchmark/paired_method_report.py": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe",
+    "aav_benchmark/prospective_vina_carb.py": "760fbe874a55c661c3cf4858ffd1c73d6aa84961cb69c28b678c7b5568d6bc75",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+    "results/additional_method_reproduction/build/fixed_pose_score.cpp": "6d1d95a78af6f6adb306268b1fe846b1ec5ffeb879c1b7143e1c9bd8b300da08"
+  },
+  "interpretation": "Paired CHI ranking isolation under the unchanged Vina1.1.2 core on exactly the same union sampling pool; not modern Vina1.2.7 rescoring, no cross-ligand affinity comparison",
+  "intramolecular_reference": 0,
+  "maximum_fixed_helper_calls_if_both_source_engines_return20_per_prepared_slot": 2280,
+  "mechanism_limit": "Absence of an accurate pose in the retained union cannot prove internal sampling failure; output retention/pruning and initial chemical context remain distinct mechanisms.",
+  "method_lock": {
+    "path": "benchmarks/additional_method.lock.json",
+    "sha256": "ebe5b1fdbc14c14dcd8943702eb71890d00a2b884b4c52f4808d9fb0c1ad3634"
+  },
+  "native_execution": "One fixed-helper worker per pass only after root separate freeze; samecoordinates coeff0/1 returned in one call; no watcher; root owns long execution",
+  "new_fixed_score_or_accuracy_outcomes_consulted": false,
+  "new_native_scores_executed": false,
+  "normalization_gate": "Shared torsion normalization must agree within each fixed case ligand across all poses/source algorithms/profiles/arms/seeds; conflict invalidates case pools",
+  "paired_control_chi_coefficient": 0,
+  "pool_policy": "Exact union of ALL returned modernVina1.2.7 and originalVinaCarb1.0 models for each case/profile/arm/seed; every source/model identity distinct even identical coordinates; source algorithms original orders retained separately",
+  "profiles": [
+    "strict",
+    "repair"
+  ],
+  "ranking_backends": [
+    "VinaCarb1.0_Vina1.1.2_core_shared_zero_base_coeff0",
+    "VinaCarb1.0_Vina1.1.2_core_shared_zero_base_plus_CHI_coeff1"
+  ],
+  "schema_version": 1,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "source_experiment": {
+    "path": "benchmarks/structural_test_vina_carb.json",
+    "sha256": "8b9b75de3fc0df376f867e2319d75b30b3f1f2b66a270f1a1af3e80c44454936"
+  },
+  "source_freeze": {
+    "path": "results/structural_pose_v3/vina_carb_freeze_receipt.json",
+    "sha256": "450e58efae02b2a21ed35e7977093762a8aa23708949ebf12091952f56aa7896"
+  },
+  "source_inputs": {
+    "path": "results/structural_pose_v3/vina_carb_prepared_inputs.json",
+    "sha256": "0dc9e3975d5451d3e21b2f474b7218ecf4d82e110e197fab95630bb13c22579b"
+  },
+  "source_methods": [
+    "modern_vina_1_2_7",
+    "vina_carb_1_0"
+  ],
+  "source_modern_experiment": {
+    "path": "benchmarks/structural_pose_v3_experiment.json",
+    "sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d"
+  },
+  "source_modern_freeze": {
+    "path": "results/structural_pose_v3/freeze_receipt.json",
+    "sha256": "b66933340080ccf3782151cb7752d98a6f0af9a81724d4c98c70019665688020"
+  },
+  "source_preflight_results_are_source_qualification_not_union_ranking_scores": true,
+  "source_schedule": {
+    "path": "results/structural_pose_v3/common_pose_union/pool_schedule.json",
+    "sha256": "37335c592d10a679ce6691ca2be699b758376e8eaa1f0765e78b629ad0f2fe84"
+  },
+  "status": "frozen_before_any_union_fixed_pose_scores_or_accuracy",
+  "tie_order": [
+    "score",
+    "source_algorithm_rank(modern=0,VC=1)",
+    "candidate_class_rank",
+    "source_model_rank"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "caller_source_sha256": "6d1d95a78af6f6adb306268b1fe846b1ec5ffeb879c1b7143e1c9bd8b300da08",
+  "executable": "VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+  "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+  "intramolecular_reference": "shared zero; within-fixed-ligand pool ranking only",
+  "method_lock_sha256": "ebe5b1fdbc14c14dcd8943702eb71890d00a2b884b4c52f4808d9fb0c1ad3634",
+  "underlying_scoring_source_changed": false
+}

@@ -1,0 +1,2769 @@
+{
+  "archive": "topology_artifacts.tar.gz",
+  "archive_sha256": "9ec8eb2c63810096b48bddb8b71d08d6b884faf14472a2ef5d1c8aaf253295c8",
+  "embedded_original_manifest": "artifact_manifest.json",
+  "files": [
+    {
+      "bytes": 1871,
+      "path": "2RDK/data/glycan.pdb",
+      "sha256": "fde931d65bcb2a2d9ba59b0ed4895d59442907105af14046fbeccd7a51618999"
+    },
+    {
+      "bytes": 12511,
+      "path": "2RDK/preparation.json",
+      "sha256": "c1943dfac633076ffb094014203e5698afc0c5c268b8964cb61dab3740e52708"
+    },
+    {
+      "bytes": 34864,
+      "path": "2RDK/run-topology/0_topoaa/glycan.inp",
+      "sha256": "3f1c6d700d6b64fef788464bfc2272c3c916e8d3b06e8539f34c3f123686bc5b"
+    },
+    {
+      "bytes": 17450,
+      "path": "2RDK/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "a6b33fbde7dd8309918a8646818227076ac88b0c2460b2773da5f634907655c2"
+    },
+    {
+      "bytes": 3771,
+      "path": "2RDK/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "706f9d6a13077b2a36c330471d2211dd86f0601bcb2a7ca3c1b1c570971cea71"
+    },
+    {
+      "bytes": 4376,
+      "path": "2RDK/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "4dbe9284cdbf6923f7f2f13f1b1f327f8cd8707866b9799a7bc0fe5274f3e3af"
+    },
+    {
+      "bytes": 3277,
+      "path": "2RDK/run-topology/0_topoaa/io.json",
+      "sha256": "2ed46c679e5ba8ebb71c33321c0f3302961cc4666689c90aa5894af7131bd4b5"
+    },
+    {
+      "bytes": 501,
+      "path": "2RDK/run-topology/0_topoaa/params.cfg",
+      "sha256": "dd4a6c1b163ff324080229de3933bfa0bd744f4034a9af6abc1a63011c014526"
+    },
+    {
+      "bytes": 1867,
+      "path": "2RDK/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "4638f27cf28b3519986f054e1fc479e547c8e24572c0c7b192339593e2040f0a"
+    },
+    {
+      "bytes": 638,
+      "path": "2RDK/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 123,
+      "path": "2RDK/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "58712d9027bb5a11ec1fdd6147a1ae6c421272f9d2a89bc1d5478d0fc2aae1e8"
+    },
+    {
+      "bytes": 1171,
+      "path": "2RDK/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "7136f7c6c1f03fbd1cb7676d0cf6a0f929c73123e7cce66fa59eefd378be2d1b"
+    },
+    {
+      "bytes": 754,
+      "path": "2RDK/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "c966f2ccec4b8cbc6cc44633e1cd1efb019e0cd4c44fb843e5f01a90ab2f7268"
+    },
+    {
+      "bytes": 119,
+      "path": "2RDK/run-topology/data/configurations/raw_input.toml",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 6558,
+      "path": "2RDK/run-topology/log",
+      "sha256": "7b822b09df498f36384243ccdb2f37b9fa4785e351f44f21c11ff004770ad1be"
+    },
+    {
+      "bytes": 0,
+      "path": "2RDK/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6878,
+      "path": "2RDK/stdout.log",
+      "sha256": "2d82c1dd14e953e04880771be02e6d2b24e9b9e6d94e6dbaad7101d621b6808d"
+    },
+    {
+      "bytes": 119,
+      "path": "2RDK/topology.cfg",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 10234,
+      "path": "2RDK/topology_audit.json",
+      "sha256": "d83eaaccf0e3a3c18725cdb45ee616b7b1967254f32d2a25d3ee1743b6f4ef44"
+    },
+    {
+      "bytes": 3572,
+      "path": "3ZWE/data/glycan.pdb",
+      "sha256": "1bbf70639d9eb031b89e49cc48f4bda8d72cfda9ebdef90abd97c4c1d46dc5dd"
+    },
+    {
+      "bytes": 23669,
+      "path": "3ZWE/preparation.json",
+      "sha256": "048085fbb2005da07d243f393122cb668542b3d9d8a498dd42a84d874aa45d8b"
+    },
+    {
+      "bytes": 34864,
+      "path": "3ZWE/run-topology/0_topoaa/glycan.inp",
+      "sha256": "3f1c6d700d6b64fef788464bfc2272c3c916e8d3b06e8539f34c3f123686bc5b"
+    },
+    {
+      "bytes": 22409,
+      "path": "3ZWE/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "2a0bb515ec2f5e63ee08dc53257f1a3202d8981bb25483dffaced37c75ec5c71"
+    },
+    {
+      "bytes": 7092,
+      "path": "3ZWE/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "1c4bbfaa8e135d34111649d86a8d31518cad251d8473ebd354ab5119d38bc6c3"
+    },
+    {
+      "bytes": 7752,
+      "path": "3ZWE/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "c4735f8d50ddaa733957313c522a3c38bc1f2d1051d10d2d02ed0da0b571fe2a"
+    },
+    {
+      "bytes": 3277,
+      "path": "3ZWE/run-topology/0_topoaa/io.json",
+      "sha256": "93d496530bcb4cfb72fbd554f021d7300ef6e3af13fd9d090ac9563d3ceb8b93"
+    },
+    {
+      "bytes": 444,
+      "path": "3ZWE/run-topology/0_topoaa/params.cfg",
+      "sha256": "306f06ae4a47f5460fe3d641d5cc5f0e26103c9145e2339ee2417e64b6bf3f97"
+    },
+    {
+      "bytes": 3568,
+      "path": "3ZWE/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "633d8914726293200c020a8382ecc121cb7a299becb8df270be52f16e45a73ad"
+    },
+    {
+      "bytes": 638,
+      "path": "3ZWE/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 123,
+      "path": "3ZWE/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "58712d9027bb5a11ec1fdd6147a1ae6c421272f9d2a89bc1d5478d0fc2aae1e8"
+    },
+    {
+      "bytes": 1171,
+      "path": "3ZWE/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "7136f7c6c1f03fbd1cb7676d0cf6a0f929c73123e7cce66fa59eefd378be2d1b"
+    },
+    {
+      "bytes": 754,
+      "path": "3ZWE/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "c966f2ccec4b8cbc6cc44633e1cd1efb019e0cd4c44fb843e5f01a90ab2f7268"
+    },
+    {
+      "bytes": 119,
+      "path": "3ZWE/run-topology/data/configurations/raw_input.toml",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 6549,
+      "path": "3ZWE/run-topology/log",
+      "sha256": "65428bb925fdeef18bf2b018612a26bbc8454c750a53aee7ec8d6a54163ef61e"
+    },
+    {
+      "bytes": 0,
+      "path": "3ZWE/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6869,
+      "path": "3ZWE/stdout.log",
+      "sha256": "8de48d312a7715b0a1bfdb2845ab203dd202d537ee4f0ff0077660d55f918410"
+    },
+    {
+      "bytes": 119,
+      "path": "3ZWE/topology.cfg",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 18975,
+      "path": "3ZWE/topology_audit.json",
+      "sha256": "d84ae2cde4d8b88f98cd9b543f625b1aa3f1fd55e13ff5e41d9d3d4468442696"
+    },
+    {
+      "bytes": 1871,
+      "path": "4R9F/data/glycan.pdb",
+      "sha256": "5427ecba5cddd37f17e42deb2722e3643e6a31275ea4144f7510d3374b2f8b53"
+    },
+    {
+      "bytes": 12510,
+      "path": "4R9F/preparation.json",
+      "sha256": "46654d1fee00cf89aebfa6114aa51be8c65b79b8f30fcca7e398b44ed2cd2bb2"
+    },
+    {
+      "bytes": 34864,
+      "path": "4R9F/run-topology/0_topoaa/glycan.inp",
+      "sha256": "3f1c6d700d6b64fef788464bfc2272c3c916e8d3b06e8539f34c3f123686bc5b"
+    },
+    {
+      "bytes": 17409,
+      "path": "4R9F/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "acdb992c64d42c4a2678ed60027118984481777b49df9c3aaa5bac611907192e"
+    },
+    {
+      "bytes": 3771,
+      "path": "4R9F/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "13100275a3cf813743f7a210f910fe6041c521475bdf35f00b4da4b89e8ea4b6"
+    },
+    {
+      "bytes": 4386,
+      "path": "4R9F/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "ef8bbe2a76fcd40385c0331852e81812fc4316ff71320acb1a1ca1189c608a53"
+    },
+    {
+      "bytes": 3277,
+      "path": "4R9F/run-topology/0_topoaa/io.json",
+      "sha256": "b44949b4bf9be5659ff68cea6b18bfbb60ad6cbfce5ece8490de809e72817497"
+    },
+    {
+      "bytes": 445,
+      "path": "4R9F/run-topology/0_topoaa/params.cfg",
+      "sha256": "143bd82aba5f1cfce626a5bb2849e68d372273741eef54344e7f73181f7bed06"
+    },
+    {
+      "bytes": 1867,
+      "path": "4R9F/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "19bc456175b8a90dd1d01d749e206f985927d5c3eaab7617d5acb9503706625a"
+    },
+    {
+      "bytes": 638,
+      "path": "4R9F/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 123,
+      "path": "4R9F/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "58712d9027bb5a11ec1fdd6147a1ae6c421272f9d2a89bc1d5478d0fc2aae1e8"
+    },
+    {
+      "bytes": 1171,
+      "path": "4R9F/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "7136f7c6c1f03fbd1cb7676d0cf6a0f929c73123e7cce66fa59eefd378be2d1b"
+    },
+    {
+      "bytes": 754,
+      "path": "4R9F/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "c966f2ccec4b8cbc6cc44633e1cd1efb019e0cd4c44fb843e5f01a90ab2f7268"
+    },
+    {
+      "bytes": 119,
+      "path": "4R9F/run-topology/data/configurations/raw_input.toml",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 6558,
+      "path": "4R9F/run-topology/log",
+      "sha256": "3c6f7156b9888c8536ba1df516835079fcd5ec47e961ed971a86adf40c52dd7c"
+    },
+    {
+      "bytes": 0,
+      "path": "4R9F/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6878,
+      "path": "4R9F/stdout.log",
+      "sha256": "f5c4c0d5dc2cf89964b9812023ff9a843282829cdac41bd1acfc21624241d265"
+    },
+    {
+      "bytes": 119,
+      "path": "4R9F/topology.cfg",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 10234,
+      "path": "4R9F/topology_audit.json",
+      "sha256": "95d25d68a148522ccb766490700927914a6c9bf691c569cc86e57739e7aa88c0"
+    },
+    {
+      "bytes": 2681,
+      "path": "5HZA/data/glycan.pdb",
+      "sha256": "bd3fb9013e69038aab580545f036da8ec7861680d43d71ac1c01250c54a1ec07"
+    },
+    {
+      "bytes": 18055,
+      "path": "5HZA/preparation.json",
+      "sha256": "e24b093f39bc1c4e287b71fc1cdbe88316b1588f413d171b9cdb99153e991177"
+    },
+    {
+      "bytes": 34864,
+      "path": "5HZA/run-topology/0_topoaa/glycan.inp",
+      "sha256": "3f1c6d700d6b64fef788464bfc2272c3c916e8d3b06e8539f34c3f123686bc5b"
+    },
+    {
+      "bytes": 19730,
+      "path": "5HZA/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "6237e6bd78e08e91b3b49e9c8f1bef194da3712f4f10d1d603a484e9779db296"
+    },
+    {
+      "bytes": 5391,
+      "path": "5HZA/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "57835ab7fe331886d670173a34a11b049fb45aa03e947cc3c5c2e6f5b280963a"
+    },
+    {
+      "bytes": 6023,
+      "path": "5HZA/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "4edf0e73f723913621b76b7639146707d36b7c635b23dbbb26d11a50057a9a2d"
+    },
+    {
+      "bytes": 3277,
+      "path": "5HZA/run-topology/0_topoaa/io.json",
+      "sha256": "dea91ceac788bb2adec2c90ab24d6c570b7cc9b1b1d8c2e0e57f74f17f7d4744"
+    },
+    {
+      "bytes": 572,
+      "path": "5HZA/run-topology/0_topoaa/params.cfg",
+      "sha256": "c53397d05afa1ef2f6b4acd5a4436852be515d9b3e534cfecdc0596042eb93e9"
+    },
+    {
+      "bytes": 2677,
+      "path": "5HZA/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "c56b09b3ad08e9f13d62a5ea0913f79559a0e66adab8da648e3cc85643f453a2"
+    },
+    {
+      "bytes": 638,
+      "path": "5HZA/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 123,
+      "path": "5HZA/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "58712d9027bb5a11ec1fdd6147a1ae6c421272f9d2a89bc1d5478d0fc2aae1e8"
+    },
+    {
+      "bytes": 1171,
+      "path": "5HZA/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "7136f7c6c1f03fbd1cb7676d0cf6a0f929c73123e7cce66fa59eefd378be2d1b"
+    },
+    {
+      "bytes": 754,
+      "path": "5HZA/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "c966f2ccec4b8cbc6cc44633e1cd1efb019e0cd4c44fb843e5f01a90ab2f7268"
+    },
+    {
+      "bytes": 119,
+      "path": "5HZA/run-topology/data/configurations/raw_input.toml",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 6554,
+      "path": "5HZA/run-topology/log",
+      "sha256": "d93479841c6e82b0fc301adf94c56dd99620c114db134a0f518b00b07d12ab84"
+    },
+    {
+      "bytes": 0,
+      "path": "5HZA/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6874,
+      "path": "5HZA/stdout.log",
+      "sha256": "568d1ad1ce314009879976f2fe99c3bb3eaf64742772acdc766e950d6009581a"
+    },
+    {
+      "bytes": 119,
+      "path": "5HZA/topology.cfg",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 14580,
+      "path": "5HZA/topology_audit.json",
+      "sha256": "96993e1f3bedb0f4effb48360521427c84faa2db2d83e5172a9b64a714a882a3"
+    },
+    {
+      "bytes": 2762,
+      "path": "5V6F/data/glycan.pdb",
+      "sha256": "d39962c68e6309e8d3dcbc1d1364b5a17b221e68a997522b1b589b210f413372"
+    },
+    {
+      "bytes": 18130,
+      "path": "5V6F/preparation.json",
+      "sha256": "5de760500a39e668e1f49b726182fd9fb2b8baf68103aadf7368b0ef73b3babe"
+    },
+    {
+      "bytes": 34864,
+      "path": "5V6F/run-topology/0_topoaa/glycan.inp",
+      "sha256": "3f1c6d700d6b64fef788464bfc2272c3c916e8d3b06e8539f34c3f123686bc5b"
+    },
+    {
+      "bytes": 20003,
+      "path": "5V6F/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "f0208a170d9e2d200f2973cce5cc5a6033850675a36ba4a41c86db5753835132"
+    },
+    {
+      "bytes": 5472,
+      "path": "5V6F/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "7956c124de9f7e1a07ec2b28e5e6d4a31314125518fb0fbf18731af2ef53420d"
+    },
+    {
+      "bytes": 6118,
+      "path": "5V6F/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "52d6a53202476e659afb5d36fbc3ab0e903ba42c6604dd060b3de137eded61a1"
+    },
+    {
+      "bytes": 3277,
+      "path": "5V6F/run-topology/0_topoaa/io.json",
+      "sha256": "6a0222870797c5bd88dd2b13ba21668ada02e346478dc6766caf8172a5550a94"
+    },
+    {
+      "bytes": 584,
+      "path": "5V6F/run-topology/0_topoaa/params.cfg",
+      "sha256": "23a8c3457b16c186e4a22428934dde6c5fb005c321cec0b602f46b995f3f4a81"
+    },
+    {
+      "bytes": 2758,
+      "path": "5V6F/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "c6018fec553da49244c28a1b48a1c6b54fa311f994447f69139797080e99e7e8"
+    },
+    {
+      "bytes": 638,
+      "path": "5V6F/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 123,
+      "path": "5V6F/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "58712d9027bb5a11ec1fdd6147a1ae6c421272f9d2a89bc1d5478d0fc2aae1e8"
+    },
+    {
+      "bytes": 1171,
+      "path": "5V6F/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "7136f7c6c1f03fbd1cb7676d0cf6a0f929c73123e7cce66fa59eefd378be2d1b"
+    },
+    {
+      "bytes": 754,
+      "path": "5V6F/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "c966f2ccec4b8cbc6cc44633e1cd1efb019e0cd4c44fb843e5f01a90ab2f7268"
+    },
+    {
+      "bytes": 119,
+      "path": "5V6F/run-topology/data/configurations/raw_input.toml",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 6555,
+      "path": "5V6F/run-topology/log",
+      "sha256": "af1362d0e142d445ae80d5e8fafdb875f2cd003d8bfd0669106b7cbb1bdf8568"
+    },
+    {
+      "bytes": 0,
+      "path": "5V6F/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6875,
+      "path": "5V6F/stdout.log",
+      "sha256": "66fb7f1132cb5686064ad2c4ab97aa14f18b1d4f8ee6a83cd4da1ddd5c5607da"
+    },
+    {
+      "bytes": 119,
+      "path": "5V6F/topology.cfg",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 14651,
+      "path": "5V6F/topology_audit.json",
+      "sha256": "19b7427b8d3430da1fae1be084922a03cfb517e6dd2f968badf313cde26d2468"
+    },
+    {
+      "bytes": 1871,
+      "path": "8I5U/data/glycan.pdb",
+      "sha256": "4ada23c1958aabf696dce875f70e0c328fc47c0325b227b9a5f1be1270e4f10e"
+    },
+    {
+      "bytes": 12510,
+      "path": "8I5U/preparation.json",
+      "sha256": "ec6c078b75c20b512998e225e9b11ab5e51ac6a9192df17f540374265151a954"
+    },
+    {
+      "bytes": 34864,
+      "path": "8I5U/run-topology/0_topoaa/glycan.inp",
+      "sha256": "3f1c6d700d6b64fef788464bfc2272c3c916e8d3b06e8539f34c3f123686bc5b"
+    },
+    {
+      "bytes": 17750,
+      "path": "8I5U/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "9a2ab0fb8d9f7a97a0e1d34d46cc8de6a37d43c855b624f1efde4f63f8cbedb0"
+    },
+    {
+      "bytes": 3771,
+      "path": "8I5U/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "eecdcee39311c8ca2da8117d756f21797bdbb606077558f723543a79ece97ac5"
+    },
+    {
+      "bytes": 4384,
+      "path": "8I5U/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "209fe04d5713ca0b50a2003560fa5cdabaefbaab4f1132c055191db87fe9481d"
+    },
+    {
+      "bytes": 3277,
+      "path": "8I5U/run-topology/0_topoaa/io.json",
+      "sha256": "db2ed53d09d177650e70a709b39d5d2d0cffff1e004219305ffda3380c94a05c"
+    },
+    {
+      "bytes": 619,
+      "path": "8I5U/run-topology/0_topoaa/params.cfg",
+      "sha256": "174062bd9e79223653a19b210ccc43da8b11c2a5c6f746cd8af28f92a4877f70"
+    },
+    {
+      "bytes": 1867,
+      "path": "8I5U/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "8009167959f9f56e717b5c8a44e60fd3b6c7c65a635d11036f12452625189737"
+    },
+    {
+      "bytes": 638,
+      "path": "8I5U/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 123,
+      "path": "8I5U/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "58712d9027bb5a11ec1fdd6147a1ae6c421272f9d2a89bc1d5478d0fc2aae1e8"
+    },
+    {
+      "bytes": 1171,
+      "path": "8I5U/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "7136f7c6c1f03fbd1cb7676d0cf6a0f929c73123e7cce66fa59eefd378be2d1b"
+    },
+    {
+      "bytes": 754,
+      "path": "8I5U/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "c966f2ccec4b8cbc6cc44633e1cd1efb019e0cd4c44fb843e5f01a90ab2f7268"
+    },
+    {
+      "bytes": 119,
+      "path": "8I5U/run-topology/data/configurations/raw_input.toml",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 6553,
+      "path": "8I5U/run-topology/log",
+      "sha256": "b2d086534e05134a2a71d76c4da7ccf7d84f146e01c053a56e8eb1d526674fd7"
+    },
+    {
+      "bytes": 0,
+      "path": "8I5U/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6873,
+      "path": "8I5U/stdout.log",
+      "sha256": "c307eee1b4097d3d0fc7e1e0aa6a2166d7041ae8bf61255090e36c7ece8e2fc7"
+    },
+    {
+      "bytes": 119,
+      "path": "8I5U/topology.cfg",
+      "sha256": "b0b6d82594070ee9bcf2599c7db761740f6c2be935296d24fcfced5ee7ecc412"
+    },
+    {
+      "bytes": 10256,
+      "path": "8I5U/topology_audit.json",
+      "sha256": "287340804dde869d8a74099ef1e25c48f64c3aa49ffe21f85f23eb6d01b3550e"
+    },
+    {
+      "bytes": 107008,
+      "path": "artifact_manifest.json",
+      "sha256": "4c84ea371ce45621987b1d3c9bb1c4c73708915128b85eb8db8ef7ca8e02d4f9"
+    },
+    {
+      "bytes": 4886,
+      "path": "execution_plan.json",
+      "sha256": "963dd3e1f0f25167cf3400523cd6488f2836bbf06f54102ce8564ba706ab7f67"
+    },
+    {
+      "bytes": 228,
+      "path": "glycan_driver.log",
+      "sha256": "5291f39f0cec69457f3137b7ee5514886219514c9d6353d44e9da8c22f9ac07b"
+    },
+    {
+      "bytes": 976,
+      "path": "paired_driver.log",
+      "sha256": "8ced0383357af3aed04ae8c1255beed28abe0e6bef72ad506f61216d9e9dafa8"
+    },
+    {
+      "bytes": 16328,
+      "path": "paired_receptors/execution_plan.json",
+      "sha256": "e5bc94ad04917f55c9addd2cf0568499775724652839f9ffb783596ae875c4ef"
+    },
+    {
+      "bytes": 4689,
+      "path": "paired_receptors/observed_termini_v2/execution_plan.json",
+      "sha256": "6c87b5e4effc6b6356100f322aa30f6cb7e2411f604b3f08873cab3e6b94c189"
+    },
+    {
+      "bytes": 3572,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/data/glycan.pdb",
+      "sha256": "165f0f503063c18a4ed5c913674a8a5278c084068330dbaf9c7eb6331cc1723f"
+    },
+    {
+      "bytes": 18763,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/data/glycan_translated.sdf",
+      "sha256": "61be6300fc68179e4d08cd76b594242e341481b4394b28e3a1494440708c0faf"
+    },
+    {
+      "bytes": 160639,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/data/receptor.pdb",
+      "sha256": "281eb78e438c849df1337718601a0f0aa22369f66157ef05cd5300b523bba8f8"
+    },
+    {
+      "bytes": 72607,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/paired_topology_audit.json",
+      "sha256": "4fae1b67d392135d4f1eb1c8e19980655496fa63587bcc788fd77b3ccda83634"
+    },
+    {
+      "bytes": 24935,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/preparation.json",
+      "sha256": "d8adf4868517c9a2eb1f2840d7d543fbebe4a94383df4b6ec09a564a48e9f0fc"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 22423,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "ea8268fc34af87ae5c1fe91cbba91b18debea20fea66cb36307b4d122ff31ce9"
+    },
+    {
+      "bytes": 7092,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "5d3121884e24b7ec90f9044fe45b0e81a6261ffac92a29cfea087444d978d5e0"
+    },
+    {
+      "bytes": 7752,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "4c2c7bd1827059b0bdd0c8c07f7f1f542604e2358980c10d1384c172b9a11d8f"
+    },
+    {
+      "bytes": 6039,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/io.json",
+      "sha256": "012af312bec36e0c5bd9abaaeb50520f622ac4f574f65dabc14348553f448ac7"
+    },
+    {
+      "bytes": 682,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/params.cfg",
+      "sha256": "b4936a17967497bbf7050a80c59d102e841c27382197d3773a17febd81b9b476"
+    },
+    {
+      "bytes": 34921,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/receptor.inp",
+      "sha256": "a8d5c6099187217cbdd897703f65ff976c598a5c1d7a9684b835f897d38b9b75"
+    },
+    {
+      "bytes": 18559,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "c80eddef2ac5de986f8c1012db2c7419093b021f08eee3e21da0fb2e29ba9874"
+    },
+    {
+      "bytes": 217613,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "1f4d08b97dff664b82c7e2c9d136e4f8e0250b67c6b4fd7ec5c467934c7735fc"
+    },
+    {
+      "bytes": 360891,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "d16929a548654062c1a2108a79ff9df5d433811ca82876cbe66d19b4a356ddb7"
+    },
+    {
+      "bytes": 3568,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "3a5f2f07fadfcec7672edc179678d0e201e5c6d95a44a072d3ae4b21ec1c59da"
+    },
+    {
+      "bytes": 160627,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "2d82b2b2ff494eb798a1f960dd96567158e4311584f1c3c0f62dbce437af2ddf"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 182,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bb90f73e98ee7af28b9a496673a31be7d190c62f2cc2cc4050552a0603cc1bc7"
+    },
+    {
+      "bytes": 1499,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "be512f3e150508b8074b818a1bfab1330e73c2473128ffae4daa3070393e386b"
+    },
+    {
+      "bytes": 941,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "64c23bc0f18423b2308283c30297d71dbd6a5b76f5a0eaab596e38c698eb3693"
+    },
+    {
+      "bytes": 174,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/data/configurations/raw_input.toml",
+      "sha256": "4a74e9512775201f391ab61d8721ff182829181983c8d8fab43720092e2ba034"
+    },
+    {
+      "bytes": 4530,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/run-topology/log",
+      "sha256": "ef688d7758afde221bc6e1b1cc276df3d58940001a9425571b0b5704896ca844"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 4867,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/stdout.log",
+      "sha256": "37d5db59fa875ae9803772adbe4a3350ec49e6a2c76d7526c38f4a9e342743e3"
+    },
+    {
+      "bytes": 174,
+      "path": "paired_receptors/observed_termini_v2/repair/3ZWE/topology.cfg",
+      "sha256": "4a74e9512775201f391ab61d8721ff182829181983c8d8fab43720092e2ba034"
+    },
+    {
+      "bytes": 2762,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/data/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 14503,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/data/glycan_translated.sdf",
+      "sha256": "b689635102b8e1717bc8b2a7fcc4da7b80377108d9314c0ee5865e9f5ef32c7d"
+    },
+    {
+      "bytes": 84963,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/data/receptor.pdb",
+      "sha256": "bd6cb1f7e504eb081f691a30b83a2b0403fd037b0f1c0017e37e96d6b8570884"
+    },
+    {
+      "bytes": 44223,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/paired_topology_audit.json",
+      "sha256": "fef694329957a418f57f9c9ea40df7f6a1427b52286e0481844a72a561f7f891"
+    },
+    {
+      "bytes": 19395,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/preparation.json",
+      "sha256": "c302d8e079ad39d2d64e16480c654d5f53c01ca293864e9808ff9809241b37e0"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 20020,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "71ae4a04e3f768dc7e54b021806e6b8ee3e0ecc5790e420fd156fdf44b258a8b"
+    },
+    {
+      "bytes": 5472,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "4baa1225aafe4ec43158d56607a1b5eeef4db4439ef3efdd34356a3f15be585b"
+    },
+    {
+      "bytes": 6118,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "24715972ae9adcf3efc688a3ed9162e892b4f6ecb1a797c621d0ca1d13c0041f"
+    },
+    {
+      "bytes": 6039,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/io.json",
+      "sha256": "dd1b6ad0a94362e8e5fb0d966281122e516a3db466db0437c3f27abf3dad4fb4"
+    },
+    {
+      "bytes": 779,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/params.cfg",
+      "sha256": "fae0226aba2678421598f602b702dee3b7ad2754efd7ae8c9eb2cd38bb3d71b0"
+    },
+    {
+      "bytes": 34871,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c86449a775e1064e8191f2472089ec47c7d50514b6d8048d064f30969100dee1"
+    },
+    {
+      "bytes": 17893,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "2413d8931564f79004aac17c1b6ef976fca64cc8fe8e2393512a99285bcc36b1"
+    },
+    {
+      "bytes": 114176,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "6d831ffeba672b977e4e03b8ce75b9ff320fb3bf86c37e62c8ff0134ba513470"
+    },
+    {
+      "bytes": 178257,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "82e981ea90c3922d10b78881b4c4034fd06fa205812145cb75f497c92f92ef67"
+    },
+    {
+      "bytes": 2758,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "2a4678c688b3059ce8ceb2e6259a90792e100eb86ac04eb75d6f15b63568488e"
+    },
+    {
+      "bytes": 84959,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "ede60521f7bdcacd2e5e1077f76c809641b9a24741ab3a95921bf4472b8aebca"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 182,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bb90f73e98ee7af28b9a496673a31be7d190c62f2cc2cc4050552a0603cc1bc7"
+    },
+    {
+      "bytes": 1499,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "be512f3e150508b8074b818a1bfab1330e73c2473128ffae4daa3070393e386b"
+    },
+    {
+      "bytes": 941,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "64c23bc0f18423b2308283c30297d71dbd6a5b76f5a0eaab596e38c698eb3693"
+    },
+    {
+      "bytes": 174,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/data/configurations/raw_input.toml",
+      "sha256": "4a74e9512775201f391ab61d8721ff182829181983c8d8fab43720092e2ba034"
+    },
+    {
+      "bytes": 4540,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/run-topology/log",
+      "sha256": "541ead77c2fe05aa9c4472032bd96bdb156f39becbb3cb661ad3ef1aa5f39399"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5517,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/stdout.log",
+      "sha256": "2d2f6f9a1e3b1332f1fe7f09258955e81a5bab01c70574a951ed64a907cdd2ea"
+    },
+    {
+      "bytes": 174,
+      "path": "paired_receptors/observed_termini_v2/repair/5V6F/topology.cfg",
+      "sha256": "4a74e9512775201f391ab61d8721ff182829181983c8d8fab43720092e2ba034"
+    },
+    {
+      "bytes": 3572,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/data/glycan.pdb",
+      "sha256": "165f0f503063c18a4ed5c913674a8a5278c084068330dbaf9c7eb6331cc1723f"
+    },
+    {
+      "bytes": 18763,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/data/glycan_translated.sdf",
+      "sha256": "61be6300fc68179e4d08cd76b594242e341481b4394b28e3a1494440708c0faf"
+    },
+    {
+      "bytes": 160785,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/data/receptor.pdb",
+      "sha256": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918"
+    },
+    {
+      "bytes": 72608,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/paired_topology_audit.json",
+      "sha256": "d681931c0e403b0f43cc461e47d72a206827f39e6e68043f7fc95c35f9e07b20"
+    },
+    {
+      "bytes": 24710,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/preparation.json",
+      "sha256": "ae78ae88c0bbb54f9cb1f7c6415d58bfe733de3cb30d93d2cfda90782e49455a"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 22423,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "f42b80aac5a48e2223fe89e8123ef6123b024ac8eacf8dba411e3f5443f535b8"
+    },
+    {
+      "bytes": 7092,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "6f16beb03797ee9edc79b4160f32e6e3c2a865b5f1189860d23ec768a11cbfb3"
+    },
+    {
+      "bytes": 7752,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "41048f28fb4563d62a77138dc5ef29fa254abc7e2aaa5dcc4bcdfcd8a14e3f9f"
+    },
+    {
+      "bytes": 6039,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/io.json",
+      "sha256": "08dcff49b6e408ac9a798c5b3b62f7e19c617262a101a8ac736af9421d57875c"
+    },
+    {
+      "bytes": 580,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/params.cfg",
+      "sha256": "5b713ebed566836dfd11d6cebcd9ec211c24114765b1dee2d3f77fca6809505b"
+    },
+    {
+      "bytes": 34921,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/receptor.inp",
+      "sha256": "a8d5c6099187217cbdd897703f65ff976c598a5c1d7a9684b835f897d38b9b75"
+    },
+    {
+      "bytes": 18561,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "ebb9e66091cc456d88f81ee51ac78e40095a894707930801ab429f900e92ff66"
+    },
+    {
+      "bytes": 217613,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "a4bff73a69bd8585a7abb26b1b59502275f2b5f467a5f9027a3747470373d5ce"
+    },
+    {
+      "bytes": 360891,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "afdc4fc23415e37cc11fe5f3d7d65f5cf2df784a1d8f706fdc0257985ff9cb4b"
+    },
+    {
+      "bytes": 3568,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "3a5f2f07fadfcec7672edc179678d0e201e5c6d95a44a072d3ae4b21ec1c59da"
+    },
+    {
+      "bytes": 160627,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "2d82b2b2ff494eb798a1f960dd96567158e4311584f1c3c0f62dbce437af2ddf"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 182,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bb90f73e98ee7af28b9a496673a31be7d190c62f2cc2cc4050552a0603cc1bc7"
+    },
+    {
+      "bytes": 1499,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "be512f3e150508b8074b818a1bfab1330e73c2473128ffae4daa3070393e386b"
+    },
+    {
+      "bytes": 941,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "64c23bc0f18423b2308283c30297d71dbd6a5b76f5a0eaab596e38c698eb3693"
+    },
+    {
+      "bytes": 174,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/data/configurations/raw_input.toml",
+      "sha256": "4a74e9512775201f391ab61d8721ff182829181983c8d8fab43720092e2ba034"
+    },
+    {
+      "bytes": 4535,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/run-topology/log",
+      "sha256": "b91bd24c13dc428b7a4912b73055e3d372138692847aa53392e5112829223769"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 4872,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/stdout.log",
+      "sha256": "4bfa2e366d3168f50237d3dadbcac357d8bbb22043a13fa4b95bd9bac758d023"
+    },
+    {
+      "bytes": 174,
+      "path": "paired_receptors/observed_termini_v2/strict/3ZWE/topology.cfg",
+      "sha256": "4a74e9512775201f391ab61d8721ff182829181983c8d8fab43720092e2ba034"
+    },
+    {
+      "bytes": 2762,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/data/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 14503,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/data/glycan_translated.sdf",
+      "sha256": "b689635102b8e1717bc8b2a7fcc4da7b80377108d9314c0ee5865e9f5ef32c7d"
+    },
+    {
+      "bytes": 84564,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/data/receptor.pdb",
+      "sha256": "22a93d3082da0e4a27d109c70202325ffbfe8aa89c4878f78f9730da85a12102"
+    },
+    {
+      "bytes": 44814,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/paired_topology_audit.json",
+      "sha256": "f6d39aa584418c141c1dc0305f40be245cec06794632fe5a17afe1aa886bbad8"
+    },
+    {
+      "bytes": 19169,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/preparation.json",
+      "sha256": "4534e46b88068428b0f0f135ce7207834cdd9bf85b3e197cbf50a095e6df8cda"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 20017,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "eea4f3e98cfc378e164e1a99d1c7bbf3922270f4db171a448224a3690d15fa29"
+    },
+    {
+      "bytes": 5472,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "d61d5c2a1e8165e06c5d6ecd9dc4118620400cef9ce93d61db2c1db4c05374e7"
+    },
+    {
+      "bytes": 6118,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "6d52af8c0135b74d458dc91d1e0e218cdf90e64723b4a95f1bc6b202d80a5ffb"
+    },
+    {
+      "bytes": 6039,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/io.json",
+      "sha256": "8d763087c803405c2c1eaa9c29bc599c34eb69a0527d14b0b85efaaa504af7c6"
+    },
+    {
+      "bytes": 582,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/params.cfg",
+      "sha256": "78d23e67aec7e447ecc1cda8d211ac55d00c5b9d72f23907f34ca4af721987bb"
+    },
+    {
+      "bytes": 34871,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c86449a775e1064e8191f2472089ec47c7d50514b6d8048d064f30969100dee1"
+    },
+    {
+      "bytes": 19669,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "5ed19b3be69459db506046b13118eada13c9f7a888a0248100dd03f2320ebaab"
+    },
+    {
+      "bytes": 114176,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "e35d02cb3922558e302e0edac9995341c303464dc23593d9b03e47d550626239"
+    },
+    {
+      "bytes": 178257,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "82c7aa3ee8f149137366677024b8bf20f976118013b389ff7ba82af60c6a18af"
+    },
+    {
+      "bytes": 2758,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "2a4678c688b3059ce8ceb2e6259a90792e100eb86ac04eb75d6f15b63568488e"
+    },
+    {
+      "bytes": 84406,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "c677dd5ca51389a24ffef5e4bfdce1ff4f3612b740704cab056e7b2406936c12"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 182,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bb90f73e98ee7af28b9a496673a31be7d190c62f2cc2cc4050552a0603cc1bc7"
+    },
+    {
+      "bytes": 1499,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "be512f3e150508b8074b818a1bfab1330e73c2473128ffae4daa3070393e386b"
+    },
+    {
+      "bytes": 941,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "64c23bc0f18423b2308283c30297d71dbd6a5b76f5a0eaab596e38c698eb3693"
+    },
+    {
+      "bytes": 174,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/data/configurations/raw_input.toml",
+      "sha256": "4a74e9512775201f391ab61d8721ff182829181983c8d8fab43720092e2ba034"
+    },
+    {
+      "bytes": 4536,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/run-topology/log",
+      "sha256": "978c4e3f325b175b5b078226ff1cef4e2decc8ba603425c45830af1f5ae0969c"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5513,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/stdout.log",
+      "sha256": "c69ec87f099ab1d3d0e68e727ee35a4c063c4ec75a3dde181e0328124f79daa1"
+    },
+    {
+      "bytes": 174,
+      "path": "paired_receptors/observed_termini_v2/strict/5V6F/topology.cfg",
+      "sha256": "4a74e9512775201f391ab61d8721ff182829181983c8d8fab43720092e2ba034"
+    },
+    {
+      "bytes": 6509672,
+      "path": "paired_receptors/observed_termini_v2/summary.json",
+      "sha256": "67e25cc6a049388cda880cc9178308ec27243c99996e06d8113a78d44976f1b0"
+    },
+    {
+      "bytes": 1871,
+      "path": "paired_receptors/repair/2RDK/data/glycan.pdb",
+      "sha256": "7febed052d765b085aad4b0718bd2a4919dc13ad0daba8f9228eb811672070ff"
+    },
+    {
+      "bytes": 9907,
+      "path": "paired_receptors/repair/2RDK/data/glycan_translated.sdf",
+      "sha256": "132c916e3b1dc82127558b99e74f412f8091efde025829ae324aef3f9b20f99f"
+    },
+    {
+      "bytes": 61568,
+      "path": "paired_receptors/repair/2RDK/data/receptor.pdb",
+      "sha256": "af3c0c6b7317eafcb478958eb0ef30dd9ef81e01e5274a5bc80433c08e98fc18"
+    },
+    {
+      "bytes": 33659,
+      "path": "paired_receptors/repair/2RDK/paired_topology_audit.json",
+      "sha256": "703569d347c568cb7f9773be30bf452543676cdc81d909ea113f1ff6ca9c9947"
+    },
+    {
+      "bytes": 13526,
+      "path": "paired_receptors/repair/2RDK/preparation.json",
+      "sha256": "05d8b18b78530e2d9929ecd94dffbbb90219ede9ea4a50964ddddbc7fb6db17b"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 17460,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "ed062094f9512e2c2bafbb8c961cc1e8d0fae9041e3b47d100473963256fda7d"
+    },
+    {
+      "bytes": 3771,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "994655ae259ff28cfc035696c5d16c7cce040fdd67be164b3e0fbf8d3a9b2600"
+    },
+    {
+      "bytes": 4376,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "d8f0c26ef978a8cbeed496940a3ecd2597111801e22b1e0fa99016ff9689ba04"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/io.json",
+      "sha256": "78f4f1a2bd3f15c952c603f9bf4231a2e0910345913fe8515a5329f18eaf0b47"
+    },
+    {
+      "bytes": 588,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/params.cfg",
+      "sha256": "0e1bfc860d7142093bfc6928eddae885bbcbb93172b87d1967e0e8c8e73ddf46"
+    },
+    {
+      "bytes": 34870,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385"
+    },
+    {
+      "bytes": 17092,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "1719fd3f4c87713757d22c0c58dc4a70c17bcc6bfbcac6b3e8a878e2287788ad"
+    },
+    {
+      "bytes": 84308,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "ea409e16202fdc24d2f8ffe81280088fd2f5952affd157525ddf2f22c2d97a3b"
+    },
+    {
+      "bytes": 127501,
+      "path": "paired_receptors/repair/2RDK/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "76481428b91838b56b3429e29c22a256509b8b5a7db874e01c81abf188579053"
+    },
+    {
+      "bytes": 1867,
+      "path": "paired_receptors/repair/2RDK/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "0855eb11cae619037c978434acbc4958d9e89ee9352600f8a18b8b3a09999e2f"
+    },
+    {
+      "bytes": 61564,
+      "path": "paired_receptors/repair/2RDK/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "1ebbd16bfbde918e3e2d1525400e789920181e23724af7174ce50fb4ff480dbf"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/repair/2RDK/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/repair/2RDK/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/repair/2RDK/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/repair/2RDK/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/2RDK/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4512,
+      "path": "paired_receptors/repair/2RDK/run-topology/log",
+      "sha256": "6e6758f5595b0fc2f0e77b9347a1c7d6d15b9aac2d992ff7932ada7440a12b3b"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/repair/2RDK/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5489,
+      "path": "paired_receptors/repair/2RDK/stdout.log",
+      "sha256": "4918ff12c3cb8fd8279aafd06c7d9aa32167cd39da0349bf6c828812aa2f3617"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/2RDK/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 3572,
+      "path": "paired_receptors/repair/3ZWE/data/glycan.pdb",
+      "sha256": "165f0f503063c18a4ed5c913674a8a5278c084068330dbaf9c7eb6331cc1723f"
+    },
+    {
+      "bytes": 18763,
+      "path": "paired_receptors/repair/3ZWE/data/glycan_translated.sdf",
+      "sha256": "61be6300fc68179e4d08cd76b594242e341481b4394b28e3a1494440708c0faf"
+    },
+    {
+      "bytes": 160639,
+      "path": "paired_receptors/repair/3ZWE/data/receptor.pdb",
+      "sha256": "281eb78e438c849df1337718601a0f0aa22369f66157ef05cd5300b523bba8f8"
+    },
+    {
+      "bytes": 72786,
+      "path": "paired_receptors/repair/3ZWE/paired_topology_audit.json",
+      "sha256": "4319f0b393a8cca7ee60bd0d7b51923ee83e1b6284b48f927384fc9a4608792b"
+    },
+    {
+      "bytes": 24686,
+      "path": "paired_receptors/repair/3ZWE/preparation.json",
+      "sha256": "67cb6583fe343904d973b4fe0886b6dba1c6ff53c49465220d7bae9ecebe2b47"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 22422,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "34f694c9b11a6055fafa947580a02eced4cffa16fb3fdd2bdb074213d13fdb99"
+    },
+    {
+      "bytes": 7092,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "6958efe9d7ee6c0463527203e08949bc619120740322aa3b934191379f99b5a0"
+    },
+    {
+      "bytes": 7752,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "9b4fa461db3ec43577d3dc2d4a3dacfe42234b1f577ee2676aba5ccaee1d26f4"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/io.json",
+      "sha256": "8ba9fc8dfa64c3f05be19b9078d283f1268bc287ec0856845d86b899ce9a462d"
+    },
+    {
+      "bytes": 749,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/params.cfg",
+      "sha256": "42a71a878b306361f9ca62834959da351bf44dc00890857efeb39aafced378ef"
+    },
+    {
+      "bytes": 34920,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/receptor.inp",
+      "sha256": "22da0f2db539a5d9395e8fd6cf454a41ab81c5f05d64663ce81eddee10623cdf"
+    },
+    {
+      "bytes": 18562,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "cc84c8437dd5fc20ae95966d1941df69c60704296cdd5127161115db1f54fe5e"
+    },
+    {
+      "bytes": 217370,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "614356f113eefe2e98cc59454189606e058123e97fb221a7a42dde67c592e612"
+    },
+    {
+      "bytes": 360490,
+      "path": "paired_receptors/repair/3ZWE/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "4144e5b0661861f32cd67a106c7507edb4834c052502978bd17facc363ca0b46"
+    },
+    {
+      "bytes": 3568,
+      "path": "paired_receptors/repair/3ZWE/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "3a5f2f07fadfcec7672edc179678d0e201e5c6d95a44a072d3ae4b21ec1c59da"
+    },
+    {
+      "bytes": 160627,
+      "path": "paired_receptors/repair/3ZWE/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "2d82b2b2ff494eb798a1f960dd96567158e4311584f1c3c0f62dbce437af2ddf"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/repair/3ZWE/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/repair/3ZWE/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/repair/3ZWE/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/repair/3ZWE/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/3ZWE/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4517,
+      "path": "paired_receptors/repair/3ZWE/run-topology/log",
+      "sha256": "531d46a2b965098bde319bf9810a76bd45cdee7bc1b5f4b334ef7a3c827bfa51"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/repair/3ZWE/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 4854,
+      "path": "paired_receptors/repair/3ZWE/stdout.log",
+      "sha256": "bc5d5f09e283569ce90644df3920d36460d4ce15aabac689d83f068b3026cf96"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/3ZWE/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 1871,
+      "path": "paired_receptors/repair/4R9F/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "paired_receptors/repair/4R9F/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 249318,
+      "path": "paired_receptors/repair/4R9F/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 95582,
+      "path": "paired_receptors/repair/4R9F/paired_topology_audit.json",
+      "sha256": "788757e685f6e06960690f3b008b5513cdcd6a147c09360d1c5a7d2c43b90fc5"
+    },
+    {
+      "bytes": 13526,
+      "path": "paired_receptors/repair/4R9F/preparation.json",
+      "sha256": "a16c1aeb533842e62d41f2622edc397bc6d7464e2abfc2ab3992723c9e3118c0"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 17407,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "5124777f4dbf9aed3d0196d119d357e9cffef4a367f0bca577eb7246ba2692e9"
+    },
+    {
+      "bytes": 3771,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "a62a8cd0ffc2a06583fb51b0e61587b714d792567d6dd95637a1ee60ae525c40"
+    },
+    {
+      "bytes": 4386,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "29666f1dcf740e83dd95ac7083a14fc3710d3448c37e5fd9159bc9565676915a"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/io.json",
+      "sha256": "9427909e9afd126a05ca3971a022cd55148ce311798472de8d84303cdf1fd29c"
+    },
+    {
+      "bytes": 764,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/params.cfg",
+      "sha256": "0c8363710581a66e27ccedc24b8ce82bb6290c96fb931b2168dff57803f71457"
+    },
+    {
+      "bytes": 34870,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385"
+    },
+    {
+      "bytes": 19431,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "a87575d22c25f0ad3c6a2806f4bd2e5f8d265a9181ecf4ac71b44d39d498e510"
+    },
+    {
+      "bytes": 332552,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "18c240ceed8553b947a4e22ad27cbae485c869603c57b47e3601de6caac7dceb"
+    },
+    {
+      "bytes": 567125,
+      "path": "paired_receptors/repair/4R9F/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "12ca448ccd8cfe461e44ce1f774abbb64fa9e9ab08caee7a704c2d13cac67a43"
+    },
+    {
+      "bytes": 1867,
+      "path": "paired_receptors/repair/4R9F/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "d1be4b563ccb0510b6f29e1b95254ef0e98502b3259249201bdcf7e1639680c9"
+    },
+    {
+      "bytes": 249160,
+      "path": "paired_receptors/repair/4R9F/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "d683ba8e6bd0c7d66e520cd411a6e5899254910782c3022f9031e4f32b150583"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/repair/4R9F/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/repair/4R9F/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/repair/4R9F/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/repair/4R9F/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/4R9F/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4519,
+      "path": "paired_receptors/repair/4R9F/run-topology/log",
+      "sha256": "ef04471544528248145778e788aa427a93905f741e50c19027b89c99c4f1d50d"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/repair/4R9F/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5496,
+      "path": "paired_receptors/repair/4R9F/stdout.log",
+      "sha256": "482821fea0316cf5e0fddf57ce1bf83671e48d993c9783255deac21ec11a541a"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/4R9F/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 2681,
+      "path": "paired_receptors/repair/5HZA/data/glycan.pdb",
+      "sha256": "168c8bc6e9d0bea51be550e534d12a81aed950bd0406cbb537f61b628758efe9"
+    },
+    {
+      "bytes": 14170,
+      "path": "paired_receptors/repair/5HZA/data/glycan_translated.sdf",
+      "sha256": "27591145e66178f5645cc8d6388bc8d562ecfab986e26717f0199a9f883bf222"
+    },
+    {
+      "bytes": 389382,
+      "path": "paired_receptors/repair/5HZA/data/receptor.pdb",
+      "sha256": "190a4d481b95c865ab73e10173420beaca9000e3584a1c5ecd453cfb865241c8"
+    },
+    {
+      "bytes": 960231,
+      "path": "paired_receptors/repair/5HZA/paired_topology_audit.json",
+      "sha256": "87526840ac4d6dc7227f51499618398b5a058d6ed1cc0a4c65de34343aa1e76b"
+    },
+    {
+      "bytes": 19086,
+      "path": "paired_receptors/repair/5HZA/preparation.json",
+      "sha256": "8911a44a55d45642b1b54888d5acdd2a0d3a5195eb2546c35a4428cabd17f721"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 19765,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "9bee8132984c7c17312507ef04b444b7f4559f3acae389fabf391bcb90432abc"
+    },
+    {
+      "bytes": 5391,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "7f79755402a67b3dc12bdf4e54b0f025910a4878460bc7120a6686c9227095d0"
+    },
+    {
+      "bytes": 6023,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "3e05b4dc9cdec6c2ece93e67d8737ee14f84b6160eeeacb4aa10c8675b7bdd37"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/io.json",
+      "sha256": "a3f08da9da367e9142b7e47ee6a5dec396aca4173f0a68a17e6f07b035d528de"
+    },
+    {
+      "bytes": 775,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/params.cfg",
+      "sha256": "a1207978afeb96b70e37e8316b814c78bbbd6ab0048159782db583a1e681c3dc"
+    },
+    {
+      "bytes": 34895,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/receptor.inp",
+      "sha256": "36716e00506cff1d8d01e9e7dfd05e2775a0e3210be4051af10e96b7bfdb19ac"
+    },
+    {
+      "bytes": 22907,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "3fe3fae80fef5c2e7f9941b410a753a5b34701200de6e1ccca99ce8ed5b355d8"
+    },
+    {
+      "bytes": 519771,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "83c8fe26f9ec60df8aff15351eeef17457e6f49eb955d56daa098f09ca797761"
+    },
+    {
+      "bytes": 894827,
+      "path": "paired_receptors/repair/5HZA/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "74fab97fd4526dd87d9ff5ca5a17ed9f807bff99fdf8b707b7b777b4618f38a6"
+    },
+    {
+      "bytes": 2677,
+      "path": "paired_receptors/repair/5HZA/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "217f1c033d014f795e8ec7b94c60ddfeade777d58ea963ee7281269e28d892c4"
+    },
+    {
+      "bytes": 389374,
+      "path": "paired_receptors/repair/5HZA/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "148f776e252e036279df8f9fdb43f998e592a3e71f582b0792db49b17facdb65"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/repair/5HZA/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/repair/5HZA/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/repair/5HZA/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/repair/5HZA/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/5HZA/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4514,
+      "path": "paired_receptors/repair/5HZA/run-topology/log",
+      "sha256": "ab3bbd79bdbbda8ad396028c18f7531183ee527e8d125d89ee85035a3e10e03e"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/repair/5HZA/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 4851,
+      "path": "paired_receptors/repair/5HZA/stdout.log",
+      "sha256": "f4a400f8ff7fa18d4737bfe538fa246dab952aaf6a8609ec13692bac6e1ee57e"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/5HZA/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 2762,
+      "path": "paired_receptors/repair/5V6F/data/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 14503,
+      "path": "paired_receptors/repair/5V6F/data/glycan_translated.sdf",
+      "sha256": "b689635102b8e1717bc8b2a7fcc4da7b80377108d9314c0ee5865e9f5ef32c7d"
+    },
+    {
+      "bytes": 84963,
+      "path": "paired_receptors/repair/5V6F/data/receptor.pdb",
+      "sha256": "bd6cb1f7e504eb081f691a30b83a2b0403fd037b0f1c0017e37e96d6b8570884"
+    },
+    {
+      "bytes": 44229,
+      "path": "paired_receptors/repair/5V6F/paired_topology_audit.json",
+      "sha256": "b6ddd77f6b31dc88ee4453c7c7eefc608a0d07e2d56445cdec6b25503413f00f"
+    },
+    {
+      "bytes": 19146,
+      "path": "paired_receptors/repair/5V6F/preparation.json",
+      "sha256": "f20fcf7b665d3323be23cf27610433695bb4f71e7659035757b84eb157fb6d71"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 20020,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "cb8f41092923f2a3f73367e85916edf8690c2f92a4c956ee7a5f3441870325ca"
+    },
+    {
+      "bytes": 5472,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "630aee5add057baff25d6c308a7012230d01e5767bedf5e7cf46ccd18b99d19f"
+    },
+    {
+      "bytes": 6118,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "d1f43fb32437d5cb17f61566ccaf75b8618016cec873041fd000610d437d9096"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/io.json",
+      "sha256": "aab6b802d6e2c6a212b878d9eda27343f551ebaa9a7edff8e7ca3a874d70a456"
+    },
+    {
+      "bytes": 689,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/params.cfg",
+      "sha256": "dc9422e47e8abdf24bc46c2b6bf744b94823ff8e91d2337c28e9bbf7e3226dd5"
+    },
+    {
+      "bytes": 34870,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385"
+    },
+    {
+      "bytes": 17634,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "3913c17c86d3c61a241fac8ea1c7752564baf2af48af5d37be815c5376cdcb5f"
+    },
+    {
+      "bytes": 114095,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "96d84bae6ab78bf3b84771492b992925f99ea542cf95329872a09f4efad6119e"
+    },
+    {
+      "bytes": 178118,
+      "path": "paired_receptors/repair/5V6F/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "077c551c1ddb695a28a0d2022180c21f9582c96a78abae6089a0dcf455805724"
+    },
+    {
+      "bytes": 2758,
+      "path": "paired_receptors/repair/5V6F/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "2a4678c688b3059ce8ceb2e6259a90792e100eb86ac04eb75d6f15b63568488e"
+    },
+    {
+      "bytes": 84959,
+      "path": "paired_receptors/repair/5V6F/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "ede60521f7bdcacd2e5e1077f76c809641b9a24741ab3a95921bf4472b8aebca"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/repair/5V6F/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/repair/5V6F/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/repair/5V6F/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/repair/5V6F/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/5V6F/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4515,
+      "path": "paired_receptors/repair/5V6F/run-topology/log",
+      "sha256": "2a9df166243df86fa687c71793c215537d08c0b52fd6abac74fdb804d75e151b"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/repair/5V6F/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5492,
+      "path": "paired_receptors/repair/5V6F/stdout.log",
+      "sha256": "839c7500e89ebc9b8e02894b4a9ae189937f8ed7c621c442cee50a8dc2252411"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/5V6F/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 1871,
+      "path": "paired_receptors/repair/8I5U/data/glycan.pdb",
+      "sha256": "12bb64cca8343212e888fe75a5f02bc2efd85e1946f4a20dd8cc9ba645681d5b"
+    },
+    {
+      "bytes": 9906,
+      "path": "paired_receptors/repair/8I5U/data/glycan_translated.sdf",
+      "sha256": "1530b3cff6454e51f0a7329c988c12dc3f1e7ff950fbf06131a3fa03f472300d"
+    },
+    {
+      "bytes": 504936,
+      "path": "paired_receptors/repair/8I5U/data/receptor.pdb",
+      "sha256": "5111fc8bbd2139f7acf60eea421f5b21c31b19b5505043cf1760edc831f4336e"
+    },
+    {
+      "bytes": 1228273,
+      "path": "paired_receptors/repair/8I5U/paired_topology_audit.json",
+      "sha256": "fa2b8ef6deb3a1d91d5224a49c18563860c5e196c0d6688d389b48947c14e376"
+    },
+    {
+      "bytes": 13539,
+      "path": "paired_receptors/repair/8I5U/preparation.json",
+      "sha256": "3825b59a45269cca5b90fbd63409e9ff43e7b641a8ee819ab65b48a0c1715fe2"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 17764,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "17451a2924d4cf45e76690e8c2885c094e25150e03ad489187233b1c4d125b1e"
+    },
+    {
+      "bytes": 3771,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "6925b18d741f8959b00f008c5edeb7958579a8838c317f64ac0eb3116b89b159"
+    },
+    {
+      "bytes": 4384,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "e201675194035548d7c574010b87b006ee57c8fa38f2507c6d220f5dd4f42a15"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/io.json",
+      "sha256": "f8bcd85f7d5630afcc47ef887694882933163681ff7ef024b7ef7a6006ea01bd"
+    },
+    {
+      "bytes": 674,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/params.cfg",
+      "sha256": "0d5b3550ecb426dcbab14a36781181f312147f7a04c6cd6c418392af476e8d40"
+    },
+    {
+      "bytes": 34870,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385"
+    },
+    {
+      "bytes": 21165,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "ad7d1b1ca2233e5342eaed571223d0809149ade41457aada0e8ebef8fac5925f"
+    },
+    {
+      "bytes": 673633,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "7b80929731079185ba6cee207618a50db357f800ae60fc19023e5a425275131d"
+    },
+    {
+      "bytes": 1168133,
+      "path": "paired_receptors/repair/8I5U/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "f5970f54e054da43185ebdf4dc33f07d09ed85f1e646321933270679171a4187"
+    },
+    {
+      "bytes": 1867,
+      "path": "paired_receptors/repair/8I5U/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "0f9c2a7c2b2137867c6b9ec3991ca475e2254c7f54d51a17030e6b2e5f88f5ab"
+    },
+    {
+      "bytes": 504932,
+      "path": "paired_receptors/repair/8I5U/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "faac4c1760ca272432671ee5f0ee7383234122020e6c1d99ea8601cdd5208502"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/repair/8I5U/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/repair/8I5U/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/repair/8I5U/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/repair/8I5U/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/8I5U/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4524,
+      "path": "paired_receptors/repair/8I5U/run-topology/log",
+      "sha256": "869f4ad5a8e4a327b1e0fbcca47b32dcbbd092a227becdcca8bb38af3549ccd2"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/repair/8I5U/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5501,
+      "path": "paired_receptors/repair/8I5U/stdout.log",
+      "sha256": "2c157954e037a03ab5dba5a77c6dfac486f5139e84ee0cd44e78b4603aae2429"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/repair/8I5U/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 1871,
+      "path": "paired_receptors/strict/2RDK/data/glycan.pdb",
+      "sha256": "7febed052d765b085aad4b0718bd2a4919dc13ad0daba8f9228eb811672070ff"
+    },
+    {
+      "bytes": 9907,
+      "path": "paired_receptors/strict/2RDK/data/glycan_translated.sdf",
+      "sha256": "132c916e3b1dc82127558b99e74f412f8091efde025829ae324aef3f9b20f99f"
+    },
+    {
+      "bytes": 61722,
+      "path": "paired_receptors/strict/2RDK/data/receptor.pdb",
+      "sha256": "a99c88ea6c4dcb623cd07a2d43cd3a1b49efd1705d40072bc8a41b12a16a5444"
+    },
+    {
+      "bytes": 33659,
+      "path": "paired_receptors/strict/2RDK/paired_topology_audit.json",
+      "sha256": "9ff4eae62940a74d754e426b600ca505c80bb17cc8543a5f70abf47d2ed41a9a"
+    },
+    {
+      "bytes": 13301,
+      "path": "paired_receptors/strict/2RDK/preparation.json",
+      "sha256": "635e029889c404714c4e1aaef9f4e8bb0064b2497e8aeee5e847ab167d988eac"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 17464,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "48b4ed132a12c9ca34f512510cc08c790a1aebb27b9a501abfea0ff45c0dc983"
+    },
+    {
+      "bytes": 3771,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "aa4edbd47f1e49ced9733039c230d4981d078f3c0b41552dab2087f83d97e2e9"
+    },
+    {
+      "bytes": 4376,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "8e70037c7efda7a0bcd2e3000865fc0f624e830cb64563173215371b58e1a79e"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/io.json",
+      "sha256": "c414000a26f66880c14344dcc932bd8f1e796aa7936e82c1edd94bf3b6704750"
+    },
+    {
+      "bytes": 746,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/params.cfg",
+      "sha256": "6f9aa49a30afaafb201c671deb581b6b42b0896e8884019da6381261a860beda"
+    },
+    {
+      "bytes": 34870,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385"
+    },
+    {
+      "bytes": 17093,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "783764686a4ea1ca119061adb6f7cb30e1d441030fb0cc61fed877c04434fd64"
+    },
+    {
+      "bytes": 84308,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "ef46f45b58aa9d57ded851f8a556fc6534817ea66b9ac574cc1d9d959f024b0d"
+    },
+    {
+      "bytes": 127501,
+      "path": "paired_receptors/strict/2RDK/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "78f8aabfbc71b1e56841c5f3d5338916aff43e6658fcc9c351f3cdf50feef3fd"
+    },
+    {
+      "bytes": 1867,
+      "path": "paired_receptors/strict/2RDK/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "0855eb11cae619037c978434acbc4958d9e89ee9352600f8a18b8b3a09999e2f"
+    },
+    {
+      "bytes": 61564,
+      "path": "paired_receptors/strict/2RDK/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "1ebbd16bfbde918e3e2d1525400e789920181e23724af7174ce50fb4ff480dbf"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/strict/2RDK/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/strict/2RDK/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/strict/2RDK/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/strict/2RDK/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/2RDK/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4528,
+      "path": "paired_receptors/strict/2RDK/run-topology/log",
+      "sha256": "dbbe4976113ec08fe4b6763671db8ecc030c251f3492255bbd43a1cc7e5a2787"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/strict/2RDK/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5505,
+      "path": "paired_receptors/strict/2RDK/stdout.log",
+      "sha256": "9f999a5a901af1d15823ed82f113e1b0ed15766da8c38fd7d620841491cf413b"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/2RDK/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 3572,
+      "path": "paired_receptors/strict/3ZWE/data/glycan.pdb",
+      "sha256": "165f0f503063c18a4ed5c913674a8a5278c084068330dbaf9c7eb6331cc1723f"
+    },
+    {
+      "bytes": 18763,
+      "path": "paired_receptors/strict/3ZWE/data/glycan_translated.sdf",
+      "sha256": "61be6300fc68179e4d08cd76b594242e341481b4394b28e3a1494440708c0faf"
+    },
+    {
+      "bytes": 160785,
+      "path": "paired_receptors/strict/3ZWE/data/receptor.pdb",
+      "sha256": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918"
+    },
+    {
+      "bytes": 72785,
+      "path": "paired_receptors/strict/3ZWE/paired_topology_audit.json",
+      "sha256": "52e53142c4658012c9ec847100a835a28bb082fbe1b6311fd61a357e627a75d4"
+    },
+    {
+      "bytes": 24461,
+      "path": "paired_receptors/strict/3ZWE/preparation.json",
+      "sha256": "ac6712a63a1fc9098b23c2b3925f034d694b3322f132ed9a73f4e6752fe7ce81"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 22422,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "c5661a24706eda62d41009b735b21aeb38f015f434f0a9f3f74a6f1eb2930a43"
+    },
+    {
+      "bytes": 7092,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "6fc31951fc9cfbf026f7d91711d704e1226354f5fa48965084582b2b41d937ec"
+    },
+    {
+      "bytes": 7752,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "2f4104bfa7cbeefb4d56ca56da3de8cd638ce3847d5408e2f0e7a22e5ffce224"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/io.json",
+      "sha256": "959a68400c0be7cfba37acb8e6f22740376fc62f1ed6878aecb41dbf321357bd"
+    },
+    {
+      "bytes": 796,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/params.cfg",
+      "sha256": "e4410b7d76d942928b4562fa654c351917f2431eb4434f7edac16c8f91be69ac"
+    },
+    {
+      "bytes": 34920,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/receptor.inp",
+      "sha256": "22da0f2db539a5d9395e8fd6cf454a41ab81c5f05d64663ce81eddee10623cdf"
+    },
+    {
+      "bytes": 18561,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "964167b9dea327bd42beb6b52e9f6bb89608412fc0cf38c289f85e38a6b44fcb"
+    },
+    {
+      "bytes": 217370,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "07fa6f0ee68db60baa2a7a1bdf1de43e6513b412188a99bb42215a2d734a315f"
+    },
+    {
+      "bytes": 360490,
+      "path": "paired_receptors/strict/3ZWE/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "16820af51edb674a2192a33c9473f5d89a45db2d397721880a879870038e40f8"
+    },
+    {
+      "bytes": 3568,
+      "path": "paired_receptors/strict/3ZWE/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "3a5f2f07fadfcec7672edc179678d0e201e5c6d95a44a072d3ae4b21ec1c59da"
+    },
+    {
+      "bytes": 160627,
+      "path": "paired_receptors/strict/3ZWE/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "2d82b2b2ff494eb798a1f960dd96567158e4311584f1c3c0f62dbce437af2ddf"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/strict/3ZWE/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/strict/3ZWE/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/strict/3ZWE/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/strict/3ZWE/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/3ZWE/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4516,
+      "path": "paired_receptors/strict/3ZWE/run-topology/log",
+      "sha256": "360668c3c9b4088b514e72f6423778be47e4cd55bc95d0158dcb8bf63289b146"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/strict/3ZWE/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 4853,
+      "path": "paired_receptors/strict/3ZWE/stdout.log",
+      "sha256": "a4640e2db9dead1d115aa4e0238e8154633eb07f3ae6b67db6d18b31e1d3d545"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/3ZWE/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 1871,
+      "path": "paired_receptors/strict/4R9F/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "paired_receptors/strict/4R9F/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 249318,
+      "path": "paired_receptors/strict/4R9F/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 95582,
+      "path": "paired_receptors/strict/4R9F/paired_topology_audit.json",
+      "sha256": "98e97062110982c4eb918968c4b37e018ce23bdcf169c281857593cc1c0ca971"
+    },
+    {
+      "bytes": 13301,
+      "path": "paired_receptors/strict/4R9F/preparation.json",
+      "sha256": "8b3b7d63b5a893c46a4d2c64a0021c8b565cc6c8dca2bf2379146d1f455aa96c"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 17408,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "4c17615f978ef42b590aa8aef439befc851b03521cd7437cc622f454f05011f5"
+    },
+    {
+      "bytes": 3771,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "f63921608e6b3de3aad30c5aa1f68ca357312c746e0822fa040bd410a9c93f92"
+    },
+    {
+      "bytes": 4386,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "ef7358bd92b94c8f2c12293f318730f7ac02867b1e86ad91eff6c77db055d547"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/io.json",
+      "sha256": "2b7a43af773c189190eb959863f65c823e553dc9ad12294a6d0f0427251f42a7"
+    },
+    {
+      "bytes": 770,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/params.cfg",
+      "sha256": "cf9b3389d6429e897bc5cb245c2066bb84de32738618a5d1ab0453f6fe6d33c5"
+    },
+    {
+      "bytes": 34870,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385"
+    },
+    {
+      "bytes": 19432,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "cfa9385d9e37bafddc34c0c41967d0ef233b08854f30ce853ab71fdca4e6d4f7"
+    },
+    {
+      "bytes": 332552,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "768838d83b8b009838749fbf94eb3e9816128f59cefba87a5545773dbdc0a9a7"
+    },
+    {
+      "bytes": 567125,
+      "path": "paired_receptors/strict/4R9F/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "81d6939cf07a7b69236f274fe138fb60b47b4b89fe157ead4f65b22a955163e6"
+    },
+    {
+      "bytes": 1867,
+      "path": "paired_receptors/strict/4R9F/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "d1be4b563ccb0510b6f29e1b95254ef0e98502b3259249201bdcf7e1639680c9"
+    },
+    {
+      "bytes": 249160,
+      "path": "paired_receptors/strict/4R9F/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "d683ba8e6bd0c7d66e520cd411a6e5899254910782c3022f9031e4f32b150583"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/strict/4R9F/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/strict/4R9F/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/strict/4R9F/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/strict/4R9F/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/4R9F/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4515,
+      "path": "paired_receptors/strict/4R9F/run-topology/log",
+      "sha256": "195aeee1b521c395f619f1a8077c28efb0e0c37f1839789919b090bc87b7fc2f"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/strict/4R9F/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5492,
+      "path": "paired_receptors/strict/4R9F/stdout.log",
+      "sha256": "06036a27c52d0c6615b48d8fe4dd704ff18c5b1bee751a43e77e26f72672294c"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/4R9F/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 2681,
+      "path": "paired_receptors/strict/5HZA/data/glycan.pdb",
+      "sha256": "168c8bc6e9d0bea51be550e534d12a81aed950bd0406cbb537f61b628758efe9"
+    },
+    {
+      "bytes": 14170,
+      "path": "paired_receptors/strict/5HZA/data/glycan_translated.sdf",
+      "sha256": "27591145e66178f5645cc8d6388bc8d562ecfab986e26717f0199a9f883bf222"
+    },
+    {
+      "bytes": 386451,
+      "path": "paired_receptors/strict/5HZA/data/receptor.pdb",
+      "sha256": "fa8aca5ab1e9bc0f556758d595b65e6959191349c2d81639c561327a1dee61c7"
+    },
+    {
+      "bytes": 956445,
+      "path": "paired_receptors/strict/5HZA/paired_topology_audit.json",
+      "sha256": "8927133ffec5087060bf07a50474e5887afc54fafabc4c8ebf7d26216cd5ad3f"
+    },
+    {
+      "bytes": 18859,
+      "path": "paired_receptors/strict/5HZA/preparation.json",
+      "sha256": "2a46dfac519458e7e2cf19de61511a71142935092a28c7779325bf3daf7a7747"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 19767,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "4d662891cf0640c258a110a9601e8c36058e5ba5caab9c63602627dee4c9ac06"
+    },
+    {
+      "bytes": 5391,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "9f0839cc0984a73dd20090bd7df394704f6d0c52e69abb7314e1f1a89020674d"
+    },
+    {
+      "bytes": 6023,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "eced37169aab754948eb8556e12cb89d16ce42368de14c99dd47cecf765bdda4"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/io.json",
+      "sha256": "401466568c31e1c32103b529f0b844e4d764c15a7c26101a50f6485ce1e2fe0f"
+    },
+    {
+      "bytes": 780,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/params.cfg",
+      "sha256": "3af288a7d1e4ceb44350475198b5884d6d0d9be27cdb815ce5e4e70070cb9c38"
+    },
+    {
+      "bytes": 34895,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/receptor.inp",
+      "sha256": "36716e00506cff1d8d01e9e7dfd05e2775a0e3210be4051af10e96b7bfdb19ac"
+    },
+    {
+      "bytes": 26749,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "b99a4de336cfc198c28900dc271406596b655b3755e68de53e101ad31f0a5c29"
+    },
+    {
+      "bytes": 519771,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "a5f4e3ccdc573bd1ecf18764f9a0e2f3394062c602a33d3341e7736bd6d49b1e"
+    },
+    {
+      "bytes": 894827,
+      "path": "paired_receptors/strict/5HZA/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "b94dd564b772efcb12e6ca3ed566fd72e5d836e7394d4ed44346992032754f6c"
+    },
+    {
+      "bytes": 2677,
+      "path": "paired_receptors/strict/5HZA/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "217f1c033d014f795e8ec7b94c60ddfeade777d58ea963ee7281269e28d892c4"
+    },
+    {
+      "bytes": 386293,
+      "path": "paired_receptors/strict/5HZA/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "aa6ce6857c9483a8681c507a3de3d05af054255331a982b3c5f1b1cf1d69c7e1"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/strict/5HZA/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/strict/5HZA/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/strict/5HZA/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/strict/5HZA/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/5HZA/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4515,
+      "path": "paired_receptors/strict/5HZA/run-topology/log",
+      "sha256": "12c054fef1ed19bbb0e59f7b2261d0b4472d058f749ea7edcfa94f9a9fb58f7a"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/strict/5HZA/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 4852,
+      "path": "paired_receptors/strict/5HZA/stdout.log",
+      "sha256": "9d5d22570c18a0e410919d950e486b787bd8848510020aa074691b3cd0f7c1cd"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/5HZA/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 2762,
+      "path": "paired_receptors/strict/5V6F/data/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 14503,
+      "path": "paired_receptors/strict/5V6F/data/glycan_translated.sdf",
+      "sha256": "b689635102b8e1717bc8b2a7fcc4da7b80377108d9314c0ee5865e9f5ef32c7d"
+    },
+    {
+      "bytes": 84564,
+      "path": "paired_receptors/strict/5V6F/data/receptor.pdb",
+      "sha256": "22a93d3082da0e4a27d109c70202325ffbfe8aa89c4878f78f9730da85a12102"
+    },
+    {
+      "bytes": 44824,
+      "path": "paired_receptors/strict/5V6F/paired_topology_audit.json",
+      "sha256": "1737ab673db956d2bc49d7850978f4d073c96ed17eb5d07b3d21a9258bac97be"
+    },
+    {
+      "bytes": 18920,
+      "path": "paired_receptors/strict/5V6F/preparation.json",
+      "sha256": "9f7c4f71f614da4c5328a56eb8a2a52777e9001fa88bbec9db46d893ca703758"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 20015,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "4c5f30c46c9690721092b5d6dc6f5e2cb32815351b52c7c2a181ac7fa3283d92"
+    },
+    {
+      "bytes": 5472,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "0e6be390f1747b0d1aabfbb1b0f1acf19b4ef8b95015c1254f9071716b807a1a"
+    },
+    {
+      "bytes": 6118,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "c087633c3e2675c8483ec8686922d1245905fffab703d8a111f3823fbdc51c7e"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/io.json",
+      "sha256": "68167483d4356b1f02c848aca3ae5e41b42f8ea16b54177dc35f7e70b8e01760"
+    },
+    {
+      "bytes": 671,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/params.cfg",
+      "sha256": "bfbee7e81c0348cdff7e4ea5bb6aeab0d2282eb40ad9556760d60d5137cade44"
+    },
+    {
+      "bytes": 34870,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385"
+    },
+    {
+      "bytes": 19756,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "81164901b7492f350e69d982a8d43daadc143189596a02a9e9e4178e4d9e6044"
+    },
+    {
+      "bytes": 114095,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "6d2a614a7d3aa2978402567a27c4e4ee2568c027435283f898a2916e095f03e9"
+    },
+    {
+      "bytes": 178118,
+      "path": "paired_receptors/strict/5V6F/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "619b238d963a5ffa19c0fb6918e9d89b3a110a466c527166518a9299430aa79c"
+    },
+    {
+      "bytes": 2758,
+      "path": "paired_receptors/strict/5V6F/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "2a4678c688b3059ce8ceb2e6259a90792e100eb86ac04eb75d6f15b63568488e"
+    },
+    {
+      "bytes": 84406,
+      "path": "paired_receptors/strict/5V6F/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "c677dd5ca51389a24ffef5e4bfdce1ff4f3612b740704cab056e7b2406936c12"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/strict/5V6F/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/strict/5V6F/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/strict/5V6F/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/strict/5V6F/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/5V6F/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4520,
+      "path": "paired_receptors/strict/5V6F/run-topology/log",
+      "sha256": "bd0a1a984399131109b7e848d5fc4089d2dccd4c05c66983750b6706fce13951"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/strict/5V6F/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5497,
+      "path": "paired_receptors/strict/5V6F/stdout.log",
+      "sha256": "9623d3c72995b202001a4cb2cc5194bda9a8284df185443d5e741866bc8b6e8f"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/5V6F/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 1871,
+      "path": "paired_receptors/strict/8I5U/data/glycan.pdb",
+      "sha256": "12bb64cca8343212e888fe75a5f02bc2efd85e1946f4a20dd8cc9ba645681d5b"
+    },
+    {
+      "bytes": 9906,
+      "path": "paired_receptors/strict/8I5U/data/glycan_translated.sdf",
+      "sha256": "1530b3cff6454e51f0a7329c988c12dc3f1e7ff950fbf06131a3fa03f472300d"
+    },
+    {
+      "bytes": 504063,
+      "path": "paired_receptors/strict/8I5U/data/receptor.pdb",
+      "sha256": "23f14f3e7b04c6704425c4aaabcbd5c5ed1a18455e823c302dadd29bcd587e7a"
+    },
+    {
+      "bytes": 1227191,
+      "path": "paired_receptors/strict/8I5U/paired_topology_audit.json",
+      "sha256": "48ba67c3222f0a35d762d6c58df6fd8ae5608f7ceede4461ee112737bff5b55b"
+    },
+    {
+      "bytes": 13313,
+      "path": "paired_receptors/strict/8I5U/preparation.json",
+      "sha256": "bdf0b2decb75dc3260628c60ce576c897e4764dad79803283d00507b58eaa0c4"
+    },
+    {
+      "bytes": 34864,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/glycan.inp",
+      "sha256": "488949a8e1ef61a7c3ad62b090125306bc45c7e9e2b5ee9f376779f13b203e6c"
+    },
+    {
+      "bytes": 17765,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/glycan.out.gz",
+      "sha256": "14a2d0f1778e643d741a58538d982d51a3ca33a4a5b95bf03e771b55f9c23d1c"
+    },
+    {
+      "bytes": 3771,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/glycan_haddock.pdb",
+      "sha256": "79669b805571ea5c0c556eca44f6257d0ba2ffeef3a8d96197f6d63282ec5f92"
+    },
+    {
+      "bytes": 4384,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/glycan_haddock.psf",
+      "sha256": "07cc991ad28e6d8128abefa9d9429d0b359120f086686a2e9ba5e1f953ad2782"
+    },
+    {
+      "bytes": 5959,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/io.json",
+      "sha256": "e396f408fd0219572732d4bcc6e05d2d13d268acbacd2d5fc66f8875b1dc56f2"
+    },
+    {
+      "bytes": 632,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/params.cfg",
+      "sha256": "55fada0b11de3f9fccdebf894e7dec32c2acec76f18cc87eefb0501f89ecec30"
+    },
+    {
+      "bytes": 34870,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/receptor.inp",
+      "sha256": "c071db95e131a6667cbf5e980830eece5393c6f329613744155b3d5b4e6c3385"
+    },
+    {
+      "bytes": 25284,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/receptor.out.gz",
+      "sha256": "55c1b0681b52badc2f732553cc3e2177717c4623c0f7d9a4150d7592a1eb9d24"
+    },
+    {
+      "bytes": 673633,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/receptor_haddock.pdb",
+      "sha256": "95c43bb8b85f3f60a4fd95fd538989bde72b7330f7177f2d63d50eb302e149a5"
+    },
+    {
+      "bytes": 1168133,
+      "path": "paired_receptors/strict/8I5U/run-topology/0_topoaa/receptor_haddock.psf",
+      "sha256": "42f590b3f27b38759239a9209dec923c2dfe89146ed7b6b6324c8b21ec48de98"
+    },
+    {
+      "bytes": 1867,
+      "path": "paired_receptors/strict/8I5U/run-topology/data/0_topoaa/glycan.pdb",
+      "sha256": "0f9c2a7c2b2137867c6b9ec3991ca475e2254c7f54d51a17030e6b2e5f88f5ab"
+    },
+    {
+      "bytes": 503905,
+      "path": "paired_receptors/strict/8I5U/run-topology/data/0_topoaa/receptor.pdb",
+      "sha256": "c46a50fa95200b056c5bba2ba6c8d48911b09121c0d1a3142021045c73be320e"
+    },
+    {
+      "bytes": 638,
+      "path": "paired_receptors/strict/8I5U/run-topology/data/configurations/README.txt",
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "bytes": 144,
+      "path": "paired_receptors/strict/8I5U/run-topology/data/configurations/cleaned_input.toml",
+      "sha256": "bd4d2258b7e9fd9a50f5ce94b25ce6cd9bc96f20f6960484b8bb3ea804c8b977"
+    },
+    {
+      "bytes": 1500,
+      "path": "paired_receptors/strict/8I5U/run-topology/data/configurations/enhanced_haddock_params.json",
+      "sha256": "070795a959d7a9e8b4214441298bbf1bdc34cd69c99caf20f2bdda3771d839d0"
+    },
+    {
+      "bytes": 942,
+      "path": "paired_receptors/strict/8I5U/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "89b9c343a4bf813fc814524b257007cd453797c5ad0d54205aef74506de884f5"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/8I5U/run-topology/data/configurations/raw_input.toml",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 4524,
+      "path": "paired_receptors/strict/8I5U/run-topology/log",
+      "sha256": "cbe0757da89e2ac42f7853608ccc3117e430292198bd94c2b1459cb67aaf6827"
+    },
+    {
+      "bytes": 396,
+      "path": "paired_receptors/strict/8I5U/stderr.log",
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "bytes": 5501,
+      "path": "paired_receptors/strict/8I5U/stdout.log",
+      "sha256": "3656c68e55c1cc21657f2b333ace96ad62be3b5ff0c41f825950982c4da57c8b"
+    },
+    {
+      "bytes": 140,
+      "path": "paired_receptors/strict/8I5U/topology.cfg",
+      "sha256": "8a065238c9be6cbc2454b515763485f3f95b0d449256007613232358e8ad1ecb"
+    },
+    {
+      "bytes": 5958682,
+      "path": "paired_receptors/summary.json",
+      "sha256": "9ec25be0e9f51025522a240599c2196e52b6efddd279e13f83d936892ee2acbb"
+    },
+    {
+      "bytes": 91209,
+      "path": "parameterization_summary.json",
+      "sha256": "b37f0273ca14314be55bb72e2b63d12890490f3fe4b17aca306bdfeb69706d0e"
+    },
+    {
+      "bytes": 11085,
+      "path": "source_snapshot/HADDOCK_COHORT_PREPARATION.md",
+      "sha256": "4436a1c3afa973c31597b3f90cf5663b3a10a2100c9eb308f39e969b8ff86ad3"
+    },
+    {
+      "bytes": 14046,
+      "path": "source_snapshot/haddock_cohort_preparation.py",
+      "sha256": "ef0ca4c30b95a6e7907d66da9f3b197f987cbedce7cb96b15d8c96155ec07739"
+    },
+    {
+      "bytes": 4061,
+      "path": "source_snapshot/haddock_paired_cohort_proposal.json",
+      "sha256": "f49139225cc5d501b2e3420164671418832f539c3256b6ec01e349a2e9ebe083"
+    },
+    {
+      "bytes": 1500,
+      "path": "source_snapshot/haddock_paired_topology_policy.json",
+      "sha256": "01656a62a0c57707055ce539f81f6e9aa776b286d6b7c7b847bf656b6b063a2c"
+    },
+    {
+      "bytes": 2747,
+      "path": "source_snapshot/haddock_prospective_policy.json",
+      "sha256": "e6f780e65b97acb844e6e8fff01236ff0ca98c484b3a7cbf6904d3a6a72aadb6"
+    },
+    {
+      "bytes": 1254,
+      "path": "source_snapshot/haddock_terminal_amendment.json",
+      "sha256": "d2612dce2f29034d242def95b486c13788e837768e1cd965924c8818f61a6ef9"
+    },
+    {
+      "bytes": 8575,
+      "path": "source_snapshot/preflight_haddock_pairs.py",
+      "sha256": "3d7016bc2543fc9a213e172f5d72ad450955d638adb8589e91044f7edc959475"
+    },
+    {
+      "bytes": 4660,
+      "path": "source_snapshot/preflight_haddock_terminals.py",
+      "sha256": "1e0a669233fbb9cd1633f94a720c97fe29147af273fc655a26f5f197831016ad"
+    },
+    {
+      "bytes": 7114,
+      "path": "source_snapshot/test_haddock_cohort_preparation.py",
+      "sha256": "ae0b895b6f83aba60bef1b414f18c854a1319437c823b77f8fc81a74f3f96e00"
+    },
+    {
+      "bytes": 5144,
+      "path": "source_snapshot/test_haddock_paired_topology.py",
+      "sha256": "0ea439812b332cd4ea6609c4aabeb6dcc3318b3eb7596de5cb04420803e2f5aa"
+    },
+    {
+      "bytes": 332,
+      "path": "terminal_amendment_driver.log",
+      "sha256": "774be2b7fd3b0fa098ccca595da84375aed640164c66e2218e9f268ef865b053"
+    }
+  ],
+  "frozen_original_manifest": {
+    "bytes": 107008,
+    "path": "results/haddock_prospective_preparation/artifact_manifest.json",
+    "sha256": "4c84ea371ce45621987b1d3c9bb1c4c73708915128b85eb8db8ef7ca8e02d4f9"
+  },
+  "no_new_native_or_accuracy_calls": true,
+  "original_manifest_records": 549,
+  "packaging_after_execution_started": true,
+  "schema_version": 1,
+  "scientific_inputs_and_original_receipts_unchanged": true,
+  "scope": "Full-coverage public hydration manifest for existing frozen archive bytes; original manifest remains provenance.",
+  "target_prefix": "results/haddock_prospective_preparation"
+}

@@ -1,0 +1,23 @@
+{
+  "all_four_workflows_required": true,
+  "change_from_reviewed_proposal": "status field only; all code, plan, gate, metric and denominator contracts unchanged",
+  "contract": {
+    "path": "benchmarks/global_pose_report_gate.json",
+    "sha256": "ab0f9613b80f90d82725bd37d4e3d766285081848cce175437fd7e7c405746ee"
+  },
+  "frozen_at_UTC": "2026-11-03T19:26:46.948082+00:00",
+  "independent_review": {
+    "path": "results/structural_pose_v3/global_report_release/independent_review.json",
+    "sha256": "2ce97fa41bbe13f37a98c25b36bb37601e40bb030cef8920eae2b70150bc4394"
+  },
+  "new_test_pose_accuracy_consulted": false,
+  "new_test_site_accuracy_consulted": false,
+  "real_reports_when_all_ready_authorized": true,
+  "reviewed_proposal": {
+    "path": "benchmarks/global_pose_report_gate.proposal.json",
+    "sha256": "79ca3567ac258f9772740552103f4093b16fcbc4a2325f5c632328fe359fb2ca"
+  },
+  "status": "frozen_before_global_report_readiness_probes",
+  "user_requested_completion_authorizes_real_reports_only_after_all_four_gates": true,
+  "validation_only_probes_authorized": true
+}

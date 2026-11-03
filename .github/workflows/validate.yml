@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -22,5 +24,6 @@ jobs:
       - run: python -m aav_benchmark.additional_method verify-example
       - run: python -m aav_benchmark.haddock_replay
       - run: python scripts/verify_ring_initialization.py
+      - run: python scripts/verify_method_protocol_sources.py
       - run: python scripts/verify_site_experiment.py --numeric-tolerance 1e-10 --surface-area-tolerance 1e-6
       - run: python -m aav_benchmark status

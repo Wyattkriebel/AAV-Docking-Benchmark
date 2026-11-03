@@ -1,0 +1,1446 @@
+{
+  "actual_native_search_slots_per_engine": 57,
+  "conditions": [
+    {
+      "box": {
+        "center": [
+          40.89475862068964,
+          -7.419241379310344,
+          15.364965517241377
+        ],
+        "size": [
+          26,
+          26,
+          26
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/box01/ligand_atom_map.json",
+        "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+      },
+      "case_id": "2RDK",
+      "condition_id": "strict/2RDK/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/report.json",
+        "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/ligand.sdf",
+        "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/box01/ligand.pdbqt",
+        "sha256": "2fd73b82c469ab07bf11fb4aa74a58084236b2c1bf4d64e1622f1a6d4829461a"
+      },
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/strict/2RDK/fpocket/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/box01/preparation.json",
+        "sha256": "3ff6549ca838af1120fbd5b82af404a2a9d2307afc21296777b79b1251f50ae3"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/box01/neighborhood.pdbqt",
+        "sha256": "1b5db0fd909bdaf27e19841dfa9c4bcf1b719f2beb297caf3ed1b05d08c38f60"
+      },
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/condition.json",
+        "sha256": "4ccdf38d4a25dead8c62e8aec0909cee7c24b62b8b1a43933202fac43be1d4fa"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/2RDK/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/2RDK/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/2RDK/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "2RDK",
+      "condition_id": "strict/2RDK/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "completed_no_candidates",
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/strict/2RDK/p2rank/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/2RDK/p2rank/prepared/condition.json",
+        "sha256": "aa7548dc85043e2530c6e99a2ad54dd2d3f09aac6577cab71305b2a158f22b4a"
+      },
+      "status": "predictor_unavailable",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/2RDK/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/2RDK/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/2RDK/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          55.65547826086958,
+          16.803478260869564,
+          16.515260869565214
+        ],
+        "size": [
+          26,
+          26,
+          26
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/strict/2RDK/oracle/prepared/box01/ligand_atom_map.json",
+        "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+      },
+      "case_id": "2RDK",
+      "condition_id": "strict/2RDK/oracle/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/report.json",
+        "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/ligand.sdf",
+        "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/strict/2RDK/oracle/prepared/box01/ligand.pdbqt",
+        "sha256": "4e0a004aed71bb812001f8573fa95bdd25534662f7aa154408d3b975c1fb94fe"
+      },
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/strict/2RDK/oracle/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/strict/2RDK/oracle/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/strict/2RDK/oracle/prepared/box01/preparation.json",
+        "sha256": "1c0f15e8dc3dfa1e93caf8d23b25d80adc8042ce278d95f1c78502b79207093b"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/strict/2RDK/oracle/prepared/box01/neighborhood.pdbqt",
+        "sha256": "1b5db0fd909bdaf27e19841dfa9c4bcf1b719f2beb297caf3ed1b05d08c38f60"
+      },
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/2RDK/oracle/prepared/condition.json",
+        "sha256": "a84f6b733adcc73c6f9eb37b0ce6abeb5dc4b2af95611f91eb27616338b33425"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/2RDK/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/2RDK/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/2RDK/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          -12.681569230769233,
+          -3.250138461538461,
+          11.364646153846154
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/box01/ligand_atom_map.json",
+        "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+      },
+      "case_id": "3ZWE",
+      "condition_id": "strict/3ZWE/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+        "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+        "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/box01/ligand.pdbqt",
+        "sha256": "504bfba5418652a466d6c8efeefe144b67fac06c5bfbeda946318132bdb6dc0f"
+      },
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/strict/3ZWE/fpocket/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/box01/preparation.json",
+        "sha256": "5621255d5aa4dad28423db5988e8e0d8ac086d595c98537468f2d9e493dc60e2"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a3e28e76d387d0bdb410b75458e96fc5c5d097b0252af34f4335e39fde2bc114"
+      },
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/condition.json",
+        "sha256": "0eacb110903ae3da29af7cf5c8cdfb5e5fd333a05267dbeff1d0bfa058435ecc"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/3ZWE/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/3ZWE/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/3ZWE/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          -9.8122,
+          -6.0571,
+          8.7684
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/box01/ligand_atom_map.json",
+        "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+      },
+      "case_id": "3ZWE",
+      "condition_id": "strict/3ZWE/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+        "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+        "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/box01/ligand.pdbqt",
+        "sha256": "3169da4ae39f338dcecda971a28d08d0c26191ae810eabcad6eb5f25a4e59b19"
+      },
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/strict/3ZWE/p2rank/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/box01/preparation.json",
+        "sha256": "dd4d1ac26e65575cf09f95bc356e6d3be7f1d59ce340bb4a876b53ff63f43ddf"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a3e28e76d387d0bdb410b75458e96fc5c5d097b0252af34f4335e39fde2bc114"
+      },
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/condition.json",
+        "sha256": "e7a66fb4383672768900ce74ba16ddb994e2e188664e6d2ee4de73a824024c28"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/3ZWE/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/3ZWE/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/3ZWE/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          -6.133022727272726,
+          10.866090909090909,
+          -1.394840909090909
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/box01/ligand_atom_map.json",
+        "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+      },
+      "case_id": "3ZWE",
+      "condition_id": "strict/3ZWE/oracle/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+        "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+        "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/box01/ligand.pdbqt",
+        "sha256": "bfe76df058831613b20d8da8a76a4946b5fd309180c687890ba6f28a0a935895"
+      },
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/strict/3ZWE/oracle/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/box01/preparation.json",
+        "sha256": "0eb555c6568921a9c5dced3b4c3815a641b50c77c575b077a2f527341618be0f"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a3e28e76d387d0bdb410b75458e96fc5c5d097b0252af34f4335e39fde2bc114"
+      },
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/condition.json",
+        "sha256": "2d46fb4e02113fb4e0c8584acc9a6706410141d6025100167c1cad6570757d47"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/3ZWE/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/3ZWE/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/3ZWE/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "4R9F",
+      "condition_id": "strict/4R9F/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Source receptor parameterization unsupported; MSE preserved without mutation or unvalidated charge/type model",
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/strict/4R9F/fpocket/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/4R9F/fpocket/prepared/condition.json",
+        "sha256": "3da186e1072bc2fb1c115ea41f16cab7fc613cbf3a98567c322c67edd91150b8"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/4R9F/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/4R9F/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/4R9F/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "4R9F",
+      "condition_id": "strict/4R9F/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Source receptor parameterization unsupported; MSE preserved without mutation or unvalidated charge/type model",
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/strict/4R9F/p2rank/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/4R9F/p2rank/prepared/condition.json",
+        "sha256": "aada19afe388943d4e8269b7a08cbeaef7cf3f6ac839467e6cb7516109d9456c"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/4R9F/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/4R9F/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/4R9F/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "4R9F",
+      "condition_id": "strict/4R9F/oracle/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Source receptor parameterization unsupported; MSE preserved without mutation or unvalidated charge/type model",
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/strict/4R9F/oracle/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/4R9F/oracle/prepared/condition.json",
+        "sha256": "46130023890d0c490a8633b96f1d9524aaed200c520f0dfa6a8ef231bc589529"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/4R9F/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/4R9F/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/4R9F/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "strict/5HZA/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:74', 'A:266', 'A:269', 'B:1', 'B:76', 'B:266', 'B:267', 'B:269', 'B:301']",
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/strict/5HZA/fpocket/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/5HZA/fpocket/prepared/condition.json",
+        "sha256": "4d0c310397ddcb4d4a17938f37822460f1892613b8e2b6948dca57306ae76aa0"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/5HZA/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/5HZA/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/5HZA/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "strict/5HZA/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:74', 'A:266', 'A:269', 'B:1', 'B:76', 'B:266', 'B:267', 'B:269', 'B:301']",
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/strict/5HZA/p2rank/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/5HZA/p2rank/prepared/condition.json",
+        "sha256": "08b601e01229fca162021f9ffa3ae15983e3daffcd50c6c6edfb09a55e193ac8"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/5HZA/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/5HZA/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/5HZA/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "strict/5HZA/oracle/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:74', 'A:266', 'A:269', 'B:1', 'B:76', 'B:266', 'B:267', 'B:269', 'B:301']",
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/strict/5HZA/oracle/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/5HZA/oracle/prepared/condition.json",
+        "sha256": "dd15d9b7fd587af0be21166787f76b327bbf1206be6082863e5a8b56e9ba80f0"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/5HZA/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/5HZA/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/5HZA/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "5V6F",
+      "condition_id": "strict/5V6F/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:2', 'A:115']",
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/strict/5V6F/fpocket/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/5V6F/fpocket/prepared/condition.json",
+        "sha256": "ddf8bd1d3ecc720052139ab8e5d45760267b99dbf81d25b45e8cf30674b4f2cd"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/5V6F/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/5V6F/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/5V6F/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "5V6F",
+      "condition_id": "strict/5V6F/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:2', 'A:115']",
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/strict/5V6F/p2rank/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/5V6F/p2rank/prepared/condition.json",
+        "sha256": "96f22cb1d20392c63543a8e453bb09f8e3a37a484db5ff5eed5706e2b3ecfde7"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/5V6F/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/5V6F/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/5V6F/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "5V6F",
+      "condition_id": "strict/5V6F/oracle/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:2', 'A:115']",
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/strict/5V6F/oracle/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/5V6F/oracle/prepared/condition.json",
+        "sha256": "b6b89cac19f110fc74ab4be7b290df019d4469cd51018dcb73a70a67aff7b42e"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/5V6F/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/5V6F/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/5V6F/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "8I5U",
+      "condition_id": "strict/8I5U/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:17', 'A:20', 'A:416']",
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/strict/8I5U/fpocket/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/8I5U/fpocket/prepared/condition.json",
+        "sha256": "fe99ceec10cc508015f6db2bc6d3d91706d37858cd5c022b33fb59982689c1df"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/8I5U/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/8I5U/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/8I5U/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "8I5U",
+      "condition_id": "strict/8I5U/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:17', 'A:20', 'A:416']",
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/strict/8I5U/p2rank/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/8I5U/p2rank/prepared/condition.json",
+        "sha256": "5dad4c604a5eb02b562a922804b7a9f9fe7529ea2381805e422a69f68048b139"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/8I5U/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/8I5U/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/8I5U/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "8I5U",
+      "condition_id": "strict/8I5U/oracle/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Meeko ignored receptor residues: ['A:17', 'A:20', 'A:416']",
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/strict/8I5U/oracle/vina/box01/runs.json",
+      "receptor_profile": "strict",
+      "source_condition": {
+        "path": "results/structural_pose_v3/strict/8I5U/oracle/prepared/condition.json",
+        "sha256": "68eebaaa1660460fcd644e08847741bd8f7c22298bd2abe115443b0ede38c8ca"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/strict/8I5U/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/strict/8I5U/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/strict/8I5U/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          40.89475862068964,
+          -7.419241379310344,
+          15.364965517241377
+        ],
+        "size": [
+          26,
+          26,
+          26
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/box01/ligand_atom_map.json",
+        "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+      },
+      "case_id": "2RDK",
+      "condition_id": "repair/2RDK/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/report.json",
+        "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/ligand.sdf",
+        "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/box01/ligand.pdbqt",
+        "sha256": "2fd73b82c469ab07bf11fb4aa74a58084236b2c1bf4d64e1622f1a6d4829461a"
+      },
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/repair/2RDK/fpocket/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/box01/preparation.json",
+        "sha256": "f8823362b1390d282ae438f59363d1dae994a5d9382ca06bff2843a2c219e93c"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/box01/neighborhood.pdbqt",
+        "sha256": "1b5db0fd909bdaf27e19841dfa9c4bcf1b719f2beb297caf3ed1b05d08c38f60"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/condition.json",
+        "sha256": "45d428a005201a82c8ceb7c89192e0661e53757270eb1e98a3c44540e0ed676e"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/2RDK/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/2RDK/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/2RDK/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "2RDK",
+      "condition_id": "repair/2RDK/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "completed_no_candidates",
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/repair/2RDK/p2rank/vina/box01/runs.json",
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/2RDK/p2rank/prepared/condition.json",
+        "sha256": "471207ff2af767046943bbd5d9ed8b2ac39a46c52a75029e2f471a440d8b495a"
+      },
+      "status": "predictor_unavailable",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/2RDK/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/2RDK/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/2RDK/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          55.65547826086958,
+          16.803478260869564,
+          16.515260869565214
+        ],
+        "size": [
+          26,
+          26,
+          26
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/2RDK/oracle/prepared/box01/ligand_atom_map.json",
+        "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+      },
+      "case_id": "2RDK",
+      "condition_id": "repair/2RDK/oracle/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/report.json",
+        "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/ligand.sdf",
+        "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/2RDK/oracle/prepared/box01/ligand.pdbqt",
+        "sha256": "4e0a004aed71bb812001f8573fa95bdd25534662f7aa154408d3b975c1fb94fe"
+      },
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/repair/2RDK/oracle/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/2RDK/oracle/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/2RDK/oracle/prepared/box01/preparation.json",
+        "sha256": "ba64dc658e7a10db55a9f38fd7ccfc458f767ae65867b155ac18ad6dfe971bde"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/2RDK/oracle/prepared/box01/neighborhood.pdbqt",
+        "sha256": "1b5db0fd909bdaf27e19841dfa9c4bcf1b719f2beb297caf3ed1b05d08c38f60"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/2RDK/oracle/prepared/condition.json",
+        "sha256": "7b70ae3ca84d4ea035cbb68e9e0340ea08fc025936b30e749c40c2255fe706a7"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/2RDK/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/2RDK/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/2RDK/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          -12.681569230769233,
+          -3.250138461538461,
+          11.364646153846154
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/box01/ligand_atom_map.json",
+        "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+      },
+      "case_id": "3ZWE",
+      "condition_id": "repair/3ZWE/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+        "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+        "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/box01/ligand.pdbqt",
+        "sha256": "504bfba5418652a466d6c8efeefe144b67fac06c5bfbeda946318132bdb6dc0f"
+      },
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/repair/3ZWE/fpocket/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/box01/preparation.json",
+        "sha256": "2fe2990ae2df7e8af3d1a1f2f4e01b1b6190ac5ed7e699773f0f089c4f16cd75"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a3e28e76d387d0bdb410b75458e96fc5c5d097b0252af34f4335e39fde2bc114"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/condition.json",
+        "sha256": "cb54945068a5189fd24dc41bdba9497e7fac8a74211b74f7e14a21515466fafe"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/3ZWE/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/3ZWE/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/3ZWE/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          -9.8122,
+          -6.0571,
+          8.7684
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/box01/ligand_atom_map.json",
+        "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+      },
+      "case_id": "3ZWE",
+      "condition_id": "repair/3ZWE/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+        "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+        "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/box01/ligand.pdbqt",
+        "sha256": "3169da4ae39f338dcecda971a28d08d0c26191ae810eabcad6eb5f25a4e59b19"
+      },
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/repair/3ZWE/p2rank/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/box01/preparation.json",
+        "sha256": "a0cdada71f40d72fed445e95852d35a9be022ba3982d5704e28fdcc0a57da74b"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a3e28e76d387d0bdb410b75458e96fc5c5d097b0252af34f4335e39fde2bc114"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/condition.json",
+        "sha256": "58c9abda361bb415897a3fb4679b643e4feb1c3c727a0cab1e96c3911e00cdd6"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/3ZWE/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/3ZWE/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/3ZWE/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          -6.133022727272726,
+          10.866090909090909,
+          -1.394840909090909
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/box01/ligand_atom_map.json",
+        "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+      },
+      "case_id": "3ZWE",
+      "condition_id": "repair/3ZWE/oracle/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+        "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+        "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/box01/ligand.pdbqt",
+        "sha256": "bfe76df058831613b20d8da8a76a4946b5fd309180c687890ba6f28a0a935895"
+      },
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/repair/3ZWE/oracle/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/box01/preparation.json",
+        "sha256": "eb076ae6c1ee71d48f34b4422f6b9ddb2f090b3de67f1d6b6d6d91cb6dae1dcb"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a3e28e76d387d0bdb410b75458e96fc5c5d097b0252af34f4335e39fde2bc114"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/condition.json",
+        "sha256": "3310ce91772cf4a4569d45eed0a5f5c1f3d3e4be0b9259803f050e3cb82985eb"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/3ZWE/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/3ZWE/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/3ZWE/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "4R9F",
+      "condition_id": "repair/4R9F/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Source receptor parameterization unsupported; MSE preserved without mutation or unvalidated charge/type model",
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/repair/4R9F/fpocket/vina/box01/runs.json",
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/4R9F/fpocket/prepared/condition.json",
+        "sha256": "01c84c6a2b2fc0d35eecc33f972b3278d38d0c541843ff3d9cdaf7befd4f4f42"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/4R9F/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/4R9F/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/4R9F/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "4R9F",
+      "condition_id": "repair/4R9F/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Source receptor parameterization unsupported; MSE preserved without mutation or unvalidated charge/type model",
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/repair/4R9F/p2rank/vina/box01/runs.json",
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/4R9F/p2rank/prepared/condition.json",
+        "sha256": "d2984feb511de136f3d00525ab16cc7bcd52162619d08e49ff256a82f37af051"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/4R9F/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/4R9F/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/4R9F/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "case_id": "4R9F",
+      "condition_id": "repair/4R9F/oracle/box01",
+      "eligible_workflow_condition": true,
+      "failure_reason": "Source receptor parameterization unsupported; MSE preserved without mutation or unvalidated charge/type model",
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/repair/4R9F/oracle/vina/box01/runs.json",
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/4R9F/oracle/prepared/condition.json",
+        "sha256": "3636435237d1e3241bff41e3a39bc83303f44a5fbe8008547131b1f3a68a26aa"
+      },
+      "status": "preparation_failed",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/4R9F/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/4R9F/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/4R9F/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          1.773171052631579,
+          -9.557776315789477,
+          36.92677631578948
+        ],
+        "size": [
+          28,
+          28,
+          28
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/box01/ligand_atom_map.json",
+        "sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80"
+      },
+      "case_id": "5HZA",
+      "condition_id": "repair/5HZA/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/report.json",
+        "sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/ligand.sdf",
+        "sha256": "d8e532d3cdce5815aacee220c60351e0ed60d9b59f1f7a370627a96fb353afe4"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/box01/ligand.pdbqt",
+        "sha256": "c0dc4d0164d5cf21da141159a49150dc611f4a25d466f0971b51e3f28dd29185"
+      },
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/repair/5HZA/fpocket/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/box01/preparation.json",
+        "sha256": "9f3857e2dbe6a4e88adaf9dd4e594ca1abd6bffe809ab39f4e3159a8b678560e"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a95e60f003bd3ee5103c12d6a0d62421de7556a2a5d667ccc28fc9d96b169796"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/condition.json",
+        "sha256": "94fd0d215c4e0bb92898c583a57a04d5c79af741ad9bf40eb63d711493b3a310"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/5HZA/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/5HZA/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/5HZA/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          -8.8787,
+          9.7149,
+          20.2125
+        ],
+        "size": [
+          28,
+          28,
+          28
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/box01/ligand_atom_map.json",
+        "sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80"
+      },
+      "case_id": "5HZA",
+      "condition_id": "repair/5HZA/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/report.json",
+        "sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/ligand.sdf",
+        "sha256": "d8e532d3cdce5815aacee220c60351e0ed60d9b59f1f7a370627a96fb353afe4"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/box01/ligand.pdbqt",
+        "sha256": "387e9da7d7da24138da215586b5e002760d0f29b47170af2a76ca500b96894cb"
+      },
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/repair/5HZA/p2rank/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/box01/preparation.json",
+        "sha256": "03d74bece0fdbcd91400e42d9eeffd4124f8404e068ebd21d5a2d0f080e90afd"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a95e60f003bd3ee5103c12d6a0d62421de7556a2a5d667ccc28fc9d96b169796"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/condition.json",
+        "sha256": "a524f1228c55cb64bb27d5d00b4f5fd933e4a666a006204e66042e19df97dbfd"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/5HZA/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/5HZA/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/5HZA/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          2.253848484848485,
+          4.938393939393939,
+          43.301
+        ],
+        "size": [
+          28,
+          28,
+          28
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/5HZA/oracle/prepared/box01/ligand_atom_map.json",
+        "sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80"
+      },
+      "case_id": "5HZA",
+      "condition_id": "repair/5HZA/oracle/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/report.json",
+        "sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/ligand.sdf",
+        "sha256": "d8e532d3cdce5815aacee220c60351e0ed60d9b59f1f7a370627a96fb353afe4"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/5HZA/oracle/prepared/box01/ligand.pdbqt",
+        "sha256": "668ff2cdfd5a25e62bfc86363f1eb5907195e07f741c84275778f3c92437d6e3"
+      },
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/repair/5HZA/oracle/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/5HZA/oracle/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/5HZA/oracle/prepared/box01/preparation.json",
+        "sha256": "39c904aa9c3795e9aceeccaecc18aeb28e1de277ad3341c8b482ceb928e9926a"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/5HZA/oracle/prepared/box01/neighborhood.pdbqt",
+        "sha256": "a95e60f003bd3ee5103c12d6a0d62421de7556a2a5d667ccc28fc9d96b169796"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/5HZA/oracle/prepared/condition.json",
+        "sha256": "14d32f4a4f4ee0c5ff14a9627c689e1e1a756522815dbad1dca31bf2a9458e48"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/5HZA/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/5HZA/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/5HZA/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          8.746736842105268,
+          17.90947368421053,
+          -12.976815789473681
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/box01/ligand_atom_map.json",
+        "sha256": "8bf03d3db5742492ed5a0115980fef3f3f99c9f6cf04b44185bd655e82ce9b59"
+      },
+      "case_id": "5V6F",
+      "condition_id": "repair/5V6F/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/report.json",
+        "sha256": "206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/ligand.sdf",
+        "sha256": "3817dc1c936a6c3cba04552fb983f66064bd91154b58af55932c036e38e60852"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/box01/ligand.pdbqt",
+        "sha256": "e9b85c0f7c1fc5893068d6db95102388edcb439e84f5caef0157f6d79f755c5e"
+      },
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/repair/5V6F/fpocket/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/box01/preparation.json",
+        "sha256": "8bb93c45e366f35d8aa5bafd6d9cc96d8de2d7e09c2c1cfc2917ef4f1058588e"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/box01/neighborhood.pdbqt",
+        "sha256": "04484779bdafec5363ca3b5630843add1913b25ed10663f5c8637e09d6a53ea7"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/condition.json",
+        "sha256": "0b4f18063a83e3d7b66c904da2dc9ad2f28e484ae801761566e321ca31211075"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/5V6F/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/5V6F/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/5V6F/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          8.2093,
+          16.3421,
+          -13.0581
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/box01/ligand_atom_map.json",
+        "sha256": "8bf03d3db5742492ed5a0115980fef3f3f99c9f6cf04b44185bd655e82ce9b59"
+      },
+      "case_id": "5V6F",
+      "condition_id": "repair/5V6F/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/report.json",
+        "sha256": "206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/ligand.sdf",
+        "sha256": "3817dc1c936a6c3cba04552fb983f66064bd91154b58af55932c036e38e60852"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/box01/ligand.pdbqt",
+        "sha256": "5dfb80643eebf73bb2e9441588deae8f2cd599d4e2a8b10637b12345f69cb94a"
+      },
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/repair/5V6F/p2rank/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/box01/preparation.json",
+        "sha256": "51ccca5b254de331a089c632c20e2820b8107d204cfec0b666222f7078242dde"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/box01/neighborhood.pdbqt",
+        "sha256": "04484779bdafec5363ca3b5630843add1913b25ed10663f5c8637e09d6a53ea7"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/condition.json",
+        "sha256": "158a8af53eee59f3cad45283bae7420f761d6fa23fb9421cb988c86ed813fe09"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/5V6F/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/5V6F/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/5V6F/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          9.848411764705883,
+          19.31373529411765,
+          -13.87329411764706
+        ],
+        "size": [
+          32,
+          32,
+          32
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/5V6F/oracle/prepared/box01/ligand_atom_map.json",
+        "sha256": "8bf03d3db5742492ed5a0115980fef3f3f99c9f6cf04b44185bd655e82ce9b59"
+      },
+      "case_id": "5V6F",
+      "condition_id": "repair/5V6F/oracle/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/report.json",
+        "sha256": "206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/ligand.sdf",
+        "sha256": "3817dc1c936a6c3cba04552fb983f66064bd91154b58af55932c036e38e60852"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/5V6F/oracle/prepared/box01/ligand.pdbqt",
+        "sha256": "8cf3e54aa3456dd2044323396b2ae5b6f1e55928a96433ac6926bb4d9e91fd10"
+      },
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/repair/5V6F/oracle/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/5V6F/oracle/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/5V6F/oracle/prepared/box01/preparation.json",
+        "sha256": "8eb3fd7c0f709fe3e02c1ed0c43986a807c4965716d828b557ff4e20feebc54f"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/5V6F/oracle/prepared/box01/neighborhood.pdbqt",
+        "sha256": "04484779bdafec5363ca3b5630843add1913b25ed10663f5c8637e09d6a53ea7"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/5V6F/oracle/prepared/condition.json",
+        "sha256": "a220f85c8c742313cbf7f7e6f24abc689ba09e48585ad2f5ceb4b2b773b150b4"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/5V6F/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/5V6F/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/5V6F/oracle/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          73.73246153846155,
+          65.04573076923077,
+          50.960038461538474
+        ],
+        "size": [
+          27,
+          27,
+          27
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/box01/ligand_atom_map.json",
+        "sha256": "7e32dacef987a5049a323b172f06f88b87ace61e44d02211602863daa69ff9b9"
+      },
+      "case_id": "8I5U",
+      "condition_id": "repair/8I5U/fpocket/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/report.json",
+        "sha256": "14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/ligand.sdf",
+        "sha256": "451faa8a6bad34f59524083543b9fef7c5fb4468114fe27efb5273871cb7709a"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/box01/ligand.pdbqt",
+        "sha256": "4128b0ef1be9b167b1edae72f82ae1d9990e7c569a7254d19af5a3cfc022e20a"
+      },
+      "method": "fpocket",
+      "modern_runs": "results/structural_pose_v3/repair/8I5U/fpocket/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/box01/preparation.json",
+        "sha256": "0946b8aae891f2582a85b4491ad65f6dc5ed1d86daefdddcff09dd1ca79966ee"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/box01/neighborhood.pdbqt",
+        "sha256": "785f786e306778fba4417b493e7ae58bbc8623703b8cac33ef09cb55528b57a0"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/condition.json",
+        "sha256": "f017f34eb444bffc36e52ed3d6268054d5e3e4048bec1fe9ab48df506b853886"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/8I5U/fpocket/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/8I5U/fpocket/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/8I5U/fpocket/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          57.4268,
+          69.5625,
+          62.3619
+        ],
+        "size": [
+          27,
+          27,
+          27
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/box01/ligand_atom_map.json",
+        "sha256": "7e32dacef987a5049a323b172f06f88b87ace61e44d02211602863daa69ff9b9"
+      },
+      "case_id": "8I5U",
+      "condition_id": "repair/8I5U/p2rank/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/report.json",
+        "sha256": "14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/ligand.sdf",
+        "sha256": "451faa8a6bad34f59524083543b9fef7c5fb4468114fe27efb5273871cb7709a"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/box01/ligand.pdbqt",
+        "sha256": "6edef93e25889f9354b26d7377c5d744c5b7e65dd30f857fc3411bcf279228c6"
+      },
+      "method": "p2rank",
+      "modern_runs": "results/structural_pose_v3/repair/8I5U/p2rank/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/box01/preparation.json",
+        "sha256": "008cdfbf8f3b1736fcd4b037a1c88bff5b6c84a74fb7823adc71d04b81f3bc56"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/box01/neighborhood.pdbqt",
+        "sha256": "785f786e306778fba4417b493e7ae58bbc8623703b8cac33ef09cb55528b57a0"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/condition.json",
+        "sha256": "1ff500780f3b51f01f531b8f6ee0f506fe59e3a68f396bf6984a49f4f611eca1"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/8I5U/p2rank/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/8I5U/p2rank/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/8I5U/p2rank/vina_carb/box01/s155921"
+      }
+    },
+    {
+      "box": {
+        "center": [
+          57.01117391304349,
+          68.97386956521738,
+          62.1365652173913
+        ],
+        "size": [
+          27,
+          27,
+          27
+        ]
+      },
+      "candidate_class_rank": 1,
+      "candidate_original_rank": 1,
+      "canonical_atom_map": {
+        "path": "results/structural_pose_v3/repair/8I5U/oracle/prepared/box01/ligand_atom_map.json",
+        "sha256": "7e32dacef987a5049a323b172f06f88b87ace61e44d02211602863daa69ff9b9"
+      },
+      "case_id": "8I5U",
+      "condition_id": "repair/8I5U/oracle/box01",
+      "eligible_workflow_condition": true,
+      "initializer_profile_id": "ccd_ideal_pyranose_v3",
+      "initializer_receipt": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/report.json",
+        "sha256": "14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71"
+      },
+      "initializer_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/ligand.sdf",
+        "sha256": "451faa8a6bad34f59524083543b9fef7c5fb4468114fe27efb5273871cb7709a"
+      },
+      "ligand": {
+        "path": "results/structural_pose_v3/repair/8I5U/oracle/prepared/box01/ligand.pdbqt",
+        "sha256": "57b57d0ee3759437065794b29829ca36922becd9173d4e53cda499b745e51274"
+      },
+      "method": "oracle",
+      "modern_runs": "results/structural_pose_v3/repair/8I5U/oracle/vina/box01/runs.json",
+      "modern_vina_prepared_directory": "results/structural_pose_v3/repair/8I5U/oracle/prepared/box01",
+      "preparation": {
+        "path": "results/structural_pose_v3/repair/8I5U/oracle/prepared/box01/preparation.json",
+        "sha256": "b84194422435402a7b96f6395ecd305afec40a0c79739ec1acd298e190eae435"
+      },
+      "receptor": {
+        "path": "results/structural_pose_v3/repair/8I5U/oracle/prepared/box01/neighborhood.pdbqt",
+        "sha256": "785f786e306778fba4417b493e7ae58bbc8623703b8cac33ef09cb55528b57a0"
+      },
+      "receptor_profile": "repair",
+      "source_condition": {
+        "path": "results/structural_pose_v3/repair/8I5U/oracle/prepared/condition.json",
+        "sha256": "79233fc23ba0f7ac54d0c70061034cc2a76bb7e2b68f76826b1cf887e69afb7b"
+      },
+      "status": "prepared",
+      "vina_carb_outputs": {
+        "104729": "results/structural_pose_v3/repair/8I5U/oracle/vina_carb/box01/s104729",
+        "130363": "results/structural_pose_v3/repair/8I5U/oracle/vina_carb/box01/s130363",
+        "155921": "results/structural_pose_v3/repair/8I5U/oracle/vina_carb/box01/s155921"
+      }
+    }
+  ],
+  "docking_or_accuracy_outcomes_consulted": false,
+  "eligible_conditions": 36,
+  "eligible_seed_slots_per_engine": 108,
+  "modern_vina_configuration": {
+    "path": "benchmarks/structural_pose_v3_experiment.json",
+    "sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d"
+  },
+  "prepared_condition_count": 19,
+  "primary_candidate_budget": 1,
+  "schema_version": 1,
+  "secondary_top5_enabled": false,
+  "source_only_index": true,
+  "source_preparation_index": {
+    "path": "results/structural_pose_v3/prepared_conditions.json",
+    "sha256": "3ebe56bcd4b0107fb96d01b1e5a19e6302ac51d29b98e17905c74f34f33963c4"
+  }
+}

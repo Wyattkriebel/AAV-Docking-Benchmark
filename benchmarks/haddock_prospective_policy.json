@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "profile_id": "haddock_v3_glycan_parameterization_v1",
+  "status": "source_only_preparation_gate_before_any_cohort_HADDOCK_docking",
+  "cases": ["2RDK", "3ZWE", "4R9F", "5HZA", "5V6F", "8I5U"],
+  "haddock_version": "2026.10.1",
+  "release_lock_path": "benchmarks/haddock.lock.json",
+  "independent_ligand_receipt": "results/ideal_ring_conformer_feasibility/profile_receipt.json",
+  "independent_ligand_receipt_sha256": "03997f897fbedeba967e5f9fbd17418e57b9a467350ea8b44fb36a272f720a7e",
+  "ligand_source": "Selected v3 independent full-parent SDF only, canonical branch:CCD:atom map. No experimental bound ligand coordinate, receptor contact or docking result is used.",
+  "input_conversion": "Retain every full-parent heavy atom and its existing v3 coordinates, use unchanged CCD residue and heavy-atom names, branch number as CNS residue number and chain B. Omit all input hydrogens so CNS builds hydrogens using its declared residue/link topology. No new embedding, minimization or heavy-atom coordinate fitting.",
+  "actual_parameterization_scope": "Six independent glycan-only topoaa jobs, one CPU sequentially, debug=true and clean=false. No receptor or docking stages in these jobs. Receptor strict/repair topology gates are separate and remain required before prospective paired cohort execution.",
+  "topology_acceptance": {
+    "exact_complete_named_heavy_atom_inventory": true,
+    "exact_complete_heavy_bond_connectivity_including_branch_links": true,
+    "all_heavy_atom_chemical_types_and_masses_present": true,
+    "total_CNS_partial_charge_matches_parent_formal_charge_tolerance_e": 0.000001,
+    "max_named_heavy_coordinate_change_from_input_PDB_A": 0.002,
+    "no_missing_or_rebuilt_heavy_atoms": true,
+    "v3_all_ring_and_named_stereochemistry_gates_pass": true,
+    "fresh_3D_assigned_full_parent_isomeric_graph_exact": true,
+    "hydrogen_autobuild_explicitly_recorded": true,
+    "parameter_file_or_residue_name_presence_alone_is_not_acceptance": true
+  },
+  "no_cohort_docking_authorized_by_this_policy": true,
+  "downstream_information_condition": "Pending root freeze: predicted top1 and oracle box metadata are shared with Vina, but a deterministic protein-only box-to-AIR conversion gives HADDOCK a different spatial restraint representation. It must not be described as exact information equivalence. Native-contact AIRs are forbidden.",
+  "downstream_sampling_proposal": "Three predeclared CNS seeds and released 20-model glycan test sampling; rigidbody plus released clustering/selection and flexref settings. No native reference caprieval or native-interface clustering selections. The exact new cohort configs and box-to-AIR rule require a separate freeze before any pose generation."
+}

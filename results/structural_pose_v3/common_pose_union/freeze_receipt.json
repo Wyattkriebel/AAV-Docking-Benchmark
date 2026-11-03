@@ -1,0 +1,9 @@
+{
+  "configuration_sha256": "11d658e719292e72c8dbb7531cf361411b0134162d8363bfce4605fd9b28fd0e",
+  "frozen_at_UTC": "2026-11-03T17:52:40.427274+00:00",
+  "frozen_before_fixed_pose_scoring": true,
+  "new_fixed_score_or_accuracy_outcomes_consulted": false,
+  "schema_version": 1,
+  "source_methods_remain_frozen": true,
+  "source_scores_exist_but_no_new_fixed_scores_or_accuracy_consulted": true
+}
