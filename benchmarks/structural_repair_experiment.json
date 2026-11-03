@@ -1,0 +1,510 @@
+{
+  "box_rule": "same independently embedded ligand cube ceil(max(24,2R+16)),maximum42A; top1/top5 predicted centers and explicit native oraclecenter",
+  "case_ids": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "code_sha256": {
+    "aav_benchmark/heldout_repair.py": "844023dd0b82ab7655188da660ab800545d29f6e066739642bc11f83239e7e26",
+    "scripts/run_heldout_repair.py": "b10c00aa59e1a77b0e180799b583b0b81bfcb24d046f0fbe47f4bd577204f4be"
+  },
+  "cpu": 2,
+  "energy_range_kcal_mol": 10,
+  "exhaustiveness": 16,
+  "failure_policy": "retain all6 cases and all18methodconditions; no outcome-based source/model selection; repaired results always reported separately from strict primary",
+  "feasibility": {
+    "path": "results/structural_repair/feasibility.json",
+    "sha256": "29b90e180e8928b6af2ae8ce85717fc8a0a973142495cf3f941153fffcf2cbef"
+  },
+  "interaction_cutoff_A": 8.0,
+  "max_new_atom_repeat_displacement_A": 1e-06,
+  "max_observed_heavy_displacement_A": 0.001,
+  "methods": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "min_rmsd_A": 0.5,
+  "model_family_heldout_claim": false,
+  "num_modes": 20,
+  "planned_sidechain_atom_keys": {
+    "2RDK": [],
+    "3ZWE": [],
+    "4R9F": [],
+    "5HZA": [
+      [
+        "A",
+        74,
+        "",
+        "GLU",
+        "CG"
+      ],
+      [
+        "A",
+        74,
+        "",
+        "GLU",
+        "CD"
+      ],
+      [
+        "A",
+        74,
+        "",
+        "GLU",
+        "OE1"
+      ],
+      [
+        "A",
+        74,
+        "",
+        "GLU",
+        "OE2"
+      ],
+      [
+        "A",
+        266,
+        "",
+        "GLU",
+        "CG"
+      ],
+      [
+        "A",
+        266,
+        "",
+        "GLU",
+        "CD"
+      ],
+      [
+        "A",
+        266,
+        "",
+        "GLU",
+        "OE1"
+      ],
+      [
+        "A",
+        266,
+        "",
+        "GLU",
+        "OE2"
+      ],
+      [
+        "A",
+        269,
+        "",
+        "ARG",
+        "CG"
+      ],
+      [
+        "A",
+        269,
+        "",
+        "ARG",
+        "CD"
+      ],
+      [
+        "A",
+        269,
+        "",
+        "ARG",
+        "NE"
+      ],
+      [
+        "A",
+        269,
+        "",
+        "ARG",
+        "CZ"
+      ],
+      [
+        "A",
+        269,
+        "",
+        "ARG",
+        "NH1"
+      ],
+      [
+        "A",
+        269,
+        "",
+        "ARG",
+        "NH2"
+      ],
+      [
+        "B",
+        1,
+        "",
+        "SER",
+        "OG"
+      ],
+      [
+        "B",
+        76,
+        "",
+        "ARG",
+        "CG"
+      ],
+      [
+        "B",
+        76,
+        "",
+        "ARG",
+        "CD"
+      ],
+      [
+        "B",
+        76,
+        "",
+        "ARG",
+        "NE"
+      ],
+      [
+        "B",
+        76,
+        "",
+        "ARG",
+        "CZ"
+      ],
+      [
+        "B",
+        76,
+        "",
+        "ARG",
+        "NH1"
+      ],
+      [
+        "B",
+        76,
+        "",
+        "ARG",
+        "NH2"
+      ],
+      [
+        "B",
+        266,
+        "",
+        "GLU",
+        "CG"
+      ],
+      [
+        "B",
+        266,
+        "",
+        "GLU",
+        "CD"
+      ],
+      [
+        "B",
+        266,
+        "",
+        "GLU",
+        "OE1"
+      ],
+      [
+        "B",
+        266,
+        "",
+        "GLU",
+        "OE2"
+      ],
+      [
+        "B",
+        267,
+        "",
+        "THR",
+        "CG2"
+      ],
+      [
+        "B",
+        267,
+        "",
+        "THR",
+        "OG1"
+      ],
+      [
+        "B",
+        269,
+        "",
+        "ARG",
+        "CG"
+      ],
+      [
+        "B",
+        269,
+        "",
+        "ARG",
+        "CD"
+      ],
+      [
+        "B",
+        269,
+        "",
+        "ARG",
+        "NE"
+      ],
+      [
+        "B",
+        269,
+        "",
+        "ARG",
+        "CZ"
+      ],
+      [
+        "B",
+        269,
+        "",
+        "ARG",
+        "NH1"
+      ],
+      [
+        "B",
+        269,
+        "",
+        "ARG",
+        "NH2"
+      ],
+      [
+        "B",
+        301,
+        "",
+        "ARG",
+        "CG"
+      ],
+      [
+        "B",
+        301,
+        "",
+        "ARG",
+        "CD"
+      ],
+      [
+        "B",
+        301,
+        "",
+        "ARG",
+        "NE"
+      ],
+      [
+        "B",
+        301,
+        "",
+        "ARG",
+        "CZ"
+      ],
+      [
+        "B",
+        301,
+        "",
+        "ARG",
+        "NH1"
+      ],
+      [
+        "B",
+        301,
+        "",
+        "ARG",
+        "NH2"
+      ]
+    ],
+    "5V6F": [
+      [
+        "A",
+        2,
+        "",
+        "MET",
+        "CG"
+      ],
+      [
+        "A",
+        2,
+        "",
+        "MET",
+        "SD"
+      ],
+      [
+        "A",
+        2,
+        "",
+        "MET",
+        "CE"
+      ],
+      [
+        "A",
+        115,
+        "",
+        "GLN",
+        "CG"
+      ],
+      [
+        "A",
+        115,
+        "",
+        "GLN",
+        "CD"
+      ],
+      [
+        "A",
+        115,
+        "",
+        "GLN",
+        "OE1"
+      ],
+      [
+        "A",
+        115,
+        "",
+        "GLN",
+        "NE2"
+      ]
+    ],
+    "8I5U": [
+      [
+        "A",
+        17,
+        "",
+        "LYS",
+        "CG"
+      ],
+      [
+        "A",
+        17,
+        "",
+        "LYS",
+        "CD"
+      ],
+      [
+        "A",
+        17,
+        "",
+        "LYS",
+        "CE"
+      ],
+      [
+        "A",
+        17,
+        "",
+        "LYS",
+        "NZ"
+      ],
+      [
+        "A",
+        20,
+        "",
+        "HIS",
+        "CG"
+      ],
+      [
+        "A",
+        20,
+        "",
+        "HIS",
+        "ND1"
+      ],
+      [
+        "A",
+        20,
+        "",
+        "HIS",
+        "CE1"
+      ],
+      [
+        "A",
+        20,
+        "",
+        "HIS",
+        "NE2"
+      ],
+      [
+        "A",
+        20,
+        "",
+        "HIS",
+        "CD2"
+      ],
+      [
+        "A",
+        416,
+        "",
+        "LYS",
+        "CG"
+      ],
+      [
+        "A",
+        416,
+        "",
+        "LYS",
+        "CD"
+      ],
+      [
+        "A",
+        416,
+        "",
+        "LYS",
+        "CE"
+      ],
+      [
+        "A",
+        416,
+        "",
+        "LYS",
+        "NZ"
+      ]
+    ]
+  },
+  "planned_source_status": {
+    "2RDK": "feasible",
+    "3ZWE": "feasible",
+    "4R9F": "unsupported",
+    "5HZA": "feasible",
+    "5V6F": "feasible",
+    "8I5U": "feasible"
+  },
+  "platform": "Reference",
+  "prediction": {
+    "candidate_merge_distance_A": 4.0,
+    "orbit_dedupe": "only declared assembly operators certified against modeled full protein; otherwise no_orbit_dedupe",
+    "p2rank_seed": 42,
+    "repaired_site_discovery": "not part of this prespecified sensitivity; repaired full protein used only for docking at frozen primary candidate/oracle centers",
+    "scope": "Fixed original primary predictor boxes and candidate ranks, held identical across strict/repaired docking profiles; no new site predictions used to select or tune repairs",
+    "threads": 1,
+    "top_k": 5
+  },
+  "primary_source_preparation": {
+    "path": "results/structural_test/source_preparation.json",
+    "sha256": "2444c9c6bdd953b5cdbd8050b3b7eb525c5e3b95d93e47f4138803c2a436631c"
+  },
+  "profile": "standard_sidechain_completion_sensitivity",
+  "purpose": "Separate sensitivity for source-dependent missing standard sidechains; primary strict inputs/failures preserved",
+  "ranking": "within seed and top1/top5 budget, Vina score then candidate rank then within-box model rank",
+  "reference_scope": "unchanged source-qualified native glycans and fixed canonical scored masks; generated protein atoms never enter reference truth",
+  "repair_policy": {
+    "all_generated_atoms_logged": true,
+    "backbone_and_terminal_atoms": "no additions authorized; unsupported if a backbone atom is absent",
+    "generated_atoms_are_atomic_truth": false,
+    "ligands": "byte-identical independent full-parent CCD conformers from strict source preparation",
+    "missing_loops": "never inserted; source number gaps/disconnected C-N links split only temporary modeling segments and original chains restored",
+    "native_ligand_coordinates_used_for_modeling": false,
+    "nonstandard_residues": "preserve without mutation or unpinned forcefield assumptions;4R9FMSE remains unsupported",
+    "observed_heavy_atoms": "every existing atom identity/element/coordinate retained; original lines reused in final PDB serialization",
+    "scope": "source-only missing heavy atoms of standard protein sidechains in full source biological assemblies",
+    "source_maps": "preserve original author/label/copy map; newly modeled atom records explicitly lack observed source atom IDs"
+  },
+  "repeated_modeling_runs": 2,
+  "schema_version": 1,
+  "secondary_profile_frozen_before_new_outcomes": true,
+  "seed": 20261024,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "threads": 1,
+  "tools_lock": {
+    "path": "benchmarks/heldout_repair_tools.lock.json",
+    "sha256": "687d725141ac4a17c15c2a8314e4141814f9c320c8b9e35b37f11060f068f8d4"
+  }
+}

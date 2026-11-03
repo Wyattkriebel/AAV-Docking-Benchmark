@@ -1,0 +1,19 @@
+{
+  "configuration_sha256": "f249e3e542fa5bb4fb4e8ab00d9f7752cb2b8959bf0303409cd783291da22062",
+  "frozen_at_UTC": "2026-11-03T17:28:49.396151+00:00",
+  "frozen_before_new_docking": true,
+  "helper_sources_sha256": {
+    "aav_benchmark/aav.py": "dbd05bbedaf6b2d9eb4ba8ebdc3b152d178b21af28b43cb4bafb337d17661983",
+    "aav_benchmark/engine.py": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8",
+    "aav_benchmark/heldout_assembly_pose_inputs.py": "81d26344bc3d2bff382f63cea69cb058cea312ff123fb4b4b3ecff12a5090cd9",
+    "aav_benchmark/heldout_assembly_profiles.py": "52e4a61e5dfa5abf3c3c6474d38b2bf110f818dd3889715630d9ec5ff9ec2597",
+    "aav_benchmark/heldout_docking.py": "8cb13873df9272260ab048dd016abf3eb79f4000d874b4faed291562c60fd7e2",
+    "aav_benchmark/heldout_pose_inputs.py": "6203e3bf830dada5acf408747bc46220a07024273ea49fe53340b0de3060b067",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f"
+  },
+  "input_adapter_sha256": "81d26344bc3d2bff382f63cea69cb058cea312ff123fb4b4b3ecff12a5090cd9",
+  "new_assembly_control_pose_outcomes_consulted": false,
+  "new_site_accuracy_consulted": false,
+  "schema_version": 1,
+  "status": "frozen_before_control_pose_execution"
+}

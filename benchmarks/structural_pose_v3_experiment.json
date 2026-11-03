@@ -1,0 +1,643 @@
+{
+  "before_pose_amendment_reason": "Read-only chemical geometry diagnostics identified non-CCD-like and opposite-chair initial rings before any new-case docking. Working protein-only site predictions do not depend on ligand geometry.",
+  "box_rule": {
+    "center": "original V2 predictor representative; common explicit full-parent native centroid only for oracle",
+    "margin_A": 8,
+    "maximum_side_A": 42,
+    "minimum_side_A": 24,
+    "side_A": "ceil(max(24,2R+16)),R from actual serialized independent CCD-ideal PDBQT heavy centroid"
+  },
+  "budget_interpretation": "Execute only original top1 distinct-class predicted box or one common oracle box per method/profile; retain original top5 site candidates for site-only reporting. Top1/top5/best returned POSE ranks are evaluated within the single executed box.",
+  "candidate_budgets": [
+    1
+  ],
+  "cases": [
+    {
+      "assembly_id": "1",
+      "box_size": [
+        26,
+        26,
+        26
+      ],
+      "canonical_atom_map_sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583",
+      "case_id": "2RDK",
+      "ccd_sources": {
+        "MAN": {
+          "archive_bytes": 2675,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/MAN.ccd.cif.gz",
+          "archive_sha256": "a0ef63b462a91ed0e44b4e1b73ec732a7bf80f059dad72de7497ef86c1a63526",
+          "bytes": 9785,
+          "filename": "MAN.ccd.cif",
+          "sha256": "79bc85094a794dfccdb827470fed9124e2dcaac2266d366d120d242d3d7aa8d5",
+          "url": "https://files.rcsb.org/ligands/download/MAN.cif"
+        }
+      },
+      "coordinate_source": {
+        "archive_bytes": 100395,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes",
+        "archive_path": "data/archive/heldout_candidates/2RDK.cif.gz",
+        "archive_sha256": "21a962bf3ca8f576b5546be9ea25c7df09472883144caf4f83b1ba181c9f74ee",
+        "bytes": 407391,
+        "filename": "2RDK.cif",
+        "sha256": "82b220a370b81533cb358d942f41ce20f57520830ca2103e1165d99357ace360",
+        "url": "https://files.rcsb.org/download/2RDK.cif"
+      },
+      "full_parent_heavy_atoms": 23,
+      "independent_ligand_sha256": "2c99fde1202f9db71e300e0f0d44fe681b9b1cbe82fe292a437895c60eede02b",
+      "mechanical_receptor_parameterization_status": "prepared",
+      "qualification": "full_ligand",
+      "qualified_assembly_copies": 1,
+      "scored_heavy_atoms": 23,
+      "source_protein_sha256": "e216a0a0a2b183f89972bccc7aae4a5b075c1dfe8b06e7bdf7d76e20fc7a911a",
+      "state": "holo"
+    },
+    {
+      "assembly_id": "1",
+      "box_size": [
+        32,
+        32,
+        32
+      ],
+      "canonical_atom_map_sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9",
+      "case_id": "3ZWE",
+      "ccd_sources": {
+        "BGC": {
+          "archive_bytes": 2707,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/BGC.ccd.cif.gz",
+          "archive_sha256": "710d4054abadc80ee0221a76f5e02ee7de949a8c48f9c71621f8f79b352d6a1e",
+          "bytes": 9789,
+          "filename": "BGC.ccd.cif",
+          "sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+          "url": "https://files.rcsb.org/ligands/download/BGC.cif"
+        },
+        "FUC": {
+          "archive_bytes": 2497,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/FUC.ccd.cif.gz",
+          "archive_sha256": "3f86139928f928c978af53742a594f713fc8fb2897590adc500ab0f19ded37f2",
+          "bytes": 8787,
+          "filename": "FUC.ccd.cif",
+          "sha256": "b05b59fd2eae453a012a24ab319c5a7cf0dec6620fc67f58b46be01a77aacc83",
+          "url": "https://files.rcsb.org/ligands/download/FUC.cif"
+        },
+        "GAL": {
+          "archive_bytes": 2599,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/GAL.ccd.cif.gz",
+          "archive_sha256": "b1c504912f7a44756b7bf20bcdbad98aebe3a767a30aff7030578d04e57c2d5d",
+          "bytes": 9091,
+          "filename": "GAL.ccd.cif",
+          "sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+          "url": "https://files.rcsb.org/ligands/download/GAL.cif"
+        },
+        "GLA": {
+          "archive_bytes": 2570,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/GLA.ccd.cif.gz",
+          "archive_sha256": "a9538086f659090fe2bb9b3af024effac30d4ea4f8ed5fcb111595959badc7d3",
+          "bytes": 8989,
+          "filename": "GLA.ccd.cif",
+          "sha256": "b25f41e8fac93225b955151c538d0996ea0a7032077d2dc5465083ee4d54ba96",
+          "url": "https://files.rcsb.org/ligands/download/GLA.cif"
+        }
+      },
+      "coordinate_source": {
+        "archive_bytes": 73164,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes",
+        "archive_path": "data/archive/heldout_candidates/3ZWE.cif.gz",
+        "archive_sha256": "2846fbc398039d4f708322000c2948d9d1db41acc7c21ad6e34f26b9fbe2a505",
+        "bytes": 294896,
+        "filename": "3ZWE.cif",
+        "sha256": "2fd801c2c1fca6871d0ad142364cc0ee193f89eac511d10da270374eed7f247e",
+        "url": "https://files.rcsb.org/download/3ZWE.cif"
+      },
+      "full_parent_heavy_atoms": 44,
+      "independent_ligand_sha256": "b51ccdbca558ed043aa5b8762cae434145eca17d2d4d7a9ccc730c59681932e8",
+      "mechanical_receptor_parameterization_status": "prepared",
+      "qualification": "full_ligand",
+      "qualified_assembly_copies": 1,
+      "scored_heavy_atoms": 44,
+      "source_protein_sha256": "ee2ce50a5baab25888dc21908b700991f6af174860460f1a967bef8e3792f309",
+      "state": "holo"
+    },
+    {
+      "assembly_id": "1",
+      "box_size": [
+        27,
+        27,
+        27
+      ],
+      "canonical_atom_map_sha256": "8fe6dfaeedc809f7ba59d430c47d141bfcdf22a4773c0ce3879db6aa8740cbdb",
+      "case_id": "4R9F",
+      "ccd_sources": {
+        "BMA": {
+          "archive_bytes": 2521,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/BMA.ccd.cif.gz",
+          "archive_sha256": "299d6ab54faec32f15b1947b0ba0ae390c2facbae1b595080ab18956c07983a9",
+          "bytes": 9034,
+          "filename": "BMA.ccd.cif",
+          "sha256": "3663ac87ab4fbdab73c7c80915c1e0d15cac7e61f3f43f14df9eb3d5261974b8",
+          "url": "https://files.rcsb.org/ligands/download/BMA.cif"
+        }
+      },
+      "coordinate_source": {
+        "archive_bytes": 181549,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes",
+        "archive_path": "data/archive/heldout_candidates/4R9F.cif.gz",
+        "archive_sha256": "1e6322f6e5eb9c5c60974b0e8cc0dc5427a6a015af31128d4c82377960711fd5",
+        "bytes": 719193,
+        "filename": "4R9F.cif",
+        "sha256": "ebba81636e0100d2d69a875a1adbef2e7c243367755121e6e240f078396a8252",
+        "url": "https://files.rcsb.org/download/4R9F.cif"
+      },
+      "full_parent_heavy_atoms": 23,
+      "independent_ligand_sha256": "be2bc98a153b8c068d885248f91c9468e77d8c2a583fd914866e9f5b3b8c83f8",
+      "mechanical_receptor_parameterization_status": "unsupported",
+      "qualification": "modeled_core",
+      "qualified_assembly_copies": 1,
+      "scored_heavy_atoms": 11,
+      "source_protein_sha256": "72e372d8a1cdbe00deb9ec6121abdfb1e41614792644c9712b6f1f3f5f46002b",
+      "state": "holo"
+    },
+    {
+      "assembly_id": "1",
+      "box_size": [
+        28,
+        28,
+        28
+      ],
+      "canonical_atom_map_sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80",
+      "case_id": "5HZA",
+      "ccd_sources": {
+        "BGC": {
+          "archive_bytes": 2707,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/BGC.ccd.cif.gz",
+          "archive_sha256": "710d4054abadc80ee0221a76f5e02ee7de949a8c48f9c71621f8f79b352d6a1e",
+          "bytes": 9789,
+          "filename": "BGC.ccd.cif",
+          "sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+          "url": "https://files.rcsb.org/ligands/download/BGC.cif"
+        },
+        "FUC": {
+          "archive_bytes": 2497,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/FUC.ccd.cif.gz",
+          "archive_sha256": "3f86139928f928c978af53742a594f713fc8fb2897590adc500ab0f19ded37f2",
+          "bytes": 8787,
+          "filename": "FUC.ccd.cif",
+          "sha256": "b05b59fd2eae453a012a24ab319c5a7cf0dec6620fc67f58b46be01a77aacc83",
+          "url": "https://files.rcsb.org/ligands/download/FUC.cif"
+        },
+        "GAL": {
+          "archive_bytes": 2599,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/GAL.ccd.cif.gz",
+          "archive_sha256": "b1c504912f7a44756b7bf20bcdbad98aebe3a767a30aff7030578d04e57c2d5d",
+          "bytes": 9091,
+          "filename": "GAL.ccd.cif",
+          "sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+          "url": "https://files.rcsb.org/ligands/download/GAL.cif"
+        }
+      },
+      "coordinate_source": {
+        "archive_bytes": 159730,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes",
+        "archive_path": "data/archive/heldout_candidates/5HZA.cif.gz",
+        "archive_sha256": "23316aa44a2f6ab3d8bf1cc4d6686c97a2e0140082427f7638d205cfd617364b",
+        "bytes": 654330,
+        "filename": "5HZA.cif",
+        "sha256": "5541da62ac96c3b0b03a46ca9336710cbfcd172c65af67e5022becc6e41545f3",
+        "url": "https://files.rcsb.org/download/5HZA.cif"
+      },
+      "full_parent_heavy_atoms": 33,
+      "independent_ligand_sha256": "547578b600e4630c8f40d64e12541912870f69e7f46d463454ededcf55415360",
+      "mechanical_receptor_parameterization_status": "preparation_failed",
+      "qualification": "full_ligand",
+      "qualified_assembly_copies": 1,
+      "scored_heavy_atoms": 33,
+      "source_protein_sha256": "0e71395b29f6d9b30524921119b49d3ad7e90df0d945ac0bf591d97e32b27acf",
+      "state": "holo"
+    },
+    {
+      "assembly_id": "1",
+      "box_size": [
+        32,
+        32,
+        32
+      ],
+      "canonical_atom_map_sha256": "8bf03d3db5742492ed5a0115980fef3f3f99c9f6cf04b44185bd655e82ce9b59",
+      "case_id": "5V6F",
+      "ccd_sources": {
+        "BMA": {
+          "archive_bytes": 2521,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/BMA.ccd.cif.gz",
+          "archive_sha256": "299d6ab54faec32f15b1947b0ba0ae390c2facbae1b595080ab18956c07983a9",
+          "bytes": 9034,
+          "filename": "BMA.ccd.cif",
+          "sha256": "3663ac87ab4fbdab73c7c80915c1e0d15cac7e61f3f43f14df9eb3d5261974b8",
+          "url": "https://files.rcsb.org/ligands/download/BMA.cif"
+        },
+        "MAN": {
+          "archive_bytes": 2675,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/MAN.ccd.cif.gz",
+          "archive_sha256": "a0ef63b462a91ed0e44b4e1b73ec732a7bf80f059dad72de7497ef86c1a63526",
+          "bytes": 9785,
+          "filename": "MAN.ccd.cif",
+          "sha256": "79bc85094a794dfccdb827470fed9124e2dcaac2266d366d120d242d3d7aa8d5",
+          "url": "https://files.rcsb.org/ligands/download/MAN.cif"
+        }
+      },
+      "coordinate_source": {
+        "archive_bytes": 73621,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes",
+        "archive_path": "data/archive/heldout_candidates/5V6F.cif.gz",
+        "archive_sha256": "737bd4a2f86271344e58186a89508fe00af5459238cc7fccc62bb1c9ca6d3c2d",
+        "bytes": 303460,
+        "filename": "5V6F.cif",
+        "sha256": "e82cd04d94090941a7933833f1ff333830a426804f72f0822ed46117df610f81",
+        "url": "https://files.rcsb.org/download/5V6F.cif"
+      },
+      "full_parent_heavy_atoms": 34,
+      "independent_ligand_sha256": "c50b972dff01e53db358a9d30c203d75fac9f7b2ed710ea3a28df216b95dc3da",
+      "mechanical_receptor_parameterization_status": "preparation_failed",
+      "qualification": "full_ligand",
+      "qualified_assembly_copies": 1,
+      "scored_heavy_atoms": 34,
+      "source_protein_sha256": "8e25258fdcd03c277aba7f3f2cab67b0e750b2ff881679015a49e32cd955ce5d",
+      "state": "holo"
+    },
+    {
+      "assembly_id": "1",
+      "box_size": [
+        27,
+        27,
+        27
+      ],
+      "canonical_atom_map_sha256": "7e32dacef987a5049a323b172f06f88b87ace61e44d02211602863daa69ff9b9",
+      "case_id": "8I5U",
+      "ccd_sources": {
+        "BGC": {
+          "archive_bytes": 2707,
+          "archive_encoding": "gzip mtime=0; decompress to source bytes",
+          "archive_path": "data/archive/heldout_candidates/BGC.ccd.cif.gz",
+          "archive_sha256": "710d4054abadc80ee0221a76f5e02ee7de949a8c48f9c71621f8f79b352d6a1e",
+          "bytes": 9789,
+          "filename": "BGC.ccd.cif",
+          "sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+          "url": "https://files.rcsb.org/ligands/download/BGC.cif"
+        }
+      },
+      "coordinate_source": {
+        "archive_bytes": 195156,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes",
+        "archive_path": "data/archive/heldout_candidates/8I5U.cif.gz",
+        "archive_sha256": "3ed356acf89603dc5a3c08437c838e680480f7622352936a30265751488fafa9",
+        "bytes": 783783,
+        "filename": "8I5U.cif",
+        "sha256": "97da295b3e5512810bd44b4c369dc96984abf8b881d15296fb88472fb5c261bb",
+        "url": "https://files.rcsb.org/download/8I5U.cif"
+      },
+      "full_parent_heavy_atoms": 23,
+      "independent_ligand_sha256": "4f5a61058f9fd723832678ad18ab649e23717b54729b75d950796a289528ae58",
+      "mechanical_receptor_parameterization_status": "preparation_failed",
+      "qualification": "full_ligand",
+      "qualified_assembly_copies": 1,
+      "scored_heavy_atoms": 23,
+      "source_protein_sha256": "8b1b75ba675c112228f390d5d271a9c5211c71ba25f08ae18fa6ee91e42ae4ea",
+      "state": "holo"
+    }
+  ],
+  "cohort_role": "workflow-untouched structural cases; model-family-unseen status not certified",
+  "cpu": 2,
+  "energy_range_kcal_mol": 10,
+  "execution_scope": "Prospective full-parent pose docking with matched one-site budgets for modern Vina and original Vina-Carb across strict/repair receptor profiles; no repaired site prediction",
+  "exhaustiveness": 16,
+  "failure_policy": "All6cases and all18methodconditions in each receptor profile retained; strict4unsupported/incomplete cases stayfailed where source chemical prep cannot pass; repairMSEunsupported retained. No source, candidate, score mask or case replacement based on performance",
+  "family_audit": {
+    "path": "benchmarks/family_overlap_audit.json",
+    "sha256": "1677bbd5b935632bb3a7b9eb845eea4c7e8e2f35acb8ca4e08413ac559caaea6"
+  },
+  "fixed_structural_test_denominator": 6,
+  "freeze_date": "2026-11-03",
+  "frozen_before_new_docking": true,
+  "frozen_before_new_predictions": true,
+  "initializer_policy": {
+    "path": "benchmarks/ideal_ring_conformer_policy.json",
+    "sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4"
+  },
+  "input_adapter": {
+    "path": "aav_benchmark/heldout_pose_inputs.py",
+    "sha256": "6203e3bf830dada5acf408747bc46220a07024273ea49fe53340b0de3060b067"
+  },
+  "inventory": {
+    "path": "benchmarks/heldout_candidate_inventory.json",
+    "sha256": "11c185ea93bf637ddc4fe4818aa4c2114a87f83e34d7d40c2cd01759f9280458"
+  },
+  "ligand": {
+    "export": "Meeko PDBQT with frozen canonical Lxxx names restored; exact full graph/charges/fresh3Dstereo/rounded CCDgeometry validated",
+    "generation": "source-only ETKDG with pinned CCD ideal intraring bounds/dihedrals and predeclared constrained optimization/selection; no native 3D; literal selected SDF copied without extra embedding/minimization during export",
+    "initializer_profile": "ccd_ideal_pyranose_v3",
+    "native_coordinates_used_for_embedding": false,
+    "policy": {
+      "path": "benchmarks/ideal_ring_conformer_policy.json",
+      "sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4"
+    },
+    "source_only_policy": {
+      "cases": [
+        "1GNY",
+        "2RDK",
+        "3ZWE",
+        "4R9F",
+        "5HZA",
+        "5V6F",
+        "8I5U"
+      ],
+      "chemical_inputs": "Full parent heavy graph from pinned CCD atom/bond/formal-charge/stereo definitions and declared chemical branch links. Only pdbx_model_Cartn_{x,y,z}_ideal fields may supply monomer chemical geometry. No experimental/native ligand coordinates, ligand pose, receptor or docking box is read.",
+      "constraints": {
+        "absolute_position_restraints": false,
+        "distance_force_constant": 1000.0,
+        "embedding": "Ordinary independent ETKDGv3 without customdistancebounds or coordMap. Only subsequent within-ring MMFF pair distances and absolute signedtorsions use CCD chemicalideal geometry.",
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.0001,
+        "max_mmff_iterations": 2000,
+        "mmff_variant": "MMFF94",
+        "ring_pair_bound_halfwidth_A": 0.025,
+        "ring_torsion_halfwidth_deg": 5.0,
+        "torsion_force_constant": 100.0
+      },
+      "coordinates_after_selection": "Retain the constrained optimized conformer. No subsequent unconstrained MMFF relaxation is part of this profile. Glycosidic orientations remain independently sampled and are never fitted to native geometry.",
+      "date": "2026-11-03",
+      "development_amendment": "Both v1 and v2 complete20-slot failures/source snapshots preserved. Tight customDG bounds caused initial-coordinate/finalchiral-bounds rejection beforeMMFF. Version3 uses ordinaryETKDG followed by sameintraringMMFFconstraints, notnative fitting; fixes internalDGsolvertrialceiling at1000 per20candidate slots and strengthens graph/nondegeneracyevidence. No docking/accuracyoutcomes were used.",
+      "interpretation": "A constrained independent chemical-ideal chair initialization sensitivity. It is not a free-energy ensemble, a claim all bound sugars adopt the CCD chair, or permission to change a frozen primary preparation or run a new docking study before a separate root freeze.",
+      "no_docking_or_atomic_accuracy_outcomes_used": true,
+      "old_profiles_results_and_source_qualification_remain_unchanged": true,
+      "profile_id": "ccd_ideal_pyranose_v3",
+      "pyranose_ring_order": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "O5"
+      ],
+      "sampling": {
+        "adaptive_retry_or_post_output_budget_increase": false,
+        "algorithm": "ETKDGv3",
+        "budget_definition": "Exactly20candidate conformer slots. Each ETKDG solver call has a fixed1000 internal embedding-trial ceiling; this is not an adaptive candidate-pool enlargement. Allslot failures retained.",
+        "candidate_slots": 20,
+        "coordinate_map": false,
+        "enforce_chirality": true,
+        "max_embedding_iterations_per_slot": 1000,
+        "num_threads": 1,
+        "seed_base": 20261024,
+        "seed_rule": "seed_base + zero-based candidate slot",
+        "use_random_coordinates": false,
+        "use_small_ring_torsions": true
+      },
+      "schema_version": 1,
+      "selection": "Evaluate every fixed candidate slot. Among converged candidates passing all gates, choose the smallest unconstrained MMFF94 energy evaluated at the constrained geometry; tie by slot index. Never select by experimental/native similarity, docking, or a desired outcome. Record every failed slot and reason; fail if no valid candidate.",
+      "source_math": "aav_benchmark/ring_geometry.py: original Cremer-Pople equations, fixed named cyclic order. Full named pucker-vector comparison is required; nearest-chair-pole distance alone cannot distinguish opposite chairs.",
+      "status": "predeclared_source_only_feasibility_profile_not_a_docking_study",
+      "stereo_assignment": "Assign each independent CCD monomer's tetrahedral tags from its chemical-ideal geometry, transfer to full connected graph with explicit leaving-atom substitution and neighbor permutation parity. Discard all monomer conformers before independent embedding. Named signed volumes and full-parent isomeric graph must survive.",
+      "supported_ring_scope": "Exactly one complete six-membered pyranose ring per component; other ring sizes or ambiguous ring identity fail explicitly. No extension to septanoses or unusual enzyme-bound puckers is inferred.",
+      "validity_gates": {
+        "full_parent_stereo_and_heavy_graph_exact": true,
+        "max_Q_difference_to_CCD_A": 0.1,
+        "max_full_named_pucker_vector_angle_to_CCD_deg": 15.0,
+        "max_named_theta_difference_to_CCD_deg": 15.0,
+        "max_nearest_chair_pole_distance_deg": 20.0,
+        "max_ring_angle_difference_to_CCD_deg": 5.0,
+        "max_ring_bond_difference_to_CCD_A": 0.04,
+        "max_ring_pair_distance_difference_to_CCD_A": 0.08,
+        "max_ring_torsion_difference_to_CCD_deg": 10.0,
+        "min_abs_named_stereocenter_volume_A3": 0.05,
+        "min_named_stereocenter_volume_fraction_of_CCD": 0.2,
+        "minimum_nonbonded_heavy_separation_vdw_sum_fraction": 0.65,
+        "mmff_convergence_required": true,
+        "nonbonded_graph_distance_exclusion": 2,
+        "ring_angle_absolute_range_deg": [
+          95.0,
+          125.0
+        ],
+        "ring_bond_absolute_range_A": [
+          1.3,
+          1.65
+        ]
+      }
+    }
+  },
+  "ligand_policy": "One fixed source-only independently generated CCD-ideal full-parent conformer per case; no native 3D coordinates, no extra re-embedding/minimization during Meeko export; full chemical graph/formalcharge/stereo and canonical Lxxx key bijection preserved",
+  "locks": {
+    "benchmarks/p2rank.lock.json": "37d1206c9875bf090eb4115c9845acf0188bcb216e929735f5cddf8d96383160",
+    "benchmarks/site_methods.lock.json": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+    "benchmarks/vina.lock.json": "601b6154a65da3c764ae289866b435263f332a9a2a09cd1d711053e4e1c3322e"
+  },
+  "methods": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "min_rmsd_A": 0.5,
+  "model_family_heldout_claim": false,
+  "new_case_pose_or_site_accuracy_consulted": false,
+  "num_modes": 20,
+  "original_prediction_root": "results/structural_test_v2",
+  "paired_design": "Identical original full-assembly V2 predictor candidate centers/ranks, independent CCD-ideal ligand bytes, box dimensions and Vina settings across strict/repair; only declared protein preparation differs",
+  "pose_endpoints": {
+    "alignment": [
+      "global_receptor_backbone",
+      "local_native_interface_backbone_evaluation_only"
+    ],
+    "best_returned": true,
+    "no_independent_ligand_fit": true,
+    "primary_RMSD_A": 2.0,
+    "rank_budgets": [
+      1,
+      5
+    ],
+    "reference_mask": "same canonical scored atom mask for every qualified same-chemical assembly copy; separate full_ligand and modeled_core strata",
+    "sensitivity_RMSD_A": [
+      1.0,
+      3.0
+    ]
+  },
+  "pose_gate": "Do not compute atomic or site accuracy until all planned strict+repair execution records are terminal; failed chemistry/predictor/preparation/execution remains workflow failure",
+  "pose_rank_budgets": [
+    1,
+    5
+  ],
+  "prediction": {
+    "candidate_merge_distance_A": 4.0,
+    "fpocket_timeout_seconds": 3600,
+    "orbit_deduplication": "only rigid declared assembly operators certified by bijective whole-protein atom correspondence; otherwise no_orbit_dedupe",
+    "p2rank_seed": 42,
+    "p2rank_threads": 1,
+    "p2rank_timeout_seconds": 600,
+    "scope": "whole source biological-assembly dry protein; all deposited protein modifications retained; all waters, glycans and metals removed uniformly",
+    "top_k": 5
+  },
+  "prediction_configuration": {
+    "path": "benchmarks/structural_site_v2_experiment.json",
+    "sha256": "b03934e5d243bf5331c0517fad16e3bf35bcb061abd24fcbdaf7026ddd039e23"
+  },
+  "prediction_freeze": {
+    "path": "results/structural_test_v2/freeze_receipt.json",
+    "sha256": "295f8eaf98d95e4bc0062034acb069de3225d0b207839af6d249f049116c53b2"
+  },
+  "preparation_sensitivity_planned_before_test_outputs": {
+    "primary": "strict unrepaired workflow all6 retain eligible failures",
+    "secondary": "separately frozen deterministic missing-standard-sidechain repair, observedatomsfixed, no missingloop insertion orMSEconversion; sameoriginalblindcandidateboxes; generatedcoordinatesnotexperimentaltruth"
+  },
+  "primary_candidate_budget": 1,
+  "primary_case_ids": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "prior_configuration": {
+    "path": "benchmarks/structural_test_experiment.json",
+    "sha256": "e4d18726ff63f549924e9925afa7a91d102dba5856a37d9aaafba3f56c70f91d"
+  },
+  "prior_reader_attempts_preserved": {
+    "condition_preparation_attempts": 18,
+    "interpretation": "all12 failed native CIF parsing before pocket prediction; implementation interoperability failures, not scientific predictor failure evidence",
+    "prediction_attempts": 12,
+    "root": "results/structural_test"
+  },
+  "profile_id": "ccd_ideal_pyranose_v3_paired_receptor_pose",
+  "purpose": "Prospective fixed-six full-parent CCD-ideal Vina pose test with paired strict and separately modeled-sidechain receptor profiles; original V2 predictor centers/ranks reused exactly",
+  "ranking": "Within each fixed seed and the single executed top1 candidate box, preserve within-box model ranks and use Vina score ordering; no top5-box pooling in this profile",
+  "receptor_policy": {
+    "interaction_cutoff_A": 8.0,
+    "no_reference_based_selection_in_predicted_arm": true,
+    "profiles": {
+      "repair": {
+        "all_observed_heavy_atoms_fixed": true,
+        "generated_atoms_are_atomic_truth": false,
+        "no_loops_backbone_terminal_atoms_or_MSE_conversion": true,
+        "source_modeling": "separately frozen source-only standard sidechain completion;39/7/13atoms5HZA/5V6F/8I5U,0/0controls, MSEunsupported"
+      },
+      "strict": {
+        "expected_preparation_support": "2RDK/3ZWE; incomplete source residues and unparameterized MSE failures retained",
+        "no_heavy_atom_repair": true
+      }
+    },
+    "shared": "dry rigid protein-only; source biological assemblies and whole-chain box neighborhood+8A; allobserved proteinheavy identities/elements/coordinates preserved"
+  },
+  "receptor_profiles": [
+    "strict",
+    "repair"
+  ],
+  "schema_version": 1,
+  "screened_denominator": 12,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "serialization_amendment": {
+    "path": "results/structural_test_v2/serialization_amendment.json",
+    "sha256": "04e48516585be23de30de565d815d653088254c1b85bad73486090baa9a19556"
+  },
+  "serialization_policy": {
+    "MSE": "literal MSE and selenium retained; no MET conversion",
+    "observed_polymer_metadata": "numeric entity IDs and explicit subchain/entity/observed-sequence relationships; author IDs unchanged",
+    "physical_atom_fields": "every original atom-column value except label entity/subchain/sequence metadata exactly unchanged",
+    "scientific_parameters_changed": false,
+    "sequence_scope": "observed residue names only; not full unresolved construct",
+    "terminal_delimiter": "atom_site final; explicit newline#newline for pinned fpocket/VMD"
+  },
+  "serialization_revision": 2,
+  "site_candidate_budgets": [
+    1,
+    5
+  ],
+  "source_integration": {
+    "path": "results/structural_pose_v3/source_integration.json",
+    "sha256": "edaa19591a071922fbc2ddfdf8362bb48e1c344c0e653a08eed35fea10ae0413"
+  },
+  "source_ledger": {
+    "path": "benchmarks/heldout_reference_ledger.json",
+    "sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e"
+  },
+  "source_preparation": {
+    "path": "results/structural_test_v2/source_preparation.json",
+    "sha256": "645728a27e358ee42452cb765b12a48a4593a43d6377597dafb064592d2a149d"
+  },
+  "source_preparation_archive": {
+    "manifest": "results/structural_test_v2/source_archive_manifest.json",
+    "manifest_sha256": "d35dc3b4433b234f9d2b95c8ee00b55bf450ec40d51c2680cf55927a82e21edd",
+    "path": "results/structural_test_v2/source_preparation.tar.gz",
+    "sha256": "e913b9ca15acde3646c33307c188d19f9a44c8ee2439ed181fd17d876fa11116"
+  },
+  "source_profiles": {
+    "repair": {
+      "case_ids": [
+        "2RDK",
+        "3ZWE",
+        "4R9F",
+        "5HZA",
+        "5V6F",
+        "8I5U"
+      ],
+      "manifest": {
+        "path": "data/processed/heldout_pose_v3/repair/profile_manifest.json",
+        "sha256": "4b478f0210b78a52fc653e77475298c860733abd0de6a026389da38969d8b3e1"
+      },
+      "source_archive_manifest": {
+        "path": "results/structural_pose_v3/repair_sources_manifest.json",
+        "sha256": "a0596eadc53b56601080acb28af80f47bd162f1867311acf07e92cf5d41b56c5"
+      },
+      "source_directory": "data/processed/heldout_pose_v3/repair"
+    },
+    "strict": {
+      "case_ids": [
+        "2RDK",
+        "3ZWE",
+        "4R9F",
+        "5HZA",
+        "5V6F",
+        "8I5U"
+      ],
+      "manifest": {
+        "path": "data/processed/heldout_pose_v3/strict/profile_manifest.json",
+        "sha256": "b307d174df0f444fa5488071af9f419d6b7006108ae19c3df7df58872365e522"
+      },
+      "source_archive_manifest": {
+        "path": "results/structural_pose_v3/strict_sources_manifest.json",
+        "sha256": "74f56ab0205498a90975a461064277b7a3303c20d25f3051e45128d81f27c8bb"
+      },
+      "source_directory": "data/processed/heldout_pose_v3/strict"
+    }
+  },
+  "source_receptor_policy": "All strict V2 source protein coordinates preserved exactly; repair is separately frozen sidechain completion preserving all observed heavy atoms; MSE unsupported without conversion; full assemblies and8A whole-chain box neighborhoods",
+  "statistics": {
+    "bootstrap_seed": 20261103,
+    "family_labels": "candidate_family_id in frozen inventory; not a certification of model-training novelty",
+    "interpretation": "Conditional fixed-cohort descriptive resampling; purposive structuralselection/trainingoverlap prevent population or unseen-family reliability certification",
+    "interval_level": 0.95,
+    "paired_cluster_bootstrap_replicates": 10000,
+    "primary": "paired top1-site-budget pose recovery at2A versusoracle atmatchedperbox settings",
+    "secondary": "top5-site-budget recovery withgreater totalpredictedbox effort; reportcostsnotcost-matchedsuperiority",
+    "strata": [
+      "full_ligand",
+      "modeled_core",
+      "P2trainingfamilyoverlap_or_unknown"
+    ],
+    "unit": "source family; average3seedswithincase first"
+  },
+  "status": "frozen_before_first_new_case_pose_execution",
+  "synthetic_native_reader_probe": {
+    "path": "results/structural_serialization_probe/reader_probe_receipt.json",
+    "sha256": "f366e6b1d7bcb985f0e36f5bd7d3f70ee3f52d250750e9dc6b49afbded77e094"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "configuration_sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d",
+  "frozen_at_UTC": "2026-11-03T17:09:29.469580+00:00",
+  "frozen_before_new_docking": true,
+  "helper_sources_sha256": {
+    "aav_benchmark/aav.py": "dbd05bbedaf6b2d9eb4ba8ebdc3b152d178b21af28b43cb4bafb337d17661983",
+    "aav_benchmark/blind_docking.py": "61b862934774862f430ad65cb0bf16465dcadcf722b5b69bd83e90159231ba22",
+    "aav_benchmark/engine.py": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8",
+    "aav_benchmark/external.py": "2b224a39a71db9a4856c384d11d48de986c89d1b6afd733166936e57ed0caf1f",
+    "aav_benchmark/heldout_docking.py": "8cb13873df9272260ab048dd016abf3eb79f4000d874b4faed291562c60fd7e2",
+    "aav_benchmark/heldout_pose_inputs.py": "6203e3bf830dada5acf408747bc46220a07024273ea49fe53340b0de3060b067",
+    "aav_benchmark/ideal_ring_conformers.py": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "aav_benchmark/ring_geometry.py": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367"
+  },
+  "initializer_policy_sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+  "input_adapter_sha256": "6203e3bf830dada5acf408747bc46220a07024273ea49fe53340b0de3060b067",
+  "new_case_pose_outcomes_consulted": false,
+  "new_site_accuracy_consulted": false,
+  "original_prediction_configuration_sha256": "b03934e5d243bf5331c0517fad16e3bf35bcb061abd24fcbdaf7026ddd039e23",
+  "predictor_workflow_statuses_known": true,
+  "schema_version": 1,
+  "source_ledger_sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e",
+  "source_profile_manifests": {
+    "repair": {
+      "path": "data/processed/heldout_pose_v3/repair/profile_manifest.json",
+      "sha256": "4b478f0210b78a52fc653e77475298c860733abd0de6a026389da38969d8b3e1"
+    },
+    "strict": {
+      "path": "data/processed/heldout_pose_v3/strict/profile_manifest.json",
+      "sha256": "b307d174df0f444fa5488071af9f419d6b7006108ae19c3df7df58872365e522"
+    }
+  },
+  "status": "frozen_before_first_new_case_pose_execution"
+}

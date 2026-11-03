@@ -1,0 +1,233 @@
+{
+  "archive": "repair_monomer_sources.tar.gz",
+  "archive_sha256": "ee9816977d5c2866e4f2e2c3d7eee50d456638308dad9e978581f7078c218101",
+  "files": [
+    {
+      "bytes": 6314,
+      "path": "3ZWE/assembly_profile_preparation.json",
+      "sha256": "a1715a6748d4d30d3302d90e2c8213b3e496e83d81687f59c568bd86d5311497"
+    },
+    {
+      "bytes": 26837,
+      "path": "3ZWE/chemistry.json",
+      "sha256": "10fbf7c59507abc51f49401eb416f1e816ef6e44cd500b227cfc9ec923d2f52f"
+    },
+    {
+      "bytes": 146125,
+      "path": "3ZWE/full_assembly_receptor.cif",
+      "sha256": "ee2ce50a5baab25888dc21908b700991f6af174860460f1a967bef8e3792f309"
+    },
+    {
+      "bytes": 150623,
+      "path": "3ZWE/full_modeled_assembly_receptor.cif",
+      "sha256": "3aa3183f284fe1dda50450ebb0840c336b57555900f2d080a5a5b02a04915bab"
+    },
+    {
+      "bytes": 1281630,
+      "path": "3ZWE/full_protein_atom_map.json",
+      "sha256": "1f55fd9c24c1325d55cc26ae0eef0edc2c193c02764e7890ad455b84cbcd4b79"
+    },
+    {
+      "bytes": 90010,
+      "path": "3ZWE/initializer_report.json",
+      "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+    },
+    {
+      "bytes": 5934,
+      "path": "3ZWE/ligand.pdbqt",
+      "sha256": "b51ccdbca558ed043aa5b8762cae434145eca17d2d4d7a9ccc730c59681932e8"
+    },
+    {
+      "bytes": 18763,
+      "path": "3ZWE/ligand.sdf",
+      "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+    },
+    {
+      "bytes": 11098,
+      "path": "3ZWE/ligand_atom_map.json",
+      "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+    },
+    {
+      "bytes": 190,
+      "path": "3ZWE/modeled_atom_map.json",
+      "sha256": "a6b2f217b5f55e87fac76c8477386095556c70aa24a9f2725c00355a0b931701"
+    },
+    {
+      "bytes": 53549,
+      "path": "3ZWE/parameterized.pdb",
+      "sha256": "c66acbca538483f67545b757c26492e4053b06cc865e9dc1e149e7ddae9fa4f5"
+    },
+    {
+      "bytes": 65520,
+      "path": "3ZWE/parameterized.pdbqt",
+      "sha256": "58c057bcf06ca22df929c450dfe196c1b4758bc9e2a24ff312bb446822fa9fd3"
+    },
+    {
+      "bytes": 102201,
+      "path": "3ZWE/parameterized_atom_changes.json",
+      "sha256": "ee558d5ecb5b34a51a84e0d0508e7ceb2ba8cebe1cc9ea5fcf03a347723fcbc9"
+    },
+    {
+      "bytes": 428061,
+      "path": "3ZWE/protein_atom_map.json",
+      "sha256": "d1cbe3288ed4880d2e4c30e2cc19cbd79f6a6567c899b889129edeb7dc962b31"
+    },
+    {
+      "bytes": 1299,
+      "path": "3ZWE/protein_preparation.json",
+      "sha256": "09c6791824871fe5712159a181e086504a9c62c5a7b07ff9b9e86f281b935dfb"
+    },
+    {
+      "bytes": 51082,
+      "path": "3ZWE/receptor.cif",
+      "sha256": "1d8ff5e97948e00e901f41e4a0c0c9042b47df72e175895b88f8202c54dfa24a"
+    },
+    {
+      "bytes": 1299,
+      "path": "3ZWE/receptor.cif.manifest.json",
+      "sha256": "09c6791824871fe5712159a181e086504a9c62c5a7b07ff9b9e86f281b935dfb"
+    },
+    {
+      "bytes": 53549,
+      "path": "3ZWE/receptor.pdb",
+      "sha256": "c66acbca538483f67545b757c26492e4053b06cc865e9dc1e149e7ddae9fa4f5"
+    },
+    {
+      "bytes": 120368,
+      "path": "3ZWE/receptor_parameterization.json",
+      "sha256": "1a6eea8e436806b5089d49bd8a44a209e88319d1de5e8f92b124f3f525d9a6a4"
+    },
+    {
+      "bytes": 8312,
+      "path": "3ZWE/source_preparation.json",
+      "sha256": "6bb3786963008bb9d52f35cfe497f3aa947a69808278cfbc790f38562ef38800"
+    },
+    {
+      "bytes": 167,
+      "path": "3ZWE/source_symmetry.json",
+      "sha256": "f2bf5ceb0274a745600ef790ba5281f0f17b94b1ec48473e6b618e90bc6674cd"
+    },
+    {
+      "bytes": 428275,
+      "path": "3ZWE/subset_atom_map.json",
+      "sha256": "48c19d741827ed0f8dae888c31c1cd5fce1040bf8a9f2034a594deb36a82d6d8"
+    },
+    {
+      "bytes": 10611,
+      "path": "5HZA/assembly_profile_preparation.json",
+      "sha256": "09a7a28ca684a30bcc755d33b8e6020f7bbe5bbcc528755deafbc073e493d4b2"
+    },
+    {
+      "bytes": 20468,
+      "path": "5HZA/chemistry.json",
+      "sha256": "88a812c2d4438deeff5ee6a28166e0e6e10dbcb951d3b92bc3f6a67e0ae76ab8"
+    },
+    {
+      "bytes": 356529,
+      "path": "5HZA/full_assembly_receptor.cif",
+      "sha256": "0e71395b29f6d9b30524921119b49d3ad7e90df0d945ac0bf591d97e32b27acf"
+    },
+    {
+      "bytes": 370104,
+      "path": "5HZA/full_modeled_assembly_receptor.cif",
+      "sha256": "838aff8b8a75aca71c4c342c860a806cc5a29b5d689c3b6a7b5a2f189e5d1e67"
+    },
+    {
+      "bytes": 3088394,
+      "path": "5HZA/full_protein_atom_map.json",
+      "sha256": "95295264eafe8a79063b606d8620a39e6be4a83448411a90fb45cc0c4fb5e189"
+    },
+    {
+      "bytes": 318581,
+      "path": "5HZA/initializer_report.json",
+      "sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90"
+    },
+    {
+      "bytes": 4458,
+      "path": "5HZA/ligand.pdbqt",
+      "sha256": "547578b600e4630c8f40d64e12541912870f69e7f46d463454ededcf55415360"
+    },
+    {
+      "bytes": 14170,
+      "path": "5HZA/ligand.sdf",
+      "sha256": "d8e532d3cdce5815aacee220c60351e0ed60d9b59f1f7a370627a96fb353afe4"
+    },
+    {
+      "bytes": 8326,
+      "path": "5HZA/ligand_atom_map.json",
+      "sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80"
+    },
+    {
+      "bytes": 5650,
+      "path": "5HZA/modeled_atom_map.json",
+      "sha256": "42a3ee9945ff0f643d9d2365aa6d2112cd87323faf7eda478e16c6ea65cc8568"
+    },
+    {
+      "bytes": 196648,
+      "path": "5HZA/parameterized.pdb",
+      "sha256": "809c3301c92d7d4f170952d2be7304e584e0dfb448ca44d091db7ff5cbb13c31"
+    },
+    {
+      "bytes": 235520,
+      "path": "5HZA/parameterized.pdbqt",
+      "sha256": "9fe0d30700146a4716cf0d1f45d09d48213022973b9f85d16a7abf9586065b86"
+    },
+    {
+      "bytes": 400194,
+      "path": "5HZA/parameterized_atom_changes.json",
+      "sha256": "763d8a8131816344799e7a12bde70b5595052fea2fc14e5ca8802b4eaa33e888"
+    },
+    {
+      "bytes": 1560976,
+      "path": "5HZA/protein_atom_map.json",
+      "sha256": "8970294e5b8c4f565b5f67df26ac2472dac3256cf37f064c162c6fca99a168f6"
+    },
+    {
+      "bytes": 1302,
+      "path": "5HZA/protein_preparation.json",
+      "sha256": "105aeed84a193f2bfe0a3c8e5000608e644767ac09df1d94113346fb9713f595"
+    },
+    {
+      "bytes": 185868,
+      "path": "5HZA/receptor.cif",
+      "sha256": "af8dd5115a0426f2f40882cd29d18539dfd2dbdde5c45c13f7340429c2ff2926"
+    },
+    {
+      "bytes": 1302,
+      "path": "5HZA/receptor.cif.manifest.json",
+      "sha256": "105aeed84a193f2bfe0a3c8e5000608e644767ac09df1d94113346fb9713f595"
+    },
+    {
+      "bytes": 196648,
+      "path": "5HZA/receptor.pdb",
+      "sha256": "809c3301c92d7d4f170952d2be7304e584e0dfb448ca44d091db7ff5cbb13c31"
+    },
+    {
+      "bytes": 471597,
+      "path": "5HZA/receptor_parameterization.json",
+      "sha256": "af3c40d0cc2026ffb1768d05b4e97cc12f1b0231b475bd60bf3894fb7e0a9260"
+    },
+    {
+      "bytes": 12609,
+      "path": "5HZA/source_preparation.json",
+      "sha256": "a7267acbf44d75c4824473e9f8d63d2bbd3a85808b6bcd281efe2ce77c40f6ea"
+    },
+    {
+      "bytes": 167,
+      "path": "5HZA/source_symmetry.json",
+      "sha256": "f2bf5ceb0274a745600ef790ba5281f0f17b94b1ec48473e6b618e90bc6674cd"
+    },
+    {
+      "bytes": 1561191,
+      "path": "5HZA/subset_atom_map.json",
+      "sha256": "f137a4e8523aaab594e60a785e458142e1b741e32001f6087a9493e7a8b4e576"
+    },
+    {
+      "bytes": 20026,
+      "path": "profile_manifest.json",
+      "sha256": "e36beafbc4ffbd32f8665f33a2a465a3a6ca040649fd00a7174e54e6132de49f"
+    }
+  ],
+  "purpose": "prospective CCD-ideal ligand and fixed receptor profile inputs; no pose results",
+  "schema_version": 1
+}

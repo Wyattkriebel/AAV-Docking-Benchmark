@@ -1,0 +1,10 @@
+{
+  "configuration_sha256": "250d8cc555c502079e654cf71594edbf107bbf84ba10c62483dee741bdebd020",
+  "freeze_date": "2026-11-03",
+  "new_primary_or_secondary_prediction_or_docking_outcomes_consulted": false,
+  "primary_source_preparation_sha256": "2444c9c6bdd953b5cdbd8050b3b7eb525c5e3b95d93e47f4138803c2a436631c",
+  "repair_code_sha256": "844023dd0b82ab7655188da660ab800545d29f6e066739642bc11f83239e7e26",
+  "schema_version": 1,
+  "secondary_profile_frozen_before_new_outcomes": true,
+  "tools_lock_sha256": "687d725141ac4a17c15c2a8314e4141814f9c320c8b9e35b37f11060f068f8d4"
+}

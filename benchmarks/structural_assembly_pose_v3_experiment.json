@@ -1,0 +1,143 @@
+{
+  "box_rule": "same26/32/27/28/32/27 independent CCD-ideal parent cubes as fullassembly profiles; common original SOURCEA top1 predictor center per case/method or explicit common fullnativeparent oracle center",
+  "candidate_budgets": [
+    1
+  ],
+  "case_ids": [
+    "3ZWE",
+    "5HZA"
+  ],
+  "chain_selection": "A, first lexical prepared author chain for both fixed cases; independent of native ligands, interfaces and outcomes",
+  "code_sha256": "52e4a61e5dfa5abf3c3c6474d38b2bf110f818dd3889715630d9ec5ff9ec2597",
+  "cpu": 2,
+  "eligible_seed_slots": 36,
+  "energy_range_kcal_mol": 10,
+  "evaluation": "unchanged full experimental assemblies, qualified native copies and canonical masks, native contacts and full-assembly clashes; omitted chains/sites remain in truth",
+  "evaluation_source_archive_manifest": {
+    "path": "results/structural_pose_v3/strict_sources_manifest.json",
+    "sha256": "74f56ab0205498a90975a461064277b7a3303c20d25f3051e45128d81f27c8bb"
+  },
+  "exhaustiveness": 16,
+  "failure_policy": "retain strict5HZA incomplete-residue preparation failures; no new atoms beyond the separately frozen full repair profile; all methods and uncovered known sites retained",
+  "fixed_condition_count": 12,
+  "frozen_before_new_docking": true,
+  "full_comparators": "same-case strict full assembly vs strict monomer and modeled full assembly vs modeled monomer",
+  "initializer_policy": {
+    "path": "benchmarks/ideal_ring_conformer_policy.json",
+    "sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4"
+  },
+  "input_adapter": {
+    "path": "aav_benchmark/heldout_assembly_pose_inputs.py",
+    "sha256": "81d26344bc3d2bff382f63cea69cb058cea312ff123fb4b4b3ecff12a5090cd9"
+  },
+  "interpretation": "two-family paired assembly-ablation sensitivity; physically incomplete monomer controls are not independent biological samples",
+  "ligand_initializer": "exact same independently validated CCD-ideal v3 bytes and full canonical parent mapping as full-assembly comparators",
+  "methods": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "min_rmsd_A": 0.5,
+  "monomer_chain_rule_declared_before_working_site_predictions": true,
+  "new_control_site_or_pose_accuracy_consulted": false,
+  "new_modeling_performed": false,
+  "num_modes": 20,
+  "original_prediction_root": "results/structural_assembly_site",
+  "paired_control_box_sizes_A": {
+    "3ZWE": [
+      32,
+      32,
+      32
+    ],
+    "5HZA": [
+      28,
+      28,
+      28
+    ]
+  },
+  "pose_configuration_frozen_after_site_execution_before_pose_execution": true,
+  "pose_gate": "all planned first-chain control runs terminal before accuracy; all known/qualified fullassemblysites and omittedproteinchainclashes retained",
+  "pose_methods": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "pose_rank_budgets": [
+    1,
+    5
+  ],
+  "prediction_configuration": {
+    "path": "benchmarks/structural_assembly_site_experiment.json",
+    "sha256": "d02512b8ad2f2804ef38af5a29bf328dab527d40bce881f9c91ca538ecc5da58"
+  },
+  "prediction_freeze": {
+    "path": "results/structural_assembly_site/freeze_receipt.json",
+    "sha256": "f179df1d96bfe2434db13cfde051ab88b68ed1f418d38ec4ab76cc53550c452d"
+  },
+  "prediction_source": "original unmodeled strict first-chain monomer inputs only; reuse exactly for modeled monomer docking",
+  "primary_candidate_budget": 1,
+  "profile_id": "paired_first_chain_assembly_pose_v3",
+  "receptor_geometry": "strict monomer exact strict-full atom subset; modeled monomer exact preexisting modeled-full atom subset; no new modeling",
+  "receptor_profiles": [
+    "strict_monomer",
+    "repair_monomer"
+  ],
+  "repair_monomer_source_archive_manifest": {
+    "path": "results/structural_pose_v3/repair_monomer_sources_manifest.json",
+    "sha256": "31cd4a047e5fb86f730615e8b4135d6896481c9ab9a8ca9aeae67126f5cefc00"
+  },
+  "schema_version": 1,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "site_candidate_budgets": [
+    1,
+    5
+  ],
+  "site_methods": [
+    "fpocket",
+    "p2rank"
+  ],
+  "site_prediction_parameters": {
+    "candidate_merge_distance_A": 4.0,
+    "orbit_deduplication": "no_orbit_dedupe",
+    "p2rank_seed": 42,
+    "threads": 1,
+    "top_k": 5
+  },
+  "source_ledger": {
+    "path": "benchmarks/heldout_reference_ledger.json",
+    "sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e"
+  },
+  "source_profiles": {
+    "repair_monomer": {
+      "manifest": {
+        "path": "data/processed/heldout_pose_v3/repair_monomer/profile_manifest.json",
+        "sha256": "e36beafbc4ffbd32f8665f33a2a465a3a6ca040649fd00a7174e54e6132de49f"
+      },
+      "source_archive_manifest": {
+        "path": "results/structural_pose_v3/repair_monomer_sources_manifest.json",
+        "sha256": "31cd4a047e5fb86f730615e8b4135d6896481c9ab9a8ca9aeae67126f5cefc00"
+      },
+      "source_directory": "data/processed/heldout_pose_v3/repair_monomer"
+    },
+    "strict_monomer": {
+      "manifest": {
+        "path": "data/processed/heldout_pose_v3/strict_monomer/profile_manifest.json",
+        "sha256": "558e2a45c340197fb46185f8d6ea733651c1cbb071e9e6e0174b70c1a928ae15"
+      },
+      "source_archive_manifest": {
+        "path": "results/structural_assembly_pose_v3/strict_monomer_sources_manifest.json",
+        "sha256": "32a1f54ce8e9ee99832076fab096c88ed65bfde5a114e9e9dbf53dce74862d17"
+      },
+      "source_directory": "data/processed/heldout_pose_v3/strict_monomer"
+    }
+  },
+  "status": "frozen_before_control_pose_execution",
+  "strict_monomer_profile_manifest": {
+    "path": "data/processed/heldout_pose_v3/monomer/profile_manifest.json",
+    "sha256": "2f5e3ff9862fa9cf22e4d06087853ea83f56edde66e36665fd70920281c019c1"
+  }
+}

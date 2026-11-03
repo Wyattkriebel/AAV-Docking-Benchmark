@@ -1,0 +1,30 @@
+{
+  "case_ids": [
+    "3ZWE",
+    "5HZA"
+  ],
+  "configuration_sha256": "d02512b8ad2f2804ef38af5a29bf328dab527d40bce881f9c91ca538ecc5da58",
+  "fixed_chain_rule_declared_before_working_full_predictions": true,
+  "frozen_at_UTC": "2026-11-03T17:05:28.431326+00:00",
+  "frozen_before_monomer_predictions": true,
+  "full_prediction_workflow_statuses_known": true,
+  "helper_sources_sha256": {
+    "aav_benchmark/aav.py": "dbd05bbedaf6b2d9eb4ba8ebdc3b152d178b21af28b43cb4bafb337d17661983",
+    "aav_benchmark/blind_docking.py": "61b862934774862f430ad65cb0bf16465dcadcf722b5b69bd83e90159231ba22",
+    "aav_benchmark/heldout_assembly_control.py": "1f989e3e477a9231c8534119f53dfe646371d25a3b1e57f41ea95638e4308308",
+    "aav_benchmark/heldout_docking.py": "8cb13873df9272260ab048dd016abf3eb79f4000d874b4faed291562c60fd7e2",
+    "aav_benchmark/heldout_serialization.py": "8e977d7576a60344b2793a8b805ab132f92e5c54494e6d3332af2b9ffba91d0d",
+    "aav_benchmark/p2rank.py": "09626e040e0e176150b5d7944e274847796893aafaaf0122c43dc3df85d405e5",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "aav_benchmark/site_geometry.py": "0b76f95db2e383604c43a1963829b928f9a030943647cae49f00d221d384d481",
+    "aav_benchmark/sites.py": "244319d42bb57492cfbae1b704c85bb6f003447eb64a88651e5fd1c1755779b4"
+  },
+  "lock_sha256": {
+    "benchmarks/p2rank.lock.json": "37d1206c9875bf090eb4115c9845acf0188bcb216e929735f5cddf8d96383160",
+    "benchmarks/site_methods.lock.json": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+    "benchmarks/vina.lock.json": "601b6154a65da3c764ae289866b435263f332a9a2a09cd1d711053e4e1c3322e"
+  },
+  "new_test_site_or_pose_accuracy_consulted": false,
+  "source_manifest_sha256": "3fc649a52ba0bd3157b8497f5e8025a61815011b813b5f1c28bd3684cfd2c389",
+  "source_preparation_sha256": "03b48b5a038b00aa0de5b7d4c641e615b5365b5bc67aa5ed52ca31d30d243dc8"
+}

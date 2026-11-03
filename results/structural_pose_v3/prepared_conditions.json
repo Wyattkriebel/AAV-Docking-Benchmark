@@ -1,0 +1,370 @@
+{
+  "accuracy_evaluated": false,
+  "condition_count": 36,
+  "conditions": [
+    {
+      "case_id": "2RDK",
+      "condition_path": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/condition.json",
+      "condition_sha256": "4ccdf38d4a25dead8c62e8aec0909cee7c24b62b8b1a43933202fac43be1d4fa",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "2RDK",
+      "condition_path": "results/structural_pose_v3/strict/2RDK/p2rank/prepared/condition.json",
+      "condition_sha256": "aa7548dc85043e2530c6e99a2ad54dd2d3f09aac6577cab71305b2a158f22b4a",
+      "method": "p2rank",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 0,
+      "status": "completed_no_candidates"
+    },
+    {
+      "case_id": "2RDK",
+      "condition_path": "results/structural_pose_v3/strict/2RDK/oracle/prepared/condition.json",
+      "condition_sha256": "a84f6b733adcc73c6f9eb37b0ce6abeb5dc4b2af95611f91eb27616338b33425",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/condition.json",
+      "condition_sha256": "0eacb110903ae3da29af7cf5c8cdfb5e5fd333a05267dbeff1d0bfa058435ecc",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/condition.json",
+      "condition_sha256": "e7a66fb4383672768900ce74ba16ddb994e2e188664e6d2ee4de73a824024c28",
+      "method": "p2rank",
+      "prepared_jobs": 1,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/condition.json",
+      "condition_sha256": "2d46fb4e02113fb4e0c8584acc9a6706410141d6025100167c1cad6570757d47",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "4R9F",
+      "condition_path": "results/structural_pose_v3/strict/4R9F/fpocket/prepared/condition.json",
+      "condition_sha256": "3da186e1072bc2fb1c115ea41f16cab7fc613cbf3a98567c322c67edd91150b8",
+      "method": "fpocket",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "4R9F",
+      "condition_path": "results/structural_pose_v3/strict/4R9F/p2rank/prepared/condition.json",
+      "condition_sha256": "aada19afe388943d4e8269b7a08cbeaef7cf3f6ac839467e6cb7516109d9456c",
+      "method": "p2rank",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "4R9F",
+      "condition_path": "results/structural_pose_v3/strict/4R9F/oracle/prepared/condition.json",
+      "condition_sha256": "46130023890d0c490a8633b96f1d9524aaed200c520f0dfa6a8ef231bc589529",
+      "method": "oracle",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_pose_v3/strict/5HZA/fpocket/prepared/condition.json",
+      "condition_sha256": "4d0c310397ddcb4d4a17938f37822460f1892613b8e2b6948dca57306ae76aa0",
+      "method": "fpocket",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_pose_v3/strict/5HZA/p2rank/prepared/condition.json",
+      "condition_sha256": "08b601e01229fca162021f9ffa3ae15983e3daffcd50c6c6edfb09a55e193ac8",
+      "method": "p2rank",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_pose_v3/strict/5HZA/oracle/prepared/condition.json",
+      "condition_sha256": "dd15d9b7fd587af0be21166787f76b327bbf1206be6082863e5a8b56e9ba80f0",
+      "method": "oracle",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5V6F",
+      "condition_path": "results/structural_pose_v3/strict/5V6F/fpocket/prepared/condition.json",
+      "condition_sha256": "ddf8bd1d3ecc720052139ab8e5d45760267b99dbf81d25b45e8cf30674b4f2cd",
+      "method": "fpocket",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5V6F",
+      "condition_path": "results/structural_pose_v3/strict/5V6F/p2rank/prepared/condition.json",
+      "condition_sha256": "96f22cb1d20392c63543a8e453bb09f8e3a37a484db5ff5eed5706e2b3ecfde7",
+      "method": "p2rank",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5V6F",
+      "condition_path": "results/structural_pose_v3/strict/5V6F/oracle/prepared/condition.json",
+      "condition_sha256": "b6b89cac19f110fc74ab4be7b290df019d4469cd51018dcb73a70a67aff7b42e",
+      "method": "oracle",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "8I5U",
+      "condition_path": "results/structural_pose_v3/strict/8I5U/fpocket/prepared/condition.json",
+      "condition_sha256": "fe99ceec10cc508015f6db2bc6d3d91706d37858cd5c022b33fb59982689c1df",
+      "method": "fpocket",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "8I5U",
+      "condition_path": "results/structural_pose_v3/strict/8I5U/p2rank/prepared/condition.json",
+      "condition_sha256": "5dad4c604a5eb02b562a922804b7a9f9fe7529ea2381805e422a69f68048b139",
+      "method": "p2rank",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "8I5U",
+      "condition_path": "results/structural_pose_v3/strict/8I5U/oracle/prepared/condition.json",
+      "condition_sha256": "68eebaaa1660460fcd644e08847741bd8f7c22298bd2abe115443b0ede38c8ca",
+      "method": "oracle",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "2RDK",
+      "condition_path": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/condition.json",
+      "condition_sha256": "45d428a005201a82c8ceb7c89192e0661e53757270eb1e98a3c44540e0ed676e",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "2RDK",
+      "condition_path": "results/structural_pose_v3/repair/2RDK/p2rank/prepared/condition.json",
+      "condition_sha256": "471207ff2af767046943bbd5d9ed8b2ac39a46c52a75029e2f471a440d8b495a",
+      "method": "p2rank",
+      "prepared_jobs": 0,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 0,
+      "status": "completed_no_candidates"
+    },
+    {
+      "case_id": "2RDK",
+      "condition_path": "results/structural_pose_v3/repair/2RDK/oracle/prepared/condition.json",
+      "condition_sha256": "7b70ae3ca84d4ea035cbb68e9e0340ea08fc025936b30e749c40c2255fe706a7",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/condition.json",
+      "condition_sha256": "cb54945068a5189fd24dc41bdba9497e7fac8a74211b74f7e14a21515466fafe",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/condition.json",
+      "condition_sha256": "58c9abda361bb415897a3fb4679b643e4feb1c3c727a0cab1e96c3911e00cdd6",
+      "method": "p2rank",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/condition.json",
+      "condition_sha256": "3310ce91772cf4a4569d45eed0a5f5c1f3d3e4be0b9259803f050e3cb82985eb",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "4R9F",
+      "condition_path": "results/structural_pose_v3/repair/4R9F/fpocket/prepared/condition.json",
+      "condition_sha256": "01c84c6a2b2fc0d35eecc33f972b3278d38d0c541843ff3d9cdaf7befd4f4f42",
+      "method": "fpocket",
+      "prepared_jobs": 0,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "4R9F",
+      "condition_path": "results/structural_pose_v3/repair/4R9F/p2rank/prepared/condition.json",
+      "condition_sha256": "d2984feb511de136f3d00525ab16cc7bcd52162619d08e49ff256a82f37af051",
+      "method": "p2rank",
+      "prepared_jobs": 0,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "4R9F",
+      "condition_path": "results/structural_pose_v3/repair/4R9F/oracle/prepared/condition.json",
+      "condition_sha256": "3636435237d1e3241bff41e3a39bc83303f44a5fbe8008547131b1f3a68a26aa",
+      "method": "oracle",
+      "prepared_jobs": 0,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/condition.json",
+      "condition_sha256": "94fd0d215c4e0bb92898c583a57a04d5c79af741ad9bf40eb63d711493b3a310",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/condition.json",
+      "condition_sha256": "a524f1228c55cb64bb27d5d00b4f5fd933e4a666a006204e66042e19df97dbfd",
+      "method": "p2rank",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_pose_v3/repair/5HZA/oracle/prepared/condition.json",
+      "condition_sha256": "14d32f4a4f4ee0c5ff14a9627c689e1e1a756522815dbad1dca31bf2a9458e48",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "5V6F",
+      "condition_path": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/condition.json",
+      "condition_sha256": "0b4f18063a83e3d7b66c904da2dc9ad2f28e484ae801761566e321ca31211075",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "5V6F",
+      "condition_path": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/condition.json",
+      "condition_sha256": "158a8af53eee59f3cad45283bae7420f761d6fa23fb9421cb988c86ed813fe09",
+      "method": "p2rank",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "5V6F",
+      "condition_path": "results/structural_pose_v3/repair/5V6F/oracle/prepared/condition.json",
+      "condition_sha256": "a220f85c8c742313cbf7f7e6f24abc689ba09e48585ad2f5ceb4b2b773b150b4",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "8I5U",
+      "condition_path": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/condition.json",
+      "condition_sha256": "f017f34eb444bffc36e52ed3d6268054d5e3e4048bec1fe9ab48df506b853886",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "8I5U",
+      "condition_path": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/condition.json",
+      "condition_sha256": "1ff500780f3b51f01f531b8f6ee0f506fe59e3a68f396bf6984a49f4f611eca1",
+      "method": "p2rank",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    },
+    {
+      "case_id": "8I5U",
+      "condition_path": "results/structural_pose_v3/repair/8I5U/oracle/prepared/condition.json",
+      "condition_sha256": "79233fc23ba0f7ac54d0c70061034cc2a76bb7e2b68f76826b1cf887e69afb7b",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair",
+      "scheduled_jobs": 1,
+      "status": "prepared"
+    }
+  ],
+  "configuration_sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d",
+  "expected_condition_count": 36,
+  "no_docking_started": true,
+  "status": "complete"
+}

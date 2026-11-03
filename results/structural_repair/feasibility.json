@@ -1,0 +1,654 @@
+{
+  "cases": [
+    {
+      "allowed_added_atom_keys": [],
+      "atom_generation_performed": false,
+      "case_id": "2RDK",
+      "missing_loops_inserted": false,
+      "missing_sidechain_heavy_atom_count": 0,
+      "mode": "inspect",
+      "modeled_atoms_are_atomic_truth": false,
+      "native_glycan_coordinate_access": false,
+      "new_atom_count": 0,
+      "nonstandard_residues_converted": false,
+      "observed_heavy_atom_count": 760,
+      "pdbfixer_commit": "94cfa4c0ca551cdc5f13320f9a658efd59f2b881",
+      "pdbfixer_release": "1.12",
+      "platform": "Reference",
+      "prohibited_missing_backbone_atom_keys": [],
+      "seed": 20261024,
+      "source_protein_sha256": "a99c88ea6c4dcb623cd07a2d43cd3a1b49efd1705d40072bc8a41b12a16a5444",
+      "source_sha256": "a99c88ea6c4dcb623cd07a2d43cd3a1b49efd1705d40072bc8a41b12a16a5444",
+      "status": "feasible",
+      "suppressed_terminal_additions": [
+        {
+          "atoms": [
+            "OXT"
+          ],
+          "chain": "A",
+          "number": 102,
+          "resname": "LEU"
+        }
+      ],
+      "terminal_atoms_added": false,
+      "versions": {
+        "numpy": "2.4.2",
+        "openmm": "8.4.0"
+      },
+      "worker_exit_code": 0
+    },
+    {
+      "allowed_added_atom_keys": [],
+      "atom_generation_performed": false,
+      "case_id": "3ZWE",
+      "missing_loops_inserted": false,
+      "missing_sidechain_heavy_atom_count": 0,
+      "mode": "inspect",
+      "modeled_atoms_are_atomic_truth": false,
+      "native_glycan_coordinate_access": false,
+      "new_atom_count": 0,
+      "nonstandard_residues_converted": false,
+      "observed_heavy_atom_count": 1983,
+      "pdbfixer_commit": "94cfa4c0ca551cdc5f13320f9a658efd59f2b881",
+      "pdbfixer_release": "1.12",
+      "platform": "Reference",
+      "prohibited_missing_backbone_atom_keys": [],
+      "seed": 20261024,
+      "source_protein_sha256": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918",
+      "source_sha256": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918",
+      "status": "feasible",
+      "suppressed_terminal_additions": [],
+      "terminal_atoms_added": false,
+      "versions": {
+        "numpy": "2.4.2",
+        "openmm": "8.4.0"
+      },
+      "worker_exit_code": 0
+    },
+    {
+      "case_id": "4R9F",
+      "missing_loops_inserted": false,
+      "mode": "inspect",
+      "modeled_atoms_are_atomic_truth": false,
+      "native_glycan_coordinate_access": false,
+      "new_atom_count": 0,
+      "nonstandard_residues": [
+        "MSE"
+      ],
+      "nonstandard_residues_converted": false,
+      "observed_heavy_atom_count": 3076,
+      "pdbfixer_commit": "94cfa4c0ca551cdc5f13320f9a658efd59f2b881",
+      "pdbfixer_release": "1.12",
+      "platform": "Reference",
+      "reason": "Nonstandard protein retained without mutation or unpinned template/charge assumptions",
+      "seed": 20261024,
+      "source_protein_sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14",
+      "source_sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14",
+      "status": "unsupported",
+      "terminal_atoms_added": false,
+      "versions": {
+        "numpy": "2.4.2",
+        "openmm": "8.4.0"
+      },
+      "worker_exit_code": 0
+    },
+    {
+      "allowed_added_atom_keys": [
+        [
+          "A",
+          74,
+          "",
+          "GLU",
+          "CG"
+        ],
+        [
+          "A",
+          74,
+          "",
+          "GLU",
+          "CD"
+        ],
+        [
+          "A",
+          74,
+          "",
+          "GLU",
+          "OE1"
+        ],
+        [
+          "A",
+          74,
+          "",
+          "GLU",
+          "OE2"
+        ],
+        [
+          "A",
+          266,
+          "",
+          "GLU",
+          "CG"
+        ],
+        [
+          "A",
+          266,
+          "",
+          "GLU",
+          "CD"
+        ],
+        [
+          "A",
+          266,
+          "",
+          "GLU",
+          "OE1"
+        ],
+        [
+          "A",
+          266,
+          "",
+          "GLU",
+          "OE2"
+        ],
+        [
+          "A",
+          269,
+          "",
+          "ARG",
+          "CG"
+        ],
+        [
+          "A",
+          269,
+          "",
+          "ARG",
+          "CD"
+        ],
+        [
+          "A",
+          269,
+          "",
+          "ARG",
+          "NE"
+        ],
+        [
+          "A",
+          269,
+          "",
+          "ARG",
+          "CZ"
+        ],
+        [
+          "A",
+          269,
+          "",
+          "ARG",
+          "NH1"
+        ],
+        [
+          "A",
+          269,
+          "",
+          "ARG",
+          "NH2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "SER",
+          "OG"
+        ],
+        [
+          "B",
+          76,
+          "",
+          "ARG",
+          "CG"
+        ],
+        [
+          "B",
+          76,
+          "",
+          "ARG",
+          "CD"
+        ],
+        [
+          "B",
+          76,
+          "",
+          "ARG",
+          "NE"
+        ],
+        [
+          "B",
+          76,
+          "",
+          "ARG",
+          "CZ"
+        ],
+        [
+          "B",
+          76,
+          "",
+          "ARG",
+          "NH1"
+        ],
+        [
+          "B",
+          76,
+          "",
+          "ARG",
+          "NH2"
+        ],
+        [
+          "B",
+          266,
+          "",
+          "GLU",
+          "CG"
+        ],
+        [
+          "B",
+          266,
+          "",
+          "GLU",
+          "CD"
+        ],
+        [
+          "B",
+          266,
+          "",
+          "GLU",
+          "OE1"
+        ],
+        [
+          "B",
+          266,
+          "",
+          "GLU",
+          "OE2"
+        ],
+        [
+          "B",
+          267,
+          "",
+          "THR",
+          "CG2"
+        ],
+        [
+          "B",
+          267,
+          "",
+          "THR",
+          "OG1"
+        ],
+        [
+          "B",
+          269,
+          "",
+          "ARG",
+          "CG"
+        ],
+        [
+          "B",
+          269,
+          "",
+          "ARG",
+          "CD"
+        ],
+        [
+          "B",
+          269,
+          "",
+          "ARG",
+          "NE"
+        ],
+        [
+          "B",
+          269,
+          "",
+          "ARG",
+          "CZ"
+        ],
+        [
+          "B",
+          269,
+          "",
+          "ARG",
+          "NH1"
+        ],
+        [
+          "B",
+          269,
+          "",
+          "ARG",
+          "NH2"
+        ],
+        [
+          "B",
+          301,
+          "",
+          "ARG",
+          "CG"
+        ],
+        [
+          "B",
+          301,
+          "",
+          "ARG",
+          "CD"
+        ],
+        [
+          "B",
+          301,
+          "",
+          "ARG",
+          "NE"
+        ],
+        [
+          "B",
+          301,
+          "",
+          "ARG",
+          "CZ"
+        ],
+        [
+          "B",
+          301,
+          "",
+          "ARG",
+          "NH1"
+        ],
+        [
+          "B",
+          301,
+          "",
+          "ARG",
+          "NH2"
+        ]
+      ],
+      "atom_generation_performed": false,
+      "case_id": "5HZA",
+      "missing_loops_inserted": false,
+      "missing_sidechain_heavy_atom_count": 39,
+      "mode": "inspect",
+      "modeled_atoms_are_atomic_truth": false,
+      "native_glycan_coordinate_access": false,
+      "new_atom_count": 0,
+      "nonstandard_residues_converted": false,
+      "observed_heavy_atom_count": 4769,
+      "pdbfixer_commit": "94cfa4c0ca551cdc5f13320f9a658efd59f2b881",
+      "pdbfixer_release": "1.12",
+      "platform": "Reference",
+      "prohibited_missing_backbone_atom_keys": [],
+      "seed": 20261024,
+      "source_protein_sha256": "fa8aca5ab1e9bc0f556758d595b65e6959191349c2d81639c561327a1dee61c7",
+      "source_sha256": "fa8aca5ab1e9bc0f556758d595b65e6959191349c2d81639c561327a1dee61c7",
+      "status": "feasible",
+      "suppressed_terminal_additions": [
+        {
+          "atoms": [
+            "OXT"
+          ],
+          "chain": "A",
+          "number": 315,
+          "resname": "MET"
+        },
+        {
+          "atoms": [
+            "OXT"
+          ],
+          "chain": "B",
+          "number": 120,
+          "resname": "THR"
+        },
+        {
+          "atoms": [
+            "OXT"
+          ],
+          "chain": "B",
+          "number": 315,
+          "resname": "MET"
+        }
+      ],
+      "terminal_atoms_added": false,
+      "versions": {
+        "numpy": "2.4.2",
+        "openmm": "8.4.0"
+      },
+      "worker_exit_code": 0
+    },
+    {
+      "allowed_added_atom_keys": [
+        [
+          "A",
+          2,
+          "",
+          "MET",
+          "CG"
+        ],
+        [
+          "A",
+          2,
+          "",
+          "MET",
+          "SD"
+        ],
+        [
+          "A",
+          2,
+          "",
+          "MET",
+          "CE"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "CG"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "CD"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "OE1"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "NE2"
+        ]
+      ],
+      "atom_generation_performed": false,
+      "case_id": "5V6F",
+      "missing_loops_inserted": false,
+      "missing_sidechain_heavy_atom_count": 7,
+      "mode": "inspect",
+      "modeled_atoms_are_atomic_truth": false,
+      "native_glycan_coordinate_access": false,
+      "new_atom_count": 0,
+      "nonstandard_residues_converted": false,
+      "observed_heavy_atom_count": 1042,
+      "pdbfixer_commit": "94cfa4c0ca551cdc5f13320f9a658efd59f2b881",
+      "pdbfixer_release": "1.12",
+      "platform": "Reference",
+      "prohibited_missing_backbone_atom_keys": [],
+      "seed": 20261024,
+      "source_protein_sha256": "22a93d3082da0e4a27d109c70202325ffbfe8aa89c4878f78f9730da85a12102",
+      "source_sha256": "22a93d3082da0e4a27d109c70202325ffbfe8aa89c4878f78f9730da85a12102",
+      "status": "feasible",
+      "suppressed_terminal_additions": [],
+      "terminal_atoms_added": false,
+      "versions": {
+        "numpy": "2.4.2",
+        "openmm": "8.4.0"
+      },
+      "worker_exit_code": 0
+    },
+    {
+      "allowed_added_atom_keys": [
+        [
+          "A",
+          17,
+          "",
+          "LYS",
+          "CG"
+        ],
+        [
+          "A",
+          17,
+          "",
+          "LYS",
+          "CD"
+        ],
+        [
+          "A",
+          17,
+          "",
+          "LYS",
+          "CE"
+        ],
+        [
+          "A",
+          17,
+          "",
+          "LYS",
+          "NZ"
+        ],
+        [
+          "A",
+          20,
+          "",
+          "HIS",
+          "CG"
+        ],
+        [
+          "A",
+          20,
+          "",
+          "HIS",
+          "ND1"
+        ],
+        [
+          "A",
+          20,
+          "",
+          "HIS",
+          "CE1"
+        ],
+        [
+          "A",
+          20,
+          "",
+          "HIS",
+          "NE2"
+        ],
+        [
+          "A",
+          20,
+          "",
+          "HIS",
+          "CD2"
+        ],
+        [
+          "A",
+          416,
+          "",
+          "LYS",
+          "CG"
+        ],
+        [
+          "A",
+          416,
+          "",
+          "LYS",
+          "CD"
+        ],
+        [
+          "A",
+          416,
+          "",
+          "LYS",
+          "CE"
+        ],
+        [
+          "A",
+          416,
+          "",
+          "LYS",
+          "NZ"
+        ]
+      ],
+      "atom_generation_performed": false,
+      "case_id": "8I5U",
+      "missing_loops_inserted": false,
+      "missing_sidechain_heavy_atom_count": 13,
+      "mode": "inspect",
+      "modeled_atoms_are_atomic_truth": false,
+      "native_glycan_coordinate_access": false,
+      "new_atom_count": 0,
+      "nonstandard_residues_converted": false,
+      "observed_heavy_atom_count": 6221,
+      "pdbfixer_commit": "94cfa4c0ca551cdc5f13320f9a658efd59f2b881",
+      "pdbfixer_release": "1.12",
+      "platform": "Reference",
+      "prohibited_missing_backbone_atom_keys": [],
+      "seed": 20261024,
+      "source_protein_sha256": "23f14f3e7b04c6704425c4aaabcbd5c5ed1a18455e823c302dadd29bcd587e7a",
+      "source_sha256": "23f14f3e7b04c6704425c4aaabcbd5c5ed1a18455e823c302dadd29bcd587e7a",
+      "status": "feasible",
+      "suppressed_terminal_additions": [
+        {
+          "atoms": [
+            "OXT"
+          ],
+          "chain": "A",
+          "number": 413,
+          "resname": "GLU"
+        },
+        {
+          "atoms": [
+            "OXT"
+          ],
+          "chain": "A",
+          "number": 786,
+          "resname": "VAL"
+        }
+      ],
+      "terminal_atoms_added": false,
+      "versions": {
+        "numpy": "2.4.2",
+        "openmm": "8.4.0"
+      },
+      "worker_exit_code": 0
+    }
+  ],
+  "code_sha256": "844023dd0b82ab7655188da660ab800545d29f6e066739642bc11f83239e7e26",
+  "fixed_case_ids": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "generated_atom_count": 0,
+  "native_glycan_coordinate_access": false,
+  "primary_source_preparation_sha256": "2444c9c6bdd953b5cdbd8050b3b7eb525c5e3b95d93e47f4138803c2a436631c",
+  "purpose": "source-only feasibility; no new atoms or docking outcomes generated",
+  "schema_version": 1,
+  "source_ledger_sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e",
+  "tools_lock_sha256": "687d725141ac4a17c15c2a8314e4141814f9c320c8b9e35b37f11060f068f8d4"
+}

@@ -1,0 +1,44 @@
+{
+  "native_case_coordinate_access": false,
+  "native_libraries": {
+    "BioJava_structure_jar_sha256": "bc23e87326ee8f59abfe27bab53fd17afb7081bd6c3910bcabb0fc5b69ab7933",
+    "fpocket_VMD_static_library_sha256": "2bd7599e3e2b59f3bf62ffe8715be0554c02e072cc3ca4673b212dc78d29c899",
+    "fpocket_reader_probe_binary_sha256": "312d8ceeb7f1bba2a8a42b0b07a9d4d1f13858e00448b9a2c82ef9b5317ed6ad",
+    "p2rank_jar_sha256": "4d73a85b796bd5ec5563d840abb5b1005f37b4651fd7f8aaad4b01a936ea1ece"
+  },
+  "native_site_predictions_run": false,
+  "purpose": "synthetic100atom native-reader interop proof only; no real-case site predictions or pose metrics",
+  "readers": {
+    "fpocket_pinned_VMD_pdbx_plugin": {
+      "MSE_and_Se_preserved": true,
+      "author_atom_bijection": true,
+      "author_number_gap_and_insertion_preserved": true,
+      "elements_exactly_preserved": true,
+      "max_native_reader_coordinate_displacement_A": 4.949747475906106e-07,
+      "observed_atom_count": 100,
+      "raw_log_sha256": "1dc51dbc52a1d09c488db396f1dc9637e693273ee3f96a7daaf239934a415032",
+      "status": "passed"
+    },
+    "p2rank_pinned_BioJava_PdbUtils": {
+      "MSE_and_Se_preserved": true,
+      "author_atom_bijection": true,
+      "author_number_gap_and_insertion_preserved": true,
+      "elements_exactly_preserved": true,
+      "max_native_reader_coordinate_displacement_A": 0.0,
+      "observed_atom_count": 100,
+      "raw_log_sha256": "4e6f387bedffd2f9f9eeb2aca2bb4133f54642a82a4bd031a3710fe8c291ac7c",
+      "status": "passed"
+    }
+  },
+  "schema_version": 1,
+  "scope": "Direct calls to the same installed native VMD pdbx plugin and compiled P2Rank PdbUtils.loadFromCifFile; no pocket scoring performed",
+  "source_sha256": {
+    "biojava_reader_probe.groovy": "526fbe12a8b963c215e46128d238111c1ef551d6c644806f3e4252075125828e",
+    "pdbx_reader_probe.cpp": "136386da929a2b63fdc3b572cc9b6c7aae945ff80f678e47190fddfe10136f0a",
+    "serialization_receipt.json": "90e7187aec207bed5f4a860b4821fb525f697830eb27f8873ded089cb301c42f",
+    "synthetic100_original.cif": "2d982dd529503a69a9a0718c85d16ea02bec0df02b260cbd337493866f9ce554",
+    "synthetic100_v2.cif": "3d50da533b7366e24c38f685f723be884575c71a049e27bd77c9b4fea22ba743"
+  },
+  "synthetic_atom_count": 100,
+  "synthetic_input_sha256": "3d50da533b7366e24c38f685f723be884575c71a049e27bd77c9b4fea22ba743"
+}
