@@ -1,0 +1,37 @@
+{
+  "SDF_baseline_matches_report": true,
+  "SDF_uncompressed_sha256": "04f04c432e76cbbd1e601f2724715ecbbb17ef2c6aabe1b2d82968c73c2a756b",
+  "canonical_diagnostic_sha256": "833f77df743afeea55caf57bb115965164debc1e477fe964df77881d912045b2",
+  "frozen_files_changed": false,
+  "max_RMSD_difference_from_prior_independent_named_diagnostic_A": 1.2434497875801753e-14,
+  "model1_contacts_independently_reproduced": {
+    "contact_precision": 0.0625,
+    "contact_recall": 0.12121212121212122,
+    "interface_residue_jaccard": 0.6,
+    "interface_residue_precision": 0.6,
+    "interface_residue_recall": 1.0,
+    "native_contact_count": 33,
+    "native_interface_residue_count": 6,
+    "predicted_contact_count": 64,
+    "predicted_interface_residue_count": 10,
+    "shared_contact_count": 4
+  },
+  "model1_geometry_independently_reproduced": {
+    "full_parent_min_protein_distance_A": 2.7586542008740413,
+    "full_parent_protein_pairs_below_1p5A": 0,
+    "glycosidic_distance_A": 1.4282244221410016,
+    "glycosidic_input_distance_A": 1.4279706334515432,
+    "max_heavy_bond_length_change_from_input_A": 0.0009182949509782823,
+    "max_ring_pair_distance_change_from_input_A": 0.001263838600157552
+  },
+  "models_compared": 60,
+  "official_global_minima_A": {
+    "104729": 3.848433492711817,
+    "130363": 3.8499686503523174,
+    "155921": 4.087899290429697
+  },
+  "parameter_tuning": false,
+  "scope": "OLD1PWB oracle only; no native/report generation/new6",
+  "stereo_not_independently_recomputed_here": true,
+  "summary_sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2"
+}

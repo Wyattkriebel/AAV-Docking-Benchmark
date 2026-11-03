@@ -1,0 +1,28 @@
+{
+  "candidate_overlay_files": [
+    "docs/examples/development_v2_workspace_plan.json",
+    "docs/QUALIFIED_BLIND_POSE_V2_RESULTS.md",
+    "results/development_pose_report_release/qualified_pose_v2_summary.json",
+    "results/development_pose_report_release/generation_v2_receipt.json",
+    "results/development_pose_report_release/workspace_provenance_v2.json",
+    "results/development_pose_report_release/generation_v2_stdout.log",
+    "results/development_pose_report_release/generation_v2_stderr.log",
+    "results/development_pose_report_release/strict_replay_v2_verification.json",
+    "results/development_pose_report_release/independent_v2_review.json"
+  ],
+  "independent_numerical_review": {
+    "path": "results/development_pose_report_release/independent_v2_review.json",
+    "sha256": "3bd68d89177b0369148f376c3ccbd2a1e5be282f11d74ce7c92b11c8dacda050"
+  },
+  "optional_installation_tests_skipped": 8,
+  "processed_tree_absent": true,
+  "schema_version": 1,
+  "source_and_result_candidate_tests_passed": 1099,
+  "source_commit": "b8a11f1af13e6390063b0312456493c4fa94c175",
+  "strict_fresh_export_replay": {
+    "path": "results/development_pose_report_release/strict_replay_v2_verification.json",
+    "sha256": "155c70f02b6bb5fc31d098dc3ff8bd04948576d94bc73d5ec9986573a7fb702d"
+  },
+  "test_process_exit_code": 0,
+  "tools_absent": true
+}

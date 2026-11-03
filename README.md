@@ -18,7 +18,7 @@ now reviews the seven external development cases against deposited validation
 and Fourier maps. Two full modeled ligands and four explicitly mapped cores
 pass the operational criteria; one case is rejected. These decisions retain
 borderline density and occupancy cautions and do not imply that every scored
-atom is uniquely resolved. The frozen old docking results remain unchanged.
+atom is uniquely resolved. The original raw docking outputs remain unchanged.
 Replay the source checks with `python scripts/verify_atomic_references.py`.
 
 The [new structural-source audit](docs/HELDOUT_REFERENCE_QUALIFICATION.md)
@@ -37,6 +37,22 @@ workflows. `python scripts/verify_method_protocol_sources.py` verifies their
 archive bytes and source pins in temporary files without executing native
 software or computing pose accuracy. Terminal outcome archives and scientific
 reports have a separate publication gate.
+
+The [corrected development pose evaluation](docs/QUALIFIED_BLIND_POSE_V2_RESULTS.md)
+accounts for all 156 scheduled runs: 153 succeeded and three reached the frozen
+one-hour timeout. Two full-ligand and four core-only references remain separate.
+All primary 2 Å recovery rates are zero, including the true-site controls.
+At the predefined 3 Å sensitivity, the 11-atom 1KJL core appears in Top-5 but
+never Top-1. Unsupported 1QFO preparation remains an eligible zero; AAV9 and
+154L have no eligible atomic endpoint here.
+
+Independent review found an atom-order error in the first derived evaluation.
+V2 corrects the named coordinate correspondence while preserving raw outputs,
+ranks, thresholds and failure denominators. The invalid V1 files and the
+post-outcome implementation amendment remain archived. A
+[fresh-workspace replay](docs/QUALIFIED_DEVELOPMENT_REPRODUCTION.md) reproduces
+the corrected JSON and Markdown byte for byte; the six development references
+do not establish independent-family reliability.
 
 The [site-localization report](docs/SITE_LOCALIZATION_RESULTS.md) evaluates
 fpocket 4.2.3, P2Rank 2.5.1 and 100 area-weighted surface draws per receptor,

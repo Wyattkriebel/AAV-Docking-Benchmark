@@ -1,0 +1,48 @@
+{
+  "atomic_accuracy_generated": true,
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/.venv/bin/python",
+    "-I",
+    "/tmp/aav-qualified-v2-replay-b8a11f1/scripts/regenerate_qualified_pose_v2_report.py",
+    "--root",
+    "/tmp/aav-qualified-v2-replay-b8a11f1",
+    "--implementation-amendment",
+    "benchmarks/qualified_pose_atom_order_amendment.json",
+    "--implementation-amendment-sha256",
+    "93e75fd44e036a007b3e37bb7fa40c83f911ea366eb581e4254704f9f59d47da"
+  ],
+  "elapsed_wall_seconds": 16.525196415997925,
+  "evaluation_freeze_sha256": "0d529ac316c3f79263f01aedc9d5f8e11343d5395f91d99a601911e671657863",
+  "implementation_amendment": {
+    "bytes": 4223,
+    "path": "benchmarks/qualified_pose_atom_order_amendment.json",
+    "sha256": "93e75fd44e036a007b3e37bb7fa40c83f911ea366eb581e4254704f9f59d47da"
+  },
+  "native_docking_or_modeling_executables_used": false,
+  "outputs": [
+    {
+      "bytes": 6037,
+      "path": "docs/QUALIFIED_BLIND_POSE_V2_RESULTS.md",
+      "sha256": "d2e97f8b0070671746288427cba087c70d2ecdfaf03bedd904be6553dbde105e"
+    },
+    {
+      "bytes": 10071074,
+      "path": "results/development_pose_report_release/qualified_pose_v2_summary.json",
+      "sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2"
+    }
+  ],
+  "process_exit_code": 0,
+  "processed_tree_absent": true,
+  "schema_version": 1,
+  "source_commit": "b8a11f1af13e6390063b0312456493c4fa94c175",
+  "started_at_UTC": "2026-11-03T22:28:22.651341+00:00",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "tools_absent": true,
+  "workspace_plan_sha256": "805699da28626750e9ba62efedf3a49bff84297f089131fd648d9fd8a5d472e8",
+  "workspace_provenance_sha256": "e5ff50d1d29090acea6c797a685f61c46990131a72d84142212d0ba789dda183"
+}

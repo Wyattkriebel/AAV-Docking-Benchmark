@@ -1,0 +1,138 @@
+{
+  "arithmetic": {
+    "1QFO_eligible_zero": true,
+    "aav_and_154L_null": true,
+    "actual_report_regenerated_by_reviewer": false,
+    "aggregate_fields_independently_checked": 216,
+    "atomic_eligible_pools_per_budget": 54,
+    "contract_driver_sha256": "93d2e45c01aef6115ba1dd983e720c0dd77ed87d2e60b79fb4a36614ed3fe8a2",
+    "core_pools_per_budget": 36,
+    "cross_budget_rows": 800,
+    "denominator": {
+      "atomic_eligible_complexes": 6,
+      "atomic_eligible_method_conditions": 18,
+      "atomic_reference_ineligible_method_conditions": 9,
+      "eligible_conditions": 27,
+      "failed_seed_runs": 3,
+      "full_model_complexes": 2,
+      "modeled_core_complexes": 4,
+      "prepared_boxes": 52,
+      "scheduled_seed_runs": 156,
+      "successful_seed_runs": 153,
+      "terminal_seed_runs": 156
+    },
+    "frozen_edits": false,
+    "full_pools_per_budget": 18,
+    "maximum_independent_RMSD_error_A": 4.263256414560601e-14,
+    "native_calls": false,
+    "new_six_case_accuracy_accessed": false,
+    "numeric_driver_sha256": "d1fc29b52e156161ad52465f5f33bc2608c38050df92deb1d8e1ac838490331d",
+    "numeric_review_sha256": "889f8ea64ab3b2f16cffd9e0b28cb36dc37e384748f6d9b9e83f7523e66c91c2",
+    "official_report_sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2",
+    "per_box_provenance_checks": 33,
+    "pooled_rows": 2720,
+    "prior_diagnostic_seed_pools_exact": 108,
+    "prior_diagnostic_sha256": "0ae68d2bfb838ef513ca7670c0620dedbfed979b7df10c498283268d8d20e593",
+    "raw_models": 1920,
+    "source_files_verified": 982,
+    "status": "official_old_v2_independent_acceptance_passed"
+  },
+  "endpoint_checks": {
+    "3A_retained_pose_success_only_case": "1KJL",
+    "AAV_and_154L_atomic_metrics_null": true,
+    "all_1A_and_primary_2A_recovery_cells_zero": true,
+    "full_and_core_reported_separately": true,
+    "minimum_global_RMSD_A": 2.265849489505184,
+    "population_confidence_intervals_not_claimed": true,
+    "primary_2A_eligible_pools_per_budget": 54,
+    "unsupported_1QFO_eligible_core_remains_zero": true
+  },
+  "evidence": [
+    {
+      "bytes": 1547,
+      "path": "/tmp/aav-old-v2-independent-acceptance.json",
+      "sha256": "16a078ffffd63875d1f211bca46a5aa7bef9434f25489790d91027ce9648a1ab"
+    },
+    {
+      "bytes": 267898,
+      "path": "/tmp/aav-old-v2-independent-acceptance-numeric.json",
+      "sha256": "889f8ea64ab3b2f16cffd9e0b28cb36dc37e384748f6d9b9e83f7523e66c91c2"
+    },
+    {
+      "bytes": 16663,
+      "path": "/tmp/aav_old156_v2_acceptance.py",
+      "sha256": "d1fc29b52e156161ad52465f5f33bc2608c38050df92deb1d8e1ac838490331d"
+    },
+    {
+      "bytes": 4779,
+      "path": "/tmp/aav_old_v2_contract_acceptance.py",
+      "sha256": "93d2e45c01aef6115ba1dd983e720c0dd77ed87d2e60b79fb4a36614ed3fe8a2"
+    },
+    {
+      "bytes": 1598,
+      "path": "/tmp/aav-old-v2-1PWB-independent-review.json",
+      "sha256": "bf0f812e1c42aaf686d77b90c72dae92e36fab7116ae7ed14e40a754a96263ff"
+    }
+  ],
+  "forbidden_actions_performed": {
+    "frozen_or_tracked_file_edits": false,
+    "native_execution": false,
+    "new_six_case_accuracy_access": false,
+    "official_report_generation": false,
+    "protected_tree_access": false,
+    "source_expansion": false
+  },
+  "interpretation_limits": [
+    "Development cases and postdiagnostic implementation correction remain explicitly disclosed.",
+    "v1 is invalid forensic output; unchanged raw execution validation and archives remain valid.",
+    "No new experiment, eligibility, endpoint, threshold, ranking or failure disposition was selected.",
+    "Acceptance does not establish population reliability or resolve original input-conformer physical limitations."
+  ],
+  "official_pins": {
+    "evaluator": {
+      "bytes": 55545,
+      "path": "aav_benchmark/qualified_pose_v2.py",
+      "sha256": "1c65a796e1ea14184add305c321ac9dcda6fdd38ad1de59f3a36092b8f71b48b"
+    },
+    "implementation_amendment": {
+      "bytes": 4223,
+      "path": "benchmarks/qualified_pose_atom_order_amendment.json",
+      "sha256": "93e75fd44e036a007b3e37bb7fa40c83f911ea366eb581e4254704f9f59d47da"
+    },
+    "implementation_freeze": {
+      "bytes": 5946,
+      "path": "results/development_pose_report_release/evaluation_v2_freeze.json",
+      "sha256": "0d529ac316c3f79263f01aedc9d5f8e11343d5395f91d99a601911e671657863"
+    },
+    "official_markdown": {
+      "bytes": 6037,
+      "path": "docs/QUALIFIED_BLIND_POSE_V2_RESULTS.md",
+      "sha256": "d2e97f8b0070671746288427cba087c70d2ecdfaf03bedd904be6553dbde105e"
+    },
+    "official_summary": {
+      "bytes": 10071074,
+      "path": "results/development_pose_report_release/qualified_pose_v2_summary.json",
+      "sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2"
+    },
+    "v1_invalidation": {
+      "bytes": 3577,
+      "path": "results/development_pose_report_release/v1_invalidation.json",
+      "sha256": "0147d51ccd8407025f5a9e1f71791f040353e12f2fa0a483d0f3367e570d6133"
+    }
+  },
+  "physical_diagnostic_scope": {
+    "baseline": "archived independent legacy SDF before PDBQT/translation rounding; not exact executed per-box PDBQT",
+    "independent_contact_and_geometry_spot_check": "1PWB oracle seed104729 model1",
+    "stereo_not_independently_recomputed_in_numerical_acceptance": true
+  },
+  "reviewed_source_data_commit": "b8a11f1af13e6390063b0312456493c4fa94c175",
+  "scope": "OLD156 official corrected v2 only; arithmetic and provenance acceptance, not independent biological confirmation",
+  "source_frame_controls": {
+    "1QFO_released_ligand_atom_map_unavailable_but_no_scored_pose": true,
+    "cases": 6,
+    "independent_SVD_fits_and_native_0A_translated_5A_controls_pass": true,
+    "prepared_protein_equals_source_native_coordinates": true
+  },
+  "status": "accepted_no_blocking_numerical_findings",
+  "workspace": "/tmp/aav-qualified-v2-replay-b8a11f1"
+}

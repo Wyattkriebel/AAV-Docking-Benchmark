@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "bytes": 1547,
+      "original_path": "/tmp/aav-old-v2-independent-acceptance.json",
+      "preserved_path": "results/development_pose_report_release/v2_numeric_review/aav-old-v2-independent-acceptance.json",
+      "sha256": "16a078ffffd63875d1f211bca46a5aa7bef9434f25489790d91027ce9648a1ab"
+    },
+    {
+      "bytes": 267898,
+      "original_path": "/tmp/aav-old-v2-independent-acceptance-numeric.json",
+      "preserved_path": "results/development_pose_report_release/v2_numeric_review/aav-old-v2-independent-acceptance-numeric.json",
+      "sha256": "889f8ea64ab3b2f16cffd9e0b28cb36dc37e384748f6d9b9e83f7523e66c91c2"
+    },
+    {
+      "bytes": 16663,
+      "original_path": "/tmp/aav_old156_v2_acceptance.py",
+      "preserved_path": "results/development_pose_report_release/v2_numeric_review/aav_old156_v2_acceptance.py",
+      "sha256": "d1fc29b52e156161ad52465f5f33bc2608c38050df92deb1d8e1ac838490331d"
+    },
+    {
+      "bytes": 4779,
+      "original_path": "/tmp/aav_old_v2_contract_acceptance.py",
+      "preserved_path": "results/development_pose_report_release/v2_numeric_review/aav_old_v2_contract_acceptance.py",
+      "sha256": "93d2e45c01aef6115ba1dd983e720c0dd77ed87d2e60b79fb4a36614ed3fe8a2"
+    },
+    {
+      "bytes": 1598,
+      "original_path": "/tmp/aav-old-v2-1PWB-independent-review.json",
+      "preserved_path": "results/development_pose_report_release/v2_numeric_review/aav-old-v2-1PWB-independent-review.json",
+      "sha256": "bf0f812e1c42aaf686d77b90c72dae92e36fab7116ae7ed14e40a754a96263ff"
+    }
+  ],
+  "schema_version": 1,
+  "source_review_receipt_sha256": "3bd68d89177b0369148f376c3ccbd2a1e5be282f11d74ce7c92b11c8dacda050"
+}
