@@ -1,0 +1,18 @@
+{
+  "atomic_accuracy_evaluated": false,
+  "canonical_terminal_seed_runs": 156,
+  "complete_boxes": 52,
+  "configuration_sha256": "59908e56e26157c153afa6cd76d265a578242ca8d8a1fa3850720d01f224e634",
+  "driver_pid": 13197,
+  "failed_seed_runs": 3,
+  "observed_seed_records": 156,
+  "previous_interrupted_attempts": 4,
+  "recovery_attempt": "results/blind_pose/_recovery/attempts/20261103T163011.705673Z-13197",
+  "running_seed_runs": 0,
+  "scheduled_box_count": 52,
+  "scheduled_seed_runs": 156,
+  "status": "complete",
+  "successful_seed_runs": 153,
+  "updated_at_UTC": "2026-11-03T20:57:41.934512+00:00",
+  "workers": 4
+}

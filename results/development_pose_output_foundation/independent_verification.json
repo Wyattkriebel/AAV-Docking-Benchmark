@@ -1,0 +1,30 @@
+{
+  "all_before_after_sources_equal": true,
+  "all_full_terminal_and_corrected_lineage_gates_checked": true,
+  "all_manifest_member_bytes_match_live_sources": true,
+  "all_tar_metadata_deterministic": true,
+  "atomic_accuracy_computed": false,
+  "groups": [
+    {
+      "archive_sha256": "28ee3e3d2d305f285ef4a6c66f8b6f2075c5fc17e1b164d55a921575de8c1321",
+      "files": 1404,
+      "group": "old156",
+      "manifest_sha256": "01de653fe57f39d745759323a8c527253a6e3571ee6d5b8efe70d611940f86d0",
+      "uncompressed_bytes": 47141108
+    },
+    {
+      "archive_sha256": "91e2a67a1a876c1c0e831b7b9d375755d0cb610a496a186893423af5d9608798",
+      "files": 107,
+      "group": "corrected9",
+      "manifest_sha256": "b9bf002a405aad206381ff601a86c00e7113dedf04c3d65eb1bb3c5dfecacbae",
+      "uncompressed_bytes": 5364019
+    }
+  ],
+  "hydration_root": "/var/folders/cp/bbqcpp814bjd_6mfhk6lxf7r0000gn/T/aav-old-terminal-hydration-165eme5f",
+  "hydration_verified_members": 1511,
+  "native_programs_executed": false,
+  "raw_numeric_scores_interpreted": false,
+  "review": "Independent post-execution byte/coverage verification; no empirical reader",
+  "schema_version": 1,
+  "workflow_validation_sha256": "cbbd588b66ae75fa939a2fe5030d57bb8e11b10dcc5cc8c7a3a60488ef6f0fef"
+}

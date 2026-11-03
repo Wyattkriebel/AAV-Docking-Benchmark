@@ -1,0 +1,53 @@
+{
+  "basis_commit": "f68775d62551fb76dbd45c98210520b8c752c195",
+  "comparison_policy": "qualified_development_derived_paths_v1",
+  "default_byte_exact": true,
+  "frozen_at_UTC": "2026-11-03T21:01:32.763910+00:00",
+  "frozen_before_original156_development_accuracy": true,
+  "historical_development_metrics_already_exist": true,
+  "metric_generation_has_not_occurred": true,
+  "native_scores_coordinates_counts_decisions_hashes_exact": true,
+  "new_six_case_global_study_metrics_consulted": false,
+  "planned_cross_platform_absolute_derived_tolerance": 1e-10,
+  "schema_version": 1,
+  "scope": "Comparison policy for the original156-run qualified development report only; no scientific endpoint or eligibility change.",
+  "source_files": [
+    {
+      "bytes": 8775,
+      "path": "aav_benchmark/development_report_replay.py",
+      "sha256": "701797cb8492fbc39b2b18dc5f0e7b26b2b9680c269b574bc97ad0cb45dd5b99"
+    },
+    {
+      "bytes": 1667,
+      "path": "scripts/compare_development_report_replay.py",
+      "sha256": "5f3e569646c010aaa4857a2a321343fb95dd4e36f2091694466f507a96e9978f"
+    },
+    {
+      "bytes": 13459,
+      "path": "tests/test_development_report_replay.py",
+      "sha256": "55beb7e546db2ea8096579fc58a6ad2ea3953effcde6ce4284649eb21226ea0a"
+    },
+    {
+      "bytes": 2270,
+      "path": "docs/DEVELOPMENT_REPORT_REPLAY.md",
+      "sha256": "01a5c24377e26640312f6093c16ef663989d36067b3ccfe4f9fb0387a01c1586"
+    }
+  ],
+  "terminal_progress": {
+    "bytes": 621,
+    "failed": 3,
+    "path": "results/blind_pose/execution_progress.json",
+    "scheduled": 156,
+    "sha256": "1793d4089754cb237a14251c2237793d8348059403261c5ad66561919ae2a909",
+    "succeeded": 153
+  },
+  "unchanged_readers": {
+    "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+    "aav_benchmark/report_replay.py": "a6340ec4779fa546eb5673fecaca7b976415b78dbdfb1804b1b3c55c8f2bb048"
+  },
+  "unknown_fields_have_no_tolerance": true,
+  "validation": {
+    "focused_tests_passed": 97,
+    "independent_review_sha256": "66838f272a816cdef59d5a118e3971240b9b6c4925facb4a1e2c6f037c9218cf"
+  }
+}
