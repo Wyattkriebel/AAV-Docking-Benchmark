@@ -1,0 +1,502 @@
+{
+  "archive": "source_preparation.tar.gz",
+  "archive_sha256": "88915e34c2ae8e5202831799dec3e53be1ad08af097c8cb0845d536cde29ef40",
+  "files": [
+    {
+      "bytes": 6316,
+      "path": "2RDK/chemistry.json",
+      "sha256": "9b78ad2e47255d961d66583d55599b1ed800e006423556805ba3003e27dfc19b"
+    },
+    {
+      "bytes": 3218,
+      "path": "2RDK/ligand.pdbqt",
+      "sha256": "3bc1dfe66104f3d6c5bab2b22623fe976dbc6e1674ea3f63c585cc8cbbd2ab49"
+    },
+    {
+      "bytes": 3825,
+      "path": "2RDK/ligand.sdf",
+      "sha256": "b1b0a6c8842e9982a2888a205779248c522cae9f7906d06894c965679a635429"
+    },
+    {
+      "bytes": 5806,
+      "path": "2RDK/ligand_atom_map.json",
+      "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+    },
+    {
+      "bytes": 5047,
+      "path": "2RDK/native_control/native_control.json",
+      "sha256": "005a42b695f96214a0509c34e7b39f14f519713793c6e75477cb94bb26b41d75"
+    },
+    {
+      "bytes": 3218,
+      "path": "2RDK/native_control/native_ligand.pdbqt",
+      "sha256": "ede26fa2504516608156aa42551059e3dbb3512d9ad0e117d75d9e14bd797307"
+    },
+    {
+      "bytes": 3825,
+      "path": "2RDK/native_control/native_ligand.sdf",
+      "sha256": "18175a21e8a4aa42ea78bfa3762d565ea0a0829f427426749c3d3794e296bc46"
+    },
+    {
+      "bytes": 489793,
+      "path": "2RDK/protein_atom_map.json",
+      "sha256": "37a2ca1b3b2c37e90d8670c1bf27d6d836c91cad66a77e6cbdfc48733578e8b3"
+    },
+    {
+      "bytes": 2817,
+      "path": "2RDK/protein_preparation.json",
+      "sha256": "659993063238166e2fb45cceee32ec76ee986119f54040c94e758eb3b00bfce1"
+    },
+    {
+      "bytes": 50129,
+      "path": "2RDK/receptor.cif",
+      "sha256": "8f804aba6dcd8651f986e1c21f26f1e4dc8be3711297722fe9437f9b30852e54"
+    },
+    {
+      "bytes": 2817,
+      "path": "2RDK/receptor.cif.manifest.json",
+      "sha256": "659993063238166e2fb45cceee32ec76ee986119f54040c94e758eb3b00bfce1"
+    },
+    {
+      "bytes": 61722,
+      "path": "2RDK/receptor.pdb",
+      "sha256": "a99c88ea6c4dcb623cd07a2d43cd3a1b49efd1705d40072bc8a41b12a16a5444"
+    },
+    {
+      "bytes": 61722,
+      "path": "2RDK/receptor_parameterization/receptor.pdb",
+      "sha256": "a99c88ea6c4dcb623cd07a2d43cd3a1b49efd1705d40072bc8a41b12a16a5444"
+    },
+    {
+      "bytes": 75520,
+      "path": "2RDK/receptor_parameterization/receptor.pdbqt",
+      "sha256": "1b5db0fd909bdaf27e19841dfa9c4bcf1b719f2beb297caf3ed1b05d08c38f60"
+    },
+    {
+      "bytes": 123230,
+      "path": "2RDK/receptor_parameterization/receptor_atom_changes.json",
+      "sha256": "813f22841ca0eb1b537abf9a0b5ebae13d1984273e0099dc824c343b9fcec3b9"
+    },
+    {
+      "bytes": 145434,
+      "path": "2RDK/receptor_parameterization.json",
+      "sha256": "7477f8ccbcdc50d5f8e681407732fc960f16ef41593e6526e2a5dfe7cacc5ebb"
+    },
+    {
+      "bytes": 178003,
+      "path": "2RDK/source_preparation.json",
+      "sha256": "dba221bb713225d643f060fd4956828687143a87009655aa1f9d04849951a49c"
+    },
+    {
+      "bytes": 589,
+      "path": "2RDK/source_symmetry.json",
+      "sha256": "f0bf7dcd195c88846f427416d9e087b153c150d4d3df66dbe580258036b14fbb"
+    },
+    {
+      "bytes": 12953,
+      "path": "3ZWE/chemistry.json",
+      "sha256": "4fa270c8351e8a8718575a451036ca714cc2b5631675af8651ff956c5dbffa30"
+    },
+    {
+      "bytes": 5934,
+      "path": "3ZWE/ligand.pdbqt",
+      "sha256": "b64b9a81870349eed49c18b4b93b0d83f6079a62afff2b248dead903cb0131cf"
+    },
+    {
+      "bytes": 7254,
+      "path": "3ZWE/ligand.sdf",
+      "sha256": "5f6546567f76e2deba09ca11b670ae24c8a456c1a01d88dd3cd6ef5c029bef67"
+    },
+    {
+      "bytes": 11098,
+      "path": "3ZWE/ligand_atom_map.json",
+      "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+    },
+    {
+      "bytes": 9419,
+      "path": "3ZWE/native_control/native_control.json",
+      "sha256": "9f941aec27b73afd2e2951ce51051b27517b349d98705372ab69780b9abf2dd0"
+    },
+    {
+      "bytes": 5934,
+      "path": "3ZWE/native_control/native_ligand.pdbqt",
+      "sha256": "2e6e173998dbd1295ae933a31dc1adcdfd2ba80f3ec37d1e7d0b5c89782de815"
+    },
+    {
+      "bytes": 7254,
+      "path": "3ZWE/native_control/native_ligand.sdf",
+      "sha256": "d7e0dc503301145aa5d8f1af1e468470e7a17f52c44a382e40664e2a478c9c4a"
+    },
+    {
+      "bytes": 1281630,
+      "path": "3ZWE/protein_atom_map.json",
+      "sha256": "1f55fd9c24c1325d55cc26ae0eef0edc2c193c02764e7890ad455b84cbcd4b79"
+    },
+    {
+      "bytes": 1961,
+      "path": "3ZWE/protein_preparation.json",
+      "sha256": "47b568f20d6acad16b7364af93184b171ef2a9454047eb62d2f07def7c7106ce"
+    },
+    {
+      "bytes": 131721,
+      "path": "3ZWE/receptor.cif",
+      "sha256": "2291c392a4746ab6614c4e810d5699a9e09ba595d7c5ad8b9d6ef2d2bf4dbfa8"
+    },
+    {
+      "bytes": 1961,
+      "path": "3ZWE/receptor.cif.manifest.json",
+      "sha256": "47b568f20d6acad16b7364af93184b171ef2a9454047eb62d2f07def7c7106ce"
+    },
+    {
+      "bytes": 160785,
+      "path": "3ZWE/receptor.pdb",
+      "sha256": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918"
+    },
+    {
+      "bytes": 160785,
+      "path": "3ZWE/receptor_parameterization/receptor.pdb",
+      "sha256": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918"
+    },
+    {
+      "bytes": 196560,
+      "path": "3ZWE/receptor_parameterization/receptor.pdbqt",
+      "sha256": "a3e28e76d387d0bdb410b75458e96fc5c5d097b0252af34f4335e39fde2bc114"
+    },
+    {
+      "bytes": 304354,
+      "path": "3ZWE/receptor_parameterization/receptor_atom_changes.json",
+      "sha256": "344d89cb8e37e5b66b68da92a98adc4a54608cdbbe9bc655d046bc532a82596a"
+    },
+    {
+      "bytes": 358782,
+      "path": "3ZWE/receptor_parameterization.json",
+      "sha256": "14f5a483fb654433058355d289aa61f1dc1f9a10b9831c30b819d21cc6e5621c"
+    },
+    {
+      "bytes": 427383,
+      "path": "3ZWE/source_preparation.json",
+      "sha256": "472695f370a59524c62c3314fdc6017af493a2be4f19fb8a05515b8135775f41"
+    },
+    {
+      "bytes": 589,
+      "path": "3ZWE/source_symmetry.json",
+      "sha256": "f0bf7dcd195c88846f427416d9e087b153c150d4d3df66dbe580258036b14fbb"
+    },
+    {
+      "bytes": 6315,
+      "path": "4R9F/chemistry.json",
+      "sha256": "b28b88b8fdce00c580f1709e4d2e857676585d0541f52fdf11eee50cd0f87df4"
+    },
+    {
+      "bytes": 3217,
+      "path": "4R9F/ligand.pdbqt",
+      "sha256": "52d80ae2b1b413571176c95fa273d20e6cdaed793d670103549df6c91490b1b4"
+    },
+    {
+      "bytes": 3825,
+      "path": "4R9F/ligand.sdf",
+      "sha256": "4a4080576d46d1aa3d8b1c0d89517f356e49e040eda750b58cd8e422ed437369"
+    },
+    {
+      "bytes": 5806,
+      "path": "4R9F/ligand_atom_map.json",
+      "sha256": "8fe6dfaeedc809f7ba59d430c47d141bfcdf22a4773c0ce3879db6aa8740cbdb"
+    },
+    {
+      "bytes": 5040,
+      "path": "4R9F/native_control/native_control.json",
+      "sha256": "8c3a602cdf1d5b2dfb72905eef8c046a0bf04a36b59e693c56f7b0056aa1b7cb"
+    },
+    {
+      "bytes": 3217,
+      "path": "4R9F/native_control/native_ligand.pdbqt",
+      "sha256": "6d3163d64d02dad086fd491a059d4bb0edd410d28c5ba99e4564e884bc9bb1b9"
+    },
+    {
+      "bytes": 3825,
+      "path": "4R9F/native_control/native_ligand.sdf",
+      "sha256": "1fd2e099b8ca578531917a170be19dc6a2bc3138b44601b02554ca160635f294"
+    },
+    {
+      "bytes": 1993556,
+      "path": "4R9F/protein_atom_map.json",
+      "sha256": "364476197d1c0004cfcb24ae08d51c1a0e2f1fd32dd3d74294b1818bb01f1093"
+    },
+    {
+      "bytes": 848,
+      "path": "4R9F/protein_preparation.json",
+      "sha256": "d26aa8cab221eb530a314d7a0e4c0e04f0fc32bb71aa19519cd1486b7e62a8cc"
+    },
+    {
+      "bytes": 206195,
+      "path": "4R9F/receptor.cif",
+      "sha256": "9a1341f03b473489495945c6518ce5582d364ca36700d61c8210f585b1c5ac72"
+    },
+    {
+      "bytes": 848,
+      "path": "4R9F/receptor.cif.manifest.json",
+      "sha256": "d26aa8cab221eb530a314d7a0e4c0e04f0fc32bb71aa19519cd1486b7e62a8cc"
+    },
+    {
+      "bytes": 249318,
+      "path": "4R9F/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 269,
+      "path": "4R9F/receptor_parameterization.json",
+      "sha256": "facc332710822092002caf921675ac6f6cfc8bc999a0c9f4bf98d3ed31ddc3e9"
+    },
+    {
+      "bytes": 8365,
+      "path": "4R9F/source_preparation.json",
+      "sha256": "f1d8ddf1ba0cbeceec2865cf429d3728a556d10bfd69375c41ffce27f3e31945"
+    },
+    {
+      "bytes": 589,
+      "path": "4R9F/source_symmetry.json",
+      "sha256": "f0bf7dcd195c88846f427416d9e087b153c150d4d3df66dbe580258036b14fbb"
+    },
+    {
+      "bytes": 9876,
+      "path": "5HZA/chemistry.json",
+      "sha256": "0e3006cba865e1a00905557d6a71e5b7d5f8fb1ff4293f57984e9b20be32609f"
+    },
+    {
+      "bytes": 4458,
+      "path": "5HZA/ligand.pdbqt",
+      "sha256": "a8ed0ca0b339f6770d85acacc17a4302f7d8b4c9aa6d506b1cc831926f7a19bd"
+    },
+    {
+      "bytes": 5498,
+      "path": "5HZA/ligand.sdf",
+      "sha256": "6962d0c44454801bfbe97d3c5e61c732ba0d35b6f5829141cb47b8baef3fc463"
+    },
+    {
+      "bytes": 8326,
+      "path": "5HZA/ligand_atom_map.json",
+      "sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80"
+    },
+    {
+      "bytes": 7224,
+      "path": "5HZA/native_control/native_control.json",
+      "sha256": "24a20ca398a17e637eaa679cc3b4c9fd20bd934c31c20ebd866a1430c2acd0bc"
+    },
+    {
+      "bytes": 4458,
+      "path": "5HZA/native_control/native_ligand.pdbqt",
+      "sha256": "653ff8deb91f5ebee27c87d4461457f85defd15a466d87207f990803d74af1dd"
+    },
+    {
+      "bytes": 5498,
+      "path": "5HZA/native_control/native_ligand.sdf",
+      "sha256": "c0cc77d23980f8c9bd3a34074861125d011a69ed52566610cd33aaff8b567cff"
+    },
+    {
+      "bytes": 3088394,
+      "path": "5HZA/protein_atom_map.json",
+      "sha256": "95295264eafe8a79063b606d8620a39e6be4a83448411a90fb45cc0c4fb5e189"
+    },
+    {
+      "bytes": 6565,
+      "path": "5HZA/protein_preparation.json",
+      "sha256": "738c086e5d5e6e6aac8dc35ff00693794b7d72deefc846b9abbebe59f559e7f3"
+    },
+    {
+      "bytes": 317338,
+      "path": "5HZA/receptor.cif",
+      "sha256": "1d5c3068e103ad05719372f30069edce9fc15dce55f5fe1e97df7b89b095dfbf"
+    },
+    {
+      "bytes": 6565,
+      "path": "5HZA/receptor.cif.manifest.json",
+      "sha256": "738c086e5d5e6e6aac8dc35ff00693794b7d72deefc846b9abbebe59f559e7f3"
+    },
+    {
+      "bytes": 386451,
+      "path": "5HZA/receptor.pdb",
+      "sha256": "fa8aca5ab1e9bc0f556758d595b65e6959191349c2d81639c561327a1dee61c7"
+    },
+    {
+      "bytes": 225,
+      "path": "5HZA/receptor_parameterization.json",
+      "sha256": "301b1325754f9899fa25bc0859c89b342bdea204acd75702aaec00968737258d"
+    },
+    {
+      "bytes": 16941,
+      "path": "5HZA/source_preparation.json",
+      "sha256": "f842754c7f8263fa76e0d1500171b2e6d94c3b53dc7ae0558ee165b633386ac9"
+    },
+    {
+      "bytes": 589,
+      "path": "5HZA/source_symmetry.json",
+      "sha256": "f0bf7dcd195c88846f427416d9e087b153c150d4d3df66dbe580258036b14fbb"
+    },
+    {
+      "bytes": 9395,
+      "path": "5V6F/chemistry.json",
+      "sha256": "8fdf41a743a65bcd911fe425881ef037f249fe958fe8b7a1ac40c8ecfc3482b4"
+    },
+    {
+      "bytes": 4715,
+      "path": "5V6F/ligand.pdbqt",
+      "sha256": "5e7329b007482245b4f7f69f2091bc040f06d63e98f0785b9835b005bdae20a2"
+    },
+    {
+      "bytes": 5581,
+      "path": "5V6F/ligand.sdf",
+      "sha256": "098c2ab6bd23362eb2e325bf38f74bda52763499aff457ef14bfc819e0477dc5"
+    },
+    {
+      "bytes": 8578,
+      "path": "5V6F/ligand_atom_map.json",
+      "sha256": "8bf03d3db5742492ed5a0115980fef3f3f99c9f6cf04b44185bd655e82ce9b59"
+    },
+    {
+      "bytes": 7222,
+      "path": "5V6F/native_control/native_control.json",
+      "sha256": "edb8d6c67b29b06fcaf7da89c8bf5ce24b1ee128322336364b0ee00612e5ef2c"
+    },
+    {
+      "bytes": 4715,
+      "path": "5V6F/native_control/native_ligand.pdbqt",
+      "sha256": "7c1fbdc3cc9f68be50f737b9333565d8ceaf1414478d04faf59a82794c39dd36"
+    },
+    {
+      "bytes": 5581,
+      "path": "5V6F/native_control/native_ligand.sdf",
+      "sha256": "5cb529cf790e0e7f48bd24bf223706459a715854831978f64b113d66d26982ae"
+    },
+    {
+      "bytes": 674629,
+      "path": "5V6F/protein_atom_map.json",
+      "sha256": "bb119954ca2078118e74c9adae42f640ddadaa97c9e2ed6a26594fe4e7c94eb0"
+    },
+    {
+      "bytes": 835,
+      "path": "5V6F/protein_preparation.json",
+      "sha256": "dccac284a2cb6028033441c7f931da0592f20fe6d4e59754bb3efa2d273dc74e"
+    },
+    {
+      "bytes": 68367,
+      "path": "5V6F/receptor.cif",
+      "sha256": "d73227a5bb0b97a8eca0d3061ed1953afd1b2479cf2e75638e47452954be79b7"
+    },
+    {
+      "bytes": 835,
+      "path": "5V6F/receptor.cif.manifest.json",
+      "sha256": "dccac284a2cb6028033441c7f931da0592f20fe6d4e59754bb3efa2d273dc74e"
+    },
+    {
+      "bytes": 84564,
+      "path": "5V6F/receptor.pdb",
+      "sha256": "22a93d3082da0e4a27d109c70202325ffbfe8aa89c4878f78f9730da85a12102"
+    },
+    {
+      "bytes": 164,
+      "path": "5V6F/receptor_parameterization.json",
+      "sha256": "d732fc03467a0b35011e8412e2e06d7b8efdc2f0afcaeb3fefb3ee5cb949a9ca"
+    },
+    {
+      "bytes": 10576,
+      "path": "5V6F/source_preparation.json",
+      "sha256": "59afc1c39fb552e8bf1c451dfb309778f689e623ca5fa6e8cd26dd481eaef9a7"
+    },
+    {
+      "bytes": 589,
+      "path": "5V6F/source_symmetry.json",
+      "sha256": "f0bf7dcd195c88846f427416d9e087b153c150d4d3df66dbe580258036b14fbb"
+    },
+    {
+      "bytes": 6332,
+      "path": "8I5U/chemistry.json",
+      "sha256": "ccf2622575ebcbb57f06781bcaf787e378703d3bb527d469422c1d4ec641f093"
+    },
+    {
+      "bytes": 3217,
+      "path": "8I5U/ligand.pdbqt",
+      "sha256": "1b5cdb94dfa245f999ae3f3c15de6de3f6618a3200a601e371bd0989a8f08618"
+    },
+    {
+      "bytes": 3825,
+      "path": "8I5U/ligand.sdf",
+      "sha256": "a639357359f63c093047bd218be3a6cbeb70a3f6e681e829fac88ebe3b8443ee"
+    },
+    {
+      "bytes": 5806,
+      "path": "8I5U/ligand_atom_map.json",
+      "sha256": "7e32dacef987a5049a323b172f06f88b87ace61e44d02211602863daa69ff9b9"
+    },
+    {
+      "bytes": 5057,
+      "path": "8I5U/native_control/native_control.json",
+      "sha256": "f612594fdc3b43bda133326d800f06e87c9a66ca92fc6ff3af72c8444f3add32"
+    },
+    {
+      "bytes": 3217,
+      "path": "8I5U/native_control/native_ligand.pdbqt",
+      "sha256": "c3551bf6766ef40b4602f43c31dd4000e56703896294850ef49fe849f264540a"
+    },
+    {
+      "bytes": 3825,
+      "path": "8I5U/native_control/native_ligand.sdf",
+      "sha256": "93fbbdb29de09ba050e9e3ca9b1e97ceda986d3488abea95f503b727b9751f03"
+    },
+    {
+      "bytes": 4035920,
+      "path": "8I5U/protein_atom_map.json",
+      "sha256": "f8719d4a4c8c392ffb30d2b0faef484b68af8f57056a9544df18472e1d85fd76"
+    },
+    {
+      "bytes": 5384,
+      "path": "8I5U/protein_preparation.json",
+      "sha256": "7ddcb27a317555cfb63e3e152b8ab601e5f01b479f5686ab5b1b72617b3efead"
+    },
+    {
+      "bytes": 417795,
+      "path": "8I5U/receptor.cif",
+      "sha256": "ffd675e4b215c369606344edadbe96fabb32ea142d71d34446ee3fcf4aceff20"
+    },
+    {
+      "bytes": 5384,
+      "path": "8I5U/receptor.cif.manifest.json",
+      "sha256": "7ddcb27a317555cfb63e3e152b8ab601e5f01b479f5686ab5b1b72617b3efead"
+    },
+    {
+      "bytes": 504063,
+      "path": "8I5U/receptor.pdb",
+      "sha256": "23f14f3e7b04c6704425c4aaabcbd5c5ed1a18455e823c302dadd29bcd587e7a"
+    },
+    {
+      "bytes": 173,
+      "path": "8I5U/receptor_parameterization.json",
+      "sha256": "09df923eed2ab2425fee8371c1cdd3901a3473c7183eb5e85ed06322bd501e8c"
+    },
+    {
+      "bytes": 13243,
+      "path": "8I5U/source_preparation.json",
+      "sha256": "5eecbd7ed261f20dc82e954ed99288777640ee53a18b61dd6a1da9ef57875399"
+    },
+    {
+      "bytes": 589,
+      "path": "8I5U/source_symmetry.json",
+      "sha256": "f0bf7dcd195c88846f427416d9e087b153c150d4d3df66dbe580258036b14fbb"
+    },
+    {
+      "bytes": 18040,
+      "path": "experiment_proposal.json",
+      "sha256": "547d51e4b4c45a586cabffa444600835426a96aed080adb8fee74bddc0f25c8a"
+    },
+    {
+      "bytes": 917811,
+      "path": "planning_inventory.json",
+      "sha256": "00295cf16238536a7ee9c73b52dae24ac9a20037344deb5f31d7c85ed76d69c4"
+    },
+    {
+      "bytes": 817825,
+      "path": "source_preparation.json",
+      "sha256": "2444c9c6bdd953b5cdbd8050b3b7eb525c5e3b95d93e47f4138803c2a436631c"
+    }
+  ],
+  "role": "exact mechanical source-preparation bytes; no new predictions or docking outcomes"
+}
