@@ -140,6 +140,14 @@ python -m aav_benchmark.additional_method verify-example
 python -m aav_benchmark.haddock_replay
 ```
 
+An independently generated [CCD ideal-ring initialization profile](docs/INPUT_RING_GEOMETRY.md)
+now preserves the full graphs, stereochemistry and named ring geometry of seven
+glycan inputs while allowing inter-sugar torsions to vary. Earlier input
+profiles remain unchanged. The [review amendment](docs/INPUT_RING_REVIEW_AMENDMENT.md)
+explicitly records an overwritten derived review and its unrecovered historical
+pin; all 32 primary artifacts verify. Run
+`python scripts/verify_ring_initialization.py` for read-only saved-product checks.
+
 The Gal3 panel contains three measured binders from one ITC study. It supports
 exploratory affinity ranking, with both reducing-end anomers evaluated separately.
 It cannot estimate binder/nonbinder classification. The isolated docking domain

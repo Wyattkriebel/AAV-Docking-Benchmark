@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "profile_id": "ccd_ideal_pyranose_v3",
+  "receipt_created_utc": "2026-11-03T16:59:33.453600+00:00",
+  "purpose": "Source-only independent chemical-ideal pyranose conformer feasibility and frozen artifact receipt; downstream study requires separate root freeze.",
+  "source_only": true,
+  "experimental_ligand_coordinates_read": false,
+  "receptor_or_docking_outcomes_read": false,
+  "no_docking_performed": true,
+  "timing_statement": "Policy and algorithm version hashes match all executed case reports. Source-only development versions and complete failures are preserved. This receipt was created after the listed feasibility outputs and is not an external preregistration. No prospective docking or atomic-accuracy outcome was inspected.",
+  "policy": {
+    "path": "benchmarks/ideal_ring_conformer_policy.json",
+    "sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+    "bytes": 4972
+  },
+  "algorithm": {
+    "path": "aav_benchmark/ideal_ring_conformers.py",
+    "sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e",
+    "bytes": 19249
+  },
+  "ring_math": {
+    "path": "aav_benchmark/ring_geometry.py",
+    "sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+    "bytes": 7732
+  },
+  "documentation": {
+    "path": "docs/INPUT_RING_GEOMETRY.md",
+    "sha256": "fe276e00729e1848c60ad98539ec8a5bca9104c4b2c5608588b3c002b0e102c9",
+    "bytes": 11824
+  },
+  "tests": {
+    "path": "tests/test_ideal_ring_conformers.py",
+    "sha256": "e76210bc10ba14f654fdd26595b925b29f14738510c5a072e9aea9bb79fff655",
+    "bytes": 14018
+  },
+  "golden_chemical_graphs": {
+    "path": "tests/fixtures/ideal_ring_expected_parent_graphs.json",
+    "sha256": "5afa84cc93b616a3a3de1f007669ddbe0f2d6e4d3e1d4a6937311874716f57de",
+    "bytes": 3947
+  },
+  "environment": {
+    "python": "3.11.8",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "rdkit": "2026.09.1",
+    "numpy": "2.4.2",
+    "gemmi": "0.7.5",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "validation": {
+    "command": ".venv/bin/python -m pytest -q tests/test_ideal_ring_conformers.py",
+    "passed": 11,
+    "failed": 0,
+    "complete_cases": 7,
+    "complete_heavy_atoms": 226,
+    "rings": 21,
+    "stereocenters": 100,
+    "candidate_slot_denominator": 140,
+    "candidate_status_counts": {
+      "embedding_failed": 35,
+      "valid": 86,
+      "invalid": 19
+    },
+    "independent_review": {
+      "path": "results/common_pose_rescoring/geometry_diagnosis/initializer_v3_all7_independent_review.json",
+      "sha256": "63a8a6fb7f200e449dff2b620b45025fb12fa7d1439934204e028820db9c2b92",
+      "bytes": 11269
+    }
+  },
+  "cases": [
+    {
+      "case_id": "1GNY",
+      "status": "selected",
+      "full_parent_heavy_atoms": 46,
+      "ring_count": 5,
+      "stereocenter_count": 20,
+      "candidate_slots": 20,
+      "valid_candidate_count": 2,
+      "selected_slot": 10,
+      "selected_unconstrained_mmff_energy_kcal_mol": 355.8076649147724,
+      "max_named_pucker_angle_to_CCD_deg": 2.5487627411496185,
+      "min_abs_named_stereo_volume_A3": 2.3852954396259993,
+      "min_nonbonded_heavy_vdw_sum_fraction": 0.8399096847558746,
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/1GNY/report.json",
+        "sha256": "f53fcded7a3fa4bb3895d6d0f408b403ebe7d663d1a2f44f44d2cf0f3e6a3352",
+        "bytes": 118717
+      },
+      "ligand_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/1GNY/ligand.sdf",
+        "sha256": "a4cf7fc4cd3e50f580835d58f113041b20f64091dac0b308a414065c34090092",
+        "bytes": 19480
+      }
+    },
+    {
+      "case_id": "2RDK",
+      "status": "selected",
+      "full_parent_heavy_atoms": 23,
+      "ring_count": 2,
+      "stereocenter_count": 10,
+      "candidate_slots": 20,
+      "valid_candidate_count": 19,
+      "selected_slot": 8,
+      "selected_unconstrained_mmff_energy_kcal_mol": 166.47520034116963,
+      "max_named_pucker_angle_to_CCD_deg": 3.479493341940561,
+      "min_abs_named_stereo_volume_A3": 2.2371227344799993,
+      "min_nonbonded_heavy_vdw_sum_fraction": 0.8432327284066097,
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/report.json",
+        "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146",
+        "bytes": 217237
+      },
+      "ligand_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/ligand.sdf",
+        "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b",
+        "bytes": 9907
+      }
+    },
+    {
+      "case_id": "3ZWE",
+      "status": "selected",
+      "full_parent_heavy_atoms": 44,
+      "ring_count": 4,
+      "stereocenter_count": 20,
+      "candidate_slots": 20,
+      "valid_candidate_count": 2,
+      "selected_slot": 4,
+      "selected_unconstrained_mmff_energy_kcal_mol": 332.38998993127507,
+      "max_named_pucker_angle_to_CCD_deg": 5.077672270563071,
+      "min_abs_named_stereo_volume_A3": 2.2469872442069994,
+      "min_nonbonded_heavy_vdw_sum_fraction": 0.8397305286379931,
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+        "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e",
+        "bytes": 90010
+      },
+      "ligand_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+        "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518",
+        "bytes": 18763
+      }
+    },
+    {
+      "case_id": "4R9F",
+      "status": "selected",
+      "full_parent_heavy_atoms": 23,
+      "ring_count": 2,
+      "stereocenter_count": 10,
+      "candidate_slots": 20,
+      "valid_candidate_count": 14,
+      "selected_slot": 0,
+      "selected_unconstrained_mmff_energy_kcal_mol": 166.0596039377108,
+      "max_named_pucker_angle_to_CCD_deg": 0.9332392297712312,
+      "min_abs_named_stereo_volume_A3": 2.3731745708970013,
+      "min_nonbonded_heavy_vdw_sum_fraction": 0.8430856701616,
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/4R9F/report.json",
+        "sha256": "453d4255f8ca3882f43d122ee369ca3244777800705e5de8f6f3920b5c2543a0",
+        "bytes": 217435
+      },
+      "ligand_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/4R9F/ligand.sdf",
+        "sha256": "5cc6f5015d65ec8b94de45b2ce34d4e58e2181f4ad698b9bcf07080903a884bb",
+        "bytes": 9906
+      }
+    },
+    {
+      "case_id": "5HZA",
+      "status": "selected",
+      "full_parent_heavy_atoms": 33,
+      "ring_count": 3,
+      "stereocenter_count": 15,
+      "candidate_slots": 20,
+      "valid_candidate_count": 17,
+      "selected_slot": 14,
+      "selected_unconstrained_mmff_energy_kcal_mol": 242.42796707454488,
+      "max_named_pucker_angle_to_CCD_deg": 3.527957209536692,
+      "min_abs_named_stereo_volume_A3": 2.2418183410799988,
+      "min_nonbonded_heavy_vdw_sum_fraction": 0.8434405918657937,
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/report.json",
+        "sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90",
+        "bytes": 318581
+      },
+      "ligand_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/ligand.sdf",
+        "sha256": "d8e532d3cdce5815aacee220c60351e0ed60d9b59f1f7a370627a96fb353afe4",
+        "bytes": 14170
+      }
+    },
+    {
+      "case_id": "5V6F",
+      "status": "selected",
+      "full_parent_heavy_atoms": 34,
+      "ring_count": 3,
+      "stereocenter_count": 15,
+      "candidate_slots": 20,
+      "valid_candidate_count": 13,
+      "selected_slot": 18,
+      "selected_unconstrained_mmff_energy_kcal_mol": 260.90899280144504,
+      "max_named_pucker_angle_to_CCD_deg": 1.839192578812866,
+      "min_abs_named_stereo_volume_A3": 2.2131633662809995,
+      "min_nonbonded_heavy_vdw_sum_fraction": 0.8427982956366414,
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/report.json",
+        "sha256": "206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd",
+        "bytes": 318227
+      },
+      "ligand_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/ligand.sdf",
+        "sha256": "3817dc1c936a6c3cba04552fb983f66064bd91154b58af55932c036e38e60852",
+        "bytes": 14503
+      }
+    },
+    {
+      "case_id": "8I5U",
+      "status": "selected",
+      "full_parent_heavy_atoms": 23,
+      "ring_count": 2,
+      "stereocenter_count": 10,
+      "candidate_slots": 20,
+      "valid_candidate_count": 19,
+      "selected_slot": 3,
+      "selected_unconstrained_mmff_energy_kcal_mol": 165.88255230840755,
+      "max_named_pucker_angle_to_CCD_deg": 4.991618882870634,
+      "min_abs_named_stereo_volume_A3": 2.411238932328,
+      "min_nonbonded_heavy_vdw_sum_fraction": 0.846241351353433,
+      "report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/report.json",
+        "sha256": "14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71",
+        "bytes": 217543
+      },
+      "ligand_sdf": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/ligand.sdf",
+        "sha256": "451faa8a6bad34f59524083543b9fef7c5fb4468114fe27efb5273871cb7709a",
+        "bytes": 9906
+      }
+    }
+  ],
+  "same_seed_full20_slot_determinism_replay": {
+    "case_id": "2RDK",
+    "extra_candidate_seeds": false,
+    "artifacts": {
+      "report.json": {
+        "byte_identical": true,
+        "original": {
+          "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/report.json",
+          "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146",
+          "bytes": 217237
+        },
+        "replay": {
+          "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/determinism_replay/2RDK/report.json",
+          "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146",
+          "bytes": 217237
+        }
+      },
+      "ligand.sdf": {
+        "byte_identical": true,
+        "original": {
+          "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/ligand.sdf",
+          "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b",
+          "bytes": 9907
+        },
+        "replay": {
+          "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/determinism_replay/2RDK/ligand.sdf",
+          "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b",
+          "bytes": 9907
+        }
+      }
+    }
+  },
+  "development_history": [
+    {
+      "profile_id": "ccd_ideal_pyranose_v1",
+      "policy": {
+        "path": "results/ideal_ring_conformer_feasibility/profile_v1/policy.json",
+        "sha256": "b8bd18c2072dbe896cda0c68b6d338b82273abbd1fa14d608d6f0db048dcad66",
+        "bytes": 4117
+      },
+      "algorithm_snapshot": {
+        "path": "results/ideal_ring_conformer_feasibility/profile_v1/algorithm.py",
+        "sha256": "782cbe92e9af1dce2eaa58d70403021e2fdda1a05f6dc6ff98f8c721a54b3107",
+        "bytes": 18509
+      },
+      "ring_math_snapshot": {
+        "path": "results/ideal_ring_conformer_feasibility/profile_v1/ring_geometry.py",
+        "sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+        "bytes": 7732
+      },
+      "case_report": {
+        "path": "results/ideal_ring_conformer_feasibility/profile_v1/1GNY/report.json",
+        "sha256": "cc3b30c44f5a4a1c6074a9a7d8a99320b5e2575196b005303c6b0a117d50d4ad",
+        "bytes": 38472
+      },
+      "first_case_status": "no_valid_conformer"
+    },
+    {
+      "profile_id": "ccd_ideal_pyranose_v2",
+      "policy": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/policy.json",
+        "sha256": "2a6361afbba2e9993e9882a7db3610895c5c87b0da83fdb26c2ee4441faced6c",
+        "bytes": 4541
+      },
+      "algorithm_snapshot": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/algorithm.py",
+        "sha256": "b72563c5b49695ae4ffb67bed4d72ac4e7212a526b4876f61fcfda0046d53bd9",
+        "bytes": 18431
+      },
+      "ring_math_snapshot": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/ring_geometry.py",
+        "sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+        "bytes": 7732
+      },
+      "case_report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/1GNY/report.json",
+        "sha256": "c8d01ec172baf5149b92d2185f73886a8061ad5c8862ff446c69b26b947f59d4",
+        "bytes": 38472
+      },
+      "first_case_status": "no_valid_conformer"
+    },
+    {
+      "profile_id": "ccd_ideal_pyranose_v3",
+      "policy": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/policy.json",
+        "sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+        "bytes": 4972
+      },
+      "algorithm_snapshot": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/algorithm.py",
+        "sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e",
+        "bytes": 19249
+      },
+      "ring_math_snapshot": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/ring_geometry.py",
+        "sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+        "bytes": 7732
+      },
+      "case_report": {
+        "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/1GNY/report.json",
+        "sha256": "f53fcded7a3fa4bb3895d6d0f408b403ebe7d663d1a2f44f44d2cf0f3e6a3352",
+        "bytes": 118717
+      },
+      "first_case_status": "selected"
+    }
+  ],
+  "artifact_files": [
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/1GNY/report.json",
+      "sha256": "c8d01ec172baf5149b92d2185f73886a8061ad5c8862ff446c69b26b947f59d4",
+      "bytes": 38472
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/algorithm.py",
+      "sha256": "b72563c5b49695ae4ffb67bed4d72ac4e7212a526b4876f61fcfda0046d53bd9",
+      "bytes": 18431
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/policy.json",
+      "sha256": "2a6361afbba2e9993e9882a7db3610895c5c87b0da83fdb26c2ee4441faced6c",
+      "bytes": 4541
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/ring_geometry.py",
+      "sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+      "bytes": 7732
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v2/run.log",
+      "sha256": "c8e7645dffff8f85800a49a4c8def905dac43cb1f356cbd19a970ed240f79327",
+      "bytes": 546
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/1GNY/ligand.sdf",
+      "sha256": "a4cf7fc4cd3e50f580835d58f113041b20f64091dac0b308a414065c34090092",
+      "bytes": 19480
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/1GNY/report.json",
+      "sha256": "f53fcded7a3fa4bb3895d6d0f408b403ebe7d663d1a2f44f44d2cf0f3e6a3352",
+      "bytes": 118717
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/ligand.sdf",
+      "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b",
+      "bytes": 9907
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/2RDK/report.json",
+      "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146",
+      "bytes": 217237
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/ligand.sdf",
+      "sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518",
+      "bytes": 18763
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/3ZWE/report.json",
+      "sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e",
+      "bytes": 90010
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/4R9F/ligand.sdf",
+      "sha256": "5cc6f5015d65ec8b94de45b2ce34d4e58e2181f4ad698b9bcf07080903a884bb",
+      "bytes": 9906
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/4R9F/report.json",
+      "sha256": "453d4255f8ca3882f43d122ee369ca3244777800705e5de8f6f3920b5c2543a0",
+      "bytes": 217435
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/ligand.sdf",
+      "sha256": "d8e532d3cdce5815aacee220c60351e0ed60d9b59f1f7a370627a96fb353afe4",
+      "bytes": 14170
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5HZA/report.json",
+      "sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90",
+      "bytes": 318581
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/ligand.sdf",
+      "sha256": "3817dc1c936a6c3cba04552fb983f66064bd91154b58af55932c036e38e60852",
+      "bytes": 14503
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/5V6F/report.json",
+      "sha256": "206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd",
+      "bytes": 318227
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/ligand.sdf",
+      "sha256": "451faa8a6bad34f59524083543b9fef7c5fb4468114fe27efb5273871cb7709a",
+      "bytes": 9906
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/8I5U/report.json",
+      "sha256": "14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71",
+      "bytes": 217543
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/algorithm.py",
+      "sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e",
+      "bytes": 19249
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/determinism_replay/2RDK/ligand.sdf",
+      "sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b",
+      "bytes": 9907
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/determinism_replay/2RDK/report.json",
+      "sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146",
+      "bytes": 217237
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/determinism_replay/run.log",
+      "sha256": "6a31158aa65bc6ff09fcc1e6f419d0063d92bf8c02372fcf909940299b43ea82",
+      "bytes": 522
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/policy.json",
+      "sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+      "bytes": 4972
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/ring_geometry.py",
+      "sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+      "bytes": 7732
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/run_1GNY.log",
+      "sha256": "edf2edeb9aaf9b5ecbdef5ed5ca4fc10b4146fd5ea22c76f297c79f04edf76e3",
+      "bytes": 522
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/ccd_ideal_pyranose_v3/run_six.log",
+      "sha256": "6c6bc6e4c3a51519c53bf2ae0c1e1c3163a84b5b8a3273113bf07c2a84710d13",
+      "bytes": 2489
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/profile_v1/1GNY/report.json",
+      "sha256": "cc3b30c44f5a4a1c6074a9a7d8a99320b5e2575196b005303c6b0a117d50d4ad",
+      "bytes": 38472
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/profile_v1/algorithm.py",
+      "sha256": "782cbe92e9af1dce2eaa58d70403021e2fdda1a05f6dc6ff98f8c721a54b3107",
+      "bytes": 18509
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/profile_v1/policy.json",
+      "sha256": "b8bd18c2072dbe896cda0c68b6d338b82273abbd1fa14d608d6f0db048dcad66",
+      "bytes": 4117
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/profile_v1/ring_geometry.py",
+      "sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+      "bytes": 7732
+    },
+    {
+      "path": "results/ideal_ring_conformer_feasibility/profile_v1/run.log",
+      "sha256": "810106029071240019fdff38930dce3378f9b0bda091d976a3b8c93650849576",
+      "bytes": 546
+    }
+  ]
+}

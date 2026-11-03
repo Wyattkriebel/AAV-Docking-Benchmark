@@ -1,0 +1,3904 @@
+{
+  "schema_version": 1,
+  "case_id": "1GNY",
+  "profile_id": "ccd_ideal_pyranose_v3",
+  "policy_sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+  "algorithm_source_sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e",
+  "ring_math_source_sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+  "schema": {
+    "case_id": "1GNY",
+    "residues": [
+      {
+        "branch_num": "1",
+        "ccd_id": "XYP"
+      },
+      {
+        "branch_num": "2",
+        "ccd_id": "XYP"
+      },
+      {
+        "branch_num": "3",
+        "ccd_id": "XYP"
+      },
+      {
+        "branch_num": "4",
+        "ccd_id": "XYP"
+      },
+      {
+        "branch_num": "5",
+        "ccd_id": "XYP"
+      }
+    ],
+    "branch_links": [
+      {
+        "link_id": "1",
+        "entity_id": "2",
+        "entity_branch_list_num_1": "2",
+        "comp_id_1": "XYP",
+        "atom_id_1": "C1",
+        "leaving_atom_id_1": "O1",
+        "entity_branch_list_num_2": "1",
+        "comp_id_2": "XYP",
+        "atom_id_2": "O4",
+        "leaving_atom_id_2": "HO4",
+        "value_order": "sing",
+        "details": "?"
+      },
+      {
+        "link_id": "2",
+        "entity_id": "2",
+        "entity_branch_list_num_1": "3",
+        "comp_id_1": "XYP",
+        "atom_id_1": "C1",
+        "leaving_atom_id_1": "O1",
+        "entity_branch_list_num_2": "2",
+        "comp_id_2": "XYP",
+        "atom_id_2": "O4",
+        "leaving_atom_id_2": "HO4",
+        "value_order": "sing",
+        "details": "?"
+      },
+      {
+        "link_id": "3",
+        "entity_id": "2",
+        "entity_branch_list_num_1": "4",
+        "comp_id_1": "XYP",
+        "atom_id_1": "C1",
+        "leaving_atom_id_1": "O1",
+        "entity_branch_list_num_2": "3",
+        "comp_id_2": "XYP",
+        "atom_id_2": "O4",
+        "leaving_atom_id_2": "HO4",
+        "value_order": "sing",
+        "details": "?"
+      },
+      {
+        "link_id": "4",
+        "entity_id": "2",
+        "entity_branch_list_num_1": "5",
+        "comp_id_1": "XYP",
+        "atom_id_1": "C1",
+        "leaving_atom_id_1": "O1",
+        "entity_branch_list_num_2": "4",
+        "comp_id_2": "XYP",
+        "atom_id_2": "O4",
+        "leaving_atom_id_2": "HO4",
+        "value_order": "sing",
+        "details": "?"
+      }
+    ],
+    "ccd_sources": {
+      "XYP": {
+        "filename": "XYP.cif",
+        "url": "https://files.rcsb.org/ligands/download/XYP.cif",
+        "sha256": "811c097c84bf069c094b5c1977c9760d5c9d5ccf7266c22c5dba6dab5ad5739e",
+        "bytes": 8437,
+        "archive": "data/archive/external/XYP.cif.gz"
+      }
+    },
+    "source_metadata": {
+      "path": "benchmarks/external_cohort.json",
+      "sha256": "701d1961452359dd4d2365ab4efcdb68d9e53a3cf9a1349c83be4bf1c2cbf768"
+    },
+    "experimental_coordinates_read": false
+  },
+  "chemical_graph": {
+    "isomeric_smiles": "O[C@@H]1[C@@H](O)[C@H](O[C@@H]2CO[C@@H](O[C@@H]3CO[C@@H](O[C@@H]4CO[C@@H](O[C@@H]5CO[C@@H](O)[C@H](O)[C@H]5O)[C@H](O)[C@H]4O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)OC[C@H]1O",
+    "heavy_atom_count": 46,
+    "formal_charge": 0,
+    "declared_links": [
+      [
+        "2:XYP:C1",
+        "1:XYP:O4"
+      ],
+      [
+        "3:XYP:C1",
+        "2:XYP:O4"
+      ],
+      [
+        "4:XYP:C1",
+        "3:XYP:O4"
+      ],
+      [
+        "5:XYP:C1",
+        "4:XYP:O4"
+      ]
+    ],
+    "leaving_replacements": {
+      "2:XYP:O1": "1:XYP:O4",
+      "3:XYP:O1": "2:XYP:O4",
+      "4:XYP:O1": "3:XYP:O4",
+      "5:XYP:O1": "4:XYP:O4"
+    },
+    "ccd_sources": {
+      "XYP": {
+        "path": "/Users/alec/AAV-Docking-Benchmark/data/archive/external/XYP.cif.gz",
+        "archive_sha256": "d8d670ba1a20a096a79e1dfa2bee4cf574cadbacc022ae11e81ff11283bb4b4e",
+        "uncompressed_sha256": "811c097c84bf069c094b5c1977c9760d5c9d5ccf7266c22c5dba6dab5ad5739e",
+        "coordinate_fields": "pdbx_model_Cartn_{x,y,z}_ideal only"
+      }
+    },
+    "experimental_coordinates_read": false,
+    "input_graph_conformer_count": 0
+  },
+  "atom_map": [
+    {
+      "rdkit_index": 0,
+      "canonical_atom_key": "1:XYP:O1",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "O1",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 1,
+      "canonical_atom_key": "1:XYP:C1",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 2,
+      "canonical_atom_key": "1:XYP:C2",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 3,
+      "canonical_atom_key": "1:XYP:C3",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 4,
+      "canonical_atom_key": "1:XYP:C4",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 5,
+      "canonical_atom_key": "1:XYP:C5",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 6,
+      "canonical_atom_key": "1:XYP:O2",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 7,
+      "canonical_atom_key": "1:XYP:O3",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 8,
+      "canonical_atom_key": "1:XYP:O4",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 9,
+      "canonical_atom_key": "1:XYP:O5",
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 10,
+      "canonical_atom_key": "2:XYP:C1",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 11,
+      "canonical_atom_key": "2:XYP:C2",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 12,
+      "canonical_atom_key": "2:XYP:C3",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 13,
+      "canonical_atom_key": "2:XYP:C4",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 14,
+      "canonical_atom_key": "2:XYP:C5",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 15,
+      "canonical_atom_key": "2:XYP:O2",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 16,
+      "canonical_atom_key": "2:XYP:O3",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 17,
+      "canonical_atom_key": "2:XYP:O4",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 18,
+      "canonical_atom_key": "2:XYP:O5",
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 19,
+      "canonical_atom_key": "3:XYP:C1",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 20,
+      "canonical_atom_key": "3:XYP:C2",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 21,
+      "canonical_atom_key": "3:XYP:C3",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 22,
+      "canonical_atom_key": "3:XYP:C4",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 23,
+      "canonical_atom_key": "3:XYP:C5",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 24,
+      "canonical_atom_key": "3:XYP:O2",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 25,
+      "canonical_atom_key": "3:XYP:O3",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 26,
+      "canonical_atom_key": "3:XYP:O4",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 27,
+      "canonical_atom_key": "3:XYP:O5",
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 28,
+      "canonical_atom_key": "4:XYP:C1",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 29,
+      "canonical_atom_key": "4:XYP:C2",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 30,
+      "canonical_atom_key": "4:XYP:C3",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 31,
+      "canonical_atom_key": "4:XYP:C4",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 32,
+      "canonical_atom_key": "4:XYP:C5",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 33,
+      "canonical_atom_key": "4:XYP:O2",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 34,
+      "canonical_atom_key": "4:XYP:O3",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 35,
+      "canonical_atom_key": "4:XYP:O4",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 36,
+      "canonical_atom_key": "4:XYP:O5",
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 37,
+      "canonical_atom_key": "5:XYP:C1",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 38,
+      "canonical_atom_key": "5:XYP:C2",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 39,
+      "canonical_atom_key": "5:XYP:C3",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 40,
+      "canonical_atom_key": "5:XYP:C4",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 41,
+      "canonical_atom_key": "5:XYP:C5",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 42,
+      "canonical_atom_key": "5:XYP:O2",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 43,
+      "canonical_atom_key": "5:XYP:O3",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 44,
+      "canonical_atom_key": "5:XYP:O4",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 45,
+      "canonical_atom_key": "5:XYP:O5",
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    }
+  ],
+  "ring_templates": [
+    {
+      "branch_num": "1",
+      "ccd_id": "XYP",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "ideal_xyz": [
+        [
+          0.509,
+          0.253,
+          -1.37
+        ],
+        [
+          -0.78,
+          -0.228,
+          -0.701
+        ],
+        [
+          -0.779,
+          0.213,
+          0.766
+        ],
+        [
+          0.519,
+          -0.269,
+          1.423
+        ],
+        [
+          1.71,
+          0.215,
+          0.593
+        ],
+        [
+          1.637,
+          -0.331,
+          -0.721
+        ]
+      ],
+      "ideal_torsions": [
+        -53.50086653389138,
+        53.4737281234235,
+        -61.13167475551754,
+        67.57014860405559,
+        -67.55607174995782,
+        61.12034389929882
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.619415109161842,
+        "q2_A": 0.06092214423166059,
+        "q3_A": -0.6164118507947371,
+        "theta_deg": 174.35558793641928,
+        "phi_deg": 120.04795007618804,
+        "q2_cos_phi_A": -0.03050521569037626,
+        "q2_sin_phi_A": 0.0527346136182572,
+        "chair_pole_distance_deg": 5.644412063580717,
+        "cp_plane_rms_A": 0.252875159402809,
+        "cp_plane_max_abs_A": 0.28682248836300883,
+        "least_squares_plane_rms_A": 0.2528626326392737,
+        "ring_bond_min_A": 1.4247950729841818,
+        "ring_bond_max_A": 1.5325720211461515,
+        "ring_angle_min_deg": 107.65169726253656,
+        "ring_angle_max_deg": 109.82429072956502,
+        "mean_plane_z_A": [
+          -0.2692612787991436,
+          0.23408787474475182,
+          -0.21647568025422548,
+          0.23403688981809093,
+          -0.2692102938724826,
+          0.28682248836300883
+        ],
+        "ring_bond_lengths_A": [
+          1.529850646305057,
+          1.5318521469123578,
+          1.5325720211461515,
+          1.5302408307191386,
+          1.4247950729841818,
+          1.426408426783858
+        ],
+        "ring_angles_deg": [
+          109.79207130906755,
+          109.13043521961511,
+          108.69640062474792,
+          109.09811734640938,
+          109.82429072956502,
+          107.65169726253656
+        ],
+        "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+        "cp_mean_plane_constraint_max_error_A": 1.3877787807814457e-17
+      }
+    },
+    {
+      "branch_num": "2",
+      "ccd_id": "XYP",
+      "indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        18
+      ],
+      "ideal_xyz": [
+        [
+          0.509,
+          0.253,
+          -1.37
+        ],
+        [
+          -0.78,
+          -0.228,
+          -0.701
+        ],
+        [
+          -0.779,
+          0.213,
+          0.766
+        ],
+        [
+          0.519,
+          -0.269,
+          1.423
+        ],
+        [
+          1.71,
+          0.215,
+          0.593
+        ],
+        [
+          1.637,
+          -0.331,
+          -0.721
+        ]
+      ],
+      "ideal_torsions": [
+        -53.50086653389138,
+        53.4737281234235,
+        -61.13167475551754,
+        67.57014860405559,
+        -67.55607174995782,
+        61.12034389929882
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.619415109161842,
+        "q2_A": 0.06092214423166059,
+        "q3_A": -0.6164118507947371,
+        "theta_deg": 174.35558793641928,
+        "phi_deg": 120.04795007618804,
+        "q2_cos_phi_A": -0.03050521569037626,
+        "q2_sin_phi_A": 0.0527346136182572,
+        "chair_pole_distance_deg": 5.644412063580717,
+        "cp_plane_rms_A": 0.252875159402809,
+        "cp_plane_max_abs_A": 0.28682248836300883,
+        "least_squares_plane_rms_A": 0.2528626326392737,
+        "ring_bond_min_A": 1.4247950729841818,
+        "ring_bond_max_A": 1.5325720211461515,
+        "ring_angle_min_deg": 107.65169726253656,
+        "ring_angle_max_deg": 109.82429072956502,
+        "mean_plane_z_A": [
+          -0.2692612787991436,
+          0.23408787474475182,
+          -0.21647568025422548,
+          0.23403688981809093,
+          -0.2692102938724826,
+          0.28682248836300883
+        ],
+        "ring_bond_lengths_A": [
+          1.529850646305057,
+          1.5318521469123578,
+          1.5325720211461515,
+          1.5302408307191386,
+          1.4247950729841818,
+          1.426408426783858
+        ],
+        "ring_angles_deg": [
+          109.79207130906755,
+          109.13043521961511,
+          108.69640062474792,
+          109.09811734640938,
+          109.82429072956502,
+          107.65169726253656
+        ],
+        "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+        "cp_mean_plane_constraint_max_error_A": 1.3877787807814457e-17
+      }
+    },
+    {
+      "branch_num": "3",
+      "ccd_id": "XYP",
+      "indices": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        27
+      ],
+      "ideal_xyz": [
+        [
+          0.509,
+          0.253,
+          -1.37
+        ],
+        [
+          -0.78,
+          -0.228,
+          -0.701
+        ],
+        [
+          -0.779,
+          0.213,
+          0.766
+        ],
+        [
+          0.519,
+          -0.269,
+          1.423
+        ],
+        [
+          1.71,
+          0.215,
+          0.593
+        ],
+        [
+          1.637,
+          -0.331,
+          -0.721
+        ]
+      ],
+      "ideal_torsions": [
+        -53.50086653389138,
+        53.4737281234235,
+        -61.13167475551754,
+        67.57014860405559,
+        -67.55607174995782,
+        61.12034389929882
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.619415109161842,
+        "q2_A": 0.06092214423166059,
+        "q3_A": -0.6164118507947371,
+        "theta_deg": 174.35558793641928,
+        "phi_deg": 120.04795007618804,
+        "q2_cos_phi_A": -0.03050521569037626,
+        "q2_sin_phi_A": 0.0527346136182572,
+        "chair_pole_distance_deg": 5.644412063580717,
+        "cp_plane_rms_A": 0.252875159402809,
+        "cp_plane_max_abs_A": 0.28682248836300883,
+        "least_squares_plane_rms_A": 0.2528626326392737,
+        "ring_bond_min_A": 1.4247950729841818,
+        "ring_bond_max_A": 1.5325720211461515,
+        "ring_angle_min_deg": 107.65169726253656,
+        "ring_angle_max_deg": 109.82429072956502,
+        "mean_plane_z_A": [
+          -0.2692612787991436,
+          0.23408787474475182,
+          -0.21647568025422548,
+          0.23403688981809093,
+          -0.2692102938724826,
+          0.28682248836300883
+        ],
+        "ring_bond_lengths_A": [
+          1.529850646305057,
+          1.5318521469123578,
+          1.5325720211461515,
+          1.5302408307191386,
+          1.4247950729841818,
+          1.426408426783858
+        ],
+        "ring_angles_deg": [
+          109.79207130906755,
+          109.13043521961511,
+          108.69640062474792,
+          109.09811734640938,
+          109.82429072956502,
+          107.65169726253656
+        ],
+        "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+        "cp_mean_plane_constraint_max_error_A": 1.3877787807814457e-17
+      }
+    },
+    {
+      "branch_num": "4",
+      "ccd_id": "XYP",
+      "indices": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        36
+      ],
+      "ideal_xyz": [
+        [
+          0.509,
+          0.253,
+          -1.37
+        ],
+        [
+          -0.78,
+          -0.228,
+          -0.701
+        ],
+        [
+          -0.779,
+          0.213,
+          0.766
+        ],
+        [
+          0.519,
+          -0.269,
+          1.423
+        ],
+        [
+          1.71,
+          0.215,
+          0.593
+        ],
+        [
+          1.637,
+          -0.331,
+          -0.721
+        ]
+      ],
+      "ideal_torsions": [
+        -53.50086653389138,
+        53.4737281234235,
+        -61.13167475551754,
+        67.57014860405559,
+        -67.55607174995782,
+        61.12034389929882
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.619415109161842,
+        "q2_A": 0.06092214423166059,
+        "q3_A": -0.6164118507947371,
+        "theta_deg": 174.35558793641928,
+        "phi_deg": 120.04795007618804,
+        "q2_cos_phi_A": -0.03050521569037626,
+        "q2_sin_phi_A": 0.0527346136182572,
+        "chair_pole_distance_deg": 5.644412063580717,
+        "cp_plane_rms_A": 0.252875159402809,
+        "cp_plane_max_abs_A": 0.28682248836300883,
+        "least_squares_plane_rms_A": 0.2528626326392737,
+        "ring_bond_min_A": 1.4247950729841818,
+        "ring_bond_max_A": 1.5325720211461515,
+        "ring_angle_min_deg": 107.65169726253656,
+        "ring_angle_max_deg": 109.82429072956502,
+        "mean_plane_z_A": [
+          -0.2692612787991436,
+          0.23408787474475182,
+          -0.21647568025422548,
+          0.23403688981809093,
+          -0.2692102938724826,
+          0.28682248836300883
+        ],
+        "ring_bond_lengths_A": [
+          1.529850646305057,
+          1.5318521469123578,
+          1.5325720211461515,
+          1.5302408307191386,
+          1.4247950729841818,
+          1.426408426783858
+        ],
+        "ring_angles_deg": [
+          109.79207130906755,
+          109.13043521961511,
+          108.69640062474792,
+          109.09811734640938,
+          109.82429072956502,
+          107.65169726253656
+        ],
+        "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+        "cp_mean_plane_constraint_max_error_A": 1.3877787807814457e-17
+      }
+    },
+    {
+      "branch_num": "5",
+      "ccd_id": "XYP",
+      "indices": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        45
+      ],
+      "ideal_xyz": [
+        [
+          0.509,
+          0.253,
+          -1.37
+        ],
+        [
+          -0.78,
+          -0.228,
+          -0.701
+        ],
+        [
+          -0.779,
+          0.213,
+          0.766
+        ],
+        [
+          0.519,
+          -0.269,
+          1.423
+        ],
+        [
+          1.71,
+          0.215,
+          0.593
+        ],
+        [
+          1.637,
+          -0.331,
+          -0.721
+        ]
+      ],
+      "ideal_torsions": [
+        -53.50086653389138,
+        53.4737281234235,
+        -61.13167475551754,
+        67.57014860405559,
+        -67.55607174995782,
+        61.12034389929882
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.619415109161842,
+        "q2_A": 0.06092214423166059,
+        "q3_A": -0.6164118507947371,
+        "theta_deg": 174.35558793641928,
+        "phi_deg": 120.04795007618804,
+        "q2_cos_phi_A": -0.03050521569037626,
+        "q2_sin_phi_A": 0.0527346136182572,
+        "chair_pole_distance_deg": 5.644412063580717,
+        "cp_plane_rms_A": 0.252875159402809,
+        "cp_plane_max_abs_A": 0.28682248836300883,
+        "least_squares_plane_rms_A": 0.2528626326392737,
+        "ring_bond_min_A": 1.4247950729841818,
+        "ring_bond_max_A": 1.5325720211461515,
+        "ring_angle_min_deg": 107.65169726253656,
+        "ring_angle_max_deg": 109.82429072956502,
+        "mean_plane_z_A": [
+          -0.2692612787991436,
+          0.23408787474475182,
+          -0.21647568025422548,
+          0.23403688981809093,
+          -0.2692102938724826,
+          0.28682248836300883
+        ],
+        "ring_bond_lengths_A": [
+          1.529850646305057,
+          1.5318521469123578,
+          1.5325720211461515,
+          1.5302408307191386,
+          1.4247950729841818,
+          1.426408426783858
+        ],
+        "ring_angles_deg": [
+          109.79207130906755,
+          109.13043521961511,
+          108.69640062474792,
+          109.09811734640938,
+          109.82429072956502,
+          107.65169726253656
+        ],
+        "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+        "cp_mean_plane_constraint_max_error_A": 1.3877787807814457e-17
+      }
+    }
+  ],
+  "stereo_tests": [
+    {
+      "center": "1:XYP:C1",
+      "neighbors": [
+        "1:XYP:C2",
+        "1:XYP:O1",
+        "1:XYP:O5"
+      ],
+      "ideal_signed_volume": 2.392448479,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "1:XYP:C2",
+      "neighbors": [
+        "1:XYP:C1",
+        "1:XYP:C3",
+        "1:XYP:O2"
+      ],
+      "ideal_signed_volume": -2.5776179200000002,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "1:XYP:C3",
+      "neighbors": [
+        "1:XYP:C2",
+        "1:XYP:C4",
+        "1:XYP:O3"
+      ],
+      "ideal_signed_volume": 2.5862861780000004,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "1:XYP:C4",
+      "neighbors": [
+        "1:XYP:C3",
+        "1:XYP:C5",
+        "1:XYP:O4"
+      ],
+      "ideal_signed_volume": -2.5832363629999993,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "2:XYP:C1",
+      "neighbors": [
+        "2:XYP:C2",
+        "1:XYP:O4",
+        "2:XYP:O5"
+      ],
+      "ideal_signed_volume": 2.392448479,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "2:XYP:C2",
+      "neighbors": [
+        "2:XYP:C1",
+        "2:XYP:C3",
+        "2:XYP:O2"
+      ],
+      "ideal_signed_volume": -2.5776179200000002,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "2:XYP:C3",
+      "neighbors": [
+        "2:XYP:C2",
+        "2:XYP:C4",
+        "2:XYP:O3"
+      ],
+      "ideal_signed_volume": 2.5862861780000004,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "2:XYP:C4",
+      "neighbors": [
+        "2:XYP:C3",
+        "2:XYP:C5",
+        "2:XYP:O4"
+      ],
+      "ideal_signed_volume": -2.5832363629999993,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "3:XYP:C1",
+      "neighbors": [
+        "3:XYP:C2",
+        "2:XYP:O4",
+        "3:XYP:O5"
+      ],
+      "ideal_signed_volume": 2.392448479,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "3:XYP:C2",
+      "neighbors": [
+        "3:XYP:C1",
+        "3:XYP:C3",
+        "3:XYP:O2"
+      ],
+      "ideal_signed_volume": -2.5776179200000002,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "3:XYP:C3",
+      "neighbors": [
+        "3:XYP:C2",
+        "3:XYP:C4",
+        "3:XYP:O3"
+      ],
+      "ideal_signed_volume": 2.5862861780000004,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "3:XYP:C4",
+      "neighbors": [
+        "3:XYP:C3",
+        "3:XYP:C5",
+        "3:XYP:O4"
+      ],
+      "ideal_signed_volume": -2.5832363629999993,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "4:XYP:C1",
+      "neighbors": [
+        "4:XYP:C2",
+        "3:XYP:O4",
+        "4:XYP:O5"
+      ],
+      "ideal_signed_volume": 2.392448479,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "4:XYP:C2",
+      "neighbors": [
+        "4:XYP:C1",
+        "4:XYP:C3",
+        "4:XYP:O2"
+      ],
+      "ideal_signed_volume": -2.5776179200000002,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "4:XYP:C3",
+      "neighbors": [
+        "4:XYP:C2",
+        "4:XYP:C4",
+        "4:XYP:O3"
+      ],
+      "ideal_signed_volume": 2.5862861780000004,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "4:XYP:C4",
+      "neighbors": [
+        "4:XYP:C3",
+        "4:XYP:C5",
+        "4:XYP:O4"
+      ],
+      "ideal_signed_volume": -2.5832363629999993,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "5:XYP:C1",
+      "neighbors": [
+        "5:XYP:C2",
+        "4:XYP:O4",
+        "5:XYP:O5"
+      ],
+      "ideal_signed_volume": 2.392448479,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "5:XYP:C2",
+      "neighbors": [
+        "5:XYP:C1",
+        "5:XYP:C3",
+        "5:XYP:O2"
+      ],
+      "ideal_signed_volume": -2.5776179200000002,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "5:XYP:C3",
+      "neighbors": [
+        "5:XYP:C2",
+        "5:XYP:C4",
+        "5:XYP:O3"
+      ],
+      "ideal_signed_volume": 2.5862861780000004,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "5:XYP:C4",
+      "neighbors": [
+        "5:XYP:C3",
+        "5:XYP:C5",
+        "5:XYP:O4"
+      ],
+      "ideal_signed_volume": -2.5832363629999993,
+      "ccd_stereo_config": "R"
+    }
+  ],
+  "search": {
+    "candidate_slots": 20,
+    "attempts": [
+      {
+        "slot": 0,
+        "seed": 20261024,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          932,
+          0,
+          0,
+          0,
+          0,
+          0,
+          65,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 1,
+        "seed": 20261025,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          937,
+          0,
+          0,
+          0,
+          0,
+          0,
+          62,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 2,
+        "seed": 20261026,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          923,
+          0,
+          0,
+          0,
+          0,
+          0,
+          71,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 3,
+        "seed": 20261027,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          948,
+          0,
+          0,
+          0,
+          0,
+          0,
+          49,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 4,
+        "seed": 20261028,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          927,
+          0,
+          0,
+          0,
+          0,
+          0,
+          71,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 5,
+        "seed": 20261029,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          942,
+          0,
+          0,
+          0,
+          0,
+          0,
+          58,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 6,
+        "seed": 20261030,
+        "embedding_return_code": 0,
+        "embedding_failure_counts": [
+          775,
+          0,
+          0,
+          0,
+          0,
+          0,
+          51,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mmff_return_code": 0,
+        "constrained_mmff_energy": 367.84474215661106,
+        "validation": {
+          "valid": true,
+          "failures": [],
+          "rings": [
+            {
+              "branch_num": "1",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5696012560785849,
+                "q2_A": 0.05394947410787459,
+                "q3_A": -0.5670406027523827,
+                "theta_deg": 174.56511465785078,
+                "phi_deg": 127.03969687616608,
+                "q2_cos_phi_A": -0.03249744794606593,
+                "q2_sin_phi_A": 0.04306346053801256,
+                "chair_pole_distance_deg": 5.434885342149215,
+                "cp_plane_rms_A": 0.23253873904015132,
+                "cp_plane_max_abs_A": 0.2624062921260826,
+                "least_squares_plane_rms_A": 0.23252150633329507,
+                "ring_bond_min_A": 1.4150802858019713,
+                "ring_bond_max_A": 1.5395392556981962,
+                "ring_angle_min_deg": 109.93074602676339,
+                "ring_angle_max_deg": 111.80185887042954,
+                "mean_plane_z_A": [
+                  -0.25025576701689645,
+                  0.2193428315880702,
+                  -0.20058042126843464,
+                  0.2127309463776209,
+                  -0.24364388180644708,
+                  0.2624062921260826
+                ],
+                "ring_bond_lengths_A": [
+                  1.5298692483692193,
+                  1.528290314531151,
+                  1.5395392556981962,
+                  1.5316052752010454,
+                  1.421090593637461,
+                  1.4150802858019713
+                ],
+                "ring_angles_deg": [
+                  110.98980282668693,
+                  110.55612714595912,
+                  110.21627937339369,
+                  109.93074602676339,
+                  111.80185887042954,
+                  110.2894824306775
+                ],
+                "fourier_reconstruction_max_error_A": 8.881784197001252e-16,
+                "cp_mean_plane_constraint_max_error_A": 4.496403249731884e-15
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 0.7062084190013851,
+                "theta_difference_to_CCD_ideal_deg": 0.20952672143150153,
+                "Q_difference_to_CCD_ideal_A": -0.04981385308325703,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.011328140981886614,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.6377851681409368
+              },
+              "max_pair_distance_difference_A": 0.030255546338973982,
+              "max_torsion_difference_deg": 5.0003121850091645,
+              "failures": []
+            },
+            {
+              "branch_num": "2",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5871443153177099,
+                "q2_A": 0.05645406585560997,
+                "q3_A": -0.5844239774840461,
+                "theta_deg": 174.4824733011663,
+                "phi_deg": 144.06257809076476,
+                "q2_cos_phi_A": -0.04570851355003663,
+                "q2_sin_phi_A": 0.033132964562134576,
+                "chair_pole_distance_deg": 5.517526698833706,
+                "cp_plane_rms_A": 0.23970066298403037,
+                "cp_plane_max_abs_A": 0.2683514832962063,
+                "least_squares_plane_rms_A": 0.2396730532685628,
+                "ring_bond_min_A": 1.4198658837410807,
+                "ring_bond_max_A": 1.536701045087112,
+                "ring_angle_min_deg": 109.34958674154177,
+                "ring_angle_max_deg": 111.29134985429195,
+                "mean_plane_z_A": [
+                  -0.2649799123163239,
+                  0.23521851873407157,
+                  -0.20882869613169985,
+                  0.212200267111582,
+                  -0.241961660693834,
+                  0.2683514832962063
+                ],
+                "ring_bond_lengths_A": [
+                  1.536701045087112,
+                  1.5265690003374999,
+                  1.5366921975476986,
+                  1.5320922111567996,
+                  1.4208132128847444,
+                  1.4198658837410807
+                ],
+                "ring_angles_deg": [
+                  109.75765071944053,
+                  109.34958674154177,
+                  110.39512422860736,
+                  109.5389030090318,
+                  111.29134985429195,
+                  110.24850652767691
+                ],
+                "fourier_reconstruction_max_error_A": 6.38378239159465e-16,
+                "cp_mean_plane_constraint_max_error_A": 2.1094237467877974e-15
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 2.3218994090305807,
+                "theta_difference_to_CCD_ideal_deg": 0.12688536474701095,
+                "Q_difference_to_CCD_ideal_A": -0.032270793844132006,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.006850398782054956,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.596809265140351
+              },
+              "max_pair_distance_difference_A": 0.031186691570851188,
+              "max_torsion_difference_deg": 5.000217707789261,
+              "failures": []
+            },
+            {
+              "branch_num": "3",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5743326742690203,
+                "q2_A": 0.04348749197844654,
+                "q3_A": -0.5726839082551816,
+                "theta_deg": 175.6575049498998,
+                "phi_deg": 136.2775960967613,
+                "q2_cos_phi_A": -0.031428277403244394,
+                "q2_sin_phi_A": 0.030057034751288594,
+                "chair_pole_distance_deg": 4.3424950501002115,
+                "cp_plane_rms_A": 0.23447033242786627,
+                "cp_plane_max_abs_A": 0.2578983061064505,
+                "least_squares_plane_rms_A": 0.23444892658711744,
+                "ring_bond_min_A": 1.4169185508811075,
+                "ring_bond_max_A": 1.5361515948325517,
+                "ring_angle_min_deg": 109.63062203404644,
+                "ring_angle_max_deg": 111.82299342297433,
+                "mean_plane_z_A": [
+                  -0.25194235094027106,
+                  0.2278412713551622,
+                  -0.20969614693623267,
+                  0.21565210210241226,
+                  -0.2397531816875213,
+                  0.2578983061064505
+                ],
+                "ring_bond_lengths_A": [
+                  1.5361515948325517,
+                  1.5257890391883122,
+                  1.5353153786455167,
+                  1.5314195296877409,
+                  1.4195253087427566,
+                  1.4169185508811075
+                ],
+                "ring_angles_deg": [
+                  110.80296007074772,
+                  109.77236386520269,
+                  110.38669704775603,
+                  109.63062203404644,
+                  111.82299342297433,
+                  110.57823405806101
+                ],
+                "fourier_reconstruction_max_error_A": 1.6653345369377348e-16,
+                "cp_mean_plane_constraint_max_error_A": 2.220446049250313e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 1.9088686141390412,
+                "theta_difference_to_CCD_ideal_deg": 1.3019170134805051,
+                "Q_difference_to_CCD_ideal_A": -0.0450824348928216,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.009489875902750411,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.9265367955244557
+              },
+              "max_pair_distance_difference_A": 0.03036598917754363,
+              "max_torsion_difference_deg": 5.0000757826485085,
+              "failures": []
+            },
+            {
+              "branch_num": "4",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5693803512164837,
+                "q2_A": 0.04452983044285425,
+                "q3_A": -0.5676363964300888,
+                "theta_deg": 175.51445812700294,
+                "phi_deg": 112.19420056727363,
+                "q2_cos_phi_A": -0.016821012933168893,
+                "q2_sin_phi_A": 0.04123056297422476,
+                "chair_pole_distance_deg": 4.485541872997061,
+                "cp_plane_rms_A": 0.2324485550078433,
+                "cp_plane_max_abs_A": 0.2572076781072673,
+                "least_squares_plane_rms_A": 0.2324237130518217,
+                "ring_bond_min_A": 1.4145817726137673,
+                "ring_bond_max_A": 1.536308653667408,
+                "ring_angle_min_deg": 109.47865942517251,
+                "ring_angle_max_deg": 111.52837559032942,
+                "mean_plane_z_A": [
+                  -0.24144820479265855,
+                  0.21597711513304269,
+                  -0.20626549878803535,
+                  0.22202497210264419,
+                  -0.24749606176225997,
+                  0.2572076781072673
+                ],
+                "ring_bond_lengths_A": [
+                  1.536308653667408,
+                  1.5268724607043431,
+                  1.5346673168511884,
+                  1.5317946730277465,
+                  1.4145817726137673,
+                  1.41788158694764
+                ],
+                "ring_angles_deg": [
+                  111.17013720944185,
+                  110.230074082189,
+                  110.5732792275841,
+                  109.47865942517251,
+                  111.52837559032942,
+                  110.86345736522703
+                ],
+                "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+                "cp_mean_plane_constraint_max_error_A": 3.3306690738754696e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 1.3478619371922835,
+                "theta_difference_to_CCD_ideal_deg": 1.1588701905836558,
+                "Q_difference_to_CCD_ideal_A": -0.05003475794535828,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.010213300370414569,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.2117601026904765
+              },
+              "max_pair_distance_difference_A": 0.032429776499121044,
+              "max_torsion_difference_deg": 5.000210818297148,
+              "failures": []
+            },
+            {
+              "branch_num": "5",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5857252786252156,
+                "q2_A": 0.039357589654574615,
+                "q3_A": -0.5844014734385674,
+                "theta_deg": 176.1471285804703,
+                "phi_deg": 102.48748615520343,
+                "q2_cos_phi_A": -0.008510149062561761,
+                "q2_sin_phi_A": 0.038426517229002914,
+                "chair_pole_distance_deg": 3.8528714195296914,
+                "cp_plane_rms_A": 0.23912134368021407,
+                "cp_plane_max_abs_A": 0.26025082951641587,
+                "least_squares_plane_rms_A": 0.23908559909662752,
+                "ring_bond_min_A": 1.4111082961239687,
+                "ring_bond_max_A": 1.5503445374127796,
+                "ring_angle_min_deg": 109.05879882521516,
+                "ring_angle_max_deg": 110.9593494906548,
+                "mean_plane_z_A": [
+                  -0.2434942393279717,
+                  0.22182431228741317,
+                  -0.21691097543529966,
+                  0.23366756562374352,
+                  -0.2553374926643025,
+                  0.26025082951641587
+                ],
+                "ring_bond_lengths_A": [
+                  1.5503445374127796,
+                  1.5276831266404132,
+                  1.5240165927421676,
+                  1.5234581974666275,
+                  1.4111082961239687,
+                  1.426954647986364
+                ],
+                "ring_angles_deg": [
+                  110.31795595588369,
+                  109.23077568979612,
+                  110.58745986940698,
+                  109.05879882521516,
+                  110.64027231296647,
+                  110.9593494906548
+                ],
+                "fourier_reconstruction_max_error_A": 4.163336342344337e-16,
+                "cp_mean_plane_constraint_max_error_A": 1.3322676295501878e-15
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 2.2873844995284585,
+                "theta_difference_to_CCD_ideal_deg": 1.7915406440510253,
+                "Q_difference_to_CCD_ideal_A": -0.03368983053662633,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.020493891107722595,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.3076522281182434
+              },
+              "max_pair_distance_difference_A": 0.036801119279562755,
+              "max_torsion_difference_deg": 5.000223041403132,
+              "failures": []
+            }
+          ],
+          "stereochemistry": [
+            {
+              "center": "1:XYP:C1",
+              "neighbors": [
+                "1:XYP:C2",
+                "1:XYP:O1",
+                "1:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.4081314768479194,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C2",
+              "neighbors": [
+                "1:XYP:C1",
+                "1:XYP:C3",
+                "1:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.497626504964484,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C3",
+              "neighbors": [
+                "1:XYP:C2",
+                "1:XYP:C4",
+                "1:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.6135924814419282,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C4",
+              "neighbors": [
+                "1:XYP:C3",
+                "1:XYP:C5",
+                "1:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5523152129024065,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C1",
+              "neighbors": [
+                "2:XYP:C2",
+                "1:XYP:O4",
+                "2:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.477820968089423,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C2",
+              "neighbors": [
+                "2:XYP:C1",
+                "2:XYP:C3",
+                "2:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5493256419453636,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C3",
+              "neighbors": [
+                "2:XYP:C2",
+                "2:XYP:C4",
+                "2:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.542714860683041,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C4",
+              "neighbors": [
+                "2:XYP:C3",
+                "2:XYP:C5",
+                "2:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.580625423369175,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C1",
+              "neighbors": [
+                "3:XYP:C2",
+                "2:XYP:O4",
+                "3:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.386809295462434,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C2",
+              "neighbors": [
+                "3:XYP:C1",
+                "3:XYP:C3",
+                "3:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5363234347603454,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C3",
+              "neighbors": [
+                "3:XYP:C2",
+                "3:XYP:C4",
+                "3:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5420155168546863,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C4",
+              "neighbors": [
+                "3:XYP:C3",
+                "3:XYP:C5",
+                "3:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.6255118874000902,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C1",
+              "neighbors": [
+                "4:XYP:C2",
+                "3:XYP:O4",
+                "4:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.4351291250580798,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C2",
+              "neighbors": [
+                "4:XYP:C1",
+                "4:XYP:C3",
+                "4:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5685847088972844,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C3",
+              "neighbors": [
+                "4:XYP:C2",
+                "4:XYP:C4",
+                "4:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5014165594462283,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C4",
+              "neighbors": [
+                "4:XYP:C3",
+                "4:XYP:C5",
+                "4:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5432811503042974,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C1",
+              "neighbors": [
+                "5:XYP:C2",
+                "4:XYP:O4",
+                "5:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.436400473196413,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C2",
+              "neighbors": [
+                "5:XYP:C1",
+                "5:XYP:C3",
+                "5:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5912376826163888,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C3",
+              "neighbors": [
+                "5:XYP:C2",
+                "5:XYP:C4",
+                "5:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5154222805404287,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C4",
+              "neighbors": [
+                "5:XYP:C3",
+                "5:XYP:C5",
+                "5:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5262085628447566,
+              "status": "consistent"
+            }
+          ],
+          "min_nonbonded_heavy_vdw_sum_ratio": 0.8397925675524239
+        },
+        "unconstrained_mmff_energy_at_selected_geometry": 367.64836131939876,
+        "status": "valid"
+      },
+      {
+        "slot": 7,
+        "seed": 20261031,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          924,
+          0,
+          0,
+          0,
+          0,
+          0,
+          73,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 8,
+        "seed": 20261032,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          940,
+          0,
+          0,
+          0,
+          0,
+          0,
+          59,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 9,
+        "seed": 20261033,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          937,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 10,
+        "seed": 20261034,
+        "embedding_return_code": 0,
+        "embedding_failure_counts": [
+          529,
+          0,
+          0,
+          0,
+          0,
+          0,
+          38,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mmff_return_code": 0,
+        "constrained_mmff_energy": 355.9644555644396,
+        "validation": {
+          "valid": true,
+          "failures": [],
+          "rings": [
+            {
+              "branch_num": "1",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.581570380953765,
+                "q2_A": 0.05197662881786321,
+                "q3_A": -0.5792430733806295,
+                "theta_deg": 174.87246874111835,
+                "phi_deg": 141.91077476956073,
+                "q2_cos_phi_A": -0.04090826001907467,
+                "q2_sin_phi_A": 0.03206375220528168,
+                "chair_pole_distance_deg": 5.127531258881646,
+                "cp_plane_rms_A": 0.23742511380879205,
+                "cp_plane_max_abs_A": 0.2643160680403621,
+                "least_squares_plane_rms_A": 0.23740204402403645,
+                "ring_bond_min_A": 1.418281034665581,
+                "ring_bond_max_A": 1.5370005976075234,
+                "ring_angle_min_deg": 109.72745768188041,
+                "ring_angle_max_deg": 111.52033280039484,
+                "mean_plane_z_A": [
+                  -0.26009338940476834,
+                  0.23225231583508082,
+                  -0.2086339209009895,
+                  0.21285659953658348,
+                  -0.24069767310627133,
+                  0.2643160680403621
+                ],
+                "ring_bond_lengths_A": [
+                  1.5349375584929548,
+                  1.5270032031072334,
+                  1.5370005976075234,
+                  1.5312441429529422,
+                  1.418281034665581,
+                  1.4196251794331827
+                ],
+                "ring_angles_deg": [
+                  110.02408294816105,
+                  109.77990002385121,
+                  110.12990135538213,
+                  109.72745768188041,
+                  111.52033280039484,
+                  110.42347250044175
+                ],
+                "fourier_reconstruction_max_error_A": 7.216449660063518e-16,
+                "cp_mean_plane_constraint_max_error_A": 2.7755575615628914e-15
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 2.10202236997177,
+                "theta_difference_to_CCD_ideal_deg": 0.5168808046990705,
+                "Q_difference_to_CCD_ideal_A": -0.03784472820807694,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.006783247350675259,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.7717752379051888
+              },
+              "max_pair_distance_difference_A": 0.030613358180793693,
+              "max_torsion_difference_deg": 5.000086174748731,
+              "failures": []
+            },
+            {
+              "branch_num": "2",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5739968601096036,
+                "q2_A": 0.06492824813772656,
+                "q3_A": -0.5703128246931237,
+                "theta_deg": 173.50502734489206,
+                "phi_deg": 130.23292289069659,
+                "q2_cos_phi_A": -0.041936926155187196,
+                "q2_sin_phi_A": 0.0495678487619603,
+                "chair_pole_distance_deg": 6.494972655107944,
+                "cp_plane_rms_A": 0.23433323687137078,
+                "cp_plane_max_abs_A": 0.2697193078939063,
+                "least_squares_plane_rms_A": 0.23431359573173346,
+                "ring_bond_min_A": 1.4201172639021424,
+                "ring_bond_max_A": 1.5372614301037495,
+                "ring_angle_min_deg": 109.89875471770007,
+                "ring_angle_max_deg": 111.64821647060955,
+                "mean_plane_z_A": [
+                  -0.2570415313152671,
+                  0.2201514591319461,
+                  -0.19593916352726293,
+                  0.20861694010590195,
+                  -0.24550701228922303,
+                  0.2697193078939063
+                ],
+                "ring_bond_lengths_A": [
+                  1.533809578833852,
+                  1.5281133283865878,
+                  1.5372614301037495,
+                  1.5302627221092044,
+                  1.4237280404143164,
+                  1.4201172639021424
+                ],
+                "ring_angles_deg": [
+                  110.46443258272845,
+                  110.55712790118007,
+                  110.3349642258804,
+                  110.1533734316423,
+                  111.64821647060955,
+                  109.89875471770007
+                ],
+                "fourier_reconstruction_max_error_A": 3.3306690738754696e-16,
+                "cp_mean_plane_constraint_max_error_A": 1.3322676295501878e-15
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 1.3691519721749112,
+                "theta_difference_to_CCD_ideal_deg": 0.850560591527227,
+                "Q_difference_to_CCD_ideal_A": -0.045418249052238346,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.006291162881715495,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.247057455163514
+              },
+              "max_pair_distance_difference_A": 0.03173139147312165,
+              "max_torsion_difference_deg": 5.000330567342701,
+              "failures": []
+            },
+            {
+              "branch_num": "3",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5771873942123925,
+                "q2_A": 0.056739273117475994,
+                "q3_A": -0.5743918026258664,
+                "theta_deg": 174.35853990024953,
+                "phi_deg": 112.69184438107479,
+                "q2_cos_phi_A": -0.021888577320579968,
+                "q2_sin_phi_A": 0.05234725682192455,
+                "chair_pole_distance_deg": 5.641460099750475,
+                "cp_plane_rms_A": 0.23563576696450103,
+                "cp_plane_max_abs_A": 0.2669867878935362,
+                "least_squares_plane_rms_A": 0.23560507748687695,
+                "ring_bond_min_A": 1.4158440866453794,
+                "ring_bond_max_A": 1.539782993478538,
+                "ring_angle_min_deg": 109.60014902850897,
+                "ring_angle_max_deg": 110.8578028687385,
+                "mean_plane_z_A": [
+                  -0.24713184748668132,
+                  0.21463953107161188,
+                  -0.20200215506339692,
+                  0.22185709547025184,
+                  -0.25434941188532145,
+                  0.2669867878935362
+                ],
+                "ring_bond_lengths_A": [
+                  1.539782993478538,
+                  1.5272480129930812,
+                  1.5310643645872741,
+                  1.5277255855871383,
+                  1.4158440866453794,
+                  1.422676799103294
+                ],
+                "ring_angles_deg": [
+                  110.55222737685112,
+                  110.06504329565975,
+                  110.73730018472293,
+                  109.60014902850897,
+                  110.8578028687385,
+                  110.52699948249614
+                ],
+                "fourier_reconstruction_max_error_A": 1.6653345369377348e-16,
+                "cp_mean_plane_constraint_max_error_A": 2.220446049250313e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 0.7228302176125511,
+                "theta_difference_to_CCD_ideal_deg": 0.002951963830241766,
+                "Q_difference_to_CCD_ideal_A": -0.042227714949449435,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.009932347173481126,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.875302219959579
+              },
+              "max_pair_distance_difference_A": 0.03107866444711105,
+              "max_torsion_difference_deg": 4.837047469851456,
+              "failures": []
+            },
+            {
+              "branch_num": "4",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5706758777438877,
+                "q2_A": 0.051300274313336336,
+                "q3_A": -0.5683654100085025,
+                "theta_deg": 174.84249733498356,
+                "phi_deg": 113.32213910196234,
+                "q2_cos_phi_A": -0.02030979711553013,
+                "q2_sin_phi_A": 0.04710870711184462,
+                "chair_pole_distance_deg": 5.1575026650164375,
+                "cp_plane_rms_A": 0.2329774514979066,
+                "cp_plane_max_abs_A": 0.26145149396660494,
+                "least_squares_plane_rms_A": 0.23295442196570282,
+                "ring_bond_min_A": 1.4168147196537855,
+                "ring_bond_max_A": 1.538047426772073,
+                "ring_angle_min_deg": 109.68840098550746,
+                "ring_angle_max_deg": 111.50606144858651,
+                "mean_plane_z_A": [
+                  -0.24376007382660178,
+                  0.2143427868547604,
+                  -0.20261692002292234,
+                  0.2203083401629259,
+                  -0.24972562713476676,
+                  0.26145149396660494
+                ],
+                "ring_bond_lengths_A": [
+                  1.538047426772073,
+                  1.527484307055296,
+                  1.5328895855602027,
+                  1.5288001581443955,
+                  1.4168147196537855,
+                  1.4223486253950697
+                ],
+                "ring_angles_deg": [
+                  111.08947987091051,
+                  110.2867362428435,
+                  110.61947976505496,
+                  109.68840098550746,
+                  111.50606144858651,
+                  110.45808415991839
+                ],
+                "fourier_reconstruction_max_error_A": 3.0531133177191805e-16,
+                "cp_mean_plane_constraint_max_error_A": 3.3306690738754696e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 0.7978641236964102,
+                "theta_difference_to_CCD_ideal_deg": 0.48690939856427917,
+                "Q_difference_to_CCD_ideal_A": -0.04873923141795422,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.008196780467015996,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.8063868973818273
+              },
+              "max_pair_distance_difference_A": 0.03128096833901983,
+              "max_torsion_difference_deg": 5.000141343829853,
+              "failures": []
+            },
+            {
+              "branch_num": "5",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5781207692532117,
+                "q2_A": 0.03965217529103292,
+                "q3_A": -0.5767593335496309,
+                "theta_deg": 176.0671065842761,
+                "phi_deg": 143.19786503310274,
+                "q2_cos_phi_A": -0.031749855586091905,
+                "q2_sin_phi_A": 0.023753771817821064,
+                "chair_pole_distance_deg": 3.932893415723896,
+                "cp_plane_rms_A": 0.23601681572927705,
+                "cp_plane_max_abs_A": 0.25650329167430497,
+                "least_squares_plane_rms_A": 0.2359952170265251,
+                "ring_bond_min_A": 1.4177892288352716,
+                "ring_bond_max_A": 1.5417600644905247,
+                "ring_angle_min_deg": 109.36894374235828,
+                "ring_angle_max_deg": 111.70697534499823,
+                "mean_plane_z_A": [
+                  -0.25379179960007586,
+                  0.23274951985648407,
+                  -0.21441873218712243,
+                  0.21713022426135176,
+                  -0.2381725040049434,
+                  0.25650329167430497
+                ],
+                "ring_bond_lengths_A": [
+                  1.5417600644905247,
+                  1.5257000744158802,
+                  1.5280678387863054,
+                  1.528074084124151,
+                  1.4239872095209152,
+                  1.4177892288352716
+                ],
+                "ring_angles_deg": [
+                  110.6919981648025,
+                  109.36894374235828,
+                  110.26883842577838,
+                  109.82997109354687,
+                  111.70697534499823,
+                  110.52102331917644
+                ],
+                "fourier_reconstruction_max_error_A": 3.3306690738754696e-16,
+                "cp_mean_plane_constraint_max_error_A": 8.881784197001252e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 2.5488237994846568,
+                "theta_difference_to_CCD_ideal_deg": 1.7115186478568205,
+                "Q_difference_to_CCD_ideal_A": -0.041294339908630295,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.011909418185467757,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.8693260566398777
+              },
+              "max_pair_distance_difference_A": 0.033668988003064726,
+              "max_torsion_difference_deg": 5.000022579680177,
+              "failures": []
+            }
+          ],
+          "stereochemistry": [
+            {
+              "center": "1:XYP:C1",
+              "neighbors": [
+                "1:XYP:C2",
+                "1:XYP:O1",
+                "1:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.385220541510915,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C2",
+              "neighbors": [
+                "1:XYP:C1",
+                "1:XYP:C3",
+                "1:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.507165828573105,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C3",
+              "neighbors": [
+                "1:XYP:C2",
+                "1:XYP:C4",
+                "1:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.548515118598194,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C4",
+              "neighbors": [
+                "1:XYP:C3",
+                "1:XYP:C5",
+                "1:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.641993678138575,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C1",
+              "neighbors": [
+                "2:XYP:C2",
+                "1:XYP:O4",
+                "2:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.4437591285656564,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C2",
+              "neighbors": [
+                "2:XYP:C1",
+                "2:XYP:C3",
+                "2:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5133661078637184,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C3",
+              "neighbors": [
+                "2:XYP:C2",
+                "2:XYP:C4",
+                "2:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.597679237048792,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C4",
+              "neighbors": [
+                "2:XYP:C3",
+                "2:XYP:C5",
+                "2:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5786590232124467,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C1",
+              "neighbors": [
+                "3:XYP:C2",
+                "2:XYP:O4",
+                "3:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.478243738482987,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C2",
+              "neighbors": [
+                "3:XYP:C1",
+                "3:XYP:C3",
+                "3:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5479946842086085,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C3",
+              "neighbors": [
+                "3:XYP:C2",
+                "3:XYP:C4",
+                "3:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.525896206112921,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C4",
+              "neighbors": [
+                "3:XYP:C3",
+                "3:XYP:C5",
+                "3:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.6216339193467055,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C1",
+              "neighbors": [
+                "4:XYP:C2",
+                "3:XYP:O4",
+                "4:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.4524750261211365,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C2",
+              "neighbors": [
+                "4:XYP:C1",
+                "4:XYP:C3",
+                "4:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.55696505815884,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C3",
+              "neighbors": [
+                "4:XYP:C2",
+                "4:XYP:C4",
+                "4:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.533268114864631,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C4",
+              "neighbors": [
+                "4:XYP:C3",
+                "4:XYP:C5",
+                "4:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.635438930552787,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C1",
+              "neighbors": [
+                "5:XYP:C2",
+                "4:XYP:O4",
+                "5:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.448659402013511,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C2",
+              "neighbors": [
+                "5:XYP:C1",
+                "5:XYP:C3",
+                "5:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.55400533631919,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C3",
+              "neighbors": [
+                "5:XYP:C2",
+                "5:XYP:C4",
+                "5:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.523419616237516,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C4",
+              "neighbors": [
+                "5:XYP:C3",
+                "5:XYP:C5",
+                "5:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5194385918498057,
+              "status": "consistent"
+            }
+          ],
+          "min_nonbonded_heavy_vdw_sum_ratio": 0.839892052587173
+        },
+        "unconstrained_mmff_energy_at_selected_geometry": 355.8076649147724,
+        "status": "valid"
+      },
+      {
+        "slot": 11,
+        "seed": 20261035,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          932,
+          0,
+          0,
+          0,
+          0,
+          0,
+          65,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 12,
+        "seed": 20261036,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          943,
+          0,
+          0,
+          0,
+          0,
+          0,
+          53,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 13,
+        "seed": 20261037,
+        "embedding_return_code": 0,
+        "embedding_failure_counts": [
+          473,
+          1,
+          0,
+          0,
+          0,
+          0,
+          33,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mmff_return_code": 1,
+        "constrained_mmff_energy": 378.44231525129754,
+        "validation": {
+          "valid": false,
+          "failures": [
+            "mmff_not_converged"
+          ],
+          "rings": [
+            {
+              "branch_num": "1",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.561182783986331,
+                "q2_A": 0.055353862424812356,
+                "q3_A": -0.5584461182220752,
+                "theta_deg": 174.33926286300772,
+                "phi_deg": 118.41480457844405,
+                "q2_cos_phi_A": -0.026340217601408974,
+                "q2_sin_phi_A": 0.04868514169698469,
+                "chair_pole_distance_deg": 5.660737136992282,
+                "cp_plane_rms_A": 0.22910191220017093,
+                "cp_plane_max_abs_A": 0.2599310097901779,
+                "least_squares_plane_rms_A": 0.22908380723678592,
+                "ring_bond_min_A": 1.4134153574093429,
+                "ring_bond_max_A": 1.536057330765613,
+                "ring_angle_min_deg": 110.35616918268356,
+                "ring_angle_max_deg": 111.7520830978208,
+                "mean_plane_z_A": [
+                  -0.24319220480302975,
+                  0.21124586809319323,
+                  -0.1960383363705071,
+                  0.21277714135765563,
+                  -0.24472347806749156,
+                  0.2599310097901779
+                ],
+                "ring_bond_lengths_A": [
+                  1.5349621804467062,
+                  1.5290703158834429,
+                  1.536057330765613,
+                  1.5307984291259107,
+                  1.4217855575615927,
+                  1.4134153574093429
+                ],
+                "ring_angles_deg": [
+                  111.6807439917167,
+                  110.63718448354568,
+                  110.49968632206624,
+                  110.35616918268356,
+                  111.7520830978208,
+                  110.45172555118359
+                ],
+                "fourier_reconstruction_max_error_A": 3.885780586188048e-16,
+                "cp_mean_plane_constraint_max_error_A": 1.6653345369377348e-15
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 0.16167916771401397,
+                "theta_difference_to_CCD_ideal_deg": 0.016325073411564972,
+                "Q_difference_to_CCD_ideal_A": -0.05823232517551091,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.012993069374515054,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.8000282886470274
+              },
+              "max_pair_distance_difference_A": 0.028379225247002093,
+              "max_torsion_difference_deg": 5.000065926864664,
+              "failures": []
+            },
+            {
+              "branch_num": "2",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5772005533384926,
+                "q2_A": 0.04249528168417644,
+                "q3_A": -0.5756341110539268,
+                "theta_deg": 175.77788822351286,
+                "phi_deg": 103.55315827841028,
+                "q2_cos_phi_A": -0.009958659429708059,
+                "q2_sin_phi_A": 0.04131191193567042,
+                "chair_pole_distance_deg": 4.222111776487139,
+                "cp_plane_rms_A": 0.2356411391552354,
+                "cp_plane_max_abs_A": 0.25853241508954083,
+                "least_squares_plane_rms_A": 0.23561790786922224,
+                "ring_bond_min_A": 1.420097861127973,
+                "ring_bond_max_A": 1.5432630741228721,
+                "ring_angle_min_deg": 109.69104004485436,
+                "ring_angle_max_deg": 111.09198800029708,
+                "mean_plane_z_A": [
+                  -0.2407512764729611,
+                  0.2172205031538707,
+                  -0.21147086845136126,
+                  0.22925200706794113,
+                  -0.2527827803870317,
+                  0.25853241508954083
+                ],
+                "ring_bond_lengths_A": [
+                  1.5432630741228721,
+                  1.5283357216714166,
+                  1.5303947441646726,
+                  1.5294561731208927,
+                  1.420097861127973,
+                  1.4212211065195846
+                ],
+                "ring_angles_deg": [
+                  111.09198800029708,
+                  109.99616844664496,
+                  110.183698265829,
+                  109.69104004485436,
+                  110.88619955485387,
+                  110.72026573065381
+                ],
+                "fourier_reconstruction_max_error_A": 3.3306690738754696e-16,
+                "cp_mean_plane_constraint_max_error_A": 1.4432899320127035e-15
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 1.9949497587266911,
+                "theta_difference_to_CCD_ideal_deg": 1.4223002870935773,
+                "Q_difference_to_CCD_ideal_A": -0.04221455582334932,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.013412427817815153,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.068568468117249
+              },
+              "max_pair_distance_difference_A": 0.03610212956712333,
+              "max_torsion_difference_deg": 5.000112423029464,
+              "failures": []
+            },
+            {
+              "branch_num": "3",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5645124882239626,
+                "q2_A": 0.04957837417022325,
+                "q3_A": -0.5623311605944017,
+                "theta_deg": 174.96150016401464,
+                "phi_deg": 116.01630260492156,
+                "q2_cos_phi_A": -0.021746406914633188,
+                "q2_sin_phi_A": 0.044554561738006725,
+                "chair_pole_distance_deg": 5.0384998359853626,
+                "cp_plane_rms_A": 0.23046125826293432,
+                "cp_plane_max_abs_A": 0.258125662799263,
+                "least_squares_plane_rms_A": 0.23043915939869067,
+                "ring_bond_min_A": 1.4167073537247414,
+                "ring_bond_max_A": 1.53523106289968,
+                "ring_angle_min_deg": 109.79080150235224,
+                "ring_angle_max_deg": 111.70213558707424,
+                "mean_plane_z_A": [
+                  -0.24212602887329515,
+                  0.2135711010612565,
+                  -0.20101580717518602,
+                  0.21701544110115373,
+                  -0.24557036891319273,
+                  0.258125662799263
+                ],
+                "ring_bond_lengths_A": [
+                  1.533341660088947,
+                  1.5259711639780131,
+                  1.53523106289968,
+                  1.5331014463291195,
+                  1.4172954436811727,
+                  1.4167073537247414
+                ],
+                "ring_angles_deg": [
+                  111.40026428714366,
+                  110.49686763873551,
+                  110.6522559366216,
+                  109.79080150235224,
+                  111.70213558707424,
+                  110.696938800208
+                ],
+                "fourier_reconstruction_max_error_A": 1.942890293094024e-16,
+                "cp_mean_plane_constraint_max_error_A": 6.106226635438361e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 0.7123749633042032,
+                "theta_difference_to_CCD_ideal_deg": 0.6059122275953541,
+                "Q_difference_to_CCD_ideal_A": -0.05490262093787934,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.009701073059116494,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.045241537671444
+              },
+              "max_pair_distance_difference_A": 0.03136414495735096,
+              "max_torsion_difference_deg": 5.000104644190571,
+              "failures": []
+            },
+            {
+              "branch_num": "4",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.569706616446167,
+                "q2_A": 0.04798394854509493,
+                "q3_A": -0.5676822786599576,
+                "theta_deg": 175.16849791294106,
+                "phi_deg": 112.07734940265813,
+                "q2_cos_phi_A": -0.01803514860511883,
+                "q2_sin_phi_A": 0.04446563541398681,
+                "chair_pole_distance_deg": 4.8315020870589365,
+                "cp_plane_rms_A": 0.23258175223009933,
+                "cp_plane_max_abs_A": 0.25919443644757134,
+                "least_squares_plane_rms_A": 0.23256185210529487,
+                "ring_bond_min_A": 1.4201162107746546,
+                "ring_bond_max_A": 1.540419052019221,
+                "ring_angle_min_deg": 110.12268526708539,
+                "ring_angle_max_deg": 111.46038854277045,
+                "mean_plane_z_A": [
+                  -0.24216791769159823,
+                  0.21472880103358474,
+                  -0.20431620313154444,
+                  0.22134272188751766,
+                  -0.2487818385455312,
+                  0.25919443644757134
+                ],
+                "ring_bond_lengths_A": [
+                  1.540419052019221,
+                  1.5310004044949765,
+                  1.5311358822051413,
+                  1.5318894055624825,
+                  1.4220481149431692,
+                  1.4201162107746546
+                ],
+                "ring_angles_deg": [
+                  111.46038854277045,
+                  110.24136050026368,
+                  110.34307190001137,
+                  110.12268526708539,
+                  111.31728375557064,
+                  110.50769750910966
+                ],
+                "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+                "cp_mean_plane_constraint_max_error_A": 1.1102230246251565e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 1.089166251245741,
+                "theta_difference_to_CCD_ideal_deg": 0.8129099765217802,
+                "Q_difference_to_CCD_ideal_A": -0.0497084927156749,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.010568405714163953,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.856000246573103
+              },
+              "max_pair_distance_difference_A": 0.033796965693571046,
+              "max_torsion_difference_deg": 5.000084237888245,
+              "failures": []
+            },
+            {
+              "branch_num": "5",
+              "ccd_id": "XYP",
+              "pucker": {
+                "Q_A": 0.5731772171642382,
+                "q2_A": 0.035295825642668775,
+                "q3_A": -0.5720894396581208,
+                "theta_deg": 176.46953496171398,
+                "phi_deg": 127.3176839025036,
+                "q2_cos_phi_A": -0.021397525615942204,
+                "q2_sin_phi_A": 0.028070290438696424,
+                "chair_pole_distance_deg": 3.5304650382860245,
+                "cp_plane_rms_A": 0.23399861904013455,
+                "cp_plane_max_abs_A": 0.2537666145393829,
+                "least_squares_plane_rms_A": 0.2339770613779445,
+                "ring_bond_min_A": 1.417960920741353,
+                "ring_bond_max_A": 1.5406571669485987,
+                "ring_angle_min_deg": 109.34471692670408,
+                "ring_angle_max_deg": 111.68738475936476,
+                "mean_plane_z_A": [
+                  -0.2459084029072135,
+                  0.2256963241006869,
+                  -0.21334245692633091,
+                  0.22120066855850073,
+                  -0.24141274736502755,
+                  0.2537666145393829
+                ],
+                "ring_bond_lengths_A": [
+                  1.5406571669485987,
+                  1.5297406773454205,
+                  1.5278324870062605,
+                  1.5280079145055077,
+                  1.417960920741353,
+                  1.4214210093904855
+                ],
+                "ring_angles_deg": [
+                  111.26046260167688,
+                  109.34471692670408,
+                  110.55062288064083,
+                  109.71055412886398,
+                  111.68738475936476,
+                  110.74160272625726
+                ],
+                "fourier_reconstruction_max_error_A": 5.551115123125783e-16,
+                "cp_mean_plane_constraint_max_error_A": 1.4432899320127035e-15
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 2.188264748714672,
+                "theta_difference_to_CCD_ideal_deg": 2.113947025294692,
+                "Q_difference_to_CCD_ideal_A": -0.04623789199760375,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.010806520643541706,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.0899054637206973
+              },
+              "max_pair_distance_difference_A": 0.03480966732477464,
+              "max_torsion_difference_deg": 5.00006497102558,
+              "failures": []
+            }
+          ],
+          "stereochemistry": [
+            {
+              "center": "1:XYP:C1",
+              "neighbors": [
+                "1:XYP:C2",
+                "1:XYP:O1",
+                "1:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.3973387048508963,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C2",
+              "neighbors": [
+                "1:XYP:C1",
+                "1:XYP:C3",
+                "1:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.545364514661495,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C3",
+              "neighbors": [
+                "1:XYP:C2",
+                "1:XYP:C4",
+                "1:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5798533770591536,
+              "status": "consistent"
+            },
+            {
+              "center": "1:XYP:C4",
+              "neighbors": [
+                "1:XYP:C3",
+                "1:XYP:C5",
+                "1:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5837845767319756,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C1",
+              "neighbors": [
+                "2:XYP:C2",
+                "1:XYP:O4",
+                "2:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.46516800501617,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C2",
+              "neighbors": [
+                "2:XYP:C1",
+                "2:XYP:C3",
+                "2:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.578499183319484,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C3",
+              "neighbors": [
+                "2:XYP:C2",
+                "2:XYP:C4",
+                "2:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.514863355619692,
+              "status": "consistent"
+            },
+            {
+              "center": "2:XYP:C4",
+              "neighbors": [
+                "2:XYP:C3",
+                "2:XYP:C5",
+                "2:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.2682939503258694,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C1",
+              "neighbors": [
+                "3:XYP:C2",
+                "2:XYP:O4",
+                "3:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.4409073858754997,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C2",
+              "neighbors": [
+                "3:XYP:C1",
+                "3:XYP:C3",
+                "3:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5520538513778477,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C3",
+              "neighbors": [
+                "3:XYP:C2",
+                "3:XYP:C4",
+                "3:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.505147131140509,
+              "status": "consistent"
+            },
+            {
+              "center": "3:XYP:C4",
+              "neighbors": [
+                "3:XYP:C3",
+                "3:XYP:C5",
+                "3:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.569091387250901,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C1",
+              "neighbors": [
+                "4:XYP:C2",
+                "3:XYP:O4",
+                "4:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.2295607085854945,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C2",
+              "neighbors": [
+                "4:XYP:C1",
+                "4:XYP:C3",
+                "4:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5666442314930378,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C3",
+              "neighbors": [
+                "4:XYP:C2",
+                "4:XYP:C4",
+                "4:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5291851169509014,
+              "status": "consistent"
+            },
+            {
+              "center": "4:XYP:C4",
+              "neighbors": [
+                "4:XYP:C3",
+                "4:XYP:C5",
+                "4:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.127746750385269,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C1",
+              "neighbors": [
+                "5:XYP:C2",
+                "4:XYP:O4",
+                "5:XYP:O5"
+              ],
+              "ideal_signed_volume": 2.392448479,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.1111707025482325,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C2",
+              "neighbors": [
+                "5:XYP:C1",
+                "5:XYP:C3",
+                "5:XYP:O2"
+              ],
+              "ideal_signed_volume": -2.5776179200000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5390518651984264,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C3",
+              "neighbors": [
+                "5:XYP:C2",
+                "5:XYP:C4",
+                "5:XYP:O3"
+              ],
+              "ideal_signed_volume": 2.5862861780000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5257777040087417,
+              "status": "consistent"
+            },
+            {
+              "center": "5:XYP:C4",
+              "neighbors": [
+                "5:XYP:C3",
+                "5:XYP:C5",
+                "5:XYP:O4"
+              ],
+              "ideal_signed_volume": -2.5832363629999993,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.477281017279039,
+              "status": "consistent"
+            }
+          ],
+          "min_nonbonded_heavy_vdw_sum_ratio": 0.8284420161023949
+        },
+        "unconstrained_mmff_energy_at_selected_geometry": 378.22810212122727,
+        "status": "invalid"
+      },
+      {
+        "slot": 14,
+        "seed": 20261038,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          935,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 15,
+        "seed": 20261039,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          951,
+          0,
+          0,
+          0,
+          0,
+          0,
+          48,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 16,
+        "seed": 20261040,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          926,
+          0,
+          0,
+          0,
+          0,
+          0,
+          72,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 17,
+        "seed": 20261041,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          932,
+          0,
+          0,
+          0,
+          0,
+          0,
+          66,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 18,
+        "seed": 20261042,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          936,
+          0,
+          0,
+          0,
+          0,
+          0,
+          63,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 19,
+        "seed": 20261043,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          937,
+          0,
+          0,
+          0,
+          0,
+          0,
+          61,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      }
+    ],
+    "valid_candidate_count": 2,
+    "status": "selected",
+    "selected_slot": 10,
+    "selected_unconstrained_mmff_energy": 355.8076649147724,
+    "coordinates_source": "Independent ETKDG with chemical-ideal intraring bounds/dihedrals; no source/native pose or coordMap"
+  },
+  "no_docking_or_accuracy_evaluation": true,
+  "serialized_sdf_validation": {
+    "valid": true,
+    "failures": [],
+    "rings": [
+      {
+        "branch_num": "1",
+        "ccd_id": "XYP",
+        "pucker": {
+          "Q_A": 0.5816048705029448,
+          "q2_A": 0.05199102666660522,
+          "q3_A": -0.5792764094444893,
+          "theta_deg": 174.87134954291074,
+          "phi_deg": 141.8410253971896,
+          "q2_cos_phi_A": -0.04088051773020026,
+          "q2_sin_phi_A": 0.03212242400502237,
+          "chair_pole_distance_deg": 5.128650457089265,
+          "cp_plane_rms_A": 0.23743919410828368,
+          "cp_plane_max_abs_A": 0.2643510048223403,
+          "least_squares_plane_rms_A": 0.23741609501429406,
+          "ring_bond_min_A": 1.4183305891081952,
+          "ring_bond_max_A": 1.5370711629589568,
+          "ring_angle_min_deg": 109.72194345891211,
+          "ring_angle_max_deg": 111.51926008583233,
+          "mean_plane_z_A": [
+            -0.26009098177789947,
+            0.23222858081731806,
+            -0.20862620290117478,
+            0.21288622594561557,
+            -0.24074862690619703,
+            0.2643510048223403
+          ],
+          "ring_bond_lengths_A": [
+            1.5349435168761099,
+            1.5269249752361773,
+            1.5370711629589568,
+            1.5313015705601563,
+            1.4183305891081952,
+            1.419619491272221
+          ],
+          "ring_angles_deg": [
+            110.02522535212789,
+            109.78081295837524,
+            110.13250235291807,
+            109.72194345891211,
+            111.51926008583233,
+            110.41959764140218
+          ],
+          "fourier_reconstruction_max_error_A": 5.273559366969494e-16,
+          "cp_mean_plane_constraint_max_error_A": 2.6645352591003757e-15
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 2.095736427217575,
+          "theta_difference_to_CCD_ideal_deg": 0.5157616064914521,
+          "Q_difference_to_CCD_ideal_A": -0.0378102386588971,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.00678893551163684,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.767900378865619
+        },
+        "max_pair_distance_difference_A": 0.030655888217243188,
+        "max_torsion_difference_deg": 4.996803238837259,
+        "failures": []
+      },
+      {
+        "branch_num": "2",
+        "ccd_id": "XYP",
+        "pucker": {
+          "Q_A": 0.5739850540667816,
+          "q2_A": 0.06494939844943946,
+          "q3_A": -0.5702985340443215,
+          "theta_deg": 173.50276828856803,
+          "phi_deg": 130.22479976722533,
+          "q2_cos_phi_A": -0.041943556861883,
+          "q2_sin_phi_A": 0.049589942495611314,
+          "chair_pole_distance_deg": 6.497231711431965,
+          "cp_plane_rms_A": 0.23432841707457155,
+          "cp_plane_max_abs_A": 0.26972643474793634,
+          "least_squares_plane_rms_A": 0.2343087685024618,
+          "ring_bond_min_A": 1.4201144566548145,
+          "ring_bond_max_A": 1.5373271967931876,
+          "ring_angle_min_deg": 109.89823403347383,
+          "ring_angle_max_deg": 111.64803189596904,
+          "mean_plane_z_A": [
+            -0.2570395254226199,
+            0.22013649225232526,
+            -0.19592036840734645,
+            0.20860727773266302,
+            -0.24551031090295772,
+            0.26972643474793634
+          ],
+          "ring_bond_lengths_A": [
+            1.5338427657357845,
+            1.528102774685001,
+            1.5373271967931876,
+            1.530252835318399,
+            1.4236888915770896,
+            1.4201144566548145
+          ],
+          "ring_angles_deg": [
+            110.46725701787025,
+            110.55536341704388,
+            110.33536304843666,
+            110.15463065363485,
+            111.64803189596904,
+            109.89823403347383
+          ],
+          "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+          "cp_mean_plane_constraint_max_error_A": 5.551115123125783e-16
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 1.3700338485534456,
+          "theta_difference_to_CCD_ideal_deg": 0.8528196478512484,
+          "Q_difference_to_CCD_ideal_A": -0.04543005509506037,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.006293970129043425,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.2465367709372686
+        },
+        "max_pair_distance_difference_A": 0.03168951462455416,
+        "max_torsion_difference_deg": 5.000739814157242,
+        "failures": []
+      },
+      {
+        "branch_num": "3",
+        "ccd_id": "XYP",
+        "pucker": {
+          "Q_A": 0.5771575799599197,
+          "q2_A": 0.05668984070346525,
+          "q3_A": -0.5743667243723358,
+          "theta_deg": 174.36317867013636,
+          "phi_deg": 112.70235892985305,
+          "q2_cos_phi_A": -0.02187910523526013,
+          "q2_sin_phi_A": 0.052297636591806695,
+          "chair_pole_distance_deg": 5.636821329863636,
+          "cp_plane_rms_A": 0.2356235953468975,
+          "cp_plane_max_abs_A": 0.266949005268841,
+          "least_squares_plane_rms_A": 0.2355929436360706,
+          "ring_bond_min_A": 1.4158081155297846,
+          "ring_bond_max_A": 1.5397597572348747,
+          "ring_angle_min_deg": 109.5985780641769,
+          "ring_angle_max_deg": 110.86082658310501,
+          "mean_plane_z_A": [
+            -0.24711614062154058,
+            0.21465136867703422,
+            -0.20201946137982887,
+            0.2218523260271294,
+            -0.2543170979716352,
+            0.266949005268841
+          ],
+          "ring_bond_lengths_A": [
+            1.5397597572348747,
+            1.5272726311958842,
+            1.5311400915657587,
+            1.5276377908391765,
+            1.4158081155297846,
+            1.4226427309764036
+          ],
+          "ring_angles_deg": [
+            110.55331770836528,
+            110.0630225042777,
+            110.73727601877927,
+            109.5985780641769,
+            110.86082658310501,
+            110.53055157032117
+          ],
+          "fourier_reconstruction_max_error_A": 2.7755575615628914e-16,
+          "cp_mean_plane_constraint_max_error_A": 4.718447854656915e-16
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 0.7215364862822772,
+          "theta_difference_to_CCD_ideal_deg": 0.007590733717080411,
+          "Q_difference_to_CCD_ideal_A": -0.04225752920192227,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.009909110929817722,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.878854307784607
+        },
+        "max_pair_distance_difference_A": 0.03107124249238824,
+        "max_torsion_difference_deg": 4.838436089903013,
+        "failures": []
+      },
+      {
+        "branch_num": "4",
+        "ccd_id": "XYP",
+        "pucker": {
+          "Q_A": 0.5707016280562723,
+          "q2_A": 0.05128947059276373,
+          "q3_A": -0.5683922399825616,
+          "theta_deg": 174.8438197253118,
+          "phi_deg": 113.35433438161603,
+          "q2_cos_phi_A": -0.020331982161608846,
+          "q2_sin_phi_A": 0.0470873687422221,
+          "chair_pole_distance_deg": 5.156180274688211,
+          "cp_plane_rms_A": 0.2329879640189166,
+          "cp_plane_max_abs_A": 0.26145818234399903,
+          "least_squares_plane_rms_A": 0.2329649035692115,
+          "ring_bond_min_A": 1.4167676909077225,
+          "ring_bond_max_A": 1.5381065697798708,
+          "ring_angle_min_deg": 109.68695379021618,
+          "ring_angle_max_deg": 111.50818763305524,
+          "mean_plane_z_A": [
+            -0.2437838356599703,
+            0.21437081360177726,
+            -0.20263213822761367,
+            0.22030648491164312,
+            -0.2497195069698358,
+            0.26145818234399903
+          ],
+          "ring_bond_lengths_A": [
+            1.5381065697798708,
+            1.52749337478105,
+            1.5328846010055681,
+            1.5287757356787162,
+            1.4167676909077225,
+            1.4224262968604033
+          ],
+          "ring_angles_deg": [
+            111.08560934860284,
+            110.28471936592953,
+            110.62070332978158,
+            109.68695379021618,
+            111.50818763305524,
+            110.45804188504408
+          ],
+          "fourier_reconstruction_max_error_A": 3.3306690738754696e-16,
+          "cp_mean_plane_constraint_max_error_A": 4.0245584642661925e-16
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 0.7962187146523801,
+          "theta_difference_to_CCD_ideal_deg": 0.48823178889250585,
+          "Q_difference_to_CCD_ideal_A": -0.04871348110556961,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.008255923474813853,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.806344622507524
+        },
+        "max_pair_distance_difference_A": 0.031333016461706276,
+        "max_torsion_difference_deg": 4.9998758006973105,
+        "failures": []
+      },
+      {
+        "branch_num": "5",
+        "ccd_id": "XYP",
+        "pucker": {
+          "Q_A": 0.5780866262710131,
+          "q2_A": 0.03966164488558084,
+          "q3_A": -0.5767244588175293,
+          "theta_deg": 176.06593315977437,
+          "phi_deg": 143.20655162150427,
+          "q2_cos_phi_A": -0.031761039770289844,
+          "q2_sin_phi_A": 0.02375462960645751,
+          "chair_pole_distance_deg": 3.9340668402256256,
+          "cp_plane_rms_A": 0.23600287691516317,
+          "cp_plane_max_abs_A": 0.2564927116147411,
+          "least_squares_plane_rms_A": 0.23598131346117499,
+          "ring_bond_min_A": 1.417779401035295,
+          "ring_bond_max_A": 1.5417529438921145,
+          "ring_angle_min_deg": 109.37464200906192,
+          "ring_angle_max_deg": 111.70830678480732,
+          "mean_plane_z_A": [
+            -0.25378401924207244,
+            0.23273808200828355,
+            -0.21440083714716476,
+            0.21710952951983362,
+            -0.23815546675362198,
+            0.2564927116147411
+          ],
+          "ring_bond_lengths_A": [
+            1.5417529438921145,
+            1.525681165905904,
+            1.528121523308928,
+            1.5281019893973047,
+            1.4239694975665735,
+            1.417779401035295
+          ],
+          "ring_angles_deg": [
+            110.69213561226537,
+            109.37464200906192,
+            110.26456468537596,
+            109.83305133801444,
+            111.70830678480732,
+            110.52167111772782
+          ],
+          "fourier_reconstruction_max_error_A": 2.7755575615628914e-16,
+          "cp_mean_plane_constraint_max_error_A": 9.43689570931383e-16
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 2.5487627411496185,
+          "theta_difference_to_CCD_ideal_deg": 1.710345223355091,
+          "Q_difference_to_CCD_ideal_A": -0.0413284828908288,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.01190229758705752,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.8699738551912617
+        },
+        "max_pair_distance_difference_A": 0.033655504726834096,
+        "max_torsion_difference_deg": 5.003049761024869,
+        "failures": []
+      }
+    ],
+    "stereochemistry": [
+      {
+        "center": "1:XYP:C1",
+        "neighbors": [
+          "1:XYP:C2",
+          "1:XYP:O1",
+          "1:XYP:O5"
+        ],
+        "ideal_signed_volume": 2.392448479,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.3852954396259993,
+        "status": "consistent"
+      },
+      {
+        "center": "1:XYP:C2",
+        "neighbors": [
+          "1:XYP:C1",
+          "1:XYP:C3",
+          "1:XYP:O2"
+        ],
+        "ideal_signed_volume": -2.5776179200000002,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.506933837208,
+        "status": "consistent"
+      },
+      {
+        "center": "1:XYP:C3",
+        "neighbors": [
+          "1:XYP:C2",
+          "1:XYP:C4",
+          "1:XYP:O3"
+        ],
+        "ideal_signed_volume": 2.5862861780000004,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.548504642735999,
+        "status": "consistent"
+      },
+      {
+        "center": "1:XYP:C4",
+        "neighbors": [
+          "1:XYP:C3",
+          "1:XYP:C5",
+          "1:XYP:O4"
+        ],
+        "ideal_signed_volume": -2.5832363629999993,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.642414491424001,
+        "status": "consistent"
+      },
+      {
+        "center": "2:XYP:C1",
+        "neighbors": [
+          "2:XYP:C2",
+          "1:XYP:O4",
+          "2:XYP:O5"
+        ],
+        "ideal_signed_volume": 2.392448479,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.4439384976219993,
+        "status": "consistent"
+      },
+      {
+        "center": "2:XYP:C2",
+        "neighbors": [
+          "2:XYP:C1",
+          "2:XYP:C3",
+          "2:XYP:O2"
+        ],
+        "ideal_signed_volume": -2.5776179200000002,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.5131573045040003,
+        "status": "consistent"
+      },
+      {
+        "center": "2:XYP:C3",
+        "neighbors": [
+          "2:XYP:C2",
+          "2:XYP:C4",
+          "2:XYP:O3"
+        ],
+        "ideal_signed_volume": 2.5862861780000004,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.5975491369229995,
+        "status": "consistent"
+      },
+      {
+        "center": "2:XYP:C4",
+        "neighbors": [
+          "2:XYP:C3",
+          "2:XYP:C5",
+          "2:XYP:O4"
+        ],
+        "ideal_signed_volume": -2.5832363629999993,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.578567048119999,
+        "status": "consistent"
+      },
+      {
+        "center": "3:XYP:C1",
+        "neighbors": [
+          "3:XYP:C2",
+          "2:XYP:O4",
+          "3:XYP:O5"
+        ],
+        "ideal_signed_volume": 2.392448479,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.477937114511,
+        "status": "consistent"
+      },
+      {
+        "center": "3:XYP:C2",
+        "neighbors": [
+          "3:XYP:C1",
+          "3:XYP:C3",
+          "3:XYP:O2"
+        ],
+        "ideal_signed_volume": -2.5776179200000002,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.5480253968050004,
+        "status": "consistent"
+      },
+      {
+        "center": "3:XYP:C3",
+        "neighbors": [
+          "3:XYP:C2",
+          "3:XYP:C4",
+          "3:XYP:O3"
+        ],
+        "ideal_signed_volume": 2.5862861780000004,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.5261425846409993,
+        "status": "consistent"
+      },
+      {
+        "center": "3:XYP:C4",
+        "neighbors": [
+          "3:XYP:C3",
+          "3:XYP:C5",
+          "3:XYP:O4"
+        ],
+        "ideal_signed_volume": -2.5832363629999993,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.6214845381229996,
+        "status": "consistent"
+      },
+      {
+        "center": "4:XYP:C1",
+        "neighbors": [
+          "4:XYP:C2",
+          "3:XYP:O4",
+          "4:XYP:O5"
+        ],
+        "ideal_signed_volume": 2.392448479,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.4528344399629995,
+        "status": "consistent"
+      },
+      {
+        "center": "4:XYP:C2",
+        "neighbors": [
+          "4:XYP:C1",
+          "4:XYP:C3",
+          "4:XYP:O2"
+        ],
+        "ideal_signed_volume": -2.5776179200000002,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.557222620915,
+        "status": "consistent"
+      },
+      {
+        "center": "4:XYP:C3",
+        "neighbors": [
+          "4:XYP:C2",
+          "4:XYP:C4",
+          "4:XYP:O3"
+        ],
+        "ideal_signed_volume": 2.5862861780000004,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.5333095074,
+        "status": "consistent"
+      },
+      {
+        "center": "4:XYP:C4",
+        "neighbors": [
+          "4:XYP:C3",
+          "4:XYP:C5",
+          "4:XYP:O4"
+        ],
+        "ideal_signed_volume": -2.5832363629999993,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.6355309983360007,
+        "status": "consistent"
+      },
+      {
+        "center": "5:XYP:C1",
+        "neighbors": [
+          "5:XYP:C2",
+          "4:XYP:O4",
+          "5:XYP:O5"
+        ],
+        "ideal_signed_volume": 2.392448479,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.448515683048002,
+        "status": "consistent"
+      },
+      {
+        "center": "5:XYP:C2",
+        "neighbors": [
+          "5:XYP:C1",
+          "5:XYP:C3",
+          "5:XYP:O2"
+        ],
+        "ideal_signed_volume": -2.5776179200000002,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.5538968708439995,
+        "status": "consistent"
+      },
+      {
+        "center": "5:XYP:C3",
+        "neighbors": [
+          "5:XYP:C2",
+          "5:XYP:C4",
+          "5:XYP:O3"
+        ],
+        "ideal_signed_volume": 2.5862861780000004,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.523328927597,
+        "status": "consistent"
+      },
+      {
+        "center": "5:XYP:C4",
+        "neighbors": [
+          "5:XYP:C3",
+          "5:XYP:C5",
+          "5:XYP:O4"
+        ],
+        "ideal_signed_volume": -2.5832363629999993,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.5193384711190006,
+        "status": "consistent"
+      }
+    ],
+    "min_nonbonded_heavy_vdw_sum_ratio": 0.8399096847558746
+  },
+  "selected_sdf_sha256": "a4cf7fc4cd3e50f580835d58f113041b20f64091dac0b308a414065c34090092"
+}

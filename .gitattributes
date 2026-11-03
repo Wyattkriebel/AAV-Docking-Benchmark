@@ -2,6 +2,10 @@
 tests/fixtures/external/* -text -whitespace
 results/**/*.pdbqt* -text -whitespace
 results/**/*.pdb* -text -whitespace
+results/**/*.sdf -text -whitespace
+results/ideal_ring_conformer_feasibility/** -text -whitespace
+# This source's exact bytes are pinned by the executed initialization profile.
+aav_benchmark/ring_geometry.py -text -whitespace
 results/haddock_reproduction/**/*.html -text -whitespace -diff
 results/haddock_reproduction/** -text -whitespace
 results/additional_method_reproduction/** -text -whitespace

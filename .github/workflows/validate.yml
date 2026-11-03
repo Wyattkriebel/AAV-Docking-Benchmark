@@ -21,5 +21,6 @@ jobs:
       - run: python scripts/regenerate_pol_report.py --check
       - run: python -m aav_benchmark.additional_method verify-example
       - run: python -m aav_benchmark.haddock_replay
+      - run: python scripts/verify_ring_initialization.py
       - run: python scripts/verify_site_experiment.py --numeric-tolerance 1e-10 --surface-area-tolerance 1e-6
       - run: python -m aav_benchmark status

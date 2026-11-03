@@ -1,0 +1,15 @@
+{'case_id': '1GNY', 'status': 'no_valid_conformer', 'valid_candidate_count': 0, 'selected_slot': None, 'report_sha256': 'cc3b30c44f5a4a1c6074a9a7d8a99320b5e2575196b005303c6b0a117d50d4ad'}
+{
+  "schema_version": 1,
+  "profile_id": "ccd_ideal_pyranose_v1",
+  "cases": [
+    {
+      "case_id": "1GNY",
+      "status": "no_valid_conformer",
+      "valid_candidate_count": 0,
+      "selected_slot": null,
+      "report_sha256": "cc3b30c44f5a4a1c6074a9a7d8a99320b5e2575196b005303c6b0a117d50d4ad"
+    }
+  ],
+  "no_docking_or_accuracy_evaluation": true
+}
