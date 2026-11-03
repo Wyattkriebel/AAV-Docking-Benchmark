@@ -1,0 +1,3 @@
+CHI energy penalties applied to NDG   1  and GAL   2  linkage.
+CHI energy penalties applied to GAL   2  and FUC   3  linkage.
+CHI energy penalties applied to NDG   1  and FUC   4  linkage.

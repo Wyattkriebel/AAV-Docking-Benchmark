@@ -1,0 +1,12 @@
+{
+  "purpose": "Separate topology-only I/O diagnostic retaining CNS input/output; no docking or scientific topology parameter changes.",
+  "config_sha256": "97f65191f8b1876061ec005a438a5a72ddc926a3d6f5b8beca8d9910ec638e43",
+  "ncores": 1,
+  "adaptations": [
+    "debug=true writes CNS stdout/input",
+    "clean=false retains intermediate files",
+    "only released topoaa stage is executed"
+  ],
+  "parent_official_workflow_lock": "benchmarks/haddock.lock.json",
+  "main_workflow_is_unchanged": true
+}

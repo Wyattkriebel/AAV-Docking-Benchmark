@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "source_only": true,
+  "cns_execution_performed": false,
+  "installed_binary_execution_performed": false,
+  "source_commit": "815fcc14100896e35d1795058465cb547f37a8c5",
+  "recommended_workflow": {
+    "source_config": "https://github.com/haddocking/haddock3/blob/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/docking-protein-glycan-test.cfg",
+    "source_input_directory": "https://github.com/haddocking/haddock3/blob/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/data",
+    "reason": "Official released small carbohydrate workflow,129-residue receptor and four-sugar ligand. Standardtest uses20rigidbody models followed by RMSDclustering and flexible refinement; flexref-onlyalternative costs10timesmoreMDsteps/model.",
+    "adaptations_allowed_for_reproduction": [
+      "ncores10to1",
+      "run_dir moved to owned reproduction directory",
+      "preserve/restash exact scientificsettings, officialinputbytes and restraintbytes",
+      "set thread-limiting environment variables to1"
+    ],
+    "expected_resource_scope": "No authoritative timing guarantee found.20serialrigidbody models plus up-to20flexrefmodels at3000defaultMDsteps/model likely requiresminutes or more. Run onlyafterparentCPUgate; no fullworkflowrunperformed by thisreader.",
+    "command": "From copied officialexample directory: <isolated-env>/bin/haddock3 <recorded-single-CPU-config>.cfg"
+  },
+  "information_conditions": {
+    "native_binding_site_restraints": true,
+    "AIR_count": 15,
+    "protein_AIR_residues": [
+      35,
+      101,
+      102,
+      103,
+      75,
+      107,
+      108,
+      46,
+      109,
+      52,
+      57,
+      58,
+      59,
+      62,
+      63
+    ],
+    "ligand_AIR_residues": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "AIR_distance_triplet_A": [
+      2.0,
+      2.0,
+      0.0
+    ],
+    "clustering_also_uses_interface_residue_lists": true,
+    "reference_target_pdb_used_by_caprieval": true,
+    "caprieval_default_sortby": "score",
+    "cluster_selection_default_sortby": "score",
+    "interpretation": "Guided released-workflow reproduction, not ligand-blind site prediction, independent atomic truth, held-out evaluation or a method-comparison outcome on the new candidate cohort."
+  },
+  "input_inventory": {
+    "receptor": {
+      "residues": 129,
+      "heavy_atoms": 999
+    },
+    "unbound_glycan": {
+      "residues": 4,
+      "residue_names": [
+        "NDG",
+        "NAG",
+        "NAG",
+        "NAG"
+      ],
+      "all_atoms": 109,
+      "heavy_atoms": 56,
+      "acetyl_aliases": [
+        "C2N",
+        "CME",
+        "O2N"
+      ],
+      "reducing_NDG1_O1_present": false
+    },
+    "target": {
+      "total_heavy_atoms": 1056,
+      "glycan_heavy_atoms": 57,
+      "uses_standard_acetyl_names": [
+        "C7",
+        "C8",
+        "O7"
+      ],
+      "reducing_NDG1_O1_present": true
+    },
+    "preparation_caution": "No pinned-source glycan alias conversion was found by source search. Do not assume explicit renaming: actualtopoaa may discard unknownaliascoordinates and build missing standardatoms. Preservemessages, input/outputatomcounts and coordinatecorrespondence; do not silently normalize or call any adaptation unchangedofficialinput."
+  },
+  "licensing": {
+    "haddock_license": "Apache-2.0 per pinned LICENSE",
+    "cns_context": "PinnedDISCLAIMER and official usermanual describe precompiledCNS freefornonprofitapplications and requiring properlicenseforcommercialapplications.",
+    "no_new_legal_affirmation": true,
+    "no_registration_performed": true,
+    "no_commercial_entitlement_claim": true,
+    "source_compilation_fallback": "Old docs/pages/CNS.md directs users to a separate CNSdownload form/password; this path was not followed. Public pinnedARM64binary is available. Any fallback requiring form, newtermacceptance or registration would need parent/user handling."
+  },
+  "support_check": "See glycan_parameter_review.json. Sixprioritycase sugars have nativecarbohydrate declarations; FRU/OPO/C5Pdo not. MSE/CA/MNhave declarationsinotherrelevanttopologies. Staticdeclarationpresence is not proofthat a fullcase willprepareor dockcorrectly.",
+  "primary_urls": [
+    "https://www.bonvinlab.org/haddock3-user-manual/install-cns.html",
+    "https://www.bonvinlab.org/haddock3-user-manual/download-haddock3.html",
+    "https://github.com/haddocking/haddock3/blob/815fcc14100896e35d1795058465cb547f37a8c5/DISCLAIMER.md",
+    "https://github.com/haddocking/haddock3/blob/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/docking-protein-glycan-test.cfg",
+    "https://www.bonvinlab.org/haddock3/pages/examples.html"
+  ]
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "url": "https://files.pythonhosted.org/packages/61/3f/47189715348ecb7d8d45499aa3c16044768a8cd8e3492b6072392dc7020d/haddock3-2026.10.1.tar.gz",
+    "path": "tools/haddock3-2026.10.1/archives/haddock3-2026.10.1.tar.gz",
+    "bytes": 14478875,
+    "sha256": "2edf1f7efef5d9d76217f0c378c14781461a5f729c56ad4b91b1926f0d15421c",
+    "retrieved_date": "2026-11-03",
+    "headers": {
+      "Last-Modified": "Sat, 17 Oct 2026 17:37:11 GMT",
+      "ETag": "\"2a318735fce252d22ebe5cb412c62df6\"",
+      "Content-Type": "application/octet-stream"
+    },
+    "status": "retrieved"
+  },
+  {
+    "url": "https://codeload.github.com/haddocking/haddock3/tar.gz/815fcc14100896e35d1795058465cb547f37a8c5",
+    "path": "tools/haddock3-2026.10.1/archives/haddock3-815fcc14100896e35d1795058465cb547f37a8c5.tar.gz",
+    "bytes": 23328149,
+    "sha256": "30cf9fdebeaa18f796b3133511225fbc208dc11ce9c87630f495c72289080b63",
+    "retrieved_date": "2026-11-03",
+    "headers": {
+      "Content-Type": "application/x-gzip",
+      "ETag": "\"c096cfd8c3a857a8bf42e18ff38b29cae8b46613742f259a21986b7424bd361e\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "url": "https://pypi.org/pypi/haddock3/2026.10.1/json",
+    "path": "tools/haddock3-2026.10.1/archives/pypi-2026.10.1.json",
+    "bytes": 9625,
+    "sha256": "bce6c886d3c52ef1e59d3318b5990a669866e5e7edc50fd84f85eae2959d1d7d",
+    "retrieved_date": "2026-11-03",
+    "headers": {
+      "content-type": "application/json",
+      "etag": "\"QR+VcL+mwntl1owSyYaXmg\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "url": "https://pypi.org/integrity/haddock3/2026.10.1/haddock3-2026.10.1.tar.gz/provenance",
+    "path": "tools/haddock3-2026.10.1/archives/pypi-attestation.json",
+    "bytes": 9894,
+    "sha256": "b212b552c61682fb1ceafdfc15cea35b06152baabce521af5a9914af9a90f68c",
+    "retrieved_date": "2026-11-03",
+    "headers": {
+      "etag": "\"VP9fDS1kRVF1xz/h06kdfg\"",
+      "content-type": "application/vnd.pypi.integrity.v1+json"
+    },
+    "status": "retrieved"
+  }
+]

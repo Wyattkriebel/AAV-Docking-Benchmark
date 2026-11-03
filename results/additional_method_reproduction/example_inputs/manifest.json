@@ -1,0 +1,29 @@
+{
+  "source_commit": "0dc9185a318887a712482650ae667b45c30f1da6",
+  "files": [
+    {
+      "filename": "config_vc.txt",
+      "url": "https://raw.githubusercontent.com/glycodynamics/Tutorial-Protein-glycan-docking/0dc9185a318887a712482650ae667b45c30f1da6/flex_lig/config_vc.txt",
+      "sha256": "4930b3810517d4568a719fb4d47bbef449d737be2e365bdef668e5b0bb28376f",
+      "bytes": 587
+    },
+    {
+      "filename": "LeY-xray.pdbqt",
+      "url": "https://raw.githubusercontent.com/glycodynamics/Tutorial-Protein-glycan-docking/0dc9185a318887a712482650ae667b45c30f1da6/flex_lig/LeY-xray.pdbqt",
+      "sha256": "b08eb0ce5f2f6eca4d9c15ab6547da5823e7c21a6bbd5d2c1815758ca7aaf936",
+      "bytes": 6483
+    },
+    {
+      "filename": "receptor.pdbqt",
+      "url": "https://raw.githubusercontent.com/glycodynamics/Tutorial-Protein-glycan-docking/0dc9185a318887a712482650ae667b45c30f1da6/flex_lig/receptor.pdbqt",
+      "sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "bytes": 323016
+    },
+    {
+      "filename": "LeY-xray_vc_out.pdbqt",
+      "url": "https://raw.githubusercontent.com/glycodynamics/Tutorial-Protein-glycan-docking/0dc9185a318887a712482650ae667b45c30f1da6/flex_lig/LeY-xray_vc_out.pdbqt",
+      "sha256": "da6604f9f02ccae4b4621bc0ca0a663904c0c9540ebcd3fe9b603a8735e72e63",
+      "bytes": 65501
+    }
+  ]
+}

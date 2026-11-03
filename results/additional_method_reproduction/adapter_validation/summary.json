@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "source": "tutorialcomputationalposes; no benchmarkresults consulted",
+  "all_exported_scores_equal_direct_canonical_scores_to_1e_9": true,
+  "torsion_normalization_range": [
+    0.5412221879448169,
+    0.5412221879448169
+  ],
+  "scorer_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+  "helper_source_sha256": "6d1d95a78af6f6adb306268b1fe846b1ec5ffeb879c1b7143e1c9bd8b300da08",
+  "rows": [
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -9.233953122218667,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -9.233953122218667,
+      "original_score_only_base": -7.569680958479969,
+      "pose_intramolecular_energy": -3.075025748775081,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_01.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "fd8b2c615522acadb4242e2b00505b771e5b27e4f3284f02fa322e446986c953",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 1
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -8.615010471717103,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -8.615010471717103,
+      "original_score_only_base": -7.0995035015547545,
+      "pose_intramolecular_energy": -2.800156763559866,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_02.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "4686db5bc5d2725a93881c61061e891d8589001ea6a36c384c54ffcdd04cef67",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 2
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -8.448629450951822,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -8.448629450951822,
+      "original_score_only_base": -7.25252296433914,
+      "pose_intramolecular_energy": -2.2100100721196547,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_03.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "5960c7ed7db3c8da8aebd3ec20b8b4d7ba3776c909e70ab548bde3dcba036ae9",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 3
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -8.280512240231982,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -8.280512240231982,
+      "original_score_only_base": -6.521816406916567,
+      "pose_intramolecular_energy": -3.2494895303418927,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_04.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "7b6cfcf552a6497fcfcc4beab36dd224984fd1df1c2a29e5c410b44c17ac100f",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 4
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -8.120366165524704,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -8.120366165524704,
+      "original_score_only_base": -6.2258402137245765,
+      "pose_intramolecular_energy": -3.5004587653625405,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_05.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "4e7edb2385b38d919e7bfd8dd3b5a740d82836d52f7022f444fd89010ef5d1eb",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 5
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -8.091118382258614,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -8.091118382258614,
+      "original_score_only_base": -6.321425849636432,
+      "pose_intramolecular_energy": -3.2698078017500287,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_06.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "438d57e87e76270e47e70b882d26039982194ab907d209b1e9ba821082171f38",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 6
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -8.081395024199818,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -8.081395024199818,
+      "original_score_only_base": -6.993158351541335,
+      "pose_intramolecular_energy": -2.010702252970899,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_07.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "e211594778a06f4d340f23d6acc9ab5f208863c27479201fa5aacd9fb34bccb8",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 7
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -8.056263276623328,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -8.056263276623328,
+      "original_score_only_base": -5.866017216105055,
+      "pose_intramolecular_energy": -4.046851938637798,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_08.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "ebcc04fcd3c511a754a30794f9d50f26cc1829ff4b0a2e679a888ee8dba6664d",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 8
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -7.939902597339086,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -7.939902597339086,
+      "original_score_only_base": -5.8934377379890535,
+      "pose_intramolecular_energy": -3.7811917266752735,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_09.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "d343f8bfa11664a3b11eba88364422206f697339ca084a07b37e5d59aa028eb2",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 9
+    },
+    {
+      "glycosidic_links": 3,
+      "fully_supported_links": 3,
+      "intramolecular_reference": 0,
+      "base_shared0": -7.779568806657573,
+      "chi_coefficient0": 0,
+      "chi_coefficient1": 0,
+      "combined_shared0": -7.779568806657573,
+      "original_score_only_base": -5.924813911820901,
+      "pose_intramolecular_energy": -3.426974976542874,
+      "torsion_normalization_scale": 0.5412221879448169,
+      "nonbonded_cutoff_A": 8,
+      "recognition": {
+        "recognized_links": 3,
+        "all_expected_links_fully_supported": true
+      },
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+        "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/adapter_validation/pose_10.pdbqt"
+      ],
+      "executable_sha256": "dde03fec619a10e03504f50b6a72094a2bc75e25f7bb9a9e807de44fa9382794",
+      "receptor_sha256": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+      "ligand_sha256": "aca0b18547189e0c18556edc309169773ff08cd0358b63377c923505a7c6be5b",
+      "coordinate_optimization": false,
+      "native_coordinates_accessed": false,
+      "score_role": "VC1.0 original scoring functions with common zero intramolecular reference; rank only within one fixed ligand/torsion-tree pool",
+      "rank": 10
+    }
+  ]
+}

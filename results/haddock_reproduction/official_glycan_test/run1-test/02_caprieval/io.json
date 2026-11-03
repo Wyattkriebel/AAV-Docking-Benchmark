@@ -1,0 +1,1610 @@
+{
+    "input": [
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_1.pdb",
+            "file_type": {
+                "py/reduce": [
+                    {
+                        "py/type": "haddock.libs.libontology.Format"
+                    },
+                    {
+                        "py/tuple": [
+                            "pdb"
+                        ]
+                    }
+                ]
+            },
+            "full_name": "rigidbody_1.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_1.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -35.09999,
+            "seed": 918,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "created": "2026-11-03 08:11:07",
+                    "file_name": "1LMQ_r_u_haddock.psf",
+                    "file_type": {
+                        "py/reduce": [
+                            {
+                                "py/type": "haddock.libs.libontology.Format"
+                            },
+                            {
+                                "py/tuple": [
+                                    "psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "full_name": "1LMQ_r_u_haddock.psf",
+                    "md5": null,
+                    "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "00_topoaa",
+                                    "1LMQ_r_u_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                },
+                {
+                    "created": "2026-11-03 08:11:07",
+                    "file_name": "1LMQ_l_u_haddock.psf",
+                    "file_type": {
+                        "py/id": 10
+                    },
+                    "full_name": "1LMQ_l_u_haddock.psf",
+                    "md5": null,
+                    "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "00_topoaa",
+                                    "1LMQ_l_u_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                }
+            ],
+            "unw_energies": {
+                "air": 222.01,
+                "angles": 2403.38,
+                "bonds": 372.356,
+                "bsa": 775.216,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.38058,
+                "dihe": 755.417,
+                "elec": -1.68711,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 190.061,
+                "vdw": -30.2614,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_2.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_2.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_2.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -33.991994,
+            "seed": 919,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 101.036,
+                "angles": 2403.38,
+                "bonds": 372.369,
+                "bsa": 808.186,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 0.972456,
+                "dihe": 755.417,
+                "elec": -1.61525,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 73.1431,
+                "vdw": -26.2777,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_3.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_3.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_3.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -42.300427,
+            "seed": 920,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 63.3542,
+                "angles": 2403.38,
+                "bonds": 372.369,
+                "bsa": 1054.68,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -2.28877,
+                "dihe": 755.417,
+                "elec": 0.285701,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 33.2558,
+                "vdw": -30.3841,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_4.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_4.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_4.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -23.63885,
+            "seed": 921,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 132.255,
+                "angles": 2403.38,
+                "bonds": 372.369,
+                "bsa": 738.373,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.03136,
+                "dihe": 755.417,
+                "elec": 0.67537,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 112.646,
+                "vdw": -20.2844,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_5.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_5.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_5.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -35.61803,
+            "seed": 922,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 110.507,
+                "angles": 2403.38,
+                "bonds": 372.364,
+                "bsa": 858.726,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -2.49923,
+                "dihe": 755.417,
+                "elec": -1.64851,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 84.8706,
+                "vdw": -23.9881,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_6.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_6.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_6.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -23.423721,
+            "seed": 923,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 74.3404,
+                "angles": 2403.38,
+                "bonds": 372.361,
+                "bsa": 916.277,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 0.444653,
+                "dihe": 755.417,
+                "elec": -0.571508,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 58.8914,
+                "vdw": -14.8775,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_7.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_7.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_7.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -32.53286,
+            "seed": 924,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 323.218,
+                "angles": 2403.38,
+                "bonds": 372.375,
+                "bsa": 786.948,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 1.74456,
+                "dihe": 755.417,
+                "elec": -1.83702,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 293.578,
+                "vdw": -27.8031,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_8.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_8.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_8.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -36.584047999999996,
+            "seed": 925,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 12.4562,
+                "angles": 2403.38,
+                "bonds": 372.36,
+                "bsa": 797.863,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 1.40237,
+                "dihe": 755.417,
+                "elec": -1.75125,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -17.6761,
+                "vdw": -28.3811,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_9.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_9.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_9.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -36.519146,
+            "seed": 926,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 166.451,
+                "angles": 2403.38,
+                "bonds": 372.35,
+                "bsa": 956.14,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 0.859874,
+                "dihe": 755.417,
+                "elec": -2.65943,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 136.969,
+                "vdw": -26.8227,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_10.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_10.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_10.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -32.59836,
+            "seed": 927,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 101.556,
+                "angles": 2403.38,
+                "bonds": 372.364,
+                "bsa": 802.027,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.64198,
+                "dihe": 755.417,
+                "elec": -1.60593,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 73.3204,
+                "vdw": -26.6297,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_11.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_11.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_11.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -29.48012,
+            "seed": 928,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 150.519,
+                "angles": 2403.38,
+                "bonds": 372.364,
+                "bsa": 867.685,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -1.71229,
+                "dihe": 755.417,
+                "elec": -1.86697,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 129.923,
+                "vdw": -18.7292,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_12.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_12.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_12.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -39.365204,
+            "seed": 929,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 76.6316,
+                "angles": 2403.38,
+                "bonds": 372.369,
+                "bsa": 941.455,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.47395,
+                "dihe": 755.417,
+                "elec": -1.95232,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 43.4407,
+                "vdw": -31.2386,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_13.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_13.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_13.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -32.853583559,
+            "seed": 930,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 79.7177,
+                "angles": 2403.38,
+                "bonds": 372.374,
+                "bsa": 1064.97,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -1.9054,
+                "dihe": 755.417,
+                "elec": -0.001760559,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 58.6221,
+                "vdw": -21.0939,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_14.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_14.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_14.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -14.856838,
+            "seed": 931,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 417.921,
+                "angles": 2403.38,
+                "bonds": 372.367,
+                "bsa": 769.133,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 1.9379,
+                "dihe": 755.417,
+                "elec": 0.418982,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 404.638,
+                "vdw": -13.7016,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_15.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_15.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_15.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -34.233162,
+            "seed": 932,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 95.6498,
+                "angles": 2403.38,
+                "bonds": 372.363,
+                "bsa": 797.138,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 1.42696,
+                "dihe": 755.417,
+                "elec": -1.67834,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 67.0046,
+                "vdw": -26.9669,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_16.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_16.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_16.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -33.032590000000006,
+            "seed": 933,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 222.56,
+                "angles": 2403.38,
+                "bonds": 372.36,
+                "bsa": 764.812,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.77441,
+                "dihe": 755.417,
+                "elec": -4.60618,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 192.176,
+                "vdw": -25.7783,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_17.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_17.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_17.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -35.091638999999994,
+            "seed": 934,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 34.1881,
+                "angles": 2403.38,
+                "bonds": 372.362,
+                "bsa": 762.817,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.03685,
+                "dihe": 755.417,
+                "elec": -1.9014,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 4.34589,
+                "vdw": -27.9408,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_18.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_18.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_18.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -22.23133,
+            "seed": 935,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 180.541,
+                "angles": 2403.38,
+                "bonds": 372.359,
+                "bsa": 893.285,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 2.39651,
+                "dihe": 755.417,
+                "elec": -2.3821,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 163.04,
+                "vdw": -15.1183,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_19.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_19.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_19.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -33.091184999999996,
+            "seed": 936,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 76.649,
+                "angles": 2403.38,
+                "bonds": 372.371,
+                "bsa": 904.688,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 0.718442,
+                "dihe": 755.417,
+                "elec": -0.921037,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 51.1198,
+                "vdw": -24.6082,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:11:09",
+            "file_name": "rigidbody_20.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "rigidbody_20.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": null,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "01_rigidbody",
+                            "rigidbody_20.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": "../data/01_rigidbody/ambig.tbl",
+            "score": -23.926809999999996,
+            "seed": 937,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 9
+                },
+                {
+                    "py/id": 12
+                }
+            ],
+            "unw_energies": {
+                "air": 382.727,
+                "angles": 2403.38,
+                "bonds": 372.37,
+                "bsa": 804.31,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -5.19827,
+                "dihe": 755.417,
+                "elec": -1.03121,
+                "improper": 2046.7,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": 368.215,
+                "vdw": -13.4815,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        }
+    ],
+    "output": [
+        {
+            "py/id": 2
+        },
+        {
+            "py/id": 15
+        },
+        {
+            "py/id": 22
+        },
+        {
+            "py/id": 29
+        },
+        {
+            "py/id": 36
+        },
+        {
+            "py/id": 43
+        },
+        {
+            "py/id": 50
+        },
+        {
+            "py/id": 57
+        },
+        {
+            "py/id": 64
+        },
+        {
+            "py/id": 71
+        },
+        {
+            "py/id": 78
+        },
+        {
+            "py/id": 85
+        },
+        {
+            "py/id": 92
+        },
+        {
+            "py/id": 99
+        },
+        {
+            "py/id": 106
+        },
+        {
+            "py/id": 113
+        },
+        {
+            "py/id": 120
+        },
+        {
+            "py/id": 127
+        },
+        {
+            "py/id": 134
+        },
+        {
+            "py/id": 141
+        }
+    ]
+}

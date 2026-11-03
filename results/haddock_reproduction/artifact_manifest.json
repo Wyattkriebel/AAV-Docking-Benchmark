@@ -1,0 +1,2151 @@
+{
+  "schema_version": 1,
+  "method": "HADDOCK3",
+  "version": "2026.10.1",
+  "source_commit": "815fcc14100896e35d1795058465cb547f37a8c5",
+  "status": "complete_released_example_reproduction_known_interface",
+  "lock_sha256": "5eec702d354597aa56b41a2fda30479bd8b481d35ee9498bb2ec0201f8f62bcb",
+  "artifact_count": 423,
+  "artifact_bytes": 10137416,
+  "artifacts": [
+    {
+      "path": "results/haddock_reproduction/audit_reproduction.py",
+      "bytes": 4345,
+      "sha256": "99af2d54d8c55200ad47df0ff9256736fdb46fce21891bb9a20fd8132ffa8631"
+    },
+    {
+      "path": "results/haddock_reproduction/cns_preflight.json",
+      "bytes": 645,
+      "sha256": "a59fc62c4b6512492ae0e1e365513fd3672df1b56f5d50606bc6340549cc337d"
+    },
+    {
+      "path": "results/haddock_reproduction/cns_preflight.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/haddock_reproduction/cns_preflight.stdout.log",
+      "bytes": 1915,
+      "sha256": "737d699156b383570e162e29151c339b84c02af77dec4d0daa22341359c07c7b"
+    },
+    {
+      "path": "results/haddock_reproduction/environment.freeze.txt",
+      "bytes": 483,
+      "sha256": "98530dc78960d19849bc92594ea126c41b4753268a67570d42269d90964cf8b7"
+    },
+    {
+      "path": "results/haddock_reproduction/install.log",
+      "bytes": 8914,
+      "sha256": "37eb6b5d4b2d95eb2e984deb648a45ac1316192d51dcec529d8fea7ebb337d24"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/data/1LMQ_l_u.pdb",
+      "bytes": 8833,
+      "sha256": "98db5bac726a54090e37367f3750e4112e422088d26f015c45fe1f450b4f20df"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/data/1LMQ_r_u.pdb",
+      "bytes": 80923,
+      "sha256": "77081f4f604b2e955b6cbf8f8bcb1bd67f8b29f6c1e3a8152db37aab9011103f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/data/ambig.tbl",
+      "bytes": 2871,
+      "sha256": "5e241dfd25ba07306c2b104e6cd1a6a686d629f308e4037b8eb86d84ac3ee8a3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/data/target.pdb",
+      "bytes": 85779,
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/reproduce.cfg",
+      "bytes": 1985,
+      "sha256": "7fad71d6d206b758b90cbdda1eca13e16ad7d94a3dfb83865b07f9b60c371dda"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa/1LMQ_l_u_haddock.pdb.gz",
+      "bytes": 2111,
+      "sha256": "56aab2b8ecffd030fed12058a16478208d89146dc80276e5064c18fa5ca203e9"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa/1LMQ_l_u_haddock.psf.gz",
+      "bytes": 2429,
+      "sha256": "687d47b45ec8b32026f964bfa8ccd541d7a2ba51ec0af153e9e3e3a21f89c0e1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa/1LMQ_r_u_haddock.pdb.gz",
+      "bytes": 23444,
+      "sha256": "c174389c6963e68e4849a26584738da6500452ae2aea7cb1ead32997a0478aaa"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa/1LMQ_r_u_haddock.psf.gz",
+      "bytes": 32338,
+      "sha256": "5e698bf2d6ce273fb7d90922e3f536dbbbb0bea10619b7a6770bf5feb0699f2d"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa/io.json",
+      "bytes": 5893,
+      "sha256": "683cece5664a908b79d8732eaa9bbb89da746a72693166515fca184b80db1a51"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa/params.cfg",
+      "bytes": 724,
+      "sha256": "5c66ec426a26d644027b112e1429fb1db92b89708a48e9f0ce9f7056d74a4410"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/io.json",
+      "bytes": 50452,
+      "sha256": "8e39a5a85adb33aec480b0c8cb052debda5ca7f528bd01653774a791c2078149"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/params.cfg",
+      "bytes": 6596,
+      "sha256": "f6af2230a3a2525fdb65c5b69d9e6e4a2401b83d966d0915ec199a3790dfca61"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_1.pdb.gz",
+      "bytes": 25504,
+      "sha256": "0e39c766c04cba3eb0b572fce03a6563cf0ee80b8061f53925e0ac0b8395fa04"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_10.pdb.gz",
+      "bytes": 25546,
+      "sha256": "b2300f598110d05431e019f4dc1ec4e7a6b35a2ca2972102ee33a20076c957fc"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_11.pdb.gz",
+      "bytes": 25546,
+      "sha256": "cc57ed70e8db7c9e89791bc0e4c056e868fc9ed848690e3e105b7f4d85fefe4c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_12.pdb.gz",
+      "bytes": 25496,
+      "sha256": "2c2f199dd6ba2b7cb61fe881b3f22ef2940746a73dc8a112f1c02a93ebe913a2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_13.pdb.gz",
+      "bytes": 25538,
+      "sha256": "f9dad2e2bd38951c507d58863305235cee79c1aaba99313b56ff05168cc51439"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_14.pdb.gz",
+      "bytes": 25519,
+      "sha256": "805fc82d16eeb7cd70252e43f260760a5bcf2c352dd3da5754def57b9b5cc0a3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_15.pdb.gz",
+      "bytes": 25554,
+      "sha256": "6a64bcea950a0fab92382e488965cc7359077623ce2eae884d583e3bbf5672f9"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_16.pdb.gz",
+      "bytes": 25560,
+      "sha256": "01e321ac8b79895f2d17085b3ffabb55b1c02cde4d9b7bb836c89933a6513120"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_17.pdb.gz",
+      "bytes": 25571,
+      "sha256": "37c48006b7a09341be22674948544b058841b0b1d3489b6d1e53021be49b9a7e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_18.pdb.gz",
+      "bytes": 25544,
+      "sha256": "bf7d2bd8e0e8c23bf6e4ef309ba11db92ece516671d53dc4869e1a2ea4fb5f1c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_19.pdb.gz",
+      "bytes": 25556,
+      "sha256": "196751fc03b6ba90b422efc99d026040fc5ada4689e9f454adc3eef8427bf74a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_2.pdb.gz",
+      "bytes": 25503,
+      "sha256": "37de48e8c26d60bbf338f9a3b5a822988d33f3a6eb1608aca743f94224577642"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_20.pdb.gz",
+      "bytes": 25536,
+      "sha256": "09eea555ab1e50268fbf78914cfd36d445c4aed1eed099d0dc8fa5e4a4a2c36a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_3.pdb.gz",
+      "bytes": 25531,
+      "sha256": "66e0e7aa26dc7ea29db590d1640f7943bf38024f3b4a252f74c3bbd1b78eae47"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_4.pdb.gz",
+      "bytes": 25544,
+      "sha256": "53760d6b0266e3341bc8daa0a8b841fa66df14b847af8dd70076c31e417aaba4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_5.pdb.gz",
+      "bytes": 25549,
+      "sha256": "36095af2443187353e593e18f4a27a0f5a83cb7c0edd2668b533f81f0fa74b99"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_6.pdb.gz",
+      "bytes": 25567,
+      "sha256": "9bee3ecb3396ab0a8467ec6bca21bfc55bc3c1a64aef1428f2d1e5bb73a7ead2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_7.pdb.gz",
+      "bytes": 25546,
+      "sha256": "889bec815c275a8269dc799cdd5f4df859001dca4b4a59e4b66af82580bb3c25"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_8.pdb.gz",
+      "bytes": 25492,
+      "sha256": "55ced6bfd2ab33b1a5cfb5ccf4d7ba14def216a54e13186ff717566a0daea177"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/01_rigidbody/rigidbody_9.pdb.gz",
+      "bytes": 25518,
+      "sha256": "7c9c4b0aa6933c85613ea8d3ee1060856869c9d01065f22e7464af45ee0e2590"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/02_caprieval/blosum62.izone",
+      "bytes": 1763,
+      "sha256": "a932f7f1a6f384bb517dbf6a0a14e1cc8fdb91add8b172d261a08de1875db715"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/02_caprieval/blosum62_A.aln",
+      "bytes": 590,
+      "sha256": "b79d5b9c3519a62aeb0c37aabdd1e1dd831d9e26154e43140b039d43fcc4af2a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/02_caprieval/blosum62_B.aln",
+      "bytes": 81,
+      "sha256": "337a2a0c6db1e06148194d3a5ca6fa97ba1cdf29aa76ca025af0a0a1e8804ea4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/02_caprieval/capri_clt.tsv",
+      "bytes": 890,
+      "sha256": "bf6fefbc8eca3e1d3ba713fcb451981077659a2d204b3689f94dd38cd13bd147"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/02_caprieval/capri_ss.tsv",
+      "bytes": 4512,
+      "sha256": "14f8f9d1c52d1099a94028e18cf007c34658b3f4cb382f4091cf64fb02998057"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/02_caprieval/io.json",
+      "bytes": 48229,
+      "sha256": "95d4b96162a7850a4ccbe2b5880311e42c1f418f06f9eb00f55aab56b3a34310"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/02_caprieval/params.cfg",
+      "bytes": 461,
+      "sha256": "a5fc9bc2ff2d29f49368de7878687c36732f2a05b5429fd0f1e3372aef21cc04"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/02_caprieval/weights_params.json",
+      "bytes": 97,
+      "sha256": "5381f8cfb17b1a45de756773adf27e36ed18393c5f8c77cf7eb5f67ba08dc3ce"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/03_rmsdmatrix/io.json",
+      "bytes": 48229,
+      "sha256": "95d4b96162a7850a4ccbe2b5880311e42c1f418f06f9eb00f55aab56b3a34310"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/03_rmsdmatrix/params.cfg",
+      "bytes": 272,
+      "sha256": "e8017a2057f9344eaed681456be5e663a91616d2f6d864409025325937b8dc29"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/03_rmsdmatrix/rmsd.matrix",
+      "bytes": 2109,
+      "sha256": "1279d9296da683706a0fb5e9d85feacb2de6f0386b2a99e6a2c8746bec5287f4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/03_rmsdmatrix/rmsd_0.out.gz",
+      "bytes": 213,
+      "sha256": "3c4a59f4c7db0492d8f706582b4a77a04cef250bcddb252c835869dc2c3f97b4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/03_rmsdmatrix/rmsd_matrix.json",
+      "bytes": 1234,
+      "sha256": "ea28b2d1e4bb16e00762464eac429c03031742e62fc3a3294161ba62d36f87ff"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/04_clustrmsd/cluster.out.gz",
+      "bytes": 101,
+      "sha256": "71a31c38e48f6c3440463ba967539b5aa93abec18ba326792c49857dddac84ea"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/04_clustrmsd/clustrmsd.tsv",
+      "bytes": 596,
+      "sha256": "0dbc493290bba6750c0f30cc57ef43f6b2782d167f0050e69ecc02e22a2ab8bb"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/04_clustrmsd/clustrmsd.txt",
+      "bytes": 1256,
+      "sha256": "30a3a06a56e0f7611d60cf41bf7283a3f9b762ada2b376aaf904caa41052ad60"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/04_clustrmsd/dendrogram.txt",
+      "bytes": 640,
+      "sha256": "451918b552103b99fa5e4f0392ab36fc6f30c9e9781d5c8e612c8171cb04da05"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/04_clustrmsd/io.json",
+      "bytes": 48053,
+      "sha256": "740df4daa6ebd0e063c94530ccaa21444eb1fa0476c5cbb46cb2966169c5ea1d"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/04_clustrmsd/params.cfg",
+      "bytes": 222,
+      "sha256": "5f5438b41319bd41cf75f62074363ef9c9371961cd99006e7411c1dfa52c3808"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/04_clustrmsd/rmsd_matrix.json",
+      "bytes": 1234,
+      "sha256": "ea28b2d1e4bb16e00762464eac429c03031742e62fc3a3294161ba62d36f87ff"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_1_model_1.pdb.gz",
+      "bytes": 25537,
+      "sha256": "fc2a36f9023efedb6cf91091844d929ac0167d983ecc30eb993e07259a63d564"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_1_model_2.pdb.gz",
+      "bytes": 25501,
+      "sha256": "6085b604652a8385c1963694acb2b8efb7d4ae24beb48ac3958803920ecd5508"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_1_model_3.pdb.gz",
+      "bytes": 25524,
+      "sha256": "d64c130a62b99929990bdd3f0abbb5344b6dc8abbd387b6e36a24f316ef1130e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_1_model_4.pdb.gz",
+      "bytes": 25543,
+      "sha256": "6c33f43bbccb5a6839a5c5982fb899b561fcec8d4bc97133d30ef27a5847141e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_2_model_1.pdb.gz",
+      "bytes": 25498,
+      "sha256": "82217b44abf0b41a746386416b4888f4116f84d5e1ed1eba3efa506fc0243e08"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_2_model_2.pdb.gz",
+      "bytes": 25555,
+      "sha256": "ee79b24f2625e535ae9b86730272af45d2612cecebec09ed3e7b3f87dbaae2f0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_2_model_3.pdb.gz",
+      "bytes": 25510,
+      "sha256": "4ec38cb5ec4aa2e236276cd0ce408216ab960ab335ee941512bfdba31c0b8095"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_2_model_4.pdb.gz",
+      "bytes": 25576,
+      "sha256": "96a7b10681b18701384ac8e83e447de3670e18510ed4ae6ce8bcc71191462fc1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_2_model_5.pdb.gz",
+      "bytes": 25559,
+      "sha256": "14fa2ebe13cf5353dd894d8f9eefc27c6afb1cefc77190be795087b4e7ef0498"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_3_model_1.pdb.gz",
+      "bytes": 25565,
+      "sha256": "dd6d33c8c29cfcc4960ee2a6b8d26fa109ecd7bae19df64017baf033d24d346f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_4_model_1.pdb.gz",
+      "bytes": 25541,
+      "sha256": "6a2d5c56fcf32644cbfba929465b1b1fdc0947d820750c4858dd1abc80d8346c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/cluster_4_model_2.pdb.gz",
+      "bytes": 25549,
+      "sha256": "ae3ca2cc308d880e85e9b46eb348ad0e5ca5f7c1815513d4d0ac560fa1c68330"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/io.json",
+      "bytes": 48144,
+      "sha256": "0e95c3d32766bbfac9900997e5b8844b2003e12be7cf49d7c539a41dc9111656"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/params.cfg",
+      "bytes": 212,
+      "sha256": "2226bdabf35986dfd447d0ac65d61c8426cc80a239d4381a302cb388efebcb63"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/05_seletopclusts/seletopclusts.txt",
+      "bytes": 810,
+      "sha256": "5bfe96699f7331347bad4d759cb99407d98cd444226fc126d6bef2c930fa2be3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/06_caprieval/blosum62.izone",
+      "bytes": 1763,
+      "sha256": "a932f7f1a6f384bb517dbf6a0a14e1cc8fdb91add8b172d261a08de1875db715"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/06_caprieval/blosum62_A.aln",
+      "bytes": 590,
+      "sha256": "b79d5b9c3519a62aeb0c37aabdd1e1dd831d9e26154e43140b039d43fcc4af2a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/06_caprieval/blosum62_B.aln",
+      "bytes": 81,
+      "sha256": "337a2a0c6db1e06148194d3a5ca6fa97ba1cdf29aa76ca025af0a0a1e8804ea4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/06_caprieval/capri_clt.tsv",
+      "bytes": 1434,
+      "sha256": "d4268dd7a3a3e8f10d754ba3ad5a6afcab355768ae3f773bedba47e4d3f59398"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/06_caprieval/capri_ss.tsv",
+      "bytes": 2900,
+      "sha256": "8ee02879165fc9fe4769f6c0e5674840d8c1d7f9b033bbc92c88ec11b3575a98"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/06_caprieval/io.json",
+      "bytes": 30397,
+      "sha256": "836dba659d0413e6a07c489bcc0f29657517cafefc10731b035d8415eb3fc748"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/06_caprieval/params.cfg",
+      "bytes": 461,
+      "sha256": "68da04fb967715d30be4e1a2c2c40566b303db14893d94827a763dd70e161a89"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/06_caprieval/weights_params.json",
+      "bytes": 97,
+      "sha256": "5381f8cfb17b1a45de756773adf27e36ed18393c5f8c77cf7eb5f67ba08dc3ce"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_1.pdb.gz",
+      "bytes": 25550,
+      "sha256": "eefc8dbb43b8bf7ea8c3de1bdfa14222f010af14ef1395d6b26a1ecb7ec71ed3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_10.pdb.gz",
+      "bytes": 25550,
+      "sha256": "d8f19c533e847cdc3d9be8021e871faea9f511497c2590d77e9583c313337791"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_11.pdb.gz",
+      "bytes": 25647,
+      "sha256": "068be7cc654d61080687aceaaa2cc70838e3f1763d2b29e15dd31d8f8ae9404c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_12.pdb.gz",
+      "bytes": 25617,
+      "sha256": "e7c10c9ff6f1a9a669302eaa90f5695a2429db8dc6fdc7eabeae4c904b2fb446"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_2.pdb.gz",
+      "bytes": 25540,
+      "sha256": "a891b2644984e6c8794d2838430b18043bbdd265d4e77ffbb4eb41aedc647dd9"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_3.pdb.gz",
+      "bytes": 25608,
+      "sha256": "8daa0ac0c732aa9e5411d64c0bac15ddf7702a625a958eefe0142bf620fc91b4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_4.pdb.gz",
+      "bytes": 25546,
+      "sha256": "f66381832fe8551ce8f65602db4384523aed83d6260cebc0fff9140f96c18f2c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_5.pdb.gz",
+      "bytes": 25536,
+      "sha256": "49057546590b97aee4a970e997f78a14ee8f372f03c67f2a2de0bd2b8e39fd38"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_6.pdb.gz",
+      "bytes": 25628,
+      "sha256": "72ef886d933bc589d12832407312cbadc1fa09211c9c79f81c5ad507f6ff0158"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_7.pdb.gz",
+      "bytes": 25531,
+      "sha256": "b5a5d75dcb68f75e19432a5f62e3bf6b1de4af45d873f55f0ed186ccab80b2f6"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_8.pdb.gz",
+      "bytes": 25608,
+      "sha256": "a9889fd526a6ceb295aa9d1fad380194c854e3a50416f11919004a41094d71f8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/flexref_9.pdb.gz",
+      "bytes": 25583,
+      "sha256": "005f66ab404d373fccd043725ebfc5e25d6f0d430ecf4a3fb2f02f80983c6636"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/io.json",
+      "bytes": 55403,
+      "sha256": "7a07f42dac5dfa7e5c245371fa2685612f41ad068f64144d69fce609a0479663"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/07_flexref/params.cfg",
+      "bytes": 7690,
+      "sha256": "5e2970e39e0cffc8d808352df86ce4c648f90a7299ce8b7051844723c8dfd681"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/08_caprieval/blosum62.izone",
+      "bytes": 1763,
+      "sha256": "a932f7f1a6f384bb517dbf6a0a14e1cc8fdb91add8b172d261a08de1875db715"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/08_caprieval/blosum62_A.aln",
+      "bytes": 590,
+      "sha256": "b79d5b9c3519a62aeb0c37aabdd1e1dd831d9e26154e43140b039d43fcc4af2a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/08_caprieval/blosum62_B.aln",
+      "bytes": 81,
+      "sha256": "337a2a0c6db1e06148194d3a5ca6fa97ba1cdf29aa76ca025af0a0a1e8804ea4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/08_caprieval/capri_clt.tsv",
+      "bytes": 891,
+      "sha256": "399fc4581118b947d093d3ab2816822fdedb8419513e16e8b5d0c7b71bacea14"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/08_caprieval/capri_ss.tsv",
+      "bytes": 2741,
+      "sha256": "895b0fdc016613dd4d306b7e01a6df26c87d4f0bd162abe1f19c3e3309994cb4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/08_caprieval/io.json",
+      "bytes": 30693,
+      "sha256": "0e7c00fdf85486b64bb41d4d412b58ddb1246c8f00cea5a2e6fed0ca407eff9e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/08_caprieval/params.cfg",
+      "bytes": 461,
+      "sha256": "ae1ac6fee81e3cf2fecb56554bece7b56e9dd451bfbd734a515251dbc9ebef5f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/08_caprieval/weights_params.json",
+      "bytes": 98,
+      "sha256": "b5c97134317626a6fa01a080916aefce952956993b734443823c87e025c90e13"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/09_rmsdmatrix/io.json",
+      "bytes": 30693,
+      "sha256": "0e7c00fdf85486b64bb41d4d412b58ddb1246c8f00cea5a2e6fed0ca407eff9e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/09_rmsdmatrix/params.cfg",
+      "bytes": 272,
+      "sha256": "e8017a2057f9344eaed681456be5e663a91616d2f6d864409025325937b8dc29"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/09_rmsdmatrix/rmsd.matrix",
+      "bytes": 693,
+      "sha256": "6a2ba1280ff2bc78350c4ae60ec5f07f16e2de58aeb7843368a9415912dc945a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/09_rmsdmatrix/rmsd_0.out.gz",
+      "bytes": 212,
+      "sha256": "be1c01be7b517081e66850f74ec7235181e9532ceebcb883cfed4f330f3e266a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/09_rmsdmatrix/rmsd_matrix.json",
+      "bytes": 1233,
+      "sha256": "0a8b24f55ee2f64bcebb158978d7a23f5f3fef49fbb8478d7f0cdf466bac737c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/10_clustrmsd/cluster.out.gz",
+      "bytes": 90,
+      "sha256": "aec97fd7defa87e7f399ba0feb88f28dee61d2522446e98cd3fd819f3e2f97a3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/10_clustrmsd/clustrmsd.tsv",
+      "bytes": 344,
+      "sha256": "d61aa4f5feb43fb3715ccfc8c7521b006c79f765b31310897d2979ee54ca3338"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/10_clustrmsd/clustrmsd.txt",
+      "bytes": 1275,
+      "sha256": "1f3f479b5bdfe0dc54108b056bc96cc76d47997ba82944991308946d4015fd6d"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/10_clustrmsd/dendrogram.txt",
+      "bytes": 366,
+      "sha256": "494d1f598b0e4c1e4289d3a9fdff774cd786973baa79b690b61c4c9278ed4a62"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/10_clustrmsd/io.json",
+      "bytes": 30585,
+      "sha256": "ba681068848d2fdd979af11b18e73f57f108bce0fe9c227cd94738b8d79fe5e4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/10_clustrmsd/params.cfg",
+      "bytes": 222,
+      "sha256": "f0931938426bd2a5007007a5df2511dc1134ed1a1e7365074cf63df1d35fbee3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/10_clustrmsd/rmsd_matrix.json",
+      "bytes": 1233,
+      "sha256": "0a8b24f55ee2f64bcebb158978d7a23f5f3fef49fbb8478d7f0cdf466bac737c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_1_model_1.pdb.gz",
+      "bytes": 25544,
+      "sha256": "b69073c2a1bf85aa810c82bc0c92d2e90d6cc8e997c5228471f80247ece12cc8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_1_model_2.pdb.gz",
+      "bytes": 25591,
+      "sha256": "62fb43d8866b7ac622ca686d99c3ad183f71fed768de671611eba2c6e6eec5ca"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_1_model_3.pdb.gz",
+      "bytes": 25616,
+      "sha256": "8607e845da7131afcfe63fd292c399c7ebbfdb7f761c70753d2e48295a2647a8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_1_model_4.pdb.gz",
+      "bytes": 25539,
+      "sha256": "6a9644c2ebe32eccdb1fa5fbb35b236c15a61d80ac708f4a7d2befa7f70f8322"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_2_model_1.pdb.gz",
+      "bytes": 25636,
+      "sha256": "c9286b400dc7cf7e439e5bfb896834b68d59bc20749bb339b7a9940ca4551c36"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_3_model_1.pdb.gz",
+      "bytes": 25554,
+      "sha256": "ae44f9b2836e6fc398965a0030452a9ba43a263b6fa66f4d31fc24a2e5a06a18"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_3_model_2.pdb.gz",
+      "bytes": 25558,
+      "sha256": "29d85d4cf27cfa6d833187c90ef465ff36304d45adfc4147e438a2916780caf3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_4_model_1.pdb.gz",
+      "bytes": 25654,
+      "sha256": "cc5899d72e9dc92073d478c054eaccfd9a15878b021f34e389ea2e68f55d1736"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_5_model_1.pdb.gz",
+      "bytes": 25624,
+      "sha256": "4c44d9b0c704829c872f1326b75fa91ea448ad11b920908b1fbf7173112055e8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_6_model_1.pdb.gz",
+      "bytes": 25548,
+      "sha256": "1f974ec0677478657b776579718bf90b70a28741d7e3591a4f3cf08103548d60"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_6_model_2.pdb.gz",
+      "bytes": 25616,
+      "sha256": "7861487f4e178e5b7c197aea074e9ffb59b39dcad85bcc6925df4973d87ca0b6"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/cluster_6_model_3.pdb.gz",
+      "bytes": 25557,
+      "sha256": "0e9aab914c1e80add9a5455bf9113fe94c3271c07a22620902514286ce3478a0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/io.json",
+      "bytes": 30915,
+      "sha256": "d6ab06b1b12ac167fcd48739fc8088be0fda4db5e850f93624cf0483877e716f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/params.cfg",
+      "bytes": 212,
+      "sha256": "3fb104dd21add16e6044f64d42cf29c813059a300b939c1a80b47a5dbecc52b1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/11_seletopclusts/seletopclusts.txt",
+      "bytes": 962,
+      "sha256": "4c00be63155be1fe22f29bb430b23f3d58c8885f3b9f07f2a23d3a5c8db80a6a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/12_caprieval/blosum62.izone",
+      "bytes": 1763,
+      "sha256": "a932f7f1a6f384bb517dbf6a0a14e1cc8fdb91add8b172d261a08de1875db715"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/12_caprieval/blosum62_A.aln",
+      "bytes": 590,
+      "sha256": "b79d5b9c3519a62aeb0c37aabdd1e1dd831d9e26154e43140b039d43fcc4af2a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/12_caprieval/blosum62_B.aln",
+      "bytes": 81,
+      "sha256": "337a2a0c6db1e06148194d3a5ca6fa97ba1cdf29aa76ca025af0a0a1e8804ea4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/12_caprieval/capri_clt.tsv",
+      "bytes": 1798,
+      "sha256": "4a8f01b70cf8d641ad8f34f64318b6c5f7175bac52a3c175277b8969df4c7c06"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/12_caprieval/capri_ss.tsv",
+      "bytes": 2906,
+      "sha256": "02d264a8751614d6b5b6a917a4319264248bd43f07ddcb617c383eb2ca1786aa"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/12_caprieval/io.json",
+      "bytes": 30915,
+      "sha256": "422a2771ee575328c192c4d12f5adc654eec2c72085130542ab4db970ec669de"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/12_caprieval/params.cfg",
+      "bytes": 461,
+      "sha256": "aaab54699b0b585814159c46f05da42ded4cbf80b1a5a23f814faf7d24c8b334"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/12_caprieval/weights_params.json",
+      "bytes": 98,
+      "sha256": "b5c97134317626a6fa01a080916aefce952956993b734443823c87e025c90e13"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/13_caprieval/blosum62.izone",
+      "bytes": 1763,
+      "sha256": "a932f7f1a6f384bb517dbf6a0a14e1cc8fdb91add8b172d261a08de1875db715"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/13_caprieval/blosum62_A.aln",
+      "bytes": 590,
+      "sha256": "b79d5b9c3519a62aeb0c37aabdd1e1dd831d9e26154e43140b039d43fcc4af2a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/13_caprieval/blosum62_B.aln",
+      "bytes": 81,
+      "sha256": "337a2a0c6db1e06148194d3a5ca6fa97ba1cdf29aa76ca025af0a0a1e8804ea4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/13_caprieval/capri_clt.tsv",
+      "bytes": 1798,
+      "sha256": "ac0615b1d7cf8a39175318f9e3d7aee1c7b2b139be4e3957c1f82cab0fb726c7"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/13_caprieval/capri_ss.tsv",
+      "bytes": 2906,
+      "sha256": "3dccc7b0976cdeaebd9eb4cf1c8407c4bbd65c551930d8a4c0434c0f88c69e33"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/13_caprieval/io.json",
+      "bytes": 30915,
+      "sha256": "422a2771ee575328c192c4d12f5adc654eec2c72085130542ab4db970ec669de"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/13_caprieval/params.cfg",
+      "bytes": 460,
+      "sha256": "7644ec8118125b9e56c60a4846e89fd9f94ea63d30e728e630d2144b45b233de"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/13_caprieval/weights_params.json",
+      "bytes": 98,
+      "sha256": "b5c97134317626a6fa01a080916aefce952956993b734443823c87e025c90e13"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/air_clt.html",
+      "bytes": 8738,
+      "sha256": "cfbbf29d1ee6bb33667d2d0a90917acfc6bce06fdbb2a4d7479409eef1da9601"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/bsa_clt.html",
+      "bytes": 8746,
+      "sha256": "7f900906fe76edfa0de9167134324d1504ab4cc794187f164b59a9816fee6842"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/capri_clt.tsv",
+      "bytes": 890,
+      "sha256": "bf6fefbc8eca3e1d3ba713fcb451981077659a2d204b3689f94dd38cd13bd147"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/capri_ss.tsv",
+      "bytes": 4572,
+      "sha256": "13fc8e57ec30a5b42665c9f44031d08a1c431f78aef45ded1ee5773bf783d7fe"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/desolv_clt.html",
+      "bytes": 8772,
+      "sha256": "389f3393f45fb66d5c6bdc965df94e6d259e6664ecca56cfe93d95c1bdad0e41"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/dockq_air.html",
+      "bytes": 10731,
+      "sha256": "11b7d2766f0f865960456767634f6bbda68eeef914941ce17fb3dfb16335bca4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/dockq_clt.html",
+      "bytes": 8763,
+      "sha256": "d556cbf95061475eb600d699a41fd6bdb23084ea843e40a29fb694ea725a7ad6"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/dockq_desolv.html",
+      "bytes": 10780,
+      "sha256": "21b3bab0e4be1d1a6868eba8a934d61cf25171b86951f31f7c462ae3d0b24f50"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/dockq_elec.html",
+      "bytes": 10793,
+      "sha256": "e08d30c3729509926d3b8a4492b63ce6db743b8b3c4b55236bb81d8fd3bfb202"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/dockq_score.html",
+      "bytes": 10702,
+      "sha256": "fc97a17bdf02059a97561c3fad3b4c1d4ec5a00ae736be30db559159c1d635af"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/dockq_vdw.html",
+      "bytes": 10739,
+      "sha256": "e27d44d0ecbcf37b4a040dcb39a6ab6f2d4ae03694be8561e7f640c7c70ad057"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/elec_clt.html",
+      "bytes": 8822,
+      "sha256": "c584b54d33e8baccbfb01c4a4cfcac1a5b0163d1eef5b85faf6999079be7df5f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/fnat_air.html",
+      "bytes": 10710,
+      "sha256": "db592fb75accb7e2877e6902ffd776e87be05f98128df5bc0167c0ee70cae744"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/fnat_clt.html",
+      "bytes": 8794,
+      "sha256": "7861e3da122814ab274e3900e4fcb148dfbab384b33bbc0a923f6365dc3e9850"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/fnat_desolv.html",
+      "bytes": 10759,
+      "sha256": "07c3642dc03fc7eb3ab6b71ef45988062619f7081b3cec7ab1a8accaad4b37b8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/fnat_elec.html",
+      "bytes": 10772,
+      "sha256": "0e9ed8dbf589198ad4ea1e4d2958c1fd9e1954afb8c0be3d4799505c921be375"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/fnat_score.html",
+      "bytes": 10681,
+      "sha256": "da902f0a5abe3588266327bafd2542fcfae3b797fcc149a5aecab7aef799a5a2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/fnat_vdw.html",
+      "bytes": 10718,
+      "sha256": "76ec6c71f25cad4e66b080a8051dcef1c2a39ceb61b83f32ac3ca93eb087a149"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/ilrmsd_air.html",
+      "bytes": 10695,
+      "sha256": "a9bcec3062236f5ec9a123042ef78f3fd03603f46ed01f13e39612a723211588"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/ilrmsd_clt.html",
+      "bytes": 8764,
+      "sha256": "9716a6bc2cd8a1e9a2e55cb1e17e80722c42dad72bd705cb87740c10220e957f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/ilrmsd_desolv.html",
+      "bytes": 10744,
+      "sha256": "da9dbeba67da34d722cea33c67375cf51a124308c206af6d315e65911cb913fb"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/ilrmsd_elec.html",
+      "bytes": 10757,
+      "sha256": "55c89dfdf9835639efa02c7794f220dbf7f02f30c810dd7c1eed345fbe71bbe1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/ilrmsd_score.html",
+      "bytes": 10666,
+      "sha256": "3851aba8a567ee1082994177bc796f0786f8e33487b342e190920a25d185a57e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/ilrmsd_vdw.html",
+      "bytes": 10703,
+      "sha256": "e45db44e2d8dbeeec579cd5ef8039137e089ae9942adbe00fcadaba684666cc2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/irmsd_air.html",
+      "bytes": 10675,
+      "sha256": "48d0a44b6ccc424df4d77fd4d274591970235fb54ff7450d9b6aae5cb36efdc9"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/irmsd_clt.html",
+      "bytes": 8736,
+      "sha256": "bf353fbbcfd8383c8b6848dc2ed7be43c9670dcf2bfb9c8942d5dce7cea47cdf"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/irmsd_desolv.html",
+      "bytes": 10724,
+      "sha256": "0ef535b963c0a55ea234d6bd91f3e14011f0a4505a9d1eb7c730ac8f2408dcde"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/irmsd_elec.html",
+      "bytes": 10737,
+      "sha256": "cf650e6c123a7dcfaea017b8869cedfbe7d75889b8c4c5fd954e49f57ee43185"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/irmsd_score.html",
+      "bytes": 10646,
+      "sha256": "7539a14734beb6aa48275d5bb4732560f9b00d2cd172bc468fd45e422c63a38d"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/irmsd_vdw.html",
+      "bytes": 10683,
+      "sha256": "797f0b9363bf41c3fefd7bd809d3149df754f51c7c6e46fa636c70cc85ff26e4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/lrmsd_air.html",
+      "bytes": 10705,
+      "sha256": "ce1fcf9026281da1dd968fe4285c291b6573544dcd1ec93139258263b1570482"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/lrmsd_clt.html",
+      "bytes": 8753,
+      "sha256": "97a8dbd2ca5b9a37765f7609ff9acc2c29bef8e335b5cce5d048882b187397e2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/lrmsd_desolv.html",
+      "bytes": 10754,
+      "sha256": "a7cb100d1ecbe14e8d7fae54b40591dfeccb24993b2a1366e9d87cca0ca639b8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/lrmsd_elec.html",
+      "bytes": 10767,
+      "sha256": "0d776cbde28f37b696063f914a8472b00d8cdc0a68a02bf5978ee6739b066b74"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/lrmsd_score.html",
+      "bytes": 10676,
+      "sha256": "dff695276243cd3a73f03300f74b1df978f670c193a7a3e10ac5d9dd072f056e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/lrmsd_vdw.html",
+      "bytes": 10713,
+      "sha256": "cffef9acec6112c3517b12da7be6692ad35be5000f92e14f1e726357ac9f6322"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/report.html",
+      "bytes": 119766,
+      "sha256": "2fb490f9caa7c57fe762dbfa6500c43f529d4e37271c7a4cb52b9a8bcc8d7bd1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/score_clt.html",
+      "bytes": 8748,
+      "sha256": "0dd3b29f11142c305921c48c5831c766e329b5246a9f7a6efe2d467e5bd60cf2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/summary.tgz",
+      "bytes": 254845,
+      "sha256": "fda18835063b7301165eb10c755b987e987b0df16ea040b839ce818eb14ef1fd"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/02_caprieval_analysis/vdw_clt.html",
+      "bytes": 8756,
+      "sha256": "ea0e5857af6db399a173f61b9f4948deea3cb95c137f50df5b27b6062cc7ae60"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/air_clt.html",
+      "bytes": 10113,
+      "sha256": "9e66652a4dbc46e1375ab18b4ebe5c3b5ca1692535f04f0e2a9148c46d8ec1b1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/bsa_clt.html",
+      "bytes": 10126,
+      "sha256": "1b52fbdcf7df95d4a044389576024ee3768e0624b724c7f0b8ad573a9f2aa570"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/capri_clt.tsv",
+      "bytes": 1434,
+      "sha256": "d4268dd7a3a3e8f10d754ba3ad5a6afcab355768ae3f773bedba47e4d3f59398"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/capri_ss.tsv",
+      "bytes": 2936,
+      "sha256": "7f809f12f1ae84e0265a4813ef11f6a589331d1855a39aa81ae4800dd64ac3e1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/desolv_clt.html",
+      "bytes": 10156,
+      "sha256": "3579cac2df648de7639af58adcaa63a7d22e77117e6db8845cdad29153bc8fc1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/dockq_air.html",
+      "bytes": 12641,
+      "sha256": "45989c360201bfe8f608e12cd936a138f96fa15a5f2f3aad39c8c0a866780f69"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/dockq_clt.html",
+      "bytes": 10139,
+      "sha256": "90c2820e0ae1411d6a05bc1f416b36fafd210341d109d94a2f1c0b81ea6cdf2c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/dockq_desolv.html",
+      "bytes": 12719,
+      "sha256": "d70175fdc7ddcaf156efd4c4206615c23adbad903980ccbcfb52511361a7c29e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/dockq_elec.html",
+      "bytes": 12719,
+      "sha256": "78c1ea322ecf2e9708112a87b73eaa8a52b9acc0f67e5d3f81a10df4d610f190"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/dockq_score.html",
+      "bytes": 12452,
+      "sha256": "c281e3b77a4623a23a46b4e3c3296b6ccceae18a36072f786b687fd6aaf670d9"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/dockq_vdw.html",
+      "bytes": 12663,
+      "sha256": "3726c1ea83bd553d5081194ed36b831fa05e25f47524e2fe40aea47aec768e7c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/elec_clt.html",
+      "bytes": 10165,
+      "sha256": "5d62d1b9a83d07abd1e11a86922ecde1f2d857361949083eec8be8c2989296ed"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/fnat_air.html",
+      "bytes": 12605,
+      "sha256": "70db7efaa0374f3d5c3f5427e85f8d49f1dbbbbc1faf9178bbe0178478dc38f6"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/fnat_clt.html",
+      "bytes": 10142,
+      "sha256": "f89b70dd4a8d8d087a4bdaa38fb40b45bc2b91f1d827eb1913be64c143e704bf"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/fnat_desolv.html",
+      "bytes": 12683,
+      "sha256": "6f4a7ad48df286893e673d32415457907aa91d579ab8f7ee774e5fecc3154249"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/fnat_elec.html",
+      "bytes": 12683,
+      "sha256": "4f60c3bed7f75dc0eba9cd38856e44b4c1cd7dee051ffb6f38941c1a37498631"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/fnat_score.html",
+      "bytes": 12416,
+      "sha256": "efdce836ceea3cebea983d80d45a4693fbeab0dfcd87c7031569c37a3bc31bc6"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/fnat_vdw.html",
+      "bytes": 12627,
+      "sha256": "ead9f379800c54e7afdfb3405461c348fbf0ca394847ecb0c558b50546984338"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/ilrmsd_air.html",
+      "bytes": 12630,
+      "sha256": "fdfa538a9ed3edd7d1cdf05ef1b69b440e071cbec5354ec86e4d23aa90a659d0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/ilrmsd_clt.html",
+      "bytes": 10138,
+      "sha256": "3d53976b08683b2ae5965aab23c0106db94d5c4f385e6205df6122410e790218"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/ilrmsd_desolv.html",
+      "bytes": 12708,
+      "sha256": "be1f72ff3e2af1277429a84263cbb4ce1a6a7656edc14c5e037f3bf3ae7551b2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/ilrmsd_elec.html",
+      "bytes": 12708,
+      "sha256": "b5f7d1fad7f85312d6ec891c7ed29d311900fca804b4c28a8a601bad74b2857a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/ilrmsd_score.html",
+      "bytes": 12441,
+      "sha256": "f734a7edd3eb0a3466729c3761378aeeaf5bd63d424675e22b4a87f6df20e6f7"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/ilrmsd_vdw.html",
+      "bytes": 12652,
+      "sha256": "5001b608e8733bb3d2b4c19a91c4abe6ed0bd30d399c9c2060bf85af0d199f78"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/irmsd_air.html",
+      "bytes": 12622,
+      "sha256": "96d248fd8cbb1d08c69e8b0ce7ca26bd2b1ff04671ddd20c1a25dce139b7c08a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/irmsd_clt.html",
+      "bytes": 10122,
+      "sha256": "705dc34912692042342c4fa537f3346ead50bdfaf43d7603e581b0c195300bcb"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/irmsd_desolv.html",
+      "bytes": 12700,
+      "sha256": "4ebb981dd37a3b4336e512079c66054f5eba41ab8dcdbc8dc7502c663f922c80"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/irmsd_elec.html",
+      "bytes": 12700,
+      "sha256": "fe86ed61a7af50d3e0c4ce31bd0bd1061da66f539433ac7333d667bff75bee08"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/irmsd_score.html",
+      "bytes": 12433,
+      "sha256": "21b646f11d351f86c4379cf9c23c6f2c733fc351ad92a0758aea6cbaf8521407"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/irmsd_vdw.html",
+      "bytes": 12644,
+      "sha256": "576fdd78dca9fad0182a8ab9aaafebd5894acd090cccd2c28b0ecf0257103cc1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/lrmsd_air.html",
+      "bytes": 12622,
+      "sha256": "780956b8a2f46017fc01651a3a2fa15878242d65e7418d52b1d32508304bbb4f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/lrmsd_clt.html",
+      "bytes": 10124,
+      "sha256": "3e8f1adbb1678ab6147e01d75f5b92e8fc7f55ea6a8ba5c9e573b32203ab5a74"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/lrmsd_desolv.html",
+      "bytes": 12700,
+      "sha256": "f67ce994b29b555d22f00217c0385c406e8500bec9734dc57928fa34e22acacf"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/lrmsd_elec.html",
+      "bytes": 12700,
+      "sha256": "b83486b884050c51f9bc1958afd1f49946478307a744d3437bfeb2e65ab73f88"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/lrmsd_score.html",
+      "bytes": 12433,
+      "sha256": "11cf52af5757efa419d7071f005e5115407648e89d95d2dd427478d21015af72"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/lrmsd_vdw.html",
+      "bytes": 12644,
+      "sha256": "e034274971b203705d88da46daef6b79f4a6ac516e898ca1d422d67d097094ee"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/report.html",
+      "bytes": 188572,
+      "sha256": "16d395388f7305a4240e0d12dfd706f23ed180fb92ff69c570979cac84566b27"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/score_clt.html",
+      "bytes": 10129,
+      "sha256": "8cfb7f1c323b16cb606814f8b6f312c2f77c3d701f98f4970f6c7ecd9b189f20"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/summary.tgz",
+      "bytes": 280342,
+      "sha256": "3b1618f48f6a67381be061a06b49b550871a9b39acfecc06807a9f97c4360b8c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/06_caprieval_analysis/vdw_clt.html",
+      "bytes": 10131,
+      "sha256": "09967b7bf0021253130a8a32ab565d14805a79db23ca6caae982a1f14f2ed1c0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/air_clt.html",
+      "bytes": 8555,
+      "sha256": "d894393d77b11ccd3ff6cbb23ddba2886e69327847a3a216f89095eedba4510f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/bsa_clt.html",
+      "bytes": 8568,
+      "sha256": "569f12b5627ba5b933a47cb97d9c9ef68823d070437f0a3d4585a6d6b7ed0144"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/capri_clt.tsv",
+      "bytes": 891,
+      "sha256": "399fc4581118b947d093d3ab2816822fdedb8419513e16e8b5d0c7b71bacea14"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/capri_ss.tsv",
+      "bytes": 2777,
+      "sha256": "2e9d635ef66169b0b19d122be35dc2547da2fd09e8cf7ef375c37ee189cf773f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/desolv_clt.html",
+      "bytes": 8574,
+      "sha256": "10915eb4973f32dc9e9e5c3e0e4e10c2f5c21da7d4de387c2ec2e1101a0d6464"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/dockq_air.html",
+      "bytes": 9831,
+      "sha256": "ea1135a18ca2102c44ed760bf3ae000b668554a11b5924effe04f9c7acdd03ad"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/dockq_clt.html",
+      "bytes": 8570,
+      "sha256": "063933b8e8aae7e2d4961034654544c62d58e1adddd6cdc736f98bc461637c8c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/dockq_desolv.html",
+      "bytes": 9857,
+      "sha256": "6a0841acd78855728de0210a2be89c49a4c39f886856239aacacf8b84da81f9e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/dockq_elec.html",
+      "bytes": 9840,
+      "sha256": "44d86a62aae1f6a3eb067d47f17ca135031687acabe8bbe69edc84a01346e560"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/dockq_score.html",
+      "bytes": 9800,
+      "sha256": "71389fae3914d818b071afa9a462c4638151dcfa48615fd4aaf2d16d8c7eb2fa"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/dockq_vdw.html",
+      "bytes": 9826,
+      "sha256": "0bcf5459c5686a3f133183cadefe362f71a7a2719de8b558a95cc868850eed37"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/elec_clt.html",
+      "bytes": 8549,
+      "sha256": "5d08357083f9177dd13196cf9b01e6238839e093f8b455302766808d26e094d0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/fnat_air.html",
+      "bytes": 9801,
+      "sha256": "66530a1ffe93efb12dbcf70f86056a0f2420260f4695875f0e353b9f2e9766ed"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/fnat_clt.html",
+      "bytes": 8586,
+      "sha256": "7e68ecabc7b4c5b65202cad45246fc0420e7157d08c590791d90b6b8b44ff558"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/fnat_desolv.html",
+      "bytes": 9827,
+      "sha256": "7166e893492fbd7daf302358d46aba2cb0989da6417343668b9c906584107f84"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/fnat_elec.html",
+      "bytes": 9810,
+      "sha256": "8ff83b6df77769dd5be08b65896c19fa6438f55f3c0d344e1cf9568073f49f2a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/fnat_score.html",
+      "bytes": 9770,
+      "sha256": "7bb1c28481808331444f79ca87b24643f6d1c9d7d92f89fde16cf7c85b8ba23c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/fnat_vdw.html",
+      "bytes": 9796,
+      "sha256": "62c47b500aff48ab59f5e52684ece735bc76beac7a9df987f09f8c76e06ee199"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/ilrmsd_air.html",
+      "bytes": 9807,
+      "sha256": "4ae540f58fd7cd6917ece834470ada9909ebb7d00bd8c1662eb10b14905f65a1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/ilrmsd_clt.html",
+      "bytes": 8561,
+      "sha256": "ea81d22a2cb0871fff79d028a6f0f80711c95787c849a5b1bef3419629bf4667"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/ilrmsd_desolv.html",
+      "bytes": 9833,
+      "sha256": "04abdc2cacc9951ef85cdd77d4b38732c653a17d87dec52d9d3495b71166ce1d"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/ilrmsd_elec.html",
+      "bytes": 9816,
+      "sha256": "d7246c8544b244ae76a99c6832c9152022b6031f392e7b48eca48f02349e7aad"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/ilrmsd_score.html",
+      "bytes": 9776,
+      "sha256": "e96f5ed8b9082a3a41b9e44f70972d843557d756e7254990e419e235594d81a4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/ilrmsd_vdw.html",
+      "bytes": 9802,
+      "sha256": "0ee6564b254c04fc6ad42a003c1f76d2799c705cca2684764c8f966982f812ab"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/irmsd_air.html",
+      "bytes": 9796,
+      "sha256": "c374cc3fd51a513390c8307f681645380be272cc0f6c77f20bb0952331f41893"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/irmsd_clt.html",
+      "bytes": 8548,
+      "sha256": "9b71be48eb5015efb36b19052e51ff6a3d4f98c391f1acb5b74148d2055415e2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/irmsd_desolv.html",
+      "bytes": 9822,
+      "sha256": "56a91daad8dac3f31f661a99f3024078a8cfa129930d484caf17eb16a07c34cc"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/irmsd_elec.html",
+      "bytes": 9805,
+      "sha256": "75571634c8e1b5505da41e16a57c9a7d766665f5f1e0e489bbe9c528fab4925f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/irmsd_score.html",
+      "bytes": 9765,
+      "sha256": "c9af04f7e8bab8f5ce47c187b85c70ec5339c97e791d0089d2344c32a5b8a12a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/irmsd_vdw.html",
+      "bytes": 9791,
+      "sha256": "1c34af7445101df9b57b489ee7b65bc6cf007a864fb3b618007456ea93a7aea2"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/lrmsd_air.html",
+      "bytes": 9809,
+      "sha256": "39c38c0158fc37041d62575ca6bbf481df0ae5e88cd34109e55c7d1638e6e305"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/lrmsd_clt.html",
+      "bytes": 8545,
+      "sha256": "28191bc259e935f1484e3d8ed3b3e64b504d60bb4ff7bde8e0e114db8dd27f10"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/lrmsd_desolv.html",
+      "bytes": 9835,
+      "sha256": "ccbd426d7cd437a167e305656963537613f18f86a21b1c4d9bd0ca1926a63521"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/lrmsd_elec.html",
+      "bytes": 9818,
+      "sha256": "d3ef6fbb35d49f046296d3b81d1a1a27934edf38ffee825341d558bf4cb1a811"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/lrmsd_score.html",
+      "bytes": 9778,
+      "sha256": "4ce6bd678a11bab34e65be7022a8d987a210e323a3b848f7d2d17509d737bf1a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/lrmsd_vdw.html",
+      "bytes": 9804,
+      "sha256": "e12e3d5b4ecb9b894a0c12b1dc0155f5f9f9cba0cf2d5cd8ea19f9406bdc25bf"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/report.html",
+      "bytes": 94680,
+      "sha256": "250dc606013f41a85cc29f14467bb6b4e871b1707917328751e346920384120a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/score_clt.html",
+      "bytes": 8560,
+      "sha256": "d416340abc05af5dfb89baac7e8f97296103aea5c8d8af8f759ed3bab56d1a1e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/summary.tgz",
+      "bytes": 254991,
+      "sha256": "f68d0c169a431eedfdc2535e502e00f7b3c6139dfe022a26deeaebd9b8b433be"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/08_caprieval_analysis/vdw_clt.html",
+      "bytes": 8548,
+      "sha256": "d61d45747098b513a4a3bb37cdff49bafa27e7e128afb6f16f9e138d32df7dc4"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/air_clt.html",
+      "bytes": 11162,
+      "sha256": "497ce2860fabf018db21d0e2215dc63b2dc36b1da96f2a8bf3605530febaf899"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/bsa_clt.html",
+      "bytes": 11165,
+      "sha256": "ba19537ab0cc517d8cbd18d5ad853375e49d092605d8c9d59703c04f1fe2b9d1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/capri_clt.tsv",
+      "bytes": 1798,
+      "sha256": "4a8f01b70cf8d641ad8f34f64318b6c5f7175bac52a3c175277b8969df4c7c06"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/capri_ss.tsv",
+      "bytes": 2942,
+      "sha256": "5f806449d5b1e63f01c84ffad1a82e5c1fda4d5bd7f5a1ec7b5b90eaa6df850a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/desolv_clt.html",
+      "bytes": 11176,
+      "sha256": "a6f36007130eb04d7d086d807efc9ef93f0ab1597111a4692c7a66b13ac32559"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/dockq_air.html",
+      "bytes": 14434,
+      "sha256": "c9fa3271c95cdf1b552f13aeae79bd4518d4ba705e0238d62b4e36f530ddc17d"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/dockq_clt.html",
+      "bytes": 11172,
+      "sha256": "e2713aa779af62c3e1db788802bf73ebbf2e607a7a72c26d8b737ed594984d60"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/dockq_desolv.html",
+      "bytes": 14461,
+      "sha256": "b7d6474cb168f90407a4178ce0d7d8fee3f00b98455220df75baad5ee3cfab17"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/dockq_elec.html",
+      "bytes": 14469,
+      "sha256": "c8d27043746b6cabda3bbc1eec8db7c592f265ea8b3d3a9f8d505b934ba25cbe"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/dockq_score.html",
+      "bytes": 14167,
+      "sha256": "1688d1260f5646742bc1bbe25869d78d03bb3e5fcdc93278cfbdd7cc8e99ffc3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/dockq_vdw.html",
+      "bytes": 14467,
+      "sha256": "c86ebfa3483d5fce8bd026368c6a3e9f35857aa8342a2766afeac05c23752f37"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/elec_clt.html",
+      "bytes": 11161,
+      "sha256": "4f957b50bd8cef3d059725a01af6f7eb41e355f85c947139a7bd27320f850e32"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/fnat_air.html",
+      "bytes": 14341,
+      "sha256": "8f16a90c6800b486f57c42073c7b1291235faca28c5dd38b0b091f21900b61dd"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/fnat_clt.html",
+      "bytes": 11183,
+      "sha256": "b2bf3d190cffe075ac638f6b3dada2c35307186e996e4871f8cdd9ce32c11ef0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/fnat_desolv.html",
+      "bytes": 14368,
+      "sha256": "f025a227a21d0d2d24080a8cd9643e1d7f9d4aab04fd802190c6e9e12684acc8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/fnat_elec.html",
+      "bytes": 14376,
+      "sha256": "51d6cbee3e954e2c4c071919219151bb9941792cd559f2813e125124d6ad0af0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/fnat_score.html",
+      "bytes": 14074,
+      "sha256": "0aed178c05af9553fd646e4b97450e36f4b0496a1d117eca8f181580fd69cce5"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/fnat_vdw.html",
+      "bytes": 14374,
+      "sha256": "a4395cfdf3b8bc98e7a6752b037d55272c3c77173a75d3991ba446bac1d19bbd"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/ilrmsd_air.html",
+      "bytes": 14436,
+      "sha256": "36e88a283a46281a5a7cc23c0cec4b1a3fb75c621b51a62c93f187db2faf4eb1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/ilrmsd_clt.html",
+      "bytes": 11178,
+      "sha256": "0bf8601ef4139b461261a8e1073e1233e75d99281b8e525bba6e8467eb56a37b"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/ilrmsd_desolv.html",
+      "bytes": 14463,
+      "sha256": "cf889373b9df0792f97b23e45e8c97e4185f21f28f540860a6769052888acff0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/ilrmsd_elec.html",
+      "bytes": 14471,
+      "sha256": "046525071678878066fc67d7dbdc63dabbc80dbc3ac08a1c62e3c53db7fa9dcc"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/ilrmsd_score.html",
+      "bytes": 14169,
+      "sha256": "199df73a5099310f727fd3b39011173565faafa2e61f5ea96b64fafc52009762"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/ilrmsd_vdw.html",
+      "bytes": 14469,
+      "sha256": "6225ca83d3e5074e2521a37f6b84d6cf4e7f7cb8ab6c5af1bb169a7cd1e00457"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/irmsd_air.html",
+      "bytes": 14405,
+      "sha256": "1404ac7ef85a8422a93d3203de503ec1d133be3f8a12c7f9f614c924e10a15f9"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/irmsd_clt.html",
+      "bytes": 11160,
+      "sha256": "946224a24a1b4d672aefb22f3f66693406901dae3ad2d463c08c42eaad40cbe9"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/irmsd_desolv.html",
+      "bytes": 14432,
+      "sha256": "41c3a542996a3084dec95a53c6e63a957fbe50820cf98499864ec04de2cbf050"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/irmsd_elec.html",
+      "bytes": 14440,
+      "sha256": "f10b5bd029f4fcd4394ec2bce6ce20151db9f44742af3fadb82bfba7ae5dd896"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/irmsd_score.html",
+      "bytes": 14138,
+      "sha256": "f00a74f2fe1cef606552df35ee0092cf031b8f6b1656a36e55ff41650a87aaaa"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/irmsd_vdw.html",
+      "bytes": 14438,
+      "sha256": "103b60851d2034f5086b685ddc513672ab89d305ee97e04ab6132854cfd54ac8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/lrmsd_air.html",
+      "bytes": 14416,
+      "sha256": "21d69ca1ca7298c3247b56143095fa7f5ff2533d0c2bd1fb102dd6847cdb5d42"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/lrmsd_clt.html",
+      "bytes": 11157,
+      "sha256": "62e8231335e10eacc9fb76a49ec68050615767978a0c75b1c77164554eb274aa"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/lrmsd_desolv.html",
+      "bytes": 14443,
+      "sha256": "98d13615d3140b41439fa9f6354d1bca6477daa9c59cf75e60d00a0f2b2fe116"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/lrmsd_elec.html",
+      "bytes": 14451,
+      "sha256": "18d328930d52b0791762de2c7e99b2936030f96e372ace69b22b8682808f2e19"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/lrmsd_score.html",
+      "bytes": 14149,
+      "sha256": "350d20fc6dcef4e2f1627403ab3e5dd5191f37b2cb4ddbb7998ea24ce4c2abe0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/lrmsd_vdw.html",
+      "bytes": 14449,
+      "sha256": "2914662f09d0eebd456a29b448fdc3d6127dbe9ae2244ee676e8bd476466eb88"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/report.html",
+      "bytes": 248446,
+      "sha256": "229e69b83d7bff828356547d59ae0520688c9fc43355ed05852928bb26496b29"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/score_clt.html",
+      "bytes": 11172,
+      "sha256": "105c86da028ac3cac6a4a9508e77d3b26e73c4e947cddcf3d08373f03ed5207e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/summary.tgz",
+      "bytes": 305882,
+      "sha256": "67f2cbbcc17af453711bd65acb0f398af1b6cfc0eec5a53ecd4fb1b7d2e12dad"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/12_caprieval_analysis/vdw_clt.html",
+      "bytes": 11160,
+      "sha256": "0b278c9d2af28a73048bc5c0e7a25874ba4cda1ed51713b949900dffc36b0407"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/air_clt.html",
+      "bytes": 11162,
+      "sha256": "497ce2860fabf018db21d0e2215dc63b2dc36b1da96f2a8bf3605530febaf899"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/bsa_clt.html",
+      "bytes": 11165,
+      "sha256": "ba19537ab0cc517d8cbd18d5ad853375e49d092605d8c9d59703c04f1fe2b9d1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/capri_clt.tsv",
+      "bytes": 1798,
+      "sha256": "ac0615b1d7cf8a39175318f9e3d7aee1c7b2b139be4e3957c1f82cab0fb726c7"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/capri_ss.tsv",
+      "bytes": 2942,
+      "sha256": "c8f884412551241760e01dee77f4fa2dec3e67a98ddae48a4fc6ec4f5485b314"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/desolv_clt.html",
+      "bytes": 11176,
+      "sha256": "a6f36007130eb04d7d086d807efc9ef93f0ab1597111a4692c7a66b13ac32559"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/dockq_air.html",
+      "bytes": 14438,
+      "sha256": "59541f49cf85cf5c43e7f8ca8958344588e634a8189acecba48d68625e808300"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/dockq_clt.html",
+      "bytes": 11162,
+      "sha256": "7c6c107e196d88e5d46dd05b4f5a14299b8851fb8302df7b14e2ac4a8e641787"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/dockq_desolv.html",
+      "bytes": 14465,
+      "sha256": "769f259de3aaaf408247136b86e1bbc4cf4f242e532abc7f35c69f6278a77a2f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/dockq_elec.html",
+      "bytes": 14473,
+      "sha256": "c67062ee2ab676d0ed9743f0aee2ba1d01ac79fcb9360d804978c676010d3549"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/dockq_score.html",
+      "bytes": 14171,
+      "sha256": "1a959802998dfb8e810a7f663eb86f37ba08f0cae1ced6205793aea249774a69"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/dockq_vdw.html",
+      "bytes": 14471,
+      "sha256": "92296bcb1ee9b3e5165bc3cd53c7183efb7bbed2510a3d246ec0fb16acbd5140"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/elec_clt.html",
+      "bytes": 11161,
+      "sha256": "4f957b50bd8cef3d059725a01af6f7eb41e355f85c947139a7bd27320f850e32"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/fnat_air.html",
+      "bytes": 14341,
+      "sha256": "8f16a90c6800b486f57c42073c7b1291235faca28c5dd38b0b091f21900b61dd"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/fnat_clt.html",
+      "bytes": 11183,
+      "sha256": "b2bf3d190cffe075ac638f6b3dada2c35307186e996e4871f8cdd9ce32c11ef0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/fnat_desolv.html",
+      "bytes": 14368,
+      "sha256": "f025a227a21d0d2d24080a8cd9643e1d7f9d4aab04fd802190c6e9e12684acc8"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/fnat_elec.html",
+      "bytes": 14376,
+      "sha256": "51d6cbee3e954e2c4c071919219151bb9941792cd559f2813e125124d6ad0af0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/fnat_score.html",
+      "bytes": 14074,
+      "sha256": "0aed178c05af9553fd646e4b97450e36f4b0496a1d117eca8f181580fd69cce5"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/fnat_vdw.html",
+      "bytes": 14374,
+      "sha256": "a4395cfdf3b8bc98e7a6752b037d55272c3c77173a75d3991ba446bac1d19bbd"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/ilrmsd_air.html",
+      "bytes": 14437,
+      "sha256": "aa37ca12185aae3436c00f503f5cd4149fe89e239bb215268cc4e8dc33e7fbb5"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/ilrmsd_clt.html",
+      "bytes": 11178,
+      "sha256": "9a9389e4f9b0e648067ae1be1b2b071c3a110fd9ab3bf24431afe45642539e08"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/ilrmsd_desolv.html",
+      "bytes": 14464,
+      "sha256": "0aca25f62dd41ed26f2ce5e14ce5e879e4dc0cde6ff94fbbb0d25b42d57f8b67"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/ilrmsd_elec.html",
+      "bytes": 14472,
+      "sha256": "18e1a8a1b341fa0c14d02c878b7fe59bb10f1af4881546961d7d3776112f6f9c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/ilrmsd_score.html",
+      "bytes": 14170,
+      "sha256": "32aca0c57856b8c825393883463e4cb7f541bb472757b66b682f7157e8c54782"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/ilrmsd_vdw.html",
+      "bytes": 14470,
+      "sha256": "a1743a526235a5acc774c55848176fd8da6d8ff60cb2d68b216b76019e67c5eb"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/irmsd_air.html",
+      "bytes": 14425,
+      "sha256": "951507348f1fcfd8594b72d771acad084dfac1592b956a4fbfe441dfc6c1e601"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/irmsd_clt.html",
+      "bytes": 11165,
+      "sha256": "b00b2f6fc44e4f5a098ce4cb9d60b13d2e0af42fb517803b66af56c03b17f64e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/irmsd_desolv.html",
+      "bytes": 14452,
+      "sha256": "50b1633218cc41b383cb976915ab39c922d3d7479f5be273d82201f905dad41c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/irmsd_elec.html",
+      "bytes": 14460,
+      "sha256": "102c5634cdad2c0ab507017abb4ae5706ba5ce40ee38c220425f7fc6f5ec3b39"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/irmsd_score.html",
+      "bytes": 14158,
+      "sha256": "275b0250b9b18511bd624af8d7a1ff39f34165e31f8a4760ce91f0af7470ab3a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/irmsd_vdw.html",
+      "bytes": 14458,
+      "sha256": "bac13f5e4abf933d6eaf881137ac9d86a876e048dfecd46195ce8a886e5c05bf"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/lrmsd_air.html",
+      "bytes": 14444,
+      "sha256": "b5b53fc9cdde96effc9ba170473bb99c80aa3132668a7994e2d18f2fa7a4a459"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/lrmsd_clt.html",
+      "bytes": 11162,
+      "sha256": "0e353962d884465e2582e82ff4ebfbd30292169e4c657c9bc99ae0f0f3e33254"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/lrmsd_desolv.html",
+      "bytes": 14471,
+      "sha256": "af5030cbb46ae64e813e3ecc0f33225caa13d4366e93916430494462fadbc8cd"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/lrmsd_elec.html",
+      "bytes": 14479,
+      "sha256": "5ef10bfa595d7c257257d2097f511a113bc559bffde176a2e40a83195e16b56e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/lrmsd_score.html",
+      "bytes": 14177,
+      "sha256": "e2eb7a5b26d543ed601bb3aed4bf816180a51937d62b860d55190e3f0533f67a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/lrmsd_vdw.html",
+      "bytes": 14477,
+      "sha256": "62d5688e444cd5c1d9749f65c57ec4e3b69fc42c641394f31e5fc4ed580bc72a"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/report.html",
+      "bytes": 248713,
+      "sha256": "d5ca48abec47cef6d0ed1a227bcbf06e666b15792847be47964b4828356216f0"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/score_clt.html",
+      "bytes": 11172,
+      "sha256": "105c86da028ac3cac6a4a9508e77d3b26e73c4e947cddcf3d08373f03ed5207e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/summary.tgz",
+      "bytes": 305880,
+      "sha256": "08f6144a1e6635698b616c68e6f9210115be06785aed41290675f557a3d0f4c6"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/13_caprieval_analysis/vdw_clt.html",
+      "bytes": 11160,
+      "sha256": "0b278c9d2af28a73048bc5c0e7a25874ba4cda1ed51713b949900dffc36b0407"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/analysis/README.md",
+      "bytes": 662,
+      "sha256": "c874205bba811e3411d73e9bacf4821695a43748cd968d92a4aeeaecc3537912"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/00_topoaa/1LMQ_l_u.pdb",
+      "bytes": 8833,
+      "sha256": "98db5bac726a54090e37367f3750e4112e422088d26f015c45fe1f450b4f20df"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/00_topoaa/1LMQ_r_u.pdb",
+      "bytes": 80923,
+      "sha256": "77081f4f604b2e955b6cbf8f8bcb1bd67f8b29f6c1e3a8152db37aab9011103f"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/01_rigidbody/ambig.tbl",
+      "bytes": 2871,
+      "sha256": "5e241dfd25ba07306c2b104e6cd1a6a686d629f308e4037b8eb86d84ac3ee8a3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/02_caprieval/target.pdb",
+      "bytes": 85779,
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/06_caprieval/target.pdb",
+      "bytes": 85779,
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/07_flexref/ambig.tbl",
+      "bytes": 2871,
+      "sha256": "5e241dfd25ba07306c2b104e6cd1a6a686d629f308e4037b8eb86d84ac3ee8a3"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/08_caprieval/target.pdb",
+      "bytes": 85779,
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/12_caprieval/target.pdb",
+      "bytes": 85779,
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/13_caprieval/target.pdb",
+      "bytes": 85779,
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/configurations/README.txt",
+      "bytes": 629,
+      "sha256": "66475c9b3329fb7cd674c2acaeefe2c88e622536cee9877fee2b346833086585"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/configurations/cleaned_input.toml",
+      "bytes": 2040,
+      "sha256": "17903ce32e764ca83cbed643a7874b213fbf108680529743a07459049cf83845"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/configurations/enhanced_haddock_params.json",
+      "bytes": 28801,
+      "sha256": "912839ff00619d63d19d2ee1fd57eaeca6c163a635b4909a88105defeca9a488"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/configurations/enhanced_haddock_params.toml",
+      "bytes": 17725,
+      "sha256": "5131aa5d6080ab4ba59e1dc688627e41a8c91705ce0d7900bb193a04b0504730"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/data/configurations/raw_input.toml",
+      "bytes": 1985,
+      "sha256": "7fad71d6d206b758b90cbdda1eca13e16ad7d94a3dfb83865b07f9b60c371dda"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/log",
+      "bytes": 23911,
+      "sha256": "28f49585df1cdf96d4648c55a28bbd860b969d272bfdb357e47a47690718d0f1"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/traceback/consensus.tsv",
+      "bytes": 505,
+      "sha256": "4ab135e7d859daaeaa2d8c14b16fe0054eb270b67e4e83e18d1963c6f4d73a95"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/traceback/traceback.html",
+      "bytes": 10459,
+      "sha256": "95228e6454c92149ee5e6ca422ebbfbe7238eb7394ca35f664804cacf5d767a9"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/run1-test/traceback/traceback.tsv",
+      "bytes": 2252,
+      "sha256": "5550418dcc62487451e1014ac57c30bc0f1adc04bc8bd75189a718849c867e9e"
+    },
+    {
+      "path": "results/haddock_reproduction/official_glycan_test/upstream.cfg",
+      "bytes": 1986,
+      "sha256": "b242320882f99ff2eef030c4e5a21ad679a148a18494ed05c7cfef12c1841941"
+    },
+    {
+      "path": "results/haddock_reproduction/official_workflow.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "results/haddock_reproduction/official_workflow.stdout.log",
+      "bytes": 24041,
+      "sha256": "e8c04ee171cb164d43b295feb92d8cc660055d95f5794eee6fe6d07f13d8b7f0"
+    },
+    {
+      "path": "results/haddock_reproduction/preparation_audit.json",
+      "bytes": 54236,
+      "sha256": "847b629d11481bdedd0a907fbd667d0f59fe8773cc20cc36e190eb016f1a5dc7"
+    },
+    {
+      "path": "results/haddock_reproduction/release_verification.json",
+      "bytes": 245,
+      "sha256": "1cbb77f750edb1c9e2a0957437d40c537337fa10dea17f94d3d347863cdfc0b9"
+    },
+    {
+      "path": "results/haddock_reproduction/reproduction_summary.json",
+      "bytes": 1781403,
+      "sha256": "0d6e72d1703048172081365f228c549427f71f80bbde220cfbf33e1ab1b35891"
+    },
+    {
+      "path": "results/haddock_reproduction/runtime_audit.json",
+      "bytes": 2619,
+      "sha256": "a77b7c68cedef3043c862c001a9d7c707c0822a06923223fa862ec4b418844cc"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/DISCLAIMER.md",
+      "bytes": 1167,
+      "sha256": "a7d233abbe158d96f82d6de8a6afec3fde635d6cc951b29e612d034c2d37f3fb"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/docs/pages/CNS.md",
+      "bytes": 10179,
+      "sha256": "459330f143080604301bcdba0ebae9f8dce24cad14f407d9953ed16ef3108fc8"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/docs/pages/INSTALL.md",
+      "bytes": 3808,
+      "sha256": "9d82ad6e19d857c0c3391d4177dafbfe82df2798db08c531740647f2ab68fd09"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/docs/pages/examples.md",
+      "bytes": 22899,
+      "sha256": "c9a662a44559a71d886e3d577198d8cb3e83ec3e87fd8a2d38183c343d2b5da1"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/data/1LMQ_l_u.pdb",
+      "bytes": 8833,
+      "sha256": "98db5bac726a54090e37367f3750e4112e422088d26f015c45fe1f450b4f20df"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/data/1LMQ_r_u.pdb",
+      "bytes": 80923,
+      "sha256": "77081f4f604b2e955b6cbf8f8bcb1bd67f8b29f6c1e3a8152db37aab9011103f"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/data/ambig.tbl",
+      "bytes": 2871,
+      "sha256": "5e241dfd25ba07306c2b104e6cd1a6a686d629f308e4037b8eb86d84ac3ee8a3"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/data/target.pdb",
+      "bytes": 85779,
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/docking-protein-glycan-full.cfg",
+      "bytes": 2257,
+      "sha256": "e4492d8d56dcf2c66d0c93cea7707ea00349d59966af87f8269675b53f664c3f"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/docking-protein-glycan-ilrmsd-test.cfg",
+      "bytes": 1726,
+      "sha256": "2266f52849d0cc119db392e536366d09539d6f5e9cfbc71286cc503a91e26557"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/docking-protein-glycan-test.cfg",
+      "bytes": 1986,
+      "sha256": "b242320882f99ff2eef030c4e5a21ad679a148a18494ed05c7cfef12c1841941"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/github-tag-2026.10.1.json",
+      "bytes": 357,
+      "sha256": "f152e754f36706dacfb6ac946429e958909a5202b0cefc207673bee2a4110cb2"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/glycan_parameter_review.json",
+      "bytes": 2115,
+      "sha256": "6ff0c562bb3e358adfabe551cc172fbf5a8d1e9a1edb1069f49102a8311c5a68"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/native_binary_provenance.json",
+      "bytes": 721,
+      "sha256": "483d42a41caf7bfd4683da9d3196c035ea6c9b10548167ebb688a02f8087daac"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/official_example_manifest.json",
+      "bytes": 1792,
+      "sha256": "7313bf7c5172c3fa118fcd17f023d64f5616c30146dbc64520b3ddca726e316a"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/pypi-signing-certificate.der",
+      "bytes": 1803,
+      "sha256": "1edda68a876c2536062944600d1af811996eb07e84fabdf67207c9ae2fbe9f2e"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/pypi-signing-certificate.txt",
+      "bytes": 4584,
+      "sha256": "26247fa11241782925b7f5f237bb542d2c31393d5c0f45bbeba9ee93fcbdc067"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/retrieval_manifest.json",
+      "bytes": 2010,
+      "sha256": "262309a81dbf85fdb15059c0e9eaf6cc09e9d2a6df5689979375b589e480cd13"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/review.json",
+      "bytes": 4691,
+      "sha256": "2fc96bf395c84a237b32f0e25da4ca6d8eacf5e3382425e4f26521bf28be2a44"
+    },
+    {
+      "path": "results/haddock_reproduction/source_review/source_manifest.json",
+      "bytes": 5987,
+      "sha256": "63b06a8a6cc242d8c2699ba8d35cc06793d7ea418fa4c978ba9940ca85f6255b"
+    },
+    {
+      "path": "results/haddock_reproduction/test_report.txt",
+      "bytes": 727,
+      "sha256": "64a390cb9e22b1ec935ab3f1d93ad129e120b2cb18c5734c25b3d59fa79725a0"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/coordinate_read_audit.json",
+      "bytes": 1355,
+      "sha256": "b6d7c9226caeb7f3c5566881b145e86505d1448a063a1ba76f6d209363adfdb9"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/data/1LMQ_l_u.pdb",
+      "bytes": 8833,
+      "sha256": "98db5bac726a54090e37367f3750e4112e422088d26f015c45fe1f450b4f20df"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/data/1LMQ_r_u.pdb",
+      "bytes": 80923,
+      "sha256": "77081f4f604b2e955b6cbf8f8bcb1bd67f8b29f6c1e3a8152db37aab9011103f"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/data/ambig.tbl",
+      "bytes": 2871,
+      "sha256": "5e241dfd25ba07306c2b104e6cd1a6a686d629f308e4037b8eb86d84ac3ee8a3"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/data/target.pdb",
+      "bytes": 85779,
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/execution.json",
+      "bytes": 295,
+      "sha256": "fa40101c44d7d48e8f961a4af7c353c11a5f407efb19024a31a97ab4d1e274b3"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/plan.json",
+      "bytes": 502,
+      "sha256": "63751aa3cb8672c8cbc28e9621672eb319f0e5652f446142ff42ea50005badfa"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_l_u.inp",
+      "bytes": 34870,
+      "sha256": "3ea4d3596addb45e053eca00a062f6ee32c7db8c86b7b923429f9d3e47342590"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_l_u.out.gz",
+      "bytes": 22816,
+      "sha256": "55fbf12ff0abe5ef7d6660a6a3b2a61ad9d3bc754547d7ee49a54a1647c79f09"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_l_u_haddock.pdb",
+      "bytes": 9119,
+      "sha256": "134b4319486ed2f1397e78a7f5e42d60165e908f62fe040b6dbd124528977b47"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_l_u_haddock.psf",
+      "bytes": 9881,
+      "sha256": "c221b70e57295a8068dde46628738265d1e10c0c94ddd91316605a9d77638dcf"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_r_u.inp",
+      "bytes": 34870,
+      "sha256": "65473b03a49ad82aefa990d37adf46e251b5df2ba9eeba577dbccc8c8d1d3da1"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_r_u.out.gz",
+      "bytes": 17285,
+      "sha256": "63fbffd3a8674258d76bd9ec0099e16a2db568a56c9bd8325d63e29c059fceb1"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_r_u_haddock.pdb",
+      "bytes": 110818,
+      "sha256": "9e2eeafbd6b1687593f8b590fb403456d3ea9fe1dc8e19109b0b780958807835"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_r_u_haddock.psf",
+      "bytes": 173700,
+      "sha256": "1e1b4c5d25c46817a4ff700c01986a66d1060face0e0d524d2a85ad6f88b9ca9"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/io.json",
+      "bytes": 5893,
+      "sha256": "0327cf7584be03dda1c58000339959af014a717c921e004b7e9aca9bb3a0ebdd"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/params.cfg",
+      "bytes": 569,
+      "sha256": "6983515faae4a2facabfe101b71a81dd2a7457287d717c29fc446539a29fe2fc"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/data/0_topoaa/1LMQ_l_u.pdb",
+      "bytes": 8833,
+      "sha256": "98db5bac726a54090e37367f3750e4112e422088d26f015c45fe1f450b4f20df"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/data/0_topoaa/1LMQ_r_u.pdb",
+      "bytes": 80923,
+      "sha256": "77081f4f604b2e955b6cbf8f8bcb1bd67f8b29f6c1e3a8152db37aab9011103f"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/data/configurations/README.txt",
+      "bytes": 638,
+      "sha256": "9a59895ae9362caa90114731e45f7450182a37eb5c8da04d4bbd0a4fc00e7f10"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/data/configurations/cleaned_input.toml",
+      "bytes": 146,
+      "sha256": "60072857f1fcde358e50b3d3998a4cdc11b87b256ef959ee9613e700d3e47e00"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/data/configurations/enhanced_haddock_params.json",
+      "bytes": 1504,
+      "sha256": "b2b27efc6f84ba69ff02251c14fc8d9b3fde55693ec27b6317e901a663d8c33c"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/data/configurations/enhanced_haddock_params.toml",
+      "bytes": 946,
+      "sha256": "5e22ff1f3b9cf3deaaae57485d0f9ad9ed0dc39f94b6e2a4661e9bcbbd0e1e10"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/data/configurations/raw_input.toml",
+      "bytes": 142,
+      "sha256": "97f65191f8b1876061ec005a438a5a72ddc926a3d6f5b8beca8d9910ec638e43"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/run-topology/log",
+      "bytes": 4495,
+      "sha256": "2ef758841c7c85c909d233a6f7bab07e3c6f4a5db65283ec5bec4b344fd921eb"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/stderr.log",
+      "bytes": 396,
+      "sha256": "54bb96d3924ef8d26b821619677e476421a20ec1a3f98eb08a49fdaa9a35b79c"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/stdout.log",
+      "bytes": 5472,
+      "sha256": "874c41635f880f03833a254ea46c2f7636656b2d821f605b4ce1c98042c7d94b"
+    },
+    {
+      "path": "results/haddock_reproduction/topology_diagnostic/topology.cfg",
+      "bytes": 142,
+      "sha256": "97f65191f8b1876061ec005a438a5a72ddc926a3d6f5b8beca8d9910ec638e43"
+    }
+  ],
+  "owned_code_and_documentation": [
+    {
+      "path": "benchmarks/haddock.lock.json",
+      "bytes": 5331,
+      "sha256": "5eec702d354597aa56b41a2fda30479bd8b481d35ee9498bb2ec0201f8f62bcb"
+    },
+    {
+      "path": "docs/HADDOCK_REPRODUCTION.md",
+      "bytes": 10802,
+      "sha256": "b957695d0f502d95f01c32307878d9b056d9ab9d33c353ef293246bc25cbc691"
+    },
+    {
+      "path": "aav_benchmark/haddock_method.py",
+      "bytes": 16684,
+      "sha256": "04af6d150fcdb7195d81184dd7b3d7bdeb4e1649d509c2d3867295cf85b1558f"
+    },
+    {
+      "path": "tests/test_haddock_method.py",
+      "bytes": 13063,
+      "sha256": "7631b583e3a761a465d783243564776bd19a8bdfe8f5c841f5c65ac11fdfdc13"
+    }
+  ],
+  "scope": "Actual official1LMQguidedworkflow and separatetopology-onlydebugdiagnostic. No newbenchmarkcohort or qualificationchanges.",
+  "self_hash_rule": "Manifest excludes itself; experimental release/input/CNS pins are frozen separately before execution."
+}

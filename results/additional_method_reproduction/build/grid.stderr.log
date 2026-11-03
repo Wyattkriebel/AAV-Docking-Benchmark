@@ -1,0 +1,129 @@
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.cpp:23:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.h:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/array3d.h:27:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/common.h:45:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/vector.hpp:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/nvp.hpp:35:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/split_free.hpp:22:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/serialization.hpp:14:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/strong_typedef.hpp:28:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/has_nothrow_assign.hpp:31:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/is_assignable.hpp:59:
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/has_trivial_assign.hpp:29:7: warning: builtin __has_trivial_assign is deprecated; use __is_trivially_assignable instead [-Wdeprecated-builtins]
+   29 |       BOOST_HAS_TRIVIAL_ASSIGN(T)
+      |       ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/intrinsics.hpp:193:43: note: expanded from macro 'BOOST_HAS_TRIVIAL_ASSIGN'
+  193 | #     define BOOST_HAS_TRIVIAL_ASSIGN(T) (__has_trivial_assign(T) && !is_volatile<T>::value && is_assignable<T&, const T&>::value)
+      |                                           ^
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.cpp:23:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.h:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/array3d.h:27:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/common.h:45:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/vector.hpp:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/nvp.hpp:35:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/split_free.hpp:22:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/serialization.hpp:14:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/strong_typedef.hpp:28:
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/has_nothrow_assign.hpp:65:7: warning: builtin __has_nothrow_assign is deprecated; use __is_nothrow_assignable instead [-Wdeprecated-builtins]
+   65 |       BOOST_HAS_NOTHROW_ASSIGN(T)
+      |       ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/intrinsics.hpp:205:43: note: expanded from macro 'BOOST_HAS_NOTHROW_ASSIGN'
+  205 | #     define BOOST_HAS_NOTHROW_ASSIGN(T) (__has_nothrow_assign(T) && !is_volatile<T>::value && is_assignable<T&, const T&>::value)
+      |                                           ^
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.cpp:23:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.h:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/array3d.h:27:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/common.h:45:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/vector.hpp:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/nvp.hpp:35:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/split_free.hpp:22:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/serialization.hpp:14:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/strong_typedef.hpp:29:
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/has_nothrow_constructor.hpp:27:84: warning: builtin __has_nothrow_constructor is deprecated; use __is_nothrow_constructible instead [-Wdeprecated-builtins]
+   27 | template <class T> struct has_nothrow_constructor : public integral_constant<bool, BOOST_HAS_NOTHROW_CONSTRUCTOR(T)>{};
+      |                                                                                    ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/intrinsics.hpp:199:48: note: expanded from macro 'BOOST_HAS_NOTHROW_CONSTRUCTOR'
+  199 | #     define BOOST_HAS_NOTHROW_CONSTRUCTOR(T) (__has_nothrow_constructor(T) && is_default_constructible<T>::value)
+      |                                                ^
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.cpp:23:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.h:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/array3d.h:27:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/common.h:45:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/vector.hpp:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/nvp.hpp:35:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/split_free.hpp:22:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/serialization.hpp:14:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/strong_typedef.hpp:30:
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/has_nothrow_copy.hpp:36:89: warning: builtin __has_nothrow_copy is deprecated; use __is_nothrow_constructible instead [-Wdeprecated-builtins]
+   36 | template <class T> struct has_nothrow_copy_constructor : public integral_constant<bool, BOOST_HAS_NOTHROW_COPY(T)>{};
+      |                                                                                         ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/intrinsics.hpp:202:41: note: expanded from macro 'BOOST_HAS_NOTHROW_COPY'
+  202 | #     define BOOST_HAS_NOTHROW_COPY(T) (__has_nothrow_copy(T) && !is_volatile<T>::value && !is_reference<T>::value && is_copy_constructible<T>::value)
+      |                                         ^
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.cpp:23:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.h:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/array3d.h:27:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/common.h:45:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/vector.hpp:33:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/collections_load_imp.hpp:40:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/detail/is_default_constructible.hpp:39:
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/has_trivial_constructor.hpp:41:69: warning: builtin __has_trivial_constructor is deprecated; use __is_trivially_constructible instead [-Wdeprecated-builtins]
+   41 |    : public integral_constant <bool, ((::boost::is_pod<T>::value || BOOST_HAS_TRIVIAL_CONSTRUCTOR(T)) BOOST_TT_TRIVIAL_CONSTRUCT_FIX)>{};
+      |                                                                     ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/type_traits/intrinsics.hpp:187:47: note: expanded from macro 'BOOST_HAS_TRIVIAL_CONSTRUCTOR'
+  187 | #     define BOOST_HAS_TRIVIAL_CONSTRUCTOR(T) __has_trivial_constructor(T)
+      |                                               ^
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.cpp:23:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.h:26:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/array3d.h:27:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/common.h:45:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/vector.hpp:33:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/serialization/collections_load_imp.hpp:42:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/utility_core.hpp:30:
+In file included from /Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/core.hpp:58:
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:877:30: warning: builtin __has_trivial_destructor is deprecated; use __is_trivially_destructible instead [-Wdeprecated-builtins]
+  877 | {  static const bool value = BOOST_MOVE_IS_TRIVIALLY_DESTRUCTIBLE(T); };
+      |                              ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:335:54: note: expanded from macro 'BOOST_MOVE_IS_TRIVIALLY_DESTRUCTIBLE'
+  335 |    #define BOOST_MOVE_IS_TRIVIALLY_DESTRUCTIBLE(T)   BOOST_MOVE_HAS_TRIVIAL_DESTRUCTOR(T) || ::boost::move_detail::is_pod<T>::value
+      |                                                      ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:166:51: note: expanded from macro 'BOOST_MOVE_HAS_TRIVIAL_DESTRUCTOR'
+  166 | #     define BOOST_MOVE_HAS_TRIVIAL_DESTRUCTOR(T) __has_trivial_destructor(T)
+      |                                                   ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:908:30: warning: builtin __has_trivial_assign is deprecated; use __is_trivially_assignable instead [-Wdeprecated-builtins]
+  908 |    static const bool value = BOOST_MOVE_IS_TRIVIALLY_COPY_ASSIGNABLE(T);
+      |                              ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:323:58: note: expanded from macro 'BOOST_MOVE_IS_TRIVIALLY_COPY_ASSIGNABLE'
+  323 |                                                          BOOST_MOVE_HAS_TRIVIAL_ASSIGN(T))
+      |                                                          ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:159:47: note: expanded from macro 'BOOST_MOVE_HAS_TRIVIAL_ASSIGN'
+  159 | #     define BOOST_MOVE_HAS_TRIVIAL_ASSIGN(T) __has_trivial_assign(T)
+      |                                               ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:923:30: warning: builtin __has_nothrow_constructor is deprecated; use __is_nothrow_constructible instead [-Wdeprecated-builtins]
+  923 | {  static const bool value = BOOST_MOVE_IS_NOTHROW_DEFAULT_CONSTRUCTIBLE(T);  };
+      |                              ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:341:60: note: expanded from macro 'BOOST_MOVE_IS_NOTHROW_DEFAULT_CONSTRUCTIBLE'
+  341 |    #define BOOST_MOVE_IS_NOTHROW_DEFAULT_CONSTRUCTIBLE(T)  BOOST_MOVE_HAS_NOTHROW_CONSTRUCTOR(T) || ::boost::move_detail::is_pod<T>::value
+      |                                                            ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:173:52: note: expanded from macro 'BOOST_MOVE_HAS_NOTHROW_CONSTRUCTOR'
+  173 | #     define BOOST_MOVE_HAS_NOTHROW_CONSTRUCTOR(T) __has_nothrow_constructor(T)
+      |                                                    ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:930:30: warning: builtin __has_nothrow_copy is deprecated; use __is_nothrow_constructible instead [-Wdeprecated-builtins]
+  930 | {  static const bool value = BOOST_MOVE_IS_NOTHROW_COPY_CONSTRUCTIBLE(T);  };
+      |                              ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:347:58: note: expanded from macro 'BOOST_MOVE_IS_NOTHROW_COPY_CONSTRUCTIBLE'
+  347 |    #define BOOST_MOVE_IS_NOTHROW_COPY_CONSTRUCTIBLE(T)   BOOST_MOVE_HAS_NOTHROW_COPY(T) || ::boost::move_detail::is_pod<T>::value
+      |                                                          ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:180:46: note: expanded from macro 'BOOST_MOVE_HAS_NOTHROW_COPY'
+  180 | #     define BOOST_MOVE_HAS_NOTHROW_COPY(T) (__has_nothrow_copy(T))
+      |                                              ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:944:30: warning: builtin __has_nothrow_assign is deprecated; use __is_nothrow_assignable instead [-Wdeprecated-builtins]
+  944 | {  static const bool value = BOOST_MOVE_IS_NOTHROW_COPY_ASSIGNABLE(T);  };
+      |                              ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:353:53: note: expanded from macro 'BOOST_MOVE_IS_NOTHROW_COPY_ASSIGNABLE'
+  353 |    #define BOOST_MOVE_IS_NOTHROW_COPY_ASSIGNABLE(T) BOOST_MOVE_HAS_NOTHROW_ASSIGN(T) || ::boost::move_detail::is_pod<T>::value
+      |                                                     ^
+/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include/boost/move/detail/type_traits.hpp:187:48: note: expanded from macro 'BOOST_MOVE_HAS_NOTHROW_ASSIGN'
+  187 | #     define BOOST_MOVE_HAS_NOTHROW_ASSIGN(T) (__has_nothrow_assign(T))
+      |                                                ^
+10 warnings generated.

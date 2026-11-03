@@ -1,4 +1,20 @@
 {
+  "additional_method_validation_milestone": {
+    "evidence": [
+      "docs/VINA_CARB_REPRODUCTION.md",
+      "docs/HADDOCK_REPRODUCTION.md",
+      "results/additional_method_reproduction/example_verification.json",
+      "results/haddock_reproduction/reproduction_summary.json"
+    ],
+    "haddock_final_clusters": 6,
+    "haddock_final_models": 12,
+    "haddock_initial_models": 20,
+    "haddock_refined_models": 12,
+    "scope": "released-example software validation; not blind/held-out atomic performance",
+    "targeted_tests_passed": 24,
+    "vina_carb_glycosidic_links": 3,
+    "vina_carb_tutorial_poses": 10
+  },
   "assessment_date": "2026-11-03",
   "atomic_reference_milestone": {
     "evidence": [

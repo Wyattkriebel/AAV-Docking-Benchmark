@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/bin/haddock3",
+    "topology.cfg"
+  ],
+  "cwd": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/topology_diagnostic",
+  "returncode": 0,
+  "elapsed_seconds": 3.8803862089989707,
+  "ncores": 1
+}

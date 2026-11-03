@@ -1,0 +1,41 @@
+{
+    "input": [
+        {
+            "created": "2026-11-03 08:15:22",
+            "file_name": "rmsd.matrix",
+            "file_type": {
+                "py/reduce": [
+                    {
+                        "py/type": "haddock.libs.libontology.Format"
+                    },
+                    {
+                        "py/tuple": [
+                            "matrix"
+                        ]
+                    }
+                ]
+            },
+            "full_name": "rmsd.matrix",
+            "md5": null,
+            "npairs": 66,
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/09_rmsdmatrix",
+            "py/object": "haddock.libs.libontology.RMSDFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "09_rmsdmatrix",
+                            "rmsd.matrix"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": null
+        }
+    ],
+    "output": []
+}

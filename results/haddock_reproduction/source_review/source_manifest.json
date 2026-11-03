@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "source_commit": "815fcc14100896e35d1795058465cb547f37a8c5",
+  "source_only": true,
+  "files": [
+    {
+      "source_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/LICENSE",
+      "archive": "results/haddock_reproduction/source_review/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "source_path": "DISCLAIMER.md",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/DISCLAIMER.md",
+      "archive": "results/haddock_reproduction/source_review/DISCLAIMER.md",
+      "sha256": "a7d233abbe158d96f82d6de8a6afec3fde635d6cc951b29e612d034c2d37f3fb",
+      "bytes": 1167
+    },
+    {
+      "source_path": "docs/pages/examples.md",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/docs/pages/examples.md",
+      "archive": "results/haddock_reproduction/source_review/docs/pages/examples.md",
+      "sha256": "c9a662a44559a71d886e3d577198d8cb3e83ec3e87fd8a2d38183c343d2b5da1",
+      "bytes": 22899
+    },
+    {
+      "source_path": "docs/pages/CNS.md",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/docs/pages/CNS.md",
+      "archive": "results/haddock_reproduction/source_review/docs/pages/CNS.md",
+      "sha256": "459330f143080604301bcdba0ebae9f8dce24cad14f407d9953ed16ef3108fc8",
+      "bytes": 10179
+    },
+    {
+      "source_path": "docs/pages/INSTALL.md",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/docs/pages/INSTALL.md",
+      "archive": "results/haddock_reproduction/source_review/docs/pages/INSTALL.md",
+      "sha256": "9d82ad6e19d857c0c3391d4177dafbfe82df2798db08c531740647f2ab68fd09",
+      "bytes": 3808
+    },
+    {
+      "source_path": "examples/docking-protein-glycan/docking-protein-glycan-test.cfg",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/docking-protein-glycan-test.cfg",
+      "archive": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/docking-protein-glycan-test.cfg",
+      "sha256": "b242320882f99ff2eef030c4e5a21ad679a148a18494ed05c7cfef12c1841941",
+      "bytes": 1986
+    },
+    {
+      "source_path": "examples/docking-protein-glycan/docking-protein-glycan-full.cfg",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/docking-protein-glycan-full.cfg",
+      "archive": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/docking-protein-glycan-full.cfg",
+      "sha256": "e4492d8d56dcf2c66d0c93cea7707ea00349d59966af87f8269675b53f664c3f",
+      "bytes": 2257
+    },
+    {
+      "source_path": "examples/docking-protein-glycan/docking-protein-glycan-ilrmsd-test.cfg",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/docking-protein-glycan-ilrmsd-test.cfg",
+      "archive": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/docking-protein-glycan-ilrmsd-test.cfg",
+      "sha256": "2266f52849d0cc119db392e536366d09539d6f5e9cfbc71286cc503a91e26557",
+      "bytes": 1726
+    },
+    {
+      "source_path": "examples/docking-protein-glycan/data/1LMQ_r_u.pdb",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/data/1LMQ_r_u.pdb",
+      "archive": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/data/1LMQ_r_u.pdb",
+      "sha256": "77081f4f604b2e955b6cbf8f8bcb1bd67f8b29f6c1e3a8152db37aab9011103f",
+      "bytes": 80923
+    },
+    {
+      "source_path": "examples/docking-protein-glycan/data/1LMQ_l_u.pdb",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/data/1LMQ_l_u.pdb",
+      "archive": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/data/1LMQ_l_u.pdb",
+      "sha256": "98db5bac726a54090e37367f3750e4112e422088d26f015c45fe1f450b4f20df",
+      "bytes": 8833
+    },
+    {
+      "source_path": "examples/docking-protein-glycan/data/target.pdb",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/data/target.pdb",
+      "archive": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/data/target.pdb",
+      "sha256": "990257c1279d529a3202c97d504af715c9a66d7e6601473c0da2c1d3d3de456c",
+      "bytes": 85779
+    },
+    {
+      "source_path": "examples/docking-protein-glycan/data/ambig.tbl",
+      "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/examples/docking-protein-glycan/data/ambig.tbl",
+      "archive": "results/haddock_reproduction/source_review/examples/docking-protein-glycan/data/ambig.tbl",
+      "sha256": "5e241dfd25ba07306c2b104e6cd1a6a686d629f308e4037b8eb86d84ac3ee8a3",
+      "bytes": 2871
+    }
+  ],
+  "review_outputs": [
+    {
+      "archive": "results/haddock_reproduction/source_review/review.json",
+      "sha256": "2fc96bf395c84a237b32f0e25da4ca6d8eacf5e3382425e4f26521bf28be2a44",
+      "bytes": 4691
+    },
+    {
+      "archive": "results/haddock_reproduction/source_review/native_binary_provenance.json",
+      "sha256": "483d42a41caf7bfd4683da9d3196c035ea6c9b10548167ebb688a02f8087daac",
+      "bytes": 721
+    },
+    {
+      "archive": "results/haddock_reproduction/source_review/glycan_parameter_review.json",
+      "sha256": "6ff0c562bb3e358adfabe551cc172fbf5a8d1e9a1edb1069f49102a8311c5a68",
+      "bytes": 2115
+    }
+  ]
+}

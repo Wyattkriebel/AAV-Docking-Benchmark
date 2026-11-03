@@ -1,0 +1,52 @@
+Undefined symbols for architecture arm64:
+  "_get_dihedral_ABCD_points", referenced from:
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      ...
+  "_get_plane_for_ring", referenced from:
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+  "_get_signed_distance_from_point_to_plane", referenced from:
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      BFMP(coord_3D**) in parse_pdbqt.o
+      ...
+  "_slurp_file", referenced from:
+      BFMP(coord_3D**) in parse_pdbqt.o
+ld: symbol(s) not found for architecture arm64
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)

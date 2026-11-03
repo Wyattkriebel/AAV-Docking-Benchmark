@@ -1,0 +1,7 @@
+run_dir = "run-topology"
+mode = "local"
+ncores = 1
+debug = true
+clean = false
+molecules = ["data/1LMQ_r_u.pdb", "data/1LMQ_l_u.pdb"]
+['topoaa.1']

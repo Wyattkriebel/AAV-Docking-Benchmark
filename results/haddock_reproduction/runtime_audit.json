@@ -1,0 +1,40 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "binary_records": [
+    {
+      "path": "tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/cns/bin/arm64-darwin.bin",
+      "sha256": "e6febf74eccb740f8bc5d49955cc8fc202025d5d642e129e7738e7280ad95a88",
+      "bytes": 4171768,
+      "file_output": "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/cns/bin/arm64-darwin.bin: Mach-O 64-bit executable arm64"
+    },
+    {
+      "path": "tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/bin/contact_fcc",
+      "sha256": "0733e3521d6f21a75a3b47907cb15fe4d6060d039022678dd2e43ea732f3b3f6",
+      "bytes": 73656,
+      "file_output": "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/bin/contact_fcc: Mach-O 64-bit executable arm64"
+    },
+    {
+      "path": "tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/bin/fast-rmsdmatrix",
+      "sha256": "9c53b19d5d91d1eecb1c878b58e5a5fee609e8ec9198c3018517f303e8908ff1",
+      "bytes": 52512,
+      "file_output": "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/bin/fast-rmsdmatrix: Mach-O 64-bit executable arm64"
+    },
+    {
+      "path": "tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/bin/haddock-restraints",
+      "sha256": "0dab3ca8b90da46b6370bd6af48968dd3dcdb9deb8f6a085a6d0cce4f4f1ea69",
+      "bytes": 2157456,
+      "file_output": "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/bin/haddock-restraints: Mach-O 64-bit executable arm64"
+    }
+  ],
+  "cns_dynamic_linkage": "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/cns/bin/arm64-darwin.bin:\n\t/opt/homebrew/opt/gcc/lib/gcc/current/libquadmath.0.dylib (compatibility version 1.0.0, current version 1.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)\n",
+  "existing_runtime_dependency": {
+    "path": "/opt/homebrew/opt/gcc/lib/gcc/current/libquadmath.0.dylib",
+    "resolved_path": "/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current/libquadmath.0.dylib",
+    "present": true,
+    "sha256": "3b8a5b4e9f095d6e237d9f7f4562ff8cb077a04084e74968e5c052f370370d9b",
+    "bytes": 344768
+  },
+  "diagnostic_glycan_atom_records_identical_to_official_preparation": true,
+  "diagnostic_atom_count": 111,
+  "note": "Helper/runtime hashes recorded after observed execution; before-run release/CNS/config/input pins remain in unchanged haddock.lock.json."
+}

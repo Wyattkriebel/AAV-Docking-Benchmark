@@ -1,0 +1,76 @@
+{
+  "source_commit": "815fcc14100896e35d1795058465cb547f37a8c5",
+  "carbohydrate_top_sha256": "e6e4f349b0aa403c44ea59019a9b860acee0dc6b8443c476bf7e1bfc524f938c",
+  "carbohydrate_param_sha256": "a2796cd04f3957c4f3ba078daf7a6e5afb0e14f1c820ae5adf6dfa8d4ba00007",
+  "bondglycans_sha256": "213ded1e7f20e60cdbc05acbef08fa92ace0bbc1355c2c8a09655503f115b71c",
+  "topology_residue_presence": {
+    "NDG": true,
+    "NAG": true,
+    "MAN": true,
+    "BMA": true,
+    "GAL": true,
+    "GLA": true,
+    "BGC": true,
+    "GLC": true,
+    "FUC": true,
+    "A2G": true,
+    "FRU": false,
+    "OPO": false,
+    "C5P": false,
+    "MSE": false,
+    "CA": false,
+    "MN": false
+  },
+  "supported_carbohydrate_residue_count": 28,
+  "glycan_link_distance_cutoff_A": 2.0,
+  "scope": "Static primary-source topology/parameter/declaration check; carbohydrate_top presence is not a global support claim. Other topology files are listed separately. No CNS execution and no proof a complete ligand or cofactor will be prepared correctly.",
+  "source_paths": [
+    "tools/haddock3-2026.10.1/source/haddock3-815fcc14100896e35d1795058465cb547f37a8c5/src/haddock/cns/toppar/carbohydrate.top",
+    "tools/haddock3-2026.10.1/source/haddock3-815fcc14100896e35d1795058465cb547f37a8c5/src/haddock/cns/toppar/carbohydrate.param",
+    "tools/haddock3-2026.10.1/source/haddock3-815fcc14100896e35d1795058465cb547f37a8c5/src/haddock/modules/topology/topoaa/cns/bondglycans.cns"
+  ],
+  "all_toppar_declaration_files_for_components": {
+    "NDG": [
+      "carbohydrate.top"
+    ],
+    "NAG": [
+      "carbohydrate.top"
+    ],
+    "MAN": [
+      "carbohydrate.top"
+    ],
+    "BMA": [
+      "carbohydrate.top"
+    ],
+    "GAL": [
+      "carbohydrate.top"
+    ],
+    "GLA": [
+      "carbohydrate.top"
+    ],
+    "BGC": [
+      "carbohydrate.top"
+    ],
+    "GLC": [
+      "carbohydrate.top"
+    ],
+    "FUC": [
+      "carbohydrate.top"
+    ],
+    "A2G": [
+      "carbohydrate.top"
+    ],
+    "FRU": [],
+    "OPO": [],
+    "C5P": [],
+    "MSE": [
+      "protein-allhdg5-4.top"
+    ],
+    "CA": [
+      "ion.top"
+    ],
+    "MN": [
+      "ion.top"
+    ]
+  }
+}

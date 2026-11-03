@@ -1,0 +1,57 @@
+{
+  "actual_random_seed": 0,
+  "chi_recognition": {
+    "all_expected_links_fully_supported": true,
+    "recognized_links": 3
+  },
+  "fixed_coordinate_chi_control": {
+    "coefficient_0": 0,
+    "coefficient_1": 10.435138587608915,
+    "coefficient_2": 20.87027717521783,
+    "coefficient_scaling_exact_to_1e-9": true,
+    "fully_supported_links": 3,
+    "glycosidic_links": 3,
+    "initial_chi_kcal_mol": 0,
+    "scope": "original fixed-coordinate CHI routine, not native-pose accuracy",
+    "status": "verified",
+    "torsion_perturbed": 3
+  },
+  "fixed_pose_validation": {
+    "common_reference_offset_admits_all_printed_score_intervals": true,
+    "fullsearch_printed_score_unit_kcal_mol": 0.1,
+    "offset_range_kcal_mol": [
+      -1.6911183822586136,
+      -1.6150104717171025
+    ],
+    "poses": 10,
+    "scope": "Retained tutorial poses and unchanged scoring objects; within-fixed-ligand ranking only, no experimental pose adjudication",
+    "source_fullsearch_rank_order_preserved": true,
+    "source_sha256": "e450180cad643f9d58b886f770272e835615487e251977b7cdc920899d41943d",
+    "status": "verified",
+    "torsion_normalization_scale": 0.5412221879448169
+  },
+  "heavy_atoms_per_pose": 46,
+  "interpretation": "Execution of the published tutorial, atom completeness and active CHI mechanism verified. Explicit seed0 is fixed in this original version; cross-build coordinate equality and paper-level accuracy are not claimed. Reported RMSDs compare computational artifacts, not experimental pose truth.",
+  "method": "Vina-Carb 1.0",
+  "method_lock_sha256": "ebe5b1fdbc14c14dcd8943702eb71890d00a2b884b4c52f4808d9fb0c1ad3634",
+  "poses": 10,
+  "published_coordinates_reproduced": false,
+  "published_top1_score_kcal_mol": -7.6,
+  "released_artifact_coordinate_rmsd_by_rank_A": [
+    0.031285154140026535,
+    0.024467369574865776,
+    0.01525080183209193,
+    0.15998430629555338,
+    8.134309033748456,
+    6.327645008044153,
+    6.830991962786385,
+    2.540541310857573,
+    4.528556409295782,
+    7.523113478676463
+  ],
+  "replayed_top1_score_kcal_mol": -7.6,
+  "schema_version": 1,
+  "source_execution_sha256": "851b50673b027211097a9d8117ba7eab07f116bd3291fbec3233861bd473462b",
+  "status": "verified",
+  "verifier_sha256": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd"
+}

@@ -1,0 +1,458 @@
+[
+  {
+    "source": "src/lib/cache.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/cache.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/cache.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/coords.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/coords.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/coords.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/current_weights.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/current_weights.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/current_weights.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/everything.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/everything.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/everything.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/grid.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/grid.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/grid.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/manifold.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/manifold.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/manifold.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/model.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/model.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/model.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/monte_carlo.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/monte_carlo.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/monte_carlo.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/mutate.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/mutate.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/mutate.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/my_pid.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/my_pid.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/my_pid.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/naive_non_cache.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/naive_non_cache.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/naive_non_cache.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/non_cache.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/non_cache.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/non_cache.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/parallel_mc.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/parallel_mc.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/parallel_mc.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/parallel_progress.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/parallel_progress.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/parallel_progress.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/parse_pdbqt.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/parse_pdbqt.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/parse_pdbqt.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/pdb.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/pdb.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/pdb.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/quasi_newton.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/quasi_newton.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/quasi_newton.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/quaternion.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/quaternion.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/quaternion.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/random.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/random.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/random.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/ssd.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/ssd.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/ssd.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/szv_grid.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/szv_grid.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/szv_grid.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/terms.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/terms.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/terms.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/lib/weighted_terms.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/weighted_terms.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/weighted_terms.o"
+    ],
+    "returncode": 0
+  },
+  {
+    "source": "src/main/main.cpp",
+    "command": [
+      "clang++",
+      "-std=c++98",
+      "-O3",
+      "-DNDEBUG",
+      "-Wno-deprecated-declarations",
+      "-Wno-writable-strings",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/include",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib/glylib/inc",
+      "-I/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/lib",
+      "-c",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/src/main/main.cpp",
+      "-o",
+      "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/main.o"
+    ],
+    "returncode": 0
+  }
+]

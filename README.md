@@ -115,6 +115,21 @@ Reusing HADDOCK inputs with Vina does not reproduce published HADDOCK results.
 See [external preparation](docs/EXTERNAL_BENCHMARK.md) and
 [source qualification](docs/EVIDENCE_CURATION.md).
 
+Two additional methods now have executed released-example checks:
+[original Vina-Carb 1.0](docs/VINA_CARB_REPRODUCTION.md) and
+[HADDOCK3 2026.10.1](docs/HADDOCK_REPRODUCTION.md). Vina-Carb's carbohydrate
+terms require preserved ring/residue identities; its ordinary `--score_only`
+path omits those terms. A source-linked fixed-coordinate caller verifies active
+carbohydrate scoring and within-ligand ranking. HADDOCK completed the official
+20-model guided test and retained all preparation changes, including rebuilt
+acetyl atoms. These are method validation examples, with supplied site
+information, rather than blind structural accuracy results.
+
+```sh
+python -m aav_benchmark.additional_method verify-example
+python -m aav_benchmark.haddock_replay
+```
+
 The Gal3 panel contains three measured binders from one ITC study. It supports
 exploratory affinity ranking, with both reducing-end anomers evaluated separately.
 It cannot estimate binder/nonbinder classification. The isolated docking domain

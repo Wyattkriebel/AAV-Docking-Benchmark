@@ -1,0 +1,13 @@
+{
+  "haddock_version": "2026.10.1",
+  "package_path": "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock",
+  "cns_path": "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/cns/bin/arm64-darwin.bin",
+  "cns_sha256": "e6febf74eccb740f8bc5d49955cc8fc202025d5d642e129e7738e7280ad95a88",
+  "cns_bytes": 4171768,
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/cns/bin/arm64-darwin.bin"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.3208906250001746,
+  "stdin_text": "stop\n"
+}
