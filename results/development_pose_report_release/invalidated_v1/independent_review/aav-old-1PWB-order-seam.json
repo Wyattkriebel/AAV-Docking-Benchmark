@@ -1,0 +1,597 @@
+{
+  "OLD_only": true,
+  "blind_names": [
+    "L009",
+    "L003",
+    "L000",
+    "L001",
+    "L010",
+    "L002",
+    "L004",
+    "L006",
+    "L007",
+    "L008",
+    "L005",
+    "L011",
+    "L012",
+    "L013",
+    "L021",
+    "L014",
+    "L016",
+    "L015",
+    "L018",
+    "L019",
+    "L017",
+    "L022",
+    "L020"
+  ],
+  "canonical_names": [
+    "L000",
+    "L001",
+    "L002",
+    "L003",
+    "L004",
+    "L005",
+    "L006",
+    "L007",
+    "L008",
+    "L009",
+    "L010",
+    "L011",
+    "L012",
+    "L013",
+    "L014",
+    "L015",
+    "L016",
+    "L017",
+    "L018",
+    "L019",
+    "L020",
+    "L021",
+    "L022"
+  ],
+  "chemical_scored_atom_map_count": 1,
+  "frozen_files_changed": false,
+  "max_blind_order_vs_stored_delta_A": 1.2434497875801753e-14,
+  "native_equals_development_reference_coordinates": true,
+  "oracle_models": 60,
+  "reported_receptor_fit_near_identity": {
+    "global": {
+      "backbone_RMSD_A": 1.289454371139815e-14,
+      "matched_backbone_atom_count": 604,
+      "rotation": [
+        [
+          0.9999999999999999,
+          9.913123732137997e-17,
+          -1.30537245622694e-15
+        ],
+        [
+          -5.4774949074341785e-17,
+          1.0000000000000002,
+          -4.1399874476169395e-16
+        ],
+        [
+          1.1997613381410043e-15,
+          5.048448507927486e-16,
+          0.9999999999999998
+        ]
+      ],
+      "selection": "all corresponding protein N/CA/C/O",
+      "translation": [
+        -1.7763568394002505e-14,
+        -1.2434497875801753e-14,
+        3.552713678800501e-14
+      ]
+    },
+    "local_interface": {
+      "backbone_RMSD_A": 3.524848827571324e-15,
+      "matched_backbone_atom_count": 24,
+      "rotation": [
+        [
+          1.0000000000000004,
+          -1.9746445893446644e-16,
+          -3.0218938676243454e-17
+        ],
+        [
+          -6.361616149720587e-17,
+          1.0000000000000007,
+          -4.602781479075571e-17
+        ],
+        [
+          8.009313280319081e-17,
+          -1.0997766533761878e-16,
+          1.0000000000000004
+        ]
+      ],
+      "selection": "N/CA/C/O of native qualified-core contact residues; evaluation only",
+      "translation": [
+        -1.0658141036401503e-14,
+        1.4210854715202004e-14,
+        -7.105427357601002e-15
+      ]
+    }
+  },
+  "rows": [
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 7.711968067767194,
+      "canonical_no_ligand_fit_RMSD_A": 7.93602316353562,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 1,
+      "seed": 104729,
+      "stored_global_RMSD_A": 7.711968067767187
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.858589441183138,
+      "canonical_no_ligand_fit_RMSD_A": 10.897660740209142,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 2,
+      "seed": 104729,
+      "stored_global_RMSD_A": 10.85858944118313
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.031383529148946,
+      "canonical_no_ligand_fit_RMSD_A": 4.863998672589922,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 3,
+      "seed": 104729,
+      "stored_global_RMSD_A": 5.031383529148954
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.651202328328703,
+      "canonical_no_ligand_fit_RMSD_A": 11.77342170535711,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 4,
+      "seed": 104729,
+      "stored_global_RMSD_A": 11.651202328328694
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.982459366605024,
+      "canonical_no_ligand_fit_RMSD_A": 10.981011123951555,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 5,
+      "seed": 104729,
+      "stored_global_RMSD_A": 10.982459366605017
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 9.659699903071072,
+      "canonical_no_ligand_fit_RMSD_A": 9.726251346786672,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 6,
+      "seed": 104729,
+      "stored_global_RMSD_A": 9.659699903071068
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.294905489778827,
+      "canonical_no_ligand_fit_RMSD_A": 10.192376132060243,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 7,
+      "seed": 104729,
+      "stored_global_RMSD_A": 10.294905489778822
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 4.996089148785146,
+      "canonical_no_ligand_fit_RMSD_A": 5.276181713915933,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 8,
+      "seed": 104729,
+      "stored_global_RMSD_A": 4.996089148785154
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.365409143537244,
+      "canonical_no_ligand_fit_RMSD_A": 11.443389926066489,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 9,
+      "seed": 104729,
+      "stored_global_RMSD_A": 11.365409143537237
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.62151601395877,
+      "canonical_no_ligand_fit_RMSD_A": 10.583253333943905,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 10,
+      "seed": 104729,
+      "stored_global_RMSD_A": 10.621516013958761
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.910984825618794,
+      "canonical_no_ligand_fit_RMSD_A": 6.257499427643323,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 11,
+      "seed": 104729,
+      "stored_global_RMSD_A": 5.910984825618795
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 9.044447095365728,
+      "canonical_no_ligand_fit_RMSD_A": 9.256774851543808,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 12,
+      "seed": 104729,
+      "stored_global_RMSD_A": 9.044447095365722
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.668466750749079,
+      "canonical_no_ligand_fit_RMSD_A": 6.108329708364388,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 13,
+      "seed": 104729,
+      "stored_global_RMSD_A": 5.668466750749078
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.670405136218633,
+      "canonical_no_ligand_fit_RMSD_A": 11.683240168124893,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 14,
+      "seed": 104729,
+      "stored_global_RMSD_A": 11.670405136218626
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 9.782054356564505,
+      "canonical_no_ligand_fit_RMSD_A": 9.750372548066405,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 15,
+      "seed": 104729,
+      "stored_global_RMSD_A": 9.782054356564501
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 4.168259891338247,
+      "canonical_no_ligand_fit_RMSD_A": 3.848433492711819,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 16,
+      "seed": 104729,
+      "stored_global_RMSD_A": 4.168259891338246
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.43397474390856,
+      "canonical_no_ligand_fit_RMSD_A": 10.474798945875845,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 17,
+      "seed": 104729,
+      "stored_global_RMSD_A": 10.433974743908557
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.174781512449638,
+      "canonical_no_ligand_fit_RMSD_A": 10.388291659781972,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 18,
+      "seed": 104729,
+      "stored_global_RMSD_A": 10.174781512449632
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.204740886726002,
+      "canonical_no_ligand_fit_RMSD_A": 10.19057051993357,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 19,
+      "seed": 104729,
+      "stored_global_RMSD_A": 10.204740886725995
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.133276380137238,
+      "canonical_no_ligand_fit_RMSD_A": 11.074703717697489,
+      "pose_sha256": "a9904a181f7480b1b12d94afce3537b278e404f0550aa1c94d4248ba71ae17d0",
+      "rank": 20,
+      "seed": 104729,
+      "stored_global_RMSD_A": 11.133276380137234
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 7.730562066859383,
+      "canonical_no_ligand_fit_RMSD_A": 7.954749767878636,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 1,
+      "seed": 130363,
+      "stored_global_RMSD_A": 7.730562066859375
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.86741843869735,
+      "canonical_no_ligand_fit_RMSD_A": 10.90510684715313,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 2,
+      "seed": 130363,
+      "stored_global_RMSD_A": 10.867418438697342
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.053600477145843,
+      "canonical_no_ligand_fit_RMSD_A": 4.883129507048599,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 3,
+      "seed": 130363,
+      "stored_global_RMSD_A": 5.053600477145852
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.019053293194514,
+      "canonical_no_ligand_fit_RMSD_A": 11.016043122961916,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 4,
+      "seed": 130363,
+      "stored_global_RMSD_A": 11.019053293194506
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.386859126884273,
+      "canonical_no_ligand_fit_RMSD_A": 10.448432792820507,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 5,
+      "seed": 130363,
+      "stored_global_RMSD_A": 10.386859126884268
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.691224461129831,
+      "canonical_no_ligand_fit_RMSD_A": 10.715328912154407,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 6,
+      "seed": 130363,
+      "stored_global_RMSD_A": 10.691224461129826
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 9.038794597876903,
+      "canonical_no_ligand_fit_RMSD_A": 9.270203832006958,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 7,
+      "seed": 130363,
+      "stored_global_RMSD_A": 9.038794597876898
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.309493441816803,
+      "canonical_no_ligand_fit_RMSD_A": 5.294036333049875,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 8,
+      "seed": 130363,
+      "stored_global_RMSD_A": 5.309493441816801
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 4.983504310963451,
+      "canonical_no_ligand_fit_RMSD_A": 5.251546198812392,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 9,
+      "seed": 130363,
+      "stored_global_RMSD_A": 4.9835043109634585
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.681669254229782,
+      "canonical_no_ligand_fit_RMSD_A": 11.694805820273933,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 10,
+      "seed": 130363,
+      "stored_global_RMSD_A": 11.681669254229774
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 4.172012213913506,
+      "canonical_no_ligand_fit_RMSD_A": 3.8499686503523183,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 11,
+      "seed": 130363,
+      "stored_global_RMSD_A": 4.172012213913505
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.082378350924655,
+      "canonical_no_ligand_fit_RMSD_A": 11.069186600649571,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 12,
+      "seed": 130363,
+      "stored_global_RMSD_A": 11.082378350924646
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 4.241315069850286,
+      "canonical_no_ligand_fit_RMSD_A": 3.9641182966159345,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 13,
+      "seed": 130363,
+      "stored_global_RMSD_A": 4.241315069850285
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 6.630096313812853,
+      "canonical_no_ligand_fit_RMSD_A": 6.527906615647063,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 14,
+      "seed": 130363,
+      "stored_global_RMSD_A": 6.630096313812857
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.099239962228514,
+      "canonical_no_ligand_fit_RMSD_A": 11.15423262614963,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 15,
+      "seed": 130363,
+      "stored_global_RMSD_A": 11.099239962228507
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 4.420687729301856,
+      "canonical_no_ligand_fit_RMSD_A": 4.276341508304988,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 16,
+      "seed": 130363,
+      "stored_global_RMSD_A": 4.420687729301851
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.522190111108292,
+      "canonical_no_ligand_fit_RMSD_A": 11.529341951130036,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 17,
+      "seed": 130363,
+      "stored_global_RMSD_A": 11.522190111108289
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.393315908083299,
+      "canonical_no_ligand_fit_RMSD_A": 10.370097341373668,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 18,
+      "seed": 130363,
+      "stored_global_RMSD_A": 10.393315908083293
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.33854947324279,
+      "canonical_no_ligand_fit_RMSD_A": 5.288845189148818,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 19,
+      "seed": 130363,
+      "stored_global_RMSD_A": 5.338549473242786
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.784611355396935,
+      "canonical_no_ligand_fit_RMSD_A": 10.805599080026099,
+      "pose_sha256": "84774566eb502614d9ffd9a819d94148b065193878686aaef04e4211aa8145d1",
+      "rank": 20,
+      "seed": 130363,
+      "stored_global_RMSD_A": 10.784611355396928
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 7.711949826758134,
+      "canonical_no_ligand_fit_RMSD_A": 7.935450057097938,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 1,
+      "seed": 155921,
+      "stored_global_RMSD_A": 7.711949826758126
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.848117634750801,
+      "canonical_no_ligand_fit_RMSD_A": 10.886994113440448,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 2,
+      "seed": 155921,
+      "stored_global_RMSD_A": 10.848117634750794
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 4.986875300312768,
+      "canonical_no_ligand_fit_RMSD_A": 4.809635749563397,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 3,
+      "seed": 155921,
+      "stored_global_RMSD_A": 4.986875300312777
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.309379509435338,
+      "canonical_no_ligand_fit_RMSD_A": 10.366232473548534,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 4,
+      "seed": 155921,
+      "stored_global_RMSD_A": 10.309379509435331
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.000538471004898,
+      "canonical_no_ligand_fit_RMSD_A": 5.28264090328346,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 5,
+      "seed": 155921,
+      "stored_global_RMSD_A": 5.000538471004905
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.58762914094024,
+      "canonical_no_ligand_fit_RMSD_A": 10.596336071040534,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 6,
+      "seed": 155921,
+      "stored_global_RMSD_A": 10.587629140940233
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.729344465119897,
+      "canonical_no_ligand_fit_RMSD_A": 6.119474927745382,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 7,
+      "seed": 155921,
+      "stored_global_RMSD_A": 5.729344465119896
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 4.353831515982814,
+      "canonical_no_ligand_fit_RMSD_A": 4.087899290429701,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 8,
+      "seed": 155921,
+      "stored_global_RMSD_A": 4.353831515982811
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.180098828165851,
+      "canonical_no_ligand_fit_RMSD_A": 5.150613661201597,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 9,
+      "seed": 155921,
+      "stored_global_RMSD_A": 5.180098828165847
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.098316506273191,
+      "canonical_no_ligand_fit_RMSD_A": 10.128297783931908,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 10,
+      "seed": 155921,
+      "stored_global_RMSD_A": 10.098316506273184
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.9330972628497145,
+      "canonical_no_ligand_fit_RMSD_A": 5.786851881260844,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 11,
+      "seed": 155921,
+      "stored_global_RMSD_A": 5.933097262849715
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 10.82989070561897,
+      "canonical_no_ligand_fit_RMSD_A": 10.786761922959489,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 12,
+      "seed": 155921,
+      "stored_global_RMSD_A": 10.829890705618961
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 5.348467744821063,
+      "canonical_no_ligand_fit_RMSD_A": 5.612858273642761,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 13,
+      "seed": 155921,
+      "stored_global_RMSD_A": 5.34846774482107
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 12.142760786647289,
+      "canonical_no_ligand_fit_RMSD_A": 12.14864530468852,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 14,
+      "seed": 155921,
+      "stored_global_RMSD_A": 12.142760786647282
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 8.354995912365975,
+      "canonical_no_ligand_fit_RMSD_A": 8.405382483602525,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 15,
+      "seed": 155921,
+      "stored_global_RMSD_A": 8.35499591236597
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.493787932769521,
+      "canonical_no_ligand_fit_RMSD_A": 11.381184071508782,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 16,
+      "seed": 155921,
+      "stored_global_RMSD_A": 11.493787932769509
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.697175662452063,
+      "canonical_no_ligand_fit_RMSD_A": 11.70649250741173,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 17,
+      "seed": 155921,
+      "stored_global_RMSD_A": 11.697175662452057
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 11.88740098482057,
+      "canonical_no_ligand_fit_RMSD_A": 11.897092235171328,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 18,
+      "seed": 155921,
+      "stored_global_RMSD_A": 11.887400984820564
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 8.834820391373334,
+      "canonical_no_ligand_fit_RMSD_A": 8.919708893183142,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 19,
+      "seed": 155921,
+      "stored_global_RMSD_A": 8.834820391373325
+    },
+    {
+      "blind_order_no_ligand_fit_RMSD_A": 6.625123454140964,
+      "canonical_no_ligand_fit_RMSD_A": 6.52354596159508,
+      "pose_sha256": "b0368e75d9114f79af6cfdc8bf0d89c28cfdbc8959e90f8b9c7dd40207051ef8",
+      "rank": 20,
+      "seed": 155921,
+      "stored_global_RMSD_A": 6.625123454140968
+    }
+  ],
+  "summary_sha256": "5643d7d0f39439f607129d815f68a5d4533a817ed4ba06ea003c252b57ea928d"
+}

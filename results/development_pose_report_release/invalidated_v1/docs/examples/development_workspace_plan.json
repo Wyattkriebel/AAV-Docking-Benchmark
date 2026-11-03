@@ -1,0 +1,32 @@
+{
+  "archives": [
+    {
+      "archive": {
+        "bytes": 19426016,
+        "path": "results/development_pose_output_foundation/old156_outputs.tar.gz",
+        "sha256": "28ee3e3d2d305f285ef4a6c66f8b6f2075c5fc17e1b164d55a921575de8c1321"
+      },
+      "manifest": {
+        "bytes": 313460,
+        "path": "results/development_pose_output_foundation/old156_outputs_manifest.json",
+        "sha256": "01de653fe57f39d745759323a8c527253a6e3571ee6d5b8efe70d611940f86d0"
+      },
+      "target_prefix": ""
+    },
+    {
+      "archive": {
+        "bytes": 3848957,
+        "path": "results/development_pose_output_foundation/corrected9_outputs.tar.gz",
+        "sha256": "91e2a67a1a876c1c0e831b7b9d375755d0cb610a496a186893423af5d9608798"
+      },
+      "manifest": {
+        "bytes": 23132,
+        "path": "results/development_pose_output_foundation/corrected9_outputs_manifest.json",
+        "sha256": "b9bf002a405aad206381ff601a86c00e7113dedf04c3d65eb1bb3c5dfecacbae"
+      },
+      "target_prefix": ""
+    }
+  ],
+  "commit": "ffd02f67f3ac44632abf7d41f7c1ea31a47df211",
+  "schema_version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_freeze_sha256": "0d529ac316c3f79263f01aedc9d5f8e11343d5395f91d99a601911e671657863",
+  "files": [
+    {
+      "bytes": 10897,
+      "path": "scripts/verify_qualified_development_replay.py",
+      "sha256": "3f397e1a608da1d08a2667d8bb23078e5c2dd64ef741b3b7b6fe201380255247"
+    },
+    {
+      "bytes": 3989,
+      "path": "docs/QUALIFIED_DEVELOPMENT_REPRODUCTION.md",
+      "sha256": "85b46564e907493aad8438e62d54b8ad47a3fdeb4adb1dd6288687a287bd3ee7"
+    }
+  ],
+  "implementation_amendment_sha256": "93e75fd44e036a007b3e37bb7fa40c83f911ea366eb581e4254704f9f59d47da",
+  "independent_review": "/tmp/aav-qualified-development-replay-independent-review.json",
+  "notes": [
+    "Freeze excludes this verifier to avoid a hash cycle.",
+    "No Git staging, commit, PR, workflow, frozen helper, evaluator, or empirical result edit by this agent.",
+    "Independent review caught and fixed macOS temporary-path aliasing, dangling protected symlinks, and canonical-output mutation during child replay."
+  ],
+  "review_only_test": "/tmp/aav-qualified-development-replay-verifier-review-test.py",
+  "root_remaining": [
+    "Commit source/data B containing amendment and freeze before official generation.",
+    "Publish V2 plan against B and canonical generation receipt/output pins.",
+    "Run real end-to-end replay only after those exist."
+  ],
+  "status": "ready_for_source_data_commit_then_root_e2e",
+  "validation": {
+    "evaluator_imported_or_run": false,
+    "frozen_comparator_regression_tests": 97,
+    "independent_synthetic_tests": 47,
+    "native_execution": false,
+    "py_compile": true,
+    "real_export_or_hydration": false,
+    "scientific_outputs_read": false,
+    "static_source_pins_verified": 26,
+    "stdlib_only_help": true
+  }
+}

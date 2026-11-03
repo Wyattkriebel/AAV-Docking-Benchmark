@@ -1,0 +1,68 @@
+{
+  "corrected_diagnostic_outcomes_already_consulted": true,
+  "invalidated_at_UTC": "2026-11-03T21:46:12.652354+00:00",
+  "legacy_evaluator_sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+  "new_six_case_accuracy_not_consulted": true,
+  "preserved_files": [
+    {
+      "bytes": 1397177,
+      "original_path": "results/development_pose_report_release/workspace_provenance.json",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/workspace_provenance.json",
+      "sha256": "bf1f5b24fb1cb5d02aefe04964f348ded467f54976adcb02d2ce2365120c2251"
+    },
+    {
+      "bytes": 0,
+      "original_path": "results/development_pose_report_release/generation_stderr.log",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/generation_stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1397,
+      "original_path": "results/development_pose_report_release/same_host_comparison.json",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/same_host_comparison.json",
+      "sha256": "fd08808a9dfdec77e144956e784fcea67fe6d466511d71f15dc4708f18d6fe7c"
+    },
+    {
+      "bytes": 1429,
+      "original_path": "results/development_pose_report_release/generation_receipt.json",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/generation_receipt.json",
+      "sha256": "17692ba167b7ffef1eaddb96913baf0aa5761ab8fa7a5cd3d76198a0506835c2"
+    },
+    {
+      "bytes": 199,
+      "original_path": "results/development_pose_report_release/generation_stdout.log",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/generation_stdout.log",
+      "sha256": "7d89708605de01e9eae86dc9ffdbddc1b772cad7a7b3206663d776b2f4754ea3"
+    },
+    {
+      "bytes": 789,
+      "original_path": "results/development_pose_report_release/same_host_replay_verification.json",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/same_host_replay_verification.json",
+      "sha256": "6db973f0877f53fea92e8263ab409b2ac68bc54c001f35206e59866907445256"
+    },
+    {
+      "bytes": 9900256,
+      "original_path": "results/blind_pose/qualified_pose_summary.json",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/results/blind_pose/qualified_pose_summary.json",
+      "sha256": "5643d7d0f39439f607129d815f68a5d4533a817ed4ba06ea003c252b57ea928d"
+    },
+    {
+      "bytes": 5532,
+      "original_path": "docs/QUALIFIED_BLIND_POSE_RESULTS.md",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/docs/QUALIFIED_BLIND_POSE_RESULTS.md",
+      "sha256": "08ada578c1b12ea677f513d96d28bb036a0c5d58345c7f2be716ed0dd0c7dfac"
+    },
+    {
+      "bytes": 1094,
+      "original_path": "docs/examples/development_workspace_plan.json",
+      "preserved_path": "results/development_pose_report_release/invalidated_v1/docs/examples/development_workspace_plan.json",
+      "sha256": "ee507176476e89a68289c968dbb4c4405b849862591904ec0d2557632ee596a6"
+    }
+  ],
+  "raw_native_outputs_and_workflow_validation_remain_valid": true,
+  "reason": "Raw pose arrays were ordered by blind-box reference.names, while legacy parent geometry/masks assumed canonical development reference.names. Derived RMSD, contacts and geometry are invalid.",
+  "schema_version": 1,
+  "source_commit": "ffd02f67f3ac44632abf7d41f7c1ea31a47df211",
+  "status": "invalidated_atom_order_implementation_error",
+  "v1_source_preserved": true
+}

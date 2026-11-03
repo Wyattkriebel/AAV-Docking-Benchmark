@@ -1,0 +1,36 @@
+{
+  "actual_file": {
+    "bytes": 9900256,
+    "path": "/tmp/aav-qualified-development-repeat-ffd02f6/results/blind_pose/qualified_pose_summary.json",
+    "sha256": "5643d7d0f39439f607129d815f68a5d4533a817ed4ba06ea003c252b57ea928d"
+  },
+  "approved_derived_float_values": 58194,
+  "compared_float_values": 62300,
+  "compared_leaf_values": 149204,
+  "comparison_core_sha256": "a6340ec4779fa546eb5673fecaca7b976415b78dbdfb1804b1b3c55c8f2bb048",
+  "comparison_mode": "exact_bytes",
+  "differences_display_truncated": false,
+  "displayed_differences": [],
+  "evaluator_schema_source_sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+  "exact_bytes": true,
+  "expected_file": {
+    "bytes": 9900256,
+    "path": "results/blind_pose/qualified_pose_summary.json",
+    "sha256": "5643d7d0f39439f607129d815f68a5d4533a817ed4ba06ea003c252b57ea928d"
+  },
+  "global_comparison_policy_modified": false,
+  "list_order_preserved": true,
+  "max_difference_path": null,
+  "max_numeric_difference": 0.0,
+  "max_numeric_difference_exact_ratio": "0",
+  "metrics_recomputed": false,
+  "numeric_tolerance": 0.0,
+  "policy_id": "qualified_development_derived_paths_v1",
+  "relative_tolerance": 0.0,
+  "schema_version": 1,
+  "source_validation_performed": false,
+  "status": "exact_byte_match",
+  "tolerance_exact_ratio": "0",
+  "tolerated_difference_count": 0,
+  "unknown_fields_exact": true
+}

@@ -1,0 +1,679 @@
+{
+  "actual_pose_or_native_reference_coordinates_read": false,
+  "all_original_asserts_and_algorithm_text_preserved": true,
+  "clean_private_fixture": {
+    "actual_pose_files_or_native_ligand_reference_ledgers_copied": false,
+    "code_only_package_files": 69,
+    "explicit_data_and_frozen_code_dependencies": 54,
+    "output_outside_audited_root": true,
+    "processed_inputs_absent": true,
+    "source_SDF_coordinate_columns_accessed": false,
+    "source_preparation_archives_copied_opaque": true,
+    "temporary_files_removed_on_exit": true,
+    "tools_absent": true,
+    "unrelated_working_directory": true
+  },
+  "empirical_metrics_computed": false,
+  "explicit_fixture_dependencies": [
+    {
+      "bytes": 37278,
+      "path": "aav_benchmark/additional_method.py",
+      "sha256": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd"
+    },
+    {
+      "bytes": 31320,
+      "path": "aav_benchmark/assembly_control_report.py",
+      "sha256": "869f9e11f373458b9020d675db5a69f6d34b48c8b151149d8f453630fb3d3876"
+    },
+    {
+      "bytes": 17312,
+      "path": "aav_benchmark/engine.py",
+      "sha256": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8"
+    },
+    {
+      "bytes": 61151,
+      "path": "aav_benchmark/haddock_pose_report.py",
+      "sha256": "b87b150592c963c956bcb7d470acf13dbade63f642b4c51714060f5c49b07260"
+    },
+    {
+      "bytes": 52568,
+      "path": "aav_benchmark/heldout_pose_report.py",
+      "sha256": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c"
+    },
+    {
+      "bytes": 17250,
+      "path": "aav_benchmark/metrics.py",
+      "sha256": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec"
+    },
+    {
+      "bytes": 30840,
+      "path": "aav_benchmark/paired_common_pose_report.py",
+      "sha256": "31d08b280b9827276680e6a21afd1ec911f4d27f67fdff72e89be8999715bd5e"
+    },
+    {
+      "bytes": 25722,
+      "path": "aav_benchmark/paired_common_pose_rescoring.py",
+      "sha256": "3dabfa786f62e90c3c5e3062a65797f7a18c9497b69a610c2c6143c52a5d8269"
+    },
+    {
+      "bytes": 47057,
+      "path": "aav_benchmark/paired_method_report.py",
+      "sha256": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe"
+    },
+    {
+      "bytes": 24969,
+      "path": "aav_benchmark/prospective_vina_carb.py",
+      "sha256": "760fbe874a55c661c3cf4858ffd1c73d6aa84961cb69c28b678c7b5568d6bc75"
+    },
+    {
+      "bytes": 47480,
+      "path": "aav_benchmark/qualified_pose.py",
+      "sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/box01/ligand_atom_map.json",
+      "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+    },
+    {
+      "bytes": 6240,
+      "path": "results/structural_pose_v3/repair/2RDK/fpocket/prepared/box01/reference.json",
+      "sha256": "b133924f4881b709e31abbcd6bbce6ef797473ef7269935fd1294a18813a9254"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/structural_pose_v3/repair/2RDK/oracle/prepared/box01/ligand_atom_map.json",
+      "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+    },
+    {
+      "bytes": 6240,
+      "path": "results/structural_pose_v3/repair/2RDK/oracle/prepared/box01/reference.json",
+      "sha256": "b133924f4881b709e31abbcd6bbce6ef797473ef7269935fd1294a18813a9254"
+    },
+    {
+      "bytes": 11098,
+      "path": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/box01/ligand_atom_map.json",
+      "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+    },
+    {
+      "bytes": 11784,
+      "path": "results/structural_pose_v3/repair/3ZWE/fpocket/prepared/box01/reference.json",
+      "sha256": "d70a8ed4e523553b106a7acde87416c52e9617e2fecf9d0b092d2772cca6cf55"
+    },
+    {
+      "bytes": 11098,
+      "path": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/box01/ligand_atom_map.json",
+      "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+    },
+    {
+      "bytes": 11784,
+      "path": "results/structural_pose_v3/repair/3ZWE/oracle/prepared/box01/reference.json",
+      "sha256": "d70a8ed4e523553b106a7acde87416c52e9617e2fecf9d0b092d2772cca6cf55"
+    },
+    {
+      "bytes": 11098,
+      "path": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/box01/ligand_atom_map.json",
+      "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+    },
+    {
+      "bytes": 11784,
+      "path": "results/structural_pose_v3/repair/3ZWE/p2rank/prepared/box01/reference.json",
+      "sha256": "d70a8ed4e523553b106a7acde87416c52e9617e2fecf9d0b092d2772cca6cf55"
+    },
+    {
+      "bytes": 8326,
+      "path": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/box01/ligand_atom_map.json",
+      "sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80"
+    },
+    {
+      "bytes": 8880,
+      "path": "results/structural_pose_v3/repair/5HZA/fpocket/prepared/box01/reference.json",
+      "sha256": "405f18b7859fa09853033aa38e5d41315296a07f79dd6dff6ab1a377d1adbaa2"
+    },
+    {
+      "bytes": 8326,
+      "path": "results/structural_pose_v3/repair/5HZA/oracle/prepared/box01/ligand_atom_map.json",
+      "sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80"
+    },
+    {
+      "bytes": 8880,
+      "path": "results/structural_pose_v3/repair/5HZA/oracle/prepared/box01/reference.json",
+      "sha256": "405f18b7859fa09853033aa38e5d41315296a07f79dd6dff6ab1a377d1adbaa2"
+    },
+    {
+      "bytes": 8326,
+      "path": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/box01/ligand_atom_map.json",
+      "sha256": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80"
+    },
+    {
+      "bytes": 8880,
+      "path": "results/structural_pose_v3/repair/5HZA/p2rank/prepared/box01/reference.json",
+      "sha256": "405f18b7859fa09853033aa38e5d41315296a07f79dd6dff6ab1a377d1adbaa2"
+    },
+    {
+      "bytes": 8578,
+      "path": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/box01/ligand_atom_map.json",
+      "sha256": "8bf03d3db5742492ed5a0115980fef3f3f99c9f6cf04b44185bd655e82ce9b59"
+    },
+    {
+      "bytes": 9144,
+      "path": "results/structural_pose_v3/repair/5V6F/fpocket/prepared/box01/reference.json",
+      "sha256": "c9d3c29c64f471205fa90941319ad7e0586d8061ea45b10bf658c71d93ad00d2"
+    },
+    {
+      "bytes": 8578,
+      "path": "results/structural_pose_v3/repair/5V6F/oracle/prepared/box01/ligand_atom_map.json",
+      "sha256": "8bf03d3db5742492ed5a0115980fef3f3f99c9f6cf04b44185bd655e82ce9b59"
+    },
+    {
+      "bytes": 9144,
+      "path": "results/structural_pose_v3/repair/5V6F/oracle/prepared/box01/reference.json",
+      "sha256": "c9d3c29c64f471205fa90941319ad7e0586d8061ea45b10bf658c71d93ad00d2"
+    },
+    {
+      "bytes": 8578,
+      "path": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/box01/ligand_atom_map.json",
+      "sha256": "8bf03d3db5742492ed5a0115980fef3f3f99c9f6cf04b44185bd655e82ce9b59"
+    },
+    {
+      "bytes": 9144,
+      "path": "results/structural_pose_v3/repair/5V6F/p2rank/prepared/box01/reference.json",
+      "sha256": "c9d3c29c64f471205fa90941319ad7e0586d8061ea45b10bf658c71d93ad00d2"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/box01/ligand_atom_map.json",
+      "sha256": "7e32dacef987a5049a323b172f06f88b87ace61e44d02211602863daa69ff9b9"
+    },
+    {
+      "bytes": 6240,
+      "path": "results/structural_pose_v3/repair/8I5U/fpocket/prepared/box01/reference.json",
+      "sha256": "ea66b0e9a9512e78fb3d277124fb1b38d974cdcb69c4dfe4cd6fa6d2583dbede"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/structural_pose_v3/repair/8I5U/oracle/prepared/box01/ligand_atom_map.json",
+      "sha256": "7e32dacef987a5049a323b172f06f88b87ace61e44d02211602863daa69ff9b9"
+    },
+    {
+      "bytes": 6240,
+      "path": "results/structural_pose_v3/repair/8I5U/oracle/prepared/box01/reference.json",
+      "sha256": "ea66b0e9a9512e78fb3d277124fb1b38d974cdcb69c4dfe4cd6fa6d2583dbede"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/box01/ligand_atom_map.json",
+      "sha256": "7e32dacef987a5049a323b172f06f88b87ace61e44d02211602863daa69ff9b9"
+    },
+    {
+      "bytes": 6240,
+      "path": "results/structural_pose_v3/repair/8I5U/p2rank/prepared/box01/reference.json",
+      "sha256": "ea66b0e9a9512e78fb3d277124fb1b38d974cdcb69c4dfe4cd6fa6d2583dbede"
+    },
+    {
+      "bytes": 2382162,
+      "path": "results/structural_pose_v3/repair_sources.tar.gz",
+      "sha256": "9b9d11bd4c1f93bb7efd5717d274f2ee79f59d3314a614cb3b2e0a0e0704226e"
+    },
+    {
+      "bytes": 19619,
+      "path": "results/structural_pose_v3/repair_sources_manifest.json",
+      "sha256": "a0596eadc53b56601080acb28af80f47bd162f1867311acf07e92cf5d41b56c5"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/box01/ligand_atom_map.json",
+      "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+    },
+    {
+      "bytes": 6240,
+      "path": "results/structural_pose_v3/strict/2RDK/fpocket/prepared/box01/reference.json",
+      "sha256": "b133924f4881b709e31abbcd6bbce6ef797473ef7269935fd1294a18813a9254"
+    },
+    {
+      "bytes": 5806,
+      "path": "results/structural_pose_v3/strict/2RDK/oracle/prepared/box01/ligand_atom_map.json",
+      "sha256": "7eddf5ab34ee802af59066059dba2e1fe7fe634fbdd4e7008b117dd9221c1583"
+    },
+    {
+      "bytes": 6240,
+      "path": "results/structural_pose_v3/strict/2RDK/oracle/prepared/box01/reference.json",
+      "sha256": "b133924f4881b709e31abbcd6bbce6ef797473ef7269935fd1294a18813a9254"
+    },
+    {
+      "bytes": 11098,
+      "path": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/box01/ligand_atom_map.json",
+      "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+    },
+    {
+      "bytes": 11784,
+      "path": "results/structural_pose_v3/strict/3ZWE/fpocket/prepared/box01/reference.json",
+      "sha256": "d70a8ed4e523553b106a7acde87416c52e9617e2fecf9d0b092d2772cca6cf55"
+    },
+    {
+      "bytes": 11098,
+      "path": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/box01/ligand_atom_map.json",
+      "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+    },
+    {
+      "bytes": 11784,
+      "path": "results/structural_pose_v3/strict/3ZWE/oracle/prepared/box01/reference.json",
+      "sha256": "d70a8ed4e523553b106a7acde87416c52e9617e2fecf9d0b092d2772cca6cf55"
+    },
+    {
+      "bytes": 11098,
+      "path": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/box01/ligand_atom_map.json",
+      "sha256": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9"
+    },
+    {
+      "bytes": 11784,
+      "path": "results/structural_pose_v3/strict/3ZWE/p2rank/prepared/box01/reference.json",
+      "sha256": "d70a8ed4e523553b106a7acde87416c52e9617e2fecf9d0b092d2772cca6cf55"
+    },
+    {
+      "bytes": 1675435,
+      "path": "results/structural_pose_v3/strict_sources.tar.gz",
+      "sha256": "f2b441f2f78a7629b81193444511ac8930a70abe25b18623aa524bf3f88b7cbb"
+    },
+    {
+      "bytes": 18080,
+      "path": "results/structural_pose_v3/strict_sources_manifest.json",
+      "sha256": "74f56ab0205498a90975a461064277b7a3303c20d25f3051e45128d81f27c8bb"
+    },
+    {
+      "bytes": 65708,
+      "path": "results/structural_pose_v3/vina_carb_prepared_inputs.json",
+      "sha256": "0dc9e3975d5451d3e21b2f474b7218ecf4d82e110e197fab95630bb13c22579b"
+    }
+  ],
+  "fixture_package_sources": [
+    {
+      "bytes": 100,
+      "path": "aav_benchmark/__init__.py",
+      "sha256": "b14ad2e329cfba8f37814b2ea8a35ebb579eaa6ad1b7b1dbba7dccc242160c0c"
+    },
+    {
+      "bytes": 48,
+      "path": "aav_benchmark/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "bytes": 30216,
+      "path": "aav_benchmark/aav.py",
+      "sha256": "dbd05bbedaf6b2d9eb4ba8ebdc3b152d178b21af28b43cb4bafb337d17661983"
+    },
+    {
+      "bytes": 37278,
+      "path": "aav_benchmark/additional_method.py",
+      "sha256": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd"
+    },
+    {
+      "bytes": 2427,
+      "path": "aav_benchmark/archive.py",
+      "sha256": "3925ddb1ac90e12d4fc14364c10e91f7daf27256d17641bbb8a83188d9f748bb"
+    },
+    {
+      "bytes": 31320,
+      "path": "aav_benchmark/assembly_control_report.py",
+      "sha256": "869f9e11f373458b9020d675db5a69f6d34b48c8b151149d8f453630fb3d3876"
+    },
+    {
+      "bytes": 27093,
+      "path": "aav_benchmark/atomic_reference.py",
+      "sha256": "abdd44d74901bf10d3518e1599fc13c7838128394080db3b84e8c2f32f334c3b"
+    },
+    {
+      "bytes": 29938,
+      "path": "aav_benchmark/blind_docking.py",
+      "sha256": "61b862934774862f430ad65cb0bf16465dcadcf722b5b69bd83e90159231ba22"
+    },
+    {
+      "bytes": 8333,
+      "path": "aav_benchmark/cli.py",
+      "sha256": "6ebb77465d284bb9e2e2134e4e04c8368917c51686676f7e20d9b181621f3b46"
+    },
+    {
+      "bytes": 41509,
+      "path": "aav_benchmark/common_pose_rescoring.py",
+      "sha256": "afa086f24fd5ab691b8a77c8a87276448cf09223b5eb9483b1ef92cb4aae4005"
+    },
+    {
+      "bytes": 8775,
+      "path": "aav_benchmark/development_report_replay.py",
+      "sha256": "701797cb8492fbc39b2b18dc5f0e7b26b2b9680c269b574bc97ad0cb45dd5b99"
+    },
+    {
+      "bytes": 17312,
+      "path": "aav_benchmark/engine.py",
+      "sha256": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8"
+    },
+    {
+      "bytes": 41340,
+      "path": "aav_benchmark/external.py",
+      "sha256": "2b224a39a71db9a4856c384d11d48de986c89d1b6afd733166936e57ed0caf1f"
+    },
+    {
+      "bytes": 20020,
+      "path": "aav_benchmark/family_audit.py",
+      "sha256": "6be81bb6e63f32e40aea7092f78dacf21a7ab8321d0f1a0a608d4c458def817f"
+    },
+    {
+      "bytes": 26113,
+      "path": "aav_benchmark/global_pose_report_gate.py",
+      "sha256": "b42a849b136778414ddf821fc12d1f04f68ebab82f1a5075a6a52ad470ecc8cb"
+    },
+    {
+      "bytes": 14046,
+      "path": "aav_benchmark/haddock_cohort_preparation.py",
+      "sha256": "ef0ca4c30b95a6e7907d66da9f3b197f987cbedce7cb96b15d8c96155ec07739"
+    },
+    {
+      "bytes": 34361,
+      "path": "aav_benchmark/haddock_cohort_resume.py",
+      "sha256": "6a2b233ebc817c5c1c64ed8f47da5fda609a3eca99083ec8a58f972cf884490a"
+    },
+    {
+      "bytes": 16684,
+      "path": "aav_benchmark/haddock_method.py",
+      "sha256": "04af6d150fcdb7195d81184dd7b3d7bdeb4e1649d509c2d3867295cf85b1558f"
+    },
+    {
+      "bytes": 21858,
+      "path": "aav_benchmark/haddock_paired_cohort.py",
+      "sha256": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6"
+    },
+    {
+      "bytes": 61151,
+      "path": "aav_benchmark/haddock_pose_report.py",
+      "sha256": "b87b150592c963c956bcb7d470acf13dbade63f642b4c51714060f5c49b07260"
+    },
+    {
+      "bytes": 14082,
+      "path": "aav_benchmark/haddock_replay.py",
+      "sha256": "898327e62547e3078d3ac8eb81cca70968b3a1a06e5d0bd22bf1588160c71468"
+    },
+    {
+      "bytes": 16918,
+      "path": "aav_benchmark/heldout_assembly_control.py",
+      "sha256": "1f989e3e477a9231c8534119f53dfe646371d25a3b1e57f41ea95638e4308308"
+    },
+    {
+      "bytes": 11683,
+      "path": "aav_benchmark/heldout_assembly_pose_inputs.py",
+      "sha256": "81d26344bc3d2bff382f63cea69cb058cea312ff123fb4b4b3ecff12a5090cd9"
+    },
+    {
+      "bytes": 10205,
+      "path": "aav_benchmark/heldout_assembly_profiles.py",
+      "sha256": "52e4a61e5dfa5abf3c3c6474d38b2bf110f818dd3889715630d9ec5ff9ec2597"
+    },
+    {
+      "bytes": 50220,
+      "path": "aav_benchmark/heldout_docking.py",
+      "sha256": "8cb13873df9272260ab048dd016abf3eb79f4000d874b4faed291562c60fd7e2"
+    },
+    {
+      "bytes": 25666,
+      "path": "aav_benchmark/heldout_pose_inputs.py",
+      "sha256": "6203e3bf830dada5acf408747bc46220a07024273ea49fe53340b0de3060b067"
+    },
+    {
+      "bytes": 52568,
+      "path": "aav_benchmark/heldout_pose_report.py",
+      "sha256": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c"
+    },
+    {
+      "bytes": 41449,
+      "path": "aav_benchmark/heldout_reference.py",
+      "sha256": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28"
+    },
+    {
+      "bytes": 21757,
+      "path": "aav_benchmark/heldout_repair.py",
+      "sha256": "844023dd0b82ab7655188da660ab800545d29f6e066739642bc11f83239e7e26"
+    },
+    {
+      "bytes": 11980,
+      "path": "aav_benchmark/heldout_repair_inputs.py",
+      "sha256": "ca36506c41547060e53d728a7b65fafde0328cf5fc6ec7597d769e9c1de8f824"
+    },
+    {
+      "bytes": 14832,
+      "path": "aav_benchmark/heldout_serialization.py",
+      "sha256": "8e977d7576a60344b2793a8b805ab132f92e5c54494e6d3332af2b9ffba91d0d"
+    },
+    {
+      "bytes": 19249,
+      "path": "aav_benchmark/ideal_ring_conformers.py",
+      "sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e"
+    },
+    {
+      "bytes": 10280,
+      "path": "aav_benchmark/method_protocol_sources.py",
+      "sha256": "94ed1d69bf8a805941ec090687cbe1a06bbca23e0a89ac5f4eb37c3837a60382"
+    },
+    {
+      "bytes": 17250,
+      "path": "aav_benchmark/metrics.py",
+      "sha256": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec"
+    },
+    {
+      "bytes": 12896,
+      "path": "aav_benchmark/native_control.py",
+      "sha256": "cab66e534b1a5f03575cd0c6898cabc6f54c6dee672a3a112f9c0d66e92add32"
+    },
+    {
+      "bytes": 27787,
+      "path": "aav_benchmark/neighborhood_coverage.py",
+      "sha256": "11b1e6e40f6000477f7346692e0d1fcbc1814741db07417db231383a54013fd2"
+    },
+    {
+      "bytes": 15481,
+      "path": "aav_benchmark/p2rank.py",
+      "sha256": "09626e040e0e176150b5d7944e274847796893aafaaf0122c43dc3df85d405e5"
+    },
+    {
+      "bytes": 30840,
+      "path": "aav_benchmark/paired_common_pose_report.py",
+      "sha256": "31d08b280b9827276680e6a21afd1ec911f4d27f67fdff72e89be8999715bd5e"
+    },
+    {
+      "bytes": 25722,
+      "path": "aav_benchmark/paired_common_pose_rescoring.py",
+      "sha256": "3dabfa786f62e90c3c5e3062a65797f7a18c9497b69a610c2c6143c52a5d8269"
+    },
+    {
+      "bytes": 47057,
+      "path": "aav_benchmark/paired_method_report.py",
+      "sha256": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe"
+    },
+    {
+      "bytes": 6756,
+      "path": "aav_benchmark/paired_worksharing_model.py",
+      "sha256": "2240ed73f20ec1b62bf0248ca5a6eab660ea83d501b07ea3ccb3d531f6850ab2"
+    },
+    {
+      "bytes": 4500,
+      "path": "aav_benchmark/panel.py",
+      "sha256": "699705511a9096f53d407a7d93346962da831dcd6f83d407a0372dd8c9e099dc"
+    },
+    {
+      "bytes": 43478,
+      "path": "aav_benchmark/pol_report.py",
+      "sha256": "e0e077ebf3e01db26f4ce54a696ec649bbfe40cd965f630e009969f81cb0eb7f"
+    },
+    {
+      "bytes": 36512,
+      "path": "aav_benchmark/pol_specificity.py",
+      "sha256": "b94b8911ce0cb5e2eab94f4c63114dbbf3a00777022807e6022019f7a6fb04c6"
+    },
+    {
+      "bytes": 24969,
+      "path": "aav_benchmark/prospective_vina_carb.py",
+      "sha256": "760fbe874a55c661c3cf4858ffd1c73d6aa84961cb69c28b678c7b5568d6bc75"
+    },
+    {
+      "bytes": 4011,
+      "path": "aav_benchmark/provenance.py",
+      "sha256": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f"
+    },
+    {
+      "bytes": 12968,
+      "path": "aav_benchmark/public_source_replay.py",
+      "sha256": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943"
+    },
+    {
+      "bytes": 47480,
+      "path": "aav_benchmark/qualified_pose.py",
+      "sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525"
+    },
+    {
+      "bytes": 55545,
+      "path": "aav_benchmark/qualified_pose_v2.py",
+      "sha256": "1c65a796e1ea14184add305c321ac9dcda6fdd38ad1de59f3a36092b8f71b48b"
+    },
+    {
+      "bytes": 20297,
+      "path": "aav_benchmark/replay_workspace.py",
+      "sha256": "9609a20bf4927c96b92c0e1c0e95a1816745d7eaf4483cb83bba3ae5c18af9cf"
+    },
+    {
+      "bytes": 34572,
+      "path": "aav_benchmark/report.py",
+      "sha256": "b789461046d80994166778a2a94833c19ef5fd3bfc500186d6f9013b82e502c9"
+    },
+    {
+      "bytes": 14142,
+      "path": "aav_benchmark/report_replay.py",
+      "sha256": "a6340ec4779fa546eb5673fecaca7b976415b78dbdfb1804b1b3c55c8f2bb048"
+    },
+    {
+      "bytes": 3989,
+      "path": "aav_benchmark/reproduction.py",
+      "sha256": "2ce34b876a20c24a731784b21f199428cea7b25997b6cf20c13f2ac5be5c8ec5"
+    },
+    {
+      "bytes": 7732,
+      "path": "aav_benchmark/ring_geometry.py",
+      "sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367"
+    },
+    {
+      "bytes": 12823,
+      "path": "aav_benchmark/shards.py",
+      "sha256": "31c33e602d535753e9cb81a9751d6e60ba7fabbfcf0e21f2f7a631bbfbf52f3c"
+    },
+    {
+      "bytes": 13287,
+      "path": "aav_benchmark/site_archive.py",
+      "sha256": "ab6245c922cee2c7a45adb6ce2548f56cb61c733ac723a6c26c188d225584caa"
+    },
+    {
+      "bytes": 15674,
+      "path": "aav_benchmark/site_experiment.py",
+      "sha256": "1ce375cdd89c5cb60d507ec1cb5ebd603f34015348e64faae9f24d3d8f64351e"
+    },
+    {
+      "bytes": 12830,
+      "path": "aav_benchmark/site_geometry.py",
+      "sha256": "0b76f95db2e383604c43a1963829b928f9a030943647cae49f00d221d384d481"
+    },
+    {
+      "bytes": 25399,
+      "path": "aav_benchmark/site_prediction_verification.py",
+      "sha256": "a98c9428ed66789491c0f22a43392ff9bba157179c7e849276c308726f0f67e9"
+    },
+    {
+      "bytes": 20490,
+      "path": "aav_benchmark/site_report.py",
+      "sha256": "4552e0d043293ca61b786da17b7a247fdaf543e4cb1891b13a8782f9a6321ca9"
+    },
+    {
+      "bytes": 18807,
+      "path": "aav_benchmark/site_reproduction.py",
+      "sha256": "4b486c58be30802c02697f0b4220a766dfaa5d3079e0c4b33de4577b696f9911"
+    },
+    {
+      "bytes": 11941,
+      "path": "aav_benchmark/site_truth.py",
+      "sha256": "7d981ea8ac4c65d00152ec484b0713f6c2abb167d8f698bb1f31ac2b5c9e6909"
+    },
+    {
+      "bytes": 30340,
+      "path": "aav_benchmark/sites.py",
+      "sha256": "244319d42bb57492cfbae1b704c85bb6f003447eb64a88651e5fd1c1755779b4"
+    },
+    {
+      "bytes": 23548,
+      "path": "aav_benchmark/specificity.py",
+      "sha256": "e62e0296a0e3561707fde0a6184770260916d35f394eb2b86cf206c66fdeae8b"
+    },
+    {
+      "bytes": 33936,
+      "path": "aav_benchmark/specificity_report.py",
+      "sha256": "e01dfd40faa53fe9312345c97a3bbede9826a4eea85fc59e992ac7df5f0c0917"
+    },
+    {
+      "bytes": 25956,
+      "path": "aav_benchmark/statistics.py",
+      "sha256": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e"
+    },
+    {
+      "bytes": 28563,
+      "path": "aav_benchmark/structural_contrast_report.py",
+      "sha256": "1d31336fbb97bf702f46e433d5ad29cf9fa0ad443d923441f8920aeca9aab938"
+    },
+    {
+      "bytes": 18924,
+      "path": "aav_benchmark/surface.py",
+      "sha256": "b4d620e079f0085c8bd6cc7faa9a7e0a86dd43cefba983f9018bc2739d71979d"
+    },
+    {
+      "bytes": 22065,
+      "path": "aav_benchmark/vina_output_audit.py",
+      "sha256": "41a247c4ccd9b825d14bfbc04e0d321d18fe2bbb13ec83467ed8e779649cc316"
+    }
+  ],
+  "frozen_readers_or_original735_changed": false,
+  "inside_audited_root_output_rejected": {
+    "exit_code": 2,
+    "file_created": false
+  },
+  "native_execution": false,
+  "original_proof": {
+    "bytes": 10460,
+    "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit_proof.md",
+    "sha256": "bd563781bb522158dadd9f51f3ca1bc7128d087bacbdd791d004b4b06ee0c1d4"
+  },
+  "original_result": {
+    "bytes": 57484,
+    "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit.json",
+    "sha256": "c3284c9854f68bbf697f6195a10fc1da2c51dd75fbbb07b170042534be105f64"
+  },
+  "original_script": {
+    "bytes": 10195,
+    "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit.py",
+    "sha256": "605921a826d9475f0f739e7c79e3420317ce46b083ec18e47cd0063bb2883fc1"
+  },
+  "path_changes_only_normalization_recovers_original_script_exactly": true,
+  "portable_replay": {
+    "counts": {
+      "input_conditions": 36,
+      "nonprepared_retained": 17,
+      "prepared_name_contracts": 19,
+      "source_profile_case_maps": 12
+    },
+    "exit_code": 0,
+    "metadata_equal": true,
+    "original_result_byte_exact": true,
+    "result_bytes": 57484,
+    "result_sha256": "c3284c9854f68bbf697f6195a10fc1da2c51dd75fbbb07b170042534be105f64",
+    "synthetic_controls_equal": true
+  },
+  "portable_script": {
+    "bytes": 10605,
+    "path": "results/structural_pose_v3/global_report_release/atom_order_audit/audit_atom_order.py",
+    "sha256": "dca696f7000c83f188ce231bb5ea1eb4076b3fb008e08c0146840957c367761c"
+  },
+  "schema_version": 1,
+  "scope": "publication portability and exact pre-existing QA replay only"
+}

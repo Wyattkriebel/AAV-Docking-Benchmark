@@ -25,5 +25,6 @@ jobs:
       - run: python -m aav_benchmark.haddock_replay
       - run: python scripts/verify_ring_initialization.py
       - run: python scripts/verify_method_protocol_sources.py
+      - run: python scripts/verify_qualified_development_replay.py --numeric-tolerance 1e-10
       - run: python scripts/verify_site_experiment.py --numeric-tolerance 1e-10 --surface-area-tolerance 1e-6
       - run: python -m aav_benchmark status

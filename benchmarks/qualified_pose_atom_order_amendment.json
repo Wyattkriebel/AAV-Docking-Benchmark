@@ -1,0 +1,80 @@
+{
+  "all_native_outputs_and_failure_denominators_unchanged": true,
+  "atomic_reference_ledger_sha256": "8ed3887e2575f8ed92d73562f9b79c088036f326ed177af2c71b55522eedf383",
+  "basis_raw_data_commit": "ffd02f67f3ac44632abf7d41f7c1ea31a47df211",
+  "configuration_sha256": "59908e56e26157c153afa6cd76d265a578242ca8d8a1fa3850720d01f224e634",
+  "corrected_diagnostic_outcomes_consulted": true,
+  "corrected_official_v2_report_generated": false,
+  "corrected_source_review": [
+    {
+      "bytes": 4459,
+      "path": "results/development_pose_report_release/v2_source_review/independent_review.json",
+      "sha256": "3395c37cc9dfdc8030741277d0cc9741c39b34692ca6358fd16897d9c616c5cb"
+    },
+    {
+      "bytes": 21032,
+      "path": "results/development_pose_report_release/v2_source_review/minimal_v1_to_v2.diff",
+      "sha256": "6242d0294afd3f000e96213d059985fc2bb0d0bb4e53c7e6aa24aa933059a8b6"
+    },
+    {
+      "bytes": 6882,
+      "path": "results/development_pose_report_release/v2_source_review/source_contracts.json",
+      "sha256": "cac6302e56c7f1ec1fdd21b7af5bacd8b539232ad3d69a17b78cc780d5e19630"
+    }
+  ],
+  "correction": "bijective_atom_name_coordinate_permutation",
+  "evaluator_sha256": "1c65a796e1ea14184add305c321ac9dcda6fdd38ad1de59f3a36092b8f71b48b",
+  "geometry_baseline": "Archived independent legacy SDF before PDBQT/translation serialization rounding; not exact executed per-box PDBQT. Geometry algorithm unchanged.",
+  "implementation": "qualified_pose_v2",
+  "independent_bug_and_baseline_evidence": [
+    {
+      "bytes": 1247,
+      "path": "results/development_pose_report_release/invalidated_v1/independent_review/aav-old-1PWB-independent-protein-fit.json",
+      "sha256": "e362751af057ca01fc35bc938529a3f9c1c9666d26a43261b14d7bb4009ad498"
+    },
+    {
+      "bytes": 21041,
+      "path": "results/development_pose_report_release/invalidated_v1/independent_review/aav-old-1PWB-order-seam.json",
+      "sha256": "833f77df743afeea55caf57bb115965164debc1e477fe964df77881d912045b2"
+    },
+    {
+      "bytes": 7164,
+      "path": "results/development_pose_report_release/invalidated_v1/independent_review/aav-old156-atom-order-bug-review.json",
+      "sha256": "2ce3221dba8570dff15f111ae89fc99ca8b231758ab4a2eff34b138f89e801b1"
+    },
+    {
+      "bytes": 64089,
+      "path": "results/development_pose_report_release/invalidated_v1/independent_review/aav-old156-geometry-baseline-source-audit.json",
+      "sha256": "2c89e53a5cf753b47b4561ef8d95b3c4bf1d1721cf71940df3c6a051e92de43d"
+    },
+    {
+      "bytes": 267846,
+      "path": "results/development_pose_report_release/invalidated_v1/independent_review/aav-old156-independent-numerical-review.json",
+      "sha256": "0ae68d2bfb838ef513ca7670c0620dedbfed979b7df10c498283268d8d20e593"
+    },
+    {
+      "bytes": 16549,
+      "path": "results/development_pose_report_release/invalidated_v1/independent_review/aav_old156_independent_check.py",
+      "sha256": "9b40d241867448df9e2469522fb21466a6342bf613e52c765b9f046407066cee"
+    }
+  ],
+  "invalid_v1_outcomes_consulted": true,
+  "invalidation": {
+    "bytes": 3577,
+    "path": "results/development_pose_report_release/v1_invalidation.json",
+    "sha256": "0147d51ccd8407025f5a9e1f71791f040353e12f2fa0a483d0f3367e570d6133"
+  },
+  "new_six_case_structural_accuracy_consulted": false,
+  "no_native_job_reexecuted_for_this_correction": true,
+  "outcome_timing": "after_invalid_v1_and_corrected_diagnostic_outcomes",
+  "prospective_scientific_redesign": false,
+  "recorded_at_UTC": "2026-11-03T22:08:55.846920+00:00",
+  "schema_version": 1,
+  "scope": "Implementation correction only: complete full-parent atom-name permutation before existing graph/mask/RMSD/contact/geometry evaluation. No rank, seed, eligibility, endpoint, threshold or geometry algorithm change. Geometry change-from-input baseline remains the archived independent legacy SDF; its source is now explicitly labeled.",
+  "superseded_evaluator_sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+  "workflow_validation": {
+    "bytes": 159164,
+    "path": "results/blind_pose/report_release/execution_validation.json",
+    "sha256": "cbbd588b66ae75fa939a2fe5030d57bb8e11b10dcc5cc8c7a3a60488ef6f0fef"
+  }
+}

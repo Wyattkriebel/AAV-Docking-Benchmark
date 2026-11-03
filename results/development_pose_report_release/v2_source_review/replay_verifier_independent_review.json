@@ -1,0 +1,51 @@
+{
+  "findings_fixed": [
+    "Canonicalize temporary workspace to handle macOS /var -> /private/var containment",
+    "Reject dangling protected-tree and derived-output symlinks",
+    "Revalidate canonical output pins after child/comparison and bind compared JSON SHA to receipt"
+  ],
+  "frozen_sources": [
+    {
+      "bytes": 47480,
+      "path": "aav_benchmark/qualified_pose.py",
+      "sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525"
+    },
+    {
+      "bytes": 14142,
+      "path": "aav_benchmark/report_replay.py",
+      "sha256": "a6340ec4779fa546eb5673fecaca7b976415b78dbdfb1804b1b3c55c8f2bb048"
+    },
+    {
+      "bytes": 8775,
+      "path": "aav_benchmark/development_report_replay.py",
+      "sha256": "701797cb8492fbc39b2b18dc5f0e7b26b2b9680c269b574bc97ad0cb45dd5b99"
+    }
+  ],
+  "native_execution": false,
+  "real_evaluator_executed": false,
+  "real_git_export_or_hydration_executed": false,
+  "remaining_blockers": [],
+  "review_only_test": {
+    "bytes": 14031,
+    "path": "/tmp/aav-qualified-development-replay-verifier-review-test.py",
+    "sha256": "2f6f2584e012b85002759eba3503483d6445a8109a2895dad381737c51786375"
+  },
+  "reviewed_files": [
+    {
+      "bytes": 10897,
+      "path": "scripts/verify_qualified_development_replay.py",
+      "sha256": "3f397e1a608da1d08a2667d8bb23078e5c2dd64ef741b3b7b6fe201380255247"
+    },
+    {
+      "bytes": 3989,
+      "path": "docs/QUALIFIED_DEVELOPMENT_REPRODUCTION.md",
+      "sha256": "85b46564e907493aad8438e62d54b8ad47a3fdeb4adb1dd6288687a287bd3ee7"
+    }
+  ],
+  "scientific_output_files_read": false,
+  "source_files_edited_by_reviewer": false,
+  "status": "independent_source_and_synthetic_review_passed",
+  "synthetic_tests_passed": 47,
+  "test_command": "AAV_REPLAY_REVIEW_ROOT=/Users/alec/AAV-Docking-Benchmark .venv/bin/python -m pytest -q /tmp/aav-qualified-development-replay-verifier-review-test.py",
+  "test_remains_in_repository": false
+}

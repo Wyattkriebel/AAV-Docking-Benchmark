@@ -26,15 +26,21 @@ a separate local byte-identical rebuild of both archives, their manifests and
 the packaging receipt. This is post-execution packaging, not a prospective
 scientific freeze or contemporaneous producer checksum.
 
-The published development workspace plan supplies the exact source commit and
-archive pins:
+The V2 evaluator corrects a legacy atom-order error: raw arrays followed each
+blind box's atom traversal order, while the original evaluator assumed the
+legacy parent-name order. The original derived report is preserved under
+`results/development_pose_report_release/invalidated_v1/`; its RMSD, contact and
+geometry values are invalid. The raw execution archives remain unchanged.
+The correction follows both invalid V1 results and corrected diagnostic
+outcomes, with unchanged scientific endpoints and failure denominators.
+
+The [V2 replay guide](../../docs/QUALIFIED_DEVELOPMENT_REPRODUCTION.md) supplies
+the exact source commit, archive pins and implementation amendment:
 
 ```sh
-python scripts/restore_replay_workspace.py --repository . --plan docs/examples/development_workspace_plan.json --destination /tmp/aav-qualified-development-replay
-python /tmp/aav-qualified-development-replay/scripts/regenerate_blind_pose_report.py
-python scripts/compare_development_report_replay.py results/blind_pose/qualified_pose_summary.json /tmp/aav-qualified-development-replay/results/blind_pose/qualified_pose_summary.json
+python scripts/verify_qualified_development_replay.py
 ```
 
-The report needs the project's pinned Python dependencies. It requires no
+The V2 report needs the project's pinned Python dependencies. It requires no
 installed docking program or processed input tree. The separate new-six-case
 study retains its own four-workflow completion gate.

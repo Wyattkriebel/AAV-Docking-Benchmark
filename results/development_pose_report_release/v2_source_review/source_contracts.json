@@ -1,0 +1,280 @@
+{
+  "actual_v2_report_generated": false,
+  "allowlist_sha256": "1c7f6704b9fff9f78d9ce6ecc68dd8b1146a35d4fec08206b72810133c52fd7e",
+  "candidate_files": [
+    {
+      "bytes": 55545,
+      "path": "aav_benchmark/qualified_pose_v2.py",
+      "sha256": "1c65a796e1ea14184add305c321ac9dcda6fdd38ad1de59f3a36092b8f71b48b"
+    },
+    {
+      "bytes": 2094,
+      "path": "scripts/regenerate_qualified_pose_v2_report.py",
+      "sha256": "a62f49931ecae628dd48ce57afd98a452a55aeebd85146675777fa05dda0cc1e"
+    },
+    {
+      "bytes": 17838,
+      "path": "tests/test_qualified_pose_v2.py",
+      "sha256": "851c73bb0d63bdf8f7939f97af641f7b76e8167c6681a9238d01ad46bc132cf4"
+    }
+  ],
+  "frozen_files_modified": false,
+  "native_calls": false,
+  "new_six_case_access": false,
+  "old_input_label_contracts": [
+    {
+      "box_id": "box01",
+      "case_id": "1GNY",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box02",
+      "case_id": "1GNY",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box03",
+      "case_id": "1GNY",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box04",
+      "case_id": "1GNY",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box05",
+      "case_id": "1GNY",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "1GNY",
+      "full_parent_names": 46,
+      "method": "p2rank",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "1GNY",
+      "full_parent_names": 46,
+      "method": "oracle",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "1KJL",
+      "full_parent_names": 26,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box02",
+      "case_id": "1KJL",
+      "full_parent_names": 26,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box03",
+      "case_id": "1KJL",
+      "full_parent_names": 26,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box04",
+      "case_id": "1KJL",
+      "full_parent_names": 26,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box05",
+      "case_id": "1KJL",
+      "full_parent_names": 26,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "1KJL",
+      "full_parent_names": 26,
+      "method": "p2rank",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "1KJL",
+      "full_parent_names": 26,
+      "method": "oracle",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "2J1T",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box02",
+      "case_id": "2J1T",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box03",
+      "case_id": "2J1T",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box04",
+      "case_id": "2J1T",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box05",
+      "case_id": "2J1T",
+      "full_parent_names": 46,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "2J1T",
+      "full_parent_names": 46,
+      "method": "oracle",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "1PWB",
+      "full_parent_names": 23,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box02",
+      "case_id": "1PWB",
+      "full_parent_names": 23,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box03",
+      "case_id": "1PWB",
+      "full_parent_names": 23,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box04",
+      "case_id": "1PWB",
+      "full_parent_names": 23,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box05",
+      "case_id": "1PWB",
+      "full_parent_names": 23,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "1PWB",
+      "full_parent_names": 23,
+      "method": "p2rank",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "1PWB",
+      "full_parent_names": 23,
+      "method": "oracle",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "2VUZ",
+      "full_parent_names": 90,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box02",
+      "case_id": "2VUZ",
+      "full_parent_names": 90,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box03",
+      "case_id": "2VUZ",
+      "full_parent_names": 90,
+      "method": "fpocket",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "2VUZ",
+      "full_parent_names": 90,
+      "method": "p2rank",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box02",
+      "case_id": "2VUZ",
+      "full_parent_names": 90,
+      "method": "p2rank",
+      "valid_full_bijection": true
+    },
+    {
+      "box_id": "box01",
+      "case_id": "2VUZ",
+      "full_parent_names": 90,
+      "method": "oracle",
+      "valid_full_bijection": true
+    }
+  ],
+  "pose_coordinates_or_accuracy_read_or_computed": false,
+  "source_helpers": {
+    "aav_benchmark/development_report_replay.py": "701797cb8492fbc39b2b18dc5f0e7b26b2b9680c269b574bc97ad0cb45dd5b99",
+    "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+    "aav_benchmark/report_replay.py": "a6340ec4779fa546eb5673fecaca7b976415b78dbdfb1804b1b3c55c8f2bb048",
+    "scripts/regenerate_blind_pose_report.py": "c9c16d43ff726c8a54ac774a1065382c8d033c4ef8577e3140f605790e17e4a3"
+  },
+  "status": "source_contracts_passed_no_actual_v2_report",
+  "unchanged_scientific_AST_nodes": [
+    "pooled_poses",
+    "ParentGeometry",
+    "_score_pool",
+    "qualified_atom_map",
+    "native_metric_controls",
+    "accuracy_summary",
+    "aggregate_conditions",
+    "_protein_alignment",
+    "_validate_command",
+    "_pose_log",
+    "_native_protein",
+    "_check_atomic_sources",
+    "_old_inputs"
+  ]
+}

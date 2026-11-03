@@ -1,0 +1,33 @@
+{
+  "OLD_only": true,
+  "analytic_native_RMSD_A": 0.0,
+  "analytic_translation_RMSD_A": 5.0,
+  "fits": {
+    "global": {
+      "RMSD_A": 1.2801088204678208e-14,
+      "atoms": 604,
+      "det": 0.9999999999999998,
+      "rotation_identity_maxdelta": 1.3378505100640132e-15,
+      "rotation_report_maxdelta": 1.1102230246251565e-16,
+      "translation_maxabs_A": 3.552713678800501e-14,
+      "translation_report_maxdelta_A": 3.552713678800501e-15
+    },
+    "local_interface": {
+      "RMSD_A": 3.824499437962166e-15,
+      "atoms": 24,
+      "det": 1.000000000000003,
+      "rotation_identity_maxdelta": 1.5543122344752192e-15,
+      "rotation_report_maxdelta": 1.1102230246251565e-15,
+      "translation_maxabs_A": 1.4210854715202004e-14,
+      "translation_report_maxdelta_A": 3.552713678800501e-15
+    }
+  },
+  "ligand_fitted": false,
+  "local_residues": 6,
+  "max_named_coordinate_difference_A": 0.0,
+  "native_PDB_compressed_sha256": "a08e805d7504194b57dab8724bf891a96d11ea8aae5dbc113826b65cdb96cfbd",
+  "native_contacts": 33,
+  "protein_keys": 1154,
+  "source_CIF_compressed_sha256": "7327ac1ae883db2b5d78d9f0416b5b5a798f12e1322c07e137e4c01e38b929d9",
+  "summary_sha256": "5643d7d0f39439f607129d815f68a5d4533a817ed4ba06ea003c252b57ea928d"
+}
