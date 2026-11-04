@@ -11,6 +11,13 @@ These are descriptive results for one system; the coordinates have not been
 qualified as atomic pose truth, and the comparison does not establish binding
 specificity or general docking reliability.
 
+The [broader reliability assessment](comparison/RELIABILITY.md) brings together
+the previously released nonviral site, pose and specificity evidence with
+relevant primary studies. It supports conditional utility and documents concrete
+failures. General reliability remains unestablished, and the proposed
+confirmatory study remains incomplete. The [evidence packet](comparison/reliability_evidence.json)
+preserves source checksums and the separate endpoint denominators.
+
 ## Run the comparison
 
 Python 3.11 or later is sufficient; no packages, downloads or docking programs
