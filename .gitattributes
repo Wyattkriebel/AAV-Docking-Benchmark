@@ -1,0 +1,3 @@
+# Preserve the original fixed-column outputs and their checksummed whitespace.
+comparison/inputs/*.pdbqt linguist-generated=true -whitespace
+comparison/inputs/*.log linguist-generated=true -whitespace

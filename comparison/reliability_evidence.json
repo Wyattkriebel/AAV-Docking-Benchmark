@@ -1,0 +1,1048 @@
+{
+  "gal9_specificity": {
+    "baselines": {
+      "formal_charge": {
+        "auprc_definition": "step-wise average precision",
+        "contexts": [
+          {
+            "context_id": "mahanti_2019_gal9c_matched_epimers",
+            "matched": {
+              "auprc_average_precision": 0.5,
+              "auroc": 0.5,
+              "binders": 6,
+              "charge_tolerance": 0.0,
+              "heavy_atom_tolerance": 0,
+              "ligand_ids": [
+                "1",
+                "14",
+                "4",
+                "17",
+                "5",
+                "18",
+                "6",
+                "19",
+                "7",
+                "20",
+                "8",
+                "21"
+              ],
+              "nonbinders": 6,
+              "pair_concordance": 0.5,
+              "pairs": 6,
+              "prevalence": 0.5,
+              "tested_ligands": 12
+            },
+            "raw": {
+              "auprc_average_precision": 0.5,
+              "auroc": 0.5,
+              "binders": 6,
+              "nonbinders": 6,
+              "prevalence": 0.5,
+              "tested_ligands": 12
+            },
+            "status": "evaluated",
+            "target_id": "O00182",
+            "tested_ligands": 12,
+            "untested_ligands": 0
+          }
+        ],
+        "pooled_assay_metrics": null,
+        "score_direction": "higher predicts binding"
+      },
+      "heavy_atom_count": {
+        "auprc_definition": "step-wise average precision",
+        "contexts": [
+          {
+            "context_id": "mahanti_2019_gal9c_matched_epimers",
+            "matched": {
+              "auprc_average_precision": 0.49999999999999994,
+              "auroc": 0.5,
+              "binders": 6,
+              "charge_tolerance": 0.0,
+              "heavy_atom_tolerance": 0,
+              "ligand_ids": [
+                "1",
+                "14",
+                "4",
+                "17",
+                "5",
+                "18",
+                "6",
+                "19",
+                "7",
+                "20",
+                "8",
+                "21"
+              ],
+              "nonbinders": 6,
+              "pair_concordance": 0.5,
+              "pairs": 6,
+              "prevalence": 0.5,
+              "tested_ligands": 12
+            },
+            "raw": {
+              "auprc_average_precision": 0.49999999999999994,
+              "auroc": 0.5,
+              "binders": 6,
+              "nonbinders": 6,
+              "prevalence": 0.5,
+              "tested_ligands": 12
+            },
+            "status": "evaluated",
+            "target_id": "O00182",
+            "tested_ligands": 12,
+            "untested_ligands": 0
+          }
+        ],
+        "pooled_assay_metrics": null,
+        "score_direction": "higher predicts binding"
+      }
+    },
+    "classification": {
+      "auprc_definition": "step-wise average precision",
+      "contexts": [
+        {
+          "context_id": "mahanti_2019_gal9c_matched_epimers",
+          "matched": {
+            "auprc_average_precision": 0.7842592592592592,
+            "auroc": 0.7222222222222222,
+            "binders": 6,
+            "charge_tolerance": 0.0,
+            "heavy_atom_tolerance": 0,
+            "ligand_ids": [
+              "1",
+              "14",
+              "4",
+              "17",
+              "5",
+              "18",
+              "6",
+              "19",
+              "7",
+              "20",
+              "8",
+              "21"
+            ],
+            "nonbinders": 6,
+            "pair_concordance": 0.8333333333333334,
+            "pairs": 6,
+            "prevalence": 0.5,
+            "tested_ligands": 12
+          },
+          "raw": {
+            "auprc_average_precision": 0.7842592592592592,
+            "auroc": 0.7222222222222222,
+            "binders": 6,
+            "nonbinders": 6,
+            "prevalence": 0.5,
+            "tested_ligands": 12
+          },
+          "status": "evaluated",
+          "target_id": "O00182",
+          "tested_ligands": 12,
+          "untested_ligands": 0
+        }
+      ],
+      "pooled_assay_metrics": null,
+      "score_direction": "higher predicts binding"
+    },
+    "classifier_threshold": null,
+    "compounds": [
+      {
+        "binary_label": 1,
+        "formal_charge": 0,
+        "heavy_atoms": 19,
+        "ligand_id": "1",
+        "mean_top1_score_kcal_mol": -6.215333333333334
+      },
+      {
+        "binary_label": 0,
+        "formal_charge": 0,
+        "heavy_atoms": 19,
+        "ligand_id": "14",
+        "mean_top1_score_kcal_mol": -5.526
+      },
+      {
+        "binary_label": 1,
+        "formal_charge": 0,
+        "heavy_atoms": 20,
+        "ligand_id": "4",
+        "mean_top1_score_kcal_mol": -5.557333333333333
+      },
+      {
+        "binary_label": 0,
+        "formal_charge": 0,
+        "heavy_atoms": 20,
+        "ligand_id": "17",
+        "mean_top1_score_kcal_mol": -5.468
+      },
+      {
+        "binary_label": 1,
+        "formal_charge": 0,
+        "heavy_atoms": 20,
+        "ligand_id": "5",
+        "mean_top1_score_kcal_mol": -6.625333333333334
+      },
+      {
+        "binary_label": 0,
+        "formal_charge": 0,
+        "heavy_atoms": 20,
+        "ligand_id": "18",
+        "mean_top1_score_kcal_mol": -5.951333333333333
+      },
+      {
+        "binary_label": 1,
+        "formal_charge": 0,
+        "heavy_atoms": 21,
+        "ligand_id": "6",
+        "mean_top1_score_kcal_mol": -6.631333333333333
+      },
+      {
+        "binary_label": 0,
+        "formal_charge": 0,
+        "heavy_atoms": 21,
+        "ligand_id": "19",
+        "mean_top1_score_kcal_mol": -6.588666666666667
+      },
+      {
+        "binary_label": 1,
+        "formal_charge": 0,
+        "heavy_atoms": 20,
+        "ligand_id": "7",
+        "mean_top1_score_kcal_mol": -6.3693333333333335
+      },
+      {
+        "binary_label": 0,
+        "formal_charge": 0,
+        "heavy_atoms": 20,
+        "ligand_id": "20",
+        "mean_top1_score_kcal_mol": -6.214333333333333
+      },
+      {
+        "binary_label": 1,
+        "formal_charge": 0,
+        "heavy_atoms": 21,
+        "ligand_id": "8",
+        "mean_top1_score_kcal_mol": -5.615666666666667
+      },
+      {
+        "binary_label": 0,
+        "formal_charge": 0,
+        "heavy_atoms": 21,
+        "ligand_id": "21",
+        "mean_top1_score_kcal_mol": -5.658333333333333
+      }
+    ],
+    "denominator": {
+      "complete_ligands": 12,
+      "conditional_NB_at_2mM": 6,
+      "expected_ligands": 12,
+      "expected_runs": 36,
+      "expected_seeds": [
+        104729,
+        130363,
+        155921
+      ],
+      "failed_runs": 0,
+      "matched_pairs": 6,
+      "measured_binders": 6,
+      "metrics_eligible": true,
+      "missing_runs": 0,
+      "running_runs": 0,
+      "successful_runs": 36
+    },
+    "matched_pair_counts": {
+      "conditional_NB_lower_energy": 1,
+      "exact_aggregate_ties": 0,
+      "measured_binder_lower_energy": 5,
+      "pairs": 6,
+      "tie_aware_concordance": 0.8333333333333334
+    },
+    "scope": "One known-site Gal9C assay and synthetic glycoside series. NB at 2 mM is categorical, not a numerical affinity bound."
+  },
+  "not_evaluated": [
+    "Later mixed viral/nonviral cohort",
+    "Protected supplemental expansion",
+    "New viral host-binding analyses"
+  ],
+  "pol_specificity": {
+    "affinity_calibration": false,
+    "auprc": null,
+    "auroc": null,
+    "conditions": [
+      {
+        "glucose_minus_galactose_kcal_mol": 0.027333333333332988,
+        "measured_binder_lower_score": true,
+        "metal_profile": "Ca_retained",
+        "site": "N",
+        "state": "holo"
+      },
+      {
+        "glucose_minus_galactose_kcal_mol": -0.14066666666666672,
+        "measured_binder_lower_score": false,
+        "metal_profile": "dry",
+        "site": "N",
+        "state": "holo"
+      },
+      {
+        "glucose_minus_galactose_kcal_mol": -0.02183333333333337,
+        "measured_binder_lower_score": false,
+        "metal_profile": "Ca_retained",
+        "site": "C",
+        "state": "holo"
+      },
+      {
+        "glucose_minus_galactose_kcal_mol": -0.02150000000000052,
+        "measured_binder_lower_score": false,
+        "metal_profile": "dry",
+        "site": "C",
+        "state": "holo"
+      },
+      {
+        "glucose_minus_galactose_kcal_mol": -0.07966666666666677,
+        "measured_binder_lower_score": false,
+        "metal_profile": "Ca_retained",
+        "site": "N",
+        "state": "apo"
+      },
+      {
+        "glucose_minus_galactose_kcal_mol": -0.07266666666666666,
+        "measured_binder_lower_score": false,
+        "metal_profile": "dry",
+        "site": "N",
+        "state": "apo"
+      },
+      {
+        "glucose_minus_galactose_kcal_mol": -0.19033333333333324,
+        "measured_binder_lower_score": false,
+        "metal_profile": "Ca_retained",
+        "site": "C",
+        "state": "apo"
+      },
+      {
+        "glucose_minus_galactose_kcal_mol": 0.08066666666666666,
+        "measured_binder_lower_score": true,
+        "metal_profile": "dry",
+        "site": "C",
+        "state": "apo"
+      }
+    ],
+    "denominator": {
+      "cases": 16,
+      "expected_runs": 96,
+      "experimental_epimer_contrasts": 1,
+      "experimental_species": 2,
+      "failed_runs": 0,
+      "independent_families": 1,
+      "metrics_eligible": true,
+      "missing_runs": 0,
+      "model_states": 4,
+      "primary_runs": 12,
+      "running_runs": 0,
+      "sensitivity_runs": 84,
+      "successful_runs": 96
+    },
+    "primary": {
+      "glucose_minus_galactose_kcal_mol": 0.027333333333332988,
+      "measured_binder_lower_score": true,
+      "metal_profile": "Ca_retained",
+      "site": "N",
+      "state": "holo"
+    },
+    "scope": "One POL/CBM67 assay contrast; two experimental sugars and multiple computational anomer/state/site/calcium sensitivities."
+  },
+  "pose_recovery": {
+    "aggregates": {
+      "full_ligand": {
+        "fpocket": {
+          "1": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            }
+          },
+          "5": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            }
+          }
+        },
+        "oracle": {
+          "1": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            }
+          },
+          "5": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            }
+          }
+        },
+        "p2rank": {
+          "1": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            }
+          },
+          "5": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.0,
+              "complex_ids": [
+                "1GNY",
+                "1PWB"
+              ],
+              "eligible_complexes": 2,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.0
+            }
+          }
+        }
+      },
+      "modeled_core": {
+        "fpocket": {
+          "1": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            }
+          },
+          "5": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            }
+          }
+        },
+        "oracle": {
+          "1": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            }
+          },
+          "5": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            }
+          }
+        },
+        "p2rank": {
+          "1": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            }
+          },
+          "5": {
+            "global": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            },
+            "local_interface": {
+              "best_returned_success_1A": 0.0,
+              "best_returned_success_2A": 0.0,
+              "best_returned_success_3A": 0.25,
+              "complex_ids": [
+                "1KJL",
+                "1QFO",
+                "2J1T",
+                "2VUZ"
+              ],
+              "eligible_complexes": 4,
+              "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval",
+              "top1_success_1A": 0.0,
+              "top1_success_2A": 0.0,
+              "top1_success_3A": 0.0,
+              "top5_success_1A": 0.0,
+              "top5_success_2A": 0.0,
+              "top5_success_3A": 0.25
+            }
+          }
+        }
+      }
+    },
+    "implementation_note": "V2 corrected a named-atom correspondence error after invalid V1 and corrected diagnostic outcomes were inspected. This is development evidence, not a pristine prospective confirmation.",
+    "physical_validity_certified": false,
+    "qualified_references": [
+      {
+        "atomic_scope": "full_ligand",
+        "complex_id": "1GNY",
+        "eligibility_reason": "All five whole residues pass; full xylopentaose corresponds chemically and atom-for-atom. Residue1 is borderline9/10 atom density support and terminal fit remains a caution.",
+        "parent_ligand_atom_count": 46,
+        "scored_atom_count": 46
+      },
+      {
+        "atomic_scope": "modeled_core",
+        "complex_id": "1KJL",
+        "eligibility_reason": "NAG1 fails local-fit, density-coverage and negative-difference gates. Retain only whole GAL2, without adding a missing glycosidic leaving oxygen or changing the complete LacNAc graph.",
+        "parent_ligand_atom_count": 26,
+        "scored_atom_count": 11
+      },
+      {
+        "atomic_scope": "modeled_core",
+        "complex_id": "1QFO",
+        "eligibility_reason": "GLC1 C1 is wrong hand in wwPDB and independently inverted against the CCD ideal named-neighbor signed volume. No coordinate repair or relabeling; score only connected GAL2/SIA3. The complete released parent graph still has this chemical defect and must not be treated as repaired by excluding GLC from scoring.",
+        "parent_ligand_atom_count": 43,
+        "scored_atom_count": 31
+      },
+      {
+        "atomic_scope": "modeled_core",
+        "complex_id": "2J1T",
+        "eligibility_reason": "Numerical local fit and chirality gates alone pass all four residues, and primary paper reports well-defined Lewis Y density. Deposited struct_conn covale1 links NAG1 O4-GAL2 C1 at1.413 A, covale2 links NAG1 O3-FUC4 C1 at1.613 A, covale3 links GAL2 O2-FUC3 C1 at1.418 A. The unusually long second C-O linkage is unresolved native geometry; no invented Z-score is assigned from generic CCD values. Conservative modeled-core endpoint is GAL2/FUC3, excluding all residues touching the disputed bond.",
+        "parent_ligand_atom_count": 46,
+        "scored_atom_count": 21
+      },
+      {
+        "atomic_scope": "full_ligand",
+        "complex_id": "1PWB",
+        "eligibility_reason": "Both maltose residues pass. Other trimer chains are >22 A from the selected D ligand; released chain retains recognition calcium. Alternate Arg343 conformation and absent trimer remain explicit scope caveats.",
+        "parent_ligand_atom_count": 23,
+        "scored_atom_count": 23
+      },
+      {
+        "atomic_scope": "modeled_core",
+        "complex_id": "2VUZ",
+        "eligibility_reason": "Only7 of9 sugars plus no Asn modeled. Residues1/2 fail density, residue7 has angleZ=-5.49. Largest connected remaining component is BMA3-MAN4-NAG5 plus MAN6 (47 atoms). Omitted HYP91 is >4 A from this core (minimum4.052 A), although its carbonylO is3.873 A from excluded NAG7. Dimer/assembly disagreement retained.",
+        "parent_ligand_atom_count": 90,
+        "scored_atom_count": 47
+      }
+    ],
+    "selection": "All six atomically eligible external development complexes in corrected V2; complete models and partial cores remain separate.",
+    "unsupported_preparation_retained_as_eligible_zero": [
+      "1QFO"
+    ]
+  },
+  "purpose": "Retrospective evidence synthesis from previously released nonviral results; not a new experiment or independent confirmation.",
+  "site_localization": {
+    "case_ids": [
+      "154L",
+      "1GNY",
+      "1KJL",
+      "1QFO",
+      "2J1T",
+      "1PWB",
+      "2VUZ"
+    ],
+    "rows": [
+      {
+        "complex_id": "154L",
+        "condition_id": "154L",
+        "method": "fpocket",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 1.0,
+        "top5_success_4A": 1.0
+      },
+      {
+        "complex_id": "154L",
+        "condition_id": "154L",
+        "method": "p2rank",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 0.0,
+        "top5_success_4A": 1.0
+      },
+      {
+        "complex_id": "1GNY",
+        "condition_id": "1GNY",
+        "method": "fpocket",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 1.0,
+        "top5_success_4A": 1.0
+      },
+      {
+        "complex_id": "1GNY",
+        "condition_id": "1GNY",
+        "method": "p2rank",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 1.0,
+        "top5_success_4A": 1.0
+      },
+      {
+        "complex_id": "1KJL",
+        "condition_id": "1KJL",
+        "method": "fpocket",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 1.0,
+        "top5_success_4A": 1.0
+      },
+      {
+        "complex_id": "1KJL",
+        "condition_id": "1KJL",
+        "method": "p2rank",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 1.0,
+        "top5_success_4A": 1.0
+      },
+      {
+        "complex_id": "1QFO",
+        "condition_id": "1QFO",
+        "method": "fpocket",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 0.0,
+        "top5_success_4A": 0.0
+      },
+      {
+        "complex_id": "1QFO",
+        "condition_id": "1QFO",
+        "method": "p2rank",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 0.0,
+        "top5_success_4A": 0.0
+      },
+      {
+        "complex_id": "2J1T",
+        "condition_id": "2J1T",
+        "method": "fpocket",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 0.0,
+        "top5_success_4A": 1.0
+      },
+      {
+        "complex_id": "2J1T",
+        "condition_id": "2J1T",
+        "method": "p2rank",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 0.0,
+        "top5_success_4A": 0.0
+      },
+      {
+        "complex_id": "1PWB",
+        "condition_id": "1PWB",
+        "method": "fpocket",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 0.0,
+        "top5_success_4A": 0.0
+      },
+      {
+        "complex_id": "1PWB",
+        "condition_id": "1PWB",
+        "method": "p2rank",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 0.0,
+        "top5_success_4A": 0.0
+      },
+      {
+        "complex_id": "2VUZ",
+        "condition_id": "2VUZ",
+        "method": "fpocket",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 0.0,
+        "top5_success_4A": 1.0
+      },
+      {
+        "complex_id": "2VUZ",
+        "condition_id": "2VUZ",
+        "method": "p2rank",
+        "state": "holo",
+        "status": "ok",
+        "top1_success_4A": 1.0,
+        "top5_success_4A": 1.0
+      }
+    ],
+    "selection": "Retrospective seven-case nonviral subset, not the frozen eight-system primary aggregate. Both AAV9 states are excluded.",
+    "threshold_A": 4
+  },
+  "source_commit": "ddd84f9c9021d43a4c58868c9116d0523f3cbb79",
+  "sources": {
+    "results/development_pose_report_release/qualified_pose_v2_summary.json": {
+      "sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2",
+      "url": "https://github.com/AlecKriebel/AAV-Docking-Benchmark/blob/ddd84f9c9021d43a4c58868c9116d0523f3cbb79/results/development_pose_report_release/qualified_pose_v2_summary.json"
+    },
+    "results/gal9_specificity/summary.json": {
+      "sha256": "126ca071de7bdbb495e49110dde81705773aafde575250fb529483e501d97913",
+      "url": "https://github.com/AlecKriebel/AAV-Docking-Benchmark/blob/ddd84f9c9021d43a4c58868c9116d0523f3cbb79/results/gal9_specificity/summary.json"
+    },
+    "results/pol_specificity/summary.json": {
+      "sha256": "74e85811ef6c4d0067a61b2f6f2110694181573281dcc32b528a9a10e5e54ead",
+      "url": "https://github.com/AlecKriebel/AAV-Docking-Benchmark/blob/ddd84f9c9021d43a4c58868c9116d0523f3cbb79/results/pol_specificity/summary.json"
+    },
+    "results/site_discovery/evaluation.json": {
+      "sha256": "d5043c7160598b100b9c8b78d792ec26a3abde60b88cfa1d288d9fb8ebc57a5f",
+      "url": "https://github.com/AlecKriebel/AAV-Docking-Benchmark/blob/ddd84f9c9021d43a4c58868c9116d0523f3cbb79/results/site_discovery/evaluation.json"
+    }
+  },
+  "status": {
+    "assessment_complete": true,
+    "confirmatory_study_complete": false,
+    "general_reliability_established": false,
+    "new_atomic_metrics_computed": false,
+    "new_native_runs_performed": false
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "coordinate_threshold_A": 2,
+  "rows": [
+    {
+      "best_retained_displacement_A": 3.333,
+      "condition": "holo_complete",
+      "poses": 20,
+      "retained_within_threshold": false,
+      "seed": 104729,
+      "top1_displacement_A": 11.491,
+      "top1_score_kcal_mol": -4.865,
+      "top5_min_displacement_A": 8.474
+    },
+    {
+      "best_retained_displacement_A": 3.339,
+      "condition": "holo_complete",
+      "poses": 20,
+      "retained_within_threshold": false,
+      "seed": 130363,
+      "top1_displacement_A": 11.487,
+      "top1_score_kcal_mol": -4.869,
+      "top5_min_displacement_A": 8.465
+    },
+    {
+      "best_retained_displacement_A": 3.328,
+      "condition": "holo_complete",
+      "poses": 20,
+      "retained_within_threshold": false,
+      "seed": 155921,
+      "top1_displacement_A": 11.505,
+      "top1_score_kcal_mol": -4.863,
+      "top5_min_displacement_A": 8.471
+    },
+    {
+      "best_retained_displacement_A": 3.681,
+      "condition": "apo_complete",
+      "poses": 20,
+      "retained_within_threshold": false,
+      "seed": 104729,
+      "top1_displacement_A": 9.045,
+      "top1_score_kcal_mol": -4.62,
+      "top5_min_displacement_A": 5.095
+    },
+    {
+      "best_retained_displacement_A": 3.724,
+      "condition": "apo_complete",
+      "poses": 20,
+      "retained_within_threshold": false,
+      "seed": 130363,
+      "top1_displacement_A": 9.047,
+      "top1_score_kcal_mol": -4.619,
+      "top5_min_displacement_A": 5.105
+    },
+    {
+      "best_retained_displacement_A": 3.905,
+      "condition": "apo_complete",
+      "poses": 20,
+      "retained_within_threshold": false,
+      "seed": 155921,
+      "top1_displacement_A": 9.074,
+      "top1_score_kcal_mol": -4.611,
+      "top5_min_displacement_A": 5.096
+    }
+  ],
+  "source_commit": "ddd84f9c9021d43a4c58868c9116d0523f3cbb79",
+  "summaries": [
+    {
+      "best_retained_displacement_A": 3.333,
+      "completed_runs": 3,
+      "condition": "holo_complete",
+      "eligible_runs": 3,
+      "retained_poses": 60,
+      "runs_retaining_pose_within_threshold": 0,
+      "top1_displacement_A": 11.494,
+      "top1_score_kcal_mol": -4.866,
+      "top5_min_displacement_A": 8.47
+    },
+    {
+      "best_retained_displacement_A": 3.77,
+      "completed_runs": 3,
+      "condition": "apo_complete",
+      "eligible_runs": 3,
+      "retained_poses": 60,
+      "runs_retaining_pose_within_threshold": 0,
+      "top1_displacement_A": 9.055,
+      "top1_score_kcal_mol": -4.617,
+      "top5_min_displacement_A": 5.098
+    }
+  ]
+}

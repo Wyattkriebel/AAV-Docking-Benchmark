@@ -1,6 +1,1 @@
-numpy==2.3.5
-scipy==1.17.0
-gemmi==0.7.5
-rdkit==2026.9.1
-vina==1.2.7
-meeko==0.8.0
+# The archived AAV9 comparison uses only the Python 3.11+ standard library.

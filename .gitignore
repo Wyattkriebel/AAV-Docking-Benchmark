@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Original logs are evidence for the archived six-run comparison.
+!comparison/inputs/*.log

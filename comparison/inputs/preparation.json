@@ -1,0 +1,170 @@
+{
+  "alignment_CA_count": 31080,
+  "alignment_scope": "all corresponding whole-assembly CA atoms; author chain/residue identity",
+  "apo_assembly": {
+    "assembly_id": "1",
+    "author_chain_ids_preserved": true,
+    "deposited_model": 1,
+    "materializations": 1,
+    "operator": "identity",
+    "protein_subunits": 60
+  },
+  "apo_to_holo_CA_rmsd_A": 0.6071591031339104,
+  "box_center": [
+    33.69616666666667,
+    22.019916666666663,
+    120.14958333333335
+  ],
+  "box_size": [
+    20.0,
+    20.0,
+    20.0
+  ],
+  "closest_omitted_apo_atom_to_box_A": 7.609312055669526,
+  "closest_omitted_holo_atom_to_box_A": 7.110015860859015,
+  "dry_baseline": true,
+  "holo_assembly": {
+    "assembly_id": "1",
+    "author_chain_ids_preserved": true,
+    "deposited_model": 1,
+    "materializations": 1,
+    "operator": "identity",
+    "protein_subunits": 60
+  },
+  "information_regime": "true-site-local; reference-derived neighborhood; not blind",
+  "input_sha256": {
+    "7MT0.cif": "3ed60cbf0170dc8f6a7a79cec521ad0a81ca98d71b4c246e3b3ec654cf4108b2",
+    "7MTZ.cif": "680d2c5f39ed6f4899718f55f5f0891e4cd7fbfd1fce8e9f555f45b7de64d582",
+    "GAL.cif": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a"
+  },
+  "interaction_cutoff_A": 6.0,
+  "ligand": {
+    "ccd_atom_names": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O5",
+      "O6"
+    ],
+    "embedding_seed": 20261024,
+    "formal_charge": 0,
+    "glycosidic_linkages": 0,
+    "graph_source": "CCD GAL explicit atom/bond tables",
+    "heavy_atoms": 12,
+    "initial_conformer": "independent ETKDGv3 then MMFF94; centered in oracle box",
+    "isomeric_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+    "native_coordinates_used_for_embedding": false,
+    "stereochemistry_source": "CCD ideal coordinates"
+  },
+  "ligand_file": "galactose.pdbqt",
+  "missing_apo_residues_in_holo": [],
+  "missing_holo_residues_in_apo": [],
+  "neighborhood_rule": "union of apo/holo whole subunits within 6 A of any point in the 20 A box",
+  "pdb_chain_mapping": {
+    "A": "A",
+    "B": "B",
+    "I": "I"
+  },
+  "receptors": [
+    {
+      "assembly_condition": "complete",
+      "atom_log_file": "holo_complete_receptor_atom_changes.json",
+      "author_chains": [
+        "A",
+        "B",
+        "I"
+      ],
+      "heavy_atoms": 12393,
+      "id": "holo_complete",
+      "is_incomplete_control": false,
+      "pdb_file": "holo_complete_receptor.pdb",
+      "pdbqt_file": "holo_complete_receptor.pdbqt",
+      "state": "holo"
+    },
+    {
+      "assembly_condition": "monomer",
+      "atom_log_file": "holo_monomer_receptor_atom_changes.json",
+      "author_chains": [
+        "A"
+      ],
+      "heavy_atoms": 4131,
+      "id": "holo_monomer",
+      "is_incomplete_control": true,
+      "pdb_file": "holo_monomer_receptor.pdb",
+      "pdbqt_file": "holo_monomer_receptor.pdbqt",
+      "state": "holo"
+    },
+    {
+      "assembly_condition": "complete",
+      "atom_log_file": "apo_complete_receptor_atom_changes.json",
+      "author_chains": [
+        "A",
+        "B",
+        "I"
+      ],
+      "heavy_atoms": 12393,
+      "id": "apo_complete",
+      "is_incomplete_control": false,
+      "pdb_file": "apo_complete_receptor.pdb",
+      "pdbqt_file": "apo_complete_receptor.pdbqt",
+      "state": "apo"
+    },
+    {
+      "assembly_condition": "monomer",
+      "atom_log_file": "apo_monomer_receptor_atom_changes.json",
+      "author_chains": [
+        "A"
+      ],
+      "heavy_atoms": 4131,
+      "id": "apo_monomer",
+      "is_incomplete_control": true,
+      "pdb_file": "apo_monomer_receptor.pdb",
+      "pdbqt_file": "apo_monomer_receptor.pdbqt",
+      "state": "apo"
+    }
+  ],
+  "reference_file": "reference.json",
+  "repaired_heavy_atoms": false,
+  "rotation": [
+    [
+      0.8090183925127615,
+      0.4999999379551941,
+      -0.30901343436955897
+    ],
+    [
+      -0.3090164122886155,
+      0.8090153368512057,
+      0.5000030416665512
+    ],
+    [
+      0.49999809750872054,
+      -0.30902143418269995,
+      0.8090164743089765
+    ]
+  ],
+  "selected_author_chains": [
+    "A",
+    "B",
+    "I"
+  ],
+  "status": "prepared",
+  "translation": [
+    -9.958294440746286e-05,
+    0.0004256779073071912,
+    -0.0002938196381928514
+  ],
+  "versions": {
+    "gemmi": "0.7.5",
+    "meeko": "0.8.0",
+    "numpy": "2.4.2",
+    "rdkit": "2026.9.1",
+    "scipy": "1.17.0"
+  }
+}
