@@ -1,0 +1,188 @@
+{
+  "all_archived_member_hashes_verified": true,
+  "archived_files": 14370,
+  "archives": [
+    {
+      "bytes": 6784868,
+      "members": 1000,
+      "path": "nonviral-case-files-01.tar.gz",
+      "sha256": "47d89c28090962b178750739a68b798efeabfa83b5eeb40f80ac645fc3ebdf41"
+    },
+    {
+      "bytes": 10242296,
+      "members": 1000,
+      "path": "nonviral-case-files-02.tar.gz",
+      "sha256": "e47e3f372f13bf88f91ec631b6ee57c2c76f3f94cf91273142bf65a19e932773"
+    },
+    {
+      "bytes": 18718805,
+      "members": 1000,
+      "path": "nonviral-case-files-03.tar.gz",
+      "sha256": "71b5f512d05c8ad816eb3ee07a418f2b344e46fa0159cf9e78cdf925a49d9d1e"
+    },
+    {
+      "bytes": 21164751,
+      "members": 734,
+      "path": "nonviral-case-files-04.tar.gz",
+      "sha256": "76b2e23510dac0b6882abe74b508a32088da770ae961c3e04da5f78d48112723"
+    },
+    {
+      "bytes": 21179996,
+      "members": 733,
+      "path": "nonviral-case-files-05.tar.gz",
+      "sha256": "67b4ca4391118f994bad7fb5d1f922d065d97128627928a644b96b3d4dcd6919"
+    },
+    {
+      "bytes": 18510851,
+      "members": 1000,
+      "path": "nonviral-case-files-06.tar.gz",
+      "sha256": "7cecc4faf43d11e7ccc4ffe4d81f94eb137cee3ae1c16bbb4dbf7972f9c36750"
+    },
+    {
+      "bytes": 13477378,
+      "members": 1000,
+      "path": "nonviral-case-files-07.tar.gz",
+      "sha256": "2895df8694b680af6b0ee4e575e030e1c8b3ba85c3b8131eabb991562988b8d3"
+    },
+    {
+      "bytes": 12901741,
+      "members": 1000,
+      "path": "nonviral-case-files-08.tar.gz",
+      "sha256": "60bd36b7dc8b6a9c214fc7b1fc47bb3f1453b5c524c7ce38bf323ab9cda5c678"
+    },
+    {
+      "bytes": 11605504,
+      "members": 1000,
+      "path": "nonviral-case-files-09.tar.gz",
+      "sha256": "7dda386e73fae3bf4e70ca5e8e7e679620f1c7c3bbe885a30d52280b70961d58"
+    },
+    {
+      "bytes": 20835689,
+      "members": 781,
+      "path": "nonviral-case-files-10.tar.gz",
+      "sha256": "b686632a3ce2c6318d9442bcddc4f7d717d81a1d27d201084f10731a18943db8"
+    },
+    {
+      "bytes": 21130062,
+      "members": 734,
+      "path": "nonviral-case-files-11.tar.gz",
+      "sha256": "61820737017db0aa1e5faf035b51405ad4f7c2a8ba5217ac524b5400e395cf83"
+    },
+    {
+      "bytes": 20905197,
+      "members": 883,
+      "path": "nonviral-case-files-12.tar.gz",
+      "sha256": "029e2ba6efe0522d31bd7c84bf7a67942c34802caeeec715f73ac99e12603333"
+    },
+    {
+      "bytes": 4409374,
+      "members": 1000,
+      "path": "nonviral-case-files-13.tar.gz",
+      "sha256": "779e76c74653dc2c082e6a71916b1cefaf8578231477e529b3635000a871fbf0"
+    },
+    {
+      "bytes": 404706,
+      "members": 1000,
+      "path": "nonviral-case-files-14.tar.gz",
+      "sha256": "f0921c00a3fbbd8bbf1fbb763a158a6bac445a8ec9ce62927ea3a9c5befbdb86"
+    },
+    {
+      "bytes": 6163671,
+      "members": 1000,
+      "path": "nonviral-case-files-15.tar.gz",
+      "sha256": "1c6261f8d323625963051f10b14eff80aaea0a0e8ef14f0f9d9faad9e867fe16"
+    },
+    {
+      "bytes": 1942630,
+      "members": 505,
+      "path": "nonviral-case-files-16.tar.gz",
+      "sha256": "02f56167eabcd5113bcf66dfc28e3b2fed1a146167d9eb66358ac86ad5521c3a"
+    }
+  ],
+  "complete_public_backup": false,
+  "confirmatory_study_complete": false,
+  "data_release": {
+    "repository": "AlecKriebel/AAV-Docking-Benchmark",
+    "tag": "preservation-2026-11-06",
+    "url": "https://github.com/AlecKriebel/AAV-Docking-Benchmark/releases/tag/preservation-2026-11-06"
+  },
+  "manifest": {
+    "bytes": 3573164,
+    "path": "members.ndjson",
+    "sha256": "f335e1bdeaa70fa4f1eb94aae7686d09ab4ff81d9a3fd896ed9bd94839f07257"
+  },
+  "nested_archive_or_mixed_content_candidates_kept_private": 234,
+  "newly_public_original_paths": 14380,
+  "original_untracked_paths_retained_private_only": 1858,
+  "private_backup_verified_nonvolatile_regular_files": 220736,
+  "private_backup_verified_regular_bytes": 7070109269,
+  "private_only_scope": [
+    "Restricted supplemental expansion",
+    "Unpublished viral-case and mixed/global experiment files",
+    "Nested historical archives and files with mixed-scope markers",
+    "Local Git internals including orphan objects",
+    "Runtime installations, ignored files and volatile Finder metadata"
+  ],
+  "purpose": "Partial archival preservation of existing nonviral per-case files and source-only support tooling. No new scientific evaluation.",
+  "scientific_metrics_recomputed": false,
+  "source_baseline_commit": "ddd84f9c9021d43a4c58868c9116d0523f3cbb79",
+  "source_untracked_files_before_preservation": 16238,
+  "support_files": [
+    {
+      "bytes": 6756,
+      "path": "aav_benchmark/paired_worksharing_model.py",
+      "sha256": "2240ed73f20ec1b62bf0248ca5a6eab660ea83d501b07ea3ccb3d531f6850ab2"
+    },
+    {
+      "bytes": 7537,
+      "path": "tests/test_paired_worksharing_model.py",
+      "sha256": "9b2e11e951a9901f1660de548b0590ec788a6ab3e1d243a675f331082ab8b028"
+    },
+    {
+      "bytes": 8507,
+      "path": "docs/PAIRED_WORKSHARING_PROPOSAL.md",
+      "sha256": "6f106139173b5293241628d2175a3e76ae7af1d27d95b3e01c657aec6a8e81c7"
+    },
+    {
+      "bytes": 10646,
+      "path": "docs/STRUCTURAL_OUTPUT_READINESS.md",
+      "sha256": "58f2d1481a66c51afc2480f6db9cf0f378af122d49f635c9964868226062bcdc"
+    },
+    {
+      "bytes": 9441,
+      "path": "docs/STRUCTURAL_RAW_OUTPUT_PACKAGING.md",
+      "sha256": "550bebb08c57f5a7429e5839e3a33e0dd1944cdd9a3c1cf860461e136bddcf15"
+    },
+    {
+      "bytes": 24638,
+      "path": "tests/test_structural_output_packager.py",
+      "sha256": "c38757faddcd5c352908c72acf1646774d57d88500d48d2b205767449af998a9"
+    },
+    {
+      "bytes": 65643,
+      "path": "tests/test_structural_output_readiness.py",
+      "sha256": "bab811b7b775a469a96f73defe7d7a70bb0da869fe4a463f1a73378edb835c34"
+    },
+    {
+      "bytes": 35998,
+      "path": "results/structural_pose_output_foundation/package_outputs.py",
+      "sha256": "400cc0cbc4fb3700a93403ae642c1f9dc4b5c0f468892db8f55295278d71b12d"
+    },
+    {
+      "bytes": 55798,
+      "path": "results/structural_pose_output_foundation/validate_readiness.py",
+      "sha256": "1c4fdd6efc28b19b921c44242347022ef1a3ffe60d965cd00da8d53d18f22fa7"
+    },
+    {
+      "bytes": 9622,
+      "path": "results/structural_pose_output_foundation/packaging_plan.proposal.json",
+      "sha256": "961e5537b1a48223a35cad10f61720db2c0f08772326a1b6f8892d90874bc600"
+    }
+  ],
+  "support_tests": {
+    "failed": 0,
+    "passed": 193,
+    "scope": "Synthetic scheduling, opaque packaging and metadata readiness only; per-test TEMP cleanup to fit the local disk."
+  },
+  "uncompressed_bytes": 674930871
+}
