@@ -1,0 +1,37 @@
+{
+  "assembly": {
+    "assembly_id": null,
+    "materializations": 0,
+    "scope": "entire deposited receptor model; biological completeness not certified"
+  },
+  "atom_map": "data/processed/site_inputs/154L/receptor.cif.atoms.tsv.gz",
+  "atom_map_sha256": "3e9b78ac860937682187fd5d3e5a5727a552052fca84bcd8c73b271e88a1b761",
+  "distance_based_selection": false,
+  "gemmi_version": "0.7.5",
+  "information_regime": "full_surface_site_agnostic",
+  "max_serialization_displacement_A": 0.0,
+  "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+  "native_ligand_access": false,
+  "omitted_atoms": {},
+  "omitted_residue_counts": {},
+  "policy": {
+    "aav_assembly": "assembly 1 materialized once with existing identity-operator/60-subunit audit; no reference neighborhood",
+    "alternate_conformers": "fail rather than select using a native ligand",
+    "coordinates": "preserve source heavy-atom coordinates; no minimization, alignment, protonation, or added atoms",
+    "metals": "metal-free discovery baseline; no claim of retained-calcium equivalence to the docking baseline",
+    "nonprotein": "remove all waters, metals, ions, glycans and other nonprotein residues uniformly",
+    "other_assemblies": "entire deposited receptor supplied to preparer; biological completeness remains a separately qualified condition",
+    "protein": "all canonical amino-acid heavy atoms from one complete declared input model; no distance-based selection"
+  },
+  "protein_heavy_atoms": 1432,
+  "protein_subunits": 1,
+  "receptor": "data/processed/site_inputs/154L/receptor.cif",
+  "receptor_sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7",
+  "schema_version": 1,
+  "serialization_metadata": "numeric entity IDs; sequential label_seq_id only where source has none; author IDs unchanged",
+  "source": "data/raw/external/154L_r_b.pdb",
+  "source_atoms_before_stripping": 1432,
+  "source_label_identifiers_present": false,
+  "source_sha256": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b",
+  "status": "prepared"
+}

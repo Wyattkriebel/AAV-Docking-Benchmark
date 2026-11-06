@@ -1,0 +1,1093 @@
+{
+  "schema_version": 1,
+  "source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+  "description": "Deposited chemical connectivity and author/label residue map; not a local-density quality certification. Ordered atom maps for scoring are generated separately from matched source coordinates.",
+  "cases": [
+    {
+      "pdb_id": "154L",
+      "source_url": "https://files.rcsb.org/download/154L.cif",
+      "sha256": "a883c45350c4fdd0812123e47d9ea77b3e4fdbb1aaa80b2f0192f6e0658e62ca",
+      "retrieved_date": "2026-10-28",
+      "revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 1,
+        "ordinal": 5,
+        "revision_date": "2024-11-20T00:00:00.000+00:00"
+      },
+      "branch_residues": [
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "1",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "2",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "3",
+          "hetero": "n"
+        }
+      ],
+      "branch_links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "author_label_residue_map": [
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "1",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "1",
+          "auth_asym_id": "?",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "3",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "2",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "2",
+          "auth_asym_id": "?",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "2",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "3",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "3",
+          "auth_asym_id": "?",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "1",
+          "hetero": "n"
+        }
+      ],
+      "upstream_prepared_inputs": {
+        "r_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/154L/154L_r_b.pdb",
+          "sha256": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b",
+          "bytes": 116154
+        },
+        "l_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/154L/154L_l_b.pdb",
+          "sha256": "2fa82dfad993e0d3db4f35ff0b3a1ac3d06002019c5560050a2db3cfcd5f8033",
+          "bytes": 3564
+        },
+        "r_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/154L/154L_r_u.pdb",
+          "sha256": "cda947449e49a6b0eee490194b837f05e9d952f8bfe623865330172bc8b08deb",
+          "bytes": 115996
+        },
+        "l_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/154L/154L_l_u.pdb",
+          "sha256": "6b79977597395dfcb4f8558839ffb33fa5db998022dcf961b58c39a337c64fdf",
+          "bytes": 6646
+        }
+      }
+    },
+    {
+      "pdb_id": "1GNY",
+      "source_url": "https://files.rcsb.org/download/1GNY.cif",
+      "sha256": "cca70307b2ba7c918e9ed4dc170f17975df86ca931ce7f1dec5014bb81a96329",
+      "retrieved_date": "2026-10-28",
+      "revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 2,
+        "ordinal": 6,
+        "revision_date": "2024-11-06T00:00:00.000+00:00"
+      },
+      "branch_residues": [
+        {
+          "entity_id": "2",
+          "comp_id": "XYP",
+          "num": "1",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "XYP",
+          "num": "2",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "XYP",
+          "num": "3",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "XYP",
+          "num": "4",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "XYP",
+          "num": "5",
+          "hetero": "n"
+        }
+      ],
+      "branch_links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "XYP",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "XYP",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "XYP",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "XYP",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "3",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "4",
+          "comp_id_1": "XYP",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "3",
+          "comp_id_2": "XYP",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "4",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "5",
+          "comp_id_1": "XYP",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "4",
+          "comp_id_2": "XYP",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "author_label_residue_map": [
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "XYP",
+          "num": "1",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "XYP",
+          "pdb_seq_num": "1",
+          "auth_asym_id": "A",
+          "auth_mon_id": "XYP",
+          "auth_seq_num": "1245",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "XYP",
+          "num": "2",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "XYP",
+          "pdb_seq_num": "2",
+          "auth_asym_id": "A",
+          "auth_mon_id": "XYP",
+          "auth_seq_num": "1246",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "XYP",
+          "num": "3",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "XYP",
+          "pdb_seq_num": "3",
+          "auth_asym_id": "A",
+          "auth_mon_id": "XYP",
+          "auth_seq_num": "1247",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "XYP",
+          "num": "4",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "XYP",
+          "pdb_seq_num": "4",
+          "auth_asym_id": "A",
+          "auth_mon_id": "XYP",
+          "auth_seq_num": "1248",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "XYP",
+          "num": "5",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "XYP",
+          "pdb_seq_num": "5",
+          "auth_asym_id": "A",
+          "auth_mon_id": "XYP",
+          "auth_seq_num": "1249",
+          "hetero": "n"
+        }
+      ],
+      "upstream_prepared_inputs": {
+        "r_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_r_b.pdb",
+          "sha256": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf",
+          "bytes": 90963
+        },
+        "l_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_l_b.pdb",
+          "sha256": "0fb5a662a78bf229dbb93736d39d108d852f4441e3bb1b1825e5ab524a2e6fd1",
+          "bytes": 3807
+        },
+        "r_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_r_u.pdb",
+          "sha256": "ac25c5212fca9e11fd8a704221f4fb9862ce1106e47a9c95f5ce6c1be78cadff",
+          "bytes": 71446
+        },
+        "l_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_l_u.pdb",
+          "sha256": "e2a65473e74d42aa92dbde6a19af8d0724cabae02cfa00908d7d0540a6dde6d5",
+          "bytes": 6970
+        }
+      }
+    },
+    {
+      "pdb_id": "1KJL",
+      "source_url": "https://files.rcsb.org/download/1KJL.cif",
+      "sha256": "df637376e7f2ecbaf6a0f8c1c9d1a4923b3c047b0c32891db2d7dea5c44a5e90",
+      "retrieved_date": "2026-10-28",
+      "revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 1,
+        "ordinal": 5,
+        "revision_date": "2023-08-16T00:00:00.000+00:00"
+      },
+      "branch_residues": [
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "1",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "GAL",
+          "num": "2",
+          "hetero": "n"
+        }
+      ],
+      "branch_links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "GAL",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "author_label_residue_map": [
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "1",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "1",
+          "auth_asym_id": "?",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "502",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "GAL",
+          "num": "2",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "GAL",
+          "pdb_seq_num": "2",
+          "auth_asym_id": "?",
+          "auth_mon_id": "GAL",
+          "auth_seq_num": "501",
+          "hetero": "n"
+        }
+      ],
+      "upstream_prepared_inputs": {
+        "r_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_r_b.pdb",
+          "sha256": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae",
+          "bytes": 89829
+        },
+        "l_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_l_b.pdb",
+          "sha256": "eecffcadd2404b277fbe1a86efe3f7fd7b4409a422c4f9fa9f7d8e2744f48d37",
+          "bytes": 2187
+        },
+        "r_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_r_u.pdb",
+          "sha256": "00f07bbe812ae9d03b10caa18df546fa956c3da6e3659799c5cb7c0f10b7202e",
+          "bytes": 89752
+        },
+        "l_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_l_u.pdb",
+          "sha256": "10be6e6158baae669caf75a1d2c3a5c1f9c6f58aed824c9533d65458355958ec",
+          "bytes": 3973
+        }
+      }
+    },
+    {
+      "pdb_id": "1QFO",
+      "source_url": "https://files.rcsb.org/download/1QFO.cif",
+      "sha256": "ac932455ee2d2de9726af0e52c9c733831b4d3e8f1afc67f52b23e849989ffc1",
+      "retrieved_date": "2026-10-28",
+      "revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 2,
+        "ordinal": 6,
+        "revision_date": "2024-10-30T00:00:00.000+00:00"
+      },
+      "branch_residues": [
+        {
+          "entity_id": "2",
+          "comp_id": "GLC",
+          "num": "1",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "GAL",
+          "num": "2",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "SIA",
+          "num": "3",
+          "hetero": "n"
+        }
+      ],
+      "branch_links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "GAL",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "GLC",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "SIA",
+          "atom_id_1": "C2",
+          "leaving_atom_id_1": "O2",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "GAL",
+          "atom_id_2": "O3",
+          "leaving_atom_id_2": "HO3",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "author_label_residue_map": [
+        {
+          "asym_id": "D",
+          "entity_id": "2",
+          "mon_id": "GLC",
+          "num": "1",
+          "pdb_asym_id": "D",
+          "pdb_mon_id": "GLC",
+          "pdb_seq_num": "1",
+          "auth_asym_id": "D",
+          "auth_mon_id": "GLC",
+          "auth_seq_num": "203",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "D",
+          "entity_id": "2",
+          "mon_id": "GAL",
+          "num": "2",
+          "pdb_asym_id": "D",
+          "pdb_mon_id": "GAL",
+          "pdb_seq_num": "2",
+          "auth_asym_id": "D",
+          "auth_mon_id": "GAL",
+          "auth_seq_num": "202",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "D",
+          "entity_id": "2",
+          "mon_id": "SIA",
+          "num": "3",
+          "pdb_asym_id": "D",
+          "pdb_mon_id": "SIA",
+          "pdb_seq_num": "3",
+          "auth_asym_id": "D",
+          "auth_mon_id": "SIA",
+          "auth_seq_num": "201",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "E",
+          "entity_id": "2",
+          "mon_id": "GLC",
+          "num": "1",
+          "pdb_asym_id": "E",
+          "pdb_mon_id": "GLC",
+          "pdb_seq_num": "1",
+          "auth_asym_id": "E",
+          "auth_mon_id": "GLC",
+          "auth_seq_num": "203",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "E",
+          "entity_id": "2",
+          "mon_id": "GAL",
+          "num": "2",
+          "pdb_asym_id": "E",
+          "pdb_mon_id": "GAL",
+          "pdb_seq_num": "2",
+          "auth_asym_id": "E",
+          "auth_mon_id": "GAL",
+          "auth_seq_num": "202",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "E",
+          "entity_id": "2",
+          "mon_id": "SIA",
+          "num": "3",
+          "pdb_asym_id": "E",
+          "pdb_mon_id": "SIA",
+          "pdb_seq_num": "3",
+          "auth_asym_id": "E",
+          "auth_mon_id": "SIA",
+          "auth_seq_num": "201",
+          "hetero": "n"
+        }
+      ],
+      "upstream_prepared_inputs": {
+        "r_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1QFO/1QFO_r_b.pdb",
+          "sha256": "c40a29bb1cca0e6c9e77c3f603afa8a5f774fa36acfc7026e38bd3aec758100a",
+          "bytes": 73953
+        },
+        "l_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1QFO/1QFO_l_b.pdb",
+          "sha256": "f95582e589f11bc5d0d9e36474a9ca81243e9ba734620fd60f205a5b7d5fc80f",
+          "bytes": 3487
+        },
+        "r_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1QFO/1QFO_r_u.pdb",
+          "sha256": "6c4a6b0f1c70d98c9fe390459d8c4cfb4348978cfac24c635064329e3cd041fe",
+          "bytes": 71446
+        },
+        "l_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1QFO/1QFO_l_u.pdb",
+          "sha256": "013439e9f47f19ba005ff34c5f3a309c3ee1286b6da841bfe98275c8208b3793",
+          "bytes": 13004
+        }
+      }
+    },
+    {
+      "pdb_id": "2J1T",
+      "source_url": "https://files.rcsb.org/download/2J1T.cif",
+      "sha256": "a2aa0a444e5893a883c311a469d9ff75279d500b213b7696b34ba7e22a22609d",
+      "retrieved_date": "2026-10-28",
+      "revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 1,
+        "ordinal": 5,
+        "revision_date": "2024-05-08T00:00:00.000+00:00"
+      },
+      "branch_residues": [
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "1",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "GAL",
+          "num": "2",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "FUC",
+          "num": "3",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "FUC",
+          "num": "4",
+          "hetero": "n"
+        }
+      ],
+      "branch_links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "GAL",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "FUC",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "GAL",
+          "atom_id_2": "O2",
+          "leaving_atom_id_2": "HO2",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "3",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "4",
+          "comp_id_1": "FUC",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O3",
+          "leaving_atom_id_2": "HO3",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "author_label_residue_map": [
+        {
+          "asym_id": "C",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "1",
+          "pdb_asym_id": "C",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "1",
+          "auth_asym_id": "A",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "1152",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "C",
+          "entity_id": "2",
+          "mon_id": "GAL",
+          "num": "2",
+          "pdb_asym_id": "C",
+          "pdb_mon_id": "GAL",
+          "pdb_seq_num": "2",
+          "auth_asym_id": "A",
+          "auth_mon_id": "GAL",
+          "auth_seq_num": "1151",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "C",
+          "entity_id": "2",
+          "mon_id": "FUC",
+          "num": "3",
+          "pdb_asym_id": "C",
+          "pdb_mon_id": "FUC",
+          "pdb_seq_num": "3",
+          "auth_asym_id": "A",
+          "auth_mon_id": "FUC",
+          "auth_seq_num": "1150",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "C",
+          "entity_id": "2",
+          "mon_id": "FUC",
+          "num": "4",
+          "pdb_asym_id": "C",
+          "pdb_mon_id": "FUC",
+          "pdb_seq_num": "4",
+          "auth_asym_id": "A",
+          "auth_mon_id": "FUC",
+          "auth_seq_num": "1153",
+          "hetero": "n"
+        }
+      ],
+      "upstream_prepared_inputs": {
+        "r_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_r_b.pdb",
+          "sha256": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a",
+          "bytes": 87075
+        },
+        "l_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_l_b.pdb",
+          "sha256": "45a8497e4e345d525ac03099284db6594ff61885e9d3389869d748fd71b00553",
+          "bytes": 3807
+        },
+        "r_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_r_u.pdb",
+          "sha256": "4649257f4b49a48a75e95936b19784509ad08da421a10109d85d6b5114dbf049",
+          "bytes": 86917
+        },
+        "l_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_l_u.pdb",
+          "sha256": "fe004298dd83f44e71bbcf19864e48ac294145bc9acd09394af3f76d7438b33a",
+          "bytes": 7216
+        }
+      }
+    },
+    {
+      "pdb_id": "2VUZ",
+      "source_url": "https://files.rcsb.org/download/2VUZ.cif",
+      "sha256": "fd1edcd6228042ba02383eeb2c524dd1bea3c4605a614d46a01201956ff22f8a",
+      "retrieved_date": "2026-10-28",
+      "revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 1,
+        "ordinal": 6,
+        "revision_date": "2023-12-13T00:00:00.000+00:00"
+      },
+      "branch_residues": [
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "1",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "2",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "BMA",
+          "num": "3",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "MAN",
+          "num": "4",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "5",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "MAN",
+          "num": "6",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "NAG",
+          "num": "7",
+          "hetero": "n"
+        }
+      ],
+      "branch_links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "BMA",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "3",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "4",
+          "comp_id_1": "MAN",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "3",
+          "comp_id_2": "BMA",
+          "atom_id_2": "O3",
+          "leaving_atom_id_2": "HO3",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "4",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "5",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "4",
+          "comp_id_2": "MAN",
+          "atom_id_2": "O2",
+          "leaving_atom_id_2": "HO2",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "5",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "6",
+          "comp_id_1": "MAN",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "3",
+          "comp_id_2": "BMA",
+          "atom_id_2": "O6",
+          "leaving_atom_id_2": "HO6",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "6",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "7",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "6",
+          "comp_id_2": "MAN",
+          "atom_id_2": "O2",
+          "leaving_atom_id_2": "HO2",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "author_label_residue_map": [
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "1",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "1",
+          "auth_asym_id": "A",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "1139",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "2",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "2",
+          "auth_asym_id": "A",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "1140",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "BMA",
+          "num": "3",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "BMA",
+          "pdb_seq_num": "3",
+          "auth_asym_id": "A",
+          "auth_mon_id": "BMA",
+          "auth_seq_num": "1131",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "MAN",
+          "num": "4",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "MAN",
+          "pdb_seq_num": "4",
+          "auth_asym_id": "A",
+          "auth_mon_id": "MAN",
+          "auth_seq_num": "1132",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "5",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "5",
+          "auth_asym_id": "A",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "1133",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "MAN",
+          "num": "6",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "MAN",
+          "pdb_seq_num": "6",
+          "auth_asym_id": "A",
+          "auth_mon_id": "MAN",
+          "auth_seq_num": "1134",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "B",
+          "entity_id": "2",
+          "mon_id": "NAG",
+          "num": "7",
+          "pdb_asym_id": "B",
+          "pdb_mon_id": "NAG",
+          "pdb_seq_num": "7",
+          "auth_asym_id": "A",
+          "auth_mon_id": "NAG",
+          "auth_seq_num": "1135",
+          "hetero": "n"
+        }
+      ],
+      "upstream_prepared_inputs": {
+        "r_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2VUZ/2VUZ_r_b.pdb",
+          "sha256": "010940dec8054fd63b8fcbc514caf7d3ba89da552bf6e851642cdfc031eed845",
+          "bytes": 80340
+        },
+        "l_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2VUZ/2VUZ_l_b.pdb",
+          "sha256": "9bd92f9e6803830fcf44e41f710ce71f061ad05583091d601faef0845a9d2b50",
+          "bytes": 7371
+        },
+        "r_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2VUZ/2VUZ_r_u.pdb",
+          "sha256": "d697ca1422bb4f9a5e05d80430605e3981769b75373d8c2ca461cd508685be94",
+          "bytes": 79789
+        },
+        "l_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2VUZ/2VUZ_l_u.pdb",
+          "sha256": "dfb437d9fd7ca8a46108a9c451d2a6d12a431a13ca1df82887bdd211a3d19360",
+          "bytes": 28070
+        }
+      }
+    },
+    {
+      "pdb_id": "1PWB",
+      "source_url": "https://files.rcsb.org/download/1PWB.cif",
+      "sha256": "2a51985b47bb986ab968e559d23e7b0ecdb37860a60972020629c648641aa38d",
+      "retrieved_date": "2026-10-28",
+      "revision": {
+        "data_content_type": "Structure model",
+        "major_revision": 2,
+        "minor_revision": 3,
+        "ordinal": 7,
+        "revision_date": "2024-11-13T00:00:00.000+00:00"
+      },
+      "branch_residues": [
+        {
+          "entity_id": "2",
+          "comp_id": "GLC",
+          "num": "1",
+          "hetero": "n"
+        },
+        {
+          "entity_id": "2",
+          "comp_id": "GLC",
+          "num": "2",
+          "hetero": "n"
+        }
+      ],
+      "branch_links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "GLC",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "GLC",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "author_label_residue_map": [
+        {
+          "asym_id": "D",
+          "entity_id": "2",
+          "mon_id": "GLC",
+          "num": "1",
+          "pdb_asym_id": "D",
+          "pdb_mon_id": "GLC",
+          "pdb_seq_num": "1",
+          "auth_asym_id": "A",
+          "auth_mon_id": "GLC",
+          "auth_seq_num": "406",
+          "hetero": "n"
+        },
+        {
+          "asym_id": "D",
+          "entity_id": "2",
+          "mon_id": "GLC",
+          "num": "2",
+          "pdb_asym_id": "D",
+          "pdb_mon_id": "GLC",
+          "pdb_seq_num": "2",
+          "auth_asym_id": "A",
+          "auth_mon_id": "GLC",
+          "auth_seq_num": "405",
+          "hetero": "n"
+        }
+      ],
+      "upstream_prepared_inputs": {
+        "r_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_r_b.pdb",
+          "sha256": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce",
+          "bytes": 93717
+        },
+        "l_b.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_l_b.pdb",
+          "sha256": "83e14a2a4036f3d8311b661f967430e6b37a710575356956f12ec87d0b97ac1a",
+          "bytes": 1944
+        },
+        "r_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_r_u.pdb",
+          "sha256": "ef74ab6905592e926aeadbc85711a44fd67fdf7e2b2653ae07a6eec9a2f27b22",
+          "bytes": 93559
+        },
+        "l_u.pdb": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_l_u.pdb",
+          "sha256": "b53ab9045264bda0774290ec36921b9b9f6e756f0a0f39ab0f152cbb0d870ad3",
+          "bytes": 3487
+        }
+      }
+    }
+  ]
+}

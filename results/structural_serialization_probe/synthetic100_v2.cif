@@ -1,0 +1,242 @@
+data_synthetic100
+loop_
+_entry.id
+synthetic100
+
+loop_
+_cell.entry_id
+_cell.length_a
+_cell.length_b
+_cell.length_c
+_cell.angle_alpha
+_cell.angle_beta
+_cell.angle_gamma
+synthetic100 1 1 1 90 90 90
+
+loop_
+_symmetry.entry_id
+_symmetry.space_group_name_H-M
+synthetic100 ''
+
+loop_
+_chem_comp.id
+_chem_comp.type
+GLY .
+MSE .
+
+loop_
+_atom_type.symbol
+C
+N
+O
+SE
+
+loop_
+_entity.id
+_entity.type
+1 polymer
+2 polymer
+
+loop_
+_entity_poly.entity_id
+_entity_poly.type
+_entity_poly.pdbx_strand_id
+_entity_poly.pdbx_seq_one_letter_code
+1 polypeptide(L) A (MSE)GGGGGGGGGGG
+2 polypeptide(L) B GGGGGGGGGGGG
+
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+_entity_poly_seq.hetero
+1 1 MSE n
+1 2 GLY n
+1 3 GLY n
+1 4 GLY n
+1 5 GLY n
+1 6 GLY n
+1 7 GLY n
+1 8 GLY n
+1 9 GLY n
+1 10 GLY n
+1 11 GLY n
+1 12 GLY n
+2 1 GLY n
+2 2 GLY n
+2 3 GLY n
+2 4 GLY n
+2 5 GLY n
+2 6 GLY n
+2 7 GLY n
+2 8 GLY n
+2 9 GLY n
+2 10 GLY n
+2 11 GLY n
+2 12 GLY n
+
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+A 1
+B 2
+
+loop_
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.seq_id
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.ndb_seq_num
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.auth_seq_num
+_pdbx_poly_seq_scheme.pdb_mon_id
+_pdbx_poly_seq_scheme.auth_mon_id
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.pdb_ins_code
+_pdbx_poly_seq_scheme.hetero
+A 1 1 MSE 1 1 1 MSE MSE A . n
+A 1 2 GLY 2 2 2 GLY GLY A . n
+A 1 3 GLY 3 3 3 GLY GLY A . n
+A 1 4 GLY 4 4 4 GLY GLY A . n
+A 1 5 GLY 5 5 5 GLY GLY A . n
+A 1 6 GLY 6 6 6 GLY GLY A . n
+A 1 7 GLY 7 9 9 GLY GLY A . n
+A 1 8 GLY 8 10 10 GLY GLY A . n
+A 1 9 GLY 9 11 11 GLY GLY A . n
+A 1 10 GLY 10 12 12 GLY GLY A . n
+A 1 11 GLY 11 13 13 GLY GLY A . n
+A 1 12 GLY 12 14 14 GLY GLY A . n
+B 2 1 GLY 1 1 1 GLY GLY B . n
+B 2 2 GLY 2 2 2 GLY GLY B . n
+B 2 3 GLY 3 3 3 GLY GLY B . n
+B 2 4 GLY 4 4 4 GLY GLY B . n
+B 2 5 GLY 5 5 5 GLY GLY B A n
+B 2 6 GLY 6 6 6 GLY GLY B . n
+B 2 7 GLY 7 9 9 GLY GLY B . n
+B 2 8 GLY 8 10 10 GLY GLY B . n
+B 2 9 GLY 9 11 11 GLY GLY B . n
+B 2 10 GLY 10 12 12 GLY GLY B . n
+B 2 11 GLY 11 13 13 GLY GLY B . n
+B 2 12 GLY 12 14 14 GLY GLY B . n
+
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1 N N . MSE A 1 1 ? 5 0 0 0.8 10 ? 1 A 1
+ATOM 2 C CA . MSE A 1 1 ? 5.35 0 0.25 1 10.125 ? 1 A 1
+ATOM 3 C C . MSE A 1 1 ? 5.7 0 0.5 1 10.25 ? 1 A 1
+ATOM 4 O O . MSE A 1 1 ? 6.05 0 0.75 1 10.375 ? 1 A 1
+ATOM 5 C CB . MSE A 1 1 ? 6.4 0 1 1 10.5 ? 1 A 1
+ATOM 6 C CG . MSE A 1 1 ? 6.75 0 1.25 1 10.625 ? 1 A 1
+ATOM 7 SE SE . MSE A 1 1 ? 7.1 0 1.5 1 10.75 ? 1 A 1
+ATOM 8 C CE . MSE A 1 1 ? 7.45 0 1.75 1 10.875 ? 1 A 1
+ATOM 9 N N . GLY A 1 2 ? 4.33012702 2.5 0.1 0.8 11 ? 2 A 1
+ATOM 10 C CA . GLY A 1 2 ? 4.63323591 2.675 0.35 1 11.125 ? 2 A 1
+ATOM 11 C C . GLY A 1 2 ? 4.9363448 2.85 0.6 1 11.25 ? 2 A 1
+ATOM 12 O O . GLY A 1 2 ? 5.23945369 3.025 0.85 1 11.375 ? 2 A 1
+ATOM 13 N N . GLY A 1 3 ? 2.5 4.33012702 0.2 0.8 12 ? 3 A 1
+ATOM 14 C CA . GLY A 1 3 ? 2.675 4.63323591 0.45 1 12.125 ? 3 A 1
+ATOM 15 C C . GLY A 1 3 ? 2.85 4.9363448 0.7 1 12.25 ? 3 A 1
+ATOM 16 O O . GLY A 1 3 ? 3.025 5.23945369 0.95 1 12.375 ? 3 A 1
+ATOM 17 N N . GLY A 1 4 ? 3.061617e-16 5 0.3 0.8 13 ? 4 A 1
+ATOM 18 C CA . GLY A 1 4 ? 3.27593019e-16 5.35 0.55 1 13.125 ? 4 A 1
+ATOM 19 C C . GLY A 1 4 ? 3.49024338e-16 5.7 0.8 1 13.25 ? 4 A 1
+ATOM 20 O O . GLY A 1 4 ? 3.70455657e-16 6.05 1.05 1 13.375 ? 4 A 1
+ATOM 21 N N . GLY A 1 5 ? -2.5 4.33012702 0.4 0.8 14 ? 5 A 1
+ATOM 22 C CA . GLY A 1 5 ? -2.675 4.63323591 0.65 1 14.125 ? 5 A 1
+ATOM 23 C C . GLY A 1 5 ? -2.85 4.9363448 0.9 1 14.25 ? 5 A 1
+ATOM 24 O O . GLY A 1 5 ? -3.025 5.23945369 1.15 1 14.375 ? 5 A 1
+ATOM 25 N N . GLY A 1 6 ? -4.33012702 2.5 0.5 0.8 15 ? 6 A 1
+ATOM 26 C CA . GLY A 1 6 ? -4.63323591 2.675 0.75 1 15.125 ? 6 A 1
+ATOM 27 C C . GLY A 1 6 ? -4.9363448 2.85 1 1 15.25 ? 6 A 1
+ATOM 28 O O . GLY A 1 6 ? -5.23945369 3.025 1.25 1 15.375 ? 6 A 1
+ATOM 29 N N . GLY A 1 7 ? -5 6.123234e-16 0.6 0.8 16 ? 9 A 1
+ATOM 30 C CA . GLY A 1 7 ? -5.35 6.55186038e-16 0.85 1 16.125 ? 9 A 1
+ATOM 31 C C . GLY A 1 7 ? -5.7 6.98048676e-16 1.1 1 16.25 ? 9 A 1
+ATOM 32 O O . GLY A 1 7 ? -6.05 7.40911313e-16 1.35 1 16.375 ? 9 A 1
+ATOM 33 N N . GLY A 1 8 ? -4.33012702 -2.5 0.7 0.8 17 ? 10 A 1
+ATOM 34 C CA . GLY A 1 8 ? -4.63323591 -2.675 0.95 1 17.125 ? 10 A 1
+ATOM 35 C C . GLY A 1 8 ? -4.9363448 -2.85 1.2 1 17.25 ? 10 A 1
+ATOM 36 O O . GLY A 1 8 ? -5.23945369 -3.025 1.45 1 17.375 ? 10 A 1
+ATOM 37 N N . GLY A 1 9 ? -2.5 -4.33012702 0.8 0.8 18 ? 11 A 1
+ATOM 38 C CA . GLY A 1 9 ? -2.675 -4.63323591 1.05 1 18.125 ? 11 A 1
+ATOM 39 C C . GLY A 1 9 ? -2.85 -4.9363448 1.3 1 18.25 ? 11 A 1
+ATOM 40 O O . GLY A 1 9 ? -3.025 -5.23945369 1.55 1 18.375 ? 11 A 1
+ATOM 41 N N . GLY A 1 10 ? -9.18485099e-16 -5 0.9 0.8 19 ? 12 A 1
+ATOM 42 C CA . GLY A 1 10 ? -9.82779056e-16 -5.35 1.15 1 19.125 ? 12 A 1
+ATOM 43 C C . GLY A 1 10 ? -1.04707301e-15 -5.7 1.4 1 19.25 ? 12 A 1
+ATOM 44 O O . GLY A 1 10 ? -1.11136697e-15 -6.05 1.65 1 19.375 ? 12 A 1
+ATOM 45 N N . GLY A 1 11 ? 2.5 -4.33012702 1 0.8 20 ? 13 A 1
+ATOM 46 C CA . GLY A 1 11 ? 2.675 -4.63323591 1.25 1 20.125 ? 13 A 1
+ATOM 47 C C . GLY A 1 11 ? 2.85 -4.9363448 1.5 1 20.25 ? 13 A 1
+ATOM 48 O O . GLY A 1 11 ? 3.025 -5.23945369 1.75 1 20.375 ? 13 A 1
+ATOM 49 N N . GLY A 1 12 ? 4.33012702 -2.5 1.1 0.8 21 ? 14 A 1
+ATOM 50 C CA . GLY A 1 12 ? 4.63323591 -2.675 1.35 1 21.125 ? 14 A 1
+ATOM 51 C C . GLY A 1 12 ? 4.9363448 -2.85 1.6 1 21.25 ? 14 A 1
+ATOM 52 O O . GLY A 1 12 ? 5.23945369 -3.025 1.85 1 21.375 ? 14 A 1
+ATOM 53 N N . GLY B 2 1 ? 4.82962913 1.29409523 4 0.8 10 ? 1 B 1
+ATOM 54 C CA . GLY B 2 1 ? 5.16770317 1.38468189 4.25 1 10.125 ? 1 B 1
+ATOM 55 C C . GLY B 2 1 ? 5.50577721 1.47526856 4.5 1 10.25 ? 1 B 1
+ATOM 56 O O . GLY B 2 1 ? 5.84385125 1.56585522 4.75 1 10.375 ? 1 B 1
+ATOM 57 N N . GLY B 2 2 ? 3.53553391 3.53553391 4.1 0.8 11 ? 2 B 1
+ATOM 58 C CA . GLY B 2 2 ? 3.78302128 3.78302128 4.35 1 11.125 ? 2 B 1
+ATOM 59 C C . GLY B 2 2 ? 4.03050865 4.03050865 4.6 1 11.25 ? 2 B 1
+ATOM 60 O O . GLY B 2 2 ? 4.27799603 4.27799603 4.85 1 11.375 ? 2 B 1
+ATOM 61 N N . GLY B 2 3 ? 1.29409523 4.82962913 4.2 0.8 12 ? 3 B 1
+ATOM 62 C CA . GLY B 2 3 ? 1.38468189 5.16770317 4.45 1 12.125 ? 3 B 1
+ATOM 63 C C . GLY B 2 3 ? 1.47526856 5.50577721 4.7 1 12.25 ? 3 B 1
+ATOM 64 O O . GLY B 2 3 ? 1.56585522 5.84385125 4.95 1 12.375 ? 3 B 1
+ATOM 65 N N . GLY B 2 4 ? -1.29409523 4.82962913 4.3 0.8 13 ? 4 B 1
+ATOM 66 C CA . GLY B 2 4 ? -1.38468189 5.16770317 4.55 1 13.125 ? 4 B 1
+ATOM 67 C C . GLY B 2 4 ? -1.47526856 5.50577721 4.8 1 13.25 ? 4 B 1
+ATOM 68 O O . GLY B 2 4 ? -1.56585522 5.84385125 5.05 1 13.375 ? 4 B 1
+ATOM 69 N N . GLY B 2 5 A -3.53553391 3.53553391 4.4 0.8 14 ? 5 B 1
+ATOM 70 C CA . GLY B 2 5 A -3.78302128 3.78302128 4.65 1 14.125 ? 5 B 1
+ATOM 71 C C . GLY B 2 5 A -4.03050865 4.03050865 4.9 1 14.25 ? 5 B 1
+ATOM 72 O O . GLY B 2 5 A -4.27799603 4.27799603 5.15 1 14.375 ? 5 B 1
+ATOM 73 N N . GLY B 2 6 ? -4.82962913 1.29409523 4.5 0.8 15 ? 6 B 1
+ATOM 74 C CA . GLY B 2 6 ? -5.16770317 1.38468189 4.75 1 15.125 ? 6 B 1
+ATOM 75 C C . GLY B 2 6 ? -5.50577721 1.47526856 5 1 15.25 ? 6 B 1
+ATOM 76 O O . GLY B 2 6 ? -5.84385125 1.56585522 5.25 1 15.375 ? 6 B 1
+ATOM 77 N N . GLY B 2 7 ? -4.82962913 -1.29409523 4.6 0.8 16 ? 9 B 1
+ATOM 78 C CA . GLY B 2 7 ? -5.16770317 -1.38468189 4.85 1 16.125 ? 9 B 1
+ATOM 79 C C . GLY B 2 7 ? -5.50577721 -1.47526856 5.1 1 16.25 ? 9 B 1
+ATOM 80 O O . GLY B 2 7 ? -5.84385125 -1.56585522 5.35 1 16.375 ? 9 B 1
+ATOM 81 N N . GLY B 2 8 ? -3.53553391 -3.53553391 4.7 0.8 17 ? 10 B 1
+ATOM 82 C CA . GLY B 2 8 ? -3.78302128 -3.78302128 4.95 1 17.125 ? 10 B 1
+ATOM 83 C C . GLY B 2 8 ? -4.03050865 -4.03050865 5.2 1 17.25 ? 10 B 1
+ATOM 84 O O . GLY B 2 8 ? -4.27799603 -4.27799603 5.45 1 17.375 ? 10 B 1
+ATOM 85 N N . GLY B 2 9 ? -1.29409523 -4.82962913 4.8 0.8 18 ? 11 B 1
+ATOM 86 C CA . GLY B 2 9 ? -1.38468189 -5.16770317 5.05 1 18.125 ? 11 B 1
+ATOM 87 C C . GLY B 2 9 ? -1.47526856 -5.50577721 5.3 1 18.25 ? 11 B 1
+ATOM 88 O O . GLY B 2 9 ? -1.56585522 -5.84385125 5.55 1 18.375 ? 11 B 1
+ATOM 89 N N . GLY B 2 10 ? 1.29409523 -4.82962913 4.9 0.8 19 ? 12 B 1
+ATOM 90 C CA . GLY B 2 10 ? 1.38468189 -5.16770317 5.15 1 19.125 ? 12 B 1
+ATOM 91 C C . GLY B 2 10 ? 1.47526856 -5.50577721 5.4 1 19.25 ? 12 B 1
+ATOM 92 O O . GLY B 2 10 ? 1.56585522 -5.84385125 5.65 1 19.375 ? 12 B 1
+ATOM 93 N N . GLY B 2 11 ? 3.53553391 -3.53553391 5 0.8 20 ? 13 B 1
+ATOM 94 C CA . GLY B 2 11 ? 3.78302128 -3.78302128 5.25 1 20.125 ? 13 B 1
+ATOM 95 C C . GLY B 2 11 ? 4.03050865 -4.03050865 5.5 1 20.25 ? 13 B 1
+ATOM 96 O O . GLY B 2 11 ? 4.27799603 -4.27799603 5.75 1 20.375 ? 13 B 1
+ATOM 97 N N . GLY B 2 12 ? 4.82962913 -1.29409523 5.1 0.8 21 ? 14 B 1
+ATOM 98 C CA . GLY B 2 12 ? 5.16770317 -1.38468189 5.35 1 21.125 ? 14 B 1
+ATOM 99 C C . GLY B 2 12 ? 5.50577721 -1.47526856 5.6 1 21.25 ? 14 B 1
+ATOM 100 O O . GLY B 2 12 ? 5.84385125 -1.56585522 5.85 1 21.375 ? 14 B 1
+#

@@ -1,0 +1,17 @@
+{
+  "biopython_version": "1.86",
+  "numpy_version": "2.4.6",
+  "algorithm": "Gotoh local alignment algorithm",
+  "alignment_parameters": "Pairwise sequence aligner with parameters\n  substitution_matrix: BLOSUM62 (pinned BioPython 1.86 matrix)\n  open_internal_insertion_score: -10.000000\n  extend_internal_insertion_score: -0.500000\n  open_left_insertion_score: -10.000000\n  extend_left_insertion_score: -0.500000\n  open_right_insertion_score: -10.000000\n  extend_right_insertion_score: -0.500000\n  open_internal_deletion_score: -10.000000\n  extend_internal_deletion_score: -0.500000\n  open_left_deletion_score: -10.000000\n  extend_left_deletion_score: -0.500000\n  open_right_deletion_score: -10.000000\n  extend_right_deletion_score: -0.500000\n  mode: local\n",
+  "policy_sha256": "d6ec6805def681498bb3e5db1438c51d25a1a63dc4ac0d6f0ca619666266a164",
+  "counts": {
+    "entries": 262,
+    "protein_entities": 297,
+    "sequence_records": 1365,
+    "query_records": 42,
+    "training_records": 1293,
+    "development_records": 30,
+    "pairwise_alignments": 56366,
+    "homology_screen_hits": 1556
+  }
+}

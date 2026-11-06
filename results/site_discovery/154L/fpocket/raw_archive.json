@@ -1,0 +1,45 @@
+{
+  "archive": "raw_artifacts.tar.gz",
+  "archive_bytes": 31586,
+  "archive_sha256": "ced469efa29c52b761401c20547bcbf517b026f69c78a54a27004292821134be",
+  "entries": [
+    {
+      "bytes": 4384,
+      "path": "execution.json",
+      "role": "record",
+      "sha256": "88539d9837b6a915e1a14eda69e0a29726becc2134a1463e3063edd794d46f08"
+    },
+    {
+      "bytes": 99874,
+      "path": "receptor.cif",
+      "role": "artifact",
+      "sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7"
+    },
+    {
+      "bytes": 2084,
+      "path": "receptor_preparation.json",
+      "role": "artifact",
+      "sha256": "9c646ebf1b0714bd6235c2703f2add0c73dd345eeb032d8e2bfc0d401773fd63"
+    },
+    {
+      "bytes": 45,
+      "path": "stderr.log",
+      "role": "artifact",
+      "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+    },
+    {
+      "bytes": 105,
+      "path": "stdout.log",
+      "role": "artifact",
+      "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+    }
+  ],
+  "format": "deterministic tar+gzip; regular files only",
+  "input_sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7",
+  "method": "fpocket",
+  "record_name": "execution.json",
+  "record_sha256": "88539d9837b6a915e1a14eda69e0a29726becc2134a1463e3063edd794d46f08",
+  "schema_version": 1,
+  "status": "failed",
+  "uncompressed_bytes": 106492
+}

@@ -1,0 +1,123 @@
+{
+  "initializer_policy_sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+  "input_adapter_sha256": "50b998ea5a5809a269de238a153eacdc19aea33ed2b2cd43ac72ab7ee25a4896",
+  "no_scientific_prediction_docking_or_accuracy_evaluation": true,
+  "profiles": {
+    "monomer": {
+      "case_ids": [
+        "3ZWE",
+        "5HZA"
+      ],
+      "manifest": {
+        "path": "data/processed/heldout_pose_v3/monomer/profile_manifest.json",
+        "sha256": "2f5e3ff9862fa9cf22e4d06087853ea83f56edde66e36665fd70920281c019c1"
+      },
+      "source_archive_manifest": {
+        "path": "results/structural_pose_v3/monomer_sources_manifest.json",
+        "sha256": "5c0a2572df0e169b93449fc1787eadb28f46cfee96257491e82d32679decad1f"
+      },
+      "source_directory": "data/processed/heldout_pose_v3/monomer"
+    },
+    "repair": {
+      "case_ids": [
+        "2RDK",
+        "3ZWE",
+        "4R9F",
+        "5HZA",
+        "5V6F",
+        "8I5U"
+      ],
+      "manifest": {
+        "path": "data/processed/heldout_pose_v3/repair/profile_manifest.json",
+        "sha256": "4b478f0210b78a52fc653e77475298c860733abd0de6a026389da38969d8b3e1"
+      },
+      "source_archive_manifest": {
+        "path": "results/structural_pose_v3/repair_sources_manifest.json",
+        "sha256": "a0596eadc53b56601080acb28af80f47bd162f1867311acf07e92cf5d41b56c5"
+      },
+      "source_directory": "data/processed/heldout_pose_v3/repair"
+    },
+    "strict": {
+      "case_ids": [
+        "2RDK",
+        "3ZWE",
+        "4R9F",
+        "5HZA",
+        "5V6F",
+        "8I5U"
+      ],
+      "manifest": {
+        "path": "data/processed/heldout_pose_v3/strict/profile_manifest.json",
+        "sha256": "b307d174df0f444fa5488071af9f419d6b7006108ae19c3df7df58872365e522"
+      },
+      "source_archive_manifest": {
+        "path": "results/structural_pose_v3/strict_sources_manifest.json",
+        "sha256": "74f56ab0205498a90975a461064277b7a3303c20d25f3051e45128d81f27c8bb"
+      },
+      "source_directory": "data/processed/heldout_pose_v3/strict"
+    }
+  },
+  "schema_version": 1,
+  "shared_ligands": {
+    "2RDK": {
+      "box_size": [
+        26,
+        26,
+        26
+      ],
+      "heavy_atoms": 23,
+      "ligand_pdbqt_sha256": "2c99fde1202f9db71e300e0f0d44fe681b9b1cbe82fe292a437895c60eede02b",
+      "native_coordinates_used_for_embedding": false
+    },
+    "3ZWE": {
+      "box_size": [
+        32,
+        32,
+        32
+      ],
+      "heavy_atoms": 44,
+      "ligand_pdbqt_sha256": "b51ccdbca558ed043aa5b8762cae434145eca17d2d4d7a9ccc730c59681932e8",
+      "native_coordinates_used_for_embedding": false
+    },
+    "4R9F": {
+      "box_size": [
+        27,
+        27,
+        27
+      ],
+      "heavy_atoms": 23,
+      "ligand_pdbqt_sha256": "be2bc98a153b8c068d885248f91c9468e77d8c2a583fd914866e9f5b3b8c83f8",
+      "native_coordinates_used_for_embedding": false
+    },
+    "5HZA": {
+      "box_size": [
+        28,
+        28,
+        28
+      ],
+      "heavy_atoms": 33,
+      "ligand_pdbqt_sha256": "547578b600e4630c8f40d64e12541912870f69e7f46d463454ededcf55415360",
+      "native_coordinates_used_for_embedding": false
+    },
+    "5V6F": {
+      "box_size": [
+        32,
+        32,
+        32
+      ],
+      "heavy_atoms": 34,
+      "ligand_pdbqt_sha256": "c50b972dff01e53db358a9d30c203d75fac9f7b2ed710ea3a28df216b95dc3da",
+      "native_coordinates_used_for_embedding": false
+    },
+    "8I5U": {
+      "box_size": [
+        27,
+        27,
+        27
+      ],
+      "heavy_atoms": 23,
+      "ligand_pdbqt_sha256": "4f5a61058f9fd723832678ad18ab649e23717b54729b75d950796a289528ae58",
+      "native_coordinates_used_for_embedding": false
+    }
+  }
+}

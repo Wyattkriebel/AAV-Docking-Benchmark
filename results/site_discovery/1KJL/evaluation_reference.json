@@ -1,0 +1,456 @@
+{
+  "apo_coordinate_transform_applied": false,
+  "atomic_pose_eligible": false,
+  "case_id": "1KJL",
+  "confirmatory_site": false,
+  "contact_cutoff_A": 4.0,
+  "contact_rule": "canonical protein heavy atoms strictly less than 4.0 A from modeled native ligand heavy atoms",
+  "coordinate_frame": "pinned_holo_source",
+  "eligible_site_only": true,
+  "evaluation_only": true,
+  "native_protein_atom_count": 1107,
+  "native_protein_chain_count": 1,
+  "pdb_id": "1KJL",
+  "reference_limitations": "NAG RSCC 0.751 with clash/bond flags and EDS/depositor R discrepancy leave the full atomic pose unresolved. One released terminal oxygen differs from deposited coordinates, far from this site. No density inspected.",
+  "schema_version": 1,
+  "site_class_count": 1,
+  "site_quality_stratum": "published_site_weak_atomic_anchor",
+  "site_reference_ledger": "benchmarks/site_reference_ledger.json",
+  "site_reference_ledger_sha256": "4eea470aac11e6a29f73a392f72adbe33e98c6584d18d5d7727be15312f354b1",
+  "sites": [
+    {
+      "atom_keys": [
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C1"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C3"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C4"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C5"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C6"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C7"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C8"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "N2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O1"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O3"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O4"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O5"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O6"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O7"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C1"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C2"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C3"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C4"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C5"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C6"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O2"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O3"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O4"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O5"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O6"
+        ]
+      ],
+      "coordinates": [
+        [
+          -6.82,
+          -11.144,
+          1.047
+        ],
+        [
+          -6.484,
+          -10.209,
+          -0.146
+        ],
+        [
+          -4.951,
+          -10.109,
+          -0.312
+        ],
+        [
+          -4.291,
+          -9.703,
+          1.013
+        ],
+        [
+          -4.734,
+          -10.692,
+          2.104
+        ],
+        [
+          -4.184,
+          -10.347,
+          3.464
+        ],
+        [
+          -8.366,
+          -10.637,
+          -1.633
+        ],
+        [
+          -8.888,
+          -11.298,
+          -2.913
+        ],
+        [
+          -7.059,
+          -10.725,
+          -1.375
+        ],
+        [
+          -8.172,
+          -11.088,
+          1.31
+        ],
+        [
+          -4.621,
+          -9.171,
+          -1.343
+        ],
+        [
+          -2.868,
+          -9.791,
+          0.86
+        ],
+        [
+          -6.164,
+          -10.682,
+          2.222
+        ],
+        [
+          -4.396,
+          -8.989,
+          3.773
+        ],
+        [
+          -9.167,
+          -10.046,
+          -0.892
+        ],
+        [
+          -2.108,
+          -8.732,
+          1.315
+        ],
+        [
+          -0.624,
+          -9.096,
+          1.243
+        ],
+        [
+          0.26,
+          -7.879,
+          1.566
+        ],
+        [
+          -0.128,
+          -6.711,
+          0.686
+        ],
+        [
+          -1.631,
+          -6.433,
+          0.829
+        ],
+        [
+          -2.104,
+          -5.338,
+          -0.085
+        ],
+        [
+          -0.349,
+          -10.141,
+          2.169
+        ],
+        [
+          1.622,
+          -8.21,
+          1.311
+        ],
+        [
+          0.187,
+          -7.031,
+          -0.672
+        ],
+        [
+          -2.385,
+          -7.604,
+          0.46
+        ],
+        [
+          -3.469,
+          -5.037,
+          0.175
+        ]
+      ],
+      "deposited_ligand_residue_map": [
+        {
+          "deposited": {
+            "author_chain": "B",
+            "author_resnum": "1",
+            "label_chain": "B",
+            "label_resnum": ".",
+            "resname": "NAG"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "NAG",
+          "prepared_resnum": 1
+        },
+        {
+          "deposited": {
+            "author_chain": "B",
+            "author_resnum": "2",
+            "label_chain": "B",
+            "label_resnum": ".",
+            "resname": "GAL"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "GAL",
+          "prepared_resnum": 2
+        }
+      ],
+      "id": "1KJL:released_modeled_glycan",
+      "interface_residue_keys": [
+        [
+          "A",
+          46,
+          "",
+          "HIS"
+        ],
+        [
+          "A",
+          48,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          50,
+          "",
+          "ARG"
+        ],
+        [
+          "A",
+          62,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          69,
+          "",
+          "TRP"
+        ],
+        [
+          "A",
+          72,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          74,
+          "",
+          "ARG"
+        ]
+      ],
+      "names": [
+        "B:1:NAG:C1",
+        "B:1:NAG:C2",
+        "B:1:NAG:C3",
+        "B:1:NAG:C4",
+        "B:1:NAG:C5",
+        "B:1:NAG:C6",
+        "B:1:NAG:C7",
+        "B:1:NAG:C8",
+        "B:1:NAG:N2",
+        "B:1:NAG:O1",
+        "B:1:NAG:O3",
+        "B:1:NAG:O4",
+        "B:1:NAG:O5",
+        "B:1:NAG:O6",
+        "B:1:NAG:O7",
+        "B:2:GAL:C1",
+        "B:2:GAL:C2",
+        "B:2:GAL:C3",
+        "B:2:GAL:C4",
+        "B:2:GAL:C5",
+        "B:2:GAL:C6",
+        "B:2:GAL:O2",
+        "B:2:GAL:O3",
+        "B:2:GAL:O4",
+        "B:2:GAL:O5",
+        "B:2:GAL:O6"
+      ]
+    }
+  ],
+  "source_files": [
+    {
+      "expected_sha256": "eecffcadd2404b277fbe1a86efe3f7fd7b4409a422c4f9fa9f7d8e2744f48d37",
+      "path": "data/raw/external/1KJL_l_b.pdb",
+      "role": "native_ligand",
+      "sha256": "eecffcadd2404b277fbe1a86efe3f7fd7b4409a422c4f9fa9f7d8e2744f48d37",
+      "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_l_b.pdb"
+    },
+    {
+      "expected_sha256": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae",
+      "path": "data/raw/external/1KJL_r_b.pdb",
+      "role": "native_receptor",
+      "sha256": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae",
+      "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_r_b.pdb"
+    }
+  ],
+  "symmetry_copy_count": 1
+}

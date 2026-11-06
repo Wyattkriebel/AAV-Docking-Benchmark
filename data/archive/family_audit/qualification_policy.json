@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "frozen_date": "2026-11-03",
+  "frozen_before_sequence_similarity_calculation": true,
+  "source_only_no_docking_or_site_outcomes": true,
+  "candidate_source": "benchmarks/heldout_candidate_inventory.json; all 12 fixed candidates, unchanged",
+  "development_pdb_ids": ["154L", "1GNY", "1KJL", "1QFO", "2J1T", "1PWB", "2VUZ", "7MTZ", "7MT0"],
+  "training_source": "Exact official CHEN11-fpocket dataset list pinned in benchmarks/p2rank.lock.json; 251 rows, expected 241 unique PDB IDs. This name denotes a dataset, not 11 proteins.",
+  "training_chain_scope": "Conservatively include every deposited protein entity in every listed training PDB, including entities beyond the chain selected by the original training path; record this overinclusive scope. Archive all chain-level domain annotations.",
+  "candidate_chain_scope": "All deposited protein entities for context; entity 1 is the fixed candidate receptor construct. Inspect domain-level CATH/SCOP annotations for every entity; primary candidate comparisons use entity 1 and each annotated recognition-domain sequence where coordinates/boundaries permit.",
+  "sequence_screen": {
+    "algorithm": "Smith-Waterman local affine-gap alignment; BioPython PairwiseAligner 1.86",
+    "substitution_matrix": "BLOSUM62",
+    "gap_open": -10.0,
+    "gap_extend": -0.5,
+    "epsilon": 0.000001,
+    "alignment_selection": "First highest-score alignment in the pinned implementation, with target/query ordered by stable record IDs. Store coordinates for complete replay; equal-score alternatives are not claimed unique.",
+    "identity_denominator": "Residue-residue aligned nongap columns; exact canonical amino-acid equality, excluding ambiguous X/B/Z from identity numerator",
+    "coverage_denominator": "Full length of the shorter compared sequence. Numerator counts shorter-sequence residues in aligned nongap columns; inserted residues aligned to a gap do not contribute.",
+    "identity_min_inclusive": 0.30,
+    "shorter_sequence_coverage_min_inclusive": 0.70,
+    "unusual_residue_policy": "Retain canonical sequence snapshot; map U/O/other symbols outside BLOSUM62 to X for alignment only and report counts. Unknown/ambiguous matches cannot count as identities.",
+    "interpretation": "Operational homology warning, not a calibrated statistical homology test. Short matches, repeat-rich proteins, missing domain boundaries, and sequence-negative results require domain/structure interpretation. No candidate is certified novel merely because it fails this screen."
+  },
+  "structural_screen": {
+    "primary_key": "Exact four-level CATH homologous-superfamily ID, e.g. 2.60.120.200",
+    "additional_flags": "Shared CATH first-three-level topology and SCOP2 superfamily/fold labels are separately reported, not silently equated to homology. Multidomain proteins retain each domain and source boundary evidence.",
+    "missing_classification": "unknown, never novel",
+    "strict_novel_family_primary": "No credible sequence-homology warning and no exact CATH homologous-superfamily match to development; recognition-domain assignment and adequate source coverage must also be available. Sequence-screen negative plus missing classification is unknown.",
+    "training_status": "Mark method-specific seen/novel-under-screen/unknown separately from development holdout. Exact PDB, credible sequence hit, or CATH homologous-superfamily match gives seen; absent/partial training domain provenance gives unknown. All-PDB-entity matching is conservative and may overflag a training chain that was not used."
+  },
+  "claims": "No universal model-training-held-out claim; audit covers the declared P2Rank default-model CHEN11-fpocket protein list only. Feature tables, probability score calibration, GNINA and other learned methods need separate provenance audits. ProtGlycanDock exact overlap already recorded in the fixed candidate inventory is retained."
+}

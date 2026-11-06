@@ -1,0 +1,119 @@
+{
+  "additional_method_validation_milestone": {
+    "evidence": [
+      "docs/VINA_CARB_REPRODUCTION.md",
+      "docs/HADDOCK_REPRODUCTION.md",
+      "results/additional_method_reproduction/example_verification.json",
+      "results/haddock_reproduction/reproduction_summary.json"
+    ],
+    "haddock_final_clusters": 6,
+    "haddock_final_models": 12,
+    "haddock_initial_models": 20,
+    "haddock_refined_models": 12,
+    "scope": "released-example software validation; not blind/held-out atomic performance",
+    "targeted_tests_passed": 24,
+    "vina_carb_glycosidic_links": 3,
+    "vina_carb_tutorial_poses": 10
+  },
+  "assessment_date": "2026-11-03",
+  "atomic_reference_milestone": {
+    "evidence": [
+      "docs/ATOMIC_REFERENCE_QUALIFICATION.md",
+      "benchmarks/atomic_reference_ledger.json",
+      "data/archive/atomic_reference/replay_verification.json"
+    ],
+    "full_modeled_ligands": 2,
+    "qualified_modeled_cores": 4,
+    "rejected_references": 1,
+    "scope": "seven existing external development cases, source-only before new pose scoring",
+    "scored_atoms": 179,
+    "source_only_replay_archives": 86
+  },
+  "completed_milestone": {
+    "description": "Executed and reproducible development diagnostics; original scientific purpose remains incomplete",
+    "evidence": [
+      "docs/DEVELOPMENT_RESULTS.md",
+      "docs/FINAL_IMPLEMENTATION_REVIEW.md",
+      "docs/INDEPENDENT_REPRODUCTION.md",
+      "docs/CLEAN_ENVIRONMENT_REPLAY.md",
+      "results/archive_verification.json"
+    ],
+    "exactly_recomputed_tables": 15,
+    "external_chemical_reference_failures": 1,
+    "external_eligible_preparations": 7,
+    "external_successful_preparations": 6,
+    "primary_completed_runs": 48,
+    "retained_poses": 958
+  },
+  "gates": [
+    {
+      "evidence": "Source-only atomic review now covers all seven external development cases, with frozen operational density/geometry rules and exact scored atom maps: two full modeled ligands, four modeled cores, one rejected. All86source archives and317sourceatoms reproduce; borderline occupancy/density and model bias remain explicit. Untouched cohort atomic/family qualification remains in progress.",
+      "id": "reference_quality",
+      "requirement": "Independent assembly, chemical graph, atom map and local structural reference checks for all eligible cases",
+      "status": "in_progress"
+    },
+    {
+      "evidence": "Analytic controls and AAV9 plus six supported external complexes execute; 1QFO failure retained. 1PWB and 2VUZ share a broad C-type lectin fold, so six unrelated nonviral families are not established.",
+      "id": "development_validation",
+      "requirement": "Analytic metric controls plus AAV9 and six unrelated nonviral development cases, including linked glycans",
+      "status": "in_progress"
+    },
+    {
+      "evidence": "Gal9C provides six measured/NB epimer pairs in one assay. An independently sourced POL assay adds a natural galactose/glucose contrast, frozen before docking, with both anomers, native calcium and independently solved apo/holo sensitivity. Structural cohort, training overlap and precision qualification remain separate unfinished work.",
+      "id": "confirmatory_eligibility",
+      "requirement": "Frozen eligible families, leakage audit, precision target, independent tested specificity labels",
+      "status": "pending"
+    },
+    {
+      "evidence": "Whole-protein site localization completed on eight complexes plus paired AAV apo. All 36 Gal9C and 96 POL known-site assay runs completed; POL ranking is preparation-dependent. Blind-site docking pose recovery and the new structural cohort remain pending.",
+      "id": "confirmatory_execution",
+      "requirement": "Paired information, conformation and assembly comparisons, failure denominators, family-aware uncertainty",
+      "status": "in_progress"
+    },
+    {
+      "evidence": "Original archived pose tables reproduce in Linux CI. New 27 predictor attempts have raw archive reparse verification, 900 surface draws have portable source replay, and all 36 assay scores have independent arithmetic/stereochemical review. These establish implementation reproducibility, not independent biological confirmation. POL adds raw reparse of 96 runs, all 1919 saved poses, preparation archives, stereochemistry and frozen source/configuration/helper hashes; an omitted logged mode is explained by the fixed output energy window.",
+      "id": "independent_reproduction",
+      "requirement": "Independent end-to-end replay from archived sources and raw outputs",
+      "status": "in_progress"
+    }
+  ],
+  "independent_specificity_milestone": {
+    "assay_families": 1,
+    "completed_runs": 96,
+    "description": "Prespecified independent natural-epimer assay contrast; weak primary score preference reverses in six of seven sensitivity conditions",
+    "evidence": [
+      "docs/INDEPENDENT_SPECIFICITY_CANDIDATES.md",
+      "docs/POL_SPECIFICITY_RESULTS.md",
+      "benchmarks/pol_experiment.json",
+      "results/pol_specificity/summary.json",
+      "docs/POL_INDEPENDENT_REVIEW.md"
+    ],
+    "experimental_species": 2,
+    "model_anomers": 4,
+    "opposite_direction_sensitivity_conditions": 6,
+    "primary_glucose_minus_galactose_mean_kcal_mol": 0.027333333333333876,
+    "returned_poses": 1919,
+    "scope": "one independent assay contrast; no classifier accuracy, calibrated affinity or cross-family reliability estimate",
+    "sensitivity_conditions": 7
+  },
+  "interpretation": "Separate evidence supports descriptive known-site pose diagnostics, whole-protein site localization and two assay-specific matched-epimer experiments. POL shows a small and condition-dependent score preference. Held-out structural reliability, calibrated specificity and universally accurate docking remain unestablished.",
+  "new_completed_milestone": {
+    "description": "Whole-protein site localization and source-qualified matched-epimer specificity",
+    "evidence": [
+      "docs/SITE_LOCALIZATION_RESULTS.md",
+      "docs/GAL9_SPECIFICITY_RESULTS.md",
+      "docs/NEXT_PR_INDEPENDENT_REVIEW.md",
+      "results/site_discovery/prediction_verification.json"
+    ],
+    "preserved_predictor_attempts": 27,
+    "primary_site_method_conditions": 27,
+    "site_complexes": 8,
+    "site_conditions": 9,
+    "specificity_completed_runs": 36,
+    "specificity_compounds": 12,
+    "specificity_pairs": 6,
+    "surface_null_draws": 900
+  },
+  "schema_version": 1,
+  "scientific_purpose_complete": false
+}

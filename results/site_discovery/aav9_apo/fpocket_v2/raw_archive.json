@@ -1,0 +1,81 @@
+{
+  "archive": "raw_artifacts.tar.gz",
+  "archive_bytes": 6538609,
+  "archive_sha256": "9d5ac562216ce1f81ead188dc070831b89d3ecd0867ff2c390444feb6e5dfbd0",
+  "entries": [
+    {
+      "bytes": 5418,
+      "path": "execution.json",
+      "role": "record",
+      "sha256": "5970d415a196d25820d9656700057a2cfdfdb82ba01fe9da35f49bf15a0bb903"
+    },
+    {
+      "bytes": 1025,
+      "path": "input_revision.json",
+      "role": "artifact",
+      "sha256": "cb2ed974a77507dcfe359fbea1ff1c3083ca879a40eca22bbb9252b25d4ac17d"
+    },
+    {
+      "bytes": 18236222,
+      "path": "receptor.cif",
+      "role": "artifact",
+      "sha256": "8cbe96b02e8649cb29475cf6b6731d80bcf645d80ce2c8e9e9f98fcd89050abd"
+    },
+    {
+      "bytes": 773,
+      "path": "receptor_out/receptor_cif.pml",
+      "role": "artifact",
+      "sha256": "5d06f0765f321a3bea16d09ef6c0e62a9707a5425327faffc9d873edd206726b"
+    },
+    {
+      "bytes": 914,
+      "path": "receptor_out/receptor_cif.tcl",
+      "role": "artifact",
+      "sha256": "218dc995fd8e00336b71e7616dd71d8f28a1d104ec7452e1ac0b2bcfefa8c4b1"
+    },
+    {
+      "bytes": 35,
+      "path": "receptor_out/receptor_cif_PYMOL.sh",
+      "role": "artifact",
+      "sha256": "69d1a5aa88c375e1d77322ce8ab7e5978f7238a3cb518c0ac02e433bc313ef76"
+    },
+    {
+      "bytes": 53,
+      "path": "receptor_out/receptor_cif_VMD.sh",
+      "role": "artifact",
+      "sha256": "ea7bcffbed6e4fc9bfeee2712b75289fe0fdbc408c24d88126ce38ba00d49bcb"
+    },
+    {
+      "bytes": 8675328,
+      "path": "receptor_out/receptor_out.cif",
+      "role": "artifact",
+      "sha256": "32023c7cce6330ef42b41ab03f9f5a8c2a1cffa463f8d61f7279a580bda09749"
+    },
+    {
+      "bytes": 2467,
+      "path": "receptor_preparation.json",
+      "role": "artifact",
+      "sha256": "34b49979542987b18137355d66f6231203745b4c59dd818eaff4b2cfcf1cb2a7"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "role": "artifact",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 35,
+      "path": "stdout.log",
+      "role": "artifact",
+      "sha256": "7a4d49f34e56e08fbb20d838f540b78d552d1c3f91d3131e38aa314ebdbd3e45"
+    }
+  ],
+  "format": "deterministic tar+gzip; regular files only",
+  "input_sha256": "8cbe96b02e8649cb29475cf6b6731d80bcf645d80ce2c8e9e9f98fcd89050abd",
+  "method": "fpocket",
+  "record_name": "execution.json",
+  "record_sha256": "5970d415a196d25820d9656700057a2cfdfdb82ba01fe9da35f49bf15a0bb903",
+  "schema_version": 1,
+  "status": "failed",
+  "uncompressed_bytes": 26922270
+}

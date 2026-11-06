@@ -1,0 +1,38 @@
+[INFO] Console - P2Rank 2.5.1
+[INFO] Console - 
+[INFO] Main - loading default config from [/Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/default.groovy]
+[INFO] Console - DIR: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_data
+[INFO] Console - DIR2: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_data
+[INFO] Console - DIR: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_output
+[INFO] Console - DIR2: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_output
+[INFO] Console - predicting pockets for proteins from dataset [receptor.cif]
+[INFO] PredictPocketsRoutine - outdir: /Users/alec/AAV-Docking-Benchmark/results/site_discovery/1QFO/p2rank/raw
+[INFO] Model - Loading model from directory (v3 format): /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [receptor.cif] using 1 thread
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [receptor.cif] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [receptor.cif] (1/1)
+[INFO] Protein - loading protein [/Users/alec/AAV-Docking-Benchmark/data/processed/site_inputs/1QFO/receptor.cif]
+[INFO] PdbUtils - loading file [/Users/alec/AAV-Docking-Benchmark/data/processed/site_inputs/1QFO/receptor.cif]
+[INFO] Struct - all groups in chain A: 116
+[INFO] Struct - all groups in chain A: 116
+[INFO] Struct - 116 groups in chain A
+[INFO] Protein - structure atoms: 911
+[INFO] Protein - protein   atoms: 891
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 2092
+[INFO] Protein - exposed protein atoms: 603 of 891
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 2092
+[INFO] PocketPredictor - LIGANDABLE POINTS: 1
+[INFO] PocketPredictor - CLUSTERS: 1
+[INFO] PocketPredictor - FILTERED CLUSTERS: 0
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 1.363 seconds
+[INFO] Console - results saved to directory [/Users/alec/AAV-Docking-Benchmark/results/site_discovery/1QFO/p2rank/raw]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 1.925 seconds.

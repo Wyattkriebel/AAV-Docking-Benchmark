@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "profile_id": "haddock_v3_assembly_protocol_gate_v1",
+  "status": "source_only_amendment_before_first_HADDOCK_cohort_pose",
+  "rule": "This bounded native-default adapter requires exactly one source receptor chain/segid. Retain every multi-chain source condition as assembly_protocol_unsupported; never remove a source chain, merge chain identities or run an unvalidated assembly-grouping/restraint adaptation.",
+  "source_facts": [
+    "libcns.prepare_multiple_input counts unique chains/segids as ncomponents; native_segid=True assigns one prot_segid_i per chain.",
+    "Native rigidbody separates, rotates and minimizes each chain as an independent component, even when several receptor chains came from one PDB input file.",
+    "Default flexref nseg_i=-1 chooses flexible residues near any other segment, including receptor-receptor interfaces, and creates rigid groups per segment.",
+    "mol_fix_origin_i can prevent corresponding rigidbody placement/motion but does not fix its atoms during flexrefMD; nseg=0 does not join receptor chains into a single body."
+  ],
+  "affected_previously_ready_case": "3ZWE",
+  "affected_conditions": 6,
+  "affected_seed_cells": 18,
+  "whole_denominator_retained": {"conditions": 36, "seed_cells": 108},
+  "final_ready": {"conditions": 13, "native_jobs": 39},
+  "interpretation": "Unsupported bounded adapter/workflow under the deliberately preserved full-assembly constraint. This is not a claim that the HADDOCK algorithm cannot dock multi-chain receptors. A future validated source-protein-only assembly-restraint/grouping adaptation would require a separate freeze.",
+  "no_changes_to_Vina_or_VinaCarb_trimer_inputs": true,
+  "no_HADDOCK_cohort_pose_or_accuracy_outcome_used": true,
+  "primary_sources": [
+    "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/src/haddock/libs/libcns.py",
+    "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/src/haddock/modules/sampling/rigidbody/cns/rigidbody.cns",
+    "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/src/haddock/modules/refinement/flexref/cns/flexauto-neighbors.cns",
+    "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/src/haddock/modules/refinement/flexref/cns/torsiontop.cns"
+  ]
+}

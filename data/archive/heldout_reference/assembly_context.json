@@ -1,0 +1,3510 @@
+{
+  "schema_version": 1,
+  "source_only": true,
+  "prediction_outcomes_consulted": false,
+  "cases": [
+    {
+      "case_id": "1I3H",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "B"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA,PQS",
+          "oligomeric_details": "tetrameric",
+          "oligomeric_count": "4"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1,2,3,4",
+          "asym_id_list": "A,B,C,D,E"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "operator_name": "2",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            90.9,
+            86.41,
+            0.0
+          ]
+        },
+        {
+          "operator_name": "3",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "vector": [
+            90.9,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "operator_name": "4",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            86.41,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.61082094368802
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "C",
+          "author_chain": "A",
+          "author_resnum": "240",
+          "resname": "MN",
+          "min_distance_selected_full_ligand_A": 9.442025312399876,
+          "retained": true
+        },
+        {
+          "label_chain": "D",
+          "author_chain": "A",
+          "author_resnum": "241",
+          "resname": "CA",
+          "min_distance_selected_full_ligand_A": 5.423051816090271,
+          "retained": true
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [
+          {
+            "label_chain": "C",
+            "author_chain": "A",
+            "author_resnum": "240",
+            "resname": "MN",
+            "min_distance_selected_full_ligand_A": 9.442025312399876,
+            "retained": true
+          },
+          {
+            "label_chain": "D",
+            "author_chain": "A",
+            "author_resnum": "241",
+            "resname": "CA",
+            "min_distance_selected_full_ligand_A": 5.423051816090271,
+            "retained": true
+          }
+        ],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {},
+        "entity_src_nat": {
+          "entity_id": [
+            "1",
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1",
+            "2"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample",
+            "sample"
+          ],
+          "pdbx_beg_seq_num": [
+            "1",
+            "119"
+          ],
+          "pdbx_end_seq_num": [
+            "118",
+            "237"
+          ],
+          "common_name": [
+            "Jack bean",
+            "Jack bean"
+          ],
+          "pdbx_organism_scientific": [
+            "Canavalia ensiformis",
+            "Canavalia ensiformis"
+          ],
+          "pdbx_ncbi_taxonomy_id": [
+            "3823",
+            "3823"
+          ],
+          "genus": [
+            "Canavalia",
+            "Canavalia"
+          ],
+          "species": [
+            null,
+            null
+          ],
+          "strain": [
+            null,
+            null
+          ],
+          "tissue": [
+            null,
+            null
+          ],
+          "tissue_fraction": [
+            null,
+            null
+          ],
+          "pdbx_secretion": [
+            null,
+            null
+          ],
+          "pdbx_fragment": [
+            null,
+            null
+          ],
+          "pdbx_variant": [
+            null,
+            null
+          ],
+          "pdbx_cell_line": [
+            null,
+            null
+          ],
+          "pdbx_atcc": [
+            null,
+            null
+          ],
+          "pdbx_cellular_location": [
+            null,
+            null
+          ],
+          "pdbx_organ": [
+            null,
+            null
+          ],
+          "pdbx_organelle": [
+            null,
+            null
+          ],
+          "pdbx_cell": [
+            null,
+            null
+          ],
+          "pdbx_plasmid_name": [
+            null,
+            null
+          ],
+          "pdbx_plasmid_details": [
+            null,
+            null
+          ],
+          "details": [
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "2G7C",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "D"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_defined_assembly",
+          "method_details": null,
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        },
+        {
+          "id": "2",
+          "details": "author_defined_assembly",
+          "method_details": null,
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,C,D,G,H,I,J,M"
+        },
+        {
+          "assembly_id": "2",
+          "oper_expression": "1",
+          "asym_id_list": "B,E,F,K,L,N"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "C",
+            "D",
+            "G",
+            "H",
+            "I",
+            "J",
+            "M"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.5929222896184134,
+        "B": 16.11688971234835
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "C",
+          "author_chain": "C",
+          "author_resnum": "1",
+          "resname": "NAG",
+          "min_distance_selected_full_ligand_A": 35.125791620972755,
+          "retained": false
+        },
+        {
+          "label_chain": "C",
+          "author_chain": "C",
+          "author_resnum": "2",
+          "resname": "GAL",
+          "min_distance_selected_full_ligand_A": 36.48935684552414,
+          "retained": false
+        },
+        {
+          "label_chain": "C",
+          "author_chain": "C",
+          "author_resnum": "3",
+          "resname": "GLA",
+          "min_distance_selected_full_ligand_A": 42.77408525030079,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "E",
+          "author_resnum": "1",
+          "resname": "NAG",
+          "min_distance_selected_full_ligand_A": 31.337909837766784,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "E",
+          "author_resnum": "2",
+          "resname": "GAL",
+          "min_distance_selected_full_ligand_A": 37.32022562900712,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "E",
+          "author_resnum": "3",
+          "resname": "GLA",
+          "min_distance_selected_full_ligand_A": 42.46411144719739,
+          "retained": false
+        },
+        {
+          "label_chain": "F",
+          "author_chain": "F",
+          "author_resnum": "1",
+          "resname": "NAG",
+          "min_distance_selected_full_ligand_A": 28.260838929515167,
+          "retained": false
+        },
+        {
+          "label_chain": "F",
+          "author_chain": "F",
+          "author_resnum": "2",
+          "resname": "GAL",
+          "min_distance_selected_full_ligand_A": 25.17264723861994,
+          "retained": false
+        },
+        {
+          "label_chain": "F",
+          "author_chain": "F",
+          "author_resnum": "3",
+          "resname": "GLA",
+          "min_distance_selected_full_ligand_A": 21.125527354364436,
+          "retained": false
+        },
+        {
+          "label_chain": "G",
+          "author_chain": "A",
+          "author_resnum": "501",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 18.93675384008569,
+          "retained": false
+        },
+        {
+          "label_chain": "H",
+          "author_chain": "A",
+          "author_resnum": "503",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 24.355940671630812,
+          "retained": false
+        },
+        {
+          "label_chain": "I",
+          "author_chain": "A",
+          "author_resnum": "504",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 47.93611100204104,
+          "retained": false
+        },
+        {
+          "label_chain": "J",
+          "author_chain": "A",
+          "author_resnum": "505",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 4.08932488315614,
+          "retained": false
+        },
+        {
+          "label_chain": "K",
+          "author_chain": "B",
+          "author_resnum": "502",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 43.32197745948354,
+          "retained": false
+        },
+        {
+          "label_chain": "L",
+          "author_chain": "B",
+          "author_resnum": "506",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 52.604651372288366,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            null
+          ],
+          "pdbx_beg_seq_num": [
+            null
+          ],
+          "pdbx_end_seq_num": [
+            null
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            "Clostridium"
+          ],
+          "pdbx_gene_src_gene": [
+            "toxA, tcdA"
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            "48489"
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Clostridium difficile"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "1496"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "Escherichia coli"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "562"
+          ],
+          "host_org_genus": [
+            "Escherichia"
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "BL21(DE3)pLysS"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            "plasmid"
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            "pET-3a"
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "2GUP",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "B"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA,PQS",
+          "oligomeric_details": "dimeric",
+          "oligomeric_count": "2"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1,2",
+          "asym_id_list": "A,B,C,D,E,F"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "operator_name": "2",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "matrix": [
+            [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            58.8385
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.425736176916193
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "C",
+          "author_chain": "C",
+          "author_resnum": "1",
+          "resname": "GLC",
+          "min_distance_selected_full_ligand_A": 2.866098044380199,
+          "retained": false
+        },
+        {
+          "label_chain": "C",
+          "author_chain": "C",
+          "author_resnum": "2",
+          "resname": "FRU",
+          "min_distance_selected_full_ligand_A": 2.290594246041844,
+          "retained": false
+        },
+        {
+          "label_chain": "D",
+          "author_chain": "D",
+          "author_resnum": "1",
+          "resname": "GLC",
+          "min_distance_selected_full_ligand_A": 25.07335360497275,
+          "retained": false
+        },
+        {
+          "label_chain": "D",
+          "author_chain": "D",
+          "author_resnum": "2",
+          "resname": "FRU",
+          "min_distance_selected_full_ligand_A": 22.52215389344456,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "A",
+          "author_resnum": "293",
+          "resname": "TRS",
+          "min_distance_selected_full_ligand_A": 5.440023988917697,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            null
+          ],
+          "pdbx_beg_seq_num": [
+            null
+          ],
+          "pdbx_end_seq_num": [
+            null
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            "Streptococcus"
+          ],
+          "pdbx_gene_src_gene": [
+            null
+          ],
+          "gene_src_species": [
+            "Streptococcus pneumoniae"
+          ],
+          "gene_src_strain": [
+            "TIGR4"
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Streptococcus pneumoniae"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "170187"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "Escherichia coli BL21"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "511693"
+          ],
+          "host_org_genus": [
+            "Escherichia"
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            "Escherichia coli"
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "BL21"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            "PLASMID"
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            "PMCSG7"
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "2RDK",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "C"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        },
+        {
+          "id": "2",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,C,E"
+        },
+        {
+          "assembly_id": "2",
+          "oper_expression": "1",
+          "asym_id_list": "B,D,F"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "C",
+            "E"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.6078257227046477,
+        "B": 7.369736833836066
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "D",
+          "author_chain": "D",
+          "author_resnum": "1",
+          "resname": "MAN",
+          "min_distance_selected_full_ligand_A": 15.097518504707983,
+          "retained": false
+        },
+        {
+          "label_chain": "D",
+          "author_chain": "D",
+          "author_resnum": "2",
+          "resname": "MAN",
+          "min_distance_selected_full_ligand_A": 11.392659039925665,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            null
+          ],
+          "pdbx_beg_seq_num": [
+            null
+          ],
+          "pdbx_end_seq_num": [
+            null
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            "Nostoc"
+          ],
+          "pdbx_gene_src_gene": [
+            null
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            null
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Nostoc ellipsosporum"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "45916"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "Escherichia coli"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "562"
+          ],
+          "host_org_genus": [
+            "Escherichia"
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "M51"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            null
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            null
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "2WAB",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "B"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.5446296390634133
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "C",
+          "author_chain": "A",
+          "author_resnum": "1340",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 34.030483599267285,
+          "retained": false
+        },
+        {
+          "label_chain": "D",
+          "author_chain": "A",
+          "author_resnum": "1341",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 11.065763507322936,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "A",
+          "author_resnum": "1342",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 2.441501791930534,
+          "retained": false
+        },
+        {
+          "label_chain": "F",
+          "author_chain": "A",
+          "author_resnum": "1343",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 18.49376884250476,
+          "retained": false
+        },
+        {
+          "label_chain": "G",
+          "author_chain": "A",
+          "author_resnum": "1344",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 34.01425884831242,
+          "retained": false
+        },
+        {
+          "label_chain": "H",
+          "author_chain": "A",
+          "author_resnum": "1345",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 22.378230962254367,
+          "retained": false
+        },
+        {
+          "label_chain": "I",
+          "author_chain": "A",
+          "author_resnum": "1346",
+          "resname": "IOD",
+          "min_distance_selected_full_ligand_A": 12.822999844030257,
+          "retained": false
+        },
+        {
+          "label_chain": "J",
+          "author_chain": "A",
+          "author_resnum": "1347",
+          "resname": "IOD",
+          "min_distance_selected_full_ligand_A": 26.454013532921618,
+          "retained": false
+        },
+        {
+          "label_chain": "K",
+          "author_chain": "A",
+          "author_resnum": "1348",
+          "resname": "IOD",
+          "min_distance_selected_full_ligand_A": 33.25576501901587,
+          "retained": false
+        },
+        {
+          "label_chain": "L",
+          "author_chain": "A",
+          "author_resnum": "1349",
+          "resname": "IOD",
+          "min_distance_selected_full_ligand_A": 3.0335889635875213,
+          "retained": false
+        },
+        {
+          "label_chain": "M",
+          "author_chain": "A",
+          "author_resnum": "1350",
+          "resname": "IOD",
+          "min_distance_selected_full_ligand_A": 13.943154628705804,
+          "retained": false
+        },
+        {
+          "label_chain": "N",
+          "author_chain": "A",
+          "author_resnum": "1351",
+          "resname": "IOD",
+          "min_distance_selected_full_ligand_A": 32.97889443265193,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            null
+          ],
+          "pdbx_beg_seq_num": [
+            null
+          ],
+          "pdbx_end_seq_num": [
+            null
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            null
+          ],
+          "pdbx_gene_src_gene": [
+            null
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            null
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "CLOSTRIDIUM THERMOCELLUM"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "1515"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            "27405"
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "ESCHERICHIA COLI"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "511693"
+          ],
+          "host_org_genus": [
+            null
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "BL21"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            null
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            "PET22B"
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "2WNB",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "B",
+        "D"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,B,C,D,E"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.6816722394804318
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "C",
+          "author_chain": "A",
+          "author_resnum": "401",
+          "resname": "C5P",
+          "min_distance_selected_full_ligand_A": 5.238724081300715,
+          "retained": true
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [
+          {
+            "label_chain": "C",
+            "author_chain": "A",
+            "author_resnum": "401",
+            "resname": "C5P",
+            "min_distance_selected_full_ligand_A": 5.238724081300715,
+            "retained": true
+          }
+        ],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            "Biological sequence"
+          ],
+          "pdbx_beg_seq_num": [
+            "1"
+          ],
+          "pdbx_end_seq_num": [
+            "298"
+          ],
+          "gene_src_common_name": [
+            "pig"
+          ],
+          "gene_src_genus": [
+            null
+          ],
+          "pdbx_gene_src_gene": [
+            "ST3GAL1"
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            null
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Sus scrofa"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "9823"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "ESCHERICHIA COLI"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "562"
+          ],
+          "host_org_genus": [
+            null
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "ORIGAMI2"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            null
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            "PCWIN2-MBP"
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "3A2S",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "B"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "trimeric",
+          "oligomeric_count": "3"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1,2,3",
+          "asym_id_list": "A,B,C,D"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "operator_name": "2",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "matrix": [
+            [
+              -0.5,
+              -0.8660254038,
+              0.0
+            ],
+            [
+              0.8660254038,
+              -0.5,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            82.773,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "operator_name": "3",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "matrix": [
+            [
+              -0.5,
+              0.8660254038,
+              0.0
+            ],
+            [
+              -0.8660254038,
+              -0.5,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            41.3865,
+            71.6835207474,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 1.8798874966337755
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "C",
+          "author_chain": "X",
+          "author_resnum": "343",
+          "resname": "LDA",
+          "min_distance_selected_full_ligand_A": 11.289030516390678,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            null
+          ],
+          "pdbx_beg_seq_num": [
+            null
+          ],
+          "pdbx_end_seq_num": [
+            null
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            null
+          ],
+          "pdbx_gene_src_gene": [
+            "porB"
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            null
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Neisseria meningitidis"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "487"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "Escherichia coli"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "562"
+          ],
+          "host_org_genus": [
+            null
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "BL21(DE3) derivative"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            "plasmid"
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            "pET21bPorB"
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "3ZWE",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "F"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "trimeric",
+          "oligomeric_count": "3"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,B,C,D,E,F,G,H,I,J,K,L"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 14.094038491504131,
+        "B": 9.828759942129018,
+        "C": 2.675195133069735
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "D",
+          "author_chain": "D",
+          "author_resnum": "1",
+          "resname": "GAL",
+          "min_distance_selected_full_ligand_A": 28.000022303562545,
+          "retained": false
+        },
+        {
+          "label_chain": "D",
+          "author_chain": "D",
+          "author_resnum": "2",
+          "resname": "FUC",
+          "min_distance_selected_full_ligand_A": 26.26829718500992,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "E",
+          "author_resnum": "1",
+          "resname": "BGC",
+          "min_distance_selected_full_ligand_A": 26.20511024590433,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "E",
+          "author_resnum": "2",
+          "resname": "GAL",
+          "min_distance_selected_full_ligand_A": 28.993077466871295,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "E",
+          "author_resnum": "3",
+          "resname": "FUC",
+          "min_distance_selected_full_ligand_A": 25.078403079143616,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "E",
+          "author_resnum": "4",
+          "resname": "GLA",
+          "min_distance_selected_full_ligand_A": 30.87723582188017,
+          "retained": false
+        },
+        {
+          "label_chain": "G",
+          "author_chain": "A",
+          "author_resnum": "110",
+          "resname": "FUC",
+          "min_distance_selected_full_ligand_A": 30.703007116567587,
+          "retained": false
+        },
+        {
+          "label_chain": "H",
+          "author_chain": "B",
+          "author_resnum": "110",
+          "resname": "FUC",
+          "min_distance_selected_full_ligand_A": 12.468236242548501,
+          "retained": false
+        },
+        {
+          "label_chain": "I",
+          "author_chain": "C",
+          "author_resnum": "110",
+          "resname": "FUC",
+          "min_distance_selected_full_ligand_A": 14.778968062757292,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            null
+          ],
+          "pdbx_beg_seq_num": [
+            null
+          ],
+          "pdbx_end_seq_num": [
+            null
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            null
+          ],
+          "pdbx_gene_src_gene": [
+            null
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            "AMMD"
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "BURKHOLDERIA AMBIFARIA"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "339670"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "ESCHERICHIA COLI"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "469008"
+          ],
+          "host_org_genus": [
+            null
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "BL21(DE3)"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            "PLASMID"
+          ],
+          "pdbx_host_org_vector": [
+            "PET25"
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            null
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "4R9F",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "B"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,B,C"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.6347605204268554
+      },
+      "native_nonwater_nonpolymer_components": [],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            null
+          ],
+          "pdbx_beg_seq_num": [
+            null
+          ],
+          "pdbx_end_seq_num": [
+            null
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            null
+          ],
+          "pdbx_gene_src_gene": [
+            "mbp1"
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            "ATCC BAA-17"
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Caldanaerobius polysaccharolyticus"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "44256"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "Escherichia coli"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "562"
+          ],
+          "host_org_genus": [
+            null
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            null
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            null
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            null
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "5HZA",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "C"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "dimeric",
+          "oligomeric_count": "2"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.5697953225889396,
+        "B": 2.7253508031077383
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "D",
+          "author_chain": "A",
+          "author_resnum": "601",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 22.80468070375027,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "A",
+          "author_resnum": "602",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 26.612215766448312,
+          "retained": false
+        },
+        {
+          "label_chain": "F",
+          "author_chain": "A",
+          "author_resnum": "603",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 17.266446941973904,
+          "retained": false
+        },
+        {
+          "label_chain": "G",
+          "author_chain": "A",
+          "author_resnum": "604",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 34.66973494274221,
+          "retained": false
+        },
+        {
+          "label_chain": "H",
+          "author_chain": "A",
+          "author_resnum": "605",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 28.068288779332452,
+          "retained": false
+        },
+        {
+          "label_chain": "I",
+          "author_chain": "A",
+          "author_resnum": "606",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 37.13093478489331,
+          "retained": false
+        },
+        {
+          "label_chain": "J",
+          "author_chain": "B",
+          "author_resnum": "601",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 35.19919382599551,
+          "retained": false
+        },
+        {
+          "label_chain": "K",
+          "author_chain": "B",
+          "author_resnum": "602",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 7.69213838929072,
+          "retained": false
+        },
+        {
+          "label_chain": "L",
+          "author_chain": "B",
+          "author_resnum": "603",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 26.323820201482917,
+          "retained": false
+        },
+        {
+          "label_chain": "M",
+          "author_chain": "B",
+          "author_resnum": "604",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 32.6182825728149,
+          "retained": false
+        },
+        {
+          "label_chain": "N",
+          "author_chain": "B",
+          "author_resnum": "605",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 37.75686840827772,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            "Biological sequence"
+          ],
+          "pdbx_beg_seq_num": [
+            "1"
+          ],
+          "pdbx_end_seq_num": [
+            "315"
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            null
+          ],
+          "pdbx_gene_src_gene": [
+            null
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            null
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Norovirus GII.10"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "747305"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "Escherichia coli BL21"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "511693"
+          ],
+          "host_org_genus": [
+            null
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            null
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            "Plasmid"
+          ],
+          "pdbx_host_org_vector": [
+            "pMBP"
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            null
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "5V6F",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "B"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_and_software_defined_assembly",
+          "method_details": "PISA",
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,B,C,D,E"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.525484903934291
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "C",
+          "author_chain": "A",
+          "author_resnum": "1004",
+          "resname": "SO4",
+          "min_distance_selected_full_ligand_A": 2.724070483669613,
+          "retained": false
+        },
+        {
+          "label_chain": "D",
+          "author_chain": "A",
+          "author_resnum": "1005",
+          "resname": "SO4",
+          "min_distance_selected_full_ligand_A": 17.125413454862922,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            "Biological sequence"
+          ],
+          "pdbx_beg_seq_num": [
+            "1"
+          ],
+          "pdbx_end_seq_num": [
+            "138"
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            null
+          ],
+          "pdbx_gene_src_gene": [
+            "VC_0930"
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            "ATCC 39315 / El Tor Inaba N16961"
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "243277"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "Escherichia coli"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "562"
+          ],
+          "host_org_genus": [
+            null
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "NEB T7 Express"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            "plasmid"
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            "pNGFP-BC"
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    },
+    {
+      "case_id": "8I5U",
+      "selected_assembly_id": "1",
+      "selected_ligand_label_chains": [
+        "B"
+      ],
+      "assembly_metadata": [
+        {
+          "id": "1",
+          "details": "author_defined_assembly",
+          "method_details": null,
+          "oligomeric_details": "monomeric",
+          "oligomeric_count": "1"
+        }
+      ],
+      "assembly_generators": [
+        {
+          "assembly_id": "1",
+          "oper_expression": "1",
+          "asym_id_list": "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V"
+        }
+      ],
+      "expanded_assembly_operators": [
+        {
+          "operator_name": "1",
+          "subchains": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U",
+            "V"
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "vector": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "deposited_protein_label_chain_min_distance_A": {
+        "A": 2.6523623432706143
+      },
+      "native_nonwater_nonpolymer_components": [
+        {
+          "label_chain": "C",
+          "author_chain": "A",
+          "author_resnum": "901",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 6.480255704831407,
+          "retained": false
+        },
+        {
+          "label_chain": "D",
+          "author_chain": "A",
+          "author_resnum": "902",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 38.353660972585125,
+          "retained": false
+        },
+        {
+          "label_chain": "E",
+          "author_chain": "A",
+          "author_resnum": "903",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 36.38787388677718,
+          "retained": false
+        },
+        {
+          "label_chain": "F",
+          "author_chain": "A",
+          "author_resnum": "904",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 14.64387725296821,
+          "retained": false
+        },
+        {
+          "label_chain": "G",
+          "author_chain": "A",
+          "author_resnum": "905",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 23.832806486018388,
+          "retained": false
+        },
+        {
+          "label_chain": "H",
+          "author_chain": "A",
+          "author_resnum": "906",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 24.102734346957398,
+          "retained": false
+        },
+        {
+          "label_chain": "I",
+          "author_chain": "A",
+          "author_resnum": "907",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 23.939456092401095,
+          "retained": false
+        },
+        {
+          "label_chain": "J",
+          "author_chain": "A",
+          "author_resnum": "908",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 46.84034776770984,
+          "retained": false
+        },
+        {
+          "label_chain": "K",
+          "author_chain": "A",
+          "author_resnum": "909",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 52.24063604130408,
+          "retained": false
+        },
+        {
+          "label_chain": "L",
+          "author_chain": "A",
+          "author_resnum": "910",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 22.880799133771525,
+          "retained": false
+        },
+        {
+          "label_chain": "M",
+          "author_chain": "A",
+          "author_resnum": "911",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 21.828503956982487,
+          "retained": false
+        },
+        {
+          "label_chain": "N",
+          "author_chain": "A",
+          "author_resnum": "912",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 25.843561693388942,
+          "retained": false
+        },
+        {
+          "label_chain": "O",
+          "author_chain": "A",
+          "author_resnum": "913",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 25.754462720080188,
+          "retained": false
+        },
+        {
+          "label_chain": "P",
+          "author_chain": "A",
+          "author_resnum": "914",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 15.515138832765887,
+          "retained": false
+        },
+        {
+          "label_chain": "Q",
+          "author_chain": "A",
+          "author_resnum": "915",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 32.87058492025963,
+          "retained": false
+        },
+        {
+          "label_chain": "R",
+          "author_chain": "A",
+          "author_resnum": "916",
+          "resname": "GOL",
+          "min_distance_selected_full_ligand_A": 26.017569083217587,
+          "retained": false
+        },
+        {
+          "label_chain": "S",
+          "author_chain": "A",
+          "author_resnum": "917",
+          "resname": "CA",
+          "min_distance_selected_full_ligand_A": 22.630954663911105,
+          "retained": true
+        },
+        {
+          "label_chain": "T",
+          "author_chain": "A",
+          "author_resnum": "918",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 17.94552328576685,
+          "retained": false
+        },
+        {
+          "label_chain": "U",
+          "author_chain": "A",
+          "author_resnum": "919",
+          "resname": "EDO",
+          "min_distance_selected_full_ligand_A": 2.835329434122249,
+          "retained": false
+        }
+      ],
+      "receptor_policy": {
+        "protein": "All protein subchains and operators of selected deposited biological assembly, including deposited MSE and covalent modifications; no native-neighborhood crop.",
+        "retained_cofactors": [
+          {
+            "label_chain": "S",
+            "author_chain": "A",
+            "author_resnum": "917",
+            "resname": "CA",
+            "min_distance_selected_full_ligand_A": 22.630954663911105,
+            "retained": true
+          }
+        ],
+        "omitted_components": "Strip selected glycan/aglycone, other carbohydrate copies, waters, GOL, EDO, sulfate, iodide, TRS and other crystallization additives. Retain all deposited CA/MN; for2WNB retain C5P(CMP) as explicit primary co-ligand state.",
+        "alternate_protein_conformers": "Generic highest-occupancy conformer, tie lexical altID with blank/common atoms retained; record exact mapping. No ligand-dependent conformer selection.",
+        "assembly_scope": "Complete deposited selected construct assembly, not full physiological protein/virion/environment."
+      },
+      "deposited_source_organism": {
+        "entity_src_gen": {
+          "entity_id": [
+            "1"
+          ],
+          "pdbx_src_id": [
+            "1"
+          ],
+          "pdbx_alt_source_flag": [
+            "sample"
+          ],
+          "pdbx_seq_type": [
+            "Biological sequence"
+          ],
+          "pdbx_beg_seq_num": [
+            "1"
+          ],
+          "pdbx_end_seq_num": [
+            "799"
+          ],
+          "gene_src_common_name": [
+            null
+          ],
+          "gene_src_genus": [
+            null
+          ],
+          "pdbx_gene_src_gene": [
+            "Thexy_2211"
+          ],
+          "gene_src_species": [
+            null
+          ],
+          "gene_src_strain": [
+            "LX-11"
+          ],
+          "gene_src_tissue": [
+            null
+          ],
+          "gene_src_tissue_fraction": [
+            null
+          ],
+          "gene_src_details": [
+            null
+          ],
+          "pdbx_gene_src_fragment": [
+            null
+          ],
+          "pdbx_gene_src_scientific_name": [
+            "Thermoanaerobacterium xylanolyticum LX-11"
+          ],
+          "pdbx_gene_src_ncbi_taxonomy_id": [
+            "858215"
+          ],
+          "pdbx_gene_src_variant": [
+            null
+          ],
+          "pdbx_gene_src_cell_line": [
+            null
+          ],
+          "pdbx_gene_src_atcc": [
+            null
+          ],
+          "pdbx_gene_src_organ": [
+            null
+          ],
+          "pdbx_gene_src_organelle": [
+            null
+          ],
+          "pdbx_gene_src_cell": [
+            null
+          ],
+          "pdbx_gene_src_cellular_location": [
+            null
+          ],
+          "host_org_common_name": [
+            null
+          ],
+          "pdbx_host_org_scientific_name": [
+            "Escherichia coli BL21(DE3)"
+          ],
+          "pdbx_host_org_ncbi_taxonomy_id": [
+            "469008"
+          ],
+          "host_org_genus": [
+            null
+          ],
+          "pdbx_host_org_gene": [
+            null
+          ],
+          "pdbx_host_org_organ": [
+            null
+          ],
+          "host_org_species": [
+            null
+          ],
+          "pdbx_host_org_tissue": [
+            null
+          ],
+          "pdbx_host_org_tissue_fraction": [
+            null
+          ],
+          "pdbx_host_org_strain": [
+            "BL21(DE3)"
+          ],
+          "pdbx_host_org_variant": [
+            null
+          ],
+          "pdbx_host_org_cell_line": [
+            null
+          ],
+          "pdbx_host_org_atcc": [
+            null
+          ],
+          "pdbx_host_org_culture_collection": [
+            null
+          ],
+          "pdbx_host_org_cell": [
+            null
+          ],
+          "pdbx_host_org_organelle": [
+            null
+          ],
+          "pdbx_host_org_cellular_location": [
+            null
+          ],
+          "pdbx_host_org_vector_type": [
+            null
+          ],
+          "pdbx_host_org_vector": [
+            null
+          ],
+          "host_org_details": [
+            null
+          ],
+          "expression_system_id": [
+            null
+          ],
+          "plasmid_name": [
+            null
+          ],
+          "plasmid_details": [
+            null
+          ],
+          "pdbx_description": [
+            null
+          ]
+        },
+        "entity_src_nat": {}
+      }
+    }
+  ]
+}

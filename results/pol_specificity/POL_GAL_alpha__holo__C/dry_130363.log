@@ -1,0 +1,58 @@
+AutoDock Vina v1.2.7
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : vina
+Rigid receptor: /Users/alec/AAV-Docking-Benchmark/data/processed/pol_specificity/cases/POL_GAL_alpha__holo__C/holo_dry.pdbqt
+Ligand: /Users/alec/AAV-Docking-Benchmark/data/processed/pol_specificity/cases/POL_GAL_alpha__holo__C/ligand.pdbqt
+Grid center: X 12.5448 Y 27.7965 Z 68.3702
+Grid size  : X 24 Y 24 Z 24
+Grid space : 0.375
+Exhaustiveness: 16
+CPU: 2
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: 130363) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -4.156          0          0
+   2       -4.138      1.231      2.654
+   3       -4.048      13.34      14.45
+   4       -3.953      12.59      14.34
+   5        -3.94      12.69      14.43
+   6       -3.886      1.853      3.351
+   7       -3.808      13.04      14.59
+   8       -3.743      8.139      9.331
+   9       -3.739      13.19      14.31
+  10       -3.725      7.934      9.224
+  11       -3.706      7.306      8.524
+  12       -3.704      1.394      3.675
+  13       -3.702      12.02      13.34
+  14       -3.617      1.959      3.307
+  15       -3.557      1.501      3.614
+  16        -3.55      13.09      14.94
+  17       -3.501      2.468      3.489
+  18       -3.477       8.59      9.942
+  19        -3.42      5.977      7.519
+  20       -3.364      12.16      13.92

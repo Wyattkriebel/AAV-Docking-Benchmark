@@ -1,0 +1,46 @@
+{
+  "amendment_id": "initializer_independent_review_provenance_v2",
+  "author_confirmed_cause": "The additional_docking_method agent reports executing its standalone review_initializer_outputs.py once after the earlier inline all-seven saved-product review. That execution overwrote the derived review file and changed provenance/description metadata. The exact historical bytes were not recovered; no numerical-content byte diff is asserted.",
+  "created_utc": "2026-11-03T17:34:40.894359+00:00",
+  "current_derived_review": {
+    "bytes": 11291,
+    "path": "results/common_pose_rescoring/geometry_diagnosis/initializer_v3_all7_independent_review.json",
+    "sha256": "283fd6d2dabd86eab484624801b43e890826cfdf3d07ecbfe4cea3f2304802d9"
+  },
+  "historical_review_pin": {
+    "bytes": 11269,
+    "path": "results/common_pose_rescoring/geometry_diagnosis/initializer_v3_all7_independent_review.json",
+    "sha256": "63a8a6fb7f200e449dff2b620b45025fb12fa7d1439934204e028820db9c2b92"
+  },
+  "historical_review_pin_reproduced": false,
+  "independent_expected_parent_graphs": {
+    "bytes": 3947,
+    "path": "results/common_pose_rescoring/geometry_diagnosis/expected_parent_graphs.json",
+    "sha256": "5afa84cc93b616a3a3de1f007669ddbe0f2d6e4d3e1d4a6937311874716f57de"
+  },
+  "initializer_algorithm_changed": false,
+  "initializer_policy_changed": false,
+  "interpretation": "Publication provenance correction for one overwritten derived review artifact only. All32 primary initializer artifact pins remain exact; the original historical review byte pin remains explicitly unrecovered. This is not a prospective preregistration or a new docking/accuracy result.",
+  "new_conformer_search_performed_for_this_amendment": false,
+  "new_native_or_docking_execution_performed": false,
+  "original_receipt": {
+    "bytes": 20896,
+    "path": "results/ideal_ring_conformer_feasibility/profile_receipt.json",
+    "sha256": "03997f897fbedeba967e5f9fbd17418e57b9a467350ea8b44fb36a272f720a7e"
+  },
+  "primary_artifact_count": 32,
+  "primary_initializer_artifacts_changed": false,
+  "recovery_search": "Bounded existing-file and temp-path search, index/HEAD/history inspection and author-reported64 unreachable Git blobs did not recover the original11269-byte SHA63a8a6fb... snapshot. No hash reconstruction attempted.",
+  "schema_version": 1,
+  "source_only_saved_product_checks": "All seven serialized full parents, fresh3D stereochemistry, declared ring/volume/clash gates, mathematical controls and temporary-copy linkage rotations are revalidated by the separate read-only verifier; the140 archived v3candidate slots remain unchanged.",
+  "standalone_review_source": {
+    "bytes": 5310,
+    "path": "results/common_pose_rescoring/geometry_diagnosis/review_initializer_outputs.py",
+    "sha256": "5a3d727b64de8329e54f200403588d03b56d70612585b65dc279f9d7f3685df6"
+  },
+  "versioned_review_copy": {
+    "bytes": 11291,
+    "path": "results/ideal_ring_conformer_feasibility/independent_review_v2.json",
+    "sha256": "283fd6d2dabd86eab484624801b43e890826cfdf3d07ecbfe4cea3f2304802d9"
+  }
+}

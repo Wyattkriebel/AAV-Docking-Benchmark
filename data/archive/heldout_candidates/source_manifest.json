@@ -1,0 +1,927 @@
+{
+  "schema_version": 1,
+  "retrieval_date": "2026-11-03",
+  "purpose": "Source-only structural candidate qualification; no docking predictions or outcomes",
+  "sources": [
+    {
+      "filename": "154L.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/154L/1",
+      "bytes": 12223,
+      "sha256": "bc2018bbe39559eff823f494381f3cccac1b8b47f01e0e5fc445d0ec3085ec3b",
+      "archive_path": "data/archive/heldout_candidates/154L.entity1.json.gz",
+      "archive_sha256": "be108fa9e6ca4b240bfa6f6ac4481f4ad44a9d73e0afb6033184ea11b3478cdd",
+      "archive_bytes": 3325,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "154L.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/154L/A",
+      "bytes": 23092,
+      "sha256": "ecc5af6c412dd8b0d36364b48e5d470178248b8179b03253c104ea4e0827a0a9",
+      "archive_path": "data/archive/heldout_candidates/154L.instanceA.json.gz",
+      "archive_sha256": "283aae39e276af12e61808be1a04a97d73abe9f7208713b6440e9d3687f36e9f",
+      "archive_bytes": 6274,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1GNY.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1GNY/1",
+      "bytes": 15226,
+      "sha256": "281bb76de0c1a6a1db5e924973fbe846a2d74e4697f33c9d4cb2abaa780b1185",
+      "archive_path": "data/archive/heldout_candidates/1GNY.entity1.json.gz",
+      "archive_sha256": "d048caf9d42c607ec0ac9cc54f0be193a0dd783f8026bec88f16cb6f0f48b497",
+      "archive_bytes": 3542,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1GNY.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/1GNY/A",
+      "bytes": 23387,
+      "sha256": "36ce2502a5bfbdb7548a9e9c5aaf2002d83ae1cdf5af971511847145da184853",
+      "archive_path": "data/archive/heldout_candidates/1GNY.instanceA.json.gz",
+      "archive_sha256": "07cc9ce918db934843f48b79de61d11d1ec4fba3cec88dcf1e83f38b7ffb93c8",
+      "archive_bytes": 6101,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1I3H.cif",
+      "url": "https://files.rcsb.org/download/1I3H.cif",
+      "bytes": 471748,
+      "sha256": "ed8f5529f62ee1c1460e2add93f7b54576d1801224280fe0677a330e98ae2273",
+      "archive_path": "data/archive/heldout_candidates/1I3H.cif.gz",
+      "archive_sha256": "f26bb2d057f03399a2ff803ea955167876a02e1dafb84e8bde58b8149df14751",
+      "archive_bytes": 119941,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1I3H.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1I3H/1",
+      "bytes": 18192,
+      "sha256": "bb86c3e5044d4afd1b259f6eabb5922e1c759cd6a134d04ec074fb447a140839",
+      "archive_path": "data/archive/heldout_candidates/1I3H.entity1.json.gz",
+      "archive_sha256": "e001425169f3605878912177d25cbbda80deeb9f910a0e13a18c23f271b46976",
+      "archive_bytes": 3902,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1I3H.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/1I3H",
+      "bytes": 21929,
+      "sha256": "65cc402b369265681d71340d92e88f248cc07e43ad77abbf3b753fce96704984",
+      "archive_path": "data/archive/heldout_candidates/1I3H.entry.json.gz",
+      "archive_sha256": "f3b74868015ee782c18294b9e10f7fbf3e38bf95def570e3bd4a7876797ef528",
+      "archive_bytes": 4769,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1I3H.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/1I3H/A",
+      "bytes": 34359,
+      "sha256": "924d8fe8b18c0db80ed18089bbfb794102d77987492824fed062cdd31be8d269",
+      "archive_path": "data/archive/heldout_candidates/1I3H.instanceA.json.gz",
+      "archive_sha256": "844be33f0ad8fa7a2cdf160ae02ab8dda9e5d19b55dfb861ee21611d34f33083",
+      "archive_bytes": 8391,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1I3H.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/i3/1i3h/1i3h_validation.xml.gz",
+      "bytes": 17357,
+      "sha256": "e312793bc454859e3654a4b3e9d5e1b4e41a1a592993910670e1ce91b8e86361",
+      "archive_path": "data/archive/heldout_candidates/1I3H.validation.xml.gz",
+      "archive_sha256": "e312793bc454859e3654a4b3e9d5e1b4e41a1a592993910670e1ce91b8e86361",
+      "archive_bytes": 17357,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "1KJL.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1KJL/1",
+      "bytes": 67197,
+      "sha256": "5760c0b4fb79cde8fe679c7889b2399c559e8d68e307b707fd5ae6bc3de86358",
+      "archive_path": "data/archive/heldout_candidates/1KJL.entity1.json.gz",
+      "archive_sha256": "43861c3b27f3bf8f7f1f29e9d0e8c4e09073c1e733a7aa6788771cc30996c811",
+      "archive_bytes": 9299,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1KJL.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/1KJL/A",
+      "bytes": 22018,
+      "sha256": "4155674ce337a41ea46182e6896b1cec32b6ea3889da2962cd3922a1d4d4d736",
+      "archive_path": "data/archive/heldout_candidates/1KJL.instanceA.json.gz",
+      "archive_sha256": "829e8d442ed800634275adda0de680c066a288d9dc94c013b6c1838d9373379e",
+      "archive_bytes": 5861,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1PWB.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1PWB/1",
+      "bytes": 34884,
+      "sha256": "3f46cd21dc362cd36807ed3dc5ffb7b17c09cc619a89d8bb7a683884dab2257d",
+      "archive_path": "data/archive/heldout_candidates/1PWB.entity1.json.gz",
+      "archive_sha256": "123bd2a6b3f784b665e2ea089a040ad81e845b2724abab396f1b5288666a008a",
+      "archive_bytes": 6218,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1PWB.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/1PWB/A",
+      "bytes": 36338,
+      "sha256": "e3bc7cfb9f60d08d1d6f029187fbd439c94f8f857739fef4937ade6c3f73fd28",
+      "archive_path": "data/archive/heldout_candidates/1PWB.instanceA.json.gz",
+      "archive_sha256": "57c76390cad4ff09ed04617d1d806f0049987a0ee248c4e3625addfe060ed79c",
+      "archive_bytes": 7075,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1QFO.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1QFO/1",
+      "bytes": 26978,
+      "sha256": "68621c17e59740e3d7132f333f79b82e8ec0c0e8d9c3ac386f22c55ac7c7f8c9",
+      "archive_path": "data/archive/heldout_candidates/1QFO.entity1.json.gz",
+      "archive_sha256": "9a8d633d83c2161acbfb462df2b1ad5d72feef0b88fd9c20237fbb7ec3b7d85b",
+      "archive_bytes": 4613,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "1QFO.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/1QFO/A",
+      "bytes": 19986,
+      "sha256": "8c24efa231b8c76592ecb7f82f9900e6fd24c16ce1f1ecea238bdbeeac0d1018",
+      "archive_path": "data/archive/heldout_candidates/1QFO.instanceA.json.gz",
+      "archive_sha256": "ffa2b34f2639ae42c86d0256af983d03e56e177248290be67aaeb0e0b2aa0274",
+      "archive_bytes": 5235,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2G7C.cif",
+      "url": "https://files.rcsb.org/download/2G7C.cif",
+      "bytes": 510054,
+      "sha256": "0bb621b46d319600dc44ee6c42547065fcb65a581537e2a2d4549a88e56f0d79",
+      "archive_path": "data/archive/heldout_candidates/2G7C.cif.gz",
+      "archive_sha256": "7fb51d2b01965b6baa46ef93ebc8a3634ca53055726ec269ab831c1eb0a5f2c9",
+      "archive_bytes": 128027,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2G7C.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2G7C/1",
+      "bytes": 20101,
+      "sha256": "bc976a12617e0d5d3b06f62cee68255c2c0e3b7e1011b2d9e015ee29cb0c0045",
+      "archive_path": "data/archive/heldout_candidates/2G7C.entity1.json.gz",
+      "archive_sha256": "10f8b50b1d1900da84188859b312f79c100a6deab51e6bc25431f0be0a50a2ca",
+      "archive_bytes": 3993,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2G7C.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/2G7C",
+      "bytes": 17610,
+      "sha256": "7d5730c6f185f3e063835835f6114ed039770fc25d7798a184a6e1f3194d4180",
+      "archive_path": "data/archive/heldout_candidates/2G7C.entry.json.gz",
+      "archive_sha256": "f341ed15c0aaba91aa7d80dc74039fcbb57773007f43329ac17259ae94a2a556",
+      "archive_bytes": 4319,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2G7C.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2G7C/A",
+      "bytes": 31955,
+      "sha256": "cf5e0342bbc0f71ba146501cadde3ab5741dd4d24e2a676aaf5a0adac94e8914",
+      "archive_path": "data/archive/heldout_candidates/2G7C.instanceA.json.gz",
+      "archive_sha256": "bc8390992b93e2f05718053ba01e79e6c34e58932b4731f6d133de5d85a33cc9",
+      "archive_bytes": 8241,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2G7C.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/g7/2g7c/2g7c_validation.xml.gz",
+      "bytes": 30483,
+      "sha256": "65ab4380a97a4f8b92f9576eb33f2ebac50c01167351945680c707955b6aa9f8",
+      "archive_path": "data/archive/heldout_candidates/2G7C.validation.xml.gz",
+      "archive_sha256": "65ab4380a97a4f8b92f9576eb33f2ebac50c01167351945680c707955b6aa9f8",
+      "archive_bytes": 30483,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "2GUP.cif",
+      "url": "https://files.rcsb.org/download/2GUP.cif",
+      "bytes": 303874,
+      "sha256": "0eda1bc08ec680fdbeefae7a415ac182662065dee7ec7b4663e03a0daa399a5a",
+      "archive_path": "data/archive/heldout_candidates/2GUP.cif.gz",
+      "archive_sha256": "d11d84aafe9cf39cebeaaaca17daa7abdece36d73e441942d23dac8e52790bf9",
+      "archive_bytes": 76378,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2GUP.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2GUP/1",
+      "bytes": 18114,
+      "sha256": "c460b3bcc880b0a11613fc36aa21a25de4491a89f47e80ad33e1b46b5aec4582",
+      "archive_path": "data/archive/heldout_candidates/2GUP.entity1.json.gz",
+      "archive_sha256": "f4d0aed9780d87a3554e4ee6bb47808bddf74d0a5777a6c537319f12362549e8",
+      "archive_bytes": 4038,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2GUP.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/2GUP",
+      "bytes": 20392,
+      "sha256": "80dbb9ecaa9fd95d7ff7d1bfd16d4a8602286211e68bb54e7adea11918b57c0c",
+      "archive_path": "data/archive/heldout_candidates/2GUP.entry.json.gz",
+      "archive_sha256": "4d88d7d1562bbb25e862b5a62ef9b6aaa4be3236c535fe419b006ae6f37066de",
+      "archive_bytes": 4875,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2GUP.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2GUP/A",
+      "bytes": 43668,
+      "sha256": "355688f62d513c6cb133ef218793167d82f509ab451a9859d5653d2f490dc1a9",
+      "archive_path": "data/archive/heldout_candidates/2GUP.instanceA.json.gz",
+      "archive_sha256": "a9933ec32d3114341193260fc53db375e83c403d72906ec0b82a1bd42d6d8274",
+      "archive_bytes": 10011,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2GUP.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/gu/2gup/2gup_validation.xml.gz",
+      "bytes": 17183,
+      "sha256": "37fadbaa9bf710c6b355d3214e520e4a1e3ecf7ea5143b883c049027ef115fb1",
+      "archive_path": "data/archive/heldout_candidates/2GUP.validation.xml.gz",
+      "archive_sha256": "37fadbaa9bf710c6b355d3214e520e4a1e3ecf7ea5143b883c049027ef115fb1",
+      "archive_bytes": 17183,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "2J1T.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2J1T/1",
+      "bytes": 16413,
+      "sha256": "f78264bf6ec911c3c311eee9dbbc23c169b3decdf3cd93092dba9ff7ca859027",
+      "archive_path": "data/archive/heldout_candidates/2J1T.entity1.json.gz",
+      "archive_sha256": "9a82382245bea1eab00cdf66899cb8247a292f173eabda6c5b9d8f902f7d0700",
+      "archive_bytes": 3729,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2J1T.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2J1T/A",
+      "bytes": 21419,
+      "sha256": "8668d036cefe9e3c601cc9a774ef3832d47ada27a3d084b2e8a18a349c917b1e",
+      "archive_path": "data/archive/heldout_candidates/2J1T.instanceA.json.gz",
+      "archive_sha256": "64ebf928c96b2191c2187f93b33efaac498ece17f567bc10e9d8403e5841fbc3",
+      "archive_bytes": 5520,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2RDK.cif",
+      "url": "https://files.rcsb.org/download/2RDK.cif",
+      "bytes": 407391,
+      "sha256": "82b220a370b81533cb358d942f41ce20f57520830ca2103e1165d99357ace360",
+      "archive_path": "data/archive/heldout_candidates/2RDK.cif.gz",
+      "archive_sha256": "21a962bf3ca8f576b5546be9ea25c7df09472883144caf4f83b1ba181c9f74ee",
+      "archive_bytes": 100395,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2RDK.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2RDK/1",
+      "bytes": 14818,
+      "sha256": "3a9a25725772c926017ef79095ad380f20dbb41b3bfc7d2c0aa45bfbc864bc80",
+      "archive_path": "data/archive/heldout_candidates/2RDK.entity1.json.gz",
+      "archive_sha256": "994620e2636927bda44904ca20a10528dbd8302c71ff1bf4bbb9f8c7943709c2",
+      "archive_bytes": 3448,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2RDK.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/2RDK",
+      "bytes": 22232,
+      "sha256": "124e7aa98e853d40994f4ac74ea097bc57d98181a1f87454311ddb0c157a2b6a",
+      "archive_path": "data/archive/heldout_candidates/2RDK.entry.json.gz",
+      "archive_sha256": "cd825c59db90612c533048edd6f2f0ff8ece3a3293985d801b895d6bd057ccdc",
+      "archive_bytes": 5194,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2RDK.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2RDK/A",
+      "bytes": 17893,
+      "sha256": "c94fd494d1a0f544cbf34ea4d89a1ecaa1c88b7b39b68c3f43c5e023a0f10e54",
+      "archive_path": "data/archive/heldout_candidates/2RDK.instanceA.json.gz",
+      "archive_sha256": "b404177949862b845fdc04324a60b44ea0b1b79603f3cfe1216a1e7366ad1ded",
+      "archive_bytes": 4646,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2RDK.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/rd/2rdk/2rdk_validation.xml.gz",
+      "bytes": 14916,
+      "sha256": "c5a1f9599579883a0f28a83d96af6a064725677a4661d693ca8b0bd2712679a9",
+      "archive_path": "data/archive/heldout_candidates/2RDK.validation.xml.gz",
+      "archive_sha256": "c5a1f9599579883a0f28a83d96af6a064725677a4661d693ca8b0bd2712679a9",
+      "archive_bytes": 14916,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "2VUZ.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2VUZ/1",
+      "bytes": 9330,
+      "sha256": "51556cc3cbb0ac502e508f10fdeeb7be0333872bd2dfe86aae1c8d507439a029",
+      "archive_path": "data/archive/heldout_candidates/2VUZ.entity1.json.gz",
+      "archive_sha256": "f32738985d38d2f81fe509f92d12bb01355080b8ca6965a65792ddbb47f2cc70",
+      "archive_bytes": 2612,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2VUZ.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2VUZ/A",
+      "bytes": 28751,
+      "sha256": "f3de5e04983afb4f523f86f731fab7e115009fafd16e7552e5996eb2c3711601",
+      "archive_path": "data/archive/heldout_candidates/2VUZ.instanceA.json.gz",
+      "archive_sha256": "477ccc3b142a76acb299d7d5a71a52c594e8680eb01413c781b7f7d399d7af74",
+      "archive_bytes": 6116,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WAB.cif",
+      "url": "https://files.rcsb.org/download/2WAB.cif",
+      "bytes": 370396,
+      "sha256": "29fe6a3e53dfe3987b4f952af3ea66ed1b55246e57eb27534a003cd25e3b26b6",
+      "archive_path": "data/archive/heldout_candidates/2WAB.cif.gz",
+      "archive_sha256": "dda7686e702aaff4a1a3bc3b0f868deee44d78dc0aee9b0db82429c85c06061b",
+      "archive_bytes": 91400,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WAB.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2WAB/1",
+      "bytes": 23566,
+      "sha256": "9016dec3d9b9627f134869231b6c702fa09b8f4b4192b6a894f21ca659f4e6c6",
+      "archive_path": "data/archive/heldout_candidates/2WAB.entity1.json.gz",
+      "archive_sha256": "4e59779ae4e5d94c915f5fbfc54611b06f5f3bd67806e690293c19a787c7e99d",
+      "archive_bytes": 5058,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WAB.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/2WAB",
+      "bytes": 23085,
+      "sha256": "bea764386d70c0aa1624c91fd40fcb375ed28509f2fc1dbaea1e88db96f9252f",
+      "archive_path": "data/archive/heldout_candidates/2WAB.entry.json.gz",
+      "archive_sha256": "3d86f6539852d54bfa4ea3335c19f9cf71306d9947d285a9020b8dea765d7b47",
+      "archive_bytes": 5345,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WAB.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2WAB/A",
+      "bytes": 46216,
+      "sha256": "92a4dd2e12f9ae9de3f8d3ab9b8e7073833bd0946f3eb6dce0c4d83be567e6ba",
+      "archive_path": "data/archive/heldout_candidates/2WAB.instanceA.json.gz",
+      "archive_sha256": "2b8dd485c7608c4722abc42a59a2f63bffa2bc35293e7baecc002861290f8663",
+      "archive_bytes": 10606,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WAB.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/wa/2wab/2wab_validation.xml.gz",
+      "bytes": 22744,
+      "sha256": "66bdc97df79eb70080627a674abd120dc8806e4ce7e7de1e7d5d6b7fae35435c",
+      "archive_path": "data/archive/heldout_candidates/2WAB.validation.xml.gz",
+      "archive_sha256": "66bdc97df79eb70080627a674abd120dc8806e4ce7e7de1e7d5d6b7fae35435c",
+      "archive_bytes": 22744,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "2WNB.cif",
+      "url": "https://files.rcsb.org/download/2WNB.cif",
+      "bytes": 363195,
+      "sha256": "a9db9f94dbfcfbca004c11fcec5036cd14ca064a3109b60b08a041eadae43208",
+      "archive_path": "data/archive/heldout_candidates/2WNB.cif.gz",
+      "archive_sha256": "085d2f9ac202ba7107e16f176f21981090c9c8932cf2b1c6175189340ab13b40",
+      "archive_bytes": 87230,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WNB.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/2WNB/1",
+      "bytes": 25820,
+      "sha256": "cb0c52a633177b26c24ab048cd33daa82984e1a06c8578289d6b8f928fcb38aa",
+      "archive_path": "data/archive/heldout_candidates/2WNB.entity1.json.gz",
+      "archive_sha256": "7bf156aa3bcaffbcf18577f595efff45abdf41f5f0dc0d8565bca24acc28542f",
+      "archive_bytes": 5216,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WNB.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/2WNB",
+      "bytes": 30114,
+      "sha256": "5a7f6db4aa65c1cb0560adaee7ef6ed3e7a802d4b3305b49a1e490a8c6771cb4",
+      "archive_path": "data/archive/heldout_candidates/2WNB.entry.json.gz",
+      "archive_sha256": "5c379e2c289095ffb8c299bbc935965c14a2d75711309fefeaedda5426971905",
+      "archive_bytes": 5779,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WNB.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/2WNB/A",
+      "bytes": 39424,
+      "sha256": "66158a45ea36a56e40fccc7463cef474c9778349dfceb7ec7c4759a503f60c74",
+      "archive_path": "data/archive/heldout_candidates/2WNB.instanceA.json.gz",
+      "archive_sha256": "97ebade6e6d2c597361cc2590244866579bc3443c93c683272e0df9a3f3050a3",
+      "archive_bytes": 9436,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "2WNB.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/wn/2wnb/2wnb_validation.xml.gz",
+      "bytes": 20171,
+      "sha256": "48caec06276262b11afc3d5ca18862f16f2ee799bbaddef1cee048d7b039cb6d",
+      "archive_path": "data/archive/heldout_candidates/2WNB.validation.xml.gz",
+      "archive_sha256": "48caec06276262b11afc3d5ca18862f16f2ee799bbaddef1cee048d7b039cb6d",
+      "archive_bytes": 20171,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "3A2S.cif",
+      "url": "https://files.rcsb.org/download/3A2S.cif",
+      "bytes": 339063,
+      "sha256": "464e17b2210b4959a5afda6909f0b6e09d55f7d4760ab560a9ffa793c909c3c8",
+      "archive_path": "data/archive/heldout_candidates/3A2S.cif.gz",
+      "archive_sha256": "b114fc2aae6cecf8fe7d56073f454250428f563a11d8b3a9f63d162872fc72f9",
+      "archive_bytes": 87211,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "3A2S.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/3A2S/1",
+      "bytes": 20854,
+      "sha256": "7cad3ed0963105229892d0c23f4cfb984876705053e066092e5ca8a6f1fa8025",
+      "archive_path": "data/archive/heldout_candidates/3A2S.entity1.json.gz",
+      "archive_sha256": "33a0b63bf1244541d7f1234fef890870f7a04c68922057c9243ec563c2fa40e7",
+      "archive_bytes": 4647,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "3A2S.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/3A2S",
+      "bytes": 19146,
+      "sha256": "dd07815d51f1f4b7ede7b5b56bbada248cf84e8588009497daf08e71eb0a22b6",
+      "archive_path": "data/archive/heldout_candidates/3A2S.entry.json.gz",
+      "archive_sha256": "cfa0772672ea2956508122ff73b8dd56a59c2571e3c57c5aa0ce707d3e56b9ac",
+      "archive_bytes": 4787,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "3A2S.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/3A2S/A",
+      "bytes": 33136,
+      "sha256": "036bb5b0272971b6ee96dae5863bd1375ef75fc3d2022f685120b2c6ea0fd524",
+      "archive_path": "data/archive/heldout_candidates/3A2S.instanceA.json.gz",
+      "archive_sha256": "7588e3bc6d9e1e941d09d6fea99c9c8102454a4d8ff57b30981f8a533e36413a",
+      "archive_bytes": 10361,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "3A2S.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/a2/3a2s/3a2s_validation.xml.gz",
+      "bytes": 20228,
+      "sha256": "2c7e8597d77a740bb730e83d098fd3c13e1f4f72f0724d16175c9a31f3c67445",
+      "archive_path": "data/archive/heldout_candidates/3A2S.validation.xml.gz",
+      "archive_sha256": "2c7e8597d77a740bb730e83d098fd3c13e1f4f72f0724d16175c9a31f3c67445",
+      "archive_bytes": 20228,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "3ZWE.cif",
+      "url": "https://files.rcsb.org/download/3ZWE.cif",
+      "bytes": 294896,
+      "sha256": "2fd801c2c1fca6871d0ad142364cc0ee193f89eac511d10da270374eed7f247e",
+      "archive_path": "data/archive/heldout_candidates/3ZWE.cif.gz",
+      "archive_sha256": "2846fbc398039d4f708322000c2948d9d1db41acc7c21ad6e34f26b9fbe2a505",
+      "archive_bytes": 73164,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "3ZWE.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/3ZWE/1",
+      "bytes": 10654,
+      "sha256": "7a87cdc5ae73a24a07ba2a05c1e6961fd01eddaa49bdffcb373e43e7f0995e0e",
+      "archive_path": "data/archive/heldout_candidates/3ZWE.entity1.json.gz",
+      "archive_sha256": "353856b3b0f3c4bbd893e8b1c454ea858870155e33b77f6810c61e44ce7927bb",
+      "archive_bytes": 2514,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "3ZWE.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/3ZWE",
+      "bytes": 21562,
+      "sha256": "a2fcf8769cca943c0920a99437a1819871f3d9af4f66db721fc2bea80d3589fa",
+      "archive_path": "data/archive/heldout_candidates/3ZWE.entry.json.gz",
+      "archive_sha256": "c4f9491d8b90b46d5184fb72e979d3dc325d8a85da843fc7e6f0b34d200fcf70",
+      "archive_bytes": 5051,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "3ZWE.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/3ZWE/A",
+      "bytes": 13924,
+      "sha256": "5e86c41c9b0e0aac5ac0bed63da79478eb5ed13ac9734b3ca6adffc82f114b4a",
+      "archive_path": "data/archive/heldout_candidates/3ZWE.instanceA.json.gz",
+      "archive_sha256": "21ccbcb7bcef3971bac958e4378db36d846ea1c97e86134a08d06c2249e4201b",
+      "archive_bytes": 4046,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "3ZWE.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/zw/3zwe/3zwe_validation.xml.gz",
+      "bytes": 18037,
+      "sha256": "7f9c93e126cd91e17d02a1d028c4f5cd0afe2d204a652909c6894e97cd320c58",
+      "archive_path": "data/archive/heldout_candidates/3ZWE.validation.xml.gz",
+      "archive_sha256": "7f9c93e126cd91e17d02a1d028c4f5cd0afe2d204a652909c6894e97cd320c58",
+      "archive_bytes": 18037,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "4R9F.cif",
+      "url": "https://files.rcsb.org/download/4R9F.cif",
+      "bytes": 719193,
+      "sha256": "ebba81636e0100d2d69a875a1adbef2e7c243367755121e6e240f078396a8252",
+      "archive_path": "data/archive/heldout_candidates/4R9F.cif.gz",
+      "archive_sha256": "1e6322f6e5eb9c5c60974b0e8cc0dc5427a6a015af31128d4c82377960711fd5",
+      "archive_bytes": 181549,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "4R9F.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/4R9F/1",
+      "bytes": 23663,
+      "sha256": "5941fa4ce205bd0007a6cb1bd39ff36aa906815b4178be64e27e9fdc70a42bac",
+      "archive_path": "data/archive/heldout_candidates/4R9F.entity1.json.gz",
+      "archive_sha256": "a99bce5f8a106b7e3a7f24e23bf9634e84afecb0c081f111496aa1c1c36b8278",
+      "archive_bytes": 4917,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "4R9F.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/4R9F",
+      "bytes": 19060,
+      "sha256": "2c98d3e90cd4ff7243bea587eee5b600288a4771c0e8e9d26f3d6a5c6e4c06f4",
+      "archive_path": "data/archive/heldout_candidates/4R9F.entry.json.gz",
+      "archive_sha256": "18872f9c1dfc7ba1e78c4d35e1c2157eda47c77f983e8a399d6805fae5c82c7d",
+      "archive_bytes": 4693,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "4R9F.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/4R9F/A",
+      "bytes": 63115,
+      "sha256": "67f74312d103ac0abb76b4129f9e61142ccc9c84c7b56e87d619d93e3923a0a6",
+      "archive_path": "data/archive/heldout_candidates/4R9F.instanceA.json.gz",
+      "archive_sha256": "7d58d8fae70b3dc7a354da8f4cecf0509d4b4b191fdb68259ee6753dd64b3043",
+      "archive_bytes": 12576,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "4R9F.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/r9/4r9f/4r9f_validation.xml.gz",
+      "bytes": 26461,
+      "sha256": "e6e9b29f271271288af0e90e92051dfcd85e177df91f621d70042b7b39816805",
+      "archive_path": "data/archive/heldout_candidates/4R9F.validation.xml.gz",
+      "archive_sha256": "e6e9b29f271271288af0e90e92051dfcd85e177df91f621d70042b7b39816805",
+      "archive_bytes": 26461,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "5HZA.cif",
+      "url": "https://files.rcsb.org/download/5HZA.cif",
+      "bytes": 654330,
+      "sha256": "5541da62ac96c3b0b03a46ca9336710cbfcd172c65af67e5022becc6e41545f3",
+      "archive_path": "data/archive/heldout_candidates/5HZA.cif.gz",
+      "archive_sha256": "23316aa44a2f6ab3d8bf1cc4d6686c97a2e0140082427f7638d205cfd617364b",
+      "archive_bytes": 159730,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "5HZA.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/5HZA/1",
+      "bytes": 15481,
+      "sha256": "c9702a1a07c021419c2bbc039da22d01f1fb68dea0cf2e34c131765080d48d42",
+      "archive_path": "data/archive/heldout_candidates/5HZA.entity1.json.gz",
+      "archive_sha256": "5205189fe9cd41ec49c9f5766b063067de9500b13491f3e9ef7fe08ba194f6b0",
+      "archive_bytes": 3861,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "5HZA.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/5HZA",
+      "bytes": 18393,
+      "sha256": "86a6006a88062029a0cfd6020314df3163857c10d40d874d5c3deae4afbc803e",
+      "archive_path": "data/archive/heldout_candidates/5HZA.entry.json.gz",
+      "archive_sha256": "e5e53e55973e31e30d63f0eb67f1f1785f3a833b469469ae9ae4081c90e00174",
+      "archive_bytes": 4435,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "5HZA.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/5HZA/A",
+      "bytes": 38489,
+      "sha256": "6d73b49ffd8451b80b673111f0a09c97336942a3ed5fba8c35b718c6b7b57a2d",
+      "archive_path": "data/archive/heldout_candidates/5HZA.instanceA.json.gz",
+      "archive_sha256": "cf25d7aae63e080461f37a7880351291c584b4056fee4a8bba507fa2ee3f1882",
+      "archive_bytes": 9832,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "5HZA.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/hz/5hza/5hza_validation.xml.gz",
+      "bytes": 38034,
+      "sha256": "4a4f5cdd7a10d422011a15af65f422c7da13142590467d36df41056e05e3c478",
+      "archive_path": "data/archive/heldout_candidates/5HZA.validation.xml.gz",
+      "archive_sha256": "4a4f5cdd7a10d422011a15af65f422c7da13142590467d36df41056e05e3c478",
+      "archive_bytes": 38034,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "5V6F.cif",
+      "url": "https://files.rcsb.org/download/5V6F.cif",
+      "bytes": 303460,
+      "sha256": "e82cd04d94090941a7933833f1ff333830a426804f72f0822ed46117df610f81",
+      "archive_path": "data/archive/heldout_candidates/5V6F.cif.gz",
+      "archive_sha256": "737bd4a2f86271344e58186a89508fe00af5459238cc7fccc62bb1c9ca6d3c2d",
+      "archive_bytes": 73621,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "5V6F.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/5V6F/1",
+      "bytes": 14600,
+      "sha256": "ffbdfeb68e7ff8227977635b8161668c90e743b890d625a534e1ce5931b3659d",
+      "archive_path": "data/archive/heldout_candidates/5V6F.entity1.json.gz",
+      "archive_sha256": "f60ccd918f830973767c94ab8be9d3d031783b5e0f51daa08e0624edff4fce91",
+      "archive_bytes": 3257,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "5V6F.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/5V6F",
+      "bytes": 22483,
+      "sha256": "df695518f74085a8ced7fc2016443a2ab1a59045a80931dc48fc174077348d32",
+      "archive_path": "data/archive/heldout_candidates/5V6F.entry.json.gz",
+      "archive_sha256": "5014a26919dc2a323aec72c41d73c8dd4841fa0f0439aa1d66a1640abd27abfe",
+      "archive_bytes": 5115,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "5V6F.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/5V6F/A",
+      "bytes": 18437,
+      "sha256": "be0dd3e169f4273ba2b4400ca71039801fdd1e22e29e5eff855fa1cb4df779ac",
+      "archive_path": "data/archive/heldout_candidates/5V6F.instanceA.json.gz",
+      "archive_sha256": "2c9c8fd59c15154658ebbbd12dc13be9d3331a549673047525c81a93faabebc2",
+      "archive_bytes": 5188,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "5V6F.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/v6/5v6f/5v6f_validation.xml.gz",
+      "bytes": 12012,
+      "sha256": "b8c306656eaa4e688289cf6d229b5589812bc3e8e6405f87afa227d9e6ec0866",
+      "archive_path": "data/archive/heldout_candidates/5V6F.validation.xml.gz",
+      "archive_sha256": "b8c306656eaa4e688289cf6d229b5589812bc3e8e6405f87afa227d9e6ec0866",
+      "archive_bytes": 12012,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "7MTZ.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/7MTZ/1",
+      "bytes": 21138,
+      "sha256": "676b647aa6e9e53630dcee8746aa5f073407d8454fb210f643bd73c8bb7d55aa",
+      "archive_path": "data/archive/heldout_candidates/7MTZ.entity1.json.gz",
+      "archive_sha256": "f93f346758088cdc9c2143289252ce8dc7322321e87a00af801baef8ea0deaa1",
+      "archive_bytes": 5435,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "7MTZ.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/7MTZ/A",
+      "bytes": 25397,
+      "sha256": "a1b2b839c042bfd6af605a71cdfe3cdabc409fba51cc51bacce14481abb7b559",
+      "archive_path": "data/archive/heldout_candidates/7MTZ.instanceA.json.gz",
+      "archive_sha256": "08c332efc69910ce8d20cd32fe20d7acc00dd4768f3fc51ffd0305a89640895f",
+      "archive_bytes": 8328,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "8I5U.cif",
+      "url": "https://files.rcsb.org/download/8I5U.cif",
+      "bytes": 783783,
+      "sha256": "97da295b3e5512810bd44b4c369dc96984abf8b881d15296fb88472fb5c261bb",
+      "archive_path": "data/archive/heldout_candidates/8I5U.cif.gz",
+      "archive_sha256": "3ed356acf89603dc5a3c08437c838e680480f7622352936a30265751488fafa9",
+      "archive_bytes": 195156,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "8I5U.entity1.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/8I5U/1",
+      "bytes": 30512,
+      "sha256": "86a4ff0191737d68eb16588a6b8e016942fd37cd56384b604c54f8862ca39199",
+      "archive_path": "data/archive/heldout_candidates/8I5U.entity1.json.gz",
+      "archive_sha256": "831c4195436bfb4cd493fb7a3442caaa4a3e8703df15a8664c82e57f1c2bde2a",
+      "archive_bytes": 6909,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "8I5U.entry.json",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/8I5U",
+      "bytes": 13806,
+      "sha256": "e4ec7cfe172e112f3945263c93a8fbde37f76d8815a4e07e9e8fa442edefa635",
+      "archive_path": "data/archive/heldout_candidates/8I5U.entry.json.gz",
+      "archive_sha256": "b432365092b8dc1a0cd86638f6710169ff071744f7df66cee99dff5d1448f766",
+      "archive_bytes": 4399,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "8I5U.instanceA.json",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/8I5U/A",
+      "bytes": 91573,
+      "sha256": "1aa6cd2d2c5a9b5d98c9712d74f2fd3985f3a5ace78bcf6883e1efb8852d5e99",
+      "archive_path": "data/archive/heldout_candidates/8I5U.instanceA.json.gz",
+      "archive_sha256": "d926697652c26d2c4e5d53b2d28413483170b565774416d2b3e1d183aaaac58a",
+      "archive_bytes": 20836,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "8I5U.validation.xml.gz",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/i5/8i5u/8i5u_validation.xml.gz",
+      "bytes": 41045,
+      "sha256": "6f0c49f04b93877e1d4274469ffffddfb9bb3bce13689c08d3380b1a70f09b16",
+      "archive_path": "data/archive/heldout_candidates/8I5U.validation.xml.gz",
+      "archive_sha256": "6f0c49f04b93877e1d4274469ffffddfb9bb3bce13689c08d3380b1a70f09b16",
+      "archive_bytes": 41045,
+      "archive_encoding": "raw gzip source"
+    },
+    {
+      "filename": "A2G.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/A2G.cif",
+      "bytes": 10646,
+      "sha256": "4219eca45cfc2324ad940cd4e8b2e057516fbeb2898c37aee935a993e6842773",
+      "archive_path": "data/archive/heldout_candidates/A2G.ccd.cif.gz",
+      "archive_sha256": "0ad180e28ac9641485dc2f4a901a533e59de7b6f50f029b6e2eb1763a55a57c4",
+      "archive_bytes": 2986,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "BGC.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/BGC.cif",
+      "bytes": 9789,
+      "sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+      "archive_path": "data/archive/heldout_candidates/BGC.ccd.cif.gz",
+      "archive_sha256": "710d4054abadc80ee0221a76f5e02ee7de949a8c48f9c71621f8f79b352d6a1e",
+      "archive_bytes": 2707,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "BMA.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/BMA.cif",
+      "bytes": 9034,
+      "sha256": "3663ac87ab4fbdab73c7c80915c1e0d15cac7e61f3f43f14df9eb3d5261974b8",
+      "archive_path": "data/archive/heldout_candidates/BMA.ccd.cif.gz",
+      "archive_sha256": "299d6ab54faec32f15b1947b0ba0ae390c2facbae1b595080ab18956c07983a9",
+      "archive_bytes": 2521,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "FRU.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/FRU.cif",
+      "bytes": 7982,
+      "sha256": "703e377c5b9ececb7d03266cbe4d49b0fa9c2eacc1f975d09613afee12f165ad",
+      "archive_path": "data/archive/heldout_candidates/FRU.ccd.cif.gz",
+      "archive_sha256": "b7c02d0e6807924408ef2dea35300a4cfee363dacb90769746dfb1d0f32fc8c6",
+      "archive_bytes": 2352,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "FUC.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/FUC.cif",
+      "bytes": 8787,
+      "sha256": "b05b59fd2eae453a012a24ab319c5a7cf0dec6620fc67f58b46be01a77aacc83",
+      "archive_path": "data/archive/heldout_candidates/FUC.ccd.cif.gz",
+      "archive_sha256": "3f86139928f928c978af53742a594f713fc8fb2897590adc500ab0f19ded37f2",
+      "archive_bytes": 2497,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "GAL.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/GAL.cif",
+      "bytes": 9091,
+      "sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+      "archive_path": "data/archive/heldout_candidates/GAL.ccd.cif.gz",
+      "archive_sha256": "b1c504912f7a44756b7bf20bcdbad98aebe3a767a30aff7030578d04e57c2d5d",
+      "archive_bytes": 2599,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "GLA.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/GLA.cif",
+      "bytes": 8989,
+      "sha256": "b25f41e8fac93225b955151c538d0996ea0a7032077d2dc5465083ee4d54ba96",
+      "archive_path": "data/archive/heldout_candidates/GLA.ccd.cif.gz",
+      "archive_sha256": "a9538086f659090fe2bb9b3af024effac30d4ea4f8ed5fcb111595959badc7d3",
+      "archive_bytes": 2570,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "GLC.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/GLC.cif",
+      "bytes": 9281,
+      "sha256": "07eedff69de20c995d0aaf1f582bc6b9ecbf63bd6b4702dbb5141dcb3ab0f260",
+      "archive_path": "data/archive/heldout_candidates/GLC.ccd.cif.gz",
+      "archive_sha256": "1d1310cd49c88b2bec1eb73120aaeafd3bde68e29fae736c5b7597875d9b02f0",
+      "archive_bytes": 2595,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "MAN.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/MAN.cif",
+      "bytes": 9785,
+      "sha256": "79bc85094a794dfccdb827470fed9124e2dcaac2266d366d120d242d3d7aa8d5",
+      "archive_path": "data/archive/heldout_candidates/MAN.ccd.cif.gz",
+      "archive_sha256": "a0ef63b462a91ed0e44b4e1b73ec732a7bf80f059dad72de7497ef86c1a63526",
+      "archive_bytes": 2675,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "NAG.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/NAG.cif",
+      "bytes": 11333,
+      "sha256": "eada750ebb20e7abd76ef486c0a8278e461309e1cdde415545bb1c63c09bfb0f",
+      "archive_path": "data/archive/heldout_candidates/NAG.ccd.cif.gz",
+      "archive_sha256": "bedfeb37bc11479db2fa5b1b4121e8799075369ead9a508c70b517b97f3376c9",
+      "archive_bytes": 3071,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "OPO.ccd.cif",
+      "url": "https://files.rcsb.org/ligands/download/OPO.cif",
+      "bytes": 5099,
+      "sha256": "99a74b8d23de2812e00f9cdb9ef8f9274e86793fdabc3833995a699ce1725223",
+      "archive_path": "data/archive/heldout_candidates/OPO.ccd.cif.gz",
+      "archive_sha256": "e7b96c3e342ebcd04d8af29d5116ced0e3e2959af9f36f8d3d20161093076daf",
+      "archive_bytes": 1543,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "dataset_file_manifest.csv",
+      "url": "https://huggingface.co/datasets/ProtGlycanDock/ProtGlycanDock/resolve/fbbb866c7d0909391364d93faa85b87b7c5b6db7/metadata/dataset_file_manifest.csv",
+      "bytes": 2162472,
+      "sha256": "a3a5c44c00fabe3d40c70a2497ff29316ded5781eaa9503f8f8416fd8b61968e",
+      "archive_path": "data/archive/heldout_candidates/dataset_file_manifest.csv.gz",
+      "archive_sha256": "274aece4390e41eb665eef1948611c61bf0b1bbd29d67ad5410cb3f08b48390f",
+      "archive_bytes": 586268,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "glycan_holdout_test.csv",
+      "url": "https://huggingface.co/datasets/ProtGlycanDock/ProtGlycanDock/resolve/fbbb866c7d0909391364d93faa85b87b7c5b6db7/metadata/splits/glycan_holdout_test.csv",
+      "bytes": 29513,
+      "sha256": "e594c2374f74ef12c74557c84f99b52f89f88035228471c91f433fe904ba00a5",
+      "archive_path": "data/archive/heldout_candidates/glycan_holdout_test.csv.gz",
+      "archive_sha256": "26f19ee0d79faa8e758901ab6b43230e8108e2e93a8ce43a01d044004d028bd3",
+      "archive_bytes": 3278,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "protein_holdout_test.csv",
+      "url": "https://huggingface.co/datasets/ProtGlycanDock/ProtGlycanDock/resolve/fbbb866c7d0909391364d93faa85b87b7c5b6db7/metadata/splits/protein_holdout_test.csv",
+      "bytes": 32656,
+      "sha256": "173ae343d6890312cc133a66d647fc5eb9c645aa58a847e8ccb2adf52267cb73",
+      "archive_path": "data/archive/heldout_candidates/protein_holdout_test.csv.gz",
+      "archive_sha256": "29708048da21d38eddbb330e7ebf0523c556c38033ae3832890ae65ae3fb5786",
+      "archive_bytes": 3745,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "train.csv",
+      "url": "https://huggingface.co/datasets/ProtGlycanDock/ProtGlycanDock/resolve/fbbb866c7d0909391364d93faa85b87b7c5b6db7/metadata/splits/train.csv",
+      "bytes": 282108,
+      "sha256": "cc0bd5418efdbeba6ce5b8e7ff61a71582286520864d4b0b1e6dc5333e5ee6a5",
+      "archive_path": "data/archive/heldout_candidates/train.csv.gz",
+      "archive_sha256": "c0bf11f1458a7ec76a5d3188faf5bda9774c266dc7e0f602946bff9011e93c3a",
+      "archive_bytes": 28723,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    },
+    {
+      "filename": "valid.csv",
+      "url": "https://huggingface.co/datasets/ProtGlycanDock/ProtGlycanDock/resolve/fbbb866c7d0909391364d93faa85b87b7c5b6db7/metadata/splits/valid.csv",
+      "bytes": 25807,
+      "sha256": "39cc5d8182401409f9279978b7f8d6407e760fcae0196755270940386f6f271f",
+      "archive_path": "data/archive/heldout_candidates/valid.csv.gz",
+      "archive_sha256": "2f391cdd9108893cb7703b3980b63ad75bb44a0e06776bd583037968483eb7e9",
+      "archive_bytes": 3219,
+      "archive_encoding": "gzip mtime=0; decompress to source bytes"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "active_specificity_design": "The explicit purpose, panel_source/panel_sha256, specificity_metrics, score_aggregation, cases/seeds, receptor audit and docking settings govern the source-qualified Gal9C arm. All 36 runs are required.",
+  "frozen_configuration": "benchmarks/gal9_experiment.json",
+  "frozen_configuration_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+  "inactive_inherited_fields": {
+    "clash_distance_A": "Unused for this assay score endpoint.",
+    "clash_note": "Unused for this assay score endpoint.",
+    "confirmatory_status": "Legacy broad-study gate warning. This one-target descriptive arm has qualified assay labels but no held-out families or precision target; it remains nonconfirmatory.",
+    "contact_cutoff_A": "Unused for this assay score endpoint.",
+    "primary_pose_threshold_A": "Unused: no alternative has experimentally qualified atomic pose truth.",
+    "sensitivity_thresholds_A": "Unused pose RMSD thresholds; no RMSD is computed against generated input coordinates.",
+    "specificity": "Legacy eligibility warning copied from development.json. Replaced in meaning by the source-qualified panel and explicit purpose, not by a change to the frozen bytes."
+  },
+  "pose_reference_policy": "Every prepared reference has pose_reference_eligible:false; independently embedded ligand coordinates identify input atoms only. engine.analyze refuses these references.",
+  "purpose": "Clarify inactive inherited fields without rewriting the pre-execution frozen configuration or its receipt.",
+  "schema_version": 1,
+  "unchanged": "No frozen configuration, assay label, molecular graph, execution parameter, raw output or score was changed by this clarification."
+}

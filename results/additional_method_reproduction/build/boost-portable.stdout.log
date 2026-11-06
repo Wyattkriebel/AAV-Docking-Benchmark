@@ -1,0 +1,916 @@
+Performing configuration checks
+
+    - default address-model    : 64-bit (cached)
+    - default architecture     : arm (cached)
+    - has stat::st_mtim        : no  (cached)
+    - has stat::st_mtimensec   : no  (cached)
+    - has stat::st_mtimespec   : yes (cached)
+    - has stat::st_birthtim    : no  (cached)
+    - has stat::st_birthtimensec : no  (cached)
+    - has stat::st_birthtimespec : yes (cached)
+    - has statx                : no  (cached)
+    - has statx syscall        : no  (cached)
+    - lockfree boost::atomic_flag : yes (cached)
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - contract                 : not building
+    - coroutine                : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - headers                  : not building
+    - iostreams                : not building
+    - json                     : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - mpi                      : not building
+    - nowide                   : not building
+    - program_options          : building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : building
+    - stacktrace               : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...patience...
+...found 33355 targets...
+...updating 6 targets...
+clang-darwin.compile.c++ bin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden/pthread/thread.o
+warning: unknown warning option '-Wno-enum-constexpr-conversion' [-Wunknown-warning-option]
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:17:
+In file included from ./boost/thread/pthread/thread_data.hpp:11:
+In file included from ./boost/thread/lock_guard.hpp:12:
+In file included from ./boost/thread/detail/move.hpp:25:
+In file included from ./boost/move/utility.hpp:30:
+In file included from ./boost/move/traits.hpp:31:
+./boost/move/detail/type_traits.hpp:877:30: warning: builtin __has_trivial_destructor is deprecated; use __is_trivially_destructible instead [-Wdeprecated-builtins]
+  877 | {  static const bool value = BOOST_MOVE_IS_TRIVIALLY_DESTRUCTIBLE(T); };
+      |                              ^
+./boost/move/detail/type_traits.hpp:335:54: note: expanded from macro 'BOOST_MOVE_IS_TRIVIALLY_DESTRUCTIBLE'
+  335 |    #define BOOST_MOVE_IS_TRIVIALLY_DESTRUCTIBLE(T)   BOOST_MOVE_HAS_TRIVIAL_DESTRUCTOR(T) || ::boost::move_detail::is_pod<T>::value
+      |                                                      ^
+./boost/move/detail/type_traits.hpp:166:51: note: expanded from macro 'BOOST_MOVE_HAS_TRIVIAL_DESTRUCTOR'
+  166 | #     define BOOST_MOVE_HAS_TRIVIAL_DESTRUCTOR(T) __has_trivial_destructor(T)
+      |                                                   ^
+./boost/move/detail/type_traits.hpp:908:30: warning: builtin __has_trivial_assign is deprecated; use __is_trivially_assignable instead [-Wdeprecated-builtins]
+  908 |    static const bool value = BOOST_MOVE_IS_TRIVIALLY_COPY_ASSIGNABLE(T);
+      |                              ^
+./boost/move/detail/type_traits.hpp:323:58: note: expanded from macro 'BOOST_MOVE_IS_TRIVIALLY_COPY_ASSIGNABLE'
+  323 |                                                          BOOST_MOVE_HAS_TRIVIAL_ASSIGN(T))
+      |                                                          ^
+./boost/move/detail/type_traits.hpp:159:47: note: expanded from macro 'BOOST_MOVE_HAS_TRIVIAL_ASSIGN'
+  159 | #     define BOOST_MOVE_HAS_TRIVIAL_ASSIGN(T) __has_trivial_assign(T)
+      |                                               ^
+./boost/move/detail/type_traits.hpp:923:30: warning: builtin __has_nothrow_constructor is deprecated; use __is_nothrow_constructible instead [-Wdeprecated-builtins]
+  923 | {  static const bool value = BOOST_MOVE_IS_NOTHROW_DEFAULT_CONSTRUCTIBLE(T);  };
+      |                              ^
+./boost/move/detail/type_traits.hpp:341:60: note: expanded from macro 'BOOST_MOVE_IS_NOTHROW_DEFAULT_CONSTRUCTIBLE'
+  341 |    #define BOOST_MOVE_IS_NOTHROW_DEFAULT_CONSTRUCTIBLE(T)  BOOST_MOVE_HAS_NOTHROW_CONSTRUCTOR(T) || ::boost::move_detail::is_pod<T>::value
+      |                                                            ^
+./boost/move/detail/type_traits.hpp:173:52: note: expanded from macro 'BOOST_MOVE_HAS_NOTHROW_CONSTRUCTOR'
+  173 | #     define BOOST_MOVE_HAS_NOTHROW_CONSTRUCTOR(T) __has_nothrow_constructor(T)
+      |                                                    ^
+./boost/move/detail/type_traits.hpp:930:30: warning: builtin __has_nothrow_copy is deprecated; use __is_nothrow_constructible instead [-Wdeprecated-builtins]
+  930 | {  static const bool value = BOOST_MOVE_IS_NOTHROW_COPY_CONSTRUCTIBLE(T);  };
+      |                              ^
+./boost/move/detail/type_traits.hpp:347:58: note: expanded from macro 'BOOST_MOVE_IS_NOTHROW_COPY_CONSTRUCTIBLE'
+  347 |    #define BOOST_MOVE_IS_NOTHROW_COPY_CONSTRUCTIBLE(T)   BOOST_MOVE_HAS_NOTHROW_COPY(T) || ::boost::move_detail::is_pod<T>::value
+      |                                                          ^
+./boost/move/detail/type_traits.hpp:180:46: note: expanded from macro 'BOOST_MOVE_HAS_NOTHROW_COPY'
+  180 | #     define BOOST_MOVE_HAS_NOTHROW_COPY(T) (__has_nothrow_copy(T))
+      |                                              ^
+./boost/move/detail/type_traits.hpp:944:30: warning: builtin __has_nothrow_assign is deprecated; use __is_nothrow_assignable instead [-Wdeprecated-builtins]
+  944 | {  static const bool value = BOOST_MOVE_IS_NOTHROW_COPY_ASSIGNABLE(T);  };
+      |                              ^
+./boost/move/detail/type_traits.hpp:353:53: note: expanded from macro 'BOOST_MOVE_IS_NOTHROW_COPY_ASSIGNABLE'
+  353 |    #define BOOST_MOVE_IS_NOTHROW_COPY_ASSIGNABLE(T) BOOST_MOVE_HAS_NOTHROW_ASSIGN(T) || ::boost::move_detail::is_pod<T>::value
+      |                                                     ^
+./boost/move/detail/type_traits.hpp:187:48: note: expanded from macro 'BOOST_MOVE_HAS_NOTHROW_ASSIGN'
+  187 | #     define BOOST_MOVE_HAS_NOTHROW_ASSIGN(T) (__has_nothrow_assign(T))
+      |                                                ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<bool, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:604:5: note: in instantiation of template class 'boost::hash_detail::hash_base<bool>' requested here
+  604 |     BOOST_HASH_SPECIALIZE(bool)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<bool, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<char, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:605:5: note: in instantiation of template class 'boost::hash_detail::hash_base<char>' requested here
+  605 |     BOOST_HASH_SPECIALIZE(char)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<char, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<signed char, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:606:5: note: in instantiation of template class 'boost::hash_detail::hash_base<signed char>' requested here
+  606 |     BOOST_HASH_SPECIALIZE(signed char)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<signed char, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<unsigned char, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:607:5: note: in instantiation of template class 'boost::hash_detail::hash_base<unsigned char>' requested here
+  607 |     BOOST_HASH_SPECIALIZE(unsigned char)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<unsigned char, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<wchar_t, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:609:5: note: in instantiation of template class 'boost::hash_detail::hash_base<wchar_t>' requested here
+  609 |     BOOST_HASH_SPECIALIZE(wchar_t)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<wchar_t, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<char16_t, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:612:5: note: in instantiation of template class 'boost::hash_detail::hash_base<char16_t>' requested here
+  612 |     BOOST_HASH_SPECIALIZE(char16_t)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<char16_t, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<char32_t, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:615:5: note: in instantiation of template class 'boost::hash_detail::hash_base<char32_t>' requested here
+  615 |     BOOST_HASH_SPECIALIZE(char32_t)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<char32_t, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<short, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:617:5: note: in instantiation of template class 'boost::hash_detail::hash_base<short>' requested here
+  617 |     BOOST_HASH_SPECIALIZE(short)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<short, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<unsigned short, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:618:5: note: in instantiation of template class 'boost::hash_detail::hash_base<unsigned short>' requested here
+  618 |     BOOST_HASH_SPECIALIZE(unsigned short)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<unsigned short, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<int, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:619:5: note: in instantiation of template class 'boost::hash_detail::hash_base<int>' requested here
+  619 |     BOOST_HASH_SPECIALIZE(int)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<int, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<unsigned int, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:620:5: note: in instantiation of template class 'boost::hash_detail::hash_base<unsigned int>' requested here
+  620 |     BOOST_HASH_SPECIALIZE(unsigned int)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<unsigned int, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<long, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:621:5: note: in instantiation of template class 'boost::hash_detail::hash_base<long>' requested here
+  621 |     BOOST_HASH_SPECIALIZE(long)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<long, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<unsigned long, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:622:5: note: in instantiation of template class 'boost::hash_detail::hash_base<unsigned long>' requested here
+  622 |     BOOST_HASH_SPECIALIZE(unsigned long)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<unsigned long, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<float, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:624:5: note: in instantiation of template class 'boost::hash_detail::hash_base<float>' requested here
+  624 |     BOOST_HASH_SPECIALIZE(float)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<float, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<double, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:625:5: note: in instantiation of template class 'boost::hash_detail::hash_base<double>' requested here
+  625 |     BOOST_HASH_SPECIALIZE(double)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<double, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<long double, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:626:5: note: in instantiation of template class 'boost::hash_detail::hash_base<long double>' requested here
+  626 |     BOOST_HASH_SPECIALIZE(long double)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<long double, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<std::string, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:628:5: note: in instantiation of template class 'boost::hash_detail::hash_base<std::string>' requested here
+  628 |     BOOST_HASH_SPECIALIZE_REF(std::string)
+      |     ^
+./boost/container_hash/hash.hpp:586:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE_REF'
+  586 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<std::string, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<std::wstring, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:630:5: note: in instantiation of template class 'boost::hash_detail::hash_base<std::wstring>' requested here
+  630 |     BOOST_HASH_SPECIALIZE_REF(std::wstring)
+      |     ^
+./boost/container_hash/hash.hpp:586:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE_REF'
+  586 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<std::wstring, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<std::u16string, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:633:5: note: in instantiation of template class 'boost::hash_detail::hash_base<std::u16string>' requested here
+  633 |     BOOST_HASH_SPECIALIZE_REF(std::basic_string<char16_t>)
+      |     ^
+./boost/container_hash/hash.hpp:586:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE_REF'
+  586 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<std::u16string, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<std::u32string, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:636:5: note: in instantiation of template class 'boost::hash_detail::hash_base<std::u32string>' requested here
+  636 |     BOOST_HASH_SPECIALIZE_REF(std::basic_string<char32_t>)
+      |     ^
+./boost/container_hash/hash.hpp:586:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE_REF'
+  586 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<std::u32string, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<long long, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:653:5: note: in instantiation of template class 'boost::hash_detail::hash_base<long long>' requested here
+  653 |     BOOST_HASH_SPECIALIZE(boost::long_long_type)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<long long, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<unsigned long long, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:654:5: note: in instantiation of template class 'boost::hash_detail::hash_base<unsigned long long>' requested here
+  654 |     BOOST_HASH_SPECIALIZE(boost::ulong_long_type)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<unsigned long long, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<__int128, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:658:5: note: in instantiation of template class 'boost::hash_detail::hash_base<__int128>' requested here
+  658 |     BOOST_HASH_SPECIALIZE(boost::int128_type)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<__int128, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<unsigned __int128, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:659:5: note: in instantiation of template class 'boost::hash_detail::hash_base<unsigned __int128>' requested here
+  659 |     BOOST_HASH_SPECIALIZE(boost::uint128_type)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<unsigned __int128, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<std::type_index, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:674:5: note: in instantiation of template class 'boost::hash_detail::hash_base<std::type_index>' requested here
+  674 |     BOOST_HASH_SPECIALIZE(std::type_index)
+      |     ^
+./boost/container_hash/hash.hpp:576:19: note: expanded from macro 'BOOST_HASH_SPECIALIZE'
+  576 |          : public boost::hash_detail::hash_base<type> \
+      |                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<std::type_index, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+In file included from libs/thread/src/pthread/thread.cpp:19:
+In file included from ./boost/thread/future.hpp:51:
+In file included from ./boost/optional.hpp:15:
+In file included from ./boost/optional/optional.hpp:38:
+./boost/type_traits/has_nothrow_constructor.hpp:27:84: warning: builtin __has_nothrow_constructor is deprecated; use __is_nothrow_constructible instead [-Wdeprecated-builtins]
+   27 | template <class T> struct has_nothrow_constructor : public integral_constant<bool, BOOST_HAS_NOTHROW_CONSTRUCTOR(T)>{};
+      |                                                                                    ^
+./boost/type_traits/intrinsics.hpp:199:48: note: expanded from macro 'BOOST_HAS_NOTHROW_CONSTRUCTOR'
+  199 | #     define BOOST_HAS_NOTHROW_CONSTRUCTOR(T) (__has_nothrow_constructor(T) && is_default_constructible<T>::value)
+      |                                                ^
+In file included from libs/thread/src/pthread/thread.cpp:19:
+In file included from ./boost/thread/future.hpp:51:
+In file included from ./boost/optional.hpp:15:
+In file included from ./boost/optional/optional.hpp:47:
+In file included from ./boost/type_traits/is_nothrow_move_assignable.hpp:16:
+./boost/type_traits/has_nothrow_assign.hpp:65:7: warning: builtin __has_nothrow_assign is deprecated; use __is_nothrow_assignable instead [-Wdeprecated-builtins]
+   65 |       BOOST_HAS_NOTHROW_ASSIGN(T)
+      |       ^
+./boost/type_traits/intrinsics.hpp:205:43: note: expanded from macro 'BOOST_HAS_NOTHROW_ASSIGN'
+  205 | #     define BOOST_HAS_NOTHROW_ASSIGN(T) (__has_nothrow_assign(T) && !is_volatile<T>::value && is_assignable<T&, const T&>::value)
+      |                                           ^
+In file included from libs/thread/src/pthread/thread.cpp:19:
+In file included from ./boost/thread/future.hpp:65:
+In file included from ./boost/function.hpp:30:
+In file included from ./boost/function/detail/prologue.hpp:17:
+In file included from ./boost/function/function_base.hpp:22:
+./boost/type_traits/has_trivial_copy.hpp:34:4: warning: builtin __has_trivial_copy is deprecated; use __is_trivially_copyable instead [-Wdeprecated-builtins]
+   34 |    BOOST_HAS_TRIVIAL_COPY(T) BOOST_TT_TRIVIAL_CONSTRUCT_FIX
+      |    ^
+./boost/type_traits/intrinsics.hpp:190:41: note: expanded from macro 'BOOST_HAS_TRIVIAL_COPY'
+  190 | #     define BOOST_HAS_TRIVIAL_COPY(T) (__has_trivial_copy(T) && !is_reference<T>::value)
+      |                                         ^
+In file included from libs/thread/src/pthread/thread.cpp:19:
+In file included from ./boost/thread/future.hpp:65:
+In file included from ./boost/function.hpp:30:
+In file included from ./boost/function/detail/prologue.hpp:17:
+In file included from ./boost/function/function_base.hpp:23:
+./boost/type_traits/has_trivial_destructor.hpp:30:86: warning: builtin __has_trivial_destructor is deprecated; use __is_trivially_destructible instead [-Wdeprecated-builtins]
+   30 | template <typename T> struct has_trivial_destructor : public integral_constant<bool, BOOST_HAS_TRIVIAL_DESTRUCTOR(T)>{};
+      |                                                                                      ^
+./boost/type_traits/intrinsics.hpp:196:47: note: expanded from macro 'BOOST_HAS_TRIVIAL_DESTRUCTOR'
+  196 | #     define BOOST_HAS_TRIVIAL_DESTRUCTOR(T) (__has_trivial_destructor(T)  && is_destructible<T>::value)
+      |                                               ^
+In file included from libs/thread/src/pthread/thread.cpp:38:
+In file included from ./boost/lexical_cast.hpp:32:
+In file included from ./boost/lexical_cast/try_lexical_convert.hpp:44:
+In file included from ./boost/lexical_cast/detail/converter_lexical.hpp:54:
+./boost/lexical_cast/detail/converter_lexical_streams.hpp:285:21: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  285 |                     sprintf(begin, 
+      |                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from libs/thread/src/pthread/thread.cpp:38:
+In file included from ./boost/lexical_cast.hpp:32:
+In file included from ./boost/lexical_cast/try_lexical_convert.hpp:44:
+In file included from ./boost/lexical_cast/detail/converter_lexical.hpp:54:
+./boost/lexical_cast/detail/converter_lexical_streams.hpp:297:21: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  297 |                     sprintf(begin, 
+      |                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from libs/thread/src/pthread/thread.cpp:38:
+In file included from ./boost/lexical_cast.hpp:32:
+In file included from ./boost/lexical_cast/try_lexical_convert.hpp:44:
+In file included from ./boost/lexical_cast/detail/converter_lexical.hpp:54:
+./boost/lexical_cast/detail/converter_lexical_streams.hpp:310:21: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  310 |                     sprintf(begin, 
+      |                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:17:
+In file included from ./boost/thread/pthread/thread_data.hpp:12:
+In file included from ./boost/thread/lock_types.hpp:18:
+In file included from ./boost/thread/thread_time.hpp:11:
+In file included from ./boost/date_time/posix_time/posix_time_types.hpp:16:
+In file included from ./boost/date_time/posix_time/posix_time_duration.hpp:15:
+In file included from ./boost/numeric/conversion/cast.hpp:33:
+In file included from ./boost/numeric/conversion/converter.hpp:13:
+In file included from ./boost/numeric/conversion/conversion_traits.hpp:13:
+In file included from ./boost/numeric/conversion/detail/conversion_traits.hpp:18:
+In file included from ./boost/numeric/conversion/detail/int_float_mixture.hpp:19:
+In file included from ./boost/mpl/integral_c.hpp:32:
+./boost/mpl/aux_/integral_wrapper.hpp:73:31: error: non-type template argument is not a constant expression
+   73 |     typedef AUX_WRAPPER_INST( BOOST_MPL_AUX_STATIC_CAST(AUX_WRAPPER_VALUE_TYPE, (value - 1)) ) prior;
+      |             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./boost/mpl/aux_/static_cast.hpp:24:47: note: expanded from macro 'BOOST_MPL_AUX_STATIC_CAST'
+   24 | #   define BOOST_MPL_AUX_STATIC_CAST(T, expr) static_cast<T>(expr)
+      |                                               ^
+./boost/mpl/integral_c.hpp:31:54: note: expanded from macro 'AUX_WRAPPER_INST'
+   31 | #define AUX_WRAPPER_INST(value) AUX_WRAPPER_NAME< T, value >
+      |                                                      ^~~~~
+./boost/numeric/conversion/detail/meta.hpp:30:46: note: in instantiation of template class 'mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>' requested here
+   30 |        enum { x = ( BOOST_MPL_AUX_VALUE_WKND(T1)::value == BOOST_MPL_AUX_VALUE_WKND(T2)::value ) };
+      |                                              ^
+./boost/mpl/aux_/value_wknd.hpp:57:40: note: expanded from macro 'BOOST_MPL_AUX_VALUE_WKND'
+   57 | #   define BOOST_MPL_AUX_VALUE_WKND(C) C
+      |                                        ^
+./boost/mpl/if.hpp:63:68: note: in instantiation of template class 'boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>>' requested here
+   63 |           BOOST_MPL_AUX_STATIC_CAST(bool, BOOST_MPL_AUX_VALUE_WKND(T1)::value)
+      |                                                                    ^
+./boost/mpl/aux_/value_wknd.hpp:57:40: note: expanded from macro 'BOOST_MPL_AUX_VALUE_WKND'
+   57 | #   define BOOST_MPL_AUX_VALUE_WKND(C) C
+      |                                        ^
+./boost/mpl/aux_/static_cast.hpp:24:62: note: expanded from macro 'BOOST_MPL_AUX_STATIC_CAST'
+   24 | #   define BOOST_MPL_AUX_STATIC_CAST(T, expr) static_cast<T>(expr)
+      |                                                              ^
+./boost/mpl/eval_if.hpp:37:22: note: in instantiation of template class 'boost::mpl::if_<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>>, boost::mpl::identity<boost::numeric::convdetail::get_subranged_BuiltIn2BuiltIn<long long, long>>, boost::mpl::eval_if<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_udt>>, boost::mpl::identity<boost::mpl::identity<boost::numeric::convdetail::subranged_BuiltIn2Udt<long long, long>>>, boost::mpl::if_<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::udt_to_builtin>>, boost::mpl::identity<boost::numeric::convdetail::subranged_Udt2BuiltIn<long long, long>>, boost::mpl::identity<boost::numeric::convdetail::subranged_Udt2Udt<long long, long>>>>>' requested here
+   37 |     typedef typename if_<C,F1,F2>::type f_;
+      |                      ^
+./boost/numeric/conversion/detail/meta.hpp:81:12: note: in instantiation of template class 'boost::mpl::eval_if<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>>, boost::mpl::identity<boost::numeric::convdetail::get_subranged_BuiltIn2BuiltIn<long long, long>>, boost::mpl::eval_if<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_udt>>, boost::mpl::identity<boost::mpl::identity<boost::numeric::convdetail::subranged_BuiltIn2Udt<long long, long>>>, boost::mpl::if_<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::udt_to_builtin>>, boost::mpl::identity<boost::numeric::convdetail::subranged_Udt2BuiltIn<long long, long>>, boost::mpl::identity<boost::numeric::convdetail::subranged_Udt2Udt<long long, long>>>>>' requested here
+   81 |       mpl::eval_if<is_case0,Case0TypeQ,choose_1_2_3Q>::type
+      |            ^
+./boost/numeric/conversion/detail/udt_builtin_mixture.hpp:41:7: note: in instantiation of template class 'boost::numeric::convdetail::ct_switch4<mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_builtin>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::builtin_to_udt>, mpl_::integral_c<boost::numeric::udt_builtin_mixture_enum, boost::numeric::udt_to_builtin>, boost::numeric::convdetail::get_subranged_BuiltIn2BuiltIn<long long, long>, boost::mpl::identity<boost::numeric::convdetail::subranged_BuiltIn2Udt<long long, long>>, boost::mpl::identity<boost::numeric::convdetail::subranged_Udt2BuiltIn<long long, long>>, boost::mpl::identity<boost::numeric::convdetail::subranged_Udt2Udt<long long, long>>>' requested here
+   41 |       ct_switch4<UdtMixture
+      |       ^
+./boost/numeric/conversion/detail/is_subranged.hpp:205:9: note: (skipping 4 contexts in backtrace; use -ftemplate-backtrace-limit=0 to see all)
+  205 |         for_udt_builtin_mixture<udt_builtin_mixture, BuiltIn2BuiltInQ, BuiltIn2UdtQ, Udt2BuiltInQ, Udt2UdtQ>::type
+      |         ^
+./boost/numeric/conversion/detail/converter.hpp:584:22: note: in instantiation of template class 'boost::numeric::conversion_traits<long long, long>' requested here
+  584 |     typedef typename Traits::trivial trivial ;
+      |                      ^
+./boost/numeric/conversion/converter.hpp:29:32: note: in instantiation of template class 'boost::numeric::convdetail::get_converter_impl<boost::numeric::conversion_traits<long long, long>, boost::numeric::def_overflow_handler, boost::numeric::Trunc<long>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>, boost::numeric::UseInternalRangeChecker>' requested here
+   29 | struct converter : convdetail::get_converter_impl<Traits,
+      |                                ^
+./boost/numeric/conversion/cast.hpp:53:16: note: in instantiation of template class 'boost::numeric::converter<long long, long, boost::numeric::conversion_traits<long long, long>, boost::numeric::def_overflow_handler, boost::numeric::Trunc<long>>' requested here
+   53 |         return converter::convert(arg);
+      |                ^
+./boost/date_time/posix_time/posix_time_duration.hpp:59:26: note: in instantiation of function template specialization 'boost::numeric_cast<long long, long>' requested here
+   59 |       time_duration(0,0, numeric_cast<sec_type>(s))
+      |                          ^
+./boost/date_time/posix_time/conversion.hpp:29:47: note: in instantiation of function template specialization 'boost::posix_time::seconds::seconds<long>' requested here
+   29 |     return ptime(gregorian::date(1970,1,1)) + seconds(static_cast<long>(t));
+      |                                               ^
+./boost/mpl/aux_/integral_wrapper.hpp:73:31: note: integer value -1 is outside the valid range of values [0, 3] for the enumeration type 'udt_builtin_mixture_enum'
+   73 |     typedef AUX_WRAPPER_INST( BOOST_MPL_AUX_STATIC_CAST(AUX_WRAPPER_VALUE_TYPE, (value - 1)) ) prior;
+      |                               ^
+./boost/mpl/aux_/static_cast.hpp:24:47: note: expanded from macro 'BOOST_MPL_AUX_STATIC_CAST'
+   24 | #   define BOOST_MPL_AUX_STATIC_CAST(T, expr) static_cast<T>(expr)
+      |                                               ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:17:
+In file included from ./boost/thread/pthread/thread_data.hpp:12:
+In file included from ./boost/thread/lock_types.hpp:18:
+In file included from ./boost/thread/thread_time.hpp:11:
+In file included from ./boost/date_time/posix_time/posix_time_types.hpp:16:
+In file included from ./boost/date_time/posix_time/posix_time_duration.hpp:15:
+In file included from ./boost/numeric/conversion/cast.hpp:33:
+In file included from ./boost/numeric/conversion/converter.hpp:13:
+In file included from ./boost/numeric/conversion/conversion_traits.hpp:13:
+In file included from ./boost/numeric/conversion/detail/conversion_traits.hpp:18:
+In file included from ./boost/numeric/conversion/detail/int_float_mixture.hpp:19:
+In file included from ./boost/mpl/integral_c.hpp:32:
+./boost/mpl/aux_/integral_wrapper.hpp:73:31: error: non-type template argument is not a constant expression
+   73 |     typedef AUX_WRAPPER_INST( BOOST_MPL_AUX_STATIC_CAST(AUX_WRAPPER_VALUE_TYPE, (value - 1)) ) prior;
+      |             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./boost/mpl/aux_/static_cast.hpp:24:47: note: expanded from macro 'BOOST_MPL_AUX_STATIC_CAST'
+   24 | #   define BOOST_MPL_AUX_STATIC_CAST(T, expr) static_cast<T>(expr)
+      |                                               ^
+./boost/mpl/integral_c.hpp:31:54: note: expanded from macro 'AUX_WRAPPER_INST'
+   31 | #define AUX_WRAPPER_INST(value) AUX_WRAPPER_NAME< T, value >
+      |                                                      ^~~~~
+./boost/numeric/conversion/detail/meta.hpp:30:46: note: in instantiation of template class 'mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>' requested here
+   30 |        enum { x = ( BOOST_MPL_AUX_VALUE_WKND(T1)::value == BOOST_MPL_AUX_VALUE_WKND(T2)::value ) };
+      |                                              ^
+./boost/mpl/aux_/value_wknd.hpp:57:40: note: expanded from macro 'BOOST_MPL_AUX_VALUE_WKND'
+   57 | #   define BOOST_MPL_AUX_VALUE_WKND(C) C
+      |                                        ^
+./boost/mpl/if.hpp:63:68: note: in instantiation of template class 'boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>>' requested here
+   63 |           BOOST_MPL_AUX_STATIC_CAST(bool, BOOST_MPL_AUX_VALUE_WKND(T1)::value)
+      |                                                                    ^
+./boost/mpl/aux_/value_wknd.hpp:57:40: note: expanded from macro 'BOOST_MPL_AUX_VALUE_WKND'
+   57 | #   define BOOST_MPL_AUX_VALUE_WKND(C) C
+      |                                        ^
+./boost/mpl/aux_/static_cast.hpp:24:62: note: expanded from macro 'BOOST_MPL_AUX_STATIC_CAST'
+   24 | #   define BOOST_MPL_AUX_STATIC_CAST(T, expr) static_cast<T>(expr)
+      |                                                              ^
+./boost/mpl/eval_if.hpp:37:22: note: in instantiation of template class 'boost::mpl::if_<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>>, boost::mpl::identity<boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>>, boost::mpl::eval_if<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_float>>, boost::mpl::identity<boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>>, boost::mpl::if_<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::float_to_integral>>, boost::mpl::identity<boost::numeric::convdetail::rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>, boost::numeric::Trunc<long>>>, boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>>>>' requested here
+   37 |     typedef typename if_<C,F1,F2>::type f_;
+      |                      ^
+./boost/numeric/conversion/detail/meta.hpp:81:12: note: in instantiation of template class 'boost::mpl::eval_if<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>>, boost::mpl::identity<boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>>, boost::mpl::eval_if<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_float>>, boost::mpl::identity<boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>>, boost::mpl::if_<boost::numeric::convdetail::equal_to<mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::float_to_integral>>, boost::mpl::identity<boost::numeric::convdetail::rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>, boost::numeric::Trunc<long>>>, boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>>>>' requested here
+   81 |       mpl::eval_if<is_case0,Case0TypeQ,choose_1_2_3Q>::type
+      |            ^
+./boost/numeric/conversion/detail/int_float_mixture.hpp:59:7: note: in instantiation of template class 'boost::numeric::convdetail::ct_switch4<mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_integral>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::integral_to_float>, mpl_::integral_c<boost::numeric::int_float_mixture_enum, boost::numeric::float_to_integral>, boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>, boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>, boost::mpl::identity<boost::numeric::convdetail::rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>, boost::numeric::Trunc<long>>>, boost::mpl::identity<boost::numeric::convdetail::non_rounding_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::convdetail::dummy_range_checker<boost::numeric::conversion_traits<long long, long>>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>>>>' requested here
+   59 |       ct_switch4<IntFloatMixture
+      |       ^
+./boost/numeric/conversion/detail/converter.hpp:550:7: note: (skipping 2 contexts in backtrace; use -ftemplate-backtrace-limit=0 to see all)
+  550 |       for_int_float_mixture<int_float_mixture, NonRoundingQ, NonRoundingQ, RoundingQ, NonRoundingQ>::type
+      |       ^
+./boost/numeric/conversion/detail/converter.hpp:586:27: note: in instantiation of template class 'boost::mpl::eval_if<mpl_::bool_<false>, boost::mpl::identity<boost::numeric::convdetail::trivial_converter_impl<boost::numeric::conversion_traits<long long, long>>>, boost::numeric::convdetail::get_non_trivial_converter<boost::numeric::conversion_traits<long long, long>, boost::numeric::def_overflow_handler, boost::numeric::Trunc<long>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>, boost::numeric::UseInternalRangeChecker>>' requested here
+  586 |     typedef typename mpl::eval_if<trivial,TrivialQ,NonTrivialQ>::type type ;
+      |                           ^
+./boost/numeric/conversion/converter.hpp:29:32: note: in instantiation of template class 'boost::numeric::convdetail::get_converter_impl<boost::numeric::conversion_traits<long long, long>, boost::numeric::def_overflow_handler, boost::numeric::Trunc<long>, boost::numeric::raw_converter<boost::numeric::conversion_traits<long long, long>>, boost::numeric::UseInternalRangeChecker>' requested here
+   29 | struct converter : convdetail::get_converter_impl<Traits,
+      |                                ^
+./boost/numeric/conversion/cast.hpp:53:16: note: in instantiation of template class 'boost::numeric::converter<long long, long, boost::numeric::conversion_traits<long long, long>, boost::numeric::def_overflow_handler, boost::numeric::Trunc<long>>' requested here
+   53 |         return converter::convert(arg);
+      |                ^
+./boost/date_time/posix_time/posix_time_duration.hpp:59:26: note: in instantiation of function template specialization 'boost::numeric_cast<long long, long>' requested here
+   59 |       time_duration(0,0, numeric_cast<sec_type>(s))
+      |                          ^
+./boost/date_time/posix_time/conversion.hpp:29:47: note: in instantiation of function template specialization 'boost::posix_time::seconds::seconds<long>' requested here
+   29 |     return ptime(gregorian::date(1970,1,1)) + seconds(static_cast<long>(t));
+      |                                               ^
+./boost/mpl/aux_/integral_wrapper.hpp:73:31: note: integer value -1 is outside the valid range of values [0, 3] for the enumeration type 'int_float_mixture_enum'
+   73 |     typedef AUX_WRAPPER_INST( BOOST_MPL_AUX_STATIC_CAST(AUX_WRAPPER_VALUE_TYPE, (value - 1)) ) prior;
+      |                               ^
+./boost/mpl/aux_/static_cast.hpp:24:47: note: expanded from macro 'BOOST_MPL_AUX_STATIC_CAST'
+   24 | #   define BOOST_MPL_AUX_STATIC_CAST(T, expr) static_cast<T>(expr)
+      |                                               ^
+In file included from libs/thread/src/pthread/thread.cpp:11:
+In file included from ./boost/thread/thread_only.hpp:22:
+In file included from ./boost/thread/detail/thread.hpp:41:
+In file included from ./boost/functional/hash.hpp:6:
+./boost/container_hash/hash.hpp:131:33: warning: 'unary_function<const std::error_category *, unsigned long>' is deprecated [-Wdeprecated-declarations]
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                                 ^
+./boost/container_hash/hash.hpp:687:18: note: in instantiation of template class 'boost::hash_detail::hash_base<const std::error_category *>' requested here
+  687 |         : public boost::hash_detail::hash_base<T*>
+      |                  ^
+./boost/container_hash/hash.hpp:415:24: note: in instantiation of template class 'boost::hash<const std::error_category *>' requested here
+  415 |         boost::hash<T> hasher;
+      |                        ^
+./boost/container_hash/hash.hpp:546:9: note: in instantiation of function template specialization 'boost::hash_combine<const std::error_category *>' requested here
+  546 |         hash_combine(seed, &v.category());
+      |         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:23:8: note: 'unary_function<const std::error_category *, unsigned long>' has been explicitly marked deprecated here
+   23 | struct _LIBCPP_DEPRECATED_IN_CXX11 unary_function {
+      |        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:528:41: note: expanded from macro '_LIBCPP_DEPRECATED_IN_CXX11'
+  528 | #    define _LIBCPP_DEPRECATED_IN_CXX11 _LIBCPP_DEPRECATED
+      |                                         ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:504:49: note: expanded from macro '_LIBCPP_DEPRECATED'
+  504 | #      define _LIBCPP_DEPRECATED __attribute__((__deprecated__))
+      |                                                 ^
+39 warnings and 2 errors generated.
+
+    "clang++" -x c++ -fvisibility-inlines-hidden -O3 -Wall -fvisibility=hidden -Wno-inline -Wextra -Wno-long-long -Wno-unused-parameter -Wno-variadic-macros -Wunused-function -std=c++11 -Wno-enum-constexpr-conversion -DBOOST_ALL_NO_LIB=1 -DBOOST_THREAD_BUILD_LIB=1 -DBOOST_THREAD_DONT_USE_CHRONO -DBOOST_THREAD_POSIX -DNDEBUG -I"." -c -o "bin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden/pthread/thread.o" "libs/thread/src/pthread/thread.cpp"
+
+...failed clang-darwin.compile.c++ bin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden/pthread/thread.o...
+...skipped <pbin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>libboost_thread.a(clean) for lack of <pbin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>pthread/thread.o...
+...skipped <pbin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>libboost_thread.a for lack of <pbin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>pthread/thread.o...
+...skipped <p/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/lib>libboost_thread.a for lack of <pbin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>libboost_thread.a...
+...skipped <pbin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>libboost_thread-variant-static.cmake for lack of <pbin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>libboost_thread.a...
+...skipped <p/Users/alec/AAV-Docking-Benchmark/tools/boost-1.75.0-native/lib/cmake/boost_thread-1.75.0>libboost_thread-variant-static.cmake for lack of <pbin.v2/libs/thread/build/clang-darwin-21.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>libboost_thread-variant-static.cmake...
+...failed updating 1 target...
+...skipped 5 targets...

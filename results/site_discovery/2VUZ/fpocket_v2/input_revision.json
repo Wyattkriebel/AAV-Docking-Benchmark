@@ -1,0 +1,18 @@
+{
+  "atom_map_sha256": "4f5093a0bfc21611802875714dfb20b4572810c1c83e8bdcb53b2746606cdb5c",
+  "author_atom_identities_unchanged": true,
+  "change": "trim trailing whitespace and append newline, '#', newline; no atom-field edits",
+  "coordinates_exactly_unchanged": true,
+  "method_parameters_changed": false,
+  "prior_preparation_manifest": "data/processed/site_inputs/2VUZ/receptor.cif.manifest.json",
+  "prior_preparation_manifest_sha256": "fcd411eece38b49b05aabc839b2e0261d6975fb7b60e668790fd76a137381576",
+  "prior_receptor": "data/processed/site_inputs/2VUZ/receptor.cif",
+  "prior_receptor_sha256": "2f2922aa6b23bd92844c2acff1dc57329969773f939531721a3e6f992eea564e",
+  "protein_heavy_atoms": 989,
+  "reason": "pinned fpocket VMD pdbx parser requires a terminal '#' comment delimiter",
+  "receptor": "data/processed/site_inputs_v2/2VUZ/receptor.cif",
+  "receptor_sha256": "fd8ed677edfbcf3e875cad73f94c81afbc91834032f831100e247ddfe27120cd",
+  "revision_from": 1,
+  "revision_to": 2,
+  "schema_version": 1
+}

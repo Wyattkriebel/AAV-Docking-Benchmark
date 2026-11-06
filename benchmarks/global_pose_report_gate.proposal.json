@@ -1,0 +1,204 @@
+{
+  "all_four_required": true,
+  "blocked_names": [
+    "_protein_alignment",
+    "_score_pool",
+    "_statistics",
+    "accuracy_summary",
+    "aggregate_runs",
+    "clash_metrics",
+    "comparison_statistics",
+    "conditional_statistics",
+    "contact_metrics",
+    "contact_pairs",
+    "execute_all",
+    "execute_job",
+    "fit_receptor",
+    "ligand_rmsd",
+    "macro_summaries",
+    "native_metric_controls",
+    "paired_family_bootstrap",
+    "paired_statistics",
+    "profile_sensitivity_statistics",
+    "protein_fits",
+    "run_resume_pool",
+    "score_pool",
+    "site_metrics",
+    "site_statistics",
+    "site_summary",
+    "summarize_poses",
+    "verify_execution_freeze"
+  ],
+  "default_mode": "validation_only_no_accuracy",
+  "denominators_are_views_not_independent_samples": true,
+  "guard_source": {
+    "path": "aav_benchmark/global_pose_report_gate.py",
+    "sha256": "b42a849b136778414ddf821fc12d1f04f68ebab82f1a5075a6a52ad470ecc8cb"
+  },
+  "probe_isolation": "one subprocess per reader; no shared monkeypatch state",
+  "probe_timeout_seconds": 600,
+  "pure_union": {
+    "entrypoint": "probe_workflow",
+    "fixed_counts": {
+      "eligible_seed_pools": 108,
+      "rescore_method_slots": 216,
+      "source_method_slots": 216
+    },
+    "freeze": {
+      "path": "results/structural_pose_v3/common_pose_union/evaluation_freeze.json",
+      "sha256": "2201c30314b9db3c536f7ac8ef851e4b8881e984863f53941fcc7aa5957bdf08"
+    },
+    "metric_sources": {
+      "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+      "aav_benchmark/common_pose_rescoring.py": "afa086f24fd5ab691b8a77c8a87276448cf09223b5eb9483b1ef92cb4aae4005",
+      "aav_benchmark/engine.py": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8",
+      "aav_benchmark/heldout_pose_report.py": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c",
+      "aav_benchmark/heldout_reference.py": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28",
+      "aav_benchmark/metrics.py": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+      "aav_benchmark/paired_common_pose_report.py": "31d08b280b9827276680e6a21afd1ec911f4d27f67fdff72e89be8999715bd5e",
+      "aav_benchmark/paired_common_pose_rescoring.py": "3dabfa786f62e90c3c5e3062a65797f7a18c9497b69a610c2c6143c52a5d8269",
+      "aav_benchmark/paired_method_report.py": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe",
+      "aav_benchmark/prospective_vina_carb.py": "760fbe874a55c661c3cf4858ffd1c73d6aa84961cb69c28b678c7b5568d6bc75",
+      "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+      "aav_benchmark/public_source_replay.py": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943",
+      "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+      "aav_benchmark/statistics.py": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e",
+      "results/additional_method_reproduction/build/fixed_pose_score.cpp": "6d1d95a78af6f6adb306268b1fe846b1ec5ffeb879c1b7143e1c9bd8b300da08"
+    },
+    "module": "aav_benchmark.paired_common_pose_report",
+    "plan": {
+      "path": "benchmarks/structural_paired_common_pose_evaluation.json",
+      "sha256": "6196409753091dedaad360c039de451c1240c061dc65ac37c70cac67c99ad36e"
+    },
+    "reader_source": {
+      "path": "aav_benchmark/paired_common_pose_report.py",
+      "sha256": "31d08b280b9827276680e6a21afd1ec911f4d27f67fdff72e89be8999715bd5e"
+    },
+    "real_entrypoint": "generate_report"
+  },
+  "readers": {
+    "assembly_control": {
+      "denominator": 72,
+      "entrypoint": "generate_report",
+      "fixed_counts": {
+        "comparator_conditions": 12,
+        "control_conditions": 12,
+        "eligible_seed_outcomes": 72
+      },
+      "freeze": {
+        "path": "results/structural_assembly_pose_v3/evaluation_freeze.json",
+        "sha256": "9befe838cbd8b6b73f30af5599b9cc098cc94b528447eea186f1418f25a6a6e7"
+      },
+      "metric_sources": {
+        "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+        "aav_benchmark/assembly_control_report.py": "869f9e11f373458b9020d675db5a69f6d34b48c8b151149d8f453630fb3d3876",
+        "aav_benchmark/heldout_pose_report.py": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c",
+        "aav_benchmark/heldout_reference.py": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28",
+        "aav_benchmark/metrics.py": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+        "aav_benchmark/paired_method_report.py": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe",
+        "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+        "aav_benchmark/public_source_replay.py": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943",
+        "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+        "aav_benchmark/statistics.py": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e"
+      },
+      "module": "aav_benchmark.assembly_control_report",
+      "plan": {
+        "path": "benchmarks/structural_assembly_pose_evaluation.json",
+        "sha256": "a96bc6ab1d0425ce6e6b55a76736ecd35746b78e7d71facd464995b4ad72ffbf"
+      },
+      "reader_source": {
+        "path": "aav_benchmark/assembly_control_report.py",
+        "sha256": "869f9e11f373458b9020d675db5a69f6d34b48c8b151149d8f453630fb3d3876"
+      },
+      "source_contract": {
+        "counts_local": "counts",
+        "entrypoint_line": 195,
+        "first_source_context_line": 325
+      },
+      "terminal_key": "terminal_seed_outcomes"
+    },
+    "haddock": {
+      "denominator": 108,
+      "entrypoint": "generate_report",
+      "fixed_counts": {
+        "eligible_cells": 108,
+        "native_ready_cells": 39
+      },
+      "freeze": {
+        "path": "results/haddock_paired_cohort/evaluation_freeze.json",
+        "sha256": "b2fc5eb1c94067a94b216787a1827d8d593caab2685f1741478c6166cf7665ae"
+      },
+      "metric_sources": {
+        "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+        "aav_benchmark/haddock_paired_cohort.py": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6",
+        "aav_benchmark/haddock_pose_report.py": "b87b150592c963c956bcb7d470acf13dbade63f642b4c51714060f5c49b07260",
+        "aav_benchmark/heldout_pose_report.py": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c",
+        "aav_benchmark/heldout_reference.py": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28",
+        "aav_benchmark/metrics.py": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+        "aav_benchmark/paired_method_report.py": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe",
+        "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+        "aav_benchmark/public_source_replay.py": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943",
+        "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+        "aav_benchmark/site_geometry.py": "0b76f95db2e383604c43a1963829b928f9a030943647cae49f00d221d384d481",
+        "aav_benchmark/statistics.py": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e"
+      },
+      "module": "aav_benchmark.haddock_pose_report",
+      "plan": {
+        "path": "benchmarks/haddock_pose_evaluation.json",
+        "sha256": "ac851e21bf513055ea3bfd444c679cf2d66c7f28bbb1791e368ded551c878924"
+      },
+      "reader_source": {
+        "path": "aav_benchmark/haddock_pose_report.py",
+        "sha256": "b87b150592c963c956bcb7d470acf13dbade63f642b4c51714060f5c49b07260"
+      },
+      "source_contract": {
+        "counts_local": "counts",
+        "entrypoint_line": 679,
+        "first_source_context_line": 737
+      },
+      "terminal_key": "terminal_cells"
+    },
+    "main_paired": {
+      "denominator": 216,
+      "entrypoint": "generate_paired_report",
+      "fixed_counts": {
+        "eligible_conditions": 36,
+        "eligible_method_outcomes": 216,
+        "eligible_seed_pairs": 108
+      },
+      "freeze": {
+        "path": "results/structural_pose_v3/paired_evaluation_v2_freeze.json",
+        "sha256": "19f45adee79d3dbedcd8b788985e0f0770a55a212bbe51f9deb2a8f38edb15c0"
+      },
+      "metric_sources": {
+        "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+        "aav_benchmark/heldout_pose_report.py": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c",
+        "aav_benchmark/heldout_reference.py": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28",
+        "aav_benchmark/metrics.py": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+        "aav_benchmark/paired_method_report.py": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe",
+        "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+        "aav_benchmark/public_source_replay.py": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943",
+        "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+        "aav_benchmark/statistics.py": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e"
+      },
+      "module": "aav_benchmark.paired_method_report",
+      "plan": {
+        "path": "benchmarks/structural_paired_method_evaluation_v2.json",
+        "sha256": "4922b83f6e28b221900bac1ee0b52fd6e8056f97e245c277bbd71ca28f4e807e"
+      },
+      "reader_source": {
+        "path": "aav_benchmark/paired_method_report.py",
+        "sha256": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe"
+      },
+      "source_contract": {
+        "counts_local": "counts",
+        "entrypoint_line": 461,
+        "first_source_context_line": 558
+      },
+      "terminal_key": "terminal_method_outcomes"
+    }
+  },
+  "real_reports_require_all_four_fresh_ready": true,
+  "schema_version": 1,
+  "status": "proposal_waiting_for_independent_review_and_root_freeze"
+}

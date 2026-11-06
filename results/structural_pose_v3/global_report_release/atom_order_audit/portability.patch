@@ -1,0 +1,36 @@
+--- original_audit.py
++++ audit_atom_order.py
+@@ -1,8 +1,16 @@
+ """Source/name-map-only audit. No experimental or actual pose coordinates read."""
+ from pathlib import Path
+-import hashlib, json, tarfile, io, tempfile, sys
++import hashlib, json, tarfile, io, tempfile, sys, argparse
+ import numpy as np
+-sys.path.insert(0, '/Users/alec/AAV-Docking-Benchmark')
++parser=argparse.ArgumentParser(description=__doc__)
++parser.add_argument('--root', type=Path, required=True, help='Audited repository or public source fixture')
++parser.add_argument('--output', type=Path, required=True, help='Fresh JSON path outside the audited root')
++args=parser.parse_args()
++ROOT=args.root.resolve(strict=True)
++OUTPUT=args.output.resolve()
++if not ROOT.is_dir():parser.error('--root must be a directory')
++if OUTPUT.is_relative_to(ROOT):parser.error('--output must be outside the audited root')
++sys.path.insert(0, str(ROOT))
+ from aav_benchmark.engine import read_poses
+ from aav_benchmark.paired_method_report import canonical_carb_poses
+ from aav_benchmark.additional_method import read_carb_poses
+@@ -10,7 +18,6 @@
+ from aav_benchmark.heldout_pose_report import canonical_mapping
+ from aav_benchmark.qualified_pose import ParentGeometry
+ from rdkit import Chem
+-ROOT=Path('/Users/alec/AAV-Docking-Benchmark')
+ CASES=('2RDK','3ZWE','4R9F','5HZA','5V6F','8I5U')
+ def sha(raw):return hashlib.sha256(raw).hexdigest()
+ def record(path):
+@@ -107,5 +114,5 @@
+  'counts':{'source_profile_case_maps':len(source_records),'input_conditions':len(inputs['conditions']),'prepared_name_contracts':len(prepared),'nonprepared_retained':len(unsupported)},
+  'synthetic_controls':{'nontrivial_rdkit_to_source_name_order':True,'nontrivial_raw_modern_record_order':True,'modern_explicit_name_reorder':True,'nontrivial_vc_serial_order':True,'vc_explicit_name_reorder':True,'canonical_mask_order':[2,4,0],'parent_geometry_graph_order_roundtrip':True,'identity_automorphism_in_source_name_mask_order':True,'union_vc_alias_serial_roundtrip':True,'no_rmsd_fit_contact_or_geometry_diagnostic_call':True},
+  'source_code_pins':[record(p) for p in source_paths]}
+-out=Path('/tmp/aav-new6-atom-order-audit.json');out.write_text(json.dumps(result,indent=2,sort_keys=True)+'\n')
++out=OUTPUT;out.write_text(json.dumps(result,indent=2,sort_keys=True)+'\n')
+ print(json.dumps({'status':'source_name_order_contracts_pass','counts':result['counts'],'synthetic_controls':result['synthetic_controls'],'output':str(out),'sha256':sha(out.read_bytes())},indent=2))

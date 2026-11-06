@@ -1,0 +1,111 @@
+{
+  "boundaries": {
+    "RMSD_fits_contacts_geometry_diagnostics_called": false,
+    "accuracy_or_metric_reader_calls": false,
+    "actual_new_pose_or_native_coordinate_values_interpreted": false,
+    "native_programs_executed": false,
+    "new_structural_report_or_reference_ledger_opened": false,
+    "protected_or_supplemental_expansion_accessed": false,
+    "repository_files_changed": false,
+    "workflow_probes_called": false
+  },
+  "earlier_independent_HADDOCK_assembly_audit": {
+    "CNS_canonical_parent_bijections_and_graph_identity_fields_match": true,
+    "HADDOCK_alias_atoms_checked": 332,
+    "HADDOCK_ready_conditions": 13,
+    "assembly_four_profile_atom_map_bytes_identical": true,
+    "assembly_prepared_reference_name_orders_checked": 9,
+    "assembly_source_SDF_and_PDBQT_opaque_payloads_checked": 16,
+    "assembly_source_payload_pins_identical_across_four_profiles": true,
+    "full_comparator_prepared_reference_name_orders_checked": 9,
+    "order_defect_found_in_new_readers": false,
+    "synthetic_shuffled_CNS_PDB_PDBQT_parent_name_orders_and_full_partial_masks_pass": true,
+    "timing": "Completed before this publication review; counts restated from the independent source/metadata and synthetic-control handoff"
+  },
+  "historical_preservation": {
+    "current_source_map_entries_verified": 59,
+    "frozen_implementation_pins_verified_before_and_after": 14,
+    "method_protocol_distribution": {
+      "bytes": 163459,
+      "path": "benchmarks/method_protocol_public_distribution.json",
+      "sha256": "bed3115a6ab2685aa3c9cd790ff5080e931ee813c37c720188b4e44901570beb"
+    },
+    "payload_check": "Opaque size/SHA256 checks only; no payload scientific interpretation",
+    "root_file_pins_verified_before_and_after": 735
+  },
+  "limitations": [
+    "This review clears this atom-order QA/publication concern only; it does not validate measured docking outcomes or waive global completion gates.",
+    "Original historical pins remain authoritative. Post-publication review hashes do not replace prospective freezes.",
+    "The separate legacy c773 development ordering defect is not rehabilitated by these new-reader checks."
+  ],
+  "patch_review": {
+    "algorithm_and_scientific_choices_changed": false,
+    "all_original_assertions_preserved": true,
+    "external_output_freshness": "Caller precondition; CLI guard enforces outside-root location and does not implement exclusive creation",
+    "resolved_output_inside_audited_root_rejected": true,
+    "resolved_symlink_output_inside_audited_root_rejected": true,
+    "reverse_path_cli_normalization_recovers_original_bytes": true
+  },
+  "path_guard_controls": {
+    "direct_inside": {
+      "audited_root_output_created": false,
+      "exit_code": 2
+    },
+    "resolved_symlink_inside": {
+      "audited_root_output_created": false,
+      "exit_code": 2
+    }
+  },
+  "portable_replay": {
+    "byte_exact_original_result": true,
+    "bytecode_writes_disabled": true,
+    "bytes": 57484,
+    "code_package_files": 69,
+    "counts": {
+      "input_conditions": 36,
+      "nonprepared_retained": 17,
+      "prepared_name_contracts": 19,
+      "source_profile_case_maps": 12
+    },
+    "exit_code": 0,
+    "explicit_copied_files": 112,
+    "fixture_inputs_unchanged": true,
+    "processed_absent": true,
+    "sha256": "c3284c9854f68bbf697f6195a10fc1da2c51dd75fbbb07b170042534be105f64",
+    "temporary_fixture_removed_on_exit": true,
+    "tools_absent": true,
+    "unrelated_working_directory": true
+  },
+  "publication_files": {
+    "audit_atom_order.py": {
+      "bytes": 10605,
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit/audit_atom_order.py",
+      "sha256": "dca696f7000c83f188ce231bb5ea1eb4076b3fb008e08c0146840957c367761c"
+    },
+    "original_audit.json": {
+      "bytes": 57484,
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit.json",
+      "sha256": "c3284c9854f68bbf697f6195a10fc1da2c51dd75fbbb07b170042534be105f64"
+    },
+    "original_audit.py": {
+      "bytes": 10195,
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit.py",
+      "sha256": "605921a826d9475f0f739e7c79e3420317ce46b083ec18e47cd0063bb2883fc1"
+    },
+    "original_audit_proof.md": {
+      "bytes": 10460,
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit_proof.md",
+      "sha256": "bd563781bb522158dadd9f51f3ca1bc7128d087bacbdd791d004b4b06ee0c1d4"
+    },
+    "portable_replay_verification.json": {
+      "bytes": 25004,
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit/portable_replay_verification.json",
+      "sha256": "8a9128affd8d6355a64a00f47a889cec0f9eaf4fd23d7f9d677d268edbaa935a"
+    }
+  },
+  "review_timing": "Post-publication independent review of existing QA; not a prospective scientific freeze",
+  "reviewed_at_UTC": "2026-11-03T21:56:17.831741+00:00",
+  "schema_version": 1,
+  "scope": "Exact preservation of original atom-order QA, path-only portability patch and metadata/synthetic-only replay",
+  "status": "independent_publication_scope_and_portable_replay_pass"
+}

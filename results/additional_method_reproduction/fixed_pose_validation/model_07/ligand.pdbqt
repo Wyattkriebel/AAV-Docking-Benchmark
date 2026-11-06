@@ -1,0 +1,125 @@
+REMARK VINA RESULT:      -6.4      2.479      6.083
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: C2_3  and  N2_4 
+REMARK       I    between atoms: N2_4  and  C7_13 
+REMARK    3  A    between atoms: C3_5  and  O3_6 
+REMARK    4  A    between atoms: O3_6  and  C1_46 
+REMARK    5  A    between atoms: C4_7  and  O4_8 
+REMARK    6  A    between atoms: O4_8  and  C1_19 
+REMARK    7  A    between atoms: C5_9  and  C6_11 
+REMARK    8  A    between atoms: C6_11  and  O6_12 
+REMARK    9  A    between atoms: C2_20  and  O2_21 
+REMARK   10  A    between atoms: O2_21  and  C1_33 
+REMARK   11  A    between atoms: C3_22  and  O3_23 
+REMARK   12  A    between atoms: C4_24  and  O4_25 
+REMARK   13  A    between atoms: C5_26  and  C6_28 
+REMARK   14  A    between atoms: C6_28  and  O6_29 
+REMARK   15  A    between atoms: C2_34  and  O2_35 
+REMARK   16  A    between atoms: C3_36  and  O3_37 
+REMARK   17  A    between atoms: C4_38  and  O4_39 
+REMARK   18  A    between atoms: C2_47  and  O2_48 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_51  and  O4_52 
+ROOT
+HETATM    1  C1  NDG A   1     -31.834  41.031  14.929  1.00 18.25     0.282 C 
+HETATM    2  C2  NDG A   1     -32.759  39.905  15.437  1.00 16.10     0.171 C 
+HETATM    3  C3  NDG A   1     -34.233  40.263  15.213  1.00 17.07     0.183 C 
+HETATM    4  C4  NDG A   1     -34.516  41.622  15.858  1.00 17.51     0.187 C 
+HETATM    5  C5  NDG A   1     -33.569  42.669  15.246  1.00 19.75     0.180 C 
+HETATM    6  O5  NDG A   1     -32.199  42.297  15.503  1.00 18.16    -0.349 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  NDG A   1     -35.895  42.010  15.660  1.00 18.39    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  GAL A   2     -36.573  42.447  16.794  1.00 19.47     0.292 C 
+HETATM    9  C2  GAL A   2     -38.080  42.549  16.504  1.00 21.38     0.211 C 
+HETATM   10  C3  GAL A   2     -38.799  42.981  17.781  1.00 22.16     0.183 C 
+HETATM   11  C4  GAL A   2     -38.515  41.957  18.880  1.00 22.05     0.180 C 
+HETATM   12  C5  GAL A   2     -36.999  41.875  19.090  1.00 19.68     0.179 C 
+HETATM   13  O5  GAL A   2     -36.346  41.497  17.857  1.00 18.57    -0.348 OA
+BRANCH   9  14
+HETATM   14  O2  GAL A   2     -38.330  43.503  15.457  1.00 23.81    -0.346 OA
+BRANCH  14  15
+HETATM   15  C1  FUC A   3     -38.925  42.971  14.303  1.00 20.96     0.292 C 
+HETATM   16  C2  FUC A   3     -40.103  43.847  13.870  1.00 21.55     0.204 C 
+HETATM   17  C3  FUC A   3     -39.591  45.196  13.362  1.00 21.68     0.183 C 
+HETATM   18  C4  FUC A   3     -38.587  44.974  12.232  1.00 23.00     0.178 C 
+HETATM   19  C5  FUC A   3     -37.453  44.081  12.732  1.00 22.59     0.152 C 
+HETATM   20  C6  FUC A   3     -36.463  43.740  11.636  1.00 21.54     0.042 C 
+HETATM   21  O5  FUC A   3     -37.995  42.832  13.227  1.00 22.06    -0.351 OA
+BRANCH  16  22
+HETATM   22  O2  FUC A   3     -40.984  44.050  14.965  1.00 21.73    -0.388 OA
+HETATM   23  H02 FUC A   3     -41.757  43.490  14.862  1.00 21.73     0.210 HD
+ENDBRANCH  16  22
+BRANCH  17  24
+HETATM   24  O3  FUC A   3     -40.680  45.979  12.895  1.00 23.03    -0.390 OA
+HETATM   25  H04 FUC A   3     -40.874  46.671  13.531  1.00 23.03     0.210 HD
+ENDBRANCH  17  24
+BRANCH  18  26
+HETATM   26  O4  FUC A   3     -39.238  44.343  11.133  1.00 24.32    -0.390 OA
+HETATM   27  H06 FUC A   3     -39.933  43.767  11.460  1.00 24.32     0.210 HD
+ENDBRANCH  18  26
+ENDBRANCH  14  15
+ENDBRANCH   9  14
+BRANCH  10  28
+HETATM   28  O3  GAL A   2     -40.198  43.089  17.555  1.00 21.48    -0.390 OA
+HETATM   29  H03 GAL A   2     -40.531  43.884  17.977  1.00 21.48     0.210 HD
+ENDBRANCH  10  28
+BRANCH  11  30
+HETATM   30  O4  GAL A   2     -39.013  40.687  18.478  1.00 21.68    -0.390 OA
+HETATM   31  H05 GAL A   2     -39.451  40.770  17.627  1.00 21.68     0.210 HD
+ENDBRANCH  11  30
+BRANCH  12  32
+HETATM   32  C6  GAL A   2     -36.584  40.872  20.156  1.00 22.77     0.198 C 
+BRANCH  32  33
+HETATM   33  O6  GAL A   2     -36.477  39.560  19.623  1.00 21.83    -0.398 OA
+HETATM   34  H09 GAL A   2     -35.593  39.221  19.783  1.00 21.83     0.209 HD
+ENDBRANCH  32  33
+ENDBRANCH  12  32
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   5  35
+HETATM   35  C6  NDG A   1     -33.766  44.052  15.825  1.00 19.44     0.198 C 
+BRANCH  35  36
+HETATM   36  O6  NDG A   1     -34.000  43.992  17.228  1.00 22.44    -0.398 OA
+HETATM   37  H10 NDG A   1     -33.449  43.310  17.616  1.00 22.44     0.209 HD
+ENDBRANCH  35  36
+ENDBRANCH   5  35
+BRANCH   3  38
+HETATM   38  O3  NDG A   1     -35.057  39.256  15.828  1.00 16.70    -0.348 OA
+BRANCH  38  39
+HETATM   39  C1  FUC A   4     -35.673  38.354  14.951  1.00 17.98     0.292 C 
+HETATM   40  C2  FUC A   4     -35.705  36.965  15.602  1.00 18.98     0.204 C 
+HETATM   41  C3  FUC A   4     -36.569  37.026  16.868  1.00 18.80     0.183 C 
+HETATM   42  C4  FUC A   4     -37.969  37.539  16.514  1.00 19.03     0.178 C 
+HETATM   43  C5  FUC A   4     -37.876  38.885  15.777  1.00 17.92     0.152 C 
+HETATM   44  O5  FUC A   4     -37.001  38.758  14.632  1.00 17.36    -0.351 OA
+HETATM   45  C6  FUC A   4     -39.222  39.371  15.265  1.00 17.47     0.042 C 
+BRANCH  40  46
+HETATM   46  O2  FUC A   4     -34.382  36.554  15.930  1.00 18.96    -0.388 OA
+HETATM   47  H02 FUC A   4     -33.830  36.596  15.146  1.00 18.96     0.210 HD
+ENDBRANCH  40  46
+BRANCH  41  48
+HETATM   48  O3  FUC A   4     -36.668  35.731  17.449  1.00 18.98    -0.390 OA
+HETATM   49  H04 FUC A   4     -37.434  35.276  17.091  1.00 18.98     0.210 HD
+ENDBRANCH  41  48
+BRANCH  42  50
+HETATM   50  O4  FUC A   4     -38.615  36.585  15.684  1.00 17.97    -0.390 OA
+HETATM   51  H06 FUC A   4     -38.075  36.418  14.908  1.00 17.97     0.210 HD
+ENDBRANCH  42  50
+ENDBRANCH  38  39
+ENDBRANCH   3  38
+BRANCH   2  52
+HETATM   52  N2  NDG A   1     -32.439  38.649  14.785  1.00 15.82    -0.349 N 
+HETATM   53  H04 NDG A   1     -31.918  37.940  15.281  1.00 15.82     0.163 HD
+HETATM   54  C7  NDG A   1     -32.833  38.434  13.532  1.00 18.26     0.214 C 
+HETATM   55  O7  NDG A   1     -33.421  39.284  12.863  1.00 16.43    -0.274 OA
+HETATM   56  C8  NDG A   1     -32.540  37.072  12.923  1.00 17.59     0.117 C 
+ENDBRANCH   2  52
+BRANCH   1  57
+HETATM   57  O1  NDG A   1     -31.904  41.137  13.551  1.00 20.35    -0.369 OA
+HETATM   58  H02 NDG A   1     -31.309  41.828  13.252  1.00 20.35     0.212 HD
+ENDBRANCH   1  57
+TORSDOF 20

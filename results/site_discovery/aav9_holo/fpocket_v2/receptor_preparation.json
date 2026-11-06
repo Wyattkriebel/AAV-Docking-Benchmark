@@ -1,0 +1,49 @@
+{
+  "assembly": {
+    "assembly_id": "1",
+    "author_chain_ids_preserved": true,
+    "deposited_model": 1,
+    "materializations": 1,
+    "operator": "identity",
+    "protein_subunits": 60
+  },
+  "atom_map": "data/processed/site_inputs_v2/aav9_holo/receptor.cif.atoms.tsv.gz",
+  "atom_map_sha256": "49eabd5296f0ce198bcce19f111ebfddaffabef5f3a107e9997b024d7ce99c56",
+  "distance_based_selection": false,
+  "gemmi_version": "0.7.5",
+  "information_regime": "full_surface_site_agnostic",
+  "max_serialization_displacement_A": 0.0,
+  "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+  "native_ligand_access": false,
+  "omitted_atoms": {
+    "metal_atoms": 0,
+    "nonprotein_atoms": 720
+  },
+  "omitted_residue_counts": {
+    "GAL": 60
+  },
+  "policy": {
+    "aav_assembly": "assembly 1 materialized once with existing identity-operator/60-subunit audit; no reference neighborhood",
+    "alternate_conformers": "fail rather than select using a native ligand",
+    "coordinates": "preserve source heavy-atom coordinates; no minimization, alignment, protonation, or added atoms",
+    "metals": "metal-free discovery baseline; no claim of retained-calcium equivalence to the docking baseline",
+    "nonprotein": "remove all waters, metals, ions, glycans and other nonprotein residues uniformly",
+    "other_assemblies": "entire deposited receptor supplied to preparer; biological completeness remains a separately qualified condition",
+    "protein": "all canonical amino-acid heavy atoms from one complete declared input model; no distance-based selection"
+  },
+  "protein_heavy_atoms": 247860,
+  "protein_subunits": 60,
+  "receptor": "data/processed/site_inputs_v2/aav9_holo/receptor.cif",
+  "receptor_sha256": "805e04cbb8d1ced44c9855ac0976600ddb2b05baf1e5e99753b1c1402475ea3b",
+  "schema_version": 1,
+  "serialization_metadata": "numeric entity IDs; sequential label_seq_id only where source has none; author IDs unchanged",
+  "serialization_revision": 2,
+  "serialization_revision_reason": "pinned fpocket VMD pdbx parser requires a terminal '#' comment delimiter",
+  "serialization_revision_receipt": "data/processed/site_inputs_v2/aav9_holo/receptor.cif.revision.json",
+  "source": "data/raw/7MTZ.cif",
+  "source_atoms_before_stripping": 248580,
+  "source_label_identifiers_present": true,
+  "source_sha256": "680d2c5f39ed6f4899718f55f5f0891e4cd7fbfd1fce8e9f555f45b7de64d582",
+  "status": "prepared",
+  "superseded_input_sha256": "91bc482b74dc6598da209dc8558afd8ab75776a086c3ccc9f60999f321566fbe"
+}

@@ -1,0 +1,411 @@
+{
+  "apo_coordinate_transform_applied": false,
+  "atomic_pose_eligible": false,
+  "case_id": "1PWB",
+  "confirmatory_site": false,
+  "contact_cutoff_A": 4.0,
+  "contact_rule": "canonical protein heavy atoms strictly less than 4.0 A from modeled native ligand heavy atoms",
+  "coordinate_frame": "pinned_holo_source",
+  "eligible_site_only": true,
+  "evaluation_only": true,
+  "native_protein_atom_count": 1154,
+  "native_protein_chain_count": 1,
+  "pdb_id": "1PWB",
+  "reference_limitations": "The released receptor has one chain, whereas deposited assembly 1 and the paper describe a trimer. This is a full released-chain surface localization test, not a complete-assembly test; dry preparation and selected alternate conformers limit physical interpretation.",
+  "schema_version": 1,
+  "site_class_count": 1,
+  "site_quality_stratum": "published_site_local_fit_caveats",
+  "site_reference_ledger": "benchmarks/site_reference_ledger.json",
+  "site_reference_ledger_sha256": "4eea470aac11e6a29f73a392f72adbe33e98c6584d18d5d7727be15312f354b1",
+  "sites": [
+    {
+      "atom_keys": [
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "C1"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "C2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "C3"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "C4"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "C5"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "C6"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "O1"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "O2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "O3"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "O4"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "O5"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "GLC",
+          "O6"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "C1"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "C2"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "C3"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "C4"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "C5"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "C6"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "O2"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "O3"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "O4"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "O5"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GLC",
+          "O6"
+        ]
+      ],
+      "coordinates": [
+        [
+          29.67,
+          -13.136,
+          4.501
+        ],
+        [
+          29.222,
+          -14.558,
+          4.835
+        ],
+        [
+          28.514,
+          -14.57,
+          6.191
+        ],
+        [
+          29.416,
+          -13.953,
+          7.255
+        ],
+        [
+          29.91,
+          -12.565,
+          6.829
+        ],
+        [
+          30.957,
+          -12.035,
+          7.793
+        ],
+        [
+          28.564,
+          -12.305,
+          4.434
+        ],
+        [
+          28.338,
+          -15.026,
+          3.828
+        ],
+        [
+          28.198,
+          -15.905,
+          6.559
+        ],
+        [
+          28.705,
+          -13.87,
+          8.5
+        ],
+        [
+          30.544,
+          -12.639,
+          5.527
+        ],
+        [
+          32.083,
+          -12.905,
+          7.848
+        ],
+        [
+          29.167,
+          -14.787,
+          9.445
+        ],
+        [
+          28.07,
+          -15.114,
+          10.463
+        ],
+        [
+          27.859,
+          -13.955,
+          11.45
+        ],
+        [
+          29.191,
+          -13.522,
+          12.064
+        ],
+        [
+          30.208,
+          -13.211,
+          10.966
+        ],
+        [
+          31.57,
+          -12.904,
+          11.544
+        ],
+        [
+          26.854,
+          -15.393,
+          9.781
+        ],
+        [
+          26.984,
+          -14.379,
+          12.483
+        ],
+        [
+          28.995,
+          -12.374,
+          12.874
+        ],
+        [
+          30.365,
+          -14.356,
+          10.094
+        ],
+        [
+          32.519,
+          -12.669,
+          10.517
+        ]
+      ],
+      "deposited_ligand_residue_map": [
+        {
+          "deposited": {
+            "author_chain": "D",
+            "author_resnum": "1",
+            "label_chain": "D",
+            "label_resnum": ".",
+            "resname": "GLC"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "GLC",
+          "prepared_resnum": 1
+        },
+        {
+          "deposited": {
+            "author_chain": "D",
+            "author_resnum": "2",
+            "label_chain": "D",
+            "label_resnum": ".",
+            "resname": "GLC"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "GLC",
+          "prepared_resnum": 2
+        }
+      ],
+      "id": "1PWB:released_modeled_glycan",
+      "interface_residue_keys": [
+        [
+          "A",
+          117,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          119,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          125,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          137,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          138,
+          "",
+          "ASP"
+        ],
+        [
+          "A",
+          139,
+          "",
+          "ARG"
+        ]
+      ],
+      "names": [
+        "B:1:GLC:C1",
+        "B:1:GLC:C2",
+        "B:1:GLC:C3",
+        "B:1:GLC:C4",
+        "B:1:GLC:C5",
+        "B:1:GLC:C6",
+        "B:1:GLC:O1",
+        "B:1:GLC:O2",
+        "B:1:GLC:O3",
+        "B:1:GLC:O4",
+        "B:1:GLC:O5",
+        "B:1:GLC:O6",
+        "B:2:GLC:C1",
+        "B:2:GLC:C2",
+        "B:2:GLC:C3",
+        "B:2:GLC:C4",
+        "B:2:GLC:C5",
+        "B:2:GLC:C6",
+        "B:2:GLC:O2",
+        "B:2:GLC:O3",
+        "B:2:GLC:O4",
+        "B:2:GLC:O5",
+        "B:2:GLC:O6"
+      ]
+    }
+  ],
+  "source_files": [
+    {
+      "expected_sha256": "83e14a2a4036f3d8311b661f967430e6b37a710575356956f12ec87d0b97ac1a",
+      "path": "data/raw/external/1PWB_l_b.pdb",
+      "role": "native_ligand",
+      "sha256": "83e14a2a4036f3d8311b661f967430e6b37a710575356956f12ec87d0b97ac1a",
+      "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_l_b.pdb"
+    },
+    {
+      "expected_sha256": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce",
+      "path": "data/raw/external/1PWB_r_b.pdb",
+      "role": "native_receptor",
+      "sha256": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce",
+      "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_r_b.pdb"
+    }
+  ],
+  "symmetry_copy_count": 1
+}

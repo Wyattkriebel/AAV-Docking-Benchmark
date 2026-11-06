@@ -1,0 +1,66 @@
+{
+  "case_ids": [
+    "2RDK",
+    "3ZWE",
+    "4R9F",
+    "5HZA",
+    "5V6F",
+    "8I5U"
+  ],
+  "common_pool_rescoring_enabled": false,
+  "executed_candidate_budget": 1,
+  "metric_code_sha256": {
+    "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+    "aav_benchmark/heldout_pose_report.py": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c",
+    "aav_benchmark/heldout_reference.py": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28",
+    "aav_benchmark/metrics.py": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+    "aav_benchmark/paired_method_report.py": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "aav_benchmark/public_source_replay.py": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943",
+    "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+    "aav_benchmark/statistics.py": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e"
+  },
+  "prior_evaluation_plan": {
+    "path": "benchmarks/structural_paired_method_evaluation.json",
+    "sha256": "01e8affd432d519d76b3266b85297f3b259dee895f4fe571f52a7703a17709cd"
+  },
+  "public_source_distribution": {
+    "path": "benchmarks/source_public_distribution.json",
+    "sha256": "0f3e9816f8edc1194033a3456c44c2766e01a48617c032eb0a0f3a105813c43e"
+  },
+  "reference_evaluation_freeze": {
+    "path": "results/structural_pose_v3/reference_evaluation_freeze.json",
+    "sha256": "3a7818958771715d0251adf0706d6dea887059675797f48c50201e3a4c4cbb3b"
+  },
+  "reference_evaluation_plan": {
+    "path": "benchmarks/structural_pose_reference_evaluation.json",
+    "sha256": "1c96e8822c85f9b4f215a606271ce69affcd155e3e95dc4d137247f171c6f596"
+  },
+  "schema_version": 1,
+  "search_methods": [
+    "modern_vina_1_2_7",
+    "vina_carb_1_0"
+  ],
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "source_profiles": {
+    "repair": "modeled_sidechain_CCD_ideal",
+    "strict": "strict_CCD_ideal"
+  },
+  "source_validation_amendment": {
+    "path": "results/structural_pose_v3/source_validation_analysis_amendment.json",
+    "sha256": "c7270dc4bbdfa0ad9b368e4d7f86977752083249580c0a42b90f16986118115a"
+  },
+  "vina_carb_executable_sha256": "b213157502e059457900075953c10e0f6adc913b845e57bdef5bb8f62ca67d54",
+  "vina_carb_experiment": {
+    "path": "benchmarks/structural_test_vina_carb.json",
+    "sha256": "8b9b75de3fc0df376f867e2319d75b30b3f1f2b66a270f1a1af3e80c44454936"
+  },
+  "vina_carb_freeze": {
+    "path": "results/structural_pose_v3/vina_carb_freeze_receipt.json",
+    "sha256": "450e58efae02b2a21ed35e7977093762a8aa23708949ebf12091952f56aa7896"
+  }
+}

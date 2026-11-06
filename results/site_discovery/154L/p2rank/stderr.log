@@ -1,0 +1,43 @@
+[INFO] Console - P2Rank 2.5.1
+[INFO] Console - 
+[INFO] Main - loading default config from [/Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/default.groovy]
+[INFO] Console - DIR: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_data
+[INFO] Console - DIR2: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_data
+[INFO] Console - DIR: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_output
+[INFO] Console - DIR2: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_output
+[INFO] Console - predicting pockets for proteins from dataset [receptor.cif]
+[INFO] PredictPocketsRoutine - outdir: /Users/alec/AAV-Docking-Benchmark/results/site_discovery/154L/p2rank/raw
+[INFO] Model - Loading model from directory (v3 format): /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [receptor.cif] using 1 thread
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [receptor.cif] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [receptor.cif] (1/1)
+[INFO] Protein - loading protein [/Users/alec/AAV-Docking-Benchmark/data/processed/site_inputs/154L/receptor.cif]
+[INFO] PdbUtils - loading file [/Users/alec/AAV-Docking-Benchmark/data/processed/site_inputs/154L/receptor.cif]
+[INFO] Struct - all groups in chain A: 185
+[INFO] Struct - all groups in chain A: 185
+[INFO] Struct - 185 groups in chain A
+[INFO] Protein - structure atoms: 1432
+[INFO] Protein - protein   atoms: 1400
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 2592
+[INFO] Protein - exposed protein atoms: 859 of 1400
+[INFO] SLinkClusterer - clustering [30] elements
+[INFO] SLinkClusterer - clusters: [id:12( 18 ), id:24( 1 ), id:25( 8 ), id:26( 1 ), id:29( 2 )]
+[INFO] SLinkClusterer - clusters together: 30 / 30
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 2592
+[INFO] PocketPredictor - LIGANDABLE POINTS: 30
+[INFO] PocketPredictor - CLUSTERS: 5
+[INFO] PocketPredictor - FILTERED CLUSTERS: 2
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  36   points:  18   score:    7.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  16   points:   8   score:    2.7
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 1.455 seconds
+[INFO] Console - results saved to directory [/Users/alec/AAV-Docking-Benchmark/results/site_discovery/154L/p2rank/raw]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 2.021 seconds.

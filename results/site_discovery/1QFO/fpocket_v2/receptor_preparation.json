@@ -1,0 +1,41 @@
+{
+  "assembly": {
+    "assembly_id": null,
+    "materializations": 0,
+    "scope": "entire deposited receptor model; biological completeness not certified"
+  },
+  "atom_map": "data/processed/site_inputs_v2/1QFO/receptor.cif.atoms.tsv.gz",
+  "atom_map_sha256": "f788f85608e409a4dc2971be2d11f813e3d7341bc6fe251dcff662edcb713868",
+  "distance_based_selection": false,
+  "gemmi_version": "0.7.5",
+  "information_regime": "full_surface_site_agnostic",
+  "max_serialization_displacement_A": 0.0,
+  "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+  "native_ligand_access": false,
+  "omitted_atoms": {},
+  "omitted_residue_counts": {},
+  "policy": {
+    "aav_assembly": "assembly 1 materialized once with existing identity-operator/60-subunit audit; no reference neighborhood",
+    "alternate_conformers": "fail rather than select using a native ligand",
+    "coordinates": "preserve source heavy-atom coordinates; no minimization, alignment, protonation, or added atoms",
+    "metals": "metal-free discovery baseline; no claim of retained-calcium equivalence to the docking baseline",
+    "nonprotein": "remove all waters, metals, ions, glycans and other nonprotein residues uniformly",
+    "other_assemblies": "entire deposited receptor supplied to preparer; biological completeness remains a separately qualified condition",
+    "protein": "all canonical amino-acid heavy atoms from one complete declared input model; no distance-based selection"
+  },
+  "protein_heavy_atoms": 911,
+  "protein_subunits": 1,
+  "receptor": "data/processed/site_inputs_v2/1QFO/receptor.cif",
+  "receptor_sha256": "a31091d2d40a4da42acb01c2c54206876eaf455efb0d4b44615355e39b26ce6c",
+  "schema_version": 1,
+  "serialization_metadata": "numeric entity IDs; sequential label_seq_id only where source has none; author IDs unchanged",
+  "serialization_revision": 2,
+  "serialization_revision_reason": "pinned fpocket VMD pdbx parser requires a terminal '#' comment delimiter",
+  "serialization_revision_receipt": "data/processed/site_inputs_v2/1QFO/receptor.cif.revision.json",
+  "source": "data/raw/external/1QFO_r_b.pdb",
+  "source_atoms_before_stripping": 911,
+  "source_label_identifiers_present": false,
+  "source_sha256": "c40a29bb1cca0e6c9e77c3f603afa8a5f774fa36acfc7026e38bd3aec758100a",
+  "status": "prepared",
+  "superseded_input_sha256": "601edbdb4d066203142ae57a21befdc7e6b2b3769794f855b9895a8be3073d19"
+}

@@ -1,0 +1,1094 @@
+{
+  "archive": "prepared_inputs.tar.gz",
+  "archive_sha256": "079d11a8e96b1b9ea45d63f8a5fdd3fef8916659a1510815c3da1d9671897f71",
+  "embedded_original_manifest": "prepared_inputs_manifest.json",
+  "files": [
+    {
+      "bytes": 36,
+      "path": "AIR_syntax_preflight/driver.log",
+      "sha256": "36d4855363f81423ab3c1dc1d9c6974bec4ef3d00799fc0cabc27f37f65c5709"
+    },
+    {
+      "bytes": 7268,
+      "path": "AIR_syntax_preflight/execution_plan.json",
+      "sha256": "26d9b6511247bfa8f1f7b2e172338dc9c7f7b88637880208808182c1b0045d55"
+    },
+    {
+      "bytes": 872,
+      "path": "AIR_syntax_preflight/repair_2RDK_fpocket_box01.inp",
+      "sha256": "877ca2de093837e9f6d1b4deb392d3a7aab6477de3c7a3e1be1c7124cf485fc5"
+    },
+    {
+      "bytes": 3540,
+      "path": "AIR_syntax_preflight/repair_2RDK_fpocket_box01.out",
+      "sha256": "3e36f18bfa7d5a6629dd9a87c657b5cd8044279be1fb76d1d07c84a904092300"
+    },
+    {
+      "bytes": 871,
+      "path": "AIR_syntax_preflight/repair_2RDK_oracle_box01.inp",
+      "sha256": "5702ce0e721e4f5149403235cea11167a4bd191c0e6003bc364dbca3d11a8b32"
+    },
+    {
+      "bytes": 3540,
+      "path": "AIR_syntax_preflight/repair_2RDK_oracle_box01.out",
+      "sha256": "18527a0895242224139294975974c0fd161174ee7fd6155a0c2dfe56cff56da8"
+    },
+    {
+      "bytes": 872,
+      "path": "AIR_syntax_preflight/repair_4R9F_fpocket_box01.inp",
+      "sha256": "11362a3c6e55300794660903008994a242a44f3fce08f80032ce51ab4caa6e53"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/repair_4R9F_fpocket_box01.out",
+      "sha256": "4d609de926fdba030c24439d3b2fb601fc35a759ad0906dba17d1047089402d2"
+    },
+    {
+      "bytes": 871,
+      "path": "AIR_syntax_preflight/repair_4R9F_oracle_box01.inp",
+      "sha256": "6ef060faad673d3548e10b648232bce93106f99ce72e0da58ba1b61428d20e2a"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/repair_4R9F_oracle_box01.out",
+      "sha256": "0b8cebb3ac8862e9db9d72e8de2e5f7ab97b45e51d02410d9ee12cb912e04f90"
+    },
+    {
+      "bytes": 871,
+      "path": "AIR_syntax_preflight/repair_4R9F_p2rank_box01.inp",
+      "sha256": "caace6ae4e3d84d5f060935fae71c1f4ba528db6e1ce78bf5f442b4b111d69f8"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/repair_4R9F_p2rank_box01.out",
+      "sha256": "fcc3d588bd8043c56c0504935acf3322f3d4898603279f9d55ad63816a7c4f5b"
+    },
+    {
+      "bytes": 952,
+      "path": "AIR_syntax_preflight/repair_5V6F_fpocket_box01.inp",
+      "sha256": "7179270848b790d6a8ea896020d68ad696628e5999a74cbd9d489ba60925609e"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/repair_5V6F_fpocket_box01.out",
+      "sha256": "500649fffee29233836a4e8390b86f94c06b7e4593f667053d2c41250e72d823"
+    },
+    {
+      "bytes": 951,
+      "path": "AIR_syntax_preflight/repair_5V6F_oracle_box01.inp",
+      "sha256": "9613611209b0216e3b46b5dfc6b57f2ae2c7e8d326186b1ac207945b26fbe178"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/repair_5V6F_oracle_box01.out",
+      "sha256": "d83b1e03afabd6a3676024f5c140fff5fd4214bdbdfd01be5ef66382ed80baa2"
+    },
+    {
+      "bytes": 951,
+      "path": "AIR_syntax_preflight/repair_5V6F_p2rank_box01.inp",
+      "sha256": "db6e45f95591e6a02788e250eab45752bed42193b8247090a5d6035512efa999"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/repair_5V6F_p2rank_box01.out",
+      "sha256": "8f56e0ba827c255befc8ec2a5d2b60f11f96d2edfc53756f7354a76cb041d6c4"
+    },
+    {
+      "bytes": 872,
+      "path": "AIR_syntax_preflight/strict_2RDK_fpocket_box01.inp",
+      "sha256": "15226c46f5290b6d7d9554d1076e2d915e697128eff34da3b9c61bdf92b51427"
+    },
+    {
+      "bytes": 3540,
+      "path": "AIR_syntax_preflight/strict_2RDK_fpocket_box01.out",
+      "sha256": "7e0465ff87e279ad2c49581d9653343c567326150a1499b11518048283ea6d12"
+    },
+    {
+      "bytes": 871,
+      "path": "AIR_syntax_preflight/strict_2RDK_oracle_box01.inp",
+      "sha256": "ede96d85d344a4275915bf35e17cf54f88b90f6b8b6e1cb258383284c6925d81"
+    },
+    {
+      "bytes": 3540,
+      "path": "AIR_syntax_preflight/strict_2RDK_oracle_box01.out",
+      "sha256": "0ccce4353008b6596efb2250cef21a37a05e8993f4e2007b790d6682d613137b"
+    },
+    {
+      "bytes": 872,
+      "path": "AIR_syntax_preflight/strict_4R9F_fpocket_box01.inp",
+      "sha256": "fe90cbefd085db779c2cfad08673e2bff841f78dc58af76a98d32adb72dfe3eb"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/strict_4R9F_fpocket_box01.out",
+      "sha256": "5cdc321af8dab88042e7c34979abb79955348f9b5178c824ea9b7e2071d9509a"
+    },
+    {
+      "bytes": 871,
+      "path": "AIR_syntax_preflight/strict_4R9F_oracle_box01.inp",
+      "sha256": "78e8ae85f315deef4b2a10600ae283841241bc21f4b54d9188061dc1e63e4497"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/strict_4R9F_oracle_box01.out",
+      "sha256": "c98c3150f6011e2e11ea79be6907120961b64c2c3771242b9c694e4534874c71"
+    },
+    {
+      "bytes": 871,
+      "path": "AIR_syntax_preflight/strict_4R9F_p2rank_box01.inp",
+      "sha256": "3191cdb7460776b1118bf1d9453d4686e4752e9c989a6330b378be1ef4aa20a0"
+    },
+    {
+      "bytes": 3434,
+      "path": "AIR_syntax_preflight/strict_4R9F_p2rank_box01.out",
+      "sha256": "d730043105fb907b689966c365d93088438b77ca66eb70b312b43cc24046cd12"
+    },
+    {
+      "bytes": 9909,
+      "path": "AIR_syntax_preflight/summary.json",
+      "sha256": "0f9d52a1cbc362279632eed72b0eea4e2af924bb1c9f91e0e0076e223f259e94"
+    },
+    {
+      "bytes": 2704,
+      "path": "native_score_weights.json",
+      "sha256": "2155d5cdf095f0050060eacd0b1e9699beed653e670cee75eeedb171cad54433"
+    },
+    {
+      "bytes": 89744,
+      "path": "native_software_manifest.json",
+      "sha256": "83514208eb1bb0c589f78fd8f13fcd8c9b1d9e1b95d0c2927b174b0bb80abe51"
+    },
+    {
+      "bytes": 38910,
+      "path": "prepared_inputs_manifest.json",
+      "sha256": "cfa9804a17824b72455402fd64b4e5307f623535d4a8f6b855cc9b916cec2f34"
+    },
+    {
+      "bytes": 297244,
+      "path": "prepared_plan.json",
+      "sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2"
+    },
+    {
+      "bytes": 20356,
+      "path": "repair/2RDK/fpocket/data/box_air.json",
+      "sha256": "bd21ba9d0f06ed7d50e4975cc73ff5b62fabe856e8d09e209fd479b93b31a376"
+    },
+    {
+      "bytes": 12959,
+      "path": "repair/2RDK/fpocket/data/box_air.tbl",
+      "sha256": "70cf0fa0f1ab3523a6b542cb664635ca94f597593281fa484fe6fee3e6c5d726"
+    },
+    {
+      "bytes": 1871,
+      "path": "repair/2RDK/fpocket/data/glycan.pdb",
+      "sha256": "7febed052d765b085aad4b0718bd2a4919dc13ad0daba8f9228eb811672070ff"
+    },
+    {
+      "bytes": 9907,
+      "path": "repair/2RDK/fpocket/data/glycan_translated.sdf",
+      "sha256": "132c916e3b1dc82127558b99e74f412f8091efde025829ae324aef3f9b20f99f"
+    },
+    {
+      "bytes": 13526,
+      "path": "repair/2RDK/fpocket/data/preflight_preparation.json",
+      "sha256": "05d8b18b78530e2d9929ecd94dffbbb90219ede9ea4a50964ddddbc7fb6db17b"
+    },
+    {
+      "bytes": 61568,
+      "path": "repair/2RDK/fpocket/data/receptor.pdb",
+      "sha256": "af3c0c6b7317eafcb478958eb0ef30dd9ef81e01e5274a5bc80433c08e98fc18"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/2RDK/fpocket/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/2RDK/fpocket/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/2RDK/fpocket/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 20516,
+      "path": "repair/2RDK/oracle/data/box_air.json",
+      "sha256": "98dcff1e9d189466e3fc0474d4c1c3b949a3e7e1bc6c17194694db46f1506416"
+    },
+    {
+      "bytes": 13084,
+      "path": "repair/2RDK/oracle/data/box_air.tbl",
+      "sha256": "bd945026aa9a2bc0874f0c20eb9a852e4eccb7e83aaeb28850b3e92d3d79a2dd"
+    },
+    {
+      "bytes": 1871,
+      "path": "repair/2RDK/oracle/data/glycan.pdb",
+      "sha256": "7febed052d765b085aad4b0718bd2a4919dc13ad0daba8f9228eb811672070ff"
+    },
+    {
+      "bytes": 9907,
+      "path": "repair/2RDK/oracle/data/glycan_translated.sdf",
+      "sha256": "132c916e3b1dc82127558b99e74f412f8091efde025829ae324aef3f9b20f99f"
+    },
+    {
+      "bytes": 13526,
+      "path": "repair/2RDK/oracle/data/preflight_preparation.json",
+      "sha256": "05d8b18b78530e2d9929ecd94dffbbb90219ede9ea4a50964ddddbc7fb6db17b"
+    },
+    {
+      "bytes": 61568,
+      "path": "repair/2RDK/oracle/data/receptor.pdb",
+      "sha256": "af3c0c6b7317eafcb478958eb0ef30dd9ef81e01e5274a5bc80433c08e98fc18"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/2RDK/oracle/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/2RDK/oracle/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/2RDK/oracle/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 40924,
+      "path": "repair/4R9F/fpocket/data/box_air.json",
+      "sha256": "6ae2753f3711dc14b02f2f54d9dcc8f744c7bce91bd483c845e3784041d1cd67"
+    },
+    {
+      "bytes": 27200,
+      "path": "repair/4R9F/fpocket/data/box_air.tbl",
+      "sha256": "8073b273fce01949aee2f3f51463784eabc722bbc7ab12baac218082a9aad69d"
+    },
+    {
+      "bytes": 1871,
+      "path": "repair/4R9F/fpocket/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "repair/4R9F/fpocket/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 13526,
+      "path": "repair/4R9F/fpocket/data/preflight_preparation.json",
+      "sha256": "a16c1aeb533842e62d41f2622edc397bc6d7464e2abfc2ab3992723c9e3118c0"
+    },
+    {
+      "bytes": 249318,
+      "path": "repair/4R9F/fpocket/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/fpocket/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/fpocket/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/fpocket/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 53014,
+      "path": "repair/4R9F/oracle/data/box_air.json",
+      "sha256": "b9f0f9ca8ae4dca190fe63d5e1907f695704cd66dbd864c787fb504b146fe9df"
+    },
+    {
+      "bytes": 35485,
+      "path": "repair/4R9F/oracle/data/box_air.tbl",
+      "sha256": "a5ac76b177e2ebe4b0a9bb289a3038d5fc48c32ca2a7f0b32e2b64fb4bf03adf"
+    },
+    {
+      "bytes": 1871,
+      "path": "repair/4R9F/oracle/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "repair/4R9F/oracle/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 13526,
+      "path": "repair/4R9F/oracle/data/preflight_preparation.json",
+      "sha256": "a16c1aeb533842e62d41f2622edc397bc6d7464e2abfc2ab3992723c9e3118c0"
+    },
+    {
+      "bytes": 249318,
+      "path": "repair/4R9F/oracle/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/oracle/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/oracle/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/oracle/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 51296,
+      "path": "repair/4R9F/p2rank/data/box_air.json",
+      "sha256": "aac158f1e2a32f54fd17b4b269db4dfa0360114dad2dbaae85c1cfcc89c009d3"
+    },
+    {
+      "bytes": 34320,
+      "path": "repair/4R9F/p2rank/data/box_air.tbl",
+      "sha256": "cdec9207bbf8d597d4c9e1851bbc153074fbb076e72a796db2d0f2c6f933609d"
+    },
+    {
+      "bytes": 1871,
+      "path": "repair/4R9F/p2rank/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "repair/4R9F/p2rank/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 13526,
+      "path": "repair/4R9F/p2rank/data/preflight_preparation.json",
+      "sha256": "a16c1aeb533842e62d41f2622edc397bc6d7464e2abfc2ab3992723c9e3118c0"
+    },
+    {
+      "bytes": 249318,
+      "path": "repair/4R9F/p2rank/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/p2rank/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/p2rank/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "repair/4R9F/p2rank/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 34096,
+      "path": "repair/5V6F/fpocket/data/box_air.json",
+      "sha256": "f7751adff1be93088c3ca17798902bca9708ab6b40f983308f84bc018ccaaaea"
+    },
+    {
+      "bytes": 22366,
+      "path": "repair/5V6F/fpocket/data/box_air.tbl",
+      "sha256": "a74fbe13197bd05cb2b8df843ad4ee9644440700052a55ac5c73c497b64b3a17"
+    },
+    {
+      "bytes": 2762,
+      "path": "repair/5V6F/fpocket/data/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 14503,
+      "path": "repair/5V6F/fpocket/data/glycan_translated.sdf",
+      "sha256": "b689635102b8e1717bc8b2a7fcc4da7b80377108d9314c0ee5865e9f5ef32c7d"
+    },
+    {
+      "bytes": 19395,
+      "path": "repair/5V6F/fpocket/data/preflight_preparation.json",
+      "sha256": "c302d8e079ad39d2d64e16480c654d5f53c01ca293864e9808ff9809241b37e0"
+    },
+    {
+      "bytes": 84963,
+      "path": "repair/5V6F/fpocket/data/receptor.pdb",
+      "sha256": "bd6cb1f7e504eb081f691a30b83a2b0403fd037b0f1c0017e37e96d6b8570884"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/fpocket/s104729/run.cfg",
+      "sha256": "1008e0296de872eab43068f375eb67b5050335f4ecedb6b94c36289bace4e2e2"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/fpocket/s130363/run.cfg",
+      "sha256": "ad274c734272f09277677191412ae4e0fe7496f01c822c15566c2099a7c48194"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/fpocket/s155921/run.cfg",
+      "sha256": "1001807b9ec22a6a6b2cf36e05f734f734f65c9a3064f1686d5edaffb9f8c75e"
+    },
+    {
+      "bytes": 30906,
+      "path": "repair/5V6F/oracle/data/box_air.json",
+      "sha256": "81803a625029e3bf0f94a5ce465ed82719eb70a8afd060f258a79f1715c96ebc"
+    },
+    {
+      "bytes": 20187,
+      "path": "repair/5V6F/oracle/data/box_air.tbl",
+      "sha256": "48f19f11f63301f7db9cff5c9049dc60788b33dfb5e22da346fa162cb0776d8f"
+    },
+    {
+      "bytes": 2762,
+      "path": "repair/5V6F/oracle/data/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 14503,
+      "path": "repair/5V6F/oracle/data/glycan_translated.sdf",
+      "sha256": "b689635102b8e1717bc8b2a7fcc4da7b80377108d9314c0ee5865e9f5ef32c7d"
+    },
+    {
+      "bytes": 19395,
+      "path": "repair/5V6F/oracle/data/preflight_preparation.json",
+      "sha256": "c302d8e079ad39d2d64e16480c654d5f53c01ca293864e9808ff9809241b37e0"
+    },
+    {
+      "bytes": 84963,
+      "path": "repair/5V6F/oracle/data/receptor.pdb",
+      "sha256": "bd6cb1f7e504eb081f691a30b83a2b0403fd037b0f1c0017e37e96d6b8570884"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/oracle/s104729/run.cfg",
+      "sha256": "1008e0296de872eab43068f375eb67b5050335f4ecedb6b94c36289bace4e2e2"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/oracle/s130363/run.cfg",
+      "sha256": "ad274c734272f09277677191412ae4e0fe7496f01c822c15566c2099a7c48194"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/oracle/s155921/run.cfg",
+      "sha256": "1001807b9ec22a6a6b2cf36e05f734f734f65c9a3064f1686d5edaffb9f8c75e"
+    },
+    {
+      "bytes": 37789,
+      "path": "repair/5V6F/p2rank/data/box_air.json",
+      "sha256": "0d9894c75b5728e32d00c1abb9a299e251b8fa90708348a710019fe9f063e12c"
+    },
+    {
+      "bytes": 24916,
+      "path": "repair/5V6F/p2rank/data/box_air.tbl",
+      "sha256": "3e3eac4f178d6ba833772c273b384612bd3b1fdae0aba0e8fa8b110c0046a46b"
+    },
+    {
+      "bytes": 2762,
+      "path": "repair/5V6F/p2rank/data/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 14503,
+      "path": "repair/5V6F/p2rank/data/glycan_translated.sdf",
+      "sha256": "b689635102b8e1717bc8b2a7fcc4da7b80377108d9314c0ee5865e9f5ef32c7d"
+    },
+    {
+      "bytes": 19395,
+      "path": "repair/5V6F/p2rank/data/preflight_preparation.json",
+      "sha256": "c302d8e079ad39d2d64e16480c654d5f53c01ca293864e9808ff9809241b37e0"
+    },
+    {
+      "bytes": 84963,
+      "path": "repair/5V6F/p2rank/data/receptor.pdb",
+      "sha256": "bd6cb1f7e504eb081f691a30b83a2b0403fd037b0f1c0017e37e96d6b8570884"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/p2rank/s104729/run.cfg",
+      "sha256": "1008e0296de872eab43068f375eb67b5050335f4ecedb6b94c36289bace4e2e2"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/p2rank/s130363/run.cfg",
+      "sha256": "ad274c734272f09277677191412ae4e0fe7496f01c822c15566c2099a7c48194"
+    },
+    {
+      "bytes": 514,
+      "path": "repair/5V6F/p2rank/s155921/run.cfg",
+      "sha256": "1001807b9ec22a6a6b2cf36e05f734f734f65c9a3064f1686d5edaffb9f8c75e"
+    },
+    {
+      "bytes": 37789,
+      "path": "setup_probes/repair/5V6F/p2rank/data/box_air.json",
+      "sha256": "0d9894c75b5728e32d00c1abb9a299e251b8fa90708348a710019fe9f063e12c"
+    },
+    {
+      "bytes": 24916,
+      "path": "setup_probes/repair/5V6F/p2rank/data/box_air.tbl",
+      "sha256": "3e3eac4f178d6ba833772c273b384612bd3b1fdae0aba0e8fa8b110c0046a46b"
+    },
+    {
+      "bytes": 2762,
+      "path": "setup_probes/repair/5V6F/p2rank/data/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 14503,
+      "path": "setup_probes/repair/5V6F/p2rank/data/glycan_translated.sdf",
+      "sha256": "b689635102b8e1717bc8b2a7fcc4da7b80377108d9314c0ee5865e9f5ef32c7d"
+    },
+    {
+      "bytes": 19395,
+      "path": "setup_probes/repair/5V6F/p2rank/data/preflight_preparation.json",
+      "sha256": "c302d8e079ad39d2d64e16480c654d5f53c01ca293864e9808ff9809241b37e0"
+    },
+    {
+      "bytes": 84963,
+      "path": "setup_probes/repair/5V6F/p2rank/data/receptor.pdb",
+      "sha256": "bd6cb1f7e504eb081f691a30b83a2b0403fd037b0f1c0017e37e96d6b8570884"
+    },
+    {
+      "bytes": 514,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run.cfg",
+      "sha256": "1008e0296de872eab43068f375eb67b5050335f4ecedb6b94c36289bace4e2e2"
+    },
+    {
+      "bytes": 2762,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/0_topoaa/glycan.pdb",
+      "sha256": "37e98123c8c4cc3bc9caffa5421adc49cb6d2358f1ef5587a1b961f662ffc171"
+    },
+    {
+      "bytes": 84963,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/0_topoaa/receptor.pdb",
+      "sha256": "bd6cb1f7e504eb081f691a30b83a2b0403fd037b0f1c0017e37e96d6b8570884"
+    },
+    {
+      "bytes": 24916,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/1_rigidbody/box_air.tbl",
+      "sha256": "3e3eac4f178d6ba833772c273b384612bd3b1fdae0aba0e8fa8b110c0046a46b"
+    },
+    {
+      "bytes": 24916,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/2_flexref/box_air.tbl",
+      "sha256": "3e3eac4f178d6ba833772c273b384612bd3b1fdae0aba0e8fa8b110c0046a46b"
+    },
+    {
+      "bytes": 611,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/configurations/README.txt",
+      "sha256": "7d09f0bd7ea05dd1d5255640287fe69e96600d885b209baa87874e1e7849ed02"
+    },
+    {
+      "bytes": 530,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/configurations/cleaned_input.toml",
+      "sha256": "74fbfd89b7e77f1d8946173baf217d3fed5338f7cbf71f4122afd16e2d025bcf"
+    },
+    {
+      "bytes": 24281,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/configurations/enhanced_haddock_params.json",
+      "sha256": "aae6e4f9f5af296fd27c39836680ebcd81f4bad9688eeea1c6dc6a2d77c2850d"
+    },
+    {
+      "bytes": 15043,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "81128dc5df5813df36bf5831f466c31d04bd2a5a437985825bbb8dc174796197"
+    },
+    {
+      "bytes": 514,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/data/configurations/raw_input.toml",
+      "sha256": "1008e0296de872eab43068f375eb67b5050335f4ecedb6b94c36289bace4e2e2"
+    },
+    {
+      "bytes": 1548,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/run/log",
+      "sha256": "70bf791f651f39aa56d3cf6e210c22af42956e7a08758381ce8ea638ef91246b"
+    },
+    {
+      "bytes": 0,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/setup.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1548,
+      "path": "setup_probes/repair/5V6F/p2rank/s104729/setup.stdout.log",
+      "sha256": "70bf791f651f39aa56d3cf6e210c22af42956e7a08758381ce8ea638ef91246b"
+    },
+    {
+      "bytes": 85910,
+      "path": "setup_probes/strict/3ZWE/fpocket/data/box_air.json",
+      "sha256": "d197c8f48a254cd12371245b8bf77bdb5c012e38294be616a8255887cf0cedbf"
+    },
+    {
+      "bytes": 57666,
+      "path": "setup_probes/strict/3ZWE/fpocket/data/box_air.tbl",
+      "sha256": "1303a7768a69e6b8ee644f116f736e5d2ca7825c0c924b0f350910b7ddeae5f0"
+    },
+    {
+      "bytes": 3572,
+      "path": "setup_probes/strict/3ZWE/fpocket/data/glycan.pdb",
+      "sha256": "165f0f503063c18a4ed5c913674a8a5278c084068330dbaf9c7eb6331cc1723f"
+    },
+    {
+      "bytes": 18763,
+      "path": "setup_probes/strict/3ZWE/fpocket/data/glycan_translated.sdf",
+      "sha256": "61be6300fc68179e4d08cd76b594242e341481b4394b28e3a1494440708c0faf"
+    },
+    {
+      "bytes": 24710,
+      "path": "setup_probes/strict/3ZWE/fpocket/data/preflight_preparation.json",
+      "sha256": "ae78ae88c0bbb54f9cb1f7c6415d58bfe733de3cb30d93d2cfda90782e49455a"
+    },
+    {
+      "bytes": 160785,
+      "path": "setup_probes/strict/3ZWE/fpocket/data/receptor.pdb",
+      "sha256": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918"
+    },
+    {
+      "bytes": 514,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run.cfg",
+      "sha256": "1008e0296de872eab43068f375eb67b5050335f4ecedb6b94c36289bace4e2e2"
+    },
+    {
+      "bytes": 3572,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/0_topoaa/glycan.pdb",
+      "sha256": "165f0f503063c18a4ed5c913674a8a5278c084068330dbaf9c7eb6331cc1723f"
+    },
+    {
+      "bytes": 160785,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/0_topoaa/receptor.pdb",
+      "sha256": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918"
+    },
+    {
+      "bytes": 57666,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/1_rigidbody/box_air.tbl",
+      "sha256": "1303a7768a69e6b8ee644f116f736e5d2ca7825c0c924b0f350910b7ddeae5f0"
+    },
+    {
+      "bytes": 57666,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/2_flexref/box_air.tbl",
+      "sha256": "1303a7768a69e6b8ee644f116f736e5d2ca7825c0c924b0f350910b7ddeae5f0"
+    },
+    {
+      "bytes": 611,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/configurations/README.txt",
+      "sha256": "7d09f0bd7ea05dd1d5255640287fe69e96600d885b209baa87874e1e7849ed02"
+    },
+    {
+      "bytes": 530,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/configurations/cleaned_input.toml",
+      "sha256": "74fbfd89b7e77f1d8946173baf217d3fed5338f7cbf71f4122afd16e2d025bcf"
+    },
+    {
+      "bytes": 24281,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/configurations/enhanced_haddock_params.json",
+      "sha256": "aae6e4f9f5af296fd27c39836680ebcd81f4bad9688eeea1c6dc6a2d77c2850d"
+    },
+    {
+      "bytes": 15043,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "81128dc5df5813df36bf5831f466c31d04bd2a5a437985825bbb8dc174796197"
+    },
+    {
+      "bytes": 514,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/data/configurations/raw_input.toml",
+      "sha256": "1008e0296de872eab43068f375eb67b5050335f4ecedb6b94c36289bace4e2e2"
+    },
+    {
+      "bytes": 1552,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/run/log",
+      "sha256": "aa75d1f7d3a8c5bb865ea954141a9840a5c2f5896dffdcdfa25169ea23115479"
+    },
+    {
+      "bytes": 0,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/setup.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1552,
+      "path": "setup_probes/strict/3ZWE/fpocket/s104729/setup.stdout.log",
+      "sha256": "aa75d1f7d3a8c5bb865ea954141a9840a5c2f5896dffdcdfa25169ea23115479"
+    },
+    {
+      "bytes": 53014,
+      "path": "setup_probes/strict/4R9F/oracle/data/box_air.json",
+      "sha256": "f2ba37ef2868c49a78bc41c813fe3e09baa7503fd2640b91a4fd6215d56b103d"
+    },
+    {
+      "bytes": 35485,
+      "path": "setup_probes/strict/4R9F/oracle/data/box_air.tbl",
+      "sha256": "a5ac76b177e2ebe4b0a9bb289a3038d5fc48c32ca2a7f0b32e2b64fb4bf03adf"
+    },
+    {
+      "bytes": 1871,
+      "path": "setup_probes/strict/4R9F/oracle/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "setup_probes/strict/4R9F/oracle/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 13301,
+      "path": "setup_probes/strict/4R9F/oracle/data/preflight_preparation.json",
+      "sha256": "8b3b7d63b5a893c46a4d2c64a0021c8b565cc6c8dca2bf2379146d1f455aa96c"
+    },
+    {
+      "bytes": 249318,
+      "path": "setup_probes/strict/4R9F/oracle/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 479,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 1871,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/0_topoaa/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 249318,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/0_topoaa/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 35485,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/1_rigidbody/box_air.tbl",
+      "sha256": "a5ac76b177e2ebe4b0a9bb289a3038d5fc48c32ca2a7f0b32e2b64fb4bf03adf"
+    },
+    {
+      "bytes": 35485,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/2_flexref/box_air.tbl",
+      "sha256": "a5ac76b177e2ebe4b0a9bb289a3038d5fc48c32ca2a7f0b32e2b64fb4bf03adf"
+    },
+    {
+      "bytes": 611,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/configurations/README.txt",
+      "sha256": "7d09f0bd7ea05dd1d5255640287fe69e96600d885b209baa87874e1e7849ed02"
+    },
+    {
+      "bytes": 491,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/configurations/cleaned_input.toml",
+      "sha256": "e422b8154617aaa32be34fcf13cf09f0f3baaf5d0788ea4e2d0737a6ccde8df2"
+    },
+    {
+      "bytes": 24282,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/configurations/enhanced_haddock_params.json",
+      "sha256": "f861390aec71f314484a47ec5dfac9a7fefdac91d7ab30bd5f23adf094951ca8"
+    },
+    {
+      "bytes": 15044,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/configurations/enhanced_haddock_params.toml",
+      "sha256": "12d3c9104a799aaee6b7ac48767d1ca2952df741be33efe079de72162b2b9fbb"
+    },
+    {
+      "bytes": 479,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/data/configurations/raw_input.toml",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 1549,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/run/log",
+      "sha256": "acce4fc662a622502d2bae3f28de1930fd8eeb0d400e0c1fccd361ecd9e3a9b6"
+    },
+    {
+      "bytes": 0,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/setup.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1549,
+      "path": "setup_probes/strict/4R9F/oracle/s104729/setup.stdout.log",
+      "sha256": "acce4fc662a622502d2bae3f28de1930fd8eeb0d400e0c1fccd361ecd9e3a9b6"
+    },
+    {
+      "bytes": 424,
+      "path": "setup_probes/summary.json",
+      "sha256": "86332e562ef804c8683cabaecd8e661c59ee8d8f575425bce5e24d61a885d350"
+    },
+    {
+      "bytes": 11760,
+      "path": "source_snapshot/HADDOCK_PAIRED_COHORT.md",
+      "sha256": "2560eca3174391cbb365f1b7457b8c925190d46b0e2ed30589909affdcc4628f"
+    },
+    {
+      "bytes": 2399,
+      "path": "source_snapshot/haddock_assembly_protocol_amendment.json",
+      "sha256": "38b3ce51782c38cd1e419b3d2fa9b20c81560689105de6f4c71e42c525ce1149"
+    },
+    {
+      "bytes": 21858,
+      "path": "source_snapshot/haddock_paired_cohort.py",
+      "sha256": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6"
+    },
+    {
+      "bytes": 6030,
+      "path": "source_snapshot/haddock_paired_cohort_v2_proposal.json",
+      "sha256": "f3a72af252bed3c7e2ad764c6a7a6d763fa1f9ab4c4cc93b9f27fe1c92d7c038"
+    },
+    {
+      "bytes": 9280,
+      "path": "source_snapshot/test_haddock_paired_cohort.py",
+      "sha256": "d36018735da8a9c927ffdd3f78820c04329847878113eb73e1ef8d54e7c77b70"
+    },
+    {
+      "bytes": 3831,
+      "path": "source_snapshot/validate_haddock_air_syntax.py",
+      "sha256": "904c91452b3cb14c5a11eebae22ec7f76d9ead33c36d077d2c4474d47295b6f6"
+    },
+    {
+      "bytes": 727,
+      "path": "source_validation_tests.log",
+      "sha256": "b31ce2149001e78ee073a921a0623938e3f0bef15a594a535bfe07019917fe2d"
+    },
+    {
+      "bytes": 20356,
+      "path": "strict/2RDK/fpocket/data/box_air.json",
+      "sha256": "61cb63e2409b7097a6d46ff3abc83874ae835f87c068c204d6c434c3aeb10b84"
+    },
+    {
+      "bytes": 12959,
+      "path": "strict/2RDK/fpocket/data/box_air.tbl",
+      "sha256": "70cf0fa0f1ab3523a6b542cb664635ca94f597593281fa484fe6fee3e6c5d726"
+    },
+    {
+      "bytes": 1871,
+      "path": "strict/2RDK/fpocket/data/glycan.pdb",
+      "sha256": "7febed052d765b085aad4b0718bd2a4919dc13ad0daba8f9228eb811672070ff"
+    },
+    {
+      "bytes": 9907,
+      "path": "strict/2RDK/fpocket/data/glycan_translated.sdf",
+      "sha256": "132c916e3b1dc82127558b99e74f412f8091efde025829ae324aef3f9b20f99f"
+    },
+    {
+      "bytes": 13301,
+      "path": "strict/2RDK/fpocket/data/preflight_preparation.json",
+      "sha256": "635e029889c404714c4e1aaef9f4e8bb0064b2497e8aeee5e847ab167d988eac"
+    },
+    {
+      "bytes": 61722,
+      "path": "strict/2RDK/fpocket/data/receptor.pdb",
+      "sha256": "a99c88ea6c4dcb623cd07a2d43cd3a1b49efd1705d40072bc8a41b12a16a5444"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/2RDK/fpocket/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/2RDK/fpocket/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/2RDK/fpocket/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 20516,
+      "path": "strict/2RDK/oracle/data/box_air.json",
+      "sha256": "55be00cc7f290e7ce4491af9918ad254d80994e28fee5c0e0fe68336a4c5108a"
+    },
+    {
+      "bytes": 13084,
+      "path": "strict/2RDK/oracle/data/box_air.tbl",
+      "sha256": "bd945026aa9a2bc0874f0c20eb9a852e4eccb7e83aaeb28850b3e92d3d79a2dd"
+    },
+    {
+      "bytes": 1871,
+      "path": "strict/2RDK/oracle/data/glycan.pdb",
+      "sha256": "7febed052d765b085aad4b0718bd2a4919dc13ad0daba8f9228eb811672070ff"
+    },
+    {
+      "bytes": 9907,
+      "path": "strict/2RDK/oracle/data/glycan_translated.sdf",
+      "sha256": "132c916e3b1dc82127558b99e74f412f8091efde025829ae324aef3f9b20f99f"
+    },
+    {
+      "bytes": 13301,
+      "path": "strict/2RDK/oracle/data/preflight_preparation.json",
+      "sha256": "635e029889c404714c4e1aaef9f4e8bb0064b2497e8aeee5e847ab167d988eac"
+    },
+    {
+      "bytes": 61722,
+      "path": "strict/2RDK/oracle/data/receptor.pdb",
+      "sha256": "a99c88ea6c4dcb623cd07a2d43cd3a1b49efd1705d40072bc8a41b12a16a5444"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/2RDK/oracle/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/2RDK/oracle/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/2RDK/oracle/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 40924,
+      "path": "strict/4R9F/fpocket/data/box_air.json",
+      "sha256": "c428c8d60119d8c8fb83a75449c9c15095f4809077917dbfaecb80d9c9ea6a64"
+    },
+    {
+      "bytes": 27200,
+      "path": "strict/4R9F/fpocket/data/box_air.tbl",
+      "sha256": "8073b273fce01949aee2f3f51463784eabc722bbc7ab12baac218082a9aad69d"
+    },
+    {
+      "bytes": 1871,
+      "path": "strict/4R9F/fpocket/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "strict/4R9F/fpocket/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 13301,
+      "path": "strict/4R9F/fpocket/data/preflight_preparation.json",
+      "sha256": "8b3b7d63b5a893c46a4d2c64a0021c8b565cc6c8dca2bf2379146d1f455aa96c"
+    },
+    {
+      "bytes": 249318,
+      "path": "strict/4R9F/fpocket/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/fpocket/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/fpocket/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/fpocket/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 53014,
+      "path": "strict/4R9F/oracle/data/box_air.json",
+      "sha256": "f2ba37ef2868c49a78bc41c813fe3e09baa7503fd2640b91a4fd6215d56b103d"
+    },
+    {
+      "bytes": 35485,
+      "path": "strict/4R9F/oracle/data/box_air.tbl",
+      "sha256": "a5ac76b177e2ebe4b0a9bb289a3038d5fc48c32ca2a7f0b32e2b64fb4bf03adf"
+    },
+    {
+      "bytes": 1871,
+      "path": "strict/4R9F/oracle/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "strict/4R9F/oracle/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 13301,
+      "path": "strict/4R9F/oracle/data/preflight_preparation.json",
+      "sha256": "8b3b7d63b5a893c46a4d2c64a0021c8b565cc6c8dca2bf2379146d1f455aa96c"
+    },
+    {
+      "bytes": 249318,
+      "path": "strict/4R9F/oracle/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/oracle/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/oracle/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/oracle/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    },
+    {
+      "bytes": 51296,
+      "path": "strict/4R9F/p2rank/data/box_air.json",
+      "sha256": "d61aa5cb9adb7e8931caabac05d68bf70f58746007827ee20601962cad1635f1"
+    },
+    {
+      "bytes": 34320,
+      "path": "strict/4R9F/p2rank/data/box_air.tbl",
+      "sha256": "cdec9207bbf8d597d4c9e1851bbc153074fbb076e72a796db2d0f2c6f933609d"
+    },
+    {
+      "bytes": 1871,
+      "path": "strict/4R9F/p2rank/data/glycan.pdb",
+      "sha256": "51b4668dbca99530bf0615340fab12a38d53eff721145a8c680f08e8194e3d9f"
+    },
+    {
+      "bytes": 9906,
+      "path": "strict/4R9F/p2rank/data/glycan_translated.sdf",
+      "sha256": "7fcd9305d49d944b47f2ef378b0579aebccabcfb36d606edffe42f235aaa18f8"
+    },
+    {
+      "bytes": 13301,
+      "path": "strict/4R9F/p2rank/data/preflight_preparation.json",
+      "sha256": "8b3b7d63b5a893c46a4d2c64a0021c8b565cc6c8dca2bf2379146d1f455aa96c"
+    },
+    {
+      "bytes": 249318,
+      "path": "strict/4R9F/p2rank/data/receptor.pdb",
+      "sha256": "465fa233004a673cf3d44d95d8304db0e797a87beb5d199a217a4c31c170cc14"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/p2rank/s104729/run.cfg",
+      "sha256": "f98d8075bd6eab83734a867dca5117496143099e6a0eb2376812a144f55f7fda"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/p2rank/s130363/run.cfg",
+      "sha256": "eada9fa37d78ef7cd91de0638f2c9328272c826454216c370202d0b5469328da"
+    },
+    {
+      "bytes": 479,
+      "path": "strict/4R9F/p2rank/s155921/run.cfg",
+      "sha256": "c2fb07d95612851db1f8a8ae92ad89e0a7a1a8ebaa356ccb6529d11cfe52b01e"
+    }
+  ],
+  "frozen_original_manifest": {
+    "bytes": 38910,
+    "path": "results/haddock_paired_cohort/prepared_inputs_manifest.json",
+    "sha256": "cfa9804a17824b72455402fd64b4e5307f623535d4a8f6b855cc9b916cec2f34"
+  },
+  "no_new_native_or_accuracy_calls": true,
+  "original_manifest_records": 214,
+  "packaging_after_execution_started": true,
+  "schema_version": 1,
+  "scientific_inputs_and_original_receipts_unchanged": true,
+  "scope": "Full-coverage public hydration manifest for existing frozen archive bytes; original manifest remains provenance.",
+  "target_prefix": "results/haddock_paired_cohort"
+}

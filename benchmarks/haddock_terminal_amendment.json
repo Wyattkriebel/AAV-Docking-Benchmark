@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "profile_id": "haddock_v3_observed_termini_v2",
+  "status": "source_only_explicit_topology_amendment_before_any_cohort_docking",
+  "base_policy": "benchmarks/haddock_paired_topology_policy.json",
+  "cases_retained": ["2RDK", "3ZWE", "4R9F", "5HZA", "5V6F", "8I5U"],
+  "profiles_retained": ["strict", "repair"],
+  "reason": "Released charged_cter=false default removes observed terminal OXT atoms in 3ZWE and 5V6F. V1 failures are retained; no docking/accuracy outcome was used.",
+  "uniform_rule": "For the entire receptor molecule, use charged_cter=true iff every source chain has exactly one OXT at its largest source residue number. Use charged_cter=false iff no source chain has OXT. Fail mixed, duplicate or nonterminal OXT inventories. Glycan molecule retains released defaults.",
+  "changed_cases_expected_from_source_inventory": ["3ZWE", "5V6F"],
+  "unchanged_cases": ["2RDK", "4R9F", "5HZA", "8I5U"],
+  "execution_scope": "Re-run topoaa only for the four changed case/profile combinations; unchanged jobs retain original v1 execution evidence because their scientific configuration and inputs are unchanged. All12 retained in amendment summary.",
+  "all_other_gates_unchanged": true,
+  "no_docking_authorized": true
+}

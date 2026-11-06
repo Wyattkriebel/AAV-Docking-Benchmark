@@ -1,0 +1,12 @@
+P2Rank 2.5.1
+
+DIR: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_data
+DIR2: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_data
+DIR: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_output
+DIR2: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_output
+predicting pockets for proteins from dataset [receptor.cif]
+processing [receptor.cif] (1/1)
+predicting pockets finished in 0 hours 0 minutes 1.366 seconds
+results saved to directory [/Users/alec/AAV-Docking-Benchmark/results/site_discovery/2VUZ/p2rank/raw]
+
+Finished successfully in 0 hours 0 minutes 1.911 seconds.

@@ -1,0 +1,67 @@
+{
+  "alternate_conformer_policy": "whole-residue highest mean occupancy, ties lexical; apo Ser218 selects B (0.58), retains blank atoms, clears selected altloc and keeps source occupancy",
+  "analysis_frozen_before_new_docking": true,
+  "anomer_population_interpretation": "equal model weighting is a heuristic; solution fractions, furanose and open-chain populations are unknown",
+  "anomer_sensitivity": "minimum and maximum anomer seed means per species",
+  "apo_alignment_policy": "whole dimer matched N/CA/C/O; choose A/B chain correspondence by lowest backbone RMSD, ties lexical; transform centers only",
+  "box_size": [
+    24.0,
+    24.0,
+    24.0
+  ],
+  "calcium_ccd_sha256": "5713e078d7604837c4169d281dd40da4dfa21e96340f239776cf32bd3946d65d",
+  "cohort_id": "perduca_2020_POL_free_hexose_ITC",
+  "cpu": 2,
+  "embedding_seed": 20261024,
+  "energy_range_kcal_mol": 10,
+  "exhaustiveness": 16,
+  "expected_runs": 96,
+  "experiment_id": "pol_specificity_v1",
+  "implementation_files_sha256": {
+    "aav_benchmark/aav.py": "dbd05bbedaf6b2d9eb4ba8ebdc3b152d178b21af28b43cb4bafb337d17661983",
+    "aav_benchmark/engine.py": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8",
+    "aav_benchmark/external.py": "2b224a39a71db9a4856c384d11d48de986c89d1b6afd733166936e57ed0caf1f",
+    "aav_benchmark/metrics.py": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+    "aav_benchmark/pol_specificity.py": "b94b8911ce0cb5e2eab94f4c63114dbbf3a00777022807e6022019f7a6fb04c6",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "aav_benchmark/specificity.py": "e62e0296a0e3561707fde0a6184770260916d35f394eb2b86cf206c66fdeae8b"
+  },
+  "information_regime": "true-site-local; ligand-informed prior sites; not blind",
+  "metal_profiles": [
+    "Ca_retained",
+    "dry"
+  ],
+  "min_rmsd_A": 0.5,
+  "model_ids": [
+    "POL_GAL_alpha",
+    "POL_GAL_beta",
+    "POL_GLC_alpha",
+    "POL_GLC_beta"
+  ],
+  "num_modes": 20,
+  "primary_aggregation": "seed mean within anomer, then equal mean of the two anomers per species",
+  "primary_condition": {
+    "metal_profile": "Ca_retained",
+    "site": "N",
+    "state": "holo"
+  },
+  "schema_version": 1,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "site_audit_sha256": "0a789fbb09e46920523ca86a01849fa28d54795dae8344f6743790626b7dbbe1",
+  "sites": [
+    "N",
+    "C"
+  ],
+  "source_ledger_sha256": "d909d92620718b4a558eed83715ebc04fc3da9be0bf3d0914521582a59faae13",
+  "source_manifest_sha256": "3036d7f7d7dfa37c1b3f9b3f50d152e8dd52d159048c63abcbbae4f77dfe0169",
+  "states": [
+    "holo",
+    "apo"
+  ],
+  "tie_rule": "exact equal aggregated scores receive half concordance credit; lower Vina score is favorable",
+  "water_policy": "all explicit waters omitted in both profiles; dry additionally removes native calcium"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "frozen_before_new_docking": true,
+  "purpose": "Exploratory one-assay quantitative ranking; same1KJL receptor and oracle box for all ligands; no alternative-pose truth or nonbinder labels",
+  "cases": [
+    "gal3_LacNAc_alpha",
+    "gal3_LacNAc_beta",
+    "gal3_lactose_alpha",
+    "gal3_lactose_beta",
+    "gal3_galactose_alpha",
+    "gal3_galactose_beta"
+  ],
+  "method": "AutoDock Vina 1.2.7 standard Vina score",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "embedding_seed": 20261024,
+  "exhaustiveness": 16,
+  "cpu": 2,
+  "num_modes": 20,
+  "min_rmsd_A": 0.5,
+  "energy_range_kcal_mol": 10,
+  "information_regime": "true-site-local",
+  "primary_pose_threshold_A": 2,
+  "sensitivity_thresholds_A": [
+    1,
+    3
+  ],
+  "contact_cutoff_A": 4,
+  "clash_distance_A": 1.5,
+  "clash_note": "Distance-only severe-overlap screen, not full chemical validity",
+  "decision": "Descriptive; no useful-performance floor or reliability certification",
+  "specificity": "Not eligible without qualified independent assay labels",
+  "confirmatory_status": "not frozen; reference quality, family splits, assay labels and precision gates pending",
+  "score_aggregation": "Seed-average Top1 Vina energy per ligand, alpha/beta reducing anomers kept separate; size baseline; no data-fitted ensemble weights"
+}

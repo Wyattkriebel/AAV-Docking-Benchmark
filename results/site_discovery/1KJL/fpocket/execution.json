@@ -1,0 +1,102 @@
+{
+  "artifacts": {
+    "receptor.cif": {
+      "bytes": 76664,
+      "sha256": "ec445fcd7c02ddf381772b6552e938948e4ae19572aeb92e393a1f9b16fde319"
+    },
+    "receptor_preparation.json": {
+      "bytes": 2084,
+      "sha256": "90bcfb1ebca2598e1b4bb4af92fb299c8eef8180833a114d4e82c45e79ae428c"
+    },
+    "stderr.log": {
+      "bytes": 45,
+      "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+    },
+    "stdout.log": {
+      "bytes": 105,
+      "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+    }
+  },
+  "center_definition": "unweighted arithmetic mean of alpha-sphere centers in pocketN_vert.pqr (three-decimal Angstrom output)",
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066/bin/fpocket",
+    "-f",
+    "receptor.cif",
+    "-m",
+    "3.4",
+    "-M",
+    "6.2",
+    "-i",
+    "15",
+    "-D",
+    "2.4",
+    "-A",
+    "3",
+    "-p",
+    "0.0",
+    "-v",
+    "300",
+    "-C",
+    "s",
+    "-e",
+    "e",
+    "-w",
+    "m"
+  ],
+  "commit": "4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+  "cpu_seconds": 0.0028339999999999997,
+  "cwd": "/Users/alec/AAV-Docking-Benchmark/results/site_discovery/1KJL/fpocket",
+  "ended_at_utc": "2026-10-30T20:03:17.559650+00:00",
+  "error": "fpocket exited with status 1",
+  "error_type": "RuntimeError",
+  "executable_sha256": "43ba162227d8b49cd261bc3e53d752b96588ff7ca72e5e639bbde838ce613eae",
+  "information_regime": "full_surface_site_agnostic",
+  "input_sha256": "ec445fcd7c02ddf381772b6552e938948e4ae19572aeb92e393a1f9b16fde319",
+  "installation": {
+    "algorithm_source_modifications": [],
+    "build_command": [
+      "make",
+      "bin/fpocket",
+      "-j2",
+      "ARCH=MACOSXARM64",
+      "CFLAGS=-W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile",
+      "QCFLAGS=-O -g -ansi -Isrc/qhull/src"
+    ],
+    "build_cwd": "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+    "build_evidence": {
+      "LICENSE": "cf22a1b400afa433f68fa0ffb8c2454d3b6bebb34466693512ca63aaa52dcc6b",
+      "QHULL_COPYING.txt": "1fe14ebaaf61385d3edd0418d406fbd83d823c6645027481cc88e7b152acdc27",
+      "build.stderr.log": "1cce47725d52eedceef863fb9b466ac0f6ed347189f59ee478bc71691c90f943",
+      "build.stdout.log": "6ed1c80a6f31e3b9afef855cf608521cb400f3fcc9af84e2ee18a3d93f96a063",
+      "compiler.txt": "d23e1e266991777af51323c8a611147c28082ac12f936caa38bc345779f78483",
+      "version_banner.txt": "0d9a397e81459adb089c6f42043ffa7698519cb14681305dae11907c7845d58d"
+    },
+    "build_evidence_dir": "/Users/alec/AAV-Docking-Benchmark/results/site_methods/software/fpocket",
+    "commit": "4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+    "executable": "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066/bin/fpocket",
+    "executable_sha256": "43ba162227d8b49cd261bc3e53d752b96588ff7ca72e5e639bbde838ce613eae",
+    "method": "fpocket",
+    "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "release": "4.2.3",
+    "schema_version": 1,
+    "source_sha256": "62807fc21854e26a39e440e499cb27e1128a614509513921b83c3e239c35ae54",
+    "source_url": "https://codeload.github.com/Discngine/fpocket/tar.gz/4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066"
+  },
+  "logical_cpus": 10,
+  "method": "fpocket",
+  "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+  "peak_memory_bytes": 4521984,
+  "peak_memory_scope": "process-family cumulative child high-water mark; not isolated per-run RSS",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "predictions": [],
+  "randomness": "unmodified upstream srand(time(NULL)) for Voronoi perturbation and Monte Carlo volume; no CLI seed available; wall-clock seeding and all raw outputs retained; bitwise repeatability is not claimed",
+  "ranking": "preserve upstream pocket number (original fpocket score order), not druggability or native distance",
+  "release": "4.2.3",
+  "returncode": 1,
+  "runtime_seconds": 0.0060327500104904175,
+  "schema_version": 1,
+  "source_sha256": "62807fc21854e26a39e440e499cb27e1128a614509513921b83c3e239c35ae54",
+  "started_at_utc": "2026-10-30T20:03:17.540068+00:00",
+  "status": "failed"
+}

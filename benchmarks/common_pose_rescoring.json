@@ -1,0 +1,38 @@
+{
+  "atomic_reference_ledger": "benchmarks/atomic_reference_ledger.json",
+  "atomic_reference_ledger_sha256": "8ed3887e2575f8ed92d73562f9b79c088036f326ed177af2c71b55522eedf383",
+  "benchmark_rescoring_outcomes_consulted": false,
+  "cases_without_input_or_successful_runs": "retained eligible workflow failures; no invented poses or score",
+  "chi_coefficient": 1.0,
+  "chi_cutoff_kcal_mol": 2.0,
+  "comparison_scope": "Within one fixed ligand and unchanged torsion normalization only. Shared-reference absolute energies cannot compare molecular affinities across ligands.",
+  "eligible_complexes": [
+    "1GNY",
+    "1KJL",
+    "1QFO",
+    "2J1T",
+    "1PWB",
+    "2VUZ"
+  ],
+  "freeze_date": "2026-11-03",
+  "frozen_before_benchmark_rescoring": true,
+  "input_adapter": "Restore exact source monosaccharide residue IDs and canonical names from frozen atom map, keeping pose coordinates/torsion tree. Native atom-coordinate references are never scorer input.",
+  "intramolecular_reference": 0.0,
+  "method_lock": "benchmarks/additional_method.lock.json",
+  "method_lock_sha256": "ebe5b1fdbc14c14dcd8943702eb71890d00a2b884b4c52f4808d9fb0c1ad3634",
+  "paired_control_chi_coefficient": 0.0,
+  "pool": "Every retained pose from all originally scheduled seeds and available boxes in the frozen source experiment, without truth-based filtering; per-seed box-budget1 and5 subsets fixed by original class ranks",
+  "pose_endpoints": "Identical frozen qualified full/core atom masks and global/local receptor-frame metrics as original Vina pool; no independent ligand fitting",
+  "primary_question": "Does CHI change ranking of available qualified poses? Missing near-native retained poses do not prove internal sampling failure.",
+  "purpose": "Fixed-retained-pose ranking control: original Vina-Carb base and carbohydrate CHI score on exactly the same Vina1.2.7 candidates; no new sampling or coordinate optimization",
+  "rank_ties": "score, original candidate class rank, original within-box model rank",
+  "schema_version": 1,
+  "scorers": [
+    "Vina1.2.7_original_rank",
+    "VinaCarb1.0_shared_zero_base_coeff0",
+    "VinaCarb1.0_shared_zero_base_plus_CHI_coeff1"
+  ],
+  "source_experiment": "benchmarks/blind_pose_experiment.json",
+  "source_experiment_sha256": "59908e56e26157c153afa6cd76d265a578242ca8d8a1fa3850720d01f224e634",
+  "unsupported_chemistry": "Unrecognized glycosidic donor or missing phi/psi links is an explicit unsupported scoring failure, not a silent zero-CHI success."
+}

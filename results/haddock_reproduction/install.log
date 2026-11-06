@@ -1,0 +1,104 @@
+Processing ./tools/haddock3-2026.10.1/archives/haddock3-2026.10.1.tar.gz
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pdb-tools>=2.5.0 (from haddock3==2026.10.1)
+  Downloading pdb_tools-2.7.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting biopython==1.* (from haddock3==2026.10.1)
+  Downloading biopython-1.88-cp311-cp311-macosx_11_0_arm64.whl.metadata (13 kB)
+Collecting jsonpickle>=2.1.0 (from haddock3==2026.10.1)
+  Downloading jsonpickle-4.1.4-py3-none-any.whl.metadata (8.1 kB)
+Collecting numpy==2.* (from haddock3==2026.10.1)
+  Downloading numpy-2.4.6-cp311-cp311-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Collecting pyyaml>=6.0 (from haddock3==2026.10.1)
+  Downloading pyyaml-6.0.3-cp311-cp311-macosx_11_0_arm64.whl.metadata (2.4 kB)
+Collecting scipy>=1.10.0 (from haddock3==2026.10.1)
+  Downloading scipy-1.17.1-cp311-cp311-macosx_14_0_arm64.whl.metadata (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.1/62.1 kB 7.0 MB/s eta 0:00:00
+Collecting toml>=0.10.2 (from haddock3==2026.10.1)
+  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Collecting pandas==2.* (from haddock3==2026.10.1)
+  Downloading pandas-2.3.3-cp311-cp311-macosx_11_0_arm64.whl.metadata (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 kB 62.6 MB/s eta 0:00:00
+Collecting prodigy-prot==2.3.0 (from haddock3==2026.10.1)
+  Downloading prodigy_prot-2.3.0-py2.py3-none-any.whl.metadata (8.0 kB)
+Collecting prodigy-lig==1.1.4 (from haddock3==2026.10.1)
+  Downloading prodigy_lig-1.1.4-py3-none-any.whl.metadata (10 kB)
+Collecting plotly==7.0.0 (from haddock3==2026.10.1)
+  Downloading plotly-7.0.0-py3-none-any.whl.metadata (8.7 kB)
+Collecting freesasa>=2.2.1 (from haddock3==2026.10.1)
+  Downloading freesasa-2.2.1.tar.gz (270 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 270.1/270.1 kB 24.2 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting psutil>=7.2.2 (from haddock3==2026.10.1)
+  Downloading psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl.metadata (22 kB)
+Collecting gdock>=0.5.0 (from haddock3==2026.10.1)
+  Downloading gdock-0.5.0-cp311-cp311-macosx_11_0_arm64.whl.metadata (3.9 kB)
+Collecting python-dateutil>=2.8.2 (from pandas==2.*->haddock3==2026.10.1)
+  Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pytz>=2020.1 (from pandas==2.*->haddock3==2026.10.1)
+  Downloading pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas==2.*->haddock3==2026.10.1)
+  Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting narwhals>=1.15.1 (from plotly==7.0.0->haddock3==2026.10.1)
+  Downloading narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting packaging (from plotly==7.0.0->haddock3==2026.10.1)
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Downloading biopython-1.88-cp311-cp311-macosx_11_0_arm64.whl (2.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.7/2.7 MB 23.5 MB/s eta 0:00:00
+Downloading numpy-2.4.6-cp311-cp311-macosx_14_0_arm64.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 25.4 MB/s eta 0:00:00
+Downloading pandas-2.3.3-cp311-cp311-macosx_11_0_arm64.whl (10.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.8/10.8 MB 25.5 MB/s eta 0:00:00
+Downloading plotly-7.0.0-py3-none-any.whl (9.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.1/9.1 MB 24.9 MB/s eta 0:00:00
+Downloading prodigy_lig-1.1.4-py3-none-any.whl (14 kB)
+Downloading prodigy_prot-2.3.0-py2.py3-none-any.whl (18 kB)
+Downloading gdock-0.5.0-cp311-cp311-macosx_11_0_arm64.whl (1.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 35.7 MB/s eta 0:00:00
+Downloading jsonpickle-4.1.4-py3-none-any.whl (47 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.8/47.8 kB 318.9 MB/s eta 0:00:00
+Downloading pdb_tools-2.7.1-py3-none-any.whl (125 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.4/125.4 kB 45.6 MB/s eta 0:00:00
+Downloading psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl (129 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.9/129.9 kB 413.1 MB/s eta 0:00:00
+Downloading pyyaml-6.0.3-cp311-cp311-macosx_11_0_arm64.whl (175 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 175.6/175.6 kB 44.5 MB/s eta 0:00:00
+Downloading scipy-1.17.1-cp311-cp311-macosx_14_0_arm64.whl (20.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.3/20.3 MB 28.8 MB/s eta 0:00:00
+Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 490.6/490.6 kB 32.9 MB/s eta 0:00:00
+Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.9/92.9 kB 17.1 MB/s eta 0:00:00
+Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 506.3/506.3 kB 37.5 MB/s eta 0:00:00
+Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 348.2/348.2 kB 33.3 MB/s eta 0:00:00
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 99.0 MB/s eta 0:00:00
+Building wheels for collected packages: haddock3, freesasa
+  Building wheel for haddock3 (pyproject.toml): started
+  Building wheel for haddock3 (pyproject.toml): finished with status 'done'
+  Created wheel for haddock3: filename=haddock3-2026.10.1-cp311-cp311-macosx_14_0_arm64.whl size=14697626 sha256=1a0dbbeef7a497637f1a593e4d0688a837c48e6f890492f751a213bf8d988ee8
+  Stored in directory: /private/var/folders/cp/bbqcpp814bjd_6mfhk6lxf7r0000gn/T/pip-ephem-wheel-cache-4jo8vzqn/wheels/84/2e/90/2c2d999dbc3c50a69a2ba181158e7668f2c79c909aabf8a2df
+  Building wheel for freesasa (pyproject.toml): started
+  Building wheel for freesasa (pyproject.toml): finished with status 'done'
+  Created wheel for freesasa: filename=freesasa-2.2.1-cp311-cp311-macosx_14_0_arm64.whl size=294061 sha256=3f380d359d8f3f922ca10ddf81affe12f422355944c7bbaf8d4582e36c71eb68
+  Stored in directory: /private/var/folders/cp/bbqcpp814bjd_6mfhk6lxf7r0000gn/T/pip-ephem-wheel-cache-4jo8vzqn/wheels/12/7e/68/f3f59a0c5946b122ecbf6098c87de4c8a1f73ec145c077815b
+Successfully built haddock3 freesasa
+Installing collected packages: pytz, pdb-tools, freesasa, tzdata, toml, pyyaml, psutil, packaging, numpy, narwhals, jsonpickle, gdock, scipy, python-dateutil, plotly, biopython, prodigy-prot, prodigy-lig, pandas, haddock3
+Successfully installed biopython-1.88 freesasa-2.2.1 gdock-0.5.0 haddock3-2026.10.1 jsonpickle-4.1.4 narwhals-2.28.0 numpy-2.4.6 packaging-26.3 pandas-2.3.3 pdb-tools-2.7.1 plotly-7.0.0 prodigy-lig-1.1.4 prodigy-prot-2.3.0 psutil-7.2.2 python-dateutil-4.0.0 pytz-2026.6 pyyaml-6.0.3 scipy-1.17.1 toml-0.10.2 tzdata-2026.6
+
+[notice] A new release of pip is available: 24.0 -> 26.3
+[notice] To update, run: python3.11 -m pip install --upgrade pip

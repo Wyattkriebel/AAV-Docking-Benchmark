@@ -1,0 +1,8 @@
+{
+  "amendment_sha256": "a4bb0a3b6ef72d15314ccf02b30842d55ac640b83d2d5a0b417e9f2bc572f8c9",
+  "certificates": {
+    "aav9_apo": "1064a2e82cd854e0e9007a95a4b8b68d3ef1cbc807400e5fa7c6b8e1dd365f63",
+    "aav9_holo": "46f2e5e30f088ee883a1e92e7b4660e545b52945f191bb9292d184099d948e90"
+  },
+  "completed_before_site_endpoint_scoring": true
+}

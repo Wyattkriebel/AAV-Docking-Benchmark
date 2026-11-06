@@ -1,0 +1,4 @@
+/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/libs/libalign.py:650: RuntimeWarning: Mean of empty slice
+  C = X.mean(axis=0)
+/Users/alec/AAV-Docking-Benchmark/tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)

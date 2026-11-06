@@ -1,0 +1,18 @@
+{
+  "atom_map_sha256": "a9c2926bc956819b53140df4885daf7ec43ffa5318cc5e63d01ddc65e852fea9",
+  "author_atom_identities_unchanged": true,
+  "change": "trim trailing whitespace and append newline, '#', newline; no atom-field edits",
+  "coordinates_exactly_unchanged": true,
+  "method_parameters_changed": false,
+  "prior_preparation_manifest": "data/processed/site_inputs/1KJL/receptor.cif.manifest.json",
+  "prior_preparation_manifest_sha256": "90bcfb1ebca2598e1b4bb4af92fb299c8eef8180833a114d4e82c45e79ae428c",
+  "prior_receptor": "data/processed/site_inputs/1KJL/receptor.cif",
+  "prior_receptor_sha256": "ec445fcd7c02ddf381772b6552e938948e4ae19572aeb92e393a1f9b16fde319",
+  "protein_heavy_atoms": 1107,
+  "reason": "pinned fpocket VMD pdbx parser requires a terminal '#' comment delimiter",
+  "receptor": "data/processed/site_inputs_v2/1KJL/receptor.cif",
+  "receptor_sha256": "13ee9a37a8e45f4b64c9ea51429f7f0a42a9283ec190d2ab0f42d89f9a189420",
+  "revision_from": 1,
+  "revision_to": 2,
+  "schema_version": 1
+}

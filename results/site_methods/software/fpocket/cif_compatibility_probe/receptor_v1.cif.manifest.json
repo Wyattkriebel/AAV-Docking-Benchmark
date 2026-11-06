@@ -1,0 +1,37 @@
+{
+  "assembly": {
+    "assembly_id": null,
+    "materializations": 0,
+    "scope": "entire deposited receptor model; biological completeness not certified"
+  },
+  "atom_map": "results/site_methods/software/fpocket/cif_compatibility_probe/receptor_v1.cif.atoms.tsv.gz",
+  "atom_map_sha256": "e386ea562f998653baca5f7997c7d39bb89a2239ba8b01f49bd11cab7503866a",
+  "distance_based_selection": false,
+  "gemmi_version": "0.7.5",
+  "information_regime": "full_surface_site_agnostic",
+  "max_serialization_displacement_A": 0.0,
+  "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+  "native_ligand_access": false,
+  "omitted_atoms": {},
+  "omitted_residue_counts": {},
+  "policy": {
+    "aav_assembly": "assembly 1 materialized once with existing identity-operator/60-subunit audit; no reference neighborhood",
+    "alternate_conformers": "fail rather than select using a native ligand",
+    "coordinates": "preserve source heavy-atom coordinates; no minimization, alignment, protonation, or added atoms",
+    "metals": "metal-free discovery baseline; no claim of retained-calcium equivalence to the docking baseline",
+    "nonprotein": "remove all waters, metals, ions, glycans and other nonprotein residues uniformly",
+    "other_assemblies": "entire deposited receptor supplied to preparer; biological completeness remains a separately qualified condition",
+    "protein": "all canonical amino-acid heavy atoms from one complete declared input model; no distance-based selection"
+  },
+  "protein_heavy_atoms": 100,
+  "protein_subunits": 1,
+  "receptor": "results/site_methods/software/fpocket/cif_compatibility_probe/receptor_v1.cif",
+  "receptor_sha256": "76d9773d831f531dec8c3b2fd49ac4c7b52e4f620bdf5c13d9a6fb1cdc183869",
+  "schema_version": 1,
+  "serialization_metadata": "numeric entity IDs; sequential label_seq_id only where source has none; author IDs unchanged",
+  "source": "results/site_methods/software/fpocket/cif_compatibility_probe/synthetic100.pdb",
+  "source_atoms_before_stripping": 100,
+  "source_label_identifiers_present": false,
+  "source_sha256": "e0f607e07bf68505510fbe27029654a3f99cd3653743ab47aeac59183e0dafa2",
+  "status": "prepared"
+}

@@ -1,0 +1,26 @@
+{
+  "configuration_sha256": "b03934e5d243bf5331c0517fad16e3bf35bcb061abd24fcbdaf7026ddd039e23",
+  "execution_adapter_sha256": "8cb13873df9272260ab048dd016abf3eb79f4000d874b4faed291562c60fd7e2",
+  "execution_scope": "Site prediction only. No docking of the original unconstrained-ring inputs in this amendment. Prospective independent chemical-ideal initialization and pose/repair comparisons require a separate freeze before first new-case pose execution.",
+  "family_audit_sha256": "1677bbd5b935632bb3a7b9eb845eea4c7e8e2f35acb8ca4e08413ac559caaea6",
+  "frozen_at_UTC": "2026-11-03T16:54:47.988837+00:00",
+  "frozen_before_new_docking": true,
+  "frozen_before_new_predictions": true,
+  "lock_sha256": {
+    "benchmarks/p2rank.lock.json": "37d1206c9875bf090eb4115c9845acf0188bcb216e929735f5cddf8d96383160",
+    "benchmarks/site_methods.lock.json": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+    "benchmarks/vina.lock.json": "601b6154a65da3c764ae289866b435263f332a9a2a09cd1d711053e4e1c3322e"
+  },
+  "new_case_docking_outcomes_consulted": false,
+  "new_prediction_or_docking_outcomes_consulted": false,
+  "new_working_predictor_outcomes_consulted": false,
+  "prior_configuration_sha256": "e4d18726ff63f549924e9925afa7a91d102dba5856a37d9aaafba3f56c70f91d",
+  "prior_reader_failures_consulted": true,
+  "schema_version": 1,
+  "serialization_amendment_sha256": "04e48516585be23de30de565d815d653088254c1b85bad73486090baa9a19556",
+  "serialization_helper_sha256": "8e977d7576a60344b2793a8b805ab132f92e5c54494e6d3332af2b9ffba91d0d",
+  "source_archive_manifest_sha256": "d35dc3b4433b234f9d2b95c8ee00b55bf450ec40d51c2680cf55927a82e21edd",
+  "source_inventory_sha256": "11c185ea93bf637ddc4fe4818aa4c2114a87f83e34d7d40c2cd01759f9280458",
+  "source_ledger_sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e",
+  "source_preparation_sha256": "645728a27e358ee42452cb765b12a48a4593a43d6377597dafb064592d2a149d"
+}

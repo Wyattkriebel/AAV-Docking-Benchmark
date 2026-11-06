@@ -1,0 +1,20 @@
+receptor=receptor.pdbqt
+ligand=LeY-xray.pdbqt
+out=LeY-xray_vc_out.pdbqt
+
+center_x=-32.79          
+center_y=40.56          
+center_z=14.89          
+                         
+size_x=30                
+size_y=30                
+size_z=25                
+                         
+exhaustiveness=5   		# exhaustiveness of the global search (roughly proportional to time)
+seed=0      			# explicit random seed    - reproducibelity          
+num_modes=10            	# number of docking solutions
+energy_range=5          	# within enery raange 
+cpu=8
+
+chi_coeff=1              
+chi_cutoff=2

@@ -1,0 +1,22 @@
+{
+  "version": "1.2.7",
+  "source": "https://github.com/forlilab/AutoDock-Vina/releases/tag/v1.2.7",
+  "assets": {
+    "mac_aarch64": {
+      "url": "https://github.com/forlilab/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_mac_aarch64",
+      "sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1"
+    },
+    "mac_x86_64": {
+      "url": "https://github.com/forlilab/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_mac_x86_64",
+      "sha256": "9f44ccbb163223613283a75d0be53235d9e63f4da08292cb7196144f9838b7f9"
+    },
+    "linux_aarch64": {
+      "url": "https://github.com/forlilab/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_linux_aarch64",
+      "sha256": "d30c18a7d5f6f8ea9146e1cbc0aa7ade0bbb105b54ece08b4e5a7fa53edb6c62"
+    },
+    "linux_x86_64": {
+      "url": "https://github.com/forlilab/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_linux_x86_64",
+      "sha256": "f31f774f723bba7bbe6e9d1c47577020eea9a8da16424284c043d22593570644"
+    }
+  }
+}

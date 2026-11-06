@@ -1,0 +1,183 @@
+{
+  "archive": "raw_artifacts.tar.gz",
+  "archive_bytes": 64765,
+  "archive_sha256": "76347a3e880cb27aad8dfa6edc1dcd157e4d2730d9bc26500bc0dfccf337aba3",
+  "entries": [
+    {
+      "bytes": 33158,
+      "path": "execution.json",
+      "role": "record",
+      "sha256": "38536cfa83a54dd8a2346ffd6e9cb45bbf608bdec2a4ae60226eb2f5d573c018"
+    },
+    {
+      "bytes": 1011,
+      "path": "input_revision.json",
+      "role": "artifact",
+      "sha256": "49f5b96a303e5abb4553c9000efd2835ab09fcd7c00e3c4c90379d1078511970"
+    },
+    {
+      "bytes": 21774,
+      "path": "predictions.json",
+      "role": "artifact",
+      "sha256": "f42988443afc79d97afd03556c271411c1a9183a3b48aa7f465e9b92e62833a3"
+    },
+    {
+      "bytes": 80231,
+      "path": "receptor.cif",
+      "role": "artifact",
+      "sha256": "3987c6017981da4b7cbf3b7138ce023993db2a8c5e39c431fc75991bcafa3312"
+    },
+    {
+      "bytes": 3201,
+      "path": "receptor_out/pockets/pocket1_atm.cif",
+      "role": "artifact",
+      "sha256": "da7ec073ea76ec2bcf05e1e3395d0975deb861ef2a5a7785434a0056b11bb6a4"
+    },
+    {
+      "bytes": 2956,
+      "path": "receptor_out/pockets/pocket1_vert.pqr",
+      "role": "artifact",
+      "sha256": "cdf34ff81547622360cf246ce21786408debf3be4d508914d418088f33040197"
+    },
+    {
+      "bytes": 3281,
+      "path": "receptor_out/pockets/pocket2_atm.cif",
+      "role": "artifact",
+      "sha256": "a09818c48f671e76074d0ec2e91adca0b8e59024f8500a44ae76ba8da346ba89"
+    },
+    {
+      "bytes": 2739,
+      "path": "receptor_out/pockets/pocket2_vert.pqr",
+      "role": "artifact",
+      "sha256": "debdf636873be66f87bc201642c3c6988edccf1099374c386ffa96da990eca24"
+    },
+    {
+      "bytes": 2686,
+      "path": "receptor_out/pockets/pocket3_atm.cif",
+      "role": "artifact",
+      "sha256": "ed7796372554b7c1c264412c4915e73ff5d59db4992978b93611b7027317b567"
+    },
+    {
+      "bytes": 2452,
+      "path": "receptor_out/pockets/pocket3_vert.pqr",
+      "role": "artifact",
+      "sha256": "f3c64f37077feb2d2dc22d6c6dedae4e128e559c5bd07c9647ae18b05c779d6f"
+    },
+    {
+      "bytes": 3120,
+      "path": "receptor_out/pockets/pocket4_atm.cif",
+      "role": "artifact",
+      "sha256": "d96ec22dd01bd21d06e01e2026865acbdb1dc75b31de92eb5e22143ea9bf1149"
+    },
+    {
+      "bytes": 2740,
+      "path": "receptor_out/pockets/pocket4_vert.pqr",
+      "role": "artifact",
+      "sha256": "73bd9d308acf19cc242f8f88b33941e66474e768d9c051a5fff5d3a2bc789953"
+    },
+    {
+      "bytes": 2856,
+      "path": "receptor_out/pockets/pocket5_atm.cif",
+      "role": "artifact",
+      "sha256": "cfaf37d517ce18447e37a8ddfc1db551cbfbede56176668fedbe9eb35bb54a64"
+    },
+    {
+      "bytes": 2308,
+      "path": "receptor_out/pockets/pocket5_vert.pqr",
+      "role": "artifact",
+      "sha256": "022547651a9dd09a6b1c681940580418ebf086720450ecc84c6795fe9f6ec33a"
+    },
+    {
+      "bytes": 2778,
+      "path": "receptor_out/pockets/pocket6_atm.cif",
+      "role": "artifact",
+      "sha256": "6a9aa38ea2c53a204750f5094ba4e50336ab28c05a94bef1083fcadb220ed0c8"
+    },
+    {
+      "bytes": 2739,
+      "path": "receptor_out/pockets/pocket6_vert.pqr",
+      "role": "artifact",
+      "sha256": "ccc7614bf8e6e375b61128e63fa468691f1b7d0ceda7a40db26533d7561a47ea"
+    },
+    {
+      "bytes": 2933,
+      "path": "receptor_out/pockets/pocket7_atm.cif",
+      "role": "artifact",
+      "sha256": "e887bc6715da6275b63bcd14421548eb23b1a06188d54ba85a1c34bf46904402"
+    },
+    {
+      "bytes": 2380,
+      "path": "receptor_out/pockets/pocket7_vert.pqr",
+      "role": "artifact",
+      "sha256": "1388c9fd9c59be119767e220362970ba637db2f14163d24feb63af621fa4c83f"
+    },
+    {
+      "bytes": 773,
+      "path": "receptor_out/receptor_cif.pml",
+      "role": "artifact",
+      "sha256": "5d06f0765f321a3bea16d09ef6c0e62a9707a5425327faffc9d873edd206726b"
+    },
+    {
+      "bytes": 914,
+      "path": "receptor_out/receptor_cif.tcl",
+      "role": "artifact",
+      "sha256": "218dc995fd8e00336b71e7616dd71d8f28a1d104ec7452e1ac0b2bcfefa8c4b1"
+    },
+    {
+      "bytes": 35,
+      "path": "receptor_out/receptor_cif_PYMOL.sh",
+      "role": "artifact",
+      "sha256": "69d1a5aa88c375e1d77322ce8ab7e5978f7238a3cb518c0ac02e433bc313ef76"
+    },
+    {
+      "bytes": 53,
+      "path": "receptor_out/receptor_cif_VMD.sh",
+      "role": "artifact",
+      "sha256": "ea7bcffbed6e4fc9bfeee2712b75289fe0fdbc408c24d88126ce38ba00d49bcb"
+    },
+    {
+      "bytes": 3912,
+      "path": "receptor_out/receptor_info.txt",
+      "role": "artifact",
+      "sha256": "d5e82e10ca57fdfdd744b0f762c3f1b3612f8932c4ce2270795df3d05c32780e"
+    },
+    {
+      "bytes": 110949,
+      "path": "receptor_out/receptor_out.cif",
+      "role": "artifact",
+      "sha256": "d07b5d68fdb2bc1d80e54acad9b213715a7b31d9d232a0b01c8b22a89a3251cc"
+    },
+    {
+      "bytes": 10402,
+      "path": "receptor_out/receptor_pockets.pqr",
+      "role": "artifact",
+      "sha256": "da7df84c04fb4a6df120347112250901ea37dc19406d97f2f3aa7f47a1db4907"
+    },
+    {
+      "bytes": 2497,
+      "path": "receptor_preparation.json",
+      "role": "artifact",
+      "sha256": "a2f9e912e6aac3f46bfb69027a501ab9f1806fd31783dc00712b6ba290b023a3"
+    },
+    {
+      "bytes": 0,
+      "path": "stderr.log",
+      "role": "artifact",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 68,
+      "path": "stdout.log",
+      "role": "artifact",
+      "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+    }
+  ],
+  "format": "deterministic tar+gzip; regular files only",
+  "input_sha256": "3987c6017981da4b7cbf3b7138ce023993db2a8c5e39c431fc75991bcafa3312",
+  "method": "fpocket",
+  "record_name": "execution.json",
+  "record_sha256": "38536cfa83a54dd8a2346ffd6e9cb45bbf608bdec2a4ae60226eb2f5d573c018",
+  "schema_version": 1,
+  "status": "completed",
+  "uncompressed_bytes": 304946
+}

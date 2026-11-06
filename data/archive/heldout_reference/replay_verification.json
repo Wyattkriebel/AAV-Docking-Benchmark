@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "status": "verified",
+  "source_only": true,
+  "prediction_outcomes_consulted": false,
+  "ledger_sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e",
+  "case_count": 12,
+  "source_atom_row_count": 388,
+  "source_unique_heavy_atom_count": 377,
+  "primary_scored_atom_count": 298,
+  "full_chemical_source_copy_count": 19,
+  "qualified_assembly_copy_count": 16,
+  "checked_archive_count": 174,
+  "density_tolerance_sigma": 1e-05,
+  "maximum_absolute_density_difference_sigma": 0.0,
+  "tolerance_scope": "Only normalized map samples. Native identities, coordinates, graphs, cutoff decisions, canonical masks and rigid assembly transforms are exact. Chirality compares determinant signs, not informative magnitudes.",
+  "manual_adjudications": "Pinned judgments retained; replay does not independently prove paper/reagent/functional-site/assembly/family/training judgments.",
+  "cases": [
+    {
+      "case_id": "1I3H",
+      "qualification": "full_ligand",
+      "native_atom_rows": 23,
+      "native_unique_heavy_atoms": 23,
+      "scored_atoms": 23,
+      "source_copies": 1,
+      "qualified_assembly_copies": 4,
+      "status": "verified"
+    },
+    {
+      "case_id": "2G7C",
+      "qualification": "modeled_core",
+      "native_atom_rows": 37,
+      "native_unique_heavy_atoms": 37,
+      "scored_atoms": 37,
+      "source_copies": 4,
+      "qualified_assembly_copies": 2,
+      "status": "verified"
+    },
+    {
+      "case_id": "2GUP",
+      "qualification": "modeled_core",
+      "native_atom_rows": 23,
+      "native_unique_heavy_atoms": 23,
+      "scored_atoms": 11,
+      "source_copies": 3,
+      "qualified_assembly_copies": 2,
+      "status": "verified"
+    },
+    {
+      "case_id": "2RDK",
+      "qualification": "full_ligand",
+      "native_atom_rows": 23,
+      "native_unique_heavy_atoms": 23,
+      "scored_atoms": 23,
+      "source_copies": 2,
+      "qualified_assembly_copies": 1,
+      "status": "verified"
+    },
+    {
+      "case_id": "2WAB",
+      "qualification": "modeled_core",
+      "native_atom_rows": 67,
+      "native_unique_heavy_atoms": 56,
+      "scored_atoms": 34,
+      "source_copies": 1,
+      "qualified_assembly_copies": 1,
+      "status": "verified"
+    },
+    {
+      "case_id": "2WNB",
+      "qualification": "modeled_core",
+      "native_atom_rows": 35,
+      "native_unique_heavy_atoms": 35,
+      "scored_atoms": 25,
+      "source_copies": 1,
+      "qualified_assembly_copies": 1,
+      "status": "verified"
+    },
+    {
+      "case_id": "3A2S",
+      "qualification": "rejected",
+      "native_atom_rows": 23,
+      "native_unique_heavy_atoms": 23,
+      "scored_atoms": 0,
+      "source_copies": 1,
+      "qualified_assembly_copies": 0,
+      "status": "verified"
+    },
+    {
+      "case_id": "3ZWE",
+      "qualification": "full_ligand",
+      "native_atom_rows": 44,
+      "native_unique_heavy_atoms": 44,
+      "scored_atoms": 44,
+      "source_copies": 2,
+      "qualified_assembly_copies": 1,
+      "status": "verified"
+    },
+    {
+      "case_id": "4R9F",
+      "qualification": "modeled_core",
+      "native_atom_rows": 23,
+      "native_unique_heavy_atoms": 23,
+      "scored_atoms": 11,
+      "source_copies": 1,
+      "qualified_assembly_copies": 1,
+      "status": "verified"
+    },
+    {
+      "case_id": "5HZA",
+      "qualification": "full_ligand",
+      "native_atom_rows": 33,
+      "native_unique_heavy_atoms": 33,
+      "scored_atoms": 33,
+      "source_copies": 1,
+      "qualified_assembly_copies": 1,
+      "status": "verified"
+    },
+    {
+      "case_id": "5V6F",
+      "qualification": "full_ligand",
+      "native_atom_rows": 34,
+      "native_unique_heavy_atoms": 34,
+      "scored_atoms": 34,
+      "source_copies": 1,
+      "qualified_assembly_copies": 1,
+      "status": "verified"
+    },
+    {
+      "case_id": "8I5U",
+      "qualification": "full_ligand",
+      "native_atom_rows": 23,
+      "native_unique_heavy_atoms": 23,
+      "scored_atoms": 23,
+      "source_copies": 1,
+      "qualified_assembly_copies": 1,
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+In file included from ../src/AMBER/add_trajcrds_to_prmtop_assembly.c:83:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/amber_prmtop_init.c:4:
+In file included from ../inc/AMBER/amber_prmtop.h:13:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/crdsnaps.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/find_molecules.c:13:
+In file included from ../inc/AMBER/amber_prmtop.h:13:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/load_amber_prmtop.c:5:
+In file included from ../inc/AMBER/amber_prmtop.h:13:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/parse_amber_prmtop.c:6:
+In file included from ../inc/AMBER/amber_prmtop.h:13:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/read_amber8_mden.c:79:
+In file included from ../inc/AMBER/read_amber8_mden.h:14:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/read_amber_prmtop.c:6:
+In file included from ../inc/AMBER/amber_prmtop.h:13:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/read_prep.c:28:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AMBER/write_amber_prmtop.c:31:
+In file included from ../inc/AMBER/amber.h:13:
+In file included from ../inc/AMBER/read_amber8_mden.h:14:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/AUTODOCK/load_dlg_mol.c:8:
+../inc/../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/PDB/get_type.c:4:
+In file included from ../inc/load_pdb.h:14:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/PDB/init_struct.c:8:
+In file included from ../inc/load_pdb.h:14:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/PDB/load_pdb.c:4:
+In file included from ../inc/load_pdb.h:14:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/PDB/pdb_def.c:32:
+In file included from ../inc/load_pdb.h:14:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/PDB/rwm_line.c:4:
+In file included from ../inc/load_pdb.h:14:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/PDB/writePDB.c:3:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/code_utilities/mytime.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/code_utilities/myusage.c:4:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/code_utilities/mywhine.c:4:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/code_utilities/mywhineusage.c:4:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/code_utilities/read_eek.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/code_utilities/read_neek.c:6:
+../inc/../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/code_utilities/string_utilities.c:11:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/debugging_utilities/dXprint_X.c:19:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/debugging_utilities/dprint_X.c:19:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/file_utilities/file_directory_status_utils.c:5:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/file_utilities/fileslurp.c:14:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/file_utilities/get_keysvals.c:8:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/file_utilities/myfopen.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/file_utilities/scan_file.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/add_coord.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/add_vec.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/coord_to_vec.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/coordinate_manipulations.c:1:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_angle_between_plane_and_vector.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_crossprod.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_distance_from_point_to_plane.c:2:
+In file included from ../inc/glylib.h:21:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_dotprod.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_geometric_center.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_magnitude.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_plane.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_ring_pucker_plane.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/get_signed_distance_from_point_to_plane.c:2:
+In file included from ../inc/glylib.h:21:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/normalize_vec.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/rotation.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/geometry_plain/scalarmult_vec.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/initialization/ATYPE_init.c:4:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/initialization/initialize_GLYstruct.c:15:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/initialization/load_atypes.c:6:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/initialization/zero_stat.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/initialization/zero_vec_crd.c:4:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/memory_management/deallocate_amber_structures.c:1:
+../inc/../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/memory_management/deallocate_analysis_structures.c:1:
+../inc/../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/memory_management/deallocate_structures.c:1:
+../inc/../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/memory_management/deallocate_utility_structures.c:1:
+../inc/../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/selections/get_moiety_selection_assembly.c:45:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/statistics/get_autocorr_est_array.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/statistics/get_meanvar_array.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/find_vdw_clashes_pairwize_between_Assemblies.c:6:
+In file included from ../inc/glylib.h:21:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/get_COM.c:5:
+../inc/../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/get_dipole.c:9:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/get_rms_alt_X.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/normalize_X_vectors.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/rotate_vector_to_Z.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/set_COM.c:19:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/translate_by_XYZ.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/translate_zero_to_coord.c:2:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structural_calculations/vector_atom_movements.c:5:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structure_utilities/add_structure-X_to_structure-Y.c:1:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structure_utilities/bonding_utilities.c:12:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structure_utilities/identity_utilities.c:6:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structure_utilities/index_utilities.c:6:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+In file included from ../src/structure_utilities/location_utilities.c:6:
+../inc/mylib.h:30:10: fatal error: 'malloc.h' file not found
+   30 | #include <malloc.h>
+      |          ^~~~~~~~~~
+1 error generated.
+make: *** [justC] Error 1

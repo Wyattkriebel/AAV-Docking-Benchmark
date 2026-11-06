@@ -1,0 +1,235 @@
+{
+  "chemistry": {
+    "ccd_isomeric_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+    "density_validation": "not performed; matching stereochemistry alone does not establish local map support",
+    "heavy_atoms": 12,
+    "method": "RDKit stereochemistry assigned from mapped native heavy coordinates and compared with CCD ideal graph",
+    "native_isomeric_smiles": "OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+    "status": "passed"
+  },
+  "count_as_docking_success": false,
+  "diagnostic_only": true,
+  "fingerprint": {
+    "preparation": "97102047c2f1b67baece59e2596d31ff14f499db3a8e2a7c897577fa79b59087",
+    "reference": "5bef54d1289ae93465cdcaa1d1415e8583b560ea810cc76d99860417c9fd6ae1",
+    "source_ligand_pdbqt": "e00f9f9cc8301c1e53a67e60b8a082b2195d85169dfe25bf816fb3520cd851d3",
+    "source_ligand_sdf": "61bf15df736a4fd05277d332ee7569fe6d159342ee598393720d4912a666b46e"
+  },
+  "heavy_atom_names_in_graph_order": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "O1",
+    "O2",
+    "O3",
+    "O4",
+    "O5",
+    "O6"
+  ],
+  "hydrogen_optimization": false,
+  "hydrogen_placement": [
+    {
+      "coordinates_A": [
+        33.44859018854862,
+        23.2046733181687,
+        118.42606633890857
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H1",
+      "parent_ccd_atom": "C1",
+      "pdbqt_coordinates_A": null,
+      "pdbqt_type": "merged nonpolar H",
+      "retained_in_pdbqt": false
+    },
+    {
+      "coordinates_A": [
+        32.414611841272524,
+        20.663602276038475,
+        119.71598366883785
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H2",
+      "parent_ccd_atom": "C2",
+      "pdbqt_coordinates_A": null,
+      "pdbqt_type": "merged nonpolar H",
+      "retained_in_pdbqt": false
+    },
+    {
+      "coordinates_A": [
+        32.10070825380627,
+        23.60203325334715,
+        120.49011555492513
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H3",
+      "parent_ccd_atom": "C3",
+      "pdbqt_coordinates_A": null,
+      "pdbqt_type": "merged nonpolar H",
+      "retained_in_pdbqt": false
+    },
+    {
+      "coordinates_A": [
+        33.7204596902718,
+        23.332007321291535,
+        122.21669930668416
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H4",
+      "parent_ccd_atom": "C4",
+      "pdbqt_coordinates_A": null,
+      "pdbqt_type": "merged nonpolar H",
+      "retained_in_pdbqt": false
+    },
+    {
+      "coordinates_A": [
+        34.86375838720966,
+        23.666345666407924,
+        120.30206431771528
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H5",
+      "parent_ccd_atom": "C5",
+      "pdbqt_coordinates_A": null,
+      "pdbqt_type": "merged nonpolar H",
+      "retained_in_pdbqt": false
+    },
+    {
+      "coordinates_A": [
+        36.55050092960995,
+        22.95507030290313,
+        121.81509271826378
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H6",
+      "parent_ccd_atom": "C6",
+      "pdbqt_coordinates_A": null,
+      "pdbqt_type": "merged nonpolar H",
+      "retained_in_pdbqt": false
+    },
+    {
+      "coordinates_A": [
+        36.06812377406809,
+        21.216240727196276,
+        121.64975669047807
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H7",
+      "parent_ccd_atom": "C6",
+      "pdbqt_coordinates_A": null,
+      "pdbqt_type": "merged nonpolar H",
+      "retained_in_pdbqt": false
+    },
+    {
+      "coordinates_A": [
+        33.50693618151449,
+        20.483251555671345,
+        117.56823968065868
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H8",
+      "parent_ccd_atom": "O1",
+      "pdbqt_coordinates_A": [
+        33.507,
+        20.483,
+        117.568
+      ],
+      "pdbqt_type": "HD",
+      "retained_in_pdbqt": true
+    },
+    {
+      "coordinates_A": [
+        30.353216161270737,
+        22.06382359243303,
+        119.50621432311559
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H9",
+      "parent_ccd_atom": "O2",
+      "pdbqt_coordinates_A": [
+        30.353,
+        22.064,
+        119.506
+      ],
+      "pdbqt_type": "HD",
+      "retained_in_pdbqt": true
+    },
+    {
+      "coordinates_A": [
+        31.62001313066927,
+        22.239531881454063,
+        122.6243582638432
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H10",
+      "parent_ccd_atom": "O3",
+      "pdbqt_coordinates_A": [
+        31.62,
+        22.24,
+        122.624
+      ],
+      "pdbqt_type": "HD",
+      "retained_in_pdbqt": true
+    },
+    {
+      "coordinates_A": [
+        33.752192812286765,
+        21.49433010880461,
+        123.24057807172683
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H11",
+      "parent_ccd_atom": "O4",
+      "pdbqt_coordinates_A": [
+        33.752,
+        21.494,
+        123.241
+      ],
+      "pdbqt_type": "HD",
+      "retained_in_pdbqt": true
+    },
+    {
+      "coordinates_A": [
+        38.058491318826995,
+        21.822115721825114,
+        120.5274837450526
+      ],
+      "method": "RDKit Chem.AddHs(addCoords=True); no optimization",
+      "name": "H12",
+      "parent_ccd_atom": "O6",
+      "pdbqt_coordinates_A": [
+        38.058,
+        21.822,
+        120.527
+      ],
+      "pdbqt_type": "HD",
+      "retained_in_pdbqt": true
+    }
+  ],
+  "interpretation": "Native-pose score diagnostic with modeled H; reference-informed and never a docking success",
+  "max_native_heavy_coordinate_error_A": 0.0,
+  "modeled_hydrogen_count": 12,
+  "native_heavy_atom_count": 12,
+  "native_heavy_atoms_optimized": false,
+  "native_heavy_rmsd_A": 0.0,
+  "native_ligand_sha256": "e4c4678a8c9d67f388c9c5a5d9a7e6c84ceac9c6fd051c8cc2e107bb73cbd5af",
+  "native_reference": {
+    "author_chain": "A",
+    "author_residue": 801,
+    "component_id": "GAL",
+    "label_asym_id": "IB",
+    "model": 1,
+    "pdb_id": "7MTZ"
+  },
+  "native_torsdof": 6,
+  "source_graph_map_max_rounding_error_A": 0.0007071067811954505,
+  "source_torsdof": 6,
+  "status": "prepared",
+  "versions": {
+    "meeko": "0.8.0",
+    "numpy": "2.4.2",
+    "rdkit": "2026.9.1"
+  }
+}

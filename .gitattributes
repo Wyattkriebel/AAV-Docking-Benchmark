@@ -1,0 +1,27 @@
+# Preserve byte-identical third-party fixtures and raw scientific outputs.
+tests/fixtures/external/* -text -whitespace
+results/**/*.pdbqt* -text -whitespace
+results/**/*.pdb* -text -whitespace
+results/**/*.sdf -text -whitespace
+results/ideal_ring_conformer_feasibility/** -text -whitespace
+# This source's exact bytes are pinned by the executed initialization profile.
+aav_benchmark/ring_geometry.py -text -whitespace
+results/haddock_reproduction/**/*.html -text -whitespace -diff
+results/haddock_reproduction/** -text -whitespace
+results/additional_method_reproduction/** -text -whitespace
+results/**/*.log* -text -whitespace
+results/**/*.csv -text -whitespace
+results/**/*.json -text
+results/site_methods/** -text -whitespace
+# Large candidate/per-replicate JSON remains byte-preserved and machine-readable;
+# review the compact evaluation index and generated reports in ordinary diffs.
+results/site_discovery/**/evaluation_details.json -diff
+results/site_discovery/**/p2rank/result.json -diff
+results/site_discovery/**/random_surface_v2/result.json -diff
+data/archive/atomic_reference/** -text -whitespace -diff
+data/archive/independent_specificity_sources/** -text -whitespace -diff
+data/archive/heldout_candidates/** -text -whitespace -diff
+data/archive/heldout_reference/** -text -whitespace -diff
+data/archive/family_audit/** -text -whitespace -diff
+# GitHub can collapse generated evidence while keeping it available for review.
+results/** linguist-generated=true

@@ -1,0 +1,9 @@
+{
+  "atomic_or_site_accuracy_evaluated": false,
+  "configuration_sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d",
+  "driver_sha256": "1b846c076983776c1a6aa251aed709a5b79f6283ff68c74383f59cb6dbd0d36c",
+  "frozen_at_UTC": "2026-11-03T17:15:05.147535+00:00",
+  "native_search_started": false,
+  "schedule": "one moderncondition with3frozenseeds followedby3VCseedjobs, fixed36conditionorder; noadaptive reuse/retry",
+  "vina_carb_configuration_sha256": "8b9b75de3fc0df376f867e2319d75b30b3f1f2b66a270f1a1af3e80c44454936"
+}

@@ -1,0 +1,3793 @@
+{
+  "aggregation": "mean of seed-specific top-ranked Vina energies per compound; lower predicts measured binding; all 3 seeds required",
+  "classifier_threshold": null,
+  "compounds": [
+    {
+      "aryl_substituent": "phenyl",
+      "binary_label": 1,
+      "case_id": "gal9c_1",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 19,
+      "kd_sd_uM": 30,
+      "kd_uM": 678,
+      "ligand_id": "1",
+      "mean_top1_score_kcal_mol": -6.215333333333334,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_1",
+      "seed_top1_scores_kcal_mol": [
+        -6.206,
+        -6.215,
+        -6.225
+      ],
+      "source_measurement": "measured_affinity",
+      "stereochemical_series": "galacto",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "phenyl",
+      "binary_label": 0,
+      "case_id": "gal9c_14",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 19,
+      "kd_sd_uM": null,
+      "kd_uM": null,
+      "ligand_id": "14",
+      "mean_top1_score_kcal_mol": -5.526,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_1",
+      "seed_top1_scores_kcal_mol": [
+        -5.545,
+        -5.53,
+        -5.503
+      ],
+      "source_measurement": "NB_at_highest_tested_2_mM",
+      "stereochemical_series": "gulo",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "4-methylphenyl",
+      "binary_label": 1,
+      "case_id": "gal9c_4",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 20,
+      "kd_sd_uM": 25,
+      "kd_uM": 770,
+      "ligand_id": "4",
+      "mean_top1_score_kcal_mol": -5.557333333333333,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_4",
+      "seed_top1_scores_kcal_mol": [
+        -5.537,
+        -5.542,
+        -5.593
+      ],
+      "source_measurement": "measured_affinity",
+      "stereochemical_series": "galacto",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "4-methylphenyl",
+      "binary_label": 0,
+      "case_id": "gal9c_17",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 20,
+      "kd_sd_uM": null,
+      "kd_uM": null,
+      "ligand_id": "17",
+      "mean_top1_score_kcal_mol": -5.468,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_4",
+      "seed_top1_scores_kcal_mol": [
+        -5.477,
+        -5.467,
+        -5.46
+      ],
+      "source_measurement": "NB_at_highest_tested_2_mM",
+      "stereochemical_series": "gulo",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "3-methylphenyl",
+      "binary_label": 1,
+      "case_id": "gal9c_5",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 20,
+      "kd_sd_uM": 23,
+      "kd_uM": 670,
+      "ligand_id": "5",
+      "mean_top1_score_kcal_mol": -6.625333333333334,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_5",
+      "seed_top1_scores_kcal_mol": [
+        -6.623,
+        -6.625,
+        -6.628
+      ],
+      "source_measurement": "measured_affinity",
+      "stereochemical_series": "galacto",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "3-methylphenyl",
+      "binary_label": 0,
+      "case_id": "gal9c_18",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 20,
+      "kd_sd_uM": null,
+      "kd_uM": null,
+      "ligand_id": "18",
+      "mean_top1_score_kcal_mol": -5.951333333333333,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_5",
+      "seed_top1_scores_kcal_mol": [
+        -5.953,
+        -5.953,
+        -5.948
+      ],
+      "source_measurement": "NB_at_highest_tested_2_mM",
+      "stereochemical_series": "gulo",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "3,4-dimethylphenyl",
+      "binary_label": 1,
+      "case_id": "gal9c_6",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 21,
+      "kd_sd_uM": 9,
+      "kd_uM": 130,
+      "ligand_id": "6",
+      "mean_top1_score_kcal_mol": -6.631333333333333,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_6",
+      "seed_top1_scores_kcal_mol": [
+        -6.638,
+        -6.649,
+        -6.607
+      ],
+      "source_measurement": "measured_affinity",
+      "stereochemical_series": "galacto",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "3,4-dimethylphenyl",
+      "binary_label": 0,
+      "case_id": "gal9c_19",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 21,
+      "kd_sd_uM": null,
+      "kd_uM": null,
+      "ligand_id": "19",
+      "mean_top1_score_kcal_mol": -6.588666666666667,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_6",
+      "seed_top1_scores_kcal_mol": [
+        -6.598,
+        -6.569,
+        -6.599
+      ],
+      "source_measurement": "NB_at_highest_tested_2_mM",
+      "stereochemical_series": "gulo",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "3-chlorophenyl",
+      "binary_label": 1,
+      "case_id": "gal9c_7",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 20,
+      "kd_sd_uM": 6,
+      "kd_uM": 160,
+      "ligand_id": "7",
+      "mean_top1_score_kcal_mol": -6.3693333333333335,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_7",
+      "seed_top1_scores_kcal_mol": [
+        -6.38,
+        -6.365,
+        -6.363
+      ],
+      "source_measurement": "measured_affinity",
+      "stereochemical_series": "galacto",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "3-chlorophenyl",
+      "binary_label": 0,
+      "case_id": "gal9c_20",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 20,
+      "kd_sd_uM": null,
+      "kd_uM": null,
+      "ligand_id": "20",
+      "mean_top1_score_kcal_mol": -6.214333333333333,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_7",
+      "seed_top1_scores_kcal_mol": [
+        -6.224,
+        -6.201,
+        -6.218
+      ],
+      "source_measurement": "NB_at_highest_tested_2_mM",
+      "stereochemical_series": "gulo",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "3,4-difluorophenyl",
+      "binary_label": 1,
+      "case_id": "gal9c_8",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 21,
+      "kd_sd_uM": 7,
+      "kd_uM": 220,
+      "ligand_id": "8",
+      "mean_top1_score_kcal_mol": -5.615666666666667,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_8",
+      "seed_top1_scores_kcal_mol": [
+        -5.652,
+        -5.616,
+        -5.579
+      ],
+      "source_measurement": "measured_affinity",
+      "stereochemical_series": "galacto",
+      "successful_seed_count": 3
+    },
+    {
+      "aryl_substituent": "3,4-difluorophenyl",
+      "binary_label": 0,
+      "case_id": "gal9c_21",
+      "complete": true,
+      "expected_seed_count": 3,
+      "formal_charge": 0,
+      "heavy_atoms": 21,
+      "kd_sd_uM": null,
+      "kd_uM": null,
+      "ligand_id": "21",
+      "mean_top1_score_kcal_mol": -5.658333333333333,
+      "numeric_kd_lower_bound_uM": null,
+      "pair_id": "gal9c_epimer_8",
+      "seed_top1_scores_kcal_mol": [
+        -5.622,
+        -5.705,
+        -5.648
+      ],
+      "source_measurement": "NB_at_highest_tested_2_mM",
+      "stereochemical_series": "gulo",
+      "successful_seed_count": 3
+    }
+  ],
+  "denominator": {
+    "complete_ligands": 12,
+    "conditional_NB_at_2mM": 6,
+    "expected_ligands": 12,
+    "expected_runs": 36,
+    "expected_seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "failed_runs": 0,
+    "matched_pairs": 6,
+    "measured_binders": 6,
+    "metrics_eligible": true,
+    "missing_runs": 0,
+    "running_runs": 0,
+    "successful_runs": 36
+  },
+  "information_regime": "known site from independent prior Gal9C glycan structure; shared across alternatives",
+  "limitations": [
+    "One target domain, assay context and synthetic glycoside series; exploratory development.",
+    "Gal9 and Gal3 share the galectin fold; this is not independent receptor-family generalization.",
+    "NB at highest tested 2mM is categorical; no exact or lower-bound KD is inferred.",
+    "No energy-to-KD calibration, fitted decision threshold or classifier performance claim.",
+    "Generated ligand input coordinates provide atom identity only, not structural pose ground truth.",
+    "The 2019 SI adopts prior conditions but does not repeat an assayed sequence/tag record; treat the 2016 construct as method provenance, not an independently verified 2019 batch identity.",
+    "The entire 138-residue deposited structural core is identical to the reported assay Gal9C region; every annotated binding-site residue and every native-GAL contact residue is observed and identical. Missing N-terminal assay residues and fusion/batch provenance remain explicit approximations."
+  ],
+  "matched_pair_counts": {
+    "conditional_NB_lower_energy": 1,
+    "exact_aggregate_ties": 0,
+    "measured_binder_lower_energy": 5,
+    "pairs": 6,
+    "tie_aware_concordance": 0.8333333333333334
+  },
+  "metrics": {
+    "baselines": {
+      "formal_charge": {
+        "auprc_definition": "step-wise average precision",
+        "contexts": [
+          {
+            "context_id": "mahanti_2019_gal9c_matched_epimers",
+            "matched": {
+              "auprc_average_precision": 0.5,
+              "auroc": 0.5,
+              "binders": 6,
+              "charge_tolerance": 0.0,
+              "heavy_atom_tolerance": 0,
+              "ligand_ids": [
+                "1",
+                "14",
+                "4",
+                "17",
+                "5",
+                "18",
+                "6",
+                "19",
+                "7",
+                "20",
+                "8",
+                "21"
+              ],
+              "nonbinders": 6,
+              "pair_concordance": 0.5,
+              "pairs": 6,
+              "prevalence": 0.5,
+              "tested_ligands": 12
+            },
+            "raw": {
+              "auprc_average_precision": 0.5,
+              "auroc": 0.5,
+              "binders": 6,
+              "nonbinders": 6,
+              "prevalence": 0.5,
+              "tested_ligands": 12
+            },
+            "status": "evaluated",
+            "target_id": "O00182",
+            "tested_ligands": 12,
+            "untested_ligands": 0
+          }
+        ],
+        "pooled_assay_metrics": null,
+        "score_direction": "higher predicts binding"
+      },
+      "heavy_atom_count": {
+        "auprc_definition": "step-wise average precision",
+        "contexts": [
+          {
+            "context_id": "mahanti_2019_gal9c_matched_epimers",
+            "matched": {
+              "auprc_average_precision": 0.49999999999999994,
+              "auroc": 0.5,
+              "binders": 6,
+              "charge_tolerance": 0.0,
+              "heavy_atom_tolerance": 0,
+              "ligand_ids": [
+                "1",
+                "14",
+                "4",
+                "17",
+                "5",
+                "18",
+                "6",
+                "19",
+                "7",
+                "20",
+                "8",
+                "21"
+              ],
+              "nonbinders": 6,
+              "pair_concordance": 0.5,
+              "pairs": 6,
+              "prevalence": 0.5,
+              "tested_ligands": 12
+            },
+            "raw": {
+              "auprc_average_precision": 0.49999999999999994,
+              "auroc": 0.5,
+              "binders": 6,
+              "nonbinders": 6,
+              "prevalence": 0.5,
+              "tested_ligands": 12
+            },
+            "status": "evaluated",
+            "target_id": "O00182",
+            "tested_ligands": 12,
+            "untested_ligands": 0
+          }
+        ],
+        "pooled_assay_metrics": null,
+        "score_direction": "higher predicts binding"
+      }
+    },
+    "classification": {
+      "auprc_definition": "step-wise average precision",
+      "contexts": [
+        {
+          "context_id": "mahanti_2019_gal9c_matched_epimers",
+          "matched": {
+            "auprc_average_precision": 0.7842592592592592,
+            "auroc": 0.7222222222222222,
+            "binders": 6,
+            "charge_tolerance": 0.0,
+            "heavy_atom_tolerance": 0,
+            "ligand_ids": [
+              "1",
+              "14",
+              "4",
+              "17",
+              "5",
+              "18",
+              "6",
+              "19",
+              "7",
+              "20",
+              "8",
+              "21"
+            ],
+            "nonbinders": 6,
+            "pair_concordance": 0.8333333333333334,
+            "pairs": 6,
+            "prevalence": 0.5,
+            "tested_ligands": 12
+          },
+          "raw": {
+            "auprc_average_precision": 0.7842592592592592,
+            "auroc": 0.7222222222222222,
+            "binders": 6,
+            "nonbinders": 6,
+            "prevalence": 0.5,
+            "tested_ligands": 12
+          },
+          "status": "evaluated",
+          "target_id": "O00182",
+          "tested_ligands": 12,
+          "untested_ligands": 0
+        }
+      ],
+      "pooled_assay_metrics": null,
+      "score_direction": "higher predicts binding"
+    },
+    "interpretation": "descriptive conditional same-assay specificity; one target/scaffold; no held-out generalization",
+    "panel_id": "mahanti_2019_gal9c_matched_epimers",
+    "per_pair": [
+      {
+        "binder_id": "1",
+        "binder_minus_conditional_nonbinder_kcal_mol": -0.6893333333333338,
+        "binder_score_kcal_mol": -6.215333333333334,
+        "concordance": 1.0,
+        "conditional_nonbinder_id": "14",
+        "conditional_nonbinder_score_kcal_mol": -5.526,
+        "pair_id": "gal9c_epimer_1"
+      },
+      {
+        "binder_id": "4",
+        "binder_minus_conditional_nonbinder_kcal_mol": -0.08933333333333326,
+        "binder_score_kcal_mol": -5.557333333333333,
+        "concordance": 1.0,
+        "conditional_nonbinder_id": "17",
+        "conditional_nonbinder_score_kcal_mol": -5.468,
+        "pair_id": "gal9c_epimer_4"
+      },
+      {
+        "binder_id": "5",
+        "binder_minus_conditional_nonbinder_kcal_mol": -0.6740000000000004,
+        "binder_score_kcal_mol": -6.625333333333334,
+        "concordance": 1.0,
+        "conditional_nonbinder_id": "18",
+        "conditional_nonbinder_score_kcal_mol": -5.951333333333333,
+        "pair_id": "gal9c_epimer_5"
+      },
+      {
+        "binder_id": "6",
+        "binder_minus_conditional_nonbinder_kcal_mol": -0.04266666666666641,
+        "binder_score_kcal_mol": -6.631333333333333,
+        "concordance": 1.0,
+        "conditional_nonbinder_id": "19",
+        "conditional_nonbinder_score_kcal_mol": -6.588666666666667,
+        "pair_id": "gal9c_epimer_6"
+      },
+      {
+        "binder_id": "7",
+        "binder_minus_conditional_nonbinder_kcal_mol": -0.15500000000000025,
+        "binder_score_kcal_mol": -6.3693333333333335,
+        "concordance": 1.0,
+        "conditional_nonbinder_id": "20",
+        "conditional_nonbinder_score_kcal_mol": -6.214333333333333,
+        "pair_id": "gal9c_epimer_7"
+      },
+      {
+        "binder_id": "8",
+        "binder_minus_conditional_nonbinder_kcal_mol": 0.04266666666666641,
+        "binder_score_kcal_mol": -5.615666666666667,
+        "concordance": 0.0,
+        "conditional_nonbinder_id": "21",
+        "conditional_nonbinder_score_kcal_mol": -5.658333333333333,
+        "pair_id": "gal9c_epimer_8"
+      }
+    ],
+    "positive_only_quantitative_association": {
+      "affinity_transform": "-log10(KD in M), measured affinities only",
+      "contexts": [
+        {
+          "affinity_only_ties": 0,
+          "both_ties": 0,
+          "concordant_pairs": 12,
+          "confidence_intervals": null,
+          "context_id": "mahanti_2019_gal9c_matched_epimers",
+          "discordant_pairs": 3,
+          "kendall_tau_b": 0.6,
+          "ligands": [
+            {
+              "kd": 678,
+              "kd_unit": "uM",
+              "ligand_id": "1",
+              "pkd": 3.1687703061329366,
+              "score": 6.215333333333334
+            },
+            {
+              "kd": 770,
+              "kd_unit": "uM",
+              "ligand_id": "4",
+              "pkd": 3.113509274827518,
+              "score": 5.557333333333333
+            },
+            {
+              "kd": 670,
+              "kd_unit": "uM",
+              "ligand_id": "5",
+              "pkd": 3.1739251972991736,
+              "score": 6.625333333333334
+            },
+            {
+              "kd": 130,
+              "kd_unit": "uM",
+              "ligand_id": "6",
+              "pkd": 3.886056647693163,
+              "score": 6.631333333333333
+            },
+            {
+              "kd": 160,
+              "kd_unit": "uM",
+              "ligand_id": "7",
+              "pkd": 3.7958800173440754,
+              "score": 6.3693333333333335
+            },
+            {
+              "kd": 220,
+              "kd_unit": "uM",
+              "ligand_id": "8",
+              "pkd": 3.657577319177794,
+              "score": 5.615666666666667
+            }
+          ],
+          "n_ligands": 6,
+          "p_values": null,
+          "score_only_ties": 0,
+          "spearman_rho": 0.7142857142857143,
+          "status": "evaluated_descriptive",
+          "target_id": "O00182"
+        }
+      ],
+      "interpretation": "exploratory within-assay association; no significance or generalization claim",
+      "measurement_uncertainty": "correlations use reported point estimates; experimental uncertainty is not propagated",
+      "pooled_assay_metrics": null,
+      "score_direction": "higher predicts stronger binding"
+    },
+    "right_censored_quantitative_contrast": {
+      "estimate": null,
+      "reason": "NB at tested 2mM is an operational class, not a measured KD lower bound",
+      "status": "ineligible_no_justified_numeric_KD_bounds"
+    },
+    "score_direction": "lower Vina seed-mean top1 score predicts binding",
+    "tie_policy": "exact equal aggregate scores receive half concordance"
+  },
+  "panel_id": "mahanti_2019_gal9c_matched_epimers",
+  "runs": [
+    {
+      "case_id": "gal9c_1",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_1/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_1/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_1/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "7ad0a4f7f2bf8971aa8ad5aec694f61305a313ce5ed48d181f1687ecbe1943ba",
+        "preparation_sha256": "0f3bd802cd8280c190fff5fd62ce90a09bf6f7334bc9da7e6f829585ed2831f2",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "9b22f7d1eb7420bd55dbddfe91fe883f3c497ad8b86f2aba4e93a07e2e690996"
+      },
+      "ligand_id": "1",
+      "log_sha256": "d098af19c84291234b81a3626041d67d5ad03f5f7800cb1216d0e3bf3a38f3e2",
+      "pose_sha256": "e3c95da6021491df50da031ca9fc700f01782c8f9e15047860b6ee786e12d7f7",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.206
+    },
+    {
+      "case_id": "gal9c_1",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_1/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_1/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_1/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "7ad0a4f7f2bf8971aa8ad5aec694f61305a313ce5ed48d181f1687ecbe1943ba",
+        "preparation_sha256": "0f3bd802cd8280c190fff5fd62ce90a09bf6f7334bc9da7e6f829585ed2831f2",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "9b22f7d1eb7420bd55dbddfe91fe883f3c497ad8b86f2aba4e93a07e2e690996"
+      },
+      "ligand_id": "1",
+      "log_sha256": "91e39410a673718d437a597a39ae62996fbe94926bba0a877848559ec9fbd95a",
+      "pose_sha256": "d32e185e1a214f2fb26a922d4ca0bab1207dbbcc311744c4a109715851743d7d",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.215
+    },
+    {
+      "case_id": "gal9c_1",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_1/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_1/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_1/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "7ad0a4f7f2bf8971aa8ad5aec694f61305a313ce5ed48d181f1687ecbe1943ba",
+        "preparation_sha256": "0f3bd802cd8280c190fff5fd62ce90a09bf6f7334bc9da7e6f829585ed2831f2",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "9b22f7d1eb7420bd55dbddfe91fe883f3c497ad8b86f2aba4e93a07e2e690996"
+      },
+      "ligand_id": "1",
+      "log_sha256": "1691d4ed24eaeb69f7d8b0bded3f8e846c7ed63cafe4f790e0a45894f4e5d609",
+      "pose_sha256": "2d03a6101a2e6d9cd9e2d857b0002772695dd9fbb7bf4858cd39dc195c022e8f",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.225
+    },
+    {
+      "case_id": "gal9c_14",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_14/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_14/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_14/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "d8aa069250a71e9693d1d3620f434b59063053404bdebc4f876de0d6921dd284",
+        "preparation_sha256": "806093f09736fbcf5b0c43ab9712f3518dfe61a4ac2f54b6a175594ee332776f",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "859f653f8e52e76944b79b51777cba7c73498f3448184dd09d517c21020f3b89"
+      },
+      "ligand_id": "14",
+      "log_sha256": "78f5cb02ffdef0d9779d1d0fae2fa11604297e5f25743d3e2b09596d79c1688b",
+      "pose_sha256": "d011553029b1810ee31f9b80eb61b7a36be540a93d974cdf7cd1edc922b29fbb",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.545
+    },
+    {
+      "case_id": "gal9c_14",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_14/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_14/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_14/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "d8aa069250a71e9693d1d3620f434b59063053404bdebc4f876de0d6921dd284",
+        "preparation_sha256": "806093f09736fbcf5b0c43ab9712f3518dfe61a4ac2f54b6a175594ee332776f",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "859f653f8e52e76944b79b51777cba7c73498f3448184dd09d517c21020f3b89"
+      },
+      "ligand_id": "14",
+      "log_sha256": "1984e2bca5e5bb4056449fd920d86523a699aa6a64c41202e37e34fe4a32f77e",
+      "pose_sha256": "b6e279c272362a5023b04e358e41fb89c47d95b60e7145409e272eb367aca8fc",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.53
+    },
+    {
+      "case_id": "gal9c_14",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_14/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_14/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_14/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "d8aa069250a71e9693d1d3620f434b59063053404bdebc4f876de0d6921dd284",
+        "preparation_sha256": "806093f09736fbcf5b0c43ab9712f3518dfe61a4ac2f54b6a175594ee332776f",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "859f653f8e52e76944b79b51777cba7c73498f3448184dd09d517c21020f3b89"
+      },
+      "ligand_id": "14",
+      "log_sha256": "b3638d026ac80966404932bafc7a53bc1de2096b995afad3df175dc7e0b6a627",
+      "pose_sha256": "4f08c993ed10f178499db92650afe39c30a7085e57cdd5c9ed69f31e0c6b5ffe",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.503
+    },
+    {
+      "case_id": "gal9c_4",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_4/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_4/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_4/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "42b2f04aac31c3ff6fe297c1ccf4102144fca95af4ab3b69957aa0b51162f161",
+        "preparation_sha256": "dbc80d39156b470d109372e6fc9a47e3f4073ae9ac30927a10509fb7872f2c6a",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "86dfa463d07e8eb97bc3e7253919ba123b0e5aac0abf6f6b1da643002e00613c"
+      },
+      "ligand_id": "4",
+      "log_sha256": "155a2281d33d1d65053388c8e47c3e4523b0d9398e087c7f7109b30e35384a55",
+      "pose_sha256": "ef2a882b692e979b7557406617c653ca989dbc9bcd7554bac667f225dfe36f37",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.537
+    },
+    {
+      "case_id": "gal9c_4",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_4/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_4/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_4/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "42b2f04aac31c3ff6fe297c1ccf4102144fca95af4ab3b69957aa0b51162f161",
+        "preparation_sha256": "dbc80d39156b470d109372e6fc9a47e3f4073ae9ac30927a10509fb7872f2c6a",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "86dfa463d07e8eb97bc3e7253919ba123b0e5aac0abf6f6b1da643002e00613c"
+      },
+      "ligand_id": "4",
+      "log_sha256": "59a30f8f1c53141178097ced63ba68fdf59d593154d2e6624bf529a480bbfe3a",
+      "pose_sha256": "e36e0ce8cc8618295f97ae1569e7ecd9fcc33e6f156719ff3d00a0ee232e2f2d",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.542
+    },
+    {
+      "case_id": "gal9c_4",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_4/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_4/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_4/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "42b2f04aac31c3ff6fe297c1ccf4102144fca95af4ab3b69957aa0b51162f161",
+        "preparation_sha256": "dbc80d39156b470d109372e6fc9a47e3f4073ae9ac30927a10509fb7872f2c6a",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "86dfa463d07e8eb97bc3e7253919ba123b0e5aac0abf6f6b1da643002e00613c"
+      },
+      "ligand_id": "4",
+      "log_sha256": "8904cf60175cedaed904e0b99b32ea3ce650320bb5223b9b7c44b35f88289a5f",
+      "pose_sha256": "cf0d98efea0c63d63b99d3945f665e4a315a425b7306193b27ec7a6302c8a24b",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.593
+    },
+    {
+      "case_id": "gal9c_17",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_17/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_17/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_17/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "973f08f2ea01aa30e6c02d438fa09936821e7df20cd559d40214e97373a90e8c",
+        "preparation_sha256": "cbd800e57b3da9daf030b773228341e0778b18820972a7ae06c8d1b4f9b97873",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "8cdab65f0de42ba1e52fe238e8bf19cf1e9845750d04b7076acbef6f9db01be5"
+      },
+      "ligand_id": "17",
+      "log_sha256": "0de793969a27510728ad4513be9321d3015c3c407a57d70182595dfcd7ecf8a3",
+      "pose_sha256": "d0ce32432c6d6c06c7eeea60c02b47dacae24d95a81276a8aafaa7b9a04d8789",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.477
+    },
+    {
+      "case_id": "gal9c_17",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_17/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_17/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_17/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "973f08f2ea01aa30e6c02d438fa09936821e7df20cd559d40214e97373a90e8c",
+        "preparation_sha256": "cbd800e57b3da9daf030b773228341e0778b18820972a7ae06c8d1b4f9b97873",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "8cdab65f0de42ba1e52fe238e8bf19cf1e9845750d04b7076acbef6f9db01be5"
+      },
+      "ligand_id": "17",
+      "log_sha256": "6beac1defd6669be1fcd8e54b86bf2150113b5a7eea640644c817532819e3e22",
+      "pose_sha256": "31ab7eb1dd4cb6e905142304e6a9edf47a5df37e5c4ec783e5beae242691c673",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.467
+    },
+    {
+      "case_id": "gal9c_17",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_17/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_17/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_17/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "973f08f2ea01aa30e6c02d438fa09936821e7df20cd559d40214e97373a90e8c",
+        "preparation_sha256": "cbd800e57b3da9daf030b773228341e0778b18820972a7ae06c8d1b4f9b97873",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "8cdab65f0de42ba1e52fe238e8bf19cf1e9845750d04b7076acbef6f9db01be5"
+      },
+      "ligand_id": "17",
+      "log_sha256": "ed0190f120db97cb47217ea461d5d4ba94bad44bc431f1aec442754960fb4842",
+      "pose_sha256": "17aadfc448480e887642fc0d52cc1d4de787ec37dbf05828782d64bb2479425d",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.46
+    },
+    {
+      "case_id": "gal9c_5",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_5/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_5/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_5/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "59c0ec1ee4f25c8cb3642ecd4f9dc3eb39ed8803ba6e7c26f2cf0c9de31b12f8",
+        "preparation_sha256": "f657c38a2b4981e02b76805c753352ed6f2fb63f6bc7cf410525f2be20aea89e",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "508c04f1b03e438114371cb55b4cb240c71497288bf0ad4f51fab4cfb962bfc6"
+      },
+      "ligand_id": "5",
+      "log_sha256": "f85908b0e1d309ab7c1b43e07620551e10a23516a817f16c5ff357e80868381d",
+      "pose_sha256": "26c0423334730ff4aaf794b4f7f104970c4123c1fdf204aebeccad7be7db3113",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.623
+    },
+    {
+      "case_id": "gal9c_5",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_5/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_5/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_5/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "59c0ec1ee4f25c8cb3642ecd4f9dc3eb39ed8803ba6e7c26f2cf0c9de31b12f8",
+        "preparation_sha256": "f657c38a2b4981e02b76805c753352ed6f2fb63f6bc7cf410525f2be20aea89e",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "508c04f1b03e438114371cb55b4cb240c71497288bf0ad4f51fab4cfb962bfc6"
+      },
+      "ligand_id": "5",
+      "log_sha256": "dbe4b2d58226ef3429ea8e8c8edaf92b4b860f601627e63a1dc924ab04760108",
+      "pose_sha256": "3aaeeef1167993dd1a243659ea74c9b70c6a6fae7aaff4e69c80f7ef4b7eae15",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.625
+    },
+    {
+      "case_id": "gal9c_5",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_5/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_5/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_5/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "59c0ec1ee4f25c8cb3642ecd4f9dc3eb39ed8803ba6e7c26f2cf0c9de31b12f8",
+        "preparation_sha256": "f657c38a2b4981e02b76805c753352ed6f2fb63f6bc7cf410525f2be20aea89e",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "508c04f1b03e438114371cb55b4cb240c71497288bf0ad4f51fab4cfb962bfc6"
+      },
+      "ligand_id": "5",
+      "log_sha256": "4749c40f883a6d0bb52a574eb597fbb6a8ba4a6d175c76a6a07ce8e84900ef56",
+      "pose_sha256": "e4508ab8b61da77669920a93db2ce5834133e1d02dfedb08d68a02ac040b8ad2",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.628
+    },
+    {
+      "case_id": "gal9c_18",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_18/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_18/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_18/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "45adada49c5a2c9643a1fcd5c45dc61ebcfa0a9d8825eb15af91fdec1e56954f",
+        "preparation_sha256": "95e390d7d875880091cc5c39a869709acfbdd20fe46103d0d7724f3cdbfd7b9e",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "4f994be190c094650995e254644ce60e0d17c49ffb453db2e512c982fc2e9ff7"
+      },
+      "ligand_id": "18",
+      "log_sha256": "b0edfa4ef563c9ccdef494801279cd97e40e650b54d4ebc8a0060ff3a475b308",
+      "pose_sha256": "7f598e0dfc08d8d4dcf39a463bcab168af4c9e6a960dcc0671973debd5e2a0cc",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.953
+    },
+    {
+      "case_id": "gal9c_18",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_18/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_18/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_18/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "45adada49c5a2c9643a1fcd5c45dc61ebcfa0a9d8825eb15af91fdec1e56954f",
+        "preparation_sha256": "95e390d7d875880091cc5c39a869709acfbdd20fe46103d0d7724f3cdbfd7b9e",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "4f994be190c094650995e254644ce60e0d17c49ffb453db2e512c982fc2e9ff7"
+      },
+      "ligand_id": "18",
+      "log_sha256": "7e296f9541ba7130ce4adc7aced14897a5993c4988490cc35030e3f8af67e531",
+      "pose_sha256": "428f6948c7fc3c46a616d928a4412b71dc49dff3ee99956d4c41e2b8e6417278",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.953
+    },
+    {
+      "case_id": "gal9c_18",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_18/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_18/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_18/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "45adada49c5a2c9643a1fcd5c45dc61ebcfa0a9d8825eb15af91fdec1e56954f",
+        "preparation_sha256": "95e390d7d875880091cc5c39a869709acfbdd20fe46103d0d7724f3cdbfd7b9e",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "4f994be190c094650995e254644ce60e0d17c49ffb453db2e512c982fc2e9ff7"
+      },
+      "ligand_id": "18",
+      "log_sha256": "61a7bf2d56b352fe2558ea5678982be4a9aca63a2498347107ce14e162d613a3",
+      "pose_sha256": "5340e7d3640255c698262e39a2af16277b9e4e5269ba51d2a9d44c27b171f7b6",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.948
+    },
+    {
+      "case_id": "gal9c_6",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_6/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_6/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_6/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "18dabb74e0971a037851d3a8860fbbd81bde2ab63909e2005e342e608649772a",
+        "preparation_sha256": "064986ec83536fd11b639f2760d198738c8d754ffeb639501956ebc5a27322c1",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "1f4b51f0f3f0f2d3482b84a1d7f70df394a84d5efcac114f2153dc4f4987bd8a"
+      },
+      "ligand_id": "6",
+      "log_sha256": "4667dfe16376639cfc2224fbc3593c13defa75815e52bddfeb2c98b8cced0182",
+      "pose_sha256": "bd57021163e8830a1ad93f0693bfbe71cb4c1514888d80700070e9607efcab1e",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.638
+    },
+    {
+      "case_id": "gal9c_6",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_6/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_6/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_6/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "18dabb74e0971a037851d3a8860fbbd81bde2ab63909e2005e342e608649772a",
+        "preparation_sha256": "064986ec83536fd11b639f2760d198738c8d754ffeb639501956ebc5a27322c1",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "1f4b51f0f3f0f2d3482b84a1d7f70df394a84d5efcac114f2153dc4f4987bd8a"
+      },
+      "ligand_id": "6",
+      "log_sha256": "4b2771b008dcab48bf441e22c7d227e2d87017f9a79bfa3a0db21ad730badb99",
+      "pose_sha256": "09dc2c684f67c3451c40e17f8526e35d8bb6933d2276f882da012c86552b31c1",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.649
+    },
+    {
+      "case_id": "gal9c_6",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_6/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_6/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_6/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "18dabb74e0971a037851d3a8860fbbd81bde2ab63909e2005e342e608649772a",
+        "preparation_sha256": "064986ec83536fd11b639f2760d198738c8d754ffeb639501956ebc5a27322c1",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "1f4b51f0f3f0f2d3482b84a1d7f70df394a84d5efcac114f2153dc4f4987bd8a"
+      },
+      "ligand_id": "6",
+      "log_sha256": "f8d506c6dcad73098ce5b98942f2541b85f99ecb8b58fb10b4ef233d41b3e759",
+      "pose_sha256": "37d8d8473e2bc60594d39b605603969c3c7d9610065722884d57686ff72fd692",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.607
+    },
+    {
+      "case_id": "gal9c_19",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_19/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_19/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_19/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "e26a4fbdfd444be1bc4c1b54ba0659e5eaec02e28fa85f38a76a9f47861243ec",
+        "preparation_sha256": "2e33dbee2fe4a35156aaa8dc48122028dfe674ce62fca37235c584bd619a0e34",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "c1dc08cade0a78e341098930132d6b3900f84d400ac3a97f9ce614040cc63025"
+      },
+      "ligand_id": "19",
+      "log_sha256": "b6f855376283623a6c2bb67ae06d9c4bd16fc8f8f5289a0eea8883f49701cde0",
+      "pose_sha256": "38ee5f8c68bcaa0b6423ae4f0cc39b1dad9d2eb82efc9036e147ce094c0ad4c9",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.598
+    },
+    {
+      "case_id": "gal9c_19",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_19/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_19/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_19/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "e26a4fbdfd444be1bc4c1b54ba0659e5eaec02e28fa85f38a76a9f47861243ec",
+        "preparation_sha256": "2e33dbee2fe4a35156aaa8dc48122028dfe674ce62fca37235c584bd619a0e34",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "c1dc08cade0a78e341098930132d6b3900f84d400ac3a97f9ce614040cc63025"
+      },
+      "ligand_id": "19",
+      "log_sha256": "be38bb94670f593ed682f72840662793dab4531cea807e74cac41df625250d09",
+      "pose_sha256": "c6306be4d1ddc8f1260af3c93ff3b0eec82fede58789c3839da263c4f718921a",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.569
+    },
+    {
+      "case_id": "gal9c_19",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_19/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_19/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_19/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "e26a4fbdfd444be1bc4c1b54ba0659e5eaec02e28fa85f38a76a9f47861243ec",
+        "preparation_sha256": "2e33dbee2fe4a35156aaa8dc48122028dfe674ce62fca37235c584bd619a0e34",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "c1dc08cade0a78e341098930132d6b3900f84d400ac3a97f9ce614040cc63025"
+      },
+      "ligand_id": "19",
+      "log_sha256": "dfad46b053beea6798b25f1c7e3c6be4e04330eb0ab93c973a51d66dc3fce928",
+      "pose_sha256": "b6a1bf4f157d9a36fe54e89317def88da279aaacbc8e1843265964ba0c919d89",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.599
+    },
+    {
+      "case_id": "gal9c_7",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_7/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_7/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_7/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "0ed87eddd42639f6b628161ced43eb1e6c3bcbf2a8bbc38086c7b4b4e717824a",
+        "preparation_sha256": "71ca2e5fbca55a81326d6016a592040fb680a81d4f1f7bf3ef8882f19fc4c3f5",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "50f2003221c9c3d5acbeac0c33504b37fc4c8ca6f351f63035e3c16d2d6c51cc"
+      },
+      "ligand_id": "7",
+      "log_sha256": "81bdc2f290e37e3cd4b821a40323e20745d4cc47d3159865e8baf895a13c1186",
+      "pose_sha256": "63dd7b091348df56df16536ad152cfeeabb268129f37f619638095c145fea835",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.38
+    },
+    {
+      "case_id": "gal9c_7",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_7/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_7/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_7/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "0ed87eddd42639f6b628161ced43eb1e6c3bcbf2a8bbc38086c7b4b4e717824a",
+        "preparation_sha256": "71ca2e5fbca55a81326d6016a592040fb680a81d4f1f7bf3ef8882f19fc4c3f5",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "50f2003221c9c3d5acbeac0c33504b37fc4c8ca6f351f63035e3c16d2d6c51cc"
+      },
+      "ligand_id": "7",
+      "log_sha256": "076dabe1f928b06eecaeb15222734385d18b0f5be0cb599b44185439d3616d61",
+      "pose_sha256": "edfe27aada637a4e48e106354154902ecc013691762d53de1f0263cb95a1ab40",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.365
+    },
+    {
+      "case_id": "gal9c_7",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_7/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_7/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_7/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "0ed87eddd42639f6b628161ced43eb1e6c3bcbf2a8bbc38086c7b4b4e717824a",
+        "preparation_sha256": "71ca2e5fbca55a81326d6016a592040fb680a81d4f1f7bf3ef8882f19fc4c3f5",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "50f2003221c9c3d5acbeac0c33504b37fc4c8ca6f351f63035e3c16d2d6c51cc"
+      },
+      "ligand_id": "7",
+      "log_sha256": "d30a5e0c4d879f185c9a0f4260cac8e0bd1cfc664634b258c740ee8eccc7d03a",
+      "pose_sha256": "96aa60652a08d5cbdfcb228bf64b7b1021992fc40c1d7313ed272e81eda04fca",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.363
+    },
+    {
+      "case_id": "gal9c_20",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_20/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_20/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_20/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "24180569c60ed111f52368ea7100df416fb19f3e3cfebd954092962fe7500399",
+        "preparation_sha256": "55c20d9fd79113b66be6f76c58b4da5469ffa55c65d632ba8d7d1368c586fa03",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "8974f019d962affb1b47513ed3e13eea54d7b44282109b17c60c87d49ba59a03"
+      },
+      "ligand_id": "20",
+      "log_sha256": "e0131f1c086a621c1b193114adfe6b8a9e9310e68871f049a81ba35f9bbe7410",
+      "pose_sha256": "94cb50827a4257d9ec6c75a5bff6c030152ad0f402c9bb2fb1e211736f8d409e",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.224
+    },
+    {
+      "case_id": "gal9c_20",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_20/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_20/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_20/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "24180569c60ed111f52368ea7100df416fb19f3e3cfebd954092962fe7500399",
+        "preparation_sha256": "55c20d9fd79113b66be6f76c58b4da5469ffa55c65d632ba8d7d1368c586fa03",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "8974f019d962affb1b47513ed3e13eea54d7b44282109b17c60c87d49ba59a03"
+      },
+      "ligand_id": "20",
+      "log_sha256": "409cf16ccbbe8e2c2c46fc95af6c13760edf0d763e4e37b8ab27e3dc39ae120d",
+      "pose_sha256": "9563016d88d487126af5f05a81ea65351b5f4cfeb0438d1bfd4c15b7e5d67518",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.201
+    },
+    {
+      "case_id": "gal9c_20",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_20/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_20/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_20/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "24180569c60ed111f52368ea7100df416fb19f3e3cfebd954092962fe7500399",
+        "preparation_sha256": "55c20d9fd79113b66be6f76c58b4da5469ffa55c65d632ba8d7d1368c586fa03",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "8974f019d962affb1b47513ed3e13eea54d7b44282109b17c60c87d49ba59a03"
+      },
+      "ligand_id": "20",
+      "log_sha256": "836af0952e05eb0ae4383ec15f3110b7f2b9c7bb03b6d44d3c4d82f95d6ad3c4",
+      "pose_sha256": "6f99e2715170e1ecce53b91852d52a1ffe2ddf64e641ee7ef5f498556a9d398b",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -6.218
+    },
+    {
+      "case_id": "gal9c_8",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_8/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_8/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_8/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "710101a0dd90e5eb3aec366721901d20f0b769efb03951907d8aed10103a6e04",
+        "preparation_sha256": "aaaa195f44f1c6d1b2642c68077fef1d135a40f5114657ed5195752dad3f6a56",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "3f21aaae4c4b0c19ce2b57d088bd943e418996512b20bc9ae627ca1f4dff6126"
+      },
+      "ligand_id": "8",
+      "log_sha256": "5f2eb5a4c9aca6639716f534dd887bc2150bb7c8a54fcd4f315967c09cffa8dc",
+      "pose_sha256": "b83b6122c068d98c12d1ceacf7648edf6e16eea5103c9aa5276b03ffaeae7782",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.652
+    },
+    {
+      "case_id": "gal9c_8",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_8/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_8/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_8/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "710101a0dd90e5eb3aec366721901d20f0b769efb03951907d8aed10103a6e04",
+        "preparation_sha256": "aaaa195f44f1c6d1b2642c68077fef1d135a40f5114657ed5195752dad3f6a56",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "3f21aaae4c4b0c19ce2b57d088bd943e418996512b20bc9ae627ca1f4dff6126"
+      },
+      "ligand_id": "8",
+      "log_sha256": "8b90870a23eddec109491dd4e8c08be9e833eb68dfbaffe2655f7593cbb7d48e",
+      "pose_sha256": "5b3ba6d9dd7b3df8b00f83dc4ec77b8071774137abc0fd12f4e099386a202752",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.616
+    },
+    {
+      "case_id": "gal9c_8",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_8/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_8/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_8/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "710101a0dd90e5eb3aec366721901d20f0b769efb03951907d8aed10103a6e04",
+        "preparation_sha256": "aaaa195f44f1c6d1b2642c68077fef1d135a40f5114657ed5195752dad3f6a56",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "3f21aaae4c4b0c19ce2b57d088bd943e418996512b20bc9ae627ca1f4dff6126"
+      },
+      "ligand_id": "8",
+      "log_sha256": "4d865b353208014933905609f2c8cfe15df4d44580be12bf1d9c091bdc0f31cc",
+      "pose_sha256": "33d81c5d7b399b121701d500ae656e8048dad5fd2faa13616233a63c0520d1e4",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.579
+    },
+    {
+      "case_id": "gal9c_21",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_21/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_21/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_21/holo_complete_104729.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "104729",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "b1d6f6d1a6d479aa2b437c330ebe08a7ceacff34e8d9407a0ff838f9467e14d9",
+        "preparation_sha256": "944dab6ccd5e30a7b8cbb486a23bdcc622121ebc0def0a88f93b0c350201eafa",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "055a4f5c3495ffd0f116acb1d1d5dbf5a9be5527f595e443706184c4a0e2a62f"
+      },
+      "ligand_id": "21",
+      "log_sha256": "1ca2dda2816da3051de643b6ec5804befa816af5dd83512d6417dc991e8665c5",
+      "pose_sha256": "8f276316a08a64a449a083eb9d5283ff773164d57148a9c08ff8cd3eb5d18482",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 104729,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.622
+    },
+    {
+      "case_id": "gal9c_21",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_21/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_21/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_21/holo_complete_130363.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "130363",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "b1d6f6d1a6d479aa2b437c330ebe08a7ceacff34e8d9407a0ff838f9467e14d9",
+        "preparation_sha256": "944dab6ccd5e30a7b8cbb486a23bdcc622121ebc0def0a88f93b0c350201eafa",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "055a4f5c3495ffd0f116acb1d1d5dbf5a9be5527f595e443706184c4a0e2a62f"
+      },
+      "ligand_id": "21",
+      "log_sha256": "62426185d7a87a9ca62e99ca81e372e0aea40449acf602e7191921a58f574bba",
+      "pose_sha256": "885d7523e7aca9e3e3eaa51eaeeb42117c7b7b8b2a456723fce1c6d860f9ba9b",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 130363,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.705
+    },
+    {
+      "case_id": "gal9c_21",
+      "command": [
+        "/Users/alec/AAV-Docking-Benchmark/tools/vina-1.2.7",
+        "--receptor",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_21/holo_complete.pdbqt",
+        "--ligand",
+        "/Users/alec/AAV-Docking-Benchmark/data/processed/gal9_panel/gal9c_21/ligand.pdbqt",
+        "--out",
+        "/Users/alec/AAV-Docking-Benchmark/results/gal9_specificity/gal9c_21/holo_complete_155921.pdbqt",
+        "--scoring",
+        "vina",
+        "--cpu",
+        "2",
+        "--seed",
+        "155921",
+        "--exhaustiveness",
+        "16",
+        "--num_modes",
+        "20",
+        "--min_rmsd",
+        "0.5",
+        "--energy_range",
+        "10",
+        "--center_x",
+        "25.2627272727",
+        "--size_x",
+        "24.0",
+        "--center_y",
+        "54.7563636364",
+        "--size_y",
+        "24.0",
+        "--center_z",
+        "25.8168181818",
+        "--size_z",
+        "24.0"
+      ],
+      "error": null,
+      "input_fingerprint": {
+        "config_sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474",
+        "executable_sha256": "823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1",
+        "full_assembly_sha256": null,
+        "ligand_sha256": "b1d6f6d1a6d479aa2b437c330ebe08a7ceacff34e8d9407a0ff838f9467e14d9",
+        "preparation_sha256": "944dab6ccd5e30a7b8cbb486a23bdcc622121ebc0def0a88f93b0c350201eafa",
+        "receptor_pdb_sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65",
+        "receptor_sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc",
+        "reference_sha256": "055a4f5c3495ffd0f116acb1d1d5dbf5a9be5527f595e443706184c4a0e2a62f"
+      },
+      "ligand_id": "21",
+      "log_sha256": "7345cd6b9d49a50edc4de3cdd619d147dc21be4dfb6545b07999e4b673d6b067",
+      "pose_sha256": "1b6a8a192386659e74a9c95f7203f38d1849ab94b2638c6c8c5521c3f641da01",
+      "receptor": "holo_complete",
+      "returned_pose_count": 20,
+      "seed": 155921,
+      "status": "ok",
+      "top1_score_kcal_mol": -5.648
+    }
+  ],
+  "schema_version": 1,
+  "score_direction": "lower Vina energy predicts measured binding",
+  "source_hash_manifest": {
+    "publication_bytes_locally_reverified": false,
+    "published_sources_declared_checksums": {
+      "Delaine2016.pdf": {
+        "bytes": 1789168,
+        "sha256": "5ce075d012555ba15417f37e1370e3091e1394c2e69f9a0bc6a963b814cce7cf"
+      },
+      "Pal2019.xml": {
+        "bytes": 206105,
+        "sha256": "3200184a9feadfaea41e2a6aa4b656ff4aecfd15f3fc2c8d85648f31142607c8"
+      },
+      "gal9_primary_1": {
+        "bytes": 164082,
+        "sha256": "8e0bc8fb6bcbd772cf3ba87ddb7051eba9592fb6a36cdcd4783a818bfac8fa38"
+      },
+      "ml9b00396_0001.jpg": {
+        "bytes": 46664,
+        "sha256": "b0b27a6819f98b23124fbbf19290f036a3798afd18793adcf3bff2a3b01dfa73"
+      },
+      "ml9b00396_0002.jpg": {
+        "bytes": 32190,
+        "sha256": "5f97d8ca0f489c9633756db5424263f9115d25b5c11dfc456cffb1837bd63a4d"
+      },
+      "ml9b00396_si_001.pdf": {
+        "bytes": 5297248,
+        "sha256": "1e5d535c3dad8be7ea678d98312261c81044b69461d6c404eeec2a82d49e865a"
+      }
+    },
+    "verified_artifacts": {
+      "benchmarks/gal9_experiment.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "benchmarks/gal9_receptor_audit.json": {
+        "bytes": 16006,
+        "sha256": "ada9bd162368c62dbd53ca3a172c3920fc6141a4d75ef9b1bfba8f573cb1fb89"
+      },
+      "benchmarks/specificity_resolution.json": {
+        "bytes": 67767,
+        "sha256": "95e1c0f938951f81a25fa3c494bdfc5a8a00bdd9908aa9d166d4b9b954a7f082"
+      },
+      "benchmarks/vina.lock.json": {
+        "bytes": 992,
+        "sha256": "601b6154a65da3c764ae289866b435263f332a9a2a09cd1d711053e4e1c3322e"
+      },
+      "prepared/gal9c_1/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "4a2f028a72a84b63e1c3a4eb082d59fbf4d25587a4ff33118d1370f70795fca6"
+      },
+      "prepared/gal9c_1/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_1/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_1/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_1/ligand.pdbqt": {
+        "bytes": 2329,
+        "gzip_bytes": 739,
+        "gzip_sha256": "fb47e2fceeb1d340fb9c41d70b0cd9d4e32ea49c103ff0eb45fa6c4802703595",
+        "sha256": "7ad0a4f7f2bf8971aa8ad5aec694f61305a313ce5ed48d181f1687ecbe1943ba"
+      },
+      "prepared/gal9c_1/ligand.sdf": {
+        "bytes": 3244,
+        "gzip_bytes": 745,
+        "gzip_sha256": "3634fc061f5642267cb3c435cb4bb879b9212f0e0b875ac5d9e87fbef475df74",
+        "sha256": "ab78b284e5b405b7156ae49aa48c02301cd5700af9870ccb97c4b8dcdbec8a93"
+      },
+      "prepared/gal9c_1/preparation.json": {
+        "bytes": 6030,
+        "gzip_bytes": 2562,
+        "gzip_sha256": "ea258e97b319bb992fe152750e2862c146aa8bc6803d55e72e2432c118eca65e",
+        "sha256": "0f3bd802cd8280c190fff5fd62ce90a09bf6f7334bc9da7e6f829585ed2831f2"
+      },
+      "prepared/gal9c_1/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_1/reference.json": {
+        "bytes": 4889,
+        "gzip_bytes": 1141,
+        "gzip_sha256": "11aec249e175bc57b6aeff182d23b139f9d25de206a11da640658b1c55455c63",
+        "sha256": "9b22f7d1eb7420bd55dbddfe91fe883f3c497ad8b86f2aba4e93a07e2e690996"
+      },
+      "prepared/gal9c_1/source_graph.json": {
+        "bytes": 6231,
+        "gzip_bytes": 1855,
+        "gzip_sha256": "df860b6f5e82a7b4c02ae7422cdece6f62bdbb31f5ceda81fccde3c8537fd4cf",
+        "sha256": "ff793fb2429ef95e3cb4215a01a6818573dc806da8c55782eb17b0c1cb6c9e16"
+      },
+      "prepared/gal9c_14/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "d70736e500a620b53829a70da27629a905aff5cb8a8e3245f68d872189a84f0f"
+      },
+      "prepared/gal9c_14/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_14/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_14/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_14/ligand.pdbqt": {
+        "bytes": 2330,
+        "gzip_bytes": 738,
+        "gzip_sha256": "f678f88aea7f508feedeae84854f089aa2182f90175b1963fa844f4e11f6c398",
+        "sha256": "d8aa069250a71e9693d1d3620f434b59063053404bdebc4f876de0d6921dd284"
+      },
+      "prepared/gal9c_14/ligand.sdf": {
+        "bytes": 3244,
+        "gzip_bytes": 757,
+        "gzip_sha256": "29ce2def953e02e04349028b2d00b710b5dfaf1db23da12489d9621ab70ee050",
+        "sha256": "d237342d751ec107115b796082c74ea969192fb338eed2bc68b2b7bf690b9ae4"
+      },
+      "prepared/gal9c_14/preparation.json": {
+        "bytes": 6103,
+        "gzip_bytes": 2580,
+        "gzip_sha256": "4d1691d5417b026b7553ed1372f85fdb18923ddcf665fdb85391524cf5831ae5",
+        "sha256": "806093f09736fbcf5b0c43ab9712f3518dfe61a4ac2f54b6a175594ee332776f"
+      },
+      "prepared/gal9c_14/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_14/reference.json": {
+        "bytes": 4894,
+        "gzip_bytes": 1137,
+        "gzip_sha256": "1b1aea5476f5fb9ec0d6afd46c3d63487e1d56b90e18e2233d798f05e021558b",
+        "sha256": "859f653f8e52e76944b79b51777cba7c73498f3448184dd09d517c21020f3b89"
+      },
+      "prepared/gal9c_14/source_graph.json": {
+        "bytes": 6300,
+        "gzip_bytes": 1884,
+        "gzip_sha256": "79458fa818f26de8d94f63371641a52c773861da18223045e246cc7d863dd7e7",
+        "sha256": "639eba3d384510e761487872dadedb40299501d39ae2ba1fae65760819611bd7"
+      },
+      "prepared/gal9c_17/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "b72ffba5131ffdf2888d363be3902ea44e2acf34d5b077b0aad67af7065dd284"
+      },
+      "prepared/gal9c_17/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_17/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_17/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_17/ligand.pdbqt": {
+        "bytes": 2419,
+        "gzip_bytes": 764,
+        "gzip_sha256": "d8324ad4e94bac6dc886a294165aa0e292f7645d1c596133c66de9ee96495137",
+        "sha256": "973f08f2ea01aa30e6c02d438fa09936821e7df20cd559d40214e97373a90e8c"
+      },
+      "prepared/gal9c_17/ligand.sdf": {
+        "bytes": 3493,
+        "gzip_bytes": 801,
+        "gzip_sha256": "49404e54de997e42d29a164508816c332628f8127cac9bd9809e485b1bc5eeec",
+        "sha256": "b77b8fdb66bf17ab09f23c35acbc00416a643714f36d2dd94a7b69c749869b66"
+      },
+      "prepared/gal9c_17/preparation.json": {
+        "bytes": 6134,
+        "gzip_bytes": 2594,
+        "gzip_sha256": "8812d99b80ba6132c1c98a96bec4d6a0e2e030c3fc388d598f3da6de7c0a2faa",
+        "sha256": "cbd800e57b3da9daf030b773228341e0778b18820972a7ae06c8d1b4f9b97873"
+      },
+      "prepared/gal9c_17/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_17/reference.json": {
+        "bytes": 5140,
+        "gzip_bytes": 1187,
+        "gzip_sha256": "c84b30b00767c17a465460c6ed4494c3d5c55fc9cb9571f1b9dd5f8ee724ec06",
+        "sha256": "8cdab65f0de42ba1e52fe238e8bf19cf1e9845750d04b7076acbef6f9db01be5"
+      },
+      "prepared/gal9c_17/source_graph.json": {
+        "bytes": 6470,
+        "gzip_bytes": 1901,
+        "gzip_sha256": "2179fb69283216346ba6edd84148d553b42fbeb26429ab93bbcbe3f5bd155834",
+        "sha256": "4307bffe9986d438fe24824bfe83e9ffc7ef209db7cc481672ac9b72307b02a7"
+      },
+      "prepared/gal9c_18/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "2bba7ae237640b1968403e5eb4927aa2c2083281cb4cfd19c9d9c97ce95f2ce3"
+      },
+      "prepared/gal9c_18/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_18/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_18/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_18/ligand.pdbqt": {
+        "bytes": 2419,
+        "gzip_bytes": 767,
+        "gzip_sha256": "97aecae11510b337655a677af4d68eed80d4b4dd43ce3b00a46675df1dc7c70c",
+        "sha256": "45adada49c5a2c9643a1fcd5c45dc61ebcfa0a9d8825eb15af91fdec1e56954f"
+      },
+      "prepared/gal9c_18/ligand.sdf": {
+        "bytes": 3493,
+        "gzip_bytes": 790,
+        "gzip_sha256": "5c851c525eb6a4714991bb9b3714bac86ab607b98518090543469b6a2cc08ea0",
+        "sha256": "cbb1a66f649fcc219bb7ebe3574e9d32f9cd03af811e97c2c810fe49056231dd"
+      },
+      "prepared/gal9c_18/preparation.json": {
+        "bytes": 6135,
+        "gzip_bytes": 2595,
+        "gzip_sha256": "dbbcc3bfee48a05ff8cd9e4cdb0611d582ebda3a1297531c33bac0be7e63ed44",
+        "sha256": "95e390d7d875880091cc5c39a869709acfbdd20fe46103d0d7724f3cdbfd7b9e"
+      },
+      "prepared/gal9c_18/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_18/reference.json": {
+        "bytes": 5135,
+        "gzip_bytes": 1184,
+        "gzip_sha256": "4b9493bf2fefff6187574637208142885a18f0e3d99627fc227a07051f657f13",
+        "sha256": "4f994be190c094650995e254644ce60e0d17c49ffb453db2e512c982fc2e9ff7"
+      },
+      "prepared/gal9c_18/source_graph.json": {
+        "bytes": 6470,
+        "gzip_bytes": 1902,
+        "gzip_sha256": "ec30fb2d6073cd301a703e0bcf3030db01e2ac5455986a361fb00d21ed4ce6b3",
+        "sha256": "d689deee016dd5cfbf0d1648a679c8a0a5c4118987eea5608a6423a802252b31"
+      },
+      "prepared/gal9c_19/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "c49c0492093243af556b06b517a4e6f867deba33bcd4f01e956e7253705988d5"
+      },
+      "prepared/gal9c_19/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_19/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_19/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_19/ligand.pdbqt": {
+        "bytes": 2508,
+        "gzip_bytes": 796,
+        "gzip_sha256": "29baf61d7b6ab1866831bebd697bfd230d46a79163bf5b72d280163932c6d0ff",
+        "sha256": "e26a4fbdfd444be1bc4c1b54ba0659e5eaec02e28fa85f38a76a9f47861243ec"
+      },
+      "prepared/gal9c_19/ligand.sdf": {
+        "bytes": 3742,
+        "gzip_bytes": 845,
+        "gzip_sha256": "bcfd9f3aa10c65c204f1f135e57103f803a7424bbb52516250905b446d3867e2",
+        "sha256": "cc838114741a0d959556e9f7b5d73fcdddb6a501f9d882da6a1d6cbd08c2121e"
+      },
+      "prepared/gal9c_19/preparation.json": {
+        "bytes": 6158,
+        "gzip_bytes": 2600,
+        "gzip_sha256": "fccd04e3214481768f6caa92023beeaf045552f1ac8dd446055840a32d166719",
+        "sha256": "2e33dbee2fe4a35156aaa8dc48122028dfe674ce62fca37235c584bd619a0e34"
+      },
+      "prepared/gal9c_19/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_19/reference.json": {
+        "bytes": 5391,
+        "gzip_bytes": 1239,
+        "gzip_sha256": "b6586df4abe8ab9f6b07ca36ff5402d1c30a2b74651686a39e6ca2eb0d2ae01d",
+        "sha256": "c1dc08cade0a78e341098930132d6b3900f84d400ac3a97f9ce614040cc63025"
+      },
+      "prepared/gal9c_19/source_graph.json": {
+        "bytes": 6632,
+        "gzip_bytes": 1917,
+        "gzip_sha256": "a0a67421107cbd34d63c7d172a6f2af3bbcdf27548577608262432acd4d6cb8d",
+        "sha256": "b455740c0f2a820936b21891b97cddc53d07892954b46cc028618e0b433b98d3"
+      },
+      "prepared/gal9c_20/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "010b19e607e35737fbc220f27f6e336e1e4c0ec6871705e5f18421735b5736cc"
+      },
+      "prepared/gal9c_20/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_20/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_20/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_20/ligand.pdbqt": {
+        "bytes": 2420,
+        "gzip_bytes": 774,
+        "gzip_sha256": "e5c0fc324b7d8e172e645eda1a71ad65540262bbb394036a172f4e73f3db72c5",
+        "sha256": "24180569c60ed111f52368ea7100df416fb19f3e3cfebd954092962fe7500399"
+      },
+      "prepared/gal9c_20/ligand.sdf": {
+        "bytes": 3244,
+        "gzip_bytes": 757,
+        "gzip_sha256": "398efddb0c59370c81ca6b1534e1df07b6cef25267b55317b0b2999e72ae381b",
+        "sha256": "38ee46777baef4c055d6aae0aa91f309309e15408c078ab60b5ae644c06849f9"
+      },
+      "prepared/gal9c_20/preparation.json": {
+        "bytes": 6141,
+        "gzip_bytes": 2598,
+        "gzip_sha256": "93ab2db507317ab31fb5d76719bdb236dfce9b53e5f86a5eefaa0aa414706b42",
+        "sha256": "55c20d9fd79113b66be6f76c58b4da5469ffa55c65d632ba8d7d1368c586fa03"
+      },
+      "prepared/gal9c_20/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_20/reference.json": {
+        "bytes": 5132,
+        "gzip_bytes": 1190,
+        "gzip_sha256": "0c70c7a82424f5bbfd5ca1202c012a6bbaac6049a7bbb570e99cefd8ede5c719",
+        "sha256": "8974f019d962affb1b47513ed3e13eea54d7b44282109b17c60c87d49ba59a03"
+      },
+      "prepared/gal9c_20/source_graph.json": {
+        "bytes": 6476,
+        "gzip_bytes": 1911,
+        "gzip_sha256": "7c77bc78232bd27bc291307de011cd5dc5044a626b079a4d14990fb3bba6cdfe",
+        "sha256": "3f2cd7319346527072d00bcef78e096b3eb2cf1b0fcbf722c66d65d71be13cf5"
+      },
+      "prepared/gal9c_21/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "fb1917bc3cbf08161a691d422b27fdba6bfd0546834eca768b8042a80cbb587e"
+      },
+      "prepared/gal9c_21/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_21/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_21/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_21/ligand.pdbqt": {
+        "bytes": 2508,
+        "gzip_bytes": 793,
+        "gzip_sha256": "d192a7b0278b9fab26ddac53c2220139b8680ab1c9e407cc3e70d4350d1ca112",
+        "sha256": "b1d6f6d1a6d479aa2b437c330ebe08a7ceacff34e8d9407a0ff838f9467e14d9"
+      },
+      "prepared/gal9c_21/ligand.sdf": {
+        "bytes": 3244,
+        "gzip_bytes": 750,
+        "gzip_sha256": "39b6b0d07b5a419a700dc4ff02f81df9b39af8d36568fe8e656bcc824c6a4a6a",
+        "sha256": "e792711974c20f8981f615358266521497988e69e0c32bd81176400102c613a6"
+      },
+      "prepared/gal9c_21/preparation.json": {
+        "bytes": 6160,
+        "gzip_bytes": 2601,
+        "gzip_sha256": "36068190685fc4f3542f2e93afd03679ad4f32a3c1b0ea8585cd08a462ededc2",
+        "sha256": "944dab6ccd5e30a7b8cbb486a23bdcc622121ebc0def0a88f93b0c350201eafa"
+      },
+      "prepared/gal9c_21/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_21/reference.json": {
+        "bytes": 5374,
+        "gzip_bytes": 1233,
+        "gzip_sha256": "32bcd15d5d94461ff0a950f229956082da9ae869de1d1f9d1163a80447273211",
+        "sha256": "055a4f5c3495ffd0f116acb1d1d5dbf5a9be5527f595e443706184c4a0e2a62f"
+      },
+      "prepared/gal9c_21/source_graph.json": {
+        "bytes": 6634,
+        "gzip_bytes": 1925,
+        "gzip_sha256": "566a018764bbcd92ab34e67a4dc91df9a4a4a4eb999327696cd8320f77a0fd3c",
+        "sha256": "3f03df7342cd56197eb42fd3a2d42e95e4784a24a886ebbf852197b46bdf5317"
+      },
+      "prepared/gal9c_4/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "f922d58cfeb16cfab036369f285170604ca0eba8315c9e6ad5cbcf50a769dd84"
+      },
+      "prepared/gal9c_4/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_4/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_4/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_4/ligand.pdbqt": {
+        "bytes": 2418,
+        "gzip_bytes": 773,
+        "gzip_sha256": "d9443b4d238a7d84bbafcd7486269f1581a37c139cfad15cd90110eb12acfeec",
+        "sha256": "42b2f04aac31c3ff6fe297c1ccf4102144fca95af4ab3b69957aa0b51162f161"
+      },
+      "prepared/gal9c_4/ligand.sdf": {
+        "bytes": 3493,
+        "gzip_bytes": 789,
+        "gzip_sha256": "540f44e7dc4423da1825a73e1eee13c2fb3aaf3f760e9f2475f3e63bc8be8fb5",
+        "sha256": "9b88e439948a379206a5aab92f790e5fd66d85f4b3a3e168d7bc444449bc8449"
+      },
+      "prepared/gal9c_4/preparation.json": {
+        "bytes": 6062,
+        "gzip_bytes": 2570,
+        "gzip_sha256": "cef621e54a504ebb7da5aa5ae4a3ed9d5dba8c4d61680e8d37a67eb1e77d3e43",
+        "sha256": "dbc80d39156b470d109372e6fc9a47e3f4073ae9ac30927a10509fb7872f2c6a"
+      },
+      "prepared/gal9c_4/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_4/reference.json": {
+        "bytes": 5136,
+        "gzip_bytes": 1183,
+        "gzip_sha256": "3f02e8901fcf5797eb0e910109b9121d0c3c1232da6162f628106dc566e4323c",
+        "sha256": "86dfa463d07e8eb97bc3e7253919ba123b0e5aac0abf6f6b1da643002e00613c"
+      },
+      "prepared/gal9c_4/source_graph.json": {
+        "bytes": 6401,
+        "gzip_bytes": 1873,
+        "gzip_sha256": "27e7b0cceac662acda32b63df2c7c67fb6f859f4394a17ffbe59b2178a1ba2d9",
+        "sha256": "7f547aa38d375368a255e97f65bac59a1a0da743f0f25d65a6bac6b90fddcb6e"
+      },
+      "prepared/gal9c_5/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "d43d6fc5ba8e3b37c403f1789fd8bff79c9ea2a650ac0cc8ea5caca56648a331"
+      },
+      "prepared/gal9c_5/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_5/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_5/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_5/ligand.pdbqt": {
+        "bytes": 2418,
+        "gzip_bytes": 766,
+        "gzip_sha256": "198a4dea8ef641adea0acbfa450b823aac0845fc36a9517c82255b20dc0f51d2",
+        "sha256": "59c0ec1ee4f25c8cb3642ecd4f9dc3eb39ed8803ba6e7c26f2cf0c9de31b12f8"
+      },
+      "prepared/gal9c_5/ligand.sdf": {
+        "bytes": 3493,
+        "gzip_bytes": 797,
+        "gzip_sha256": "6d7b1c2f2073192da537f81c84655eb5a428a9815c757034bb0d3619c4a178c7",
+        "sha256": "d6c0ad05514755355bc222ccf1fdd6e965a8b414e097cf61300572379fa8c9b0"
+      },
+      "prepared/gal9c_5/preparation.json": {
+        "bytes": 6062,
+        "gzip_bytes": 2572,
+        "gzip_sha256": "c992019935e769a94d2f28654358c75ddcdcbf94200f6088c7eb23ec9937dff1",
+        "sha256": "f657c38a2b4981e02b76805c753352ed6f2fb63f6bc7cf410525f2be20aea89e"
+      },
+      "prepared/gal9c_5/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_5/reference.json": {
+        "bytes": 5140,
+        "gzip_bytes": 1197,
+        "gzip_sha256": "e123e8188533766b51871fbd3693abfa6e1c91d3e78677776f5e8b2035113c1d",
+        "sha256": "508c04f1b03e438114371cb55b4cb240c71497288bf0ad4f51fab4cfb962bfc6"
+      },
+      "prepared/gal9c_5/source_graph.json": {
+        "bytes": 6401,
+        "gzip_bytes": 1873,
+        "gzip_sha256": "f0bf6e8c6a30ca7d51ebcb841315fbdd51cb62c4277f951ab8e69fb494d96646",
+        "sha256": "7ad2571a22a3edb0227a51451d9087ba11ec4aaed677140dec6ac0af6fa1337e"
+      },
+      "prepared/gal9c_6/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "b44b4cce95d01fd83aaf19f5daac987bae7edcb2646ed3a71178cc7761f1d270"
+      },
+      "prepared/gal9c_6/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_6/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_6/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_6/ligand.pdbqt": {
+        "bytes": 2507,
+        "gzip_bytes": 787,
+        "gzip_sha256": "49b07453d699586749023bdb8634d66ba6276c5c2e0ab0e0351cb6406e09fed0",
+        "sha256": "18dabb74e0971a037851d3a8860fbbd81bde2ab63909e2005e342e608649772a"
+      },
+      "prepared/gal9c_6/ligand.sdf": {
+        "bytes": 3742,
+        "gzip_bytes": 837,
+        "gzip_sha256": "5c52255b3a39bc2103393f6516be8335c634d3d14ec8e83e97a4e218e701f587",
+        "sha256": "4f7aab41d474cba272ee8149feb36ded4bb7e4a49df73b27e213e75f3cef9aa2"
+      },
+      "prepared/gal9c_6/preparation.json": {
+        "bytes": 6084,
+        "gzip_bytes": 2575,
+        "gzip_sha256": "c3fc46d716c1451f7ef978d591893d2cd8ec67b07600a76b0c94f3ff7b37f92c",
+        "sha256": "064986ec83536fd11b639f2760d198738c8d754ffeb639501956ebc5a27322c1"
+      },
+      "prepared/gal9c_6/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_6/reference.json": {
+        "bytes": 5375,
+        "gzip_bytes": 1226,
+        "gzip_sha256": "b17539fee6f978baeaa9de3cc210d6ea5325135ea8da9157dfdc7c80c846cf77",
+        "sha256": "1f4b51f0f3f0f2d3482b84a1d7f70df394a84d5efcac114f2153dc4f4987bd8a"
+      },
+      "prepared/gal9c_6/source_graph.json": {
+        "bytes": 6562,
+        "gzip_bytes": 1889,
+        "gzip_sha256": "b40db16ae2b4ebf107210ae5abe1187a8bd042540a3fc71bbed3f85839ee9084",
+        "sha256": "499d7faa25bc392152afdd7fa52c41e5c85617f7909047b954794ac32b044d61"
+      },
+      "prepared/gal9c_7/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "a21c964887444357d5c45f93a32c3b63b826aa60a8758ff811623378f57ef5e3"
+      },
+      "prepared/gal9c_7/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_7/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_7/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_7/ligand.pdbqt": {
+        "bytes": 2419,
+        "gzip_bytes": 771,
+        "gzip_sha256": "f6c021615a4c48fbccf839f5c5562f5a57f5e373d58c5bd9a55337de1c0bfc5d",
+        "sha256": "0ed87eddd42639f6b628161ced43eb1e6c3bcbf2a8bbc38086c7b4b4e717824a"
+      },
+      "prepared/gal9c_7/ligand.sdf": {
+        "bytes": 3244,
+        "gzip_bytes": 759,
+        "gzip_sha256": "c6d5c59b8b607c7d22028d7ea3f7af185563cb785eb3c948fcb40d8ee05662a3",
+        "sha256": "625b77404e59ead0f284eff331b5b8390989e2a4851f43ae5952c673940ed6f5"
+      },
+      "prepared/gal9c_7/preparation.json": {
+        "bytes": 6068,
+        "gzip_bytes": 2573,
+        "gzip_sha256": "320639878db9f2f4ce41298de68cf017140cc8fc7d9a2f0062ca0da06dbfe71f",
+        "sha256": "71ca2e5fbca55a81326d6016a592040fb680a81d4f1f7bf3ef8882f19fc4c3f5"
+      },
+      "prepared/gal9c_7/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_7/reference.json": {
+        "bytes": 5133,
+        "gzip_bytes": 1192,
+        "gzip_sha256": "322e19e0041ab7aecf3c422896c77b30532a9735381e1a26415db29120b467cd",
+        "sha256": "50f2003221c9c3d5acbeac0c33504b37fc4c8ca6f351f63035e3c16d2d6c51cc"
+      },
+      "prepared/gal9c_7/source_graph.json": {
+        "bytes": 6406,
+        "gzip_bytes": 1880,
+        "gzip_sha256": "fde76a4361c10255d332caef22123c56a4f985354e02a72e9cba1da451da38e3",
+        "sha256": "90cef17b91d3c087b6e78955a82bad4bf426b7159e52f07bb00aeb7fd2050c69"
+      },
+      "prepared/gal9c_8/archive_manifest.json": {
+        "bytes": 2748,
+        "sha256": "9f533a91ee05b742225e1075d473e2c6ebc3a78821a2b471797c609015affca1"
+      },
+      "prepared/gal9c_8/holo_complete.pdb": {
+        "bytes": 88614,
+        "gzip_bytes": 21891,
+        "gzip_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+        "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+      },
+      "prepared/gal9c_8/holo_complete.pdbqt": {
+        "bytes": 106720,
+        "gzip_bytes": 24717,
+        "gzip_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+        "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+      },
+      "prepared/gal9c_8/holo_complete_atom_changes.json": {
+        "bytes": 181541,
+        "gzip_bytes": 11125,
+        "gzip_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+        "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+      },
+      "prepared/gal9c_8/ligand.pdbqt": {
+        "bytes": 2507,
+        "gzip_bytes": 792,
+        "gzip_sha256": "cc3b1a18cd00fd9b4c3eba978e8dc029238f815a49eaedb1b5b61eb09e3f0b21",
+        "sha256": "710101a0dd90e5eb3aec366721901d20f0b769efb03951907d8aed10103a6e04"
+      },
+      "prepared/gal9c_8/ligand.sdf": {
+        "bytes": 3244,
+        "gzip_bytes": 747,
+        "gzip_sha256": "16105fcefdd14de5ee351b474ee149ac27f017a10d6d0aac05a517ff9812e970",
+        "sha256": "05da2a8a612fc3bc07381942558e2ce38c086a1bae201423b684f1157fed35e1"
+      },
+      "prepared/gal9c_8/preparation.json": {
+        "bytes": 6086,
+        "gzip_bytes": 2573,
+        "gzip_sha256": "dbe1e9df4ebb6615447ce8d23993fc5f399131d0e66ebc0c61557debae2e1009",
+        "sha256": "aaaa195f44f1c6d1b2642c68077fef1d135a40f5114657ed5195752dad3f6a56"
+      },
+      "prepared/gal9c_8/receptor_preparation.json": {
+        "bytes": 215221,
+        "gzip_bytes": 12269,
+        "gzip_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+        "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+      },
+      "prepared/gal9c_8/reference.json": {
+        "bytes": 5376,
+        "gzip_bytes": 1242,
+        "gzip_sha256": "389912c5f991c7548cff3cd4ead2205f8a51461b1ace4a445001da1fff81f4bc",
+        "sha256": "3f21aaae4c4b0c19ce2b57d088bd943e418996512b20bc9ae627ca1f4dff6126"
+      },
+      "prepared/gal9c_8/source_graph.json": {
+        "bytes": 6564,
+        "gzip_bytes": 1897,
+        "gzip_sha256": "5610174e911e0a63049d1476ed6305df27a71d5e93ae1def7429096a42af5506",
+        "sha256": "74410d39e7f9f2b2274c84bf78fac0c97c09dd99fd30386b6956444ca4885a47"
+      },
+      "results/freeze_receipt.json": {
+        "bytes": 408,
+        "sha256": "939b1affcffdc3e36227d8c0eca2a92e0d64ac5ae526c9080a9113e33002c6f9"
+      },
+      "results/gal9c_1/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_1/holo_complete_104729.log": {
+        "bytes": 2649,
+        "sha256": "d098af19c84291234b81a3626041d67d5ad03f5f7800cb1216d0e3bf3a38f3e2"
+      },
+      "results/gal9c_1/holo_complete_104729.pdbqt": {
+        "bytes": 50971,
+        "sha256": "e3c95da6021491df50da031ca9fc700f01782c8f9e15047860b6ee786e12d7f7"
+      },
+      "results/gal9c_1/holo_complete_130363.log": {
+        "bytes": 2649,
+        "sha256": "91e39410a673718d437a597a39ae62996fbe94926bba0a877848559ec9fbd95a"
+      },
+      "results/gal9c_1/holo_complete_130363.pdbqt": {
+        "bytes": 50971,
+        "sha256": "d32e185e1a214f2fb26a922d4ca0bab1207dbbcc311744c4a109715851743d7d"
+      },
+      "results/gal9c_1/holo_complete_155921.log": {
+        "bytes": 2649,
+        "sha256": "1691d4ed24eaeb69f7d8b0bded3f8e846c7ed63cafe4f790e0a45894f4e5d609"
+      },
+      "results/gal9c_1/holo_complete_155921.pdbqt": {
+        "bytes": 50971,
+        "sha256": "2d03a6101a2e6d9cd9e2d857b0002772695dd9fbb7bf4858cd39dc195c022e8f"
+      },
+      "results/gal9c_1/runs.json": {
+        "bytes": 7881,
+        "sha256": "ef7e8d265c9b65c9651e9849973e14cf6468e8569fdc7e0788b635403f2fe07f"
+      },
+      "results/gal9c_14/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_14/holo_complete_104729.log": {
+        "bytes": 2651,
+        "sha256": "78f5cb02ffdef0d9779d1d0fae2fa11604297e5f25743d3e2b09596d79c1688b"
+      },
+      "results/gal9c_14/holo_complete_104729.pdbqt": {
+        "bytes": 50991,
+        "sha256": "d011553029b1810ee31f9b80eb61b7a36be540a93d974cdf7cd1edc922b29fbb"
+      },
+      "results/gal9c_14/holo_complete_130363.log": {
+        "bytes": 2651,
+        "sha256": "1984e2bca5e5bb4056449fd920d86523a699aa6a64c41202e37e34fe4a32f77e"
+      },
+      "results/gal9c_14/holo_complete_130363.pdbqt": {
+        "bytes": 50991,
+        "sha256": "b6e279c272362a5023b04e358e41fb89c47d95b60e7145409e272eb367aca8fc"
+      },
+      "results/gal9c_14/holo_complete_155921.log": {
+        "bytes": 2651,
+        "sha256": "b3638d026ac80966404932bafc7a53bc1de2096b995afad3df175dc7e0b6a627"
+      },
+      "results/gal9c_14/holo_complete_155921.pdbqt": {
+        "bytes": 50991,
+        "sha256": "4f08c993ed10f178499db92650afe39c30a7085e57cdd5c9ed69f31e0c6b5ffe"
+      },
+      "results/gal9c_14/runs.json": {
+        "bytes": 7902,
+        "sha256": "fbf04ec960d2fa9c2c01017b21c469112cdc6c31726d9aa0b6ef82eb67de3534"
+      },
+      "results/gal9c_17/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_17/holo_complete_104729.log": {
+        "bytes": 2651,
+        "sha256": "0de793969a27510728ad4513be9321d3015c3c407a57d70182595dfcd7ecf8a3"
+      },
+      "results/gal9c_17/holo_complete_104729.pdbqt": {
+        "bytes": 52771,
+        "sha256": "d0ce32432c6d6c06c7eeea60c02b47dacae24d95a81276a8aafaa7b9a04d8789"
+      },
+      "results/gal9c_17/holo_complete_130363.log": {
+        "bytes": 2651,
+        "sha256": "6beac1defd6669be1fcd8e54b86bf2150113b5a7eea640644c817532819e3e22"
+      },
+      "results/gal9c_17/holo_complete_130363.pdbqt": {
+        "bytes": 52771,
+        "sha256": "31ab7eb1dd4cb6e905142304e6a9edf47a5df37e5c4ec783e5beae242691c673"
+      },
+      "results/gal9c_17/holo_complete_155921.log": {
+        "bytes": 2651,
+        "sha256": "ed0190f120db97cb47217ea461d5d4ba94bad44bc431f1aec442754960fb4842"
+      },
+      "results/gal9c_17/holo_complete_155921.pdbqt": {
+        "bytes": 52771,
+        "sha256": "17aadfc448480e887642fc0d52cc1d4de787ec37dbf05828782d64bb2479425d"
+      },
+      "results/gal9c_17/runs.json": {
+        "bytes": 7898,
+        "sha256": "6b4b256db50dab2ffae040563c8a45fd00ec5dfc9c2edce797a43ddec6f151f8"
+      },
+      "results/gal9c_18/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_18/holo_complete_104729.log": {
+        "bytes": 2651,
+        "sha256": "b0edfa4ef563c9ccdef494801279cd97e40e650b54d4ebc8a0060ff3a475b308"
+      },
+      "results/gal9c_18/holo_complete_104729.pdbqt": {
+        "bytes": 52771,
+        "sha256": "7f598e0dfc08d8d4dcf39a463bcab168af4c9e6a960dcc0671973debd5e2a0cc"
+      },
+      "results/gal9c_18/holo_complete_130363.log": {
+        "bytes": 2651,
+        "sha256": "7e296f9541ba7130ce4adc7aced14897a5993c4988490cc35030e3f8af67e531"
+      },
+      "results/gal9c_18/holo_complete_130363.pdbqt": {
+        "bytes": 52771,
+        "sha256": "428f6948c7fc3c46a616d928a4412b71dc49dff3ee99956d4c41e2b8e6417278"
+      },
+      "results/gal9c_18/holo_complete_155921.log": {
+        "bytes": 2651,
+        "sha256": "61a7bf2d56b352fe2558ea5678982be4a9aca63a2498347107ce14e162d613a3"
+      },
+      "results/gal9c_18/holo_complete_155921.pdbqt": {
+        "bytes": 52771,
+        "sha256": "5340e7d3640255c698262e39a2af16277b9e4e5269ba51d2a9d44c27b171f7b6"
+      },
+      "results/gal9c_18/runs.json": {
+        "bytes": 7901,
+        "sha256": "d85de415c41b28490297e5578a302d6dbd892d4d56e4d18cff4a78a77e528107"
+      },
+      "results/gal9c_19/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_19/holo_complete_104729.log": {
+        "bytes": 2651,
+        "sha256": "b6f855376283623a6c2bb67ae06d9c4bd16fc8f8f5289a0eea8883f49701cde0"
+      },
+      "results/gal9c_19/holo_complete_104729.pdbqt": {
+        "bytes": 54551,
+        "sha256": "38ee5f8c68bcaa0b6423ae4f0cc39b1dad9d2eb82efc9036e147ce094c0ad4c9"
+      },
+      "results/gal9c_19/holo_complete_130363.log": {
+        "bytes": 2651,
+        "sha256": "be38bb94670f593ed682f72840662793dab4531cea807e74cac41df625250d09"
+      },
+      "results/gal9c_19/holo_complete_130363.pdbqt": {
+        "bytes": 54551,
+        "sha256": "c6306be4d1ddc8f1260af3c93ff3b0eec82fede58789c3839da263c4f718921a"
+      },
+      "results/gal9c_19/holo_complete_155921.log": {
+        "bytes": 2651,
+        "sha256": "dfad46b053beea6798b25f1c7e3c6be4e04330eb0ab93c973a51d66dc3fce928"
+      },
+      "results/gal9c_19/holo_complete_155921.pdbqt": {
+        "bytes": 54551,
+        "sha256": "b6a1bf4f157d9a36fe54e89317def88da279aaacbc8e1843265964ba0c919d89"
+      },
+      "results/gal9c_19/runs.json": {
+        "bytes": 7900,
+        "sha256": "feb67d00f7170de06e90bb0a51703819f170a566e9bf20dc49ba142e72bcd810"
+      },
+      "results/gal9c_20/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_20/holo_complete_104729.log": {
+        "bytes": 2651,
+        "sha256": "e0131f1c086a621c1b193114adfe6b8a9e9310e68871f049a81ba35f9bbe7410"
+      },
+      "results/gal9c_20/holo_complete_104729.pdbqt": {
+        "bytes": 52791,
+        "sha256": "94cb50827a4257d9ec6c75a5bff6c030152ad0f402c9bb2fb1e211736f8d409e"
+      },
+      "results/gal9c_20/holo_complete_130363.log": {
+        "bytes": 2651,
+        "sha256": "409cf16ccbbe8e2c2c46fc95af6c13760edf0d763e4e37b8ab27e3dc39ae120d"
+      },
+      "results/gal9c_20/holo_complete_130363.pdbqt": {
+        "bytes": 52791,
+        "sha256": "9563016d88d487126af5f05a81ea65351b5f4cfeb0438d1bfd4c15b7e5d67518"
+      },
+      "results/gal9c_20/holo_complete_155921.log": {
+        "bytes": 2651,
+        "sha256": "836af0952e05eb0ae4383ec15f3110b7f2b9c7bb03b6d44d3c4d82f95d6ad3c4"
+      },
+      "results/gal9c_20/holo_complete_155921.pdbqt": {
+        "bytes": 52791,
+        "sha256": "6f99e2715170e1ecce53b91852d52a1ffe2ddf64e641ee7ef5f498556a9d398b"
+      },
+      "results/gal9c_20/runs.json": {
+        "bytes": 7900,
+        "sha256": "a7e8531787c6095299d08d593bbc476bf3da3aa631c483baadfa6fc31c804487"
+      },
+      "results/gal9c_21/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_21/holo_complete_104729.log": {
+        "bytes": 2651,
+        "sha256": "1ca2dda2816da3051de643b6ec5804befa816af5dd83512d6417dc991e8665c5"
+      },
+      "results/gal9c_21/holo_complete_104729.pdbqt": {
+        "bytes": 54551,
+        "sha256": "8f276316a08a64a449a083eb9d5283ff773164d57148a9c08ff8cd3eb5d18482"
+      },
+      "results/gal9c_21/holo_complete_130363.log": {
+        "bytes": 2651,
+        "sha256": "62426185d7a87a9ca62e99ca81e372e0aea40449acf602e7191921a58f574bba"
+      },
+      "results/gal9c_21/holo_complete_130363.pdbqt": {
+        "bytes": 54551,
+        "sha256": "885d7523e7aca9e3e3eaa51eaeeb42117c7b7b8b2a456723fce1c6d860f9ba9b"
+      },
+      "results/gal9c_21/holo_complete_155921.log": {
+        "bytes": 2651,
+        "sha256": "7345cd6b9d49a50edc4de3cdd619d147dc21be4dfb6545b07999e4b673d6b067"
+      },
+      "results/gal9c_21/holo_complete_155921.pdbqt": {
+        "bytes": 54551,
+        "sha256": "1b6a8a192386659e74a9c95f7203f38d1849ab94b2638c6c8c5521c3f641da01"
+      },
+      "results/gal9c_21/runs.json": {
+        "bytes": 7898,
+        "sha256": "f28749586a12ef96a076c45e7771b07ac5cb061a2e49e1416f4cf1d9d89ada50"
+      },
+      "results/gal9c_4/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_4/holo_complete_104729.log": {
+        "bytes": 2649,
+        "sha256": "155a2281d33d1d65053388c8e47c3e4523b0d9398e087c7f7109b30e35384a55"
+      },
+      "results/gal9c_4/holo_complete_104729.pdbqt": {
+        "bytes": 52751,
+        "sha256": "ef2a882b692e979b7557406617c653ca989dbc9bcd7554bac667f225dfe36f37"
+      },
+      "results/gal9c_4/holo_complete_130363.log": {
+        "bytes": 2649,
+        "sha256": "59a30f8f1c53141178097ced63ba68fdf59d593154d2e6624bf529a480bbfe3a"
+      },
+      "results/gal9c_4/holo_complete_130363.pdbqt": {
+        "bytes": 52751,
+        "sha256": "e36e0ce8cc8618295f97ae1569e7ecd9fcc33e6f156719ff3d00a0ee232e2f2d"
+      },
+      "results/gal9c_4/holo_complete_155921.log": {
+        "bytes": 2649,
+        "sha256": "8904cf60175cedaed904e0b99b32ea3ce650320bb5223b9b7c44b35f88289a5f"
+      },
+      "results/gal9c_4/holo_complete_155921.pdbqt": {
+        "bytes": 52751,
+        "sha256": "cf0d98efea0c63d63b99d3945f665e4a315a425b7306193b27ec7a6302c8a24b"
+      },
+      "results/gal9c_4/runs.json": {
+        "bytes": 7888,
+        "sha256": "4df9b6c4357a5fd71093c208139d6ee4e6b4aba787602d1d822defd464ff31df"
+      },
+      "results/gal9c_5/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_5/holo_complete_104729.log": {
+        "bytes": 2649,
+        "sha256": "f85908b0e1d309ab7c1b43e07620551e10a23516a817f16c5ff357e80868381d"
+      },
+      "results/gal9c_5/holo_complete_104729.pdbqt": {
+        "bytes": 52751,
+        "sha256": "26c0423334730ff4aaf794b4f7f104970c4123c1fdf204aebeccad7be7db3113"
+      },
+      "results/gal9c_5/holo_complete_130363.log": {
+        "bytes": 2649,
+        "sha256": "dbe4b2d58226ef3429ea8e8c8edaf92b4b860f601627e63a1dc924ab04760108"
+      },
+      "results/gal9c_5/holo_complete_130363.pdbqt": {
+        "bytes": 52751,
+        "sha256": "3aaeeef1167993dd1a243659ea74c9b70c6a6fae7aaff4e69c80f7ef4b7eae15"
+      },
+      "results/gal9c_5/holo_complete_155921.log": {
+        "bytes": 2649,
+        "sha256": "4749c40f883a6d0bb52a574eb597fbb6a8ba4a6d175c76a6a07ce8e84900ef56"
+      },
+      "results/gal9c_5/holo_complete_155921.pdbqt": {
+        "bytes": 52751,
+        "sha256": "e4508ab8b61da77669920a93db2ce5834133e1d02dfedb08d68a02ac040b8ad2"
+      },
+      "results/gal9c_5/runs.json": {
+        "bytes": 7888,
+        "sha256": "2af68c037bd416711a52a8685bb51dc26e1ce08c17bb78e0414d58c0a9ca7fe6"
+      },
+      "results/gal9c_6/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_6/holo_complete_104729.log": {
+        "bytes": 2649,
+        "sha256": "4667dfe16376639cfc2224fbc3593c13defa75815e52bddfeb2c98b8cced0182"
+      },
+      "results/gal9c_6/holo_complete_104729.pdbqt": {
+        "bytes": 54531,
+        "sha256": "bd57021163e8830a1ad93f0693bfbe71cb4c1514888d80700070e9607efcab1e"
+      },
+      "results/gal9c_6/holo_complete_130363.log": {
+        "bytes": 2649,
+        "sha256": "4b2771b008dcab48bf441e22c7d227e2d87017f9a79bfa3a0db21ad730badb99"
+      },
+      "results/gal9c_6/holo_complete_130363.pdbqt": {
+        "bytes": 54531,
+        "sha256": "09dc2c684f67c3451c40e17f8526e35d8bb6933d2276f882da012c86552b31c1"
+      },
+      "results/gal9c_6/holo_complete_155921.log": {
+        "bytes": 2649,
+        "sha256": "f8d506c6dcad73098ce5b98942f2541b85f99ecb8b58fb10b4ef233d41b3e759"
+      },
+      "results/gal9c_6/holo_complete_155921.pdbqt": {
+        "bytes": 54531,
+        "sha256": "37d8d8473e2bc60594d39b605603969c3c7d9610065722884d57686ff72fd692"
+      },
+      "results/gal9c_6/runs.json": {
+        "bytes": 7884,
+        "sha256": "1ff51c1836f56352f974b958645f7c11879ca509f804857b4c242ad4802520eb"
+      },
+      "results/gal9c_7/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_7/holo_complete_104729.log": {
+        "bytes": 2649,
+        "sha256": "81bdc2f290e37e3cd4b821a40323e20745d4cc47d3159865e8baf895a13c1186"
+      },
+      "results/gal9c_7/holo_complete_104729.pdbqt": {
+        "bytes": 52771,
+        "sha256": "63dd7b091348df56df16536ad152cfeeabb268129f37f619638095c145fea835"
+      },
+      "results/gal9c_7/holo_complete_130363.log": {
+        "bytes": 2649,
+        "sha256": "076dabe1f928b06eecaeb15222734385d18b0f5be0cb599b44185439d3616d61"
+      },
+      "results/gal9c_7/holo_complete_130363.pdbqt": {
+        "bytes": 52771,
+        "sha256": "edfe27aada637a4e48e106354154902ecc013691762d53de1f0263cb95a1ab40"
+      },
+      "results/gal9c_7/holo_complete_155921.log": {
+        "bytes": 2649,
+        "sha256": "d30a5e0c4d879f185c9a0f4260cac8e0bd1cfc664634b258c740ee8eccc7d03a"
+      },
+      "results/gal9c_7/holo_complete_155921.pdbqt": {
+        "bytes": 52771,
+        "sha256": "96aa60652a08d5cbdfcb228bf64b7b1021992fc40c1d7313ed272e81eda04fca"
+      },
+      "results/gal9c_7/runs.json": {
+        "bytes": 7895,
+        "sha256": "9fd3bfe1076f35f969e099aa209791e56838c941c0e99dad7f3a56c3b47c3f5c"
+      },
+      "results/gal9c_8/configuration.json": {
+        "bytes": 2547,
+        "sha256": "57ba26a4f00fd48c9dd5db4a8fed7a3e56558e47d3b664564a857f26ae4fd474"
+      },
+      "results/gal9c_8/holo_complete_104729.log": {
+        "bytes": 2649,
+        "sha256": "5f2eb5a4c9aca6639716f534dd887bc2150bb7c8a54fcd4f315967c09cffa8dc"
+      },
+      "results/gal9c_8/holo_complete_104729.pdbqt": {
+        "bytes": 54531,
+        "sha256": "b83b6122c068d98c12d1ceacf7648edf6e16eea5103c9aa5276b03ffaeae7782"
+      },
+      "results/gal9c_8/holo_complete_130363.log": {
+        "bytes": 2649,
+        "sha256": "8b90870a23eddec109491dd4e8c08be9e833eb68dfbaffe2655f7593cbb7d48e"
+      },
+      "results/gal9c_8/holo_complete_130363.pdbqt": {
+        "bytes": 54531,
+        "sha256": "5b3ba6d9dd7b3df8b00f83dc4ec77b8071774137abc0fd12f4e099386a202752"
+      },
+      "results/gal9c_8/holo_complete_155921.log": {
+        "bytes": 2649,
+        "sha256": "4d865b353208014933905609f2c8cfe15df4d44580be12bf1d9c091bdc0f31cc"
+      },
+      "results/gal9c_8/holo_complete_155921.pdbqt": {
+        "bytes": 54531,
+        "sha256": "33d81c5d7b399b121701d500ae656e8048dad5fd2faa13616233a63c0520d1e4"
+      },
+      "results/gal9c_8/runs.json": {
+        "bytes": 7878,
+        "sha256": "7806d20c8652650e216a8af2018a449c39ea67b74107223cecb0240b9bd74be6"
+      },
+      "source/3NV3.cif": {
+        "bytes": 192199,
+        "gzip_bytes": 48408,
+        "gzip_sha256": "1292d101ec7bf40ca614fd4270255408dd2ac503cf0522ee0b5735a77aa38e92",
+        "sha256": "4f58b9dbb3d1eaf40200b4cc7f18fd04e642785f6fb27116f75376977629d0b0"
+      }
+    }
+  },
+  "status": "evaluated_descriptive"
+}

@@ -1,0 +1,57 @@
+data_pocket2_atm
+# 
+loop_
+_struct.pdbx_descriptor
+This is a mmcif format file writen by the programm fpocket.                 
+It represents the atoms contacted by the voronoi vertices of the pocket.  
+                                                                           
+Information about the pocket     2:
+0  - Pocket Score                      : 0.0740
+1  - Drug Score                        : 0.4273
+2  - Number of alpha spheres           :    18
+3  - Mean alpha-sphere radius          : 3.8622
+4  - Mean alpha-sphere Solvent Acc.    : 0.4078
+5  - Mean B-factor of pocket residues  : 20.0000
+6  - Hydrophobicity Score              : 41.0000
+7  - Polarity Score                    :     0
+8  - Amino Acid based volume Score     : 2.0000
+9  - Pocket volume (Monte Carlo)       : 318.4261
+10  -Pocket volume (convex hull)       : 30.0277
+11 - Charge Score                      :     0
+12 - Local hydrophobic density Score   : 16.4444
+13 - Number of apolar alpha sphere     :    18
+14 - Proportion of apolar alpha sphere : 1.0000
+# 
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+ATOM    80       C   CA ?  ALA    Axp 80 ?    3.868    6.916   17.811   0.00  0 80 A
+ATOM    44       C   CA ?  ALA    Axp 44 ?    5.733    7.909   16.245   0.00  0 44 A
+ATOM    54       C   CA ?  ALA    Axp 54 ?    3.932    5.221   13.919   0.00  0 54 A
+ATOM    91       C   CA ?  ALA    Axp 91 ?    2.274   11.447   12.535   0.00  0 91 A
+ATOM    51       C   CA ?  ALA    Axp 51 ?    5.424   14.947   10.808   0.00  0 51 A
+ATOM    69       C   CA ?  ALA    Axp 69 ?    4.114   12.400   14.160   0.00  0 69 A
+ATOM    35       C   CA ?  ALA    Axp 35 ?    2.660   19.110   12.342   0.00  0 35 A
+ATOM    15       C   CA ?  ALA    Axp 15 ?    6.772   16.713   14.264   0.00  0 15 A
+ATOM    96       C   CA ?  ALA    Axp 96 ?    5.105   19.709   16.371   0.00  0 96 A
+ATOM    88       C   CA ?  ALA    Axp 88 ?    2.695   17.824   19.669   0.00  0 88 A
+ATOM    16       C   CA ?  ALA    Axp 16 ?    0.851   10.482   19.296   0.00  0 16 A
+ATOM    83       C   CA ?  ALA    Axp 83 ?    6.701   11.670   19.347   0.00  0 83 A
+ATOM    22       C   CA ?  ALA    Axp 22 ?    4.988   13.016   11.338   0.00  0 22 A
+ATOM    13       C   CA ?  ALA    Axp 13 ?    7.055   14.220   17.949   0.00  0 13 A
+ATOM    67       C   CA ?  ALA    Axp 67 ?    7.226   13.720   19.827   0.00  0 67 A
+# 

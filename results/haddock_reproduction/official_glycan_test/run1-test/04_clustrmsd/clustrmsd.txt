@@ -1,0 +1,52 @@
+### clustrmsd output ###
+
+Clustering parameters 
+> linkage_type=average
+> criterion=maxclust
+> n_clusters=4
+> min_population=4
+
+-----------------------------------------------
+
+Total # of clusters: 4
+
+-----------------------------------------------
+Cluster 1 (#2, n=4, top4_avg_score = -37.76)
+
+clt_rank	model_name	score
+1	rigidbody_3.pdb	-42.30
+2	rigidbody_12.pdb	-39.37
+3	rigidbody_9.pdb	-36.52
+4	rigidbody_13.pdb	-32.85	*
+
+-----------------------------------------------
+Cluster 2 (#1, n=13, top4_avg_score = -35.60)
+
+clt_rank	model_name	score
+1	rigidbody_8.pdb	-36.58	*
+2	rigidbody_5.pdb	-35.62
+3	rigidbody_1.pdb	-35.10
+4	rigidbody_17.pdb	-35.09
+5	rigidbody_15.pdb	-34.23
+6	rigidbody_2.pdb	-33.99
+7	rigidbody_19.pdb	-33.09
+8	rigidbody_10.pdb	-32.60
+9	rigidbody_7.pdb	-32.53
+10	rigidbody_11.pdb	-29.48
+11	rigidbody_4.pdb	-23.64
+12	rigidbody_6.pdb	-23.42
+13	rigidbody_14.pdb	-14.86
+
+-----------------------------------------------
+Cluster 3 (#4, n=1, top4_avg_score = -33.03)
+
+clt_rank	model_name	score
+1	rigidbody_16.pdb	-33.03	*
+
+-----------------------------------------------
+Cluster 4 (#3, n=2, top4_avg_score = -23.08)
+
+clt_rank	model_name	score
+1	rigidbody_20.pdb	-23.93
+2	rigidbody_18.pdb	-22.23	*
+-----------------------------------------------

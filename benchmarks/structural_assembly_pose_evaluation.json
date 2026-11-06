@@ -1,0 +1,220 @@
+{
+  "assembly_conditions": [
+    {
+      "case_id": "3ZWE",
+      "condition_id": "strict_monomer/3ZWE/fpocket/box01",
+      "method": "fpocket",
+      "modern_runs": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/fpocket/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/fpocket/prepared/condition.json",
+        "sha256": "447136b29a284c8b15631a1f96fb08231f321373860866129a66d25ef861f4bd"
+      },
+      "profile": "strict_monomer"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_id": "strict_monomer/3ZWE/p2rank/box01",
+      "method": "p2rank",
+      "modern_runs": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/p2rank/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/p2rank/prepared/condition.json",
+        "sha256": "7b4be11c80d2942b4e20f63a271c1866053cb18acc40cb9b61fd10f28012ea6e"
+      },
+      "profile": "strict_monomer"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_id": "strict_monomer/3ZWE/oracle/box01",
+      "method": "oracle",
+      "modern_runs": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/oracle/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/oracle/prepared/condition.json",
+        "sha256": "ff1a3dcb358d710fdd7651fa1f17b14fae882877b37e8a4913fdc4b091c171f6"
+      },
+      "profile": "strict_monomer"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "strict_monomer/5HZA/fpocket/box01",
+      "method": "fpocket",
+      "modern_runs": "results/structural_assembly_pose_v3/strict_monomer/5HZA/fpocket/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/strict_monomer/5HZA/fpocket/prepared/condition.json",
+        "sha256": "21e2c9bf13a694bdbfbecb8649b3254a44631d121e826418a39fdc7fc4d18ee4"
+      },
+      "profile": "strict_monomer"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "strict_monomer/5HZA/p2rank/box01",
+      "method": "p2rank",
+      "modern_runs": "results/structural_assembly_pose_v3/strict_monomer/5HZA/p2rank/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/strict_monomer/5HZA/p2rank/prepared/condition.json",
+        "sha256": "272826a6b9fd43edbb94bc94b8a414e91603f89ff562f0579c57b22900099edf"
+      },
+      "profile": "strict_monomer"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "strict_monomer/5HZA/oracle/box01",
+      "method": "oracle",
+      "modern_runs": "results/structural_assembly_pose_v3/strict_monomer/5HZA/oracle/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/strict_monomer/5HZA/oracle/prepared/condition.json",
+        "sha256": "225ce4e21fd9dd3d6c231e0e30c059bf7f00140678d0708f10e2e7394f0aea13"
+      },
+      "profile": "strict_monomer"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_id": "repair_monomer/3ZWE/fpocket/box01",
+      "method": "fpocket",
+      "modern_runs": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/fpocket/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/fpocket/prepared/condition.json",
+        "sha256": "e9a5be16c053d346c8c4c0af12a4930c9ff7edb7a260279a5970db67e135b9b4"
+      },
+      "profile": "repair_monomer"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_id": "repair_monomer/3ZWE/p2rank/box01",
+      "method": "p2rank",
+      "modern_runs": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/p2rank/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/p2rank/prepared/condition.json",
+        "sha256": "aa8b9e3962aa79a381062cbc95aafdf2a6dae2bcbef0921340d544dd5344033b"
+      },
+      "profile": "repair_monomer"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_id": "repair_monomer/3ZWE/oracle/box01",
+      "method": "oracle",
+      "modern_runs": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/oracle/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/oracle/prepared/condition.json",
+        "sha256": "5e6efee762f2c1fddc638816a3fb875bfb2f087bc120c8e8bc668db72d64dc68"
+      },
+      "profile": "repair_monomer"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "repair_monomer/5HZA/fpocket/box01",
+      "method": "fpocket",
+      "modern_runs": "results/structural_assembly_pose_v3/repair_monomer/5HZA/fpocket/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/repair_monomer/5HZA/fpocket/prepared/condition.json",
+        "sha256": "70f535c493c662e1aaa9cc757f52d27ad6943525fade64bcc2c0eda3bb5d98ce"
+      },
+      "profile": "repair_monomer"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "repair_monomer/5HZA/p2rank/box01",
+      "method": "p2rank",
+      "modern_runs": "results/structural_assembly_pose_v3/repair_monomer/5HZA/p2rank/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/repair_monomer/5HZA/p2rank/prepared/condition.json",
+        "sha256": "f1254acca7f1c61d4753ca43b7b053d3eee6328aa68fd61f8d5bf6463fcf1b2b"
+      },
+      "profile": "repair_monomer"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_id": "repair_monomer/5HZA/oracle/box01",
+      "method": "oracle",
+      "modern_runs": "results/structural_assembly_pose_v3/repair_monomer/5HZA/oracle/vina/box01/runs.json",
+      "preparation": {
+        "path": "results/structural_assembly_pose_v3/repair_monomer/5HZA/oracle/prepared/condition.json",
+        "sha256": "a28c99430ec2804a46a3d15eb8f584c9430db406c0813044d643a84eab00a407"
+      },
+      "profile": "repair_monomer"
+    }
+  ],
+  "assembly_configuration": {
+    "path": "benchmarks/structural_assembly_pose_v3_experiment.json",
+    "sha256": "f249e3e542fa5bb4fb4e8ab00d9f7752cb2b8959bf0303409cd783291da22062"
+  },
+  "assembly_freeze": {
+    "path": "results/structural_assembly_pose_v3/freeze_receipt.json",
+    "sha256": "2415d2b73099fca3eb3edb1ce6b9422e1c84f18366e1745e75755a95d8c71820"
+  },
+  "assembly_preparation_index": {
+    "path": "results/structural_assembly_pose_v3/prepared_conditions.json",
+    "sha256": "59a7501bf8221ecc67af95045530d1ace490ed4b790a207b032a04c60e183f5c"
+  },
+  "case_ids": [
+    "3ZWE",
+    "5HZA"
+  ],
+  "full_configuration": {
+    "path": "benchmarks/structural_pose_v3_experiment.json",
+    "sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d"
+  },
+  "full_freeze": {
+    "path": "results/structural_pose_v3/freeze_receipt.json",
+    "sha256": "b66933340080ccf3782151cb7752d98a6f0af9a81724d4c98c70019665688020"
+  },
+  "full_prepared_inputs": {
+    "path": "results/structural_pose_v3/vina_carb_prepared_inputs.json",
+    "sha256": "0dc9e3975d5451d3e21b2f474b7218ecf4d82e110e197fab95630bb13c22579b"
+  },
+  "full_source_profiles": {
+    "repair": "modeled_sidechain_CCD_ideal",
+    "strict": "strict_CCD_ideal"
+  },
+  "methods": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "metric_code_sha256": {
+    "aav_benchmark/additional_method.py": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd",
+    "aav_benchmark/assembly_control_report.py": "869f9e11f373458b9020d675db5a69f6d34b48c8b151149d8f453630fb3d3876",
+    "aav_benchmark/heldout_pose_report.py": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c",
+    "aav_benchmark/heldout_reference.py": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28",
+    "aav_benchmark/metrics.py": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec",
+    "aav_benchmark/paired_method_report.py": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe",
+    "aav_benchmark/provenance.py": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f",
+    "aav_benchmark/public_source_replay.py": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943",
+    "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+    "aav_benchmark/statistics.py": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e"
+  },
+  "paired_evaluation_freeze": {
+    "path": "results/structural_pose_v3/paired_evaluation_v2_freeze.json",
+    "sha256": "19f45adee79d3dbedcd8b788985e0f0770a55a212bbe51f9deb2a8f38edb15c0"
+  },
+  "paired_evaluation_plan": {
+    "path": "benchmarks/structural_paired_method_evaluation_v2.json",
+    "sha256": "4922b83f6e28b221900bac1ee0b52fd6e8056f97e245c277bbd71ca28f4e807e"
+  },
+  "pairing_center_policy": {
+    "oracle_full_vs_monomer": "same_full_native_parent_center",
+    "predicted_full_vs_monomer": "end_to_end_workflow_allow_predictor_centers_to_change",
+    "strict_vs_repair_within_assembly": "exact_same_candidate_center_and_rank"
+  },
+  "profile_pairs": {
+    "repair_monomer": "repair",
+    "strict_monomer": "strict"
+  },
+  "public_source_distribution": {
+    "path": "benchmarks/source_public_distribution.json",
+    "sha256": "0f3e9816f8edc1194033a3456c44c2766e01a48617c032eb0a0f3a105813c43e"
+  },
+  "reference_evaluation_freeze": {
+    "path": "results/structural_pose_v3/reference_evaluation_freeze.json",
+    "sha256": "3a7818958771715d0251adf0706d6dea887059675797f48c50201e3a4c4cbb3b"
+  },
+  "reference_evaluation_plan": {
+    "path": "benchmarks/structural_pose_reference_evaluation.json",
+    "sha256": "1c96e8822c85f9b4f215a606271ce69affcd155e3e95dc4d137247f171c6f596"
+  },
+  "schema_version": 1,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ]
+}

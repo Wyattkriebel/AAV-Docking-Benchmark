@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "serialization_revision": 2,
+  "metadata_scope_only": true,
+  "source_receptor_sha256": "2d982dd529503a69a9a0718c85d16ea02bec0df02b260cbd337493866f9ce554",
+  "receptor_sha256": "3d50da533b7366e24c38f685f723be884575c71a049e27bd77c9b4fea22ba743",
+  "source_receptor": "results/structural_serialization_probe/synthetic100_original.cif",
+  "receptor": "results/structural_serialization_probe/synthetic100_v2.cif",
+  "serialization_sequence": "observed residue names only; not full unresolved construct",
+  "entity_count": 2,
+  "chains": [
+    {
+      "author_chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "observed_residue_count": 12,
+      "observed_residue_names": [
+        "MSE",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY"
+      ]
+    },
+    {
+      "author_chain": "B",
+      "label_asym_id": "B",
+      "entity_id": "2",
+      "observed_residue_count": 12,
+      "observed_residue_names": [
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY",
+        "GLY"
+      ]
+    }
+  ],
+  "terminal_CIF_comment_delimiter": true,
+  "changed_categories": [
+    "_atom_site.label_asym_id",
+    "_atom_site.label_entity_id",
+    "_atom_site.label_seq_id",
+    "_entity.",
+    "_entity_poly.",
+    "_entity_poly_seq.",
+    "_pdbx_poly_seq_scheme.",
+    "_struct_asym."
+  ],
+  "reason": "numeric polymer entities and complete observed subchain/label sequence metadata for BioJava; terminal atom-loop comment for fpocket/VMD",
+  "native_ligand_coordinate_access": false,
+  "chemical_identity_or_geometry_changed": false,
+  "gemmi_version": "0.7.5",
+  "atom_count": 100,
+  "author_atom_identities_unchanged": true,
+  "elements_unchanged": true,
+  "coordinates_exactly_unchanged": true,
+  "occupancies_exactly_unchanged": true,
+  "B_factors_exactly_unchanged": true,
+  "all_nonlabel_atom_fields_exactly_unchanged": true,
+  "max_coordinate_displacement_A": 0.0,
+  "atom_field_change_counts": {
+    "label_seq_id": 100,
+    "label_entity_id": 100,
+    "label_asym_id": 0
+  },
+  "protected_atom_semantics_sha256": "6241a29de0affa8053442f90831c19bcc98e14c2a363956f383ed3d8e684b4e5"
+}

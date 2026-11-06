@@ -1,0 +1,60 @@
+{
+  "AAV_atomic_scope": "AAV cases have no qualified atomic reference in this experiment; correction does not earn one",
+  "affected_box_keys": [
+    "aav9_apo/oracle/box01",
+    "aav9_apo/p2rank/box03",
+    "aav9_holo/p2rank/box05"
+  ],
+  "authoritative_cutoff_sources": [
+    {
+      "archive": "results/blind_pose_neighborhood8/software/scoring_function.h",
+      "bytes": 5714,
+      "license": "Apache-2.0 copyright notice preserved in source",
+      "sha256": "c982b04d140aa1a349213172d34224f0aa6c9d79f96a6afa109a547a001d6c1f",
+      "url": "https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/v1.2.7/src/lib/scoring_function.h",
+      "version": "AutoDock Vina v1.2.7"
+    },
+    {
+      "archive": "results/blind_pose_neighborhood8/software/potentials.h",
+      "bytes": 16464,
+      "license": "Apache-2.0 copyright notice preserved in source",
+      "sha256": "ceb6625eaa0a2278193b11e22d0565f854f35442e9a5ee97bed2cc84a0d194a4",
+      "url": "https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/v1.2.7/src/lib/potentials.h",
+      "version": "AutoDock Vina v1.2.7"
+    }
+  ],
+  "changed_setting": "whole-chain coverage margin only, 6 to8 A; no source heavy-atom repair",
+  "corrected_box_count": 3,
+  "corrected_standard_nonbonded_cutoff_A": 8.0,
+  "correction_selection": "Every legacy prepared box whose 6 A selected-chain set differs from its 8 A set; source geometry only",
+  "execution_gate": "Preparation/preflight allowed now. Start corrected docking only after coordinator grants a CPU slot; no launch is performed by freeze or prepare commands.",
+  "freeze_date": "2026-11-03",
+  "frozen_before_corrected_docking": true,
+  "legacy_configuration": "benchmarks/blind_pose_experiment.json",
+  "legacy_configuration_sha256": "59908e56e26157c153afa6cd76d265a578242ca8d8a1fa3850720d01f224e634",
+  "legacy_coverage_audit": "results/blind_pose/neighborhood_coverage_audit.json",
+  "legacy_coverage_audit_sha256": "846252abbbebf35814e6f3b3c645413861b7d366236d5e95904bdac270e2ccca",
+  "legacy_cutoff_A": 6.0,
+  "legacy_preservation": "Existing configuration, inputs, raw runs and outcomes remain unchanged; corrections use separate processed/result trees",
+  "new_AAV_accuracy_outcomes_consulted": false,
+  "planned_run_count": 9,
+  "planned_seed_count": 3,
+  "preserved_settings": [
+    "independently embedded ligand bytes",
+    "box center",
+    "box dimensions",
+    "candidate ranks",
+    "protein-only dry rigid model",
+    "seeds104729/130363/155921",
+    "cpu2",
+    "exhaustiveness16",
+    "num_modes20",
+    "min_rmsd0.5",
+    "energy_range10"
+  ],
+  "primary_atomic_external_effect": "All40 prepared non-AAV boxes retain whole source receptors and their chain sets do not change; this repair cannot alter those inputs",
+  "rule": "Retain each complete archived source protein chain with any heavy atom at distance <=8 A from the closed search box",
+  "schema_version": 1,
+  "scope": "Development receptor-neighborhood geometry correction and paired sensitivity; not an untouched confirmatory study",
+  "untouched_future_workflow": "Use standard8 A coverage before first freeze of any new untouched workflow"
+}

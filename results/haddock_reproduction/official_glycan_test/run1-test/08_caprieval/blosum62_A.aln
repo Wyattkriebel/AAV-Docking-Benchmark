@@ -1,0 +1,11 @@
+target            0 KVYDRCELARALKASGMDGYAGNSLPNWVCLSKWESSYNTQATNRNTDGSTDYGIFQINS
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 KVYDRCELARALKASGMDGYAGNSLPNWVCLSKWESSYNTQATNRNTDGSTDYGIFQINS
+
+target           60 RYWCDDGRTPGAKNVCGIRCSQLLTDDLTVAIRCAKRVVLDPNGIGAWVAWRLHCQNQDL
+                 60 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query            60 RYWCDDGRTPGAKNVCGIRCSQLLTDDLTVAIRCAKRVVLDPNGIGAWVAWRLHCQNQDL
+
+target          120 RSYVAGCGV 129
+                120 ||||||||| 129
+query           120 RSYVAGCGV 129

@@ -1,0 +1,60 @@
+***** POCKET HUNTING BEGINS ***** 
+! Invalid pdb name given.
+
+:||: [1mfpocket 4.0[0m :||:
+        
+[1mMandatory parameters[0m : 
+	fpocket -f --file pdb or cif file                                      
+	[ fpocket -F --fileList fileList ]                                  
+
+
+[1mOptional output parameters[0m
+	-x --calculate_interaction_grids	: Specify this flag if you want fpocket to     
+						  calculate VdW and Coulomb grids for each pocket
+	-d --pocket_descr_stdout		: Put this flag if you want to write fpocket
+						  descriptors to the standard output
+
+
+[1mOptional input parameters[0m
+	-l --model_number (int)			: Number of Model to analyze.	
+	-y --topology_file (string)		: File name of a topology file (Amber prmtop).	
+	-r --custom_ligand (string)		: String specifying a ligand like: 
+						  residuenumber:residuename:chain_code (ie. 1224:PU8:A).	
+	-P --custom_pocket (string)		: String specifying a pocket like: 
+						  residuenumber1:insertion_code1('-' if empty):chain_code1.residuenumber2:insertion_code2:chain_code2 (ie. 138:-:A.139:-:A).	
+	-u --min_n_explicit_pocket (int)	: If explicit pocket provided, minimum number 
+						  of atoms of an alpha sphere that have to be in the selected pocket.	
+	-a --chain_as_ligand (char)		: Character specifying a chain as a ligand	
+
+
+[1mOptional pocket detection parameters[0m (default parameters)           
+	-m --min_alpha_size (float)		: Minimum radius of an alpha-sphere.	(3.4)
+	-M --max_alpha_size (float)		: Maximum radius of an alpha-sphere.	(6.2)
+	-D --clustering_distance (float)	: Distance threshold for clustering algorithm	(2.4)
+	-C --clustering_method (char)		: Specify the clustering method wanted for     
+						  grouping voronoi vertices together (s)
+						  s : single linkage clustering
+						  m : complete linkage clustering
+						  a : average linkage clustering 
+						  c : centroid linkage clustering
+	-e --clustering_measure (char)		: Specify the distance measure for clustering	(e) 
+						  e : euclidean distance
+						  b : Manhattan distance
+	-i --min_spheres_per_pocket (int)	: Minimum number of a-sphere per pocket.	(15)
+	-p --ratio_apol_spheres_pocket (float)	: Minimum proportion of apolar sphere in       
+						  a pocket (remove otherwise) (0.0)
+	-A --number_apol_asph_pocket (int)	: Minimum number of apolar neighbor for        
+						  an a-sphere to be considered as apolar.   (3)
+	-v --iterations_volume_mc (integer)	: Number of Monte-Carlo iteration for the      
+						  calculation of each pocket volume.(300)
+	-c --drop_chains (char)			: Name of the chains to be deleted before pocket detection,      
+						  able to delete up to (20) chains (ie : -c A,B,E)
+	-k --keep_chains (char)			: Name of the chains to be kept before pocket detection,      
+						  able to keep up to (20) chains (ie : -k A,B,C,E)
+	-a --chain_as_ligand (char)		: consider this chain as a ligand explicitly (i.e. -a D)
+	-w --write_mode (char)			: Writing mode to be used after pocket detection,      
+						  d -> default (same format outpout as input)
+						  b or both -> both pdb and mmcif | p or pdb ->pdb | m or cif or mmcif-> mmcif
+
+[1mFor more information: http://fpocket.sourceforge.net[0m
+***** POCKET HUNTING ENDS ***** 

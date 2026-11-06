@@ -1,0 +1,79 @@
+{
+  "actual_v2_report_generated": false,
+  "allowlist": {
+    "bytes": 491,
+    "path": "/tmp/aav-qualified-pose-v2-allowlist.json",
+    "sha256": "1c7f6704b9fff9f78d9ce6ecc68dd8b1146a35d4fec08206b72810133c52fd7e"
+  },
+  "amendment_example": {
+    "bytes": 1031,
+    "path": "/tmp/aav-qualified-pose-v2-amendment.example.json",
+    "sha256": "e259f992cc7d4932fdaef025248728de225fa1d3cdbbe52ceb7e99ddb66823c0"
+  },
+  "blocking_findings": [],
+  "candidate_files": [
+    {
+      "bytes": 55545,
+      "path": "aav_benchmark/qualified_pose_v2.py",
+      "sha256": "1c65a796e1ea14184add305c321ac9dcda6fdd38ad1de59f3a36092b8f71b48b"
+    },
+    {
+      "bytes": 2094,
+      "path": "scripts/regenerate_qualified_pose_v2_report.py",
+      "sha256": "a62f49931ecae628dd48ce57afd98a452a55aeebd85146675777fa05dda0cc1e"
+    },
+    {
+      "bytes": 17838,
+      "path": "tests/test_qualified_pose_v2.py",
+      "sha256": "851c73bb0d63bdf8f7939f97af641f7b76e8167c6681a9238d01ad46bc132cf4"
+    }
+  ],
+  "empirical_pose_accuracy_read_or_computed_in_this_source_review": false,
+  "frozen_source_or_plan_edits": false,
+  "minimal_diff": {
+    "bytes": 21032,
+    "path": "/tmp/aav-qualified-pose-v2-minimal.diff",
+    "sha256": "6242d0294afd3f000e96213d059985fc2bb0d0bb4e53c7e6aa24aa933059a8b6"
+  },
+  "native_calls": false,
+  "new_six_case_access": false,
+  "output_defaults": {
+    "markdown": "docs/QUALIFIED_BLIND_POSE_V2_RESULTS.md",
+    "summary": "results/development_pose_report_release/qualified_pose_v2_summary.json"
+  },
+  "reviewed_contracts": [
+    "Exact unique complete full-parent atom-name bijection; missing/extra/duplicate names, invalid finiteNx3 numeric arrays and unknown/duplicate boxes fail closed.",
+    "Permutation creates independent coordinate copies, performs no coordinate arithmetic, preserves all rank/score/box metadata, and is called once on each freshly pooled budget/seed; source rows remain unmodified.",
+    "Canonical full-parent names come from the original legacy reference, not the scored-core subset; all33 actual OLD input-label contracts pass without reading or computing pose accuracy.",
+    "Thirteen scientific AST nodes including graph/mask/stereo diagnostics, RMSD/contact scoring, fits, ranking and threshold summaries remain exact v1 ASTs.",
+    "Full156 terminal gate precedes amendment validation, native contexts and atom permutation; pending outputs contain no scientific accuracy.",
+    "Raw/canonical reference archive and plaintext hashes, name orders and exact permutations are retained per evaluated box.",
+    "Legacy independent SDF geometry baseline has explicit source/hash/exact_executed_box_PDBQT_baseline:false provenance per box/condition and honest report prose; geometry algorithms remain unchanged.",
+    "Required SHA-pinned implementation amendment binds this evaluator, original configuration/ledger and supersededc773 implementation, with strict true booleans and explicit after-invalid-v1-and-corrected-diagnostic timing.",
+    "Default outputs are new release-summary andV2Markdown paths outside original blind raw trees; no actualV2report was generated during review.",
+    "Unchanged701797 path comparator and a6340 core preserve exact copied scores/counts/IDs/coordinates/provenance/perm metadata; numeric tolerance applies only to approved derived paths."
+  ],
+  "reviewer": "/root/atomic_reference_audit",
+  "schema_version": 1,
+  "shared_staging_or_checkout": false,
+  "source_contract_proof": {
+    "bytes": 6882,
+    "path": "/tmp/aav-qualified-pose-v2-source-contract-review.json",
+    "sha256": "cac6302e56c7f1ec1fdd21b7af5bacd8b539232ad3d69a17b78cc780d5e19630"
+  },
+  "status": "independent_source_review_passed_no_blocking_findings",
+  "synthetic_metric_math_executed": true,
+  "synthetic_tests": {
+    "command": ".venv/bin/python -m pytest -q tests/test_qualified_pose_v2.py tests/test_development_report_replay.py",
+    "failed": 0,
+    "observed_seconds": 1.35,
+    "passed": 70,
+    "skipped": 0
+  },
+  "unchanged_source_pins": {
+    "aav_benchmark/development_report_replay.py": "701797cb8492fbc39b2b18dc5f0e7b26b2b9680c269b574bc97ad0cb45dd5b99",
+    "aav_benchmark/qualified_pose.py": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+    "aav_benchmark/report_replay.py": "a6340ec4779fa546eb5673fecaca7b976415b78dbdfb1804b1b3c55c8f2bb048",
+    "scripts/regenerate_blind_pose_report.py": "c9c16d43ff726c8a54ac774a1065382c8d033c4ef8577e3140f605790e17e4a3"
+  }
+}

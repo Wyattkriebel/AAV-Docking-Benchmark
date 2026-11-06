@@ -1,0 +1,542 @@
+[
+  {
+    "pdb_id": "2RDK",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/2RDK-sf.cif",
+    "archive": "data/archive/heldout_reference/2rdk-sf.cif",
+    "bytes": 3308747,
+    "sha256": "dd29befaf60c441bebf54169608b655a0c48ae2d6cdfa3aa1a6179fc3957bc2c",
+    "retrieved_at": "2026-11-03T15:27:25.520225+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 19:57:43 GMT",
+      "ETag": "W/\"78f5b54c685cdf40f0636821a8533daf-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2RDK",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/rd/2rdk/2rdk_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2rdk_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 656755,
+    "sha256": "86b1a3f3992a36920e025d4a41190804155bd28cff130ac794366119db07287c",
+    "retrieved_at": "2026-11-03T15:27:23.996299+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 17:23:19 GMT",
+      "ETag": "\"a61e6ca329cd4d7523f68c80cc3e8887\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2RDK",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/rd/2rdk/2rdk_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2rdk_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 658395,
+    "sha256": "caf3af60e03815ca4ce71aa3d13d1b4f9f0a0c4b0e520a5b51b0039329455e40",
+    "retrieved_at": "2026-11-03T15:27:23.954737+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 17:23:19 GMT",
+      "ETag": "\"723981b59a3323487bbfd3aff6bfb89c\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "3ZWE",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/3ZWE-sf.cif",
+    "archive": "data/archive/heldout_reference/3zwe-sf.cif",
+    "bytes": 2318383,
+    "sha256": "b45fa262fcb1d636e04d979a68f16d628c656f9654dcddcb06533f234040e846",
+    "retrieved_at": "2026-11-03T15:27:25.228898+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 20:18:36 GMT",
+      "ETag": "W/\"695c21945829e622598b8cc9f3886e76-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "3ZWE",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/zw/3zwe/3zwe_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/3zwe_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 368604,
+    "sha256": "b1c3a09c7ebd6f26dfcf48241fb357a9a8791eed5d4bf061807eeaab23d6a7a1",
+    "retrieved_at": "2026-11-03T15:27:23.912566+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 19:15:38 GMT",
+      "ETag": "\"2edb75f1254f51abc7a0d7ba7620ef06\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "3ZWE",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/zw/3zwe/3zwe_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/3zwe_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 367717,
+    "sha256": "21240c5fb379a306850fc1d077a5c230973df9bff238ae4bbb15589d32dcfe55",
+    "retrieved_at": "2026-11-03T15:27:23.798424+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 19:15:38 GMT",
+      "ETag": "\"e25fa96648455f2b0dc9b1bb7d2bbebe\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "4R9F",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/4R9F-sf.cif",
+    "archive": "data/archive/heldout_reference/4r9f-sf.cif",
+    "bytes": 4153339,
+    "sha256": "0a21dd4fc352e9d81310d815a9b4defb15139140d223fb02683748a087e1e581",
+    "retrieved_at": "2026-11-03T15:27:26.860935+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 19:57:25 GMT",
+      "ETag": "W/\"25256ed5e56c229cdf2db4258d543a82-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "4R9F",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/r9/4r9f/4r9f_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/4r9f_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 1038367,
+    "sha256": "db9810dd510eb0da36f21f77e0cdfc2a84b7b131b03bd6759abd6e1b96772b64",
+    "retrieved_at": "2026-11-03T15:27:24.025661+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 17:21:46 GMT",
+      "ETag": "\"6131b41b2a7e96a04cc949c1eed0511d\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "4R9F",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/r9/4r9f/4r9f_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/4r9f_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 1042232,
+    "sha256": "71841848ae23a60b51122797bb40b2c2e4c468c00a531bd85f93695c42ecb981",
+    "retrieved_at": "2026-11-03T15:27:24.067689+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 17:21:46 GMT",
+      "ETag": "\"88b09201d706904a7190c7f3daea65cb\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5HZA",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/5HZA-sf.cif",
+    "archive": "data/archive/heldout_reference/5hza-sf.cif",
+    "bytes": 8709074,
+    "sha256": "957e963d02bdc37d48aaa3071ab7dd50ff63fc2b8f050e2a9ecf413c37ca498c",
+    "retrieved_at": "2026-11-03T15:27:25.221891+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 19:35:12 GMT",
+      "ETag": "W/\"25a112af459d148a07bfd32f60174b2e-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5HZA",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/hz/5hza/5hza_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/5hza_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 2224976,
+    "sha256": "96d0b862d1c0aafe6c7ed72c7808bf9b422ab5914dfa131b0b5599e7bc8b5c2c",
+    "retrieved_at": "2026-11-03T15:27:24.159478+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 15:07:57 GMT",
+      "ETag": "\"ddca7513deb9990f0af25961c07dd1a2\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5HZA",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/hz/5hza/5hza_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/5hza_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 2234530,
+    "sha256": "678b066f956ae74fbf5ed8ac7f661cb899a3c9ab2387faf6f87046d4610c43ce",
+    "retrieved_at": "2026-11-03T15:27:24.318047+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 15:07:57 GMT",
+      "ETag": "\"680c8bc25bc288589b60bbb127ff30c6\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5V6F",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/5V6F-sf.cif",
+    "archive": "data/archive/heldout_reference/5v6f-sf.cif",
+    "bytes": 686428,
+    "sha256": "12f3c9c94670457a7f18a152276344c9137acb11ad5c552494d93c0a703d8b62",
+    "retrieved_at": "2026-11-03T15:27:24.423517+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 20:07:41 GMT",
+      "ETag": "W/\"56d6a70ca552e430c5dba31d1f6403a7-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5V6F",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/v6/5v6f/5v6f_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/5v6f_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 284731,
+    "sha256": "ecfa187e2f6a31d2a9146df0e1288e27bb678514598503eed3cda04ec5a499f0",
+    "retrieved_at": "2026-11-03T15:27:24.286889+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 18:11:19 GMT",
+      "ETag": "\"3af1935bf130ad45703f735a6fd2930e\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5V6F",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/v6/5v6f/5v6f_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/5v6f_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 285617,
+    "sha256": "8dc9c2ab073c64a4623e30e417eca9d7c6f0e91bec8d9001091ba4cb9c46aadd",
+    "retrieved_at": "2026-11-03T15:27:24.358219+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 18:11:19 GMT",
+      "ETag": "\"ff3206a159b28c675a037a01d441a862\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "8I5U",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/8I5U-sf.cif",
+    "archive": "data/archive/heldout_reference/8i5u-sf.cif",
+    "bytes": 13784382,
+    "sha256": "0c141ce65c6867d206e8d29a6ad8f9d2c66e66d775515cea2c97c639c6fa90d3",
+    "retrieved_at": "2026-11-03T15:27:32.497447+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 19:35:45 GMT",
+      "ETag": "W/\"6a5fd39cdef9085c604c0a787ba7e714-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "8I5U",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/i5/8i5u/8i5u_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/8i5u_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 2347728,
+    "sha256": "438da0cbc21fa0a9c11b8c7f653d720b133fe5823ddc989ef8ddf07975a36490",
+    "retrieved_at": "2026-11-03T15:27:24.792421+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 15:10:56 GMT",
+      "ETag": "\"8bf2b95160d073da17111200dfb5968b\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "8I5U",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/i5/8i5u/8i5u_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/8i5u_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 2350689,
+    "sha256": "c57c5b509d27c0267bfec747bd8c4da7b051e03aab4a414db5a714437ee3a48b",
+    "retrieved_at": "2026-11-03T15:27:25.174707+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 15:10:56 GMT",
+      "ETag": "\"c422400c93838393dc29d6551c043472\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "1I3H",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/1I3H-sf.cif",
+    "archive": "data/archive/heldout_reference/1i3h-sf.cif",
+    "bytes": 4533243,
+    "sha256": "a05ee3fcb365fdb3d8e2d0f068a8b2a35554ded945db4d88c6c6b054c3d499aa",
+    "retrieved_at": "2026-11-03T15:27:26.846585+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 19:35:29 GMT",
+      "ETag": "W/\"20b1203a754df473f1a9462708f83492-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "1I3H",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/i3/1i3h/1i3h_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/1i3h_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 1205871,
+    "sha256": "b7065a2a965e79db82c67a1ec1a23b7404522a6abfc70b1d63a3e8e6d2dde599",
+    "retrieved_at": "2026-11-03T15:27:24.884253+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 15:09:33 GMT",
+      "ETag": "\"863ce59ccc4ffae2426b9e661425dfbb\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "1I3H",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/i3/1i3h/1i3h_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/1i3h_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 1198876,
+    "sha256": "a93eca4ddbc4aa71a9738c3021dca0ce08e4246b7c852449323cdc1523feae9d",
+    "retrieved_at": "2026-11-03T15:27:24.893712+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 15:09:33 GMT",
+      "ETag": "\"238e5eacba1cdbabbbff18dd26388d30\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2G7C",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/2G7C-sf.cif",
+    "archive": "data/archive/heldout_reference/2g7c-sf.cif",
+    "bytes": 1765026,
+    "sha256": "00491c6ac5c42aed89f430a38fccfbfd50b46352e030b6b934df1f5a89973dc3",
+    "retrieved_at": "2026-11-03T15:27:25.311198+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 19:29:30 GMT",
+      "ETag": "W/\"f0e2663778056722f1997756d4f38ab2-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2G7C",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/g7/2g7c/2g7c_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2g7c_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 666210,
+    "sha256": "4a0921be15950e161e0b9552c970cde82f8851bc454cf0dbdadc394687d07146",
+    "retrieved_at": "2026-11-03T15:27:25.162799+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 14:39:22 GMT",
+      "ETag": "\"0df3d3aa9ca145999745ca2dc6a5b9ff\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2G7C",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/g7/2g7c/2g7c_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2g7c_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 669248,
+    "sha256": "5332b448dd55a7bbc0a458213398c8b94e9ba74f6b2dd043dc071f9c5b95bcf4",
+    "retrieved_at": "2026-11-03T15:27:25.415756+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 14:39:22 GMT",
+      "ETag": "\"1be4c56e088dcd72e953e14400593c34\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2GUP",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/2GUP-sf.cif",
+    "archive": "data/archive/heldout_reference/2gup-sf.cif",
+    "bytes": 1627039,
+    "sha256": "a7413bd6a1c73d030c8897ac811e21a9a3665173e1547c2664d9a373cbe23ca7",
+    "retrieved_at": "2026-11-03T15:27:25.974851+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 19:31:22 GMT",
+      "ETag": "W/\"10b4f65bd9f76e0ddba2b5364baf29bf-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2GUP",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/gu/2gup/2gup_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2gup_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 355963,
+    "sha256": "5de771106a4cf26f7cf73092933db02d514f87ef8f0e996268a5978b4dba06af",
+    "retrieved_at": "2026-11-03T15:27:26.087143+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 14:49:17 GMT",
+      "ETag": "\"b813f98b7f7b8a20fb794058763ae5c8\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2GUP",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/gu/2gup/2gup_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2gup_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 355774,
+    "sha256": "1465a5334e0568ce5f03cc59cac4e19940a26b89e0353965b20165f2ce29cf72",
+    "retrieved_at": "2026-11-03T15:27:25.887627+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 14:49:17 GMT",
+      "ETag": "\"b58930bc0a82d60590a137544c8f707b\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2WAB",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/2WAB-sf.cif",
+    "archive": "data/archive/heldout_reference/2wab-sf.cif",
+    "bytes": 1567963,
+    "sha256": "8c46dd2380a78834029a43349739c4bda5070123f1b72bf372b1f459da890a9f",
+    "retrieved_at": "2026-11-03T15:27:26.078665+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 20:10:19 GMT",
+      "ETag": "W/\"d626809556e37ada45d6c08aeab54c36-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2WAB",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/wa/2wab/2wab_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2wab_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 396363,
+    "sha256": "f68d0155f9b9743f8b991d355e2b545bdc9c78933e289060c337e2d271815cae",
+    "retrieved_at": "2026-11-03T15:27:26.070070+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 18:26:06 GMT",
+      "ETag": "\"1ca9ca76ffbf02865650f3f666427299\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2WAB",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/wa/2wab/2wab_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2wab_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 398389,
+    "sha256": "b603fc1a7f22071ed79cb0f9b685e1c8a360c7c0c2bbe43eee44a759d90f9596",
+    "retrieved_at": "2026-11-03T15:27:26.093819+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 18:26:06 GMT",
+      "ETag": "\"d3be88e949ab5d1042ef9d6c301b9d0f\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2WNB",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/2WNB-sf.cif",
+    "archive": "data/archive/heldout_reference/2wnb-sf.cif",
+    "bytes": 2219221,
+    "sha256": "4fb5ecb61a6589f662f2869f7799c90b4e858b7bb3646d3fb72e8fd3e3325d26",
+    "retrieved_at": "2026-11-03T15:27:26.537010+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 20:11:12 GMT",
+      "ETag": "W/\"be84030009ccb4ca03ab432fcb3996e5-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2WNB",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/wn/2wnb/2wnb_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2wnb_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 603540,
+    "sha256": "c4b51dc3f5c65ad45f7802cc6ef44d936e99a5fb9e9f1ab7d0381bdb5f5f9e67",
+    "retrieved_at": "2026-11-03T15:27:26.266479+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 18:31:02 GMT",
+      "ETag": "\"a3795836b74a7f82b0f64c9f85ed8305\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2WNB",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/wn/2wnb/2wnb_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/2wnb_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 602376,
+    "sha256": "11caf683914321d6a7c3b232f50c8deaf1225cd5166845822d6854eb208a07e3",
+    "retrieved_at": "2026-11-03T15:27:26.448123+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 18:31:02 GMT",
+      "ETag": "\"921375f63b38238d91d01821dba025ae\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "3A2S",
+    "kind": "structure_factors",
+    "url": "https://files.rcsb.org/download/3A2S-sf.cif",
+    "archive": "data/archive/heldout_reference/3a2s-sf.cif",
+    "bytes": 992022,
+    "sha256": "e903f3a2d43a426554f249077ebeaea0f6c912fbb4827cba4958cd5fd9c10478",
+    "retrieved_at": "2026-11-03T15:27:26.843698+00:00",
+    "http_headers": {
+      "Content-Type": "chemical/x-cif",
+      "Last-Modified": "Thu, 25 Sep 2025 19:11:53 GMT",
+      "ETag": "W/\"859bee9eef92c8e5a8bdd8519c446d41-identity\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "3A2S",
+    "kind": "2fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/a2/3a2s/3a2s_validation_2fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/3a2s_validation_2fo-fc_map_coef.cif.gz",
+    "bytes": 320280,
+    "sha256": "de230c082af0feb598d766ded1ce74bd108f6d94b519d875aa55947919b31ea6",
+    "retrieved_at": "2026-11-03T15:27:26.454322+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 13:02:44 GMT",
+      "ETag": "\"b184b6898625646312061225c40a9dde\""
+    },
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "3A2S",
+    "kind": "fofc_coefficients",
+    "url": "https://files.rcsb.org/pub/pdb/validation_reports/a2/3a2s/3a2s_validation_fo-fc_map_coef.cif.gz",
+    "archive": "data/archive/heldout_reference/3a2s_validation_fo-fc_map_coef.cif.gz",
+    "bytes": 320509,
+    "sha256": "2650571e18105d890968e5f35171fffbe17c636677e57528ce5b2f18e707c433",
+    "retrieved_at": "2026-11-03T15:27:26.472710+00:00",
+    "http_headers": {
+      "Content-Type": "application/gzip",
+      "Last-Modified": "Sun, 26 Apr 2026 13:02:44 GMT",
+      "ETag": "\"aa0481f0510f8cc8f9d8bffafecc7877\""
+    },
+    "status": "retrieved"
+  }
+]

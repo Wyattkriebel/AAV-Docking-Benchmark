@@ -1,0 +1,23 @@
+{
+  "independent_fresh_export_and_hydration": true,
+  "native_executables_used": false,
+  "outputs": [
+    {
+      "bytes": 9900256,
+      "fresh_replay_bytes_identical": true,
+      "path": "results/blind_pose/qualified_pose_summary.json",
+      "sha256": "5643d7d0f39439f607129d815f68a5d4533a817ed4ba06ea003c252b57ea928d"
+    },
+    {
+      "bytes": 5532,
+      "fresh_replay_bytes_identical": true,
+      "path": "docs/QUALIFIED_BLIND_POSE_RESULTS.md",
+      "sha256": "08ada578c1b12ea677f513d96d28bb036a0c5d58345c7f2be716ed0dd0c7dfac"
+    }
+  ],
+  "processed_tree_absent": true,
+  "schema_version": 1,
+  "source_commit": "ffd02f67f3ac44632abf7d41f7c1ea31a47df211",
+  "tools_absent": true,
+  "workspace_plan_sha256": "ee507176476e89a68289c968dbb4c4405b849862591904ec0d2557632ee596a6"
+}

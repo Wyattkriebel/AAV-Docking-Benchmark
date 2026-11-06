@@ -1,0 +1,921 @@
+{
+  "all_other_prediction_fields": "exact equality, including scores, rank, IDs, footprints, counts and raw references",
+  "center_comparison_tolerance_A": 1e-10,
+  "corrected_completed_conditions": 16,
+  "corrected_method_conditions": [
+    {
+      "archive_sha256": "36d1416729044528faae80ac5ef8e5d83049a572abeec2c27f40886368c14cb7",
+      "artifact_count": 10,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "aav9_holo",
+      "error": "fpocket exited with status -5",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "805e04cbb8d1ced44c9855ac0976600ddb2b05baf1e5e99753b1c1402475ea3b",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 35,
+          "sha256": "7a4d49f34e56e08fbb20d838f540b78d552d1c3f91d3131e38aa314ebdbd3e45"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "9e030044914cbd77615383dfde607cc72b484467b44ac0c20a094c06209e0729",
+      "returncode": -5,
+      "source_record": "results/site_discovery/aav9_holo/fpocket_v2/execution.json",
+      "termination_signal": "SIGTRAP"
+    },
+    {
+      "archive_sha256": "0f4771faf53ec147d774ead0ad4ce5775bf556ae698d192e4ec915bf3063c9cb",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "aav9_holo",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "91bc482b74dc6598da209dc8558afd8ab75776a086c3ccc9f60999f321566fbe",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 96730,
+          "sha256": "fa059d6b7531ed876c802b1c0480361c8c9ac0b5e10889ac49de95c9ff61dbfd"
+        },
+        "stdout.log": {
+          "bytes": 655,
+          "sha256": "5c490c5846d732a53c8b7bd109d6d89e34fa5e171e206a793fc121e4a3e9252e"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 774,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "2ccb626b281bf4eaca1c65a56f9e1cbb23dd76a728f964f61bc2f22eec769a67",
+      "returncode": 0,
+      "source_record": "results/site_discovery/aav9_holo/p2rank/result.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "9d5ac562216ce1f81ead188dc070831b89d3ecd0867ff2c390444feb6e5dfbd0",
+      "artifact_count": 10,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "aav9_apo",
+      "error": "fpocket exited with status -5",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "8cbe96b02e8649cb29475cf6b6731d80bcf645d80ce2c8e9e9f98fcd89050abd",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 35,
+          "sha256": "7a4d49f34e56e08fbb20d838f540b78d552d1c3f91d3131e38aa314ebdbd3e45"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "5970d415a196d25820d9656700057a2cfdfdb82ba01fe9da35f49bf15a0bb903",
+      "returncode": -5,
+      "source_record": "results/site_discovery/aav9_apo/fpocket_v2/execution.json",
+      "termination_signal": "SIGTRAP"
+    },
+    {
+      "archive_sha256": "9732a03a468a409f642071ff0756653d54816cb7f2fba795e3a36c0cec1b30d5",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "aav9_apo",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "d14a8303713884e9b137b2fb0bdf4bf8332b1d07792196190c6069dbf46320b6",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 80517,
+          "sha256": "df5f75af85921401c67c9fce542dc5a9fbe41d733a51426c4bb0fd58c1c62c3c"
+        },
+        "stdout.log": {
+          "bytes": 654,
+          "sha256": "516e45ef1237e87920e83194fe549c039c18994ee19c1cec757c8e0f9b0f7f13"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 619,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "17af5267352cf7ecc092be3e112dcc7e0fd477e7a3348f40ff23e635d80d45aa",
+      "returncode": 0,
+      "source_record": "results/site_discovery/aav9_apo/p2rank/result.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "641786260cbf625ef5e32b69a36a81594958d8ab493e7384ce7989f895a7fd98",
+      "artifact_count": 21,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "154L",
+      "error": null,
+      "error_type": null,
+      "execution_status": "completed",
+      "input_sha256": "45d8afa1ad8a3ef8dfa91bef4059a093ba67ad51fffef40f7aa09f24071daa72",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 68,
+          "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 4,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "12e7b9311e6ef353ee6cf3be5c61eedfd1d8ab461527d16a57c7b976ad81994a",
+      "returncode": 0,
+      "source_record": "results/site_discovery/154L/fpocket_v2/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "01d48090604a809aa930ded1e57af532fb560fd554310d70e9f4018b6ba4a459",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "154L",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 2910,
+          "sha256": "f1868b678f43b94c2cdc89bc83643d73713a7bf3bcf3ebda7d6d6fa889c71f77"
+        },
+        "stdout.log": {
+          "bytes": 648,
+          "sha256": "d35af78bfb1446b20658e5394d67143608ae58e03db38ca6eb158c7593e04753"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 2,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "cf8b437a294e6a076669f96072756224e1702839784f82839243101c9e0272fd",
+      "returncode": 0,
+      "source_record": "results/site_discovery/154L/p2rank/result.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "414b7021c2ff20d34fcbea50c2ccd1afabf3bec7d99206f007414f1ef05ba0e4",
+      "artifact_count": 23,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "1GNY",
+      "error": null,
+      "error_type": null,
+      "execution_status": "completed",
+      "input_sha256": "0531ad29649a5fb8ee883232cb6513eab41564a5c01887af9a840e8e183b27c0",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 68,
+          "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 5,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "40d12147882d34592d65e25174ab27e30915eac737bcc875e580a6127e314815",
+      "returncode": 0,
+      "source_record": "results/site_discovery/1GNY/fpocket_v2/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "b565eb9945032f5158deeba242580323aa3f7086be8cb38d39019e29e421c237",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "1GNY",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "b316822409f4a5e31a016a076762c315d1595672b281bd7dfc83cab0f7b9ba5c",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 2810,
+          "sha256": "1e249f6efd96039068b017d4e8c98dbfe0fff6b408d0c7190534e8b5fb7aa3e5"
+        },
+        "stdout.log": {
+          "bytes": 648,
+          "sha256": "8f429d4d13358ea221ec8ae6955a4bb7af717e9344590d627136c130047b3a8a"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 1,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "87ab00b42900b79caa7dcaa30e102b9ffcaff28c8cba60f913e9586c6b7b5f51",
+      "returncode": 0,
+      "source_record": "results/site_discovery/1GNY/p2rank/result.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "9e72345dc7e39c5b990d6d875984fce15720621c2f941570ee6ddaddaeb52f73",
+      "artifact_count": 25,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "1KJL",
+      "error": null,
+      "error_type": null,
+      "execution_status": "completed",
+      "input_sha256": "13ee9a37a8e45f4b64c9ea51429f7f0a42a9283ec190d2ab0f42d89f9a189420",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 68,
+          "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 6,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "88e1e500d494eb50895b5f268e2cd0d146130d3492e5640a511456db882e182a",
+      "returncode": 0,
+      "source_record": "results/site_discovery/1KJL/fpocket_v2/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "e84acd697a672a31646df40315b96ceb910d77c3b9f7abf0ebf6bc0e6b6b87d2",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "1KJL",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "ec445fcd7c02ddf381772b6552e938948e4ae19572aeb92e393a1f9b16fde319",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 2791,
+          "sha256": "ec2963cf5a8253397e8a5e642329ba1034a22b15122d68b3e32bc2fd7033ba42"
+        },
+        "stdout.log": {
+          "bytes": 648,
+          "sha256": "4ca2e5d05f95c695f4e5cbbfbd1f3b49236b4efcb1136ced0b21575a1a6dc6cc"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 1,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "c8401efd7709c0a5a599cbe614753847686345a87f04ebe99f32cfb49fbf5553",
+      "returncode": 0,
+      "source_record": "results/site_discovery/1KJL/p2rank/result.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "cbe8dca943231ae42f0d9d6c681d90862d0b108884cf26e0d8911e3e978ed5bd",
+      "artifact_count": 25,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "1QFO",
+      "error": null,
+      "error_type": null,
+      "execution_status": "completed",
+      "input_sha256": "a31091d2d40a4da42acb01c2c54206876eaf455efb0d4b44615355e39b26ce6c",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 68,
+          "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 6,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "6071401d54a0f1ebf03cb4dd8e5d840d181141a5824316d39234f1b3d74dd65b",
+      "returncode": 0,
+      "source_record": "results/site_discovery/1QFO/fpocket_v2/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "1552818e0cf3b67e55fcf78589494224b566a6091a1af53e25d4cb004d2403f9",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "1QFO",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "601edbdb4d066203142ae57a21befdc7e6b2b3769794f855b9895a8be3073d19",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 2544,
+          "sha256": "e22b1b91923d53c2d49f0a66acf21188924d56fd6ee2cb08d980845f1fee8c8b"
+        },
+        "stdout.log": {
+          "bytes": 648,
+          "sha256": "a0b0ef8d4ca9b0f00cb6cc4018d460ed46b81fc0f7504578f06cceba0e23d609"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "92b2bfdc6b1e163fa69b721d7c93504f18e1fff9cce2a53f6f42c08e685a4d28",
+      "returncode": 0,
+      "source_record": "results/site_discovery/1QFO/p2rank/result.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "49ab8c9c35d0dd501530b10fcb3bf376a6532fff011c6050b4c61cab73a7ce26",
+      "artifact_count": 27,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "2J1T",
+      "error": null,
+      "error_type": null,
+      "execution_status": "completed",
+      "input_sha256": "4a3987987e78bd3ab84de832d4d132c913c2fe7db50c7d9ffcff54114e71ebd0",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 68,
+          "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 7,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "700d0d1bb0a1255df32254c3e6036945983b5d39035ca2eadc30b574b1dc7125",
+      "returncode": 0,
+      "source_record": "results/site_discovery/2J1T/fpocket_v2/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "51306f232e7d0be980b80eeadc2a704eafba46587aacb71cbb9dc3a85c5957f8",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "2J1T",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "bc59673399e50520c52962967d34925108c08086812b21ac93fa6fbc21fa6595",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 2701,
+          "sha256": "781adebea01b6105f7531b506dbf2f9b978bcce913ba598f2dfcb68a885027d9"
+        },
+        "stdout.log": {
+          "bytes": 648,
+          "sha256": "ff71d6b8183deb6399816079501f13d69761ba930944ce4db61dda06e4188bfb"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "7b267e2559876befe3b020f71900377f00e2f914b2ae63cf0474d1c7aa7804b2",
+      "returncode": 0,
+      "source_record": "results/site_discovery/2J1T/p2rank/result.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "76347a3e880cb27aad8dfa6edc1dcd157e4d2730d9bc26500bc0dfccf337aba3",
+      "artifact_count": 27,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "1PWB",
+      "error": null,
+      "error_type": null,
+      "execution_status": "completed",
+      "input_sha256": "3987c6017981da4b7cbf3b7138ce023993db2a8c5e39c431fc75991bcafa3312",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 68,
+          "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 7,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "38536cfa83a54dd8a2346ffd6e9cb45bbf608bdec2a4ae60226eb2f5d573c018",
+      "returncode": 0,
+      "source_record": "results/site_discovery/1PWB/fpocket_v2/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "4118427cf0550e3e0307814616d5fcae0b7bde38732d29f2710a36e2b9e66b46",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "1PWB",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "83a5f59625cd31c9df78008b7a4fde13681d624b5433ca37956d88372313e0eb",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 2795,
+          "sha256": "432d8fc635f7cecf30705d98388ac465c9b333155133122e064425defaff2487"
+        },
+        "stdout.log": {
+          "bytes": 648,
+          "sha256": "e586d329e30bf1eebed9d766019d180b98e3102836449751b163c88edab7655c"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 1,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "3f263b9b7cf160ed2a0a01496df93e377a7936abc7a13684e8b57ee091a78311",
+      "returncode": 0,
+      "source_record": "results/site_discovery/1PWB/p2rank/result.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "415a1d6be71dcd88177b5a94066df67180da2c9db2660e908ce49480cb971270",
+      "artifact_count": 19,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "2VUZ",
+      "error": null,
+      "error_type": null,
+      "execution_status": "completed",
+      "input_sha256": "fd8ed677edfbcf3e875cad73f94c81afbc91834032f831100e247ddfe27120cd",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout.log": {
+          "bytes": 68,
+          "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 3,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "e2f3ade990dd506d8df382b7dcb0a49ad63fce03c243750dc5f99218173edddb",
+      "returncode": 0,
+      "source_record": "results/site_discovery/2VUZ/fpocket_v2/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "d388c2a3b9b066906c3eef02818981f5f76cca49554f50a8cae17dae1d81679f",
+      "artifact_count": 7,
+      "attempt_role": "corrected_method_condition",
+      "condition_id": "2VUZ",
+      "error": null,
+      "error_type": null,
+      "execution_status": "ok",
+      "input_sha256": "2f2922aa6b23bd92844c2acff1dc57329969773f939531721a3e6f992eea564e",
+      "interpretation": "normalized candidates verified against raw output",
+      "logs": {
+        "stderr.log": {
+          "bytes": 2938,
+          "sha256": "c2ed86304088f9bcaae7c3a9af08d920d8ab82557da6e00a44f64adfb4a06c33"
+        },
+        "stdout.log": {
+          "bytes": 648,
+          "sha256": "dab8a6191feb009067a8c99468eaf418b2131709f90e23126d29151474e3046b"
+        }
+      },
+      "method": "p2rank",
+      "prediction_count": 2,
+      "raw_predictions_reparsed": true,
+      "record_sha256": "078b410a23f698841886450c60f5ca4d93922eda285c860f30ec92120b3f7abc",
+      "returncode": 0,
+      "source_record": "results/site_discovery/2VUZ/p2rank/result.json",
+      "termination_signal": null
+    }
+  ],
+  "corrected_workflow_failures": 2,
+  "eligible_conditions": 9,
+  "initial_CIF_reader_failures": [
+    {
+      "archive_sha256": "7915aaecedece0d347fb8604173e6e1efc4313b59b9fc35d0581415b57b83d3f",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "aav9_holo",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "91bc482b74dc6598da209dc8558afd8ab75776a086c3ccc9f60999f321566fbe",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "b2b8e4bf6cbdd7bfeb75ded4f78660a7304b76437ee97a68655ebd16fca211a9",
+      "returncode": 1,
+      "source_record": "results/site_discovery/aav9_holo/fpocket/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "8a65433b04e14c8b56be59ba0a739648125a78ef3d9574cfd2ef8bb92414d9f5",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "aav9_apo",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "d14a8303713884e9b137b2fb0bdf4bf8332b1d07792196190c6069dbf46320b6",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "134aea09e57742bcbbb46bbaec72f491b4c0241903683b1956eb52464d7d554d",
+      "returncode": 1,
+      "source_record": "results/site_discovery/aav9_apo/fpocket/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "ced469efa29c52b761401c20547bcbf517b026f69c78a54a27004292821134be",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "154L",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "88539d9837b6a915e1a14eda69e0a29726becc2134a1463e3063edd794d46f08",
+      "returncode": 1,
+      "source_record": "results/site_discovery/154L/fpocket/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "8a0bdd9bc141a89bc170d65a9a55307d8d19960641c5208cf4064aebf81e5295",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "1GNY",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "b316822409f4a5e31a016a076762c315d1595672b281bd7dfc83cab0f7b9ba5c",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "581802d900f3a7b615d0dd0ae1950dfb32659775f8b9ee8ab53927309ea74d48",
+      "returncode": 1,
+      "source_record": "results/site_discovery/1GNY/fpocket/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "2247ea8bdf338e1c2045e48ffe6cb40680e145ed42d36b0293e011b61d6a0e05",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "1KJL",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "ec445fcd7c02ddf381772b6552e938948e4ae19572aeb92e393a1f9b16fde319",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "e3fbb0363585a8e0c4cb0cc8d589ace7d16708d413216ddb6bd4233c593eba1d",
+      "returncode": 1,
+      "source_record": "results/site_discovery/1KJL/fpocket/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "68732677d131f6b50ab6bd2754d5d2599db2f958e2023585874839cf268cb257",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "1QFO",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "601edbdb4d066203142ae57a21befdc7e6b2b3769794f855b9895a8be3073d19",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "f3ea11ced54980e10c061c336e9393f2316318a8bf623286ebbe70bc99100ea7",
+      "returncode": 1,
+      "source_record": "results/site_discovery/1QFO/fpocket/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "e7c07d5186388ee1b8e2155855a4a2a96532591e489c8b5264fc02d71b79800a",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "2J1T",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "bc59673399e50520c52962967d34925108c08086812b21ac93fa6fbc21fa6595",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "c202e41766ad04c52590bdebf3833758c5ebf2fb7af9a48887e56e3a471959ab",
+      "returncode": 1,
+      "source_record": "results/site_discovery/2J1T/fpocket/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "cbf5d23961c5c77e8620bd8513281f9a626b9d8993e68c809a7c0af10d03b4a2",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "1PWB",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "83a5f59625cd31c9df78008b7a4fde13681d624b5433ca37956d88372313e0eb",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "bf4dba163b45161f6c033bdc546bb307ffc2af5d1d81772ecd1b387609ec536c",
+      "returncode": 1,
+      "source_record": "results/site_discovery/1PWB/fpocket/execution.json",
+      "termination_signal": null
+    },
+    {
+      "archive_sha256": "6c1d4cf58015e06444edf8b74b8ad4ef747f5aa4dc95aaf2a14362993c35adfe",
+      "artifact_count": 4,
+      "attempt_role": "initial_CIF_reader_failure",
+      "condition_id": "2VUZ",
+      "error": "fpocket exited with status 1",
+      "error_type": "RuntimeError",
+      "execution_status": "failed",
+      "input_sha256": "2f2922aa6b23bd92844c2acff1dc57329969773f939531721a3e6f992eea564e",
+      "interpretation": "preserved workflow failure; no negative-site biological inference",
+      "logs": {
+        "stderr.log": {
+          "bytes": 45,
+          "sha256": "d9565ec250dcb8dfe857176284348d59cfd53f517878fa9ffbd14c583518d6d1"
+        },
+        "stdout.log": {
+          "bytes": 105,
+          "sha256": "2bda3bebd8c2b0cca1b5ed0bd8f3abd6ecdfb088b08dd616f998b41b79bf7667"
+        }
+      },
+      "method": "fpocket",
+      "prediction_count": 0,
+      "raw_predictions_reparsed": false,
+      "record_sha256": "978b3900c243ffc3afb04b68e9513ed8390947888f7a578a6417013e7c84826d",
+      "returncode": 1,
+      "source_record": "results/site_discovery/2VUZ/fpocket/execution.json",
+      "termination_signal": null
+    }
+  ],
+  "inputs": [
+    {
+      "condition_id": "aav9_holo",
+      "corrected_sha256": "805e04cbb8d1ced44c9855ac0976600ddb2b05baf1e5e99753b1c1402475ea3b",
+      "original_sha256": "91bc482b74dc6598da209dc8558afd8ab75776a086c3ccc9f60999f321566fbe",
+      "protein_heavy_atoms": 247860,
+      "source_sha256": "680d2c5f39ed6f4899718f55f5f0891e4cd7fbfd1fce8e9f555f45b7de64d582"
+    },
+    {
+      "condition_id": "aav9_apo",
+      "corrected_sha256": "8cbe96b02e8649cb29475cf6b6731d80bcf645d80ce2c8e9e9f98fcd89050abd",
+      "original_sha256": "d14a8303713884e9b137b2fb0bdf4bf8332b1d07792196190c6069dbf46320b6",
+      "protein_heavy_atoms": 247860,
+      "source_sha256": "3ed60cbf0170dc8f6a7a79cec521ad0a81ca98d71b4c246e3b3ec654cf4108b2"
+    },
+    {
+      "condition_id": "154L",
+      "corrected_sha256": "45d8afa1ad8a3ef8dfa91bef4059a093ba67ad51fffef40f7aa09f24071daa72",
+      "original_sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7",
+      "protein_heavy_atoms": 1432,
+      "source_sha256": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b"
+    },
+    {
+      "condition_id": "1GNY",
+      "corrected_sha256": "0531ad29649a5fb8ee883232cb6513eab41564a5c01887af9a840e8e183b27c0",
+      "original_sha256": "b316822409f4a5e31a016a076762c315d1595672b281bd7dfc83cab0f7b9ba5c",
+      "protein_heavy_atoms": 1121,
+      "source_sha256": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf"
+    },
+    {
+      "condition_id": "1KJL",
+      "corrected_sha256": "13ee9a37a8e45f4b64c9ea51429f7f0a42a9283ec190d2ab0f42d89f9a189420",
+      "original_sha256": "ec445fcd7c02ddf381772b6552e938948e4ae19572aeb92e393a1f9b16fde319",
+      "protein_heavy_atoms": 1107,
+      "source_sha256": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae"
+    },
+    {
+      "condition_id": "1QFO",
+      "corrected_sha256": "a31091d2d40a4da42acb01c2c54206876eaf455efb0d4b44615355e39b26ce6c",
+      "original_sha256": "601edbdb4d066203142ae57a21befdc7e6b2b3769794f855b9895a8be3073d19",
+      "protein_heavy_atoms": 911,
+      "source_sha256": "c40a29bb1cca0e6c9e77c3f603afa8a5f774fa36acfc7026e38bd3aec758100a"
+    },
+    {
+      "condition_id": "2J1T",
+      "corrected_sha256": "4a3987987e78bd3ab84de832d4d132c913c2fe7db50c7d9ffcff54114e71ebd0",
+      "original_sha256": "bc59673399e50520c52962967d34925108c08086812b21ac93fa6fbc21fa6595",
+      "protein_heavy_atoms": 1073,
+      "source_sha256": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a"
+    },
+    {
+      "condition_id": "1PWB",
+      "corrected_sha256": "3987c6017981da4b7cbf3b7138ce023993db2a8c5e39c431fc75991bcafa3312",
+      "original_sha256": "83a5f59625cd31c9df78008b7a4fde13681d624b5433ca37956d88372313e0eb",
+      "protein_heavy_atoms": 1154,
+      "source_sha256": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce"
+    },
+    {
+      "condition_id": "2VUZ",
+      "corrected_sha256": "fd8ed677edfbcf3e875cad73f94c81afbc91834032f831100e247ddfe27120cd",
+      "original_sha256": "2f2922aa6b23bd92844c2acff1dc57329969773f939531721a3e6f992eea564e",
+      "protein_heavy_atoms": 989,
+      "source_sha256": "010940dec8054fd63b8fcbc514caf7d3ba89da552bf6e851642cdfc031eed845"
+    }
+  ],
+  "native_ligand_or_site_evaluation_access": false,
+  "parser_sha256": {
+    "fpocket": "244319d42bb57492cfbae1b704c85bb6f003447eb64a88651e5fd1c1755779b4",
+    "p2rank": "09626e040e0e176150b5d7944e274847796893aafaaf0122c43dc3df85d405e5"
+  },
+  "schema_version": 1,
+  "scientific_tools_executed": false,
+  "scope": "archive integrity and raw-to-normalized prediction replay; workflow failures are retained, not biological negatives",
+  "source_sha256": {
+    "benchmarks/p2rank.lock.json": "37d1206c9875bf090eb4115c9845acf0188bcb216e929735f5cddf8d96383160",
+    "benchmarks/site_experiment.json": "34471bf89037ead38f2180c5ccc353f1640e06313ff7320ee497ed890cff6c1c",
+    "benchmarks/site_methods.lock.json": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+    "results/site_discovery/154L/fpocket/execution.json": "88539d9837b6a915e1a14eda69e0a29726becc2134a1463e3063edd794d46f08",
+    "results/site_discovery/154L/fpocket/raw_archive.json": "37f13c319b4c15257369afb018c631b7b3f949c21e53bd38d83ac44bf6cbb064",
+    "results/site_discovery/154L/fpocket_v2/execution.json": "12e7b9311e6ef353ee6cf3be5c61eedfd1d8ab461527d16a57c7b976ad81994a",
+    "results/site_discovery/154L/fpocket_v2/raw_archive.json": "b9cdfa3aee229d9f556c352b599a9eedc7f88aa5e41c4da58fd80387688ca499",
+    "results/site_discovery/154L/inputs/manifest.json": "60d9ecf283403ef03946438e228784a0929165ebfc4ea548c954c99bc996daae",
+    "results/site_discovery/154L/p2rank/raw_archive.json": "02acf453b112e21fc6a20cc2bc51333a95e934907ac991178a93083fa3e5be46",
+    "results/site_discovery/154L/p2rank/result.json": "cf8b437a294e6a076669f96072756224e1702839784f82839243101c9e0272fd",
+    "results/site_discovery/1GNY/fpocket/execution.json": "581802d900f3a7b615d0dd0ae1950dfb32659775f8b9ee8ab53927309ea74d48",
+    "results/site_discovery/1GNY/fpocket/raw_archive.json": "6551f2064dc88317d806a97debb50adf6e77a382d45ae8e7740b73a6c4dfa468",
+    "results/site_discovery/1GNY/fpocket_v2/execution.json": "40d12147882d34592d65e25174ab27e30915eac737bcc875e580a6127e314815",
+    "results/site_discovery/1GNY/fpocket_v2/raw_archive.json": "de2a2b6f80f1dc3f3833d10af4b9734039d54197b93caabaf37e9aae5df2d75d",
+    "results/site_discovery/1GNY/inputs/manifest.json": "c126fbc3161c1d772f23080268321e0baf972645e7b60fae7b91bbca45cafa1b",
+    "results/site_discovery/1GNY/p2rank/raw_archive.json": "31a6bb9e8c866ff6a8199017facddb718da5b789595b65828691703ad2a7a3b8",
+    "results/site_discovery/1GNY/p2rank/result.json": "87ab00b42900b79caa7dcaa30e102b9ffcaff28c8cba60f913e9586c6b7b5f51",
+    "results/site_discovery/1KJL/fpocket/execution.json": "e3fbb0363585a8e0c4cb0cc8d589ace7d16708d413216ddb6bd4233c593eba1d",
+    "results/site_discovery/1KJL/fpocket/raw_archive.json": "940c79a11d19791d3c44c83ce9a233947c8b7d5bcd84d9c2964da7e1bc444c24",
+    "results/site_discovery/1KJL/fpocket_v2/execution.json": "88e1e500d494eb50895b5f268e2cd0d146130d3492e5640a511456db882e182a",
+    "results/site_discovery/1KJL/fpocket_v2/raw_archive.json": "7d3b69472085dd4c27c28646d725a4d5cb772b1b1713e07eaa9f44a05ba97de1",
+    "results/site_discovery/1KJL/inputs/manifest.json": "d940d7aeddb53254377f3ab882b1f2fc3e79d1dd4b4fba4793a1ad7c70379709",
+    "results/site_discovery/1KJL/p2rank/raw_archive.json": "55316caa41625ba88bd1f218bdc44de5101d14cd3eb9ade27ea3bed0debb7f8e",
+    "results/site_discovery/1KJL/p2rank/result.json": "c8401efd7709c0a5a599cbe614753847686345a87f04ebe99f32cfb49fbf5553",
+    "results/site_discovery/1PWB/fpocket/execution.json": "bf4dba163b45161f6c033bdc546bb307ffc2af5d1d81772ecd1b387609ec536c",
+    "results/site_discovery/1PWB/fpocket/raw_archive.json": "c2d32ad331dcc78faf1de918a55ac88514bce4310799acc8261a5b2df2cc5df6",
+    "results/site_discovery/1PWB/fpocket_v2/execution.json": "38536cfa83a54dd8a2346ffd6e9cb45bbf608bdec2a4ae60226eb2f5d573c018",
+    "results/site_discovery/1PWB/fpocket_v2/raw_archive.json": "7cb41743666874badb6d3f89dc8fba0899cd3ec52d68a2e89a0bca2dfdd885d1",
+    "results/site_discovery/1PWB/inputs/manifest.json": "ed9febd5b8cdad1bcf9ecdff3fc7bf671cdaeeaa3bc087be1bd57fbfc18c6228",
+    "results/site_discovery/1PWB/p2rank/raw_archive.json": "8c373f8456a8cb869a6165b557bc29c84450a7aed05a76bb9edc6efa0fad2511",
+    "results/site_discovery/1PWB/p2rank/result.json": "3f263b9b7cf160ed2a0a01496df93e377a7936abc7a13684e8b57ee091a78311",
+    "results/site_discovery/1QFO/fpocket/execution.json": "f3ea11ced54980e10c061c336e9393f2316318a8bf623286ebbe70bc99100ea7",
+    "results/site_discovery/1QFO/fpocket/raw_archive.json": "98394169b37ac0f5b4126d174cf63cf3646cf00e2c04daaf4a5080a4c6ce08ff",
+    "results/site_discovery/1QFO/fpocket_v2/execution.json": "6071401d54a0f1ebf03cb4dd8e5d840d181141a5824316d39234f1b3d74dd65b",
+    "results/site_discovery/1QFO/fpocket_v2/raw_archive.json": "36cfc368ce2212487ad7244bd293f3d0782dbb3072007c4d83b0c09b741288f9",
+    "results/site_discovery/1QFO/inputs/manifest.json": "7683381bf5dee53ed8f98d6467d7840b0e3f93a96660b70e5a792de6494f205b",
+    "results/site_discovery/1QFO/p2rank/raw_archive.json": "0164b920b5f4b5b0465c191928924c98e5f9704db9d0d844e13530a14aaf270e",
+    "results/site_discovery/1QFO/p2rank/result.json": "92b2bfdc6b1e163fa69b721d7c93504f18e1fff9cce2a53f6f42c08e685a4d28",
+    "results/site_discovery/2J1T/fpocket/execution.json": "c202e41766ad04c52590bdebf3833758c5ebf2fb7af9a48887e56e3a471959ab",
+    "results/site_discovery/2J1T/fpocket/raw_archive.json": "78ad384e155b03bffdbbdbb65db956c2c7e8d41987054a86ac38b2297398f51b",
+    "results/site_discovery/2J1T/fpocket_v2/execution.json": "700d0d1bb0a1255df32254c3e6036945983b5d39035ca2eadc30b574b1dc7125",
+    "results/site_discovery/2J1T/fpocket_v2/raw_archive.json": "490943440c20f1336cf669620919651055642ae3958e0feab6af33b9c81e4e6c",
+    "results/site_discovery/2J1T/inputs/manifest.json": "5f5074376f0a03d6d6aa61b5339421a448afc4df4730493a1d29f1075c7d192a",
+    "results/site_discovery/2J1T/p2rank/raw_archive.json": "01e2cc3a5592a5d3066fa6a62e9cb080e0f19868df95f69e4760be749c58ee34",
+    "results/site_discovery/2J1T/p2rank/result.json": "7b267e2559876befe3b020f71900377f00e2f914b2ae63cf0474d1c7aa7804b2",
+    "results/site_discovery/2VUZ/fpocket/execution.json": "978b3900c243ffc3afb04b68e9513ed8390947888f7a578a6417013e7c84826d",
+    "results/site_discovery/2VUZ/fpocket/raw_archive.json": "be1a1c3e1d1d7a98566137e3310fd071fbc44221866eb71d063dad15fd4f52b9",
+    "results/site_discovery/2VUZ/fpocket_v2/execution.json": "e2f3ade990dd506d8df382b7dcb0a49ad63fce03c243750dc5f99218173edddb",
+    "results/site_discovery/2VUZ/fpocket_v2/raw_archive.json": "ed719bf520bad5c13d482b2035f2ea9ef50ce2c9f9b3764f5b9865af8ab202e3",
+    "results/site_discovery/2VUZ/inputs/manifest.json": "0e6e50b57490c184e78a236569aacda8db088b7ce1acd4c42f7b7a4fca07c885",
+    "results/site_discovery/2VUZ/p2rank/raw_archive.json": "8e307b110f9810fcf6ebbf903db2512275095e4186ba2fa0cbf3cdfc983cf9f2",
+    "results/site_discovery/2VUZ/p2rank/result.json": "078b410a23f698841886450c60f5ca4d93922eda285c860f30ec92120b3f7abc",
+    "results/site_discovery/aav9_apo/fpocket/execution.json": "134aea09e57742bcbbb46bbaec72f491b4c0241903683b1956eb52464d7d554d",
+    "results/site_discovery/aav9_apo/fpocket/raw_archive.json": "f0d9114ed49695052acc9cc4d85dc043986d0370c094476795cce9fc7db6c42e",
+    "results/site_discovery/aav9_apo/fpocket_v2/execution.json": "5970d415a196d25820d9656700057a2cfdfdb82ba01fe9da35f49bf15a0bb903",
+    "results/site_discovery/aav9_apo/fpocket_v2/raw_archive.json": "eb165cb935be17ed3de3bd1cca4aa1eba6fcb8bb033bfd1c9dff27ddddcf051c",
+    "results/site_discovery/aav9_apo/inputs/manifest.json": "66e5be51da7be17ba55165412b746055d112d56c09108e2fd3fabe42704a1547",
+    "results/site_discovery/aav9_apo/p2rank/raw_archive.json": "741551d03abb42d6c4bf1464b91ef0d86aa5d8bc226303574946625cee211e50",
+    "results/site_discovery/aav9_apo/p2rank/result.json": "17af5267352cf7ecc092be3e112dcc7e0fd477e7a3348f40ff23e635d80d45aa",
+    "results/site_discovery/aav9_holo/fpocket/execution.json": "b2b8e4bf6cbdd7bfeb75ded4f78660a7304b76437ee97a68655ebd16fca211a9",
+    "results/site_discovery/aav9_holo/fpocket/raw_archive.json": "2c91a30cc736502e617e2d0956be1c8742e7a4785c027a7685bb2e98dee67a7e",
+    "results/site_discovery/aav9_holo/fpocket_v2/execution.json": "9e030044914cbd77615383dfde607cc72b484467b44ac0c20a094c06209e0729",
+    "results/site_discovery/aav9_holo/fpocket_v2/raw_archive.json": "cc4c149a2f6ebae22870d91b92afdc43675fe54032eb001936fb71bab8daf190",
+    "results/site_discovery/aav9_holo/inputs/manifest.json": "917340d3b3f65346a42ce1a7fc5bb93520897bea8f7c5d837da7f5ba36091141",
+    "results/site_discovery/aav9_holo/p2rank/raw_archive.json": "685a576aff369e598246ab31b68937df0cec579e56fac388591ebc8c860cfacc",
+    "results/site_discovery/aav9_holo/p2rank/result.json": "2ccb626b281bf4eaca1c65a56f9e1cbb23dd76a728f964f61bc2f22eec769a67",
+    "results/site_discovery/fpocket_serialization_revision.json": "7ff75a399ee9fcfb6013268ba5964a31bd0d5a744b5a421964ef129d39ff6ec8",
+    "results/site_discovery/freeze_receipt.json": "b5b600e9ac19fe50253b95767773fa799435806cb8b81003849b3cf61d81bb9b",
+    "results/site_methods/software/fpocket/LICENSE": "cf22a1b400afa433f68fa0ffb8c2454d3b6bebb34466693512ca63aaa52dcc6b",
+    "results/site_methods/software/fpocket/QHULL_COPYING.txt": "1fe14ebaaf61385d3edd0418d406fbd83d823c6645027481cc88e7b152acdc27",
+    "results/site_methods/software/fpocket/build.stderr.log": "1cce47725d52eedceef863fb9b466ac0f6ed347189f59ee478bc71691c90f943",
+    "results/site_methods/software/fpocket/build.stdout.log": "6ed1c80a6f31e3b9afef855cf608521cb400f3fcc9af84e2ee18a3d93f96a063",
+    "results/site_methods/software/fpocket/compiler.txt": "d23e1e266991777af51323c8a611147c28082ac12f936caa38bc345779f78483",
+    "results/site_methods/software/fpocket/installation.json": "737e5a2a1c2d1130975f97f65c8e5d93150980a48ce26a00d41bbb121cfe7e0c",
+    "results/site_methods/software/fpocket/version_banner.txt": "0d9a397e81459adb089c6f42043ffa7698519cb14681305dae11907c7845d58d"
+  },
+  "status": "verified",
+  "verified_corrected_method_conditions": 18,
+  "verified_initial_CIF_reader_failures": 9,
+  "verifier_sha256": "a98c9428ed66789491c0f22a43392ff9bba157179c7e849276c308726f0f67e9"
+}

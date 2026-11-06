@@ -1,0 +1,837 @@
+[INFO] Console - P2Rank 2.5.1
+[INFO] Console - 
+[INFO] Main - loading default config from [/Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/default.groovy]
+[INFO] Console - DIR: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_data
+[INFO] Console - DIR2: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_data
+[INFO] Console - DIR: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_output
+[INFO] Console - DIR2: /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/config/../test_output
+[INFO] Console - predicting pockets for proteins from dataset [receptor.cif]
+[INFO] PredictPocketsRoutine - outdir: /Users/alec/AAV-Docking-Benchmark/results/site_discovery/aav9_apo/p2rank/raw
+[INFO] Model - Loading model from directory (v3 format): /Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [receptor.cif] using 1 thread
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [receptor.cif] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [receptor.cif] (1/1)
+[INFO] Protein - loading protein [/Users/alec/AAV-Docking-Benchmark/data/processed/site_inputs/aav9_apo/receptor.cif]
+[INFO] PdbUtils - loading file [/Users/alec/AAV-Docking-Benchmark/data/processed/site_inputs/aav9_apo/receptor.cif]
+[INFO] Struct - all groups in chain A: 518
+[INFO] Struct - all groups in chain B: 518
+[INFO] Struct - all groups in chain C: 518
+[INFO] Struct - all groups in chain D: 518
+[INFO] Struct - all groups in chain E: 518
+[INFO] Struct - all groups in chain F: 518
+[INFO] Struct - all groups in chain G: 518
+[INFO] Struct - all groups in chain H: 518
+[INFO] Struct - all groups in chain I: 518
+[INFO] Struct - all groups in chain J: 518
+[INFO] Struct - all groups in chain K: 518
+[INFO] Struct - all groups in chain L: 518
+[INFO] Struct - all groups in chain M: 518
+[INFO] Struct - all groups in chain N: 518
+[INFO] Struct - all groups in chain O: 518
+[INFO] Struct - all groups in chain P: 518
+[INFO] Struct - all groups in chain Q: 518
+[INFO] Struct - all groups in chain R: 518
+[INFO] Struct - all groups in chain S: 518
+[INFO] Struct - all groups in chain T: 518
+[INFO] Struct - all groups in chain U: 518
+[INFO] Struct - all groups in chain V: 518
+[INFO] Struct - all groups in chain W: 518
+[INFO] Struct - all groups in chain X: 518
+[INFO] Struct - all groups in chain Y: 518
+[INFO] Struct - all groups in chain Z: 518
+[INFO] Struct - all groups in chain 1: 518
+[INFO] Struct - all groups in chain 2: 518
+[INFO] Struct - all groups in chain 3: 518
+[INFO] Struct - all groups in chain 4: 518
+[INFO] Struct - all groups in chain 5: 518
+[INFO] Struct - all groups in chain 6: 518
+[INFO] Struct - all groups in chain a: 518
+[INFO] Struct - all groups in chain b: 518
+[INFO] Struct - all groups in chain c: 518
+[INFO] Struct - all groups in chain d: 518
+[INFO] Struct - all groups in chain e: 518
+[INFO] Struct - all groups in chain f: 518
+[INFO] Struct - all groups in chain g: 518
+[INFO] Struct - all groups in chain h: 518
+[INFO] Struct - all groups in chain i: 518
+[INFO] Struct - all groups in chain j: 518
+[INFO] Struct - all groups in chain k: 518
+[INFO] Struct - all groups in chain l: 518
+[INFO] Struct - all groups in chain m: 518
+[INFO] Struct - all groups in chain n: 518
+[INFO] Struct - all groups in chain o: 518
+[INFO] Struct - all groups in chain p: 518
+[INFO] Struct - all groups in chain q: 518
+[INFO] Struct - all groups in chain r: 518
+[INFO] Struct - all groups in chain s: 518
+[INFO] Struct - all groups in chain t: 518
+[INFO] Struct - all groups in chain u: 518
+[INFO] Struct - all groups in chain v: 518
+[INFO] Struct - all groups in chain w: 518
+[INFO] Struct - all groups in chain x: 518
+[INFO] Struct - all groups in chain y: 518
+[INFO] Struct - all groups in chain z: 518
+[INFO] Struct - all groups in chain 7: 518
+[INFO] Struct - all groups in chain 8: 518
+[INFO] Struct - all groups in chain A: 518
+[INFO] Struct - 518 groups in chain A
+[INFO] Struct - all groups in chain B: 518
+[INFO] Struct - 518 groups in chain B
+[INFO] Struct - all groups in chain C: 518
+[INFO] Struct - 518 groups in chain C
+[INFO] Struct - all groups in chain D: 518
+[INFO] Struct - 518 groups in chain D
+[INFO] Struct - all groups in chain E: 518
+[INFO] Struct - 518 groups in chain E
+[INFO] Struct - all groups in chain F: 518
+[INFO] Struct - 518 groups in chain F
+[INFO] Struct - all groups in chain G: 518
+[INFO] Struct - 518 groups in chain G
+[INFO] Struct - all groups in chain H: 518
+[INFO] Struct - 518 groups in chain H
+[INFO] Struct - all groups in chain I: 518
+[INFO] Struct - 518 groups in chain I
+[INFO] Struct - all groups in chain J: 518
+[INFO] Struct - 518 groups in chain J
+[INFO] Struct - all groups in chain K: 518
+[INFO] Struct - 518 groups in chain K
+[INFO] Struct - all groups in chain L: 518
+[INFO] Struct - 518 groups in chain L
+[INFO] Struct - all groups in chain M: 518
+[INFO] Struct - 518 groups in chain M
+[INFO] Struct - all groups in chain N: 518
+[INFO] Struct - 518 groups in chain N
+[INFO] Struct - all groups in chain O: 518
+[INFO] Struct - 518 groups in chain O
+[INFO] Struct - all groups in chain P: 518
+[INFO] Struct - 518 groups in chain P
+[INFO] Struct - all groups in chain Q: 518
+[INFO] Struct - 518 groups in chain Q
+[INFO] Struct - all groups in chain R: 518
+[INFO] Struct - 518 groups in chain R
+[INFO] Struct - all groups in chain S: 518
+[INFO] Struct - 518 groups in chain S
+[INFO] Struct - all groups in chain T: 518
+[INFO] Struct - 518 groups in chain T
+[INFO] Struct - all groups in chain U: 518
+[INFO] Struct - 518 groups in chain U
+[INFO] Struct - all groups in chain V: 518
+[INFO] Struct - 518 groups in chain V
+[INFO] Struct - all groups in chain W: 518
+[INFO] Struct - 518 groups in chain W
+[INFO] Struct - all groups in chain X: 518
+[INFO] Struct - 518 groups in chain X
+[INFO] Struct - all groups in chain Y: 518
+[INFO] Struct - 518 groups in chain Y
+[INFO] Struct - all groups in chain Z: 518
+[INFO] Struct - 518 groups in chain Z
+[INFO] Struct - all groups in chain 1: 518
+[INFO] Struct - 518 groups in chain 1
+[INFO] Struct - all groups in chain 2: 518
+[INFO] Struct - 518 groups in chain 2
+[INFO] Struct - all groups in chain 3: 518
+[INFO] Struct - 518 groups in chain 3
+[INFO] Struct - all groups in chain 4: 518
+[INFO] Struct - 518 groups in chain 4
+[INFO] Struct - all groups in chain 5: 518
+[INFO] Struct - 518 groups in chain 5
+[INFO] Struct - all groups in chain 6: 518
+[INFO] Struct - 518 groups in chain 6
+[INFO] Struct - all groups in chain a: 518
+[INFO] Struct - 518 groups in chain a
+[INFO] Struct - all groups in chain b: 518
+[INFO] Struct - 518 groups in chain b
+[INFO] Struct - all groups in chain c: 518
+[INFO] Struct - 518 groups in chain c
+[INFO] Struct - all groups in chain d: 518
+[INFO] Struct - 518 groups in chain d
+[INFO] Struct - all groups in chain e: 518
+[INFO] Struct - 518 groups in chain e
+[INFO] Struct - all groups in chain f: 518
+[INFO] Struct - 518 groups in chain f
+[INFO] Struct - all groups in chain g: 518
+[INFO] Struct - 518 groups in chain g
+[INFO] Struct - all groups in chain h: 518
+[INFO] Struct - 518 groups in chain h
+[INFO] Struct - all groups in chain i: 518
+[INFO] Struct - 518 groups in chain i
+[INFO] Struct - all groups in chain j: 518
+[INFO] Struct - 518 groups in chain j
+[INFO] Struct - all groups in chain k: 518
+[INFO] Struct - 518 groups in chain k
+[INFO] Struct - all groups in chain l: 518
+[INFO] Struct - 518 groups in chain l
+[INFO] Struct - all groups in chain m: 518
+[INFO] Struct - 518 groups in chain m
+[INFO] Struct - all groups in chain n: 518
+[INFO] Struct - 518 groups in chain n
+[INFO] Struct - all groups in chain o: 518
+[INFO] Struct - 518 groups in chain o
+[INFO] Struct - all groups in chain p: 518
+[INFO] Struct - 518 groups in chain p
+[INFO] Struct - all groups in chain q: 518
+[INFO] Struct - 518 groups in chain q
+[INFO] Struct - all groups in chain r: 518
+[INFO] Struct - 518 groups in chain r
+[INFO] Struct - all groups in chain s: 518
+[INFO] Struct - 518 groups in chain s
+[INFO] Struct - all groups in chain t: 518
+[INFO] Struct - 518 groups in chain t
+[INFO] Struct - all groups in chain u: 518
+[INFO] Struct - 518 groups in chain u
+[INFO] Struct - all groups in chain v: 518
+[INFO] Struct - 518 groups in chain v
+[INFO] Struct - all groups in chain w: 518
+[INFO] Struct - 518 groups in chain w
+[INFO] Struct - all groups in chain x: 518
+[INFO] Struct - 518 groups in chain x
+[INFO] Struct - all groups in chain y: 518
+[INFO] Struct - 518 groups in chain y
+[INFO] Struct - all groups in chain z: 518
+[INFO] Struct - 518 groups in chain z
+[INFO] Struct - all groups in chain 7: 518
+[INFO] Struct - 518 groups in chain 7
+[INFO] Struct - all groups in chain 8: 518
+[INFO] Struct - 518 groups in chain 8
+[INFO] Protein - structure atoms: 247860
+[INFO] Protein - protein   atoms: 243000
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 252794
+[INFO] Protein - exposed protein atoms: 130410 of 243000
+[INFO] SLinkClusterer - clustering [7461] elements
+[INFO] SLinkClusterer - clusters: [id:21( 1 ), id:24( 7 ), id:52( 52 ), id:56( 1 ), id:57( 1 ), id:74( 1 ), id:75( 3 ), id:77( 4 ), id:78( 1 ), id:92( 2 ), id:94( 1 ), id:95( 2 ), id:96( 1 ), id:100( 1 ), id:101( 1 ), id:102( 9 ), id:119( 9 ), id:133( 45 ), id:135( 3 ), id:146( 1 ), id:149( 7 ), id:177( 52 ), id:181( 1 ), id:182( 1 ), id:201( 4 ), id:202( 1 ), id:217( 2 ), id:219( 2 ), id:220( 1 ), id:224( 1 ), id:225( 1 ), id:226( 11 ), id:241( 10 ), id:246( 11 ), id:258( 3 ), id:269( 1 ), id:272( 7 ), id:273( 1 ), id:274( 1 ), id:301( 51 ), id:305( 1 ), id:306( 1 ), id:327( 5 ), id:328( 1 ), id:343( 2 ), id:345( 2 ), id:346( 1 ), id:350( 1 ), id:351( 1 ), id:365( 10 ), id:372( 8 ), id:383( 3 ), id:394( 1 ), id:397( 7 ), id:399( 1 ), id:430( 1 ), id:431( 1 ), id:450( 3 ), id:452( 5 ), id:453( 1 ), id:467( 2 ), id:470( 2 ), id:471( 1 ), id:475( 1 ), id:476( 2 ), id:483( 1 ), id:486( 52 ), id:491( 9 ), id:510( 3 ), id:521( 1 ), id:524( 7 ), id:526( 1 ), id:556( 3 ), id:557( 1 ), id:558( 1 ), id:576( 1 ), id:579( 4 ), id:580( 1 ), id:591( 52 ), id:594( 2 ), id:596( 2 ), id:597( 1 ), id:601( 1 ), id:602( 1 ), id:603( 11 ), id:620( 9 ), id:624( 11 ), id:647( 1 ), id:650( 7 ), id:652( 1 ), id:682( 1 ), id:683( 1 ), id:684( 3 ), id:688( 3 ), id:694( 4 ), id:695( 7 ), id:704( 1 ), id:717( 2 ), id:720( 2 ), id:721( 1 ), id:725( 1 ), id:726( 2 ), id:727( 11 ), id:734( 1 ), id:737( 50 ), id:742( 9 ), id:752( 45 ), id:763( 3 ), id:772( 1 ), id:775( 7 ), id:777( 1 ), id:782( 7 ), id:804( 51 ), id:807( 3 ), id:808( 1 ), id:809( 1 ), id:827( 3 ), id:828( 3 ), id:829( 5 ), id:830( 1 ), id:843( 2 ), id:845( 2 ), id:846( 1 ), id:850( 1 ), id:851( 1 ), id:852( 11 ), id:859( 1 ), id:869( 9 ), id:897( 1 ), id:900( 7 ), id:902( 1 ), id:929( 52 ), id:933( 1 ), id:934( 1 ), id:952( 1 ), id:953( 3 ), id:955( 5 ), id:956( 1 ), id:970( 2 ), id:972( 2 ), id:973( 1 ), id:977( 1 ), id:978( 1 ), id:985( 1 ), id:993( 9 ), id:1014( 3 ), id:1023( 1 ), id:1026( 7 ), id:1027( 1 ), id:1028( 1 ), id:1033( 7 ), id:1055( 52 ), id:1058( 3 ), id:1059( 1 ), id:1060( 1 ), id:1061( 3 ), id:1064( 2 ), id:1070( 7 ), id:1077( 1 ), id:1078( 3 ), id:1079( 3 ), id:1080( 5 ), id:1081( 1 ), id:1096( 2 ), id:1097( 3 ), id:1099( 2 ), id:1100( 1 ), id:1103( 10 ), id:1104( 1 ), id:1105( 2 ), id:1112( 1 ), id:1120( 10 ), id:1129( 45 ), id:1140( 3 ), id:1149( 1 ), id:1152( 7 ), id:1154( 1 ), id:1159( 7 ), id:1180( 51 ), id:1183( 3 ), id:1184( 1 ), id:1185( 1 ), id:1204( 3 ), id:1205( 3 ), id:1206( 5 ), id:1207( 1 ), id:1222( 2 ), id:1224( 2 ), id:1225( 1 ), id:1229( 1 ), id:1230( 1 ), id:1244( 9 ), id:1262( 1 ), id:1273( 1 ), id:1276( 7 ), id:1277( 1 ), id:1278( 1 ), id:1305( 51 ), id:1309( 1 ), id:1310( 1 ), id:1328( 3 ), id:1330( 4 ), id:1331( 1 ), id:1346( 2 ), id:1348( 2 ), id:1349( 1 ), id:1353( 1 ), id:1354( 1 ), id:1368( 10 ), id:1378( 45 ), id:1388( 3 ), id:1397( 1 ), id:1400( 7 ), id:1406( 7 ), id:1428( 52 ), id:1431( 1 ), id:1432( 1 ), id:1433( 3 ), id:1437( 3 ), id:1443( 4 ), id:1444( 7 ), id:1450( 4 ), id:1451( 3 ), id:1452( 4 ), id:1453( 1 ), id:1468( 2 ), id:1469( 3 ), id:1470( 2 ), id:1471( 1 ), id:1475( 1 ), id:1476( 1 ), id:1477( 11 ), id:1483( 1 ), id:1494( 10 ), id:1495( 1 ), id:1522( 1 ), id:1525( 7 ), id:1527( 1 ), id:1558( 1 ), id:1559( 1 ), id:1560( 3 ), id:1564( 3 ), id:1570( 4 ), id:1571( 7 ), id:1578( 1 ), id:1579( 3 ), id:1581( 5 ), id:1582( 1 ), id:1596( 2 ), id:1599( 2 ), id:1600( 1 ), id:1604( 1 ), id:1605( 2 ), id:1614( 52 ), id:1621( 9 ), id:1627( 10 ), id:1640( 3 ), id:1649( 1 ), id:1652( 7 ), id:1653( 1 ), id:1654( 1 ), id:1659( 7 ), id:1684( 3 ), id:1685( 1 ), id:1686( 1 ), id:1705( 4 ), id:1706( 3 ), id:1707( 5 ), id:1708( 1 ), id:1720( 51 ), id:1723( 2 ), id:1725( 2 ), id:1726( 1 ), id:1729( 10 ), id:1730( 1 ), id:1731( 1 ), id:1748( 10 ), id:1752( 8 ), id:1774( 1 ), id:1777( 7 ), id:1808( 1 ), id:1809( 1 ), id:1829( 4 ), id:1830( 1 ), id:1845( 2 ), id:1847( 2 ), id:1848( 1 ), id:1852( 1 ), id:1853( 1 ), id:1854( 11 ), id:1860( 1 ), id:1863( 52 ), id:1871( 10 ), id:1872( 1 ), id:1890( 3 ), id:1899( 1 ), id:1902( 7 ), id:1903( 1 ), id:1904( 1 ), id:1909( 7 ), id:1933( 3 ), id:1934( 1 ), id:1935( 1 ), id:1936( 3 ), id:1940( 3 ), id:1946( 7 ), id:1952( 1 ), id:1953( 4 ), id:1954( 3 ), id:1955( 4 ), id:1956( 1 ), id:1966( 51 ), id:1970( 2 ), id:1971( 3 ), id:1972( 2 ), id:1973( 1 ), id:1977( 1 ), id:1978( 1 ), id:1984( 1 ), id:1995( 8 ), id:1996( 1 ), id:2000( 8 ), id:2013( 3 ), id:2022( 1 ), id:2025( 7 ), id:2031( 7 ), id:2055( 3 ), id:2056( 1 ), id:2057( 1 ), id:2058( 3 ), id:2062( 3 ), id:2068( 4 ), id:2069( 5 ), id:2070( 7 ), id:2076( 4 ), id:2077( 3 ), id:2078( 4 ), id:2079( 1 ), id:2092( 2 ), id:2093( 3 ), id:2094( 2 ), id:2095( 1 ), id:2099( 1 ), id:2100( 1 ), id:2107( 1 ), id:2118( 8 ), id:2134( 3 ), id:2145( 1 ), id:2148( 7 ), id:2149( 1 ), id:2176( 52 ), id:2180( 1 ), id:2181( 1 ), id:2199( 1 ), id:2202( 4 ), id:2203( 1 ), id:2217( 2 ), id:2219( 2 ), id:2220( 1 ), id:2224( 1 ), id:2225( 1 ), id:2232( 1 ), id:2243( 9 ), id:2244( 1 ), id:2248( 8 ), id:2261( 3 ), id:2270( 1 ), id:2273( 7 ), id:2275( 1 ), id:2280( 7 ), id:2305( 3 ), id:2306( 1 ), id:2307( 1 ), id:2325( 1 ), id:2326( 4 ), id:2327( 3 ), id:2328( 5 ), id:2329( 1 ), id:2343( 2 ), id:2345( 2 ), id:2346( 1 ), id:2350( 1 ), id:2351( 1 ), id:2356( 50 ), id:2357( 1 ), id:2360( 52 ), id:2367( 8 ), id:2395( 1 ), id:2398( 7 ), id:2400( 1 ), id:2431( 1 ), id:2432( 1 ), id:2450( 3 ), id:2452( 5 ), id:2453( 1 ), id:2466( 2 ), id:2468( 2 ), id:2469( 1 ), id:2473( 1 ), id:2474( 1 ), id:2480( 1 ), id:2483( 51 ), id:2488( 8 ), id:2507( 2 ), id:2509( 3 ), id:2518( 1 ), id:2521( 7 ), id:2522( 1 ), id:2523( 1 ), id:2528( 7 ), id:2550( 51 ), id:2553( 3 ), id:2554( 1 ), id:2555( 1 ), id:2556( 3 ), id:2560( 3 ), id:2566( 4 ), id:2567( 7 ), id:2574( 3 ), id:2575( 3 ), id:2576( 5 ), id:2577( 1 ), id:2592( 2 ), id:2593( 3 ), id:2594( 2 ), id:2595( 1 ), id:2598( 10 ), id:2599( 1 ), id:2600( 1 ), id:2614( 10 ), id:2621( 8 ), id:2632( 3 ), id:2643( 1 ), id:2646( 7 ), id:2648( 1 ), id:2678( 1 ), id:2679( 1 ), id:2697( 3 ), id:2699( 4 ), id:2700( 1 ), id:2715( 2 ), id:2717( 2 ), id:2718( 1 ), id:2722( 1 ), id:2723( 1 ), id:2724( 11 ), id:2731( 51 ), id:2736( 9 ), id:2755( 3 ), id:2757( 3 ), id:2766( 1 ), id:2769( 7 ), id:2770( 1 ), id:2771( 1 ), id:2776( 7 ), id:2801( 3 ), id:2802( 1 ), id:2803( 1 ), id:2821( 1 ), id:2822( 3 ), id:2823( 3 ), id:2824( 5 ), id:2825( 1 ), id:2832( 51 ), id:2840( 2 ), id:2843( 2 ), id:2844( 1 ), id:2847( 10 ), id:2848( 1 ), id:2849( 2 ), id:2856( 1 ), id:2867( 10 ), id:2893( 1 ), id:2896( 7 ), id:2898( 1 ), id:2924( 51 ), id:2928( 1 ), id:2929( 1 ), id:2930( 3 ), id:2934( 3 ), id:2940( 7 ), id:2948( 4 ), id:2949( 1 ), id:2964( 2 ), id:2966( 2 ), id:2967( 1 ), id:2971( 1 ), id:2972( 1 ), id:2973( 11 ), id:2978( 1 ), id:2989( 9 ), id:3007( 2 ), id:3016( 1 ), id:3019( 7 ), id:3020( 1 ), id:3025( 7 ), id:3046( 50 ), id:3049( 3 ), id:3050( 1 ), id:3051( 1 ), id:3052( 3 ), id:3056( 3 ), id:3062( 7 ), id:3068( 1 ), id:3069( 4 ), id:3070( 3 ), id:3071( 4 ), id:3072( 1 ), id:3086( 2 ), id:3087( 3 ), id:3088( 2 ), id:3089( 1 ), id:3092( 8 ), id:3093( 1 ), id:3094( 1 ), id:3101( 1 ), id:3111( 10 ), id:3113( 1 ), id:3117( 8 ), id:3128( 3 ), id:3139( 1 ), id:3142( 7 ), id:3144( 1 ), id:3174( 1 ), id:3175( 1 ), id:3195( 1 ), id:3206( 51 ), id:3209( 2 ), id:3211( 2 ), id:3212( 1 ), id:3216( 1 ), id:3217( 1 ), id:3218( 11 ), id:3232( 9 ), id:3239( 10 ), id:3251( 3 ), id:3253( 3 ), id:3262( 1 ), id:3265( 7 ), id:3266( 1 ), id:3271( 7 ), id:3293( 51 ), id:3296( 3 ), id:3297( 1 ), id:3298( 1 ), id:3315( 1 ), id:3316( 4 ), id:3317( 3 ), id:3318( 4 ), id:3319( 1 ), id:3332( 2 ), id:3334( 2 ), id:3335( 1 ), id:3338( 8 ), id:3339( 1 ), id:3340( 1 ), id:3346( 1 ), id:3357( 8 ), id:3358( 1 ), id:3362( 8 ), id:3375( 3 ), id:3384( 1 ), id:3387( 7 ), id:3388( 1 ), id:3389( 1 ), id:3394( 7 ), id:3418( 3 ), id:3419( 1 ), id:3420( 1 ), id:3421( 3 ), id:3425( 3 ), id:3431( 7 ), id:3437( 1 ), id:3438( 4 ), id:3439( 3 ), id:3440( 4 ), id:3441( 1 ), id:3451( 51 ), id:3455( 2 ), id:3456( 3 ), id:3457( 2 ), id:3458( 1 ), id:3462( 1 ), id:3463( 1 ), id:3469( 1 ), id:3480( 8 ), id:3481( 1 ), id:3484( 8 ), id:3494( 45 ), id:3496( 3 ), id:3507( 1 ), id:3510( 7 ), id:3512( 1 ), id:3543( 1 ), id:3544( 1 ), id:3564( 4 ), id:3565( 1 ), id:3576( 51 ), id:3578( 2 ), id:3580( 2 ), id:3581( 1 ), id:3585( 1 ), id:3586( 1 ), id:3587( 11 ), id:3604( 9 ), id:3609( 11 ), id:3617( 45 ), id:3619( 1 ), id:3621( 3 ), id:3630( 1 ), id:3633( 7 ), id:3634( 1 ), id:3635( 1 ), id:3640( 7 ), id:3665( 3 ), id:3666( 1 ), id:3667( 1 ), id:3686( 1 ), id:3687( 3 ), id:3688( 3 ), id:3689( 5 ), id:3690( 1 ), id:3705( 2 ), id:3707( 2 ), id:3708( 1 ), id:3711( 10 ), id:3712( 1 ), id:3713( 1 ), id:3722( 51 ), id:3730( 10 ), id:3731( 1 ), id:3738( 45 ), id:3748( 3 ), id:3757( 1 ), id:3760( 7 ), id:3766( 7 ), id:3788( 51 ), id:3791( 1 ), id:3792( 1 ), id:3793( 3 ), id:3797( 3 ), id:3803( 4 ), id:3804( 7 ), id:3810( 4 ), id:3811( 3 ), id:3812( 4 ), id:3813( 1 ), id:3827( 2 ), id:3828( 3 ), id:3829( 2 ), id:3830( 1 ), id:3834( 1 ), id:3835( 1 ), id:3836( 11 ), id:3842( 1 ), id:3853( 10 ), id:3854( 1 ), id:3868( 45 ), id:3870( 3 ), id:3881( 1 ), id:3884( 7 ), id:3885( 1 ), id:3886( 1 ), id:3913( 51 ), id:3917( 1 ), id:3918( 1 ), id:3937( 3 ), id:3939( 5 ), id:3940( 1 ), id:3955( 2 ), id:3957( 2 ), id:3958( 1 ), id:3962( 1 ), id:3963( 1 ), id:3977( 10 ), id:3984( 8 ), id:4006( 1 ), id:4009( 7 ), id:4011( 1 ), id:4042( 1 ), id:4043( 1 ), id:4044( 3 ), id:4048( 3 ), id:4054( 7 ), id:4061( 1 ), id:4062( 3 ), id:4064( 5 ), id:4065( 1 ), id:4079( 2 ), id:4081( 2 ), id:4082( 1 ), id:4086( 1 ), id:4087( 1 ), id:4093( 1 ), id:4096( 52 ), id:4103( 8 ), id:4109( 10 ), id:4121( 3 ), id:4130( 1 ), id:4133( 7 ), id:4134( 1 ), id:4135( 1 ), id:4140( 7 ), id:4165( 3 ), id:4166( 1 ), id:4167( 1 ), id:4168( 3 ), id:4172( 3 ), id:4178( 7 ), id:4184( 1 ), id:4185( 4 ), id:4186( 3 ), id:4187( 4 ), id:4188( 1 ), id:4198( 52 ), id:4202( 2 ), id:4203( 3 ), id:4204( 2 ), id:4205( 1 ), id:4209( 1 ), id:4210( 1 ), id:4216( 1 ), id:4227( 8 ), id:4228( 1 ), id:4231( 8 ), id:4243( 3 ), id:4254( 1 ), id:4257( 7 ), id:4258( 1 ), id:4287( 2 ), id:4288( 1 ), id:4289( 1 ), id:4307( 3 ), id:4309( 4 ), id:4310( 1 ), id:4325( 2 ), id:4327( 2 ), id:4328( 1 ), id:4332( 1 ), id:4333( 1 ), id:4339( 1 ), id:4342( 51 ), id:4349( 9 ), id:4351( 1 ), id:4366( 3 ), id:4375( 1 ), id:4378( 7 ), id:4384( 7 ), id:4407( 1 ), id:4408( 1 ), id:4425( 1 ), id:4426( 3 ), id:4427( 3 ), id:4428( 5 ), id:4429( 1 ), id:4444( 2 ), id:4446( 1 ), id:4448( 2 ), id:4449( 1 ), id:4453( 1 ), id:4454( 2 ), id:4457( 11 ), id:4464( 49 ), id:4469( 8 ), id:4472( 1 ), id:4486( 44 ), id:4488( 3 ), id:4490( 3 ), id:4499( 1 ), id:4502( 7 ), id:4504( 1 ), id:4508( 6 ), id:4533( 1 ), id:4534( 1 ), id:4535( 3 ), id:4539( 3 ), id:4545( 7 ), id:4551( 1 ), id:4552( 3 ), id:4553( 3 ), id:4554( 4 ), id:4555( 1 ), id:4561( 50 ), id:4569( 2 ), id:4570( 3 ), id:4571( 2 ), id:4572( 1 ), id:4576( 1 ), id:4577( 1 ), id:4578( 11 ), id:4595( 10 ), id:4600( 10 ), id:4609( 43 ), id:4611( 2 ), id:4613( 3 ), id:4622( 1 ), id:4625( 7 ), id:4626( 1 ), id:4627( 1 ), id:4632( 7 ), id:4654( 49 ), id:4657( 1 ), id:4658( 1 ), id:4659( 3 ), id:4663( 3 ), id:4669( 7 ), id:4675( 4 ), id:4676( 3 ), id:4677( 4 ), id:4678( 1 ), id:4692( 2 ), id:4693( 3 ), id:4695( 2 ), id:4696( 1 ), id:4699( 8 ), id:4700( 1 ), id:4701( 2 ), id:4708( 1 ), id:4718( 10 ), id:4720( 1 ), id:4723( 8 ), id:4737( 3 ), id:4746( 1 ), id:4749( 7 ), id:4751( 1 ), id:4756( 7 ), id:4780( 3 ), id:4781( 1 ), id:4782( 1 ), id:4799( 4 ), id:4800( 3 ), id:4801( 4 ), id:4802( 1 ), id:4817( 2 ), id:4819( 2 ), id:4820( 1 ), id:4824( 1 ), id:4825( 1 ), id:4826( 11 ), id:4832( 1 ), id:4835( 51 ), id:4843( 10 ), id:4859( 3 ), id:4861( 3 ), id:4870( 1 ), id:4873( 7 ), id:4879( 7 ), id:4903( 1 ), id:4904( 1 ), id:4905( 3 ), id:4909( 3 ), id:4915( 4 ), id:4916( 7 ), id:4923( 3 ), id:4924( 3 ), id:4925( 5 ), id:4926( 1 ), id:4933( 50 ), id:4941( 2 ), id:4942( 3 ), id:4943( 2 ), id:4944( 1 ), id:4948( 1 ), id:4949( 1 ), id:4950( 11 ), id:4963( 9 ), id:4984( 3 ), id:4993( 1 ), id:4996( 7 ), id:5002( 7 ), id:5026( 3 ), id:5027( 1 ), id:5028( 1 ), id:5047( 4 ), id:5048( 3 ), id:5049( 4 ), id:5050( 1 ), id:5057( 50 ), id:5063( 2 ), id:5065( 2 ), id:5066( 1 ), id:5070( 1 ), id:5071( 1 ), id:5079( 1 ), id:5089( 9 ), id:5108( 3 ), id:5117( 1 ), id:5120( 7 ), id:5122( 1 ), id:5127( 7 ), id:5152( 1 ), id:5153( 1 ), id:5154( 3 ), id:5158( 3 ), id:5164( 4 ), id:5165( 7 ), id:5171( 4 ), id:5172( 3 ), id:5173( 5 ), id:5174( 1 ), id:5185( 50 ), id:5187( 2 ), id:5188( 3 ), id:5190( 2 ), id:5191( 1 ), id:5195( 1 ), id:5196( 2 ), id:5197( 11 ), id:5204( 1 ), id:5212( 9 ), id:5242( 1 ), id:5245( 7 ), id:5247( 1 ), id:5274( 52 ), id:5277( 3 ), id:5278( 1 ), id:5279( 1 ), id:5297( 1 ), id:5298( 3 ), id:5300( 5 ), id:5301( 1 ), id:5316( 2 ), id:5318( 2 ), id:5319( 1 ), id:5323( 1 ), id:5324( 1 ), id:5331( 1 ), id:5339( 10 ), id:5358( 3 ), id:5360( 3 ), id:5369( 1 ), id:5372( 7 ), id:5373( 1 ), id:5374( 1 ), id:5379( 7 ), id:5401( 52 ), id:5405( 1 ), id:5406( 1 ), id:5424( 1 ), id:5425( 3 ), id:5426( 3 ), id:5427( 5 ), id:5428( 1 ), id:5443( 2 ), id:5446( 2 ), id:5447( 1 ), id:5450( 10 ), id:5451( 1 ), id:5452( 2 ), id:5459( 1 ), id:5470( 10 ), id:5485( 3 ), id:5487( 2 ), id:5496( 1 ), id:5499( 7 ), id:5500( 1 ), id:5505( 7 ), id:5526( 50 ), id:5529( 3 ), id:5530( 1 ), id:5531( 1 ), id:5532( 3 ), id:5536( 3 ), id:5542( 7 ), id:5548( 1 ), id:5549( 4 ), id:5550( 3 ), id:5551( 4 ), id:5552( 1 ), id:5565( 2 ), id:5566( 3 ), id:5567( 2 ), id:5568( 1 ), id:5571( 8 ), id:5572( 1 ), id:5573( 1 ), id:5580( 1 ), id:5590( 9 ), id:5592( 1 ), id:5596( 8 ), id:5618( 1 ), id:5621( 7 ), id:5623( 1 ), id:5649( 51 ), id:5653( 1 ), id:5654( 1 ), id:5673( 3 ), id:5675( 5 ), id:5676( 1 ), id:5691( 2 ), id:5693( 2 ), id:5694( 1 ), id:5698( 1 ), id:5699( 1 ), id:5700( 11 ), id:5712( 9 ), id:5720( 11 ), id:5733( 3 ), id:5742( 1 ), id:5745( 7 ), id:5746( 1 ), id:5751( 7 ), id:5775( 1 ), id:5776( 1 ), id:5795( 1 ), id:5796( 4 ), id:5797( 3 ), id:5798( 5 ), id:5799( 1 ), id:5814( 2 ), id:5816( 1 ), id:5817( 2 ), id:5818( 1 ), id:5822( 1 ), id:5823( 1 ), id:5830( 1 ), id:5833( 51 ), id:5841( 10 ), id:5842( 1 ), id:5856( 2 ), id:5858( 3 ), id:5867( 1 ), id:5870( 7 ), id:5872( 1 ), id:5877( 7 ), id:5902( 1 ), id:5903( 1 ), id:5904( 3 ), id:5908( 3 ), id:5914( 7 ), id:5921( 1 ), id:5922( 4 ), id:5923( 3 ), id:5924( 5 ), id:5925( 1 ), id:5936( 51 ), id:5940( 2 ), id:5941( 3 ), id:5942( 2 ), id:5943( 1 ), id:5947( 1 ), id:5948( 1 ), id:5949( 9 ), id:5955( 1 ), id:5966( 10 ), id:5982( 3 ), id:5993( 1 ), id:5996( 7 ), id:5997( 1 ), id:6024( 52 ), id:6027( 1 ), id:6028( 1 ), id:6045( 1 ), id:6048( 4 ), id:6049( 1 ), id:6063( 2 ), id:6065( 2 ), id:6066( 1 ), id:6070( 1 ), id:6071( 1 ), id:6072( 9 ), id:6087( 7 ), id:6088( 1 ), id:6103( 3 ), id:6105( 3 ), id:6114( 1 ), id:6117( 7 ), id:6118( 1 ), id:6119( 1 ), id:6124( 7 ), id:6146( 52 ), id:6149( 3 ), id:6150( 1 ), id:6151( 1 ), id:6169( 1 ), id:6170( 3 ), id:6171( 3 ), id:6172( 5 ), id:6173( 1 ), id:6187( 2 ), id:6189( 2 ), id:6190( 1 ), id:6193( 8 ), id:6194( 1 ), id:6195( 1 ), id:6201( 1 ), id:6211( 9 ), id:6224( 45 ), id:6227( 3 ), id:6229( 3 ), id:6238( 1 ), id:6241( 7 ), id:6242( 1 ), id:6243( 1 ), id:6248( 7 ), id:6270( 51 ), id:6273( 3 ), id:6274( 1 ), id:6275( 1 ), id:6276( 3 ), id:6279( 2 ), id:6285( 4 ), id:6286( 7 ), id:6293( 1 ), id:6294( 3 ), id:6295( 3 ), id:6296( 5 ), id:6297( 1 ), id:6312( 2 ), id:6313( 3 ), id:6314( 1 ), id:6316( 2 ), id:6317( 1 ), id:6320( 8 ), id:6321( 1 ), id:6322( 2 ), id:6329( 1 ), id:6337( 10 ), id:6355( 3 ), id:6366( 1 ), id:6369( 7 ), id:6371( 1 ), id:6402( 1 ), id:6403( 1 ), id:6423( 4 ), id:6424( 1 ), id:6438( 2 ), id:6440( 2 ), id:6441( 1 ), id:6445( 1 ), id:6446( 1 ), id:6452( 1 ), id:6455( 52 ), id:6460( 8 ), id:6479( 3 ), id:6481( 3 ), id:6490( 1 ), id:6493( 7 ), id:6494( 1 ), id:6495( 1 ), id:6500( 7 ), id:6522( 51 ), id:6525( 3 ), id:6526( 1 ), id:6527( 1 ), id:6546( 1 ), id:6547( 4 ), id:6548( 3 ), id:6549( 5 ), id:6550( 1 ), id:6565( 2 ), id:6567( 2 ), id:6568( 1 ), id:6571( 10 ), id:6572( 1 ), id:6573( 1 ), id:6579( 1 ), id:6590( 9 ), id:6594( 8 ), id:6604( 1 ), id:6606( 3 ), id:6615( 1 ), id:6618( 7 ), id:6619( 1 ), id:6620( 1 ), id:6625( 7 ), id:6649( 3 ), id:6650( 1 ), id:6651( 1 ), id:6652( 3 ), id:6656( 3 ), id:6662( 4 ), id:6663( 7 ), id:6669( 4 ), id:6670( 3 ), id:6671( 4 ), id:6672( 1 ), id:6682( 51 ), id:6686( 2 ), id:6687( 3 ), id:6688( 2 ), id:6689( 1 ), id:6693( 1 ), id:6694( 1 ), id:6701( 1 ), id:6712( 9 ), id:6713( 1 ), id:6717( 8 ), id:6720( 45 ), id:6728( 2 ), id:6739( 1 ), id:6742( 7 ), id:6771( 1 ), id:6772( 1 ), id:6773( 3 ), id:6777( 3 ), id:6783( 4 ), id:6784( 5 ), id:6785( 7 ), id:6794( 1 ), id:6808( 2 ), id:6810( 2 ), id:6811( 1 ), id:6815( 1 ), id:6816( 1 ), id:6817( 11 ), id:6824( 1 ), id:6827( 49 ), id:6834( 8 ), id:6850( 3 ), id:6852( 3 ), id:6861( 1 ), id:6864( 7 ), id:6870( 7 ), id:6895( 3 ), id:6896( 1 ), id:6897( 1 ), id:6898( 3 ), id:6902( 3 ), id:6908( 4 ), id:6909( 5 ), id:6910( 7 ), id:6916( 4 ), id:6917( 3 ), id:6918( 4 ), id:6919( 1 ), id:6930( 50 ), id:6932( 2 ), id:6933( 3 ), id:6934( 2 ), id:6935( 1 ), id:6939( 1 ), id:6940( 1 ), id:6957( 9 ), id:6973( 2 ), id:6984( 1 ), id:6987( 7 ), id:6988( 1 ), id:6989( 1 ), id:7020( 1 ), id:7021( 1 ), id:7040( 3 ), id:7042( 5 ), id:7043( 1 ), id:7053( 51 ), id:7058( 2 ), id:7060( 2 ), id:7061( 1 ), id:7065( 1 ), id:7066( 1 ), id:7083( 10 ), id:7098( 3 ), id:7100( 3 ), id:7109( 1 ), id:7112( 7 ), id:7113( 1 ), id:7118( 7 ), id:7140( 52 ), id:7143( 3 ), id:7144( 1 ), id:7145( 1 ), id:7163( 1 ), id:7164( 4 ), id:7165( 3 ), id:7166( 4 ), id:7167( 1 ), id:7181( 2 ), id:7183( 2 ), id:7184( 1 ), id:7187( 8 ), id:7188( 1 ), id:7189( 1 ), id:7196( 1 ), id:7206( 9 ), id:7208( 1 ), id:7212( 8 ), id:7223( 3 ), id:7225( 3 ), id:7234( 1 ), id:7237( 7 ), id:7239( 1 ), id:7244( 7 ), id:7269( 3 ), id:7270( 1 ), id:7271( 1 ), id:7272( 3 ), id:7276( 3 ), id:7282( 7 ), id:7289( 1 ), id:7290( 4 ), id:7291( 3 ), id:7292( 5 ), id:7293( 1 ), id:7300( 52 ), id:7307( 2 ), id:7308( 3 ), id:7309( 2 ), id:7310( 1 ), id:7314( 1 ), id:7315( 1 ), id:7321( 1 ), id:7329( 8 ), id:7337( 10 ), id:7348( 3 ), id:7350( 3 ), id:7359( 1 ), id:7362( 7 ), id:7364( 1 ), id:7369( 7 ), id:7394( 1 ), id:7395( 1 ), id:7396( 3 ), id:7400( 3 ), id:7406( 7 ), id:7413( 1 ), id:7414( 3 ), id:7415( 3 ), id:7416( 5 ), id:7417( 1 ), id:7424( 52 ), id:7431( 2 ), id:7432( 3 ), id:7433( 2 ), id:7434( 1 ), id:7438( 1 ), id:7439( 1 ), id:7444( 1 ), id:7454( 8 ), id:7460( 10 )]
+[INFO] SLinkClusterer - clusters together: 7461 / 7461
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 252794
+[INFO] PocketPredictor - LIGANDABLE POINTS: 7461
+[INFO] PocketPredictor - CLUSTERS: 1329
+[INFO] PocketPredictor - FILTERED CLUSTERS: 619
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  67   points:  50   score:   15.0
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  66   points:  49   score:   15.0
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket22 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket23 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket25 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket26 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket27 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket28 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket29 -  surf_atoms:  67   points:  52   score:   15.0
+[INFO] PocketPredictor - pocket30 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket31 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket32 -  surf_atoms:  67   points:  51   score:   15.0
+[INFO] PocketPredictor - pocket33 -  surf_atoms:  67   points:  51   score:   14.9
+[INFO] PocketPredictor - pocket34 -  surf_atoms:  67   points:  52   score:   14.9
+[INFO] PocketPredictor - pocket35 -  surf_atoms:  67   points:  52   score:   14.9
+[INFO] PocketPredictor - pocket36 -  surf_atoms:  67   points:  52   score:   14.9
+[INFO] PocketPredictor - pocket37 -  surf_atoms:  67   points:  52   score:   14.9
+[INFO] PocketPredictor - pocket38 -  surf_atoms:  67   points:  51   score:   14.9
+[INFO] PocketPredictor - pocket39 -  surf_atoms:  67   points:  51   score:   14.9
+[INFO] PocketPredictor - pocket40 -  surf_atoms:  67   points:  51   score:   14.9
+[INFO] PocketPredictor - pocket41 -  surf_atoms:  67   points:  51   score:   14.9
+[INFO] PocketPredictor - pocket42 -  surf_atoms:  67   points:  50   score:   14.8
+[INFO] PocketPredictor - pocket43 -  surf_atoms:  67   points:  51   score:   14.8
+[INFO] PocketPredictor - pocket44 -  surf_atoms:  67   points:  50   score:   14.8
+[INFO] PocketPredictor - pocket45 -  surf_atoms:  67   points:  50   score:   14.7
+[INFO] PocketPredictor - pocket46 -  surf_atoms:  67   points:  49   score:   14.7
+[INFO] PocketPredictor - pocket47 -  surf_atoms:  67   points:  51   score:   14.7
+[INFO] PocketPredictor - pocket48 -  surf_atoms:  67   points:  51   score:   14.7
+[INFO] PocketPredictor - pocket49 -  surf_atoms:  67   points:  50   score:   14.7
+[INFO] PocketPredictor - pocket50 -  surf_atoms:  67   points:  51   score:   14.7
+[INFO] PocketPredictor - pocket51 -  surf_atoms:  67   points:  51   score:   14.7
+[INFO] PocketPredictor - pocket52 -  surf_atoms:  67   points:  51   score:   14.7
+[INFO] PocketPredictor - pocket53 -  surf_atoms:  67   points:  50   score:   14.7
+[INFO] PocketPredictor - pocket54 -  surf_atoms:  67   points:  51   score:   14.7
+[INFO] PocketPredictor - pocket55 -  surf_atoms:  67   points:  51   score:   14.7
+[INFO] PocketPredictor - pocket56 -  surf_atoms:  67   points:  51   score:   14.7
+[INFO] PocketPredictor - pocket57 -  surf_atoms:  67   points:  50   score:   14.7
+[INFO] PocketPredictor - pocket58 -  surf_atoms:  67   points:  49   score:   14.7
+[INFO] PocketPredictor - pocket59 -  surf_atoms:  67   points:  50   score:   14.7
+[INFO] PocketPredictor - pocket60 -  surf_atoms:  67   points:  50   score:   14.7
+[INFO] PocketPredictor - pocket61 -  surf_atoms:  50   points:  45   score:   12.3
+[INFO] PocketPredictor - pocket62 -  surf_atoms:  50   points:  45   score:   12.3
+[INFO] PocketPredictor - pocket63 -  surf_atoms:  50   points:  45   score:   12.3
+[INFO] PocketPredictor - pocket64 -  surf_atoms:  50   points:  45   score:   12.3
+[INFO] PocketPredictor - pocket65 -  surf_atoms:  50   points:  45   score:   12.2
+[INFO] PocketPredictor - pocket66 -  surf_atoms:  50   points:  45   score:   12.2
+[INFO] PocketPredictor - pocket67 -  surf_atoms:  50   points:  45   score:   12.2
+[INFO] PocketPredictor - pocket68 -  surf_atoms:  50   points:  45   score:   12.2
+[INFO] PocketPredictor - pocket69 -  surf_atoms:  50   points:  45   score:   12.2
+[INFO] PocketPredictor - pocket70 -  surf_atoms:  50   points:  45   score:   12.2
+[INFO] PocketPredictor - pocket71 -  surf_atoms:  50   points:  43   score:   12.1
+[INFO] PocketPredictor - pocket72 -  surf_atoms:  50   points:  44   score:   12.0
+[INFO] PocketPredictor - pocket73 -  surf_atoms:  32   points:  11   score:    3.5
+[INFO] PocketPredictor - pocket74 -  surf_atoms:  31   points:  11   score:    3.5
+[INFO] PocketPredictor - pocket75 -  surf_atoms:  31   points:  11   score:    3.5
+[INFO] PocketPredictor - pocket76 -  surf_atoms:  31   points:  11   score:    3.5
+[INFO] PocketPredictor - pocket77 -  surf_atoms:  32   points:  11   score:    3.5
+[INFO] PocketPredictor - pocket78 -  surf_atoms:  32   points:  11   score:    3.5
+[INFO] PocketPredictor - pocket79 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket80 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket81 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket82 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket83 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket84 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket85 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket86 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket87 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket88 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket89 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket90 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket91 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket92 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket93 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket94 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket95 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket96 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket97 -  surf_atoms:  31   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket98 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket99 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket100 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket101 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket102 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket103 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket104 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket105 -  surf_atoms:  32   points:  11   score:    3.4
+[INFO] PocketPredictor - pocket106 -  surf_atoms:  32   points:  10   score:    3.4
+[INFO] PocketPredictor - pocket107 -  surf_atoms:  25   points:   7   score:    3.3
+[INFO] PocketPredictor - pocket108 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket109 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket110 -  surf_atoms:  30   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket111 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket112 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket113 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket114 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket115 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket116 -  surf_atoms:  30   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket117 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket118 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket119 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket120 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket121 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket122 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket123 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket124 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket125 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket126 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket127 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket128 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket129 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket130 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket131 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket132 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket133 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket134 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket135 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket136 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket137 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket138 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket139 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket140 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket141 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket142 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket143 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket144 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket145 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket146 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket147 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket148 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket149 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket150 -  surf_atoms:  29   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket151 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket152 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket153 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket154 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket155 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket156 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket157 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket158 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket159 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket160 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket161 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket162 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket163 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket164 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket165 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket166 -  surf_atoms:  28   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket167 -  surf_atoms:  25   points:  11   score:    3.1
+[INFO] PocketPredictor - pocket168 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket169 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket170 -  surf_atoms:  25   points:   9   score:    3.0
+[INFO] PocketPredictor - pocket171 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket172 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket173 -  surf_atoms:  26   points:   9   score:    3.0
+[INFO] PocketPredictor - pocket174 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket175 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket176 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket177 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket178 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket179 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket180 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket181 -  surf_atoms:  26   points:   9   score:    3.0
+[INFO] PocketPredictor - pocket182 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket183 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket184 -  surf_atoms:  26   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket185 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket186 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket187 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket188 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket189 -  surf_atoms:  25   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket190 -  surf_atoms:  25   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket191 -  surf_atoms:  25   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket192 -  surf_atoms:  25   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket193 -  surf_atoms:  29   points:   9   score:    2.9
+[INFO] PocketPredictor - pocket194 -  surf_atoms:  26   points:   9   score:    2.9
+[INFO] PocketPredictor - pocket195 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket196 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket197 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket198 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket199 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket200 -  surf_atoms:  29   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket201 -  surf_atoms:  24   points:   7   score:    2.8
+[INFO] PocketPredictor - pocket202 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket203 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket204 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket205 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket206 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket207 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket208 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket209 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket210 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket211 -  surf_atoms:  29   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket212 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket213 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket214 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket215 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket216 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket217 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket218 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket219 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket220 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket221 -  surf_atoms:  29   points:  10   score:    2.8
+[INFO] PocketPredictor - pocket222 -  surf_atoms:  29   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket223 -  surf_atoms:  29   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket224 -  surf_atoms:  29   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket225 -  surf_atoms:  29   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket226 -  surf_atoms:  29   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket227 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket228 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket229 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket230 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket231 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket232 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket233 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket234 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket235 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket236 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket237 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket238 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket239 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket240 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket241 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket242 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket243 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket244 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket245 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket246 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket247 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket248 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket249 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket250 -  surf_atoms:  26   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket251 -  surf_atoms:  26   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket252 -  surf_atoms:  24   points:   8   score:    2.7
+[INFO] PocketPredictor - pocket253 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket254 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket255 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket256 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket257 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket258 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket259 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket260 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket261 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket262 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket263 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket264 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket265 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket266 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket267 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket268 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket269 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket270 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket271 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket272 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket273 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket274 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket275 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket276 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket277 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket278 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket279 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket280 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket281 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket282 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket283 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket284 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket285 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket286 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket287 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket288 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket289 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket290 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket291 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket292 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket293 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket294 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket295 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket296 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket297 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket298 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket299 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket300 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket301 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket302 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket303 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket304 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket305 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket306 -  surf_atoms:  22   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket307 -  surf_atoms:  22   points:   4   score:    2.0
+[INFO] PocketPredictor - pocket308 -  surf_atoms:  22   points:   4   score:    2.0
+[INFO] PocketPredictor - pocket309 -  surf_atoms:  22   points:   4   score:    2.0
+[INFO] PocketPredictor - pocket310 -  surf_atoms:  22   points:   7   score:    2.0
+[INFO] PocketPredictor - pocket311 -  surf_atoms:  22   points:   7   score:    2.0
+[INFO] PocketPredictor - pocket312 -  surf_atoms:  22   points:   5   score:    1.9
+[INFO] PocketPredictor - pocket313 -  surf_atoms:  22   points:   4   score:    1.9
+[INFO] PocketPredictor - pocket314 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket315 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket316 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket317 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket318 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket319 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket320 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket321 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket322 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket323 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket324 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket325 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket326 -  surf_atoms:  21   points:   4   score:    1.9
+[INFO] PocketPredictor - pocket327 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket328 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket329 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket330 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket331 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket332 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket333 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket334 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket335 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket336 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket337 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket338 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket339 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket340 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket341 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket342 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket343 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket344 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket345 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket346 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket347 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket348 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket349 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket350 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket351 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket352 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket353 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket354 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket355 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket356 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket357 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket358 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket359 -  surf_atoms:  21   points:   6   score:    1.9
+[INFO] PocketPredictor - pocket360 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket361 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket362 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket363 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket364 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket365 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket366 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket367 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket368 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket369 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket370 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket371 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket372 -  surf_atoms:  22   points:   7   score:    1.9
+[INFO] PocketPredictor - pocket373 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket374 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket375 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket376 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket377 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket378 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket379 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket380 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket381 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket382 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket383 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket384 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket385 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket386 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket387 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket388 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket389 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket390 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket391 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket392 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket393 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket394 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket395 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket396 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket397 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket398 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket399 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket400 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket401 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket402 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket403 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket404 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket405 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket406 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket407 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket408 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket409 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket410 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket411 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket412 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket413 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket414 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket415 -  surf_atoms:  16   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket416 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket417 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket418 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket419 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket420 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket421 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket422 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket423 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket424 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket425 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket426 -  surf_atoms:  16   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket427 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket428 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket429 -  surf_atoms:  16   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket430 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket431 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket432 -  surf_atoms:  16   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket433 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket434 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket435 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket436 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket437 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket438 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket439 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket440 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket441 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket442 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket443 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket444 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket445 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket446 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket447 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket448 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket449 -  surf_atoms:  16   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket450 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket451 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket452 -  surf_atoms:  16   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket453 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket454 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket455 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket456 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket457 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket458 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket459 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket460 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket461 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket462 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket463 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket464 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket465 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket466 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket467 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket468 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket469 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket470 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket471 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket472 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket473 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket474 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket475 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket476 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket477 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket478 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket479 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket480 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket481 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket482 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket483 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket484 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket485 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket486 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket487 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket488 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket489 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket490 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket491 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket492 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket493 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket494 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket495 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket496 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket497 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket498 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket499 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket500 -  surf_atoms:  13   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket501 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket502 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket503 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket504 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket505 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket506 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket507 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket508 -  surf_atoms:  13   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket509 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket510 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket511 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket512 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket513 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket514 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket515 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket516 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket517 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket518 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket519 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket520 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket521 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket522 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket523 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket524 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket525 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket526 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket527 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket528 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket529 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket530 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket531 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket532 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket533 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket534 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket535 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket536 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket537 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket538 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket539 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket540 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket541 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket542 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket543 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket544 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket545 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket546 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket547 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket548 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket549 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket550 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket551 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket552 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket553 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket554 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket555 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket556 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket557 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket558 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket559 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket560 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket561 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket562 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket563 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket564 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket565 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket566 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket567 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket568 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket569 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket570 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket571 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket572 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket573 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket574 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket575 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket576 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket577 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket578 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket579 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket580 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket581 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket582 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket583 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket584 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket585 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket586 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket587 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket588 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket589 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket590 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket591 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket592 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket593 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket594 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket595 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket596 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket597 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket598 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket599 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket600 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket601 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket602 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket603 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket604 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket605 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket606 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket607 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket608 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket609 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket610 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket611 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket612 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket613 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket614 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket615 -  surf_atoms:  15   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket616 -  surf_atoms:  13   points:   3   score:    0.8
+[INFO] PocketPredictor - pocket617 -  surf_atoms:  13   points:   3   score:    0.8
+[INFO] PocketPredictor - pocket618 -  surf_atoms:  13   points:   3   score:    0.8
+[INFO] PocketPredictor - pocket619 -  surf_atoms:  13   points:   3   score:    0.8
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 20.121 seconds
+[INFO] Console - results saved to directory [/Users/alec/AAV-Docking-Benchmark/results/site_discovery/aav9_apo/p2rank/raw]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 20.729 seconds.

@@ -1,0 +1,60 @@
+[2026-11-03 08:19:10,139 cli INFO] 
+##############################################
+#                                            #
+#                 HADDOCK3                   #
+#                                            #
+##############################################
+
+!! Some of the HADDOCK3 components use CNS (Crystallographic and NMR System) which is free of use for non-profit applications. !!
+!! For commercial use it is your own responsibility to have a proper license. !!
+!! For details refer to the DISCLAIMER file in the HADDOCK3 repository. !!
+
+Starting HADDOCK3 v2026.10.1 on 2026-11-03 08:19:00
+
+Python 3.11.8 (main, Feb  6 2024, 21:21:21) [Clang 15.0.0 (clang-1500.1.0.2.5)]
+
+[2026-11-03 08:19:10,156 workflow_ordering INFO] Workflow module order validated.
+[2026-11-03 08:19:10,221 libworkflow INFO] Reading instructions step 0_topoaa
+[2026-11-03 08:19:10,240 base_cns_module INFO] Running [topoaa] module
+[2026-11-03 08:19:10,240 __init__ INFO] [topoaa] Molecule 1: 1LMQ_r_u.pdb
+[2026-11-03 08:19:10,242 __init__ INFO] [topoaa] Termini of molecule 1:
+ N-ter: uncharged C-ter: uncharged 5'phosphate: no
+[2026-11-03 08:19:10,242 __init__ INFO] [topoaa] Sanitizing molecule 1LMQ_r_u.pdb
+[2026-11-03 08:19:10,245 __init__ INFO] [topoaa] Topology CNS input created
+[2026-11-03 08:19:10,245 __init__ INFO] [topoaa] Molecule 2: 1LMQ_l_u.pdb
+[2026-11-03 08:19:10,246 __init__ INFO] [topoaa] Termini of molecule 2:
+ N-ter: uncharged C-ter: uncharged 5'phosphate: no
+[2026-11-03 08:19:10,246 __init__ INFO] [topoaa] Sanitizing molecule 1LMQ_l_u.pdb
+[2026-11-03 08:19:10,247 __init__ INFO] [topoaa] Topology CNS input created
+[2026-11-03 08:19:10,247 __init__ INFO] [topoaa] Running CNS Jobs n=2
+[2026-11-03 08:19:10,247 libutil INFO] Selected 1 cores to process 2 jobs, with 10 maximum available cores.
+[2026-11-03 08:19:10,259 libparallel INFO] Using 1 cores
+[2026-11-03 08:19:12,285 libparallel INFO] 2 tasks finished
+[2026-11-03 08:19:12,285 __init__ INFO] [topoaa] CNS jobs have finished
+[2026-11-03 08:19:12,286 base_cns_module INFO] Module [topoaa] finished.
+[2026-11-03 08:19:12,287 __init__ INFO] [topoaa] took 2 seconds
+[2026-11-03 08:19:12,287 cli_analyse INFO] Running haddock3-analyse on ./, modules [], with top_clusters = 10
+[2026-11-03 08:19:12,294 cli_analyse INFO] Created directory: /Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/topology_diagnostic/run-topology/analysis
+[2026-11-03 08:19:12,294 cli_analyse INFO] Reading input run directory
+[2026-11-03 08:19:12,294 cli_analyse INFO] selected steps: 0_topoaa
+[2026-11-03 08:19:12,294 cli_analyse INFO] Analysing step 0_topoaa
+[2026-11-03 08:19:12,309 capri INFO] No previous CNS step found. Cannot save scoring weights.
+[2026-11-03 08:19:12,309 __init__ INFO] [caprieval] No reference structure provided. Using the structure with the lowest score from previous step
+[2026-11-03 08:19:12,311 libutil INFO] Selected 1 cores to process 2 jobs, with 10 maximum available cores.
+[2026-11-03 08:19:12,311 libparallel INFO] Using 1 cores
+[2026-11-03 08:19:13,018 libparallel INFO] 2 tasks finished
+[2026-11-03 08:19:13,018 cli_analyse WARNING] Could not execute the analysis for step 0_topoaa. The following error occurred: 'NoneType' object has no attribute 'identificator'
+[2026-11-03 08:19:13,019 cli_analyse INFO] cancelling unsuccesful analysis folders
+[2026-11-03 08:19:13,019 cli_traceback INFO] Running haddock3-traceback on ./
+[2026-11-03 08:19:13,019 cli_traceback INFO] Reading input run directory
+[2026-11-03 08:19:13,019 cli_traceback INFO] All_steps: 0_topoaa
+[2026-11-03 08:19:13,019 cli_traceback INFO] Modules not to be analysed: 0_topoaa
+[2026-11-03 08:19:13,019 cli_traceback INFO] No steps to trace back. Exiting.
+[2026-11-03 08:19:13,019 cli INFO] This HADDOCK3 run took: 3 seconds
+[2026-11-03 08:19:13,019 greetings INFO] Your feedback matters in Haddock3! Share your experience and help us grow:
+[2026-11-03 08:19:13,019 greetings INFO] GitHub issues: https://github.com/haddocking/haddock3/issues
+[2026-11-03 08:19:13,019 greetings INFO] BioExcel feedback: https://www.bonvinlab.org/feedback
+[2026-11-03 08:19:13,019 greetings INFO] BioExcel forum: https://ask.bioexcel.eu/c/haddock/6
+[2026-11-03 08:19:13,019 greetings INFO] BioExcel survey: https://forms.gle/6Y83f4qQgLQnon9VA
+[2026-11-03 08:19:13,019 greetings INFO] Haddock3 user manual: https://www.bonvinlab.org/haddock3-user-manual/
+[2026-11-03 08:19:13,020 cli INFO] Finished at 03/11/2026 08:19:13. Mandi! Tchau! Até logo!

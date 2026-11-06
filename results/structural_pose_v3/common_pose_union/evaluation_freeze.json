@@ -1,0 +1,11 @@
+{
+  "all_four_workflow_gates_required_before_accuracy": true,
+  "evaluation_plan_sha256": "6196409753091dedaad360c039de451c1240c061dc65ac37c70cac67c99ad36e",
+  "frozen_at_UTC": "2026-11-03T19:21:31.263430+00:00",
+  "frozen_before_test_pose_accuracy": true,
+  "frozen_before_union_pose_accuracy": true,
+  "implementation_after_580_fixed_scores_disclosed": true,
+  "metric_choices_inherited_from_prior_main_and_union_freezes": true,
+  "new_test_pose_accuracy_consulted": false,
+  "new_test_site_accuracy_consulted": false
+}

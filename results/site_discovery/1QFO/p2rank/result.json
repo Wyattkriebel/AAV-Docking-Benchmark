@@ -1,0 +1,85 @@
+{
+  "artifacts": [
+    {
+      "path": "raw/params.txt",
+      "sha256": "18293d2a2c1880b38f6c16b0b3c2485463b7f7adf6551c0a6cd02b61c880de58",
+      "size_bytes": 6244
+    },
+    {
+      "path": "raw/receptor.cif_predictions.csv",
+      "sha256": "59aa76673296f5aaf058cd70b7c02ca7c6a20bb834dfee95c78ab27990811e60",
+      "size_bytes": 127
+    },
+    {
+      "path": "raw/receptor.cif_residues.csv",
+      "sha256": "d4f6a3fb653917fdce21194f564d93f784d74423acd7f568acb219319002213b",
+      "size_bytes": 5291
+    },
+    {
+      "path": "raw/run.log",
+      "sha256": "cbd53454efdfc37baa2c49689d6c273d2e2ce24d9ae7a4bc2157cb8ddc6fb626",
+      "size_bytes": 1991
+    },
+    {
+      "path": "stderr.log",
+      "sha256": "e22b1b91923d53c2d49f0a66acf21188924d56fd6ee2cb08d980845f1fee8c8b",
+      "size_bytes": 2544
+    },
+    {
+      "path": "stdout.log",
+      "sha256": "a0b0ef8d4ca9b0f00cb6cc4018d460ed46b81fc0f7504578f06cceba0e23d609",
+      "size_bytes": 648
+    },
+    {
+      "path": "version.log",
+      "sha256": "18abcba0ae425a94806493303da2ebe534f302b78f092ee8df5cbc75ac16ce70",
+      "size_bytes": 207
+    }
+  ],
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/tools/p2rank_2.5.1/prank",
+    "predict",
+    "-f",
+    "/Users/alec/AAV-Docking-Benchmark/data/processed/site_inputs/1QFO/receptor.cif",
+    "-o",
+    "/Users/alec/AAV-Docking-Benchmark/results/site_discovery/1QFO/p2rank/raw",
+    "-threads",
+    "1",
+    "-visualizations",
+    "0",
+    "-seed",
+    "42",
+    "-model",
+    "default"
+  ],
+  "executable_sha256": "ad7bedfcb833b639aebe171c005920017e68acb071cb5508e8147726ad5d115c",
+  "input_amino_acid_residue_count": 116,
+  "input_atom_count": 911,
+  "input_path": "/Users/alec/AAV-Docking-Benchmark/data/processed/site_inputs/1QFO/receptor.cif",
+  "input_scope": "entire supplied prepared receptor",
+  "input_sha256": "601edbdb4d066203142ae57a21befdc7e6b2b3769794f855b9895a8be3073d19",
+  "java_home": "/Users/alec/AAV-Docking-Benchmark/tools/jre-temurin-21.0.13+9/Contents/Home",
+  "lock_sha256": "37d1206c9875bf090eb4115c9845acf0188bcb216e929735f5cddf8d96383160",
+  "method": "p2rank",
+  "parameters": {
+    "additional_tuning": false,
+    "command": "predict",
+    "heap_limit_MiB": 2048,
+    "input_scope": "full prepared protein receptor; no reference-derived cropping, sites, boxes, or restraints",
+    "model": "default",
+    "seed": 42,
+    "threads": 1,
+    "timeout_seconds": 600,
+    "visualizations": false
+  },
+  "prediction_count": 0,
+  "predictions": [],
+  "reference_independent": true,
+  "residue_identity_system": "input author chain, number, insertion code, residue name",
+  "returncode": 0,
+  "runtime_seconds": 3.1758230419945903,
+  "schema_version": 1,
+  "status": "ok",
+  "timeout_seconds": 600,
+  "version": "2.5.1"
+}

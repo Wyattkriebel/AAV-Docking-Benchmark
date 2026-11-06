@@ -1,0 +1,55 @@
+{'case_id': '2RDK', 'status': 'selected', 'valid_candidate_count': 19, 'selected_slot': 8, 'report_sha256': '39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146'}
+{'case_id': '3ZWE', 'status': 'selected', 'valid_candidate_count': 2, 'selected_slot': 4, 'report_sha256': '79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e'}
+{'case_id': '4R9F', 'status': 'selected', 'valid_candidate_count': 14, 'selected_slot': 0, 'report_sha256': '453d4255f8ca3882f43d122ee369ca3244777800705e5de8f6f3920b5c2543a0'}
+{'case_id': '5HZA', 'status': 'selected', 'valid_candidate_count': 17, 'selected_slot': 14, 'report_sha256': 'e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90'}
+{'case_id': '5V6F', 'status': 'selected', 'valid_candidate_count': 13, 'selected_slot': 18, 'report_sha256': '206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd'}
+{'case_id': '8I5U', 'status': 'selected', 'valid_candidate_count': 19, 'selected_slot': 3, 'report_sha256': '14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71'}
+{
+  "schema_version": 1,
+  "profile_id": "ccd_ideal_pyranose_v3",
+  "cases": [
+    {
+      "case_id": "2RDK",
+      "status": "selected",
+      "valid_candidate_count": 19,
+      "selected_slot": 8,
+      "report_sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146"
+    },
+    {
+      "case_id": "3ZWE",
+      "status": "selected",
+      "valid_candidate_count": 2,
+      "selected_slot": 4,
+      "report_sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e"
+    },
+    {
+      "case_id": "4R9F",
+      "status": "selected",
+      "valid_candidate_count": 14,
+      "selected_slot": 0,
+      "report_sha256": "453d4255f8ca3882f43d122ee369ca3244777800705e5de8f6f3920b5c2543a0"
+    },
+    {
+      "case_id": "5HZA",
+      "status": "selected",
+      "valid_candidate_count": 17,
+      "selected_slot": 14,
+      "report_sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90"
+    },
+    {
+      "case_id": "5V6F",
+      "status": "selected",
+      "valid_candidate_count": 13,
+      "selected_slot": 18,
+      "report_sha256": "206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd"
+    },
+    {
+      "case_id": "8I5U",
+      "status": "selected",
+      "valid_candidate_count": 19,
+      "selected_slot": 3,
+      "report_sha256": "14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71"
+    }
+  ],
+  "no_docking_or_accuracy_evaluation": true
+}

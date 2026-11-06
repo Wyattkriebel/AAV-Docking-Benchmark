@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "curation_date": "2026-10-29",
+  "status": "additional_evidence_research_not_a_frozen_panel",
+  "current_panel_mutated": false,
+  "candidates": [
+    {
+      "candidate_id": "stowell_2008_Gal3_SPR_arabinose_control",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2442294/",
+      "doi": "10.1074/jbc.M709545200",
+      "locator": "Measurement of Galectin Binding Affinity Using Surface Plasmon Resonance; Figure 5; Table 1",
+      "target": "human galectin-3",
+      "assay": "SPR, Biacore 3000",
+      "temperature_C": 25,
+      "buffer": "PBS pH 7 with 0.005% Tween20",
+      "protein_concentration_range_uM": [
+        0.1,
+        100
+      ],
+      "presentation": "biotinylated glycosides captured on streptavidin sensor chip",
+      "tested_positive_names": [
+        "lactose",
+        "(LacNAc)2",
+        "(LacNAc)3"
+      ],
+      "tested_control_name": "arabinose",
+      "source_control_label": "nonbinding control; actual immobilized reference surface",
+      "tested_negative_evidence": true,
+      "numerical_detection_limit": null,
+      "control_stereochemistry": null,
+      "control_anomer_and_ring": null,
+      "control_biotin_linker_graph": null,
+      "free_arabinose_binding_label": null,
+      "ready_for_exact_graph_docking": false,
+      "remaining_requirements": [
+        "recover arabinose D/L identity, ring/anomer and full biotinylated spacer structure",
+        "recover immobilization level and reference-surface response/noise if numerical nonbinding threshold required",
+        "preserve presentation; do not label unspecified free arabinose by inference"
+      ]
+    },
+    {
+      "candidate_id": "carpenter_2025_Gal3_LiGA",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12680057/",
+      "doi": "10.1126/sciadv.adx6373",
+      "locator": "Figure 4F; Figure S15; Data S1; LiGA methods",
+      "target": "galectin-3",
+      "assay": "liquid glycan array (LiGA), DNA-barcoded glycophages",
+      "protein_coating_concentration_ug_ml": 50,
+      "mixture_concentration_PFU_ml": 1000000000,
+      "incubation": "1 hour at room temperature",
+      "buffer": {
+        "HEPES_mM": 20,
+        "NaCl_mM": 150,
+        "CaCl2_mM": 2,
+        "pH": 7.4
+      },
+      "presentation": "multivalent glycosides chemically conjugated to M13 particles; linker and density must be retained",
+      "explicit_source_reported_negative_glycoepitopes": [
+        "alpha-L-glucose",
+        "beta-L-glucose",
+        "alpha-L-mannose",
+        "alpha-L-rhamnose"
+      ],
+      "positive_control_status": "Comparison workbook explicitly labels alpha-L-Glc positive for Gal3; 5 other tested glycosides negative. This conflicts with the article body generalization.",
+      "tested_negative_evidence": true,
+      "source_combined_label_rule": "LiGA fold-change or lectin-array fluorescence combined in source model comparison; not adopted here",
+      "our_label_rule": null,
+      "exact_tested_spacer_graph_status": "must distinguish actual coupled glycosides from Sp0 model inputs",
+      "supplementary_archive": "sciadv.adx6373_data_s1_to_s5.zip",
+      "supplementary_recovery_status": "DataS1 and workbooks recovered from official EuropePMC archive; ZIP CRC verified",
+      "ready_for_exact_graph_docking": false,
+      "remaining_requirements": [
+        "map each actual Gal3 MOG/MOY barcode, display density, reagent graph and naive-input normalization",
+        "resolve negative alpha-L-Rha LiGA value against defined nonnegative fold-change ratio",
+        "reconcile alpha-L-Glc workbook positive with body text no-binding generalization",
+        "freeze a single assay-context label/uncertainty rule before biological performance scoring",
+        "retain tested phage display chemistry; report modeled epitope approximation separately",
+        "preserve raw data source license; do not redistribute 48HD files under repository MIT by default"
+      ],
+      "supplementary_download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12680057/supplementaryFiles",
+      "source_archive_sha256": {
+        "EuropePMC_supplementary_archive": "b2b6753cb962dbadda315f45d3347d17887fe87215a9e385cea16860a60ba7c8",
+        "DataS1_archive": "b96ac9251fb56243318a4155dcd92127512654aad86076e803c5aa3f5fb33cf3"
+      },
+      "workbook_sha256": {
+        "MCNet vs 4 other models.xlsx": "67c9f3b0ecfe17a013072109343687185accc99902240170d893d66f5382f725",
+        "267 Lectins x 76 glycans.xlsx": "d0fbecd0e9581eee38b81ea267d38b7afa0e7ced648f5dbae3f80dbc288c3e37",
+        "Lectin Array Data.xlsx": "f2e77b6e5fe703c4d6b884a90deed204becf16b1f051670d77f6f906a397deee"
+      },
+      "workbook_paths_in_DataS1": {
+        "MCNet vs 4 other models.xlsx": "Comparison With Other Models/MCNet vs 4 other models.xlsx",
+        "267 Lectins x 76 glycans.xlsx": "Comparison With Other Models/267 Lectins x 76 glycans.xlsx",
+        "Lectin Array Data.xlsx": "Comparison With Other Models/Lectin Array Data.xlsx"
+      },
+      "published_comparison_rows": [
+        {
+          "ligand_id": "a-L-Glc",
+          "target": "Gal-3",
+          "comparison_source_cells": {
+            "ligand": "B12",
+            "target": "C12",
+            "lectin_array": "D12",
+            "liga": "E12",
+            "source_combined_ground_truth": "F12"
+          },
+          "published_lectin_array": "na",
+          "published_LiGA_value": 2.25202952134069,
+          "published_combined_label": 1,
+          "source_LiGA_gt_1_5_reproduced_label": 1,
+          "model_structure_name": "L-Glc(a1-Sp0",
+          "model_smiles": "OC[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@@H]1-OCCN-C(=O)CCCOC",
+          "model_graph_source_cells": {
+            "name": "E1",
+            "smiles": "E2"
+          },
+          "model_graph_is_actual_phage_presentation": false,
+          "model_graph_validated": true,
+          "model_heavy_atom_count": 22,
+          "model_formal_charge": 0,
+          "experimental_quantity_interpretation": "literal published LiGA field; ratio versus transformed-value provenance unresolved",
+          "published_ground_truth_is_confirmed_biological_binding_label": false
+        },
+        {
+          "ligand_id": "b-L-Glc",
+          "target": "Gal-3",
+          "comparison_source_cells": {
+            "ligand": "B23",
+            "target": "C23",
+            "lectin_array": "D23",
+            "liga": "E23",
+            "source_combined_ground_truth": "F23"
+          },
+          "published_lectin_array": "na",
+          "published_LiGA_value": 1.08043034372372,
+          "published_combined_label": 0,
+          "source_LiGA_gt_1_5_reproduced_label": 0,
+          "model_structure_name": "L-Glc(b1-Sp0",
+          "model_smiles": "OC[C@H](O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1-OCCN-C(=O)CCCOC",
+          "model_graph_source_cells": {
+            "name": "G1",
+            "smiles": "G2"
+          },
+          "model_graph_is_actual_phage_presentation": false,
+          "model_graph_validated": true,
+          "model_heavy_atom_count": 22,
+          "model_formal_charge": 0,
+          "experimental_quantity_interpretation": "literal published LiGA field; ratio versus transformed-value provenance unresolved",
+          "published_ground_truth_is_confirmed_biological_binding_label": false
+        },
+        {
+          "ligand_id": "b-D-Glc",
+          "target": "Gal-3",
+          "comparison_source_cells": {
+            "ligand": "B34",
+            "target": "C34",
+            "lectin_array": "D34",
+            "liga": "E34",
+            "source_combined_ground_truth": "F34"
+          },
+          "published_lectin_array": "na",
+          "published_LiGA_value": 1,
+          "published_combined_label": 0,
+          "source_LiGA_gt_1_5_reproduced_label": 0,
+          "model_structure_name": "D-Glc(b1-Sp0",
+          "model_smiles": "OC[C@@H](O1)[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1-OCCN-C(=O)CCCOC",
+          "model_graph_source_cells": {
+            "name": "H1",
+            "smiles": "H2"
+          },
+          "model_graph_is_actual_phage_presentation": false,
+          "model_graph_validated": true,
+          "model_heavy_atom_count": 22,
+          "model_formal_charge": 0,
+          "experimental_quantity_interpretation": "literal published LiGA field; ratio versus transformed-value provenance unresolved",
+          "published_ground_truth_is_confirmed_biological_binding_label": false
+        },
+        {
+          "ligand_id": "a-L-Man",
+          "target": "Gal-3",
+          "comparison_source_cells": {
+            "ligand": "B45",
+            "target": "C45",
+            "lectin_array": "D45",
+            "liga": "E45",
+            "source_combined_ground_truth": "F45"
+          },
+          "published_lectin_array": "na",
+          "published_LiGA_value": 0.390607703201019,
+          "published_combined_label": 0,
+          "source_LiGA_gt_1_5_reproduced_label": 0,
+          "model_structure_name": "L-Man(a1-Sp0",
+          "model_smiles": "OC[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1-OCCN-C(=O)CCCOC",
+          "model_graph_source_cells": {
+            "name": "I1",
+            "smiles": "I2"
+          },
+          "model_graph_is_actual_phage_presentation": false,
+          "model_graph_validated": true,
+          "model_heavy_atom_count": 22,
+          "model_formal_charge": 0,
+          "experimental_quantity_interpretation": "literal published LiGA field; ratio versus transformed-value provenance unresolved",
+          "published_ground_truth_is_confirmed_biological_binding_label": false
+        },
+        {
+          "ligand_id": "a-D-Man",
+          "target": "Gal-3",
+          "comparison_source_cells": {
+            "ligand": "B56",
+            "target": "C56",
+            "lectin_array": "D56",
+            "liga": "E56",
+            "source_combined_ground_truth": "F56"
+          },
+          "published_lectin_array": "na",
+          "published_LiGA_value": 0.913292175,
+          "published_combined_label": 0,
+          "source_LiGA_gt_1_5_reproduced_label": 0,
+          "model_structure_name": "D-Man(a1-Sp0",
+          "model_smiles": "OC[C@@H](O1)[C@@H](O)[C@H](O)[C@H](O)[C@H]1-OCCN-C(=O)CCCOC",
+          "model_graph_source_cells": {
+            "name": "J1",
+            "smiles": "J2"
+          },
+          "model_graph_is_actual_phage_presentation": false,
+          "model_graph_validated": true,
+          "model_heavy_atom_count": 22,
+          "model_formal_charge": 0,
+          "experimental_quantity_interpretation": "literal published LiGA field; ratio versus transformed-value provenance unresolved",
+          "published_ground_truth_is_confirmed_biological_binding_label": false
+        },
+        {
+          "ligand_id": "a-L-Rha",
+          "target": "Gal-3",
+          "comparison_source_cells": {
+            "ligand": "B67",
+            "target": "C67",
+            "lectin_array": "D67",
+            "liga": "E67",
+            "source_combined_ground_truth": "F67"
+          },
+          "published_lectin_array": "na",
+          "published_LiGA_value": -0.568644795148303,
+          "published_combined_label": 0,
+          "source_LiGA_gt_1_5_reproduced_label": 0,
+          "model_structure_name": "L-Rha(a1-Sp0",
+          "model_smiles": "C[C@H](O1)[C@H](O)[C@@H](O)[C@@H](O)[C@@H]1-OCCN-C(=O)CCCOC",
+          "model_graph_source_cells": {
+            "name": "K1",
+            "smiles": "K2"
+          },
+          "model_graph_is_actual_phage_presentation": false,
+          "model_graph_validated": true,
+          "model_heavy_atom_count": 21,
+          "model_formal_charge": 0,
+          "experimental_quantity_interpretation": "literal published LiGA field; ratio versus transformed-value provenance unresolved",
+          "published_ground_truth_is_confirmed_biological_binding_label": false
+        }
+      ],
+      "published_label_reproduction_runnable": true,
+      "direct_same_graph_binding_classifier_qualified": false,
+      "qualification_issues": [
+        "A negative published LiGA value is inconsistent with the supplementary definition of a nonnegative normalized output/input ratio; transformation provenance remains unresolved.",
+        "The article body describes no Gal3 binding to the tested L-monomers, while its comparison workbook labels alpha-L-Glc positive.",
+        "Gal3 lectin-array cells are blank; a second platform does not adjudicate this subset.",
+        "Modeled SMILES do not encode the tested phage conjugates or display valency; actual C4/C8 glycosides require separate chemical mapping.",
+        "Two Gal3 LiGA contexts (MOG and MOY) are listed. Per-context barcode, chemical identity, density, input normalization and aggregation mapping remain unresolved."
+      ],
+      "exact_size_charge_comparison": {
+        "ligands": [
+          "a-L-Glc",
+          "b-L-Glc",
+          "b-D-Glc",
+          "a-L-Man",
+          "a-D-Man"
+        ],
+        "heavy_atom_count": 22,
+        "formal_charge": 0,
+        "source_labels": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "scope": "modeled graphs from source workbook; does not resolve actual display chemistry or biological label conflicts"
+      },
+      "raw_public_datasets": [
+        {
+          "name": "20250131-87MOGgaPANN-IF",
+          "url": "https://48hd.cloud/file/20157",
+          "binding": "Gal3 immobilized on NiNTA",
+          "download_result": "Recovered after a transient503 response",
+          "sha256": "503e2e63ab6bb5fd3eabef8b08fc3650b3c66105ba4f3c71a27a4483412cb310",
+          "crc_errors": null,
+          "remaining_requirements": [
+            "matching naive-input counts",
+            "MOG/MOY modification-code to glycan-graph/display-density definitions",
+            "EdgeR normalization and aggregation provenance for the comparison workbook"
+          ],
+          "redistribution_note": "Source files state noncommercial website terms. Their download does not authorize relicensing under this repository's MIT license."
+        },
+        {
+          "name": "20250718-87MOYgaPANN-IF",
+          "url": "https://48hd.cloud/file/21789",
+          "binding": "Gal3 immobilized on NiNTA",
+          "download_result": "Recovered after a transient503 response",
+          "sha256": "543f16ab6a3df04971e406ed492b98a1cffe9180b7946b0e81dcd14bfb301e26",
+          "crc_errors": null,
+          "remaining_requirements": [
+            "matching naive-input counts",
+            "MOG/MOY modification-code to glycan-graph/display-density definitions",
+            "EdgeR normalization and aggregation provenance for the comparison workbook"
+          ],
+          "redistribution_note": "Source files state noncommercial website terms. Their download does not authorize relicensing under this repository's MIT license."
+        }
+      ],
+      "source_archive_crc_check": "passed for all members",
+      "source_SI": {
+        "sha256": "41b6f661925ce0756f350afc70550428e90ae4f507d0e17ef26307eb48650738",
+        "bytes": 46433189,
+        "pages": 1610,
+        "key_locators": {
+          "Figure_S15": 22,
+          "Figure_S16_FC_definition": 23,
+          "actual_L_glycan_structures_NMR": [
+            37,
+            38,
+            39
+          ],
+          "Table_S4_raw_contexts": 49,
+          "MIRAGE_lectin_array": [
+            51,
+            52,
+            53,
+            54
+          ]
+        }
+      },
+      "source_thresholds": {
+        "LiGA": ">1.5",
+        "lectin_array": ">1000AU",
+        "combination": "OR"
+      },
+      "source_threshold_locator": "Materials and Methods > Using published models for comparison > Comparison task",
+      "input_graph_workbook": "267 Lectins x 76 glycans.xlsx",
+      "label_workbook": "MCNet vs 4 other models.xlsx",
+      "worksheet": "Sheet1",
+      "reference_values_workbook_header_cells": {
+        "LiGA": "E2"
+      },
+      "recommended_next_run": {
+        "purpose": "reproduce literal published source-label classification with modeled input graphs",
+        "cohort": "all six published Gal3 cases; additionally report first five exactly size/charge-matched cases",
+        "scope": "exploratory source reproduction only",
+        "do_not_claim": [
+          "same-graph direct binding specificity",
+          "experimental KD or free-ligand affinity",
+          "held-out family generalization",
+          "resolved source inconsistency"
+        ],
+        "must_freeze_before_run": [
+          "receptor identity and information regime",
+          "score aggregation across seeds",
+          "retained ligand stereochemistry",
+          "scope of the modeled-spacer approximation"
+        ],
+        "size_baseline_AUROC_from_source_labels": 0.6,
+        "exact_matched_five_size_baseline_AUROC": 0.5
+      }
+    },
+    {
+      "candidate_id": "SP_D_2010_A2M_competition",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859506/",
+      "locator": "Figure 5A and accompanying Results",
+      "target": "surfactant protein D",
+      "assay": "competition with immobilized alpha2-macroglobulin (A2M)",
+      "presentation": "free soluble competitors against immobilized A2M; coating/protein concentrations conflict between Methods and Figure5A",
+      "competitor_concentration_mM": 25,
+      "buffer": {
+        "Tris_HCl_mM": 20,
+        "NaCl_mM": 150,
+        "Tween20_percent_vv": 0.05,
+        "CaCl2_mM": 5,
+        "pH": 7.4
+      },
+      "positive_competitor_names": [
+        "D-mannose",
+        "maltose"
+      ],
+      "negative_control_name": "D-fucose",
+      "source_control_label": "poor-binding negative control, no effective competition under this assay",
+      "intermediate_competitor_name": "D-galactose",
+      "tested_negative_evidence": true,
+      "numerical_detection_limit": null,
+      "free_ligand_nonbinding_label": null,
+      "ready_for_exact_graph_docking": false,
+      "remaining_requirements": [
+        "retain qualitative non-inhibition endpoint; do not equate it to absent binding or a KD bound",
+        "model reducing-end anomer ensembles and calcium context before defining docking comparison",
+        "reconcile Methods versus Figure5A concentration disagreement",
+        "confirm assayed SP-D construct/source, replicate responses and reagent stereochemical states"
+      ],
+      "doi": "10.1074/jbc.M110.108837",
+      "temperature_C": 37,
+      "incubation_hours": 1.5,
+      "source_condition_conflict": {
+        "Methods": {
+          "A2M_ug_per_well": 1,
+          "SP_D_ug_ml": 1
+        },
+        "Figure5A_caption": {
+          "A2M_ug_per_well": 5,
+          "SP_D_ug_ml": 5
+        }
+      }
+    },
+    {
+      "candidate_id": "CBM15_2006_xylo_cellohexaose",
+      "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1450244/",
+      "original_assay_source_doi": "10.1074/jbc.M109558200",
+      "locator": "Table2, values attributed to Szabo etal2001",
+      "target": "CjCBM15 (same protein domain as1GNY)",
+      "assay": "ITC",
+      "measurements": [
+        {
+          "ligand": "xylohexaose",
+          "association_constant_M_inverse": 20000
+        },
+        {
+          "ligand": "cellohexaose",
+          "association_constant_M_inverse": 2000
+        }
+      ],
+      "tested_negative_evidence": false,
+      "interpretation": "Both are measured binders. Cellohexaose is tenfold weaker, not a nonbinder.",
+      "ready_for_exact_graph_docking": false,
+      "remaining_requirements": [
+        "recover original full assay conditions and uncertainties",
+        "freeze graph/anomer and source construct mapping",
+        "do not substitute negative labels from secondary summaries"
+      ],
+      "doi": "10.1073/pnas.0508887103"
+    }
+  ]
+}

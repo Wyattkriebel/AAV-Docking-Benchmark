@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "scope": "implementation_development_preparation; not biological performance",
+  "eligible_cases": 7,
+  "successful_preparations": 6,
+  "failed_preparations": 1,
+  "unsupported_preparations": 0,
+  "denominator_policy": "Retain all7 frozen selected cases, including1QFO chemistry failure; docking conditional on supported preparation must be shown beside this unconditional count.",
+  "preparation_policy_history": [
+    {
+      "stage": "initial_development_preparation",
+      "successful": 4,
+      "failed": 1,
+      "unsupported": 2,
+      "blocked_cases": {
+        "1PWB": "required calciumCA2 unsupported by protein-onlypreparation",
+        "2VUZ": "required calciumCA2 unsupported; defaultembeddingfailed but fixedrandom-coordinate retry succeeded"
+      }
+    },
+    {
+      "stage": "calcium_support_before_new_case_docking",
+      "successful": 5,
+      "failed": 1,
+      "unsupported": 1,
+      "extension": "Retain native Meeko-parameterized [Ca+2] with fullatom/coordinatechecks",
+      "remaining_blocker": "2VUZ source renumbering erased missingauthor91, creating apparent consecutive peptidebreak"
+    },
+    {
+      "stage": "numbering_restore_before_2VUZ_docking",
+      "successful": 6,
+      "failed": 1,
+      "unsupported": 0,
+      "extension": "Exact-coordinate mapping restores depositedauthor numbering for topology and originalsource IDs foroutput; no missingloop or peptidebond created"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "154L",
+      "family_id": "goose_type_lysozyme",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "eligible_preparation_denominator": true,
+      "status": "ok",
+      "prepared_directory": "data/processed/154L",
+      "heavy_atoms": 43,
+      "box_size_A": [
+        26.372,
+        26.194000000000003,
+        28.69
+      ],
+      "prepared_ligand_sha256": "00f0d0755a33b2e4884de584f2cfb8feffab38f172f3034edcb4ea3252567dcb",
+      "prepared_receptor_sha256": "d8cb717725adfb7f06b2904b534fd0a591f212175fde1694e12e1d854977eea0"
+    },
+    {
+      "case_id": "1GNY",
+      "family_id": "endo_beta_1_4_xylanase",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "eligible_preparation_denominator": true,
+      "status": "ok",
+      "prepared_directory": "data/processed/1GNY",
+      "heavy_atoms": 46,
+      "box_size_A": [
+        40.35,
+        25.110999999999997,
+        21.421
+      ],
+      "prepared_ligand_sha256": "dbe8062d114c57048df6aaf222472cd29df477b9639715539e1337cba767a89a",
+      "prepared_receptor_sha256": "5abea05b233b672d3210dff51fa1647eeca85a6af60163fb194458b26c80c135"
+    },
+    {
+      "case_id": "1KJL",
+      "family_id": "galectin_3",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "eligible_preparation_denominator": true,
+      "status": "ok",
+      "prepared_directory": "data/processed/1KJL",
+      "heavy_atoms": 26,
+      "box_size_A": [
+        26.789,
+        22.261,
+        22.686
+      ],
+      "prepared_ligand_sha256": "c58a56fb0d10fee46ddafdf6d1f450f6e1aa0abed99724798bd55333a72096e6",
+      "prepared_receptor_sha256": "6eaafe640c1015b04811d4212b04a099341547a305baf376361bedcf89acfa54"
+    },
+    {
+      "case_id": "1QFO",
+      "family_id": "sialoadhesin_ig_v_set_domain",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "eligible_preparation_denominator": true,
+      "status": "failed",
+      "failure_category": "chemistry_reference_mismatch",
+      "reason": "CCD/reference stereochemistry mismatch 1:C1"
+    },
+    {
+      "case_id": "2J1T",
+      "family_id": "fucolectin_related_protein_NedA_like",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "eligible_preparation_denominator": true,
+      "status": "ok",
+      "prepared_directory": "data/processed/2J1T",
+      "heavy_atoms": 46,
+      "box_size_A": [
+        25.241999999999997,
+        26.504,
+        26.067999999999998
+      ],
+      "prepared_ligand_sha256": "d42d751486239a7e86464304a95c4e897ffafac436509248b42078757ef09a92",
+      "prepared_receptor_sha256": "ce3fc092cb0d63e2de9f39ce99e0c3fb5b10b355ff65c6ee06df6394fc48b529"
+    },
+    {
+      "case_id": "1PWB",
+      "family_id": "surfactant_protein_D_C_type_lectin",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "eligible_preparation_denominator": true,
+      "status": "ok",
+      "prepared_directory": "data/processed/1PWB",
+      "heavy_atoms": 23,
+      "box_size_A": [
+        21.665,
+        20.0,
+        25.046
+      ],
+      "prepared_ligand_sha256": "22b682e265b05b731f757d7fa6c828acee98cf44bab2d617d92bf539f740daf9",
+      "prepared_receptor_sha256": "6956506345860802a5686aeb72dde2b3359da6cab117009e7319b842f8d59a98",
+      "calcium_model": "Native [Ca+2], fixed +2 Vina Ca atom; no specialized coordination/polarization"
+    },
+    {
+      "case_id": "2VUZ",
+      "family_id": "codakine_C_type_lectin",
+      "reference_quality": "source_reproduction_only_seven_residue_resolved_fragment_of_titled_nonasaccharide",
+      "eligible_preparation_denominator": true,
+      "status": "ok",
+      "prepared_directory": "data/processed/2VUZ",
+      "heavy_atoms": 90,
+      "box_size_A": [
+        32.018,
+        35.748999999999995,
+        31.026
+      ],
+      "prepared_ligand_sha256": "db2dbd0ed687b856a723bdf34f5119ce6d2db57187aa288f6eadef84ddc66c1e",
+      "prepared_receptor_sha256": "dd2728be9a9421247a5e80350086394e3513062127727bb3bcb9e17fdfb91dd2",
+      "calcium_model": "Native [Ca+2], fixed +2 Vina Ca atom; no specialized coordination/polarization",
+      "reference_scope": "Resolved seven-residue glycan fragment; not whole nonasaccharide atomic truth",
+      "protein_gap": "Missing depositedauthor91 restored to topology via audited numbering map; no loop atoms or cross-gap bond added; source outputidentities retained",
+      "embedding_attempts": [
+        {
+          "algorithm": "ETKDGv3",
+          "seed": 20261024,
+          "use_random_coordinates": false,
+          "return_code": -1
+        },
+        {
+          "algorithm": "ETKDGv3",
+          "seed": 20261024,
+          "use_random_coordinates": true,
+          "max_iterations": 1000,
+          "return_code": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1175 @@
+{
+  "pdb_id": "2VUZ",
+  "map_method": "exact atom name and coordinates at deposited0.001Angstrom precision; all matchedprotein atoms agree per residue",
+  "residues": [
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 1,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 1,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 2,
+      "prepared_resname": "CYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 2,
+      "deposited_insertion_code": "",
+      "deposited_resname": "CYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 3,
+      "prepared_resname": "PRO",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 3,
+      "deposited_insertion_code": "",
+      "deposited_resname": "PRO"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 4,
+      "prepared_resname": "ASP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 4,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 5,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 5,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 6,
+      "prepared_resname": "TRP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 6,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TRP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 7,
+      "prepared_resname": "THR",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 7,
+      "deposited_insertion_code": "",
+      "deposited_resname": "THR"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 8,
+      "prepared_resname": "GLN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 8,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 9,
+      "prepared_resname": "PHE",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 9,
+      "deposited_insertion_code": "",
+      "deposited_resname": "PHE"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 10,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 10,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 11,
+      "prepared_resname": "ASP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 11,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 12,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 12,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 13,
+      "prepared_resname": "CYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 13,
+      "deposited_insertion_code": "",
+      "deposited_resname": "CYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 14,
+      "prepared_resname": "TYR",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 14,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TYR"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 15,
+      "prepared_resname": "ILE",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 15,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ILE"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 16,
+      "prepared_resname": "TYR",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 16,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TYR"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 17,
+      "prepared_resname": "GLN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 17,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 18,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 18,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 19,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 19,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 20,
+      "prepared_resname": "LYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 20,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 21,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 21,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 22,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 22,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 23,
+      "prepared_resname": "TRP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 23,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TRP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 24,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 24,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 25,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 25,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 26,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 26,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 27,
+      "prepared_resname": "GLN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 27,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 28,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 28,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 29,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 29,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 30,
+      "prepared_resname": "CYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 30,
+      "deposited_insertion_code": "",
+      "deposited_resname": "CYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 31,
+      "prepared_resname": "GLN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 31,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 32,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 32,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 33,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 33,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 34,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 34,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 35,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 35,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 36,
+      "prepared_resname": "ILE",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 36,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ILE"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 37,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 37,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 38,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 38,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 39,
+      "prepared_resname": "GLU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 39,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 40,
+      "prepared_resname": "PRO",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 40,
+      "deposited_insertion_code": "",
+      "deposited_resname": "PRO"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 41,
+      "prepared_resname": "ASP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 41,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 42,
+      "prepared_resname": "THR",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 42,
+      "deposited_insertion_code": "",
+      "deposited_resname": "THR"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 43,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 43,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 44,
+      "prepared_resname": "CYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 44,
+      "deposited_insertion_code": "",
+      "deposited_resname": "CYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 45,
+      "prepared_resname": "GLU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 45,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 46,
+      "prepared_resname": "ASN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 46,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 47,
+      "prepared_resname": "GLU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 47,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 48,
+      "prepared_resname": "VAL",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 48,
+      "deposited_insertion_code": "",
+      "deposited_resname": "VAL"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 49,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 49,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 50,
+      "prepared_resname": "ILE",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 50,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ILE"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 51,
+      "prepared_resname": "HIS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 51,
+      "deposited_insertion_code": "",
+      "deposited_resname": "HIS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 52,
+      "prepared_resname": "MET",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 52,
+      "deposited_insertion_code": "",
+      "deposited_resname": "MET"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 53,
+      "prepared_resname": "CYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 53,
+      "deposited_insertion_code": "",
+      "deposited_resname": "CYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 54,
+      "prepared_resname": "LYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 54,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 55,
+      "prepared_resname": "GLU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 55,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 56,
+      "prepared_resname": "ASN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 56,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 57,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 57,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 58,
+      "prepared_resname": "ASP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 58,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 59,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 59,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 60,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 60,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 61,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 61,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 62,
+      "prepared_resname": "PHE",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 62,
+      "deposited_insertion_code": "",
+      "deposited_resname": "PHE"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 63,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 63,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 64,
+      "prepared_resname": "PRO",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 64,
+      "deposited_insertion_code": "",
+      "deposited_resname": "PRO"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 65,
+      "prepared_resname": "TRP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 65,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TRP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 66,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 66,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 67,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 67,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 68,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 68,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 69,
+      "prepared_resname": "GLN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 69,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 70,
+      "prepared_resname": "LYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 70,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 71,
+      "prepared_resname": "VAL",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 71,
+      "deposited_insertion_code": "",
+      "deposited_resname": "VAL"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 72,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 72,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 73,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 73,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 74,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 74,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 75,
+      "prepared_resname": "TRP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 75,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TRP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 76,
+      "prepared_resname": "GLN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 76,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 77,
+      "prepared_resname": "TRP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 77,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TRP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 78,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 78,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 79,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 79,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 80,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 80,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 81,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 81,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 82,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 82,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 83,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 83,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 84,
+      "prepared_resname": "PHE",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 84,
+      "deposited_insertion_code": "",
+      "deposited_resname": "PHE"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 85,
+      "prepared_resname": "ASP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 85,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 86,
+      "prepared_resname": "TYR",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 86,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TYR"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 87,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 87,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 88,
+      "prepared_resname": "ARG",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 88,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ARG"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 89,
+      "prepared_resname": "TRP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 89,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TRP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 90,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 90,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 91,
+      "prepared_resname": "ASN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 92,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 92,
+      "prepared_resname": "GLU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 93,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 93,
+      "prepared_resname": "PRO",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 94,
+      "deposited_insertion_code": "",
+      "deposited_resname": "PRO"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 94,
+      "prepared_resname": "ASN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 95,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 95,
+      "prepared_resname": "ASN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 96,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 96,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 97,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 97,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 98,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 98,
+      "prepared_resname": "GLY",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 99,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLY"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 99,
+      "prepared_resname": "ASN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 100,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 100,
+      "prepared_resname": "GLU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 101,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 101,
+      "prepared_resname": "ASP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 102,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 102,
+      "prepared_resname": "CYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 103,
+      "deposited_insertion_code": "",
+      "deposited_resname": "CYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 103,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 104,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 104,
+      "prepared_resname": "HIS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 105,
+      "deposited_insertion_code": "",
+      "deposited_resname": "HIS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 105,
+      "prepared_resname": "TYR",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 106,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TYR"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 106,
+      "prepared_resname": "ASN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 107,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 107,
+      "prepared_resname": "TRP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 108,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TRP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 108,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 109,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 109,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 110,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 110,
+      "prepared_resname": "TRP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 111,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TRP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 111,
+      "prepared_resname": "ASN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 112,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 112,
+      "prepared_resname": "ASP",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 113,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ASP"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 113,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 114,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 114,
+      "prepared_resname": "ARG",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 115,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ARG"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 115,
+      "prepared_resname": "CYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 116,
+      "deposited_insertion_code": "",
+      "deposited_resname": "CYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 116,
+      "prepared_resname": "HIS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 117,
+      "deposited_insertion_code": "",
+      "deposited_resname": "HIS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 117,
+      "prepared_resname": "TYR",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 118,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TYR"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 118,
+      "prepared_resname": "GLN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 119,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 119,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 120,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 120,
+      "prepared_resname": "SER",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 121,
+      "deposited_insertion_code": "",
+      "deposited_resname": "SER"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 121,
+      "prepared_resname": "TYR",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 122,
+      "deposited_insertion_code": "",
+      "deposited_resname": "TYR"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 122,
+      "prepared_resname": "LEU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 123,
+      "deposited_insertion_code": "",
+      "deposited_resname": "LEU"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 123,
+      "prepared_resname": "CYS",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 124,
+      "deposited_insertion_code": "",
+      "deposited_resname": "CYS"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 124,
+      "prepared_resname": "GLN",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 125,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLN"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 125,
+      "prepared_resname": "ARG",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 126,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ARG"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 126,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 127,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 127,
+      "prepared_resname": "ALA",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 128,
+      "deposited_insertion_code": "",
+      "deposited_resname": "ALA"
+    },
+    {
+      "prepared_chain": "A",
+      "prepared_residue_number": 128,
+      "prepared_resname": "GLU",
+      "deposited_author_chain": "A",
+      "deposited_author_number": 129,
+      "deposited_insertion_code": "",
+      "deposited_resname": "GLU"
+    }
+  ],
+  "unmapped_hetero_residues": [
+    [
+      "A",
+      201,
+      "CA2"
+    ]
+  ],
+  "missing_author_residues": [
+    91
+  ],
+  "source": {
+    "url": "https://files.rcsb.org/download/2VUZ.cif",
+    "sha256": "fd1edcd6228042ba02383eeb2c524dd1bea3c4605a614d46a01201956ff22f8a",
+    "archive": "data/archive/external/2VUZ.cif.gz",
+    "prepared_receptor_sha256": "010940dec8054fd63b8fcbc514caf7d3ba89da552bf6e851642cdfc031eed845"
+  },
+  "policy": "Restore deposited residue numbering only to expose missingauthor91 to protein topology; add no loop atoms or peptidebond90-to92; restore upstreamprepared identities in outputPDBQT for scoring."
+}

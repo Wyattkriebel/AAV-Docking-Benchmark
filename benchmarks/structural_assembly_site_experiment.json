@@ -1,0 +1,135 @@
+{
+  "box_rule": {
+    "maximum_side_A": 42,
+    "oracle_center": "separate explicitly native-informed matched full-parent reference centroid",
+    "predicted_center": "predictor-only score-ranked spatially distinct center",
+    "side_A": "ceil(max(24,2R+16)) from unchanged independent full-parent conformer"
+  },
+  "candidate_budgets": [
+    1,
+    5
+  ],
+  "case_ids": [
+    "3ZWE",
+    "5HZA"
+  ],
+  "cases": [
+    {
+      "box_size": [
+        32,
+        32,
+        32
+      ],
+      "case_id": "3ZWE",
+      "control_protein_heavy_atoms": 661,
+      "full_parent_heavy_atoms": 44,
+      "receptor_sha256": "39c01c8cd85e91d5f7683bb99166a26c096326ac367c140ff2660df4cc9bd67e",
+      "selected_author_chain": "A",
+      "source_inputs_sha256": {
+        "chemistry.json": "4fa270c8351e8a8718575a451036ca714cc2b5631675af8651ff956c5dbffa30",
+        "ligand.pdbqt": "b64b9a81870349eed49c18b4b93b0d83f6079a62afff2b248dead903cb0131cf",
+        "ligand.sdf": "5f6546567f76e2deba09ca11b670ae24c8a456c1a01d88dd3cd6ef5c029bef67",
+        "ligand_atom_map.json": "96196684a33ac465c35f065c251e597879d77e735f9794a6eb9555fdba840ea9",
+        "protein_atom_map.json": "1f55fd9c24c1325d55cc26ae0eef0edc2c193c02764e7890ad455b84cbcd4b79",
+        "receptor.cif": "ee2ce50a5baab25888dc21908b700991f6af174860460f1a967bef8e3792f309",
+        "receptor.pdb": "77b81aa554503536128f0df4bf1ce8eaa56f0477eae9ac05a5de11d0c8c36918"
+      },
+      "source_protein_heavy_atoms": 1983
+    },
+    {
+      "box_size": [
+        28,
+        28,
+        28
+      ],
+      "case_id": "5HZA",
+      "control_protein_heavy_atoms": 2414,
+      "full_parent_heavy_atoms": 33,
+      "receptor_sha256": "e9f0c025ba0d93fd07870b06358f7187b7c239e9fd30824bcb6bb810fdef1387",
+      "selected_author_chain": "A",
+      "source_inputs_sha256": {
+        "chemistry.json": "0e3006cba865e1a00905557d6a71e5b7d5f8fb1ff4293f57984e9b20be32609f",
+        "ligand.pdbqt": "a8ed0ca0b339f6770d85acacc17a4302f7d8b4c9aa6d506b1cc831926f7a19bd",
+        "ligand.sdf": "6962d0c44454801bfbe97d3c5e61c732ba0d35b6f5829141cb47b8baef3fc463",
+        "ligand_atom_map.json": "e39a946a407d3d3192067729485fe331a059266dfb0665cc120492aa36689b80",
+        "protein_atom_map.json": "95295264eafe8a79063b606d8620a39e6be4a83448411a90fb45cc0c4fb5e189",
+        "receptor.cif": "0e71395b29f6d9b30524921119b49d3ad7e90df0d945ac0bf591d97e32b27acf",
+        "receptor.pdb": "fa8aca5ab1e9bc0f556758d595b65e6959191349c2d81639c561327a1dee61c7"
+      },
+      "source_protein_heavy_atoms": 4769
+    }
+  ],
+  "chain_selection": "A for both cases, chosen as first lexical prepared author chain without ligand/site/interface/outcome access",
+  "code_sha256": "1f989e3e477a9231c8534119f53dfe646371d25a3b1e57f41ea95638e4308308",
+  "cpu": 2,
+  "energy_range_kcal_mol": 10,
+  "evaluation": {
+    "atomic_reference": "unchanged full-assembly source-qualified copies and canonical scored masks",
+    "clash_denominator": "unchanged full biological assembly, including omitted protein chains",
+    "full_vs_core": "preserve original qualification; no score-mask or truth replacement",
+    "known_sites": "all uncovered qualified and unqualified known source sites remain annotations; uncovered is not biological nonbinding"
+  },
+  "execution_scope": "Protein-only site prediction on fixed first author chain A for both cases. No docking using the prior unconstrained ring inputs; v3 initializer and paired strict/repair monomer pose profiles require a separate freeze.",
+  "exhaustiveness": 16,
+  "failure_policy": "retain both controls, all methods, unsupported preparation and predictor failures without replacement",
+  "inference_scope": "two paired assembly controls in two families; physically incomplete monomers are not independent biological samples",
+  "ligand_policy": "copy original independently embedded full-parent CCD ligand PDBQT/SDF/chemistry/map bytes exactly; no re-embedding or native coordinates",
+  "locks": {
+    "benchmarks/p2rank.lock.json": "37d1206c9875bf090eb4115c9845acf0188bcb216e929735f5cddf8d96383160",
+    "benchmarks/site_methods.lock.json": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+    "benchmarks/vina.lock.json": "601b6154a65da3c764ae289866b435263f332a9a2a09cd1d711053e4e1c3322e"
+  },
+  "maximum_box_conditions": 22,
+  "maximum_method_conditions": 6,
+  "maximum_seed_runs": 66,
+  "methods": [
+    "fpocket",
+    "p2rank",
+    "oracle"
+  ],
+  "min_rmsd_A": 0.5,
+  "num_modes": 20,
+  "prediction": {
+    "candidate_merge_distance_A": 4.0,
+    "fpocket_timeout_seconds": 3600,
+    "orbit_deduplication": "no_orbit_dedupe",
+    "p2rank_seed": 42,
+    "p2rank_threads": 1,
+    "p2rank_timeout_seconds": 600,
+    "scope": "retained complete source chain only; dry protein, no repair",
+    "top_k": 5
+  },
+  "primary_source_preparation_sha256": "645728a27e358ee42452cb765b12a48a4593a43d6377597dafb064592d2a149d",
+  "prior_full_assembly_site_configuration": {
+    "path": "benchmarks/structural_site_v2_experiment.json",
+    "sha256": "b03934e5d243bf5331c0517fad16e3bf35bcb061abd24fcbdaf7026ddd039e23"
+  },
+  "purpose": "paired source-only assembly completeness ablation: intact assembly versus first lexical-chain monomer",
+  "receptor_policy": {
+    "interaction_cutoff_A": 8.0,
+    "no_heavy_atom_repair": true,
+    "no_reference_based_selection_in_predicted_arm": true,
+    "whole_chain_selection": true
+  },
+  "schema_version": 1,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "site_or_pose_accuracy_consulted": false,
+  "source_ledger_sha256": "5e1142c49191ee9881efc1e918630abc0f57cffb5f2fb0041350cd6df0ac7c4e",
+  "source_preparation": {
+    "path": "results/structural_assembly_site/source_preparation.json",
+    "sha256": "03b48b5a038b00aa0de5b7d4c641e615b5365b5bc67aa5ed52ca31d30d243dc8"
+  },
+  "source_preparation_archive": {
+    "manifest": "results/structural_assembly_site/source_archive_manifest.json",
+    "manifest_sha256": "3fc649a52ba0bd3157b8497f5e8025a61815011b813b5f1c28bd3684cfd2c389",
+    "path": "results/structural_assembly_site/source_preparation.tar.gz",
+    "sha256": "8cc29bc123b3509b8071dde0786f37d169b23733f8f63c8210630d379991927b"
+  },
+  "source_preparation_sha256": "03b48b5a038b00aa0de5b7d4c641e615b5365b5bc67aa5ed52ca31d30d243dc8",
+  "source_profile": "current completed metadata V2 full biological assemblies",
+  "status": "frozen_before_monomer_predictions"
+}

@@ -1,0 +1,746 @@
+{
+  "apo_coordinate_transform_applied": false,
+  "atomic_pose_eligible": false,
+  "case_id": "2J1T",
+  "confirmatory_site": false,
+  "contact_cutoff_A": 4.0,
+  "contact_rule": "canonical protein heavy atoms strictly less than 4.0 A from modeled native ligand heavy atoms",
+  "coordinate_frame": "pinned_holo_source",
+  "eligible_site_only": true,
+  "evaluation_only": true,
+  "native_protein_atom_count": 1073,
+  "native_protein_chain_count": 1,
+  "pdb_id": "2J1T",
+  "reference_limitations": "Nine angle and two torsion flags are present in the four selected residues. Their atoms and local density have not been independently inspected, so atomic eligibility remains unresolved.",
+  "schema_version": 1,
+  "site_class_count": 1,
+  "site_quality_stratum": "published_site_local_fit_caveats",
+  "site_reference_ledger": "benchmarks/site_reference_ledger.json",
+  "site_reference_ledger_sha256": "4eea470aac11e6a29f73a392f72adbe33e98c6584d18d5d7727be15312f354b1",
+  "sites": [
+    {
+      "atom_keys": [
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C1"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C3"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C4"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C5"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C6"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C7"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "C8"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "N2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O1"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O3"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O4"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O5"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O6"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "NAG",
+          "O7"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C1"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C2"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C3"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C4"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C5"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "C6"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O2"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O3"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O4"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O5"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "GAL",
+          "O6"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "C1"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "C2"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "C3"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "C4"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "C5"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "C6"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "O2"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "O3"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "O4"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "FUC",
+          "O5"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "C1"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "C2"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "C3"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "C4"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "C5"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "C6"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "O2"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "O3"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "O4"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "FUC",
+          "O5"
+        ]
+      ],
+      "coordinates": [
+        [
+          -12.774,
+          15.261,
+          15.605
+        ],
+        [
+          -13.308,
+          16.472,
+          16.341
+        ],
+        [
+          -13.01,
+          16.301,
+          17.814
+        ],
+        [
+          -13.557,
+          14.964,
+          18.287
+        ],
+        [
+          -13.062,
+          13.8,
+          17.422
+        ],
+        [
+          -13.668,
+          12.439,
+          17.746
+        ],
+        [
+          -13.447,
+          18.549,
+          15.057
+        ],
+        [
+          -12.612,
+          19.139,
+          13.961
+        ],
+        [
+          -12.766,
+          17.727,
+          15.856
+        ],
+        [
+          -13.081,
+          15.284,
+          14.237
+        ],
+        [
+          -13.702,
+          17.312,
+          18.508
+        ],
+        [
+          -13.227,
+          14.811,
+          19.636
+        ],
+        [
+          -13.445,
+          14.128,
+          16.115
+        ],
+        [
+          -15.074,
+          12.474,
+          17.524
+        ],
+        [
+          -14.646,
+          18.824,
+          15.202
+        ],
+        [
+          -14.29,
+          14.431,
+          20.486
+        ],
+        [
+          -13.647,
+          13.97,
+          21.808
+        ],
+        [
+          -14.752,
+          13.512,
+          22.743
+        ],
+        [
+          -15.777,
+          14.665,
+          22.824
+        ],
+        [
+          -16.281,
+          15.129,
+          21.46
+        ],
+        [
+          -17.247,
+          16.323,
+          21.487
+        ],
+        [
+          -12.782,
+          12.868,
+          21.571
+        ],
+        [
+          -14.222,
+          13.314,
+          24.029
+        ],
+        [
+          -15.162,
+          15.757,
+          23.464
+        ],
+        [
+          -15.188,
+          15.538,
+          20.658
+        ],
+        [
+          -17.811,
+          16.41,
+          20.199
+        ],
+        [
+          -11.564,
+          12.85,
+          22.296
+        ],
+        [
+          -11.149,
+          11.347,
+          22.288
+        ],
+        [
+          -10.781,
+          10.842,
+          20.894
+        ],
+        [
+          -9.71,
+          11.76,
+          20.314
+        ],
+        [
+          -10.248,
+          13.196,
+          20.32
+        ],
+        [
+          -9.256,
+          14.163,
+          19.686
+        ],
+        [
+          -12.161,
+          10.496,
+          22.839
+        ],
+        [
+          -10.325,
+          9.532,
+          20.93
+        ],
+        [
+          -8.569,
+          11.688,
+          21.137
+        ],
+        [
+          -10.621,
+          13.692,
+          21.626
+        ],
+        [
+          -12.921,
+          18.62,
+          19.039
+        ],
+        [
+          -13.779,
+          19.676,
+          19.722
+        ],
+        [
+          -14.377,
+          19.095,
+          21.002
+        ],
+        [
+          -13.268,
+          18.58,
+          21.91
+        ],
+        [
+          -12.392,
+          17.573,
+          21.157
+        ],
+        [
+          -11.163,
+          17.134,
+          21.944
+        ],
+        [
+          -14.75,
+          19.937,
+          18.73
+        ],
+        [
+          -15.164,
+          20.036,
+          21.737
+        ],
+        [
+          -12.518,
+          19.708,
+          22.319
+        ],
+        [
+          -11.956,
+          18.08,
+          19.907
+        ]
+      ],
+      "deposited_ligand_residue_map": [
+        {
+          "deposited": {
+            "author_chain": "C",
+            "author_resnum": "1",
+            "label_chain": "C",
+            "label_resnum": ".",
+            "resname": "NAG"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "NAG",
+          "prepared_resnum": 1
+        },
+        {
+          "deposited": {
+            "author_chain": "C",
+            "author_resnum": "2",
+            "label_chain": "C",
+            "label_resnum": ".",
+            "resname": "GAL"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "GAL",
+          "prepared_resnum": 2
+        },
+        {
+          "deposited": {
+            "author_chain": "C",
+            "author_resnum": "3",
+            "label_chain": "C",
+            "label_resnum": ".",
+            "resname": "FUC"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "FUC",
+          "prepared_resnum": 3
+        },
+        {
+          "deposited": {
+            "author_chain": "C",
+            "author_resnum": "4",
+            "label_chain": "C",
+            "label_resnum": ".",
+            "resname": "FUC"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "FUC",
+          "prepared_resnum": 4
+        }
+      ],
+      "id": "2J1T:released_modeled_glycan",
+      "interface_residue_keys": [
+        [
+          "A",
+          18,
+          "",
+          "TYR"
+        ],
+        [
+          "A",
+          34,
+          "",
+          "PHE"
+        ],
+        [
+          "A",
+          35,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          41,
+          "",
+          "HIS"
+        ],
+        [
+          "A",
+          68,
+          "",
+          "ARG"
+        ],
+        [
+          "A",
+          70,
+          "",
+          "ASP"
+        ],
+        [
+          "A",
+          72,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          75,
+          "",
+          "ARG"
+        ]
+      ],
+      "names": [
+        "B:1:NAG:C1",
+        "B:1:NAG:C2",
+        "B:1:NAG:C3",
+        "B:1:NAG:C4",
+        "B:1:NAG:C5",
+        "B:1:NAG:C6",
+        "B:1:NAG:C7",
+        "B:1:NAG:C8",
+        "B:1:NAG:N2",
+        "B:1:NAG:O1",
+        "B:1:NAG:O3",
+        "B:1:NAG:O4",
+        "B:1:NAG:O5",
+        "B:1:NAG:O6",
+        "B:1:NAG:O7",
+        "B:2:GAL:C1",
+        "B:2:GAL:C2",
+        "B:2:GAL:C3",
+        "B:2:GAL:C4",
+        "B:2:GAL:C5",
+        "B:2:GAL:C6",
+        "B:2:GAL:O2",
+        "B:2:GAL:O3",
+        "B:2:GAL:O4",
+        "B:2:GAL:O5",
+        "B:2:GAL:O6",
+        "B:3:FUC:C1",
+        "B:3:FUC:C2",
+        "B:3:FUC:C3",
+        "B:3:FUC:C4",
+        "B:3:FUC:C5",
+        "B:3:FUC:C6",
+        "B:3:FUC:O2",
+        "B:3:FUC:O3",
+        "B:3:FUC:O4",
+        "B:3:FUC:O5",
+        "B:4:FUC:C1",
+        "B:4:FUC:C2",
+        "B:4:FUC:C3",
+        "B:4:FUC:C4",
+        "B:4:FUC:C5",
+        "B:4:FUC:C6",
+        "B:4:FUC:O2",
+        "B:4:FUC:O3",
+        "B:4:FUC:O4",
+        "B:4:FUC:O5"
+      ]
+    }
+  ],
+  "source_files": [
+    {
+      "expected_sha256": "45a8497e4e345d525ac03099284db6594ff61885e9d3389869d748fd71b00553",
+      "path": "data/raw/external/2J1T_l_b.pdb",
+      "role": "native_ligand",
+      "sha256": "45a8497e4e345d525ac03099284db6594ff61885e9d3389869d748fd71b00553",
+      "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_l_b.pdb"
+    },
+    {
+      "expected_sha256": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a",
+      "path": "data/raw/external/2J1T_r_b.pdb",
+      "role": "native_receptor",
+      "sha256": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a",
+      "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_r_b.pdb"
+    }
+  ],
+  "symmetry_copy_count": 1
+}

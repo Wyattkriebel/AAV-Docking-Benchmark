@@ -1,0 +1,59 @@
+{
+  "canonical_summary_sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2",
+  "comparison": {
+    "actual_file": {
+      "bytes": 10071074,
+      "path": "/private/var/folders/cp/bbqcpp814bjd_6mfhk6lxf7r0000gn/T/aav-qualified-development-v2-replay-kthiq815/workspace/results/development_pose_report_release/qualified_pose_v2_summary.json",
+      "sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2"
+    },
+    "approved_derived_float_values": 58194,
+    "compared_float_values": 62300,
+    "compared_leaf_values": 154404,
+    "comparison_core_sha256": "a6340ec4779fa546eb5673fecaca7b976415b78dbdfb1804b1b3c55c8f2bb048",
+    "comparison_mode": "exact_bytes",
+    "differences_display_truncated": false,
+    "displayed_differences": [],
+    "evaluator_schema_source_sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525",
+    "exact_bytes": true,
+    "expected_file": {
+      "bytes": 10071074,
+      "path": "/Users/alec/AAV-Docking-Benchmark/results/development_pose_report_release/qualified_pose_v2_summary.json",
+      "sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2"
+    },
+    "global_comparison_policy_modified": false,
+    "list_order_preserved": true,
+    "max_difference_path": null,
+    "max_numeric_difference": 0.0,
+    "max_numeric_difference_exact_ratio": "0",
+    "metrics_recomputed": false,
+    "numeric_tolerance": 0.0,
+    "policy_id": "qualified_development_derived_paths_v1",
+    "relative_tolerance": 0.0,
+    "schema_version": 1,
+    "source_validation_performed": false,
+    "status": "exact_byte_match",
+    "tolerance_exact_ratio": "0",
+    "tolerated_difference_count": 0,
+    "unknown_fields_exact": true
+  },
+  "evaluation_freeze_sha256": "0d529ac316c3f79263f01aedc9d5f8e11343d5395f91d99a601911e671657863",
+  "evaluator_source_sha256": "1c65a796e1ea14184add305c321ac9dcda6fdd38ad1de59f3a36092b8f71b48b",
+  "exported_git_files": 2795,
+  "implementation_amendment": {
+    "bytes": 4223,
+    "path": "benchmarks/qualified_pose_atom_order_amendment.json",
+    "sha256": "93e75fd44e036a007b3e37bb7fa40c83f911ea366eb581e4254704f9f59d47da"
+  },
+  "markdown_bytes_identical": true,
+  "native_executables_used": false,
+  "new_six_case_structural_metrics_computed": false,
+  "processed_tree_absent": true,
+  "recomputed_summary_sha256": "831e889196cd5755943ffef5bca6844e322c89cafffb161cc96159aceadb97d2",
+  "schema_version": 1,
+  "source_commit": "b8a11f1af13e6390063b0312456493c4fa94c175",
+  "status": "verified_qualified_development_v2_replay",
+  "tools_absent": true,
+  "verified_archive_members": 1511,
+  "verified_archives": 2,
+  "workspace_plan_sha256": "805699da28626750e9ba62efedf3a49bff84297f089131fd648d9fd8a5d472e8"
+}

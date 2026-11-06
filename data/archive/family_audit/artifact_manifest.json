@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "retrieval_date": "2026-11-03",
+  "purpose": "Source-only protein sequence/domain overlap; no docking/site outcomes",
+  "files": [
+    {
+      "archive": "data/archive/family_audit/alignment_run.json",
+      "sha256": "d60b27fb8c332c13a43ea8a189e2cee4d40411bc2058f24a08c9a40f2e26078b",
+      "bytes": 1114
+    },
+    {
+      "archive": "data/archive/family_audit/all_alignments.json.gz",
+      "sha256": "6ee9019f2f7dfac6b97cf5c6b3425d295e041fb2b2f55d64551f184d70046d15",
+      "bytes": 1531860
+    },
+    {
+      "archive": "data/archive/family_audit/chen11-fpocket.ds",
+      "sha256": "57344f47460fe786a62f16eec1168018b5d277008ced13dde206ecf4b2fd8419",
+      "bytes": 25224
+    },
+    {
+      "archive": "data/archive/family_audit/dataset_rows.json",
+      "sha256": "41753e84fd9b007ecdac539cbeaf08b5f421cc5056e58f4cc4fea03623b547df",
+      "bytes": 51960
+    },
+    {
+      "archive": "data/archive/family_audit/entry_inventory.json.gz",
+      "sha256": "36508cdf718dad1ba524d501738aafb652ecaad1dfa74003f9355b73933aee98",
+      "bytes": 672864
+    },
+    {
+      "archive": "data/archive/family_audit/protein_entities.json.gz",
+      "sha256": "90ec5ab986c43ce3cbe6d0c01ec4d828203c70fc2e481f954b49925e9f8a738e",
+      "bytes": 191222
+    },
+    {
+      "archive": "data/archive/family_audit/qualification_policy.json",
+      "sha256": "d6ec6805def681498bb3e5db1438c51d25a1a63dc4ac0d6f0ca619666266a164",
+      "bytes": 3935
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_000.request.json",
+      "sha256": "791c270dde048e5794240e1755c90c957d07c53271c20f43301a31528573eb6b",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_000.response.json.gz",
+      "sha256": "718fea97b11c656ac1deec7ea110891c9370fa36b2a494a09338c0922b3bac46",
+      "bytes": 34354
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_001.request.json",
+      "sha256": "8b9f3ce4add04d9ef1557df4f5a671789aea6fbee4260fe8541f7bbb86873619",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_001.response.json.gz",
+      "sha256": "dc8f61a89129f521fe5f0c5a953fe7560403b27adb449a16d844277c0fb9cfd5",
+      "bytes": 41644
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_002.request.json",
+      "sha256": "2b579ffc0fd96828504664a627877be93a965c5edc4da16a8f1c4909797c2f98",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_002.response.json.gz",
+      "sha256": "9a675a3ffefaad28759cbd6dd09b29044f1a76a6b2048ced11719d54c5f56b5c",
+      "bytes": 36131
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_003.request.json",
+      "sha256": "ffc7a573c2f1f58a0dc4f980e115aee02efbfd4eda5e8b65478b79aa13ca1d4e",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_003.response.json.gz",
+      "sha256": "5b7942a138c9ddd60e8244a812857bdb1efff6d152a2e20b12be80f626b0138b",
+      "bytes": 52248
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_004.request.json",
+      "sha256": "bede6f9870ed943e7a0049a78129c30daafafe001ff6d05124f82f5e517869ef",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_004.response.json.gz",
+      "sha256": "27fc4600926b17c6ef99a3e9638a88d8529bd9e3c6388e1962eb89f2b24439f0",
+      "bytes": 41214
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_005.request.json",
+      "sha256": "7ed3ff04c8137fdb0ad63f4337423be3a9b99b9c29f80c06ba08492c861f7f4b",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_005.response.json.gz",
+      "sha256": "38f9b77872da9306a03c68ef65a3931d63f2cd904487ee2527594e2d492551af",
+      "bytes": 41161
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_006.request.json",
+      "sha256": "83aa6e225289d10d6cc270baec76206a3cbcb4b443748f2c84ce3de2e0346b72",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_006.response.json.gz",
+      "sha256": "b90db27bfe2a0e5251720a5a612ecef4e5fbf64c5c981fd78afd6c2567c9c691",
+      "bytes": 32439
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_007.request.json",
+      "sha256": "a227738dc07ee03324699aead732ea4f6550d28559885b717db934497e2b2e2a",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_007.response.json.gz",
+      "sha256": "4843be06a70eb11fa13c22a4d1a77e90d861f187020e11f2bdb8fa8f83a827b2",
+      "bytes": 53244
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_008.request.json",
+      "sha256": "53f8eb00b2dd0b46147e9f939771ef81c25842c98e2e59063da9664e763d544d",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_008.response.json.gz",
+      "sha256": "ac74d5975406d785831300dfc1ead7805780183f34719f7fa5b1cc4416fb5b31",
+      "bytes": 39597
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_009.request.json",
+      "sha256": "d3a47c5b7866a0b9421134f3a28b79e80441a1498a84b1da43b017db2cc7fee5",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_009.response.json.gz",
+      "sha256": "df13d0b3498734f70178c0cbf5a0328889abf1b51531b4dd30e207d02fb83ca9",
+      "bytes": 38194
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_010.request.json",
+      "sha256": "9ee24d9bc27852831a1622121da6627320a72e7bcc8485194a830748b00a8e16",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_010.response.json.gz",
+      "sha256": "eb07c636bf2f111319d90f6531b98c5f56f72315be296d4201b7b6cd9cb9c633",
+      "bytes": 34546
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_011.request.json",
+      "sha256": "1305b484ceddf4c531db373e6ecd220eb1088a262ca7a18711480d96a56f67e2",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_011.response.json.gz",
+      "sha256": "ac8c03c77dbfb270922805ae44d4488eed5dad5c1e54873bf988825de09873fd",
+      "bytes": 45455
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_012.request.json",
+      "sha256": "4352ff28e595363619bf17fb33da50d9aa3f4b8bc992ae83bdb3585f0043fec3",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_012.response.json.gz",
+      "sha256": "93801877a02e9b54b31dfcea98a5aefbf05836de4343c351660afc8e76a5f641",
+      "bytes": 34306
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_013.request.json",
+      "sha256": "b41502a6afab49886da71f2b07f6424f6201ab6be38e986d00beea3811a076c8",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_013.response.json.gz",
+      "sha256": "3555f9ace250737440895a572e3042e041b795da2c47fa2197f6a7f4aab69bf6",
+      "bytes": 38771
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_014.request.json",
+      "sha256": "7b442394960ac4ca9f87ee6ebfa78d52044057d35e851dff0d9a6c316a66b765",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_014.response.json.gz",
+      "sha256": "ed4e5f34403ff0e47778811758432ad62cb009854de9decc9359ef40722f4d19",
+      "bytes": 35677
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_015.request.json",
+      "sha256": "55e2ba2bd0089c9ede7a66cb8d92f39fd5f159b0362408c098b03fecce453e1f",
+      "bytes": 897
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_015.response.json.gz",
+      "sha256": "20e6f524b28cc07390af17993f6aef917fb86edcbeed82371ceee57ae2deb85a",
+      "bytes": 46100
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_016.request.json",
+      "sha256": "27277693a73fad776d3e8a051bce14fec05c0886d49c78c7da9ecf0d777d1bbb",
+      "bytes": 807
+    },
+    {
+      "archive": "data/archive/family_audit/rcsb_batch_016.response.json.gz",
+      "sha256": "fd14734057bb3cb92bd8a9e2fe4ed019aaabea827caa8e0d324741ee4d39e235",
+      "bytes": 35928
+    },
+    {
+      "archive": "data/archive/family_audit/requirements.txt",
+      "sha256": "16b3caca9229508b65c005ab9e9dcbc93c36108b5ac668ceffa27d6d18e686c0",
+      "bytes": 29
+    },
+    {
+      "archive": "data/archive/family_audit/retrieval_manifest.json",
+      "sha256": "96c7566b8da02e446fedc76083d76b5c1e2104496158c5b34570d2aa3e50f123",
+      "bytes": 15966
+    },
+    {
+      "archive": "data/archive/family_audit/sequence_records.json.gz",
+      "sha256": "77e9a3e9b58cf3d76e3c8e6951c0fbe97be969264bbddd701c76d8b0151f3312",
+      "bytes": 141300
+    }
+  ]
+}

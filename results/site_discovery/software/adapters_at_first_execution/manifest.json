@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "path": "aav_benchmark/sites.py",
+      "sha256": "08e9939d423606449427795689dbaeba5ceab95d7a8a97fffa35b680467fadfe"
+    },
+    {
+      "path": "aav_benchmark/p2rank.py",
+      "sha256": "864fbd9fd2f491e3702bb3ea17e438a6f9be6eb56e9f93b73f0a11b4402cf2dd"
+    },
+    {
+      "path": "aav_benchmark/surface.py",
+      "sha256": "b4d620e079f0085c8bd6cc7faa9a7e0a86dd43cefba983f9018bc2739d71979d"
+    }
+  ],
+  "scope": "Wrappers present when scientific cohort execution began; later installer-only additions do not change prediction code or locked binaries/models/settings"
+}

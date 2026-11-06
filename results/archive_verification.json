@@ -1,0 +1,115 @@
+{
+  "all_tables_exact": true,
+  "all_tables_match": true,
+  "comparison_code_sha256": "2ce34b876a20c24a731784b21f199428cea7b25997b6cf20c13f2ac5be5c8ec5",
+  "numeric_tolerance": 0.0,
+  "scope": "Recomputation from archived prepared inputs and raw poses; explicit byte-exact/derived-float comparison policy below; no docking rerun or independent structural-quality adjudication",
+  "tables": [
+    {
+      "exact_recomputation": true,
+      "file": "results/development/154l/summary.json",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "01f6c09bd0c5277c8ca7e4560bf061e94ebd4f886771e37072ff00bc1bf237dc",
+      "sha256": "01f6c09bd0c5277c8ca7e4560bf061e94ebd4f886771e37072ff00bc1bf237dc"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/154l/pose_metrics.csv",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "b4fb545937dc55b66aa8b471ab6db392a76f059a809661d280b775107d479564",
+      "sha256": "b4fb545937dc55b66aa8b471ab6db392a76f059a809661d280b775107d479564"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/1GNY/summary.json",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "3ea2c213c3aa61f9eccb6086f4274518821b6a1b1e26267f9f1efaefb9ce631c",
+      "sha256": "3ea2c213c3aa61f9eccb6086f4274518821b6a1b1e26267f9f1efaefb9ce631c"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/1GNY/pose_metrics.csv",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "8a9036e899a977923a7d254c1f2363f152ca1894d12bd406033b6dc4dee75792",
+      "sha256": "8a9036e899a977923a7d254c1f2363f152ca1894d12bd406033b6dc4dee75792"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/1KJL/summary.json",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "18c9079e9e821e4af9e6fd15033a0e78fe5f33fcbd8ce07ce40e9655001a08e2",
+      "sha256": "18c9079e9e821e4af9e6fd15033a0e78fe5f33fcbd8ce07ce40e9655001a08e2"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/1KJL/pose_metrics.csv",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "db7f4fbe021dce82b4a4805ed8100eb458a1b22bed0fa892e5e52eb5bf21efdb",
+      "sha256": "db7f4fbe021dce82b4a4805ed8100eb458a1b22bed0fa892e5e52eb5bf21efdb"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/1PWB/summary.json",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "8af70346a98ad51667b12e9f3959e67c8f01e5744c7e457cd4589f6eb929233a",
+      "sha256": "8af70346a98ad51667b12e9f3959e67c8f01e5744c7e457cd4589f6eb929233a"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/1PWB/pose_metrics.csv",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "ebd388e1b31129e8386e923f71417b4158e5a9b6d5214f1b503c6b7b6148d84f",
+      "sha256": "ebd388e1b31129e8386e923f71417b4158e5a9b6d5214f1b503c6b7b6148d84f"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/2J1T/summary.json",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "9fc8ab3fc8b7bc38db43efd5674286025fec9f5f362d5ebaa5621422ad7a495e",
+      "sha256": "9fc8ab3fc8b7bc38db43efd5674286025fec9f5f362d5ebaa5621422ad7a495e"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/2J1T/pose_metrics.csv",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "afe2f02e3232b64d6e772a79793f29ea6868b9d8d6ab572ad73d51701f72c103",
+      "sha256": "afe2f02e3232b64d6e772a79793f29ea6868b9d8d6ab572ad73d51701f72c103"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/2VUZ/summary.json",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "d43ed3f3a0daaa538a79600a93e4ffe5720a01f87c98afbd045da5e634528200",
+      "sha256": "d43ed3f3a0daaa538a79600a93e4ffe5720a01f87c98afbd045da5e634528200"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/2VUZ/pose_metrics.csv",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "cab8f042d21cb863fbd7ef49d1508002af91db56366fc53d744eec6721485a1a",
+      "sha256": "cab8f042d21cb863fbd7ef49d1508002af91db56366fc53d744eec6721485a1a"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/aav9/summary.json",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "a41b27583bd4b17c8187dc3d11c701c5668ceca335291a98ffb2f870450bdf35",
+      "sha256": "a41b27583bd4b17c8187dc3d11c701c5668ceca335291a98ffb2f870450bdf35"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/aav9/pose_metrics.csv",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "601dea028e5621e220ad41c84794061097dc8c54341dd15f4033f4e1cd402766",
+      "sha256": "601dea028e5621e220ad41c84794061097dc8c54341dd15f4033f4e1cd402766"
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/development/gal3_panel_summary.json",
+      "max_numeric_difference": 0.0,
+      "recomputed_sha256": "908d962fdd081f581caded4cb894d0ce61e3d56d41c78b7b430f42df01615783",
+      "sha256": "908d962fdd081f581caded4cb894d0ce61e3d56d41c78b7b430f42df01615783"
+    }
+  ],
+  "verifier_sha256": "bfb1fc0cee1543df0f7b3d1c322631d3d4d76573af3f5a7b78b569619ec27919"
+}

@@ -1,0 +1,63 @@
+{
+  "first_attempts_preserved": true,
+  "inputs": [
+    {
+      "condition_id": "aav9_holo",
+      "corrected_input_sha256": "805e04cbb8d1ced44c9855ac0976600ddb2b05baf1e5e99753b1c1402475ea3b",
+      "original_input_sha256": "91bc482b74dc6598da209dc8558afd8ab75776a086c3ccc9f60999f321566fbe",
+      "revision_receipt": "data/processed/site_inputs_v2/aav9_holo/receptor.cif.revision.json"
+    },
+    {
+      "condition_id": "aav9_apo",
+      "corrected_input_sha256": "8cbe96b02e8649cb29475cf6b6731d80bcf645d80ce2c8e9e9f98fcd89050abd",
+      "original_input_sha256": "d14a8303713884e9b137b2fb0bdf4bf8332b1d07792196190c6069dbf46320b6",
+      "revision_receipt": "data/processed/site_inputs_v2/aav9_apo/receptor.cif.revision.json"
+    },
+    {
+      "condition_id": "154L",
+      "corrected_input_sha256": "45d8afa1ad8a3ef8dfa91bef4059a093ba67ad51fffef40f7aa09f24071daa72",
+      "original_input_sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7",
+      "revision_receipt": "data/processed/site_inputs_v2/154L/receptor.cif.revision.json"
+    },
+    {
+      "condition_id": "1GNY",
+      "corrected_input_sha256": "0531ad29649a5fb8ee883232cb6513eab41564a5c01887af9a840e8e183b27c0",
+      "original_input_sha256": "b316822409f4a5e31a016a076762c315d1595672b281bd7dfc83cab0f7b9ba5c",
+      "revision_receipt": "data/processed/site_inputs_v2/1GNY/receptor.cif.revision.json"
+    },
+    {
+      "condition_id": "1KJL",
+      "corrected_input_sha256": "13ee9a37a8e45f4b64c9ea51429f7f0a42a9283ec190d2ab0f42d89f9a189420",
+      "original_input_sha256": "ec445fcd7c02ddf381772b6552e938948e4ae19572aeb92e393a1f9b16fde319",
+      "revision_receipt": "data/processed/site_inputs_v2/1KJL/receptor.cif.revision.json"
+    },
+    {
+      "condition_id": "1QFO",
+      "corrected_input_sha256": "a31091d2d40a4da42acb01c2c54206876eaf455efb0d4b44615355e39b26ce6c",
+      "original_input_sha256": "601edbdb4d066203142ae57a21befdc7e6b2b3769794f855b9895a8be3073d19",
+      "revision_receipt": "data/processed/site_inputs_v2/1QFO/receptor.cif.revision.json"
+    },
+    {
+      "condition_id": "2J1T",
+      "corrected_input_sha256": "4a3987987e78bd3ab84de832d4d132c913c2fe7db50c7d9ffcff54114e71ebd0",
+      "original_input_sha256": "bc59673399e50520c52962967d34925108c08086812b21ac93fa6fbc21fa6595",
+      "revision_receipt": "data/processed/site_inputs_v2/2J1T/receptor.cif.revision.json"
+    },
+    {
+      "condition_id": "1PWB",
+      "corrected_input_sha256": "3987c6017981da4b7cbf3b7138ce023993db2a8c5e39c431fc75991bcafa3312",
+      "original_input_sha256": "83a5f59625cd31c9df78008b7a4fde13681d624b5433ca37956d88372313e0eb",
+      "revision_receipt": "data/processed/site_inputs_v2/1PWB/receptor.cif.revision.json"
+    },
+    {
+      "condition_id": "2VUZ",
+      "corrected_input_sha256": "fd8ed677edfbcf3e875cad73f94c81afbc91834032f831100e247ddfe27120cd",
+      "original_input_sha256": "2f2922aa6b23bd92844c2acff1dc57329969773f939531721a3e6f992eea564e",
+      "revision_receipt": "data/processed/site_inputs_v2/2VUZ/receptor.cif.revision.json"
+    }
+  ],
+  "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+  "prediction_inputs_have_identical_protein_atoms_coordinates_and_author_ids": true,
+  "reason": "Upstream VMD CIF reader requires a terminal comment delimiter even though the original CIF is standards-valid",
+  "scientific_parameter_changes": false
+}

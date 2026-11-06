@@ -1,0 +1,771 @@
+{
+  "schema_version": 1,
+  "frozen_before_new_docking": true,
+  "cohort_role": "implementation_development_only",
+  "source_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+  "not_confirmatory_reason": "Previously published benchmark examples selected to exercise chemistry; local-density and biological assembly eligibility not independently certified. Family labels are descriptive development identifiers, not a sequence/fold-clustering result.",
+  "ccd_sources": {
+    "NAG": {
+      "filename": "NAG.cif",
+      "url": "https://files.rcsb.org/ligands/download/NAG.cif",
+      "sha256": "eada750ebb20e7abd76ef486c0a8278e461309e1cdde415545bb1c63c09bfb0f",
+      "bytes": 11333,
+      "archive": "data/archive/external/NAG.cif.gz"
+    },
+    "XYP": {
+      "filename": "XYP.cif",
+      "url": "https://files.rcsb.org/ligands/download/XYP.cif",
+      "sha256": "811c097c84bf069c094b5c1977c9760d5c9d5ccf7266c22c5dba6dab5ad5739e",
+      "bytes": 8437,
+      "archive": "data/archive/external/XYP.cif.gz"
+    },
+    "GAL": {
+      "filename": "GAL.cif",
+      "url": "https://files.rcsb.org/ligands/download/GAL.cif",
+      "sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+      "bytes": 9091,
+      "archive": "data/archive/external/GAL.cif.gz"
+    },
+    "GLC": {
+      "filename": "GLC.cif",
+      "url": "https://files.rcsb.org/ligands/download/GLC.cif",
+      "sha256": "07eedff69de20c995d0aaf1f582bc6b9ecbf63bd6b4702dbb5141dcb3ab0f260",
+      "bytes": 9281,
+      "archive": "data/archive/external/GLC.cif.gz"
+    },
+    "SIA": {
+      "filename": "SIA.cif",
+      "url": "https://files.rcsb.org/ligands/download/SIA.cif",
+      "sha256": "1ee62433895cb1c445ed36e6698353df5a2e6b7424cca901d6ea1e3327892bb2",
+      "bytes": 11877,
+      "archive": "data/archive/external/SIA.cif.gz"
+    },
+    "FUC": {
+      "filename": "FUC.cif",
+      "url": "https://files.rcsb.org/ligands/download/FUC.cif",
+      "sha256": "b05b59fd2eae453a012a24ab319c5a7cf0dec6620fc67f58b46be01a77aacc83",
+      "bytes": 8787,
+      "archive": "data/archive/external/FUC.cif.gz"
+    },
+    "BMA": {
+      "filename": "BMA.cif",
+      "url": "https://files.rcsb.org/ligands/download/BMA.cif",
+      "sha256": "3663ac87ab4fbdab73c7c80915c1e0d15cac7e61f3f43f14df9eb3d5261974b8",
+      "bytes": 9034,
+      "archive": "data/archive/external/BMA.cif.gz"
+    },
+    "MAN": {
+      "filename": "MAN.cif",
+      "url": "https://files.rcsb.org/ligands/download/MAN.cif",
+      "sha256": "79bc85094a794dfccdb827470fed9124e2dcaac2266d366d120d242d3d7aa8d5",
+      "bytes": 9785,
+      "archive": "data/archive/external/MAN.cif.gz"
+    },
+    "NDG": {
+      "filename": "NDG.cif",
+      "url": "https://files.rcsb.org/ligands/download/NDG.cif",
+      "sha256": "93a62159ad906fcc72ed06e8aed968378fd9d323a09dd9f6ce54a74347c73e91",
+      "bytes": 10432,
+      "archive": "data/archive/external/NDG.cif.gz"
+    },
+    "BGC": {
+      "filename": "BGC.cif",
+      "url": "https://files.rcsb.org/ligands/download/BGC.cif",
+      "sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+      "bytes": 9789,
+      "archive": "data/archive/external/BGC.cif.gz"
+    },
+    "GLA": {
+      "filename": "GLA.cif",
+      "url": "https://files.rcsb.org/ligands/download/GLA.cif",
+      "sha256": "b25f41e8fac93225b955151c538d0996ea0a7032077d2dc5465083ee4d54ba96",
+      "bytes": 8989,
+      "archive": "data/archive/external/GLA.cif.gz"
+    },
+    "CA": {
+      "filename": "CA.cif",
+      "url": "https://files.rcsb.org/ligands/download/CA.cif",
+      "sha256": "5713e078d7604837c4169d281dd40da4dfa21e96340f239776cf32bd3946d65d",
+      "bytes": 3418,
+      "archive": "data/archive/external/CA.cif.gz"
+    }
+  },
+  "cases": [
+    {
+      "case_id": "154L",
+      "family_id": "goose_type_lysozyme",
+      "role": "development",
+      "information_regime": "true_site_local",
+      "receptor_state": "holo",
+      "assembly_condition": "released_bound_receptor_not_independently_assembly_certified",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "source_structure_url": "https://files.rcsb.org/download/154L.cif",
+      "residues": [
+        {
+          "resnum": 1,
+          "comp_id": "NAG"
+        },
+        {
+          "resnum": 2,
+          "comp_id": "NAG"
+        },
+        {
+          "resnum": 3,
+          "comp_id": "NAG"
+        }
+      ],
+      "links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/154L/154L_r_b.pdb",
+          "sha256": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b",
+          "bytes": 116154,
+          "filename": "154L_r_b.pdb",
+          "archive": "data/archive/external/154L_r_b.pdb.gz"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/154L/154L_l_b.pdb",
+          "sha256": "2fa82dfad993e0d3db4f35ff0b3a1ac3d06002019c5560050a2db3cfcd5f8033",
+          "bytes": 3564,
+          "filename": "154L_l_b.pdb",
+          "archive": "data/archive/external/154L_l_b.pdb.gz"
+        }
+      ]
+    },
+    {
+      "case_id": "1GNY",
+      "family_id": "endo_beta_1_4_xylanase",
+      "role": "development",
+      "information_regime": "true_site_local",
+      "receptor_state": "holo",
+      "assembly_condition": "released_bound_receptor_not_independently_assembly_certified",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "source_structure_url": "https://files.rcsb.org/download/1GNY.cif",
+      "residues": [
+        {
+          "resnum": 1,
+          "comp_id": "XYP"
+        },
+        {
+          "resnum": 2,
+          "comp_id": "XYP"
+        },
+        {
+          "resnum": 3,
+          "comp_id": "XYP"
+        },
+        {
+          "resnum": 4,
+          "comp_id": "XYP"
+        },
+        {
+          "resnum": 5,
+          "comp_id": "XYP"
+        }
+      ],
+      "links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "XYP",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "XYP",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "XYP",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "XYP",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "3",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "4",
+          "comp_id_1": "XYP",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "3",
+          "comp_id_2": "XYP",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "4",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "5",
+          "comp_id_1": "XYP",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "4",
+          "comp_id_2": "XYP",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_r_b.pdb",
+          "sha256": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf",
+          "bytes": 90963,
+          "filename": "1GNY_r_b.pdb",
+          "archive": "data/archive/external/1GNY_r_b.pdb.gz"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_l_b.pdb",
+          "sha256": "0fb5a662a78bf229dbb93736d39d108d852f4441e3bb1b1825e5ab524a2e6fd1",
+          "bytes": 3807,
+          "filename": "1GNY_l_b.pdb",
+          "archive": "data/archive/external/1GNY_l_b.pdb.gz"
+        }
+      ],
+      "reviewed_max_box_side_A": 40.35,
+      "box_review_reason": "Development-only pre-docking review: xylopentaose x-span24.35A plus8A margin on each side requires40.35A. Retain full protocol margin under this explicit0.35A exception to the40A automatic review gate."
+    },
+    {
+      "case_id": "1KJL",
+      "family_id": "galectin_3",
+      "role": "development",
+      "information_regime": "true_site_local",
+      "receptor_state": "holo",
+      "assembly_condition": "released_bound_receptor_not_independently_assembly_certified",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "source_structure_url": "https://files.rcsb.org/download/1KJL.cif",
+      "residues": [
+        {
+          "resnum": 1,
+          "comp_id": "NAG"
+        },
+        {
+          "resnum": 2,
+          "comp_id": "GAL"
+        }
+      ],
+      "links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "GAL",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_r_b.pdb",
+          "sha256": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae",
+          "bytes": 89829,
+          "filename": "1KJL_r_b.pdb",
+          "archive": "data/archive/external/1KJL_r_b.pdb.gz"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_l_b.pdb",
+          "sha256": "eecffcadd2404b277fbe1a86efe3f7fd7b4409a422c4f9fa9f7d8e2744f48d37",
+          "bytes": 2187,
+          "filename": "1KJL_l_b.pdb",
+          "archive": "data/archive/external/1KJL_l_b.pdb.gz"
+        }
+      ]
+    },
+    {
+      "case_id": "1QFO",
+      "family_id": "sialoadhesin_ig_v_set_domain",
+      "role": "development",
+      "information_regime": "true_site_local",
+      "receptor_state": "holo",
+      "assembly_condition": "released_bound_receptor_not_independently_assembly_certified",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "source_structure_url": "https://files.rcsb.org/download/1QFO.cif",
+      "residues": [
+        {
+          "resnum": 1,
+          "comp_id": "GLC"
+        },
+        {
+          "resnum": 2,
+          "comp_id": "GAL"
+        },
+        {
+          "resnum": 3,
+          "comp_id": "SIA"
+        }
+      ],
+      "links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "GAL",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "GLC",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "SIA",
+          "atom_id_1": "C2",
+          "leaving_atom_id_1": "O2",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "GAL",
+          "atom_id_2": "O3",
+          "leaving_atom_id_2": "HO3",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1QFO/1QFO_r_b.pdb",
+          "sha256": "c40a29bb1cca0e6c9e77c3f603afa8a5f774fa36acfc7026e38bd3aec758100a",
+          "bytes": 73953,
+          "filename": "1QFO_r_b.pdb",
+          "archive": "data/archive/external/1QFO_r_b.pdb.gz"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1QFO/1QFO_l_b.pdb",
+          "sha256": "f95582e589f11bc5d0d9e36474a9ca81243e9ba734620fd60f205a5b7d5fc80f",
+          "bytes": 3487,
+          "filename": "1QFO_l_b.pdb",
+          "archive": "data/archive/external/1QFO_l_b.pdb.gz"
+        }
+      ]
+    },
+    {
+      "case_id": "2J1T",
+      "family_id": "fucolectin_related_protein_NedA_like",
+      "role": "development",
+      "information_regime": "true_site_local",
+      "receptor_state": "holo",
+      "assembly_condition": "released_bound_receptor_not_independently_assembly_certified",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "source_structure_url": "https://files.rcsb.org/download/2J1T.cif",
+      "residues": [
+        {
+          "resnum": 1,
+          "comp_id": "NAG"
+        },
+        {
+          "resnum": 2,
+          "comp_id": "GAL"
+        },
+        {
+          "resnum": 3,
+          "comp_id": "FUC"
+        },
+        {
+          "resnum": 4,
+          "comp_id": "FUC"
+        }
+      ],
+      "links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "GAL",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "FUC",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "GAL",
+          "atom_id_2": "O2",
+          "leaving_atom_id_2": "HO2",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "3",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "4",
+          "comp_id_1": "FUC",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O3",
+          "leaving_atom_id_2": "HO3",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_r_b.pdb",
+          "sha256": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a",
+          "bytes": 87075,
+          "filename": "2J1T_r_b.pdb",
+          "archive": "data/archive/external/2J1T_r_b.pdb.gz"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_l_b.pdb",
+          "sha256": "45a8497e4e345d525ac03099284db6594ff61885e9d3389869d748fd71b00553",
+          "bytes": 3807,
+          "filename": "2J1T_l_b.pdb",
+          "archive": "data/archive/external/2J1T_l_b.pdb.gz"
+        }
+      ]
+    },
+    {
+      "case_id": "1PWB",
+      "family_id": "surfactant_protein_D_C_type_lectin",
+      "role": "development",
+      "information_regime": "true_site_local",
+      "receptor_state": "holo",
+      "assembly_condition": "released_bound_receptor_not_independently_assembly_certified",
+      "reference_quality": "source_reproduction_only_pending_local_density_review",
+      "source_structure_url": "https://files.rcsb.org/download/1PWB.cif",
+      "residues": [
+        {
+          "resnum": 1,
+          "comp_id": "GLC"
+        },
+        {
+          "resnum": 2,
+          "comp_id": "GLC"
+        }
+      ],
+      "links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "GLC",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "GLC",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_r_b.pdb",
+          "sha256": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce",
+          "bytes": 93717,
+          "filename": "1PWB_r_b.pdb",
+          "archive": "data/archive/external/1PWB_r_b.pdb.gz"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_l_b.pdb",
+          "sha256": "83e14a2a4036f3d8311b661f967430e6b37a710575356956f12ec87d0b97ac1a",
+          "bytes": 1944,
+          "filename": "1PWB_l_b.pdb",
+          "archive": "data/archive/external/1PWB_l_b.pdb.gz"
+        }
+      ],
+      "receptor_cofactors": [
+        {
+          "source_resname": "CA2",
+          "source_atom_name": "CA+2",
+          "element": "CA",
+          "ccd_id": "CA",
+          "formal_charge": 2,
+          "expected_count": 1,
+          "autodock_atom_type": "Ca"
+        }
+      ]
+    },
+    {
+      "case_id": "2VUZ",
+      "family_id": "codakine_C_type_lectin",
+      "role": "development",
+      "information_regime": "true_site_local",
+      "receptor_state": "holo",
+      "assembly_condition": "released_bound_receptor_not_independently_assembly_certified",
+      "reference_quality": "source_reproduction_only_seven_residue_resolved_fragment_of_titled_nonasaccharide",
+      "not_whole_ligand_reference": true,
+      "source_structure_url": "https://files.rcsb.org/download/2VUZ.cif",
+      "residues": [
+        {
+          "resnum": 1,
+          "comp_id": "NAG"
+        },
+        {
+          "resnum": 2,
+          "comp_id": "NAG"
+        },
+        {
+          "resnum": 3,
+          "comp_id": "BMA"
+        },
+        {
+          "resnum": 4,
+          "comp_id": "MAN"
+        },
+        {
+          "resnum": 5,
+          "comp_id": "NAG"
+        },
+        {
+          "resnum": 6,
+          "comp_id": "MAN"
+        },
+        {
+          "resnum": 7,
+          "comp_id": "NAG"
+        }
+      ],
+      "links": [
+        {
+          "link_id": "1",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "2",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "1",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "2",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "3",
+          "comp_id_1": "BMA",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "2",
+          "comp_id_2": "NAG",
+          "atom_id_2": "O4",
+          "leaving_atom_id_2": "HO4",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "3",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "4",
+          "comp_id_1": "MAN",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "3",
+          "comp_id_2": "BMA",
+          "atom_id_2": "O3",
+          "leaving_atom_id_2": "HO3",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "4",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "5",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "4",
+          "comp_id_2": "MAN",
+          "atom_id_2": "O2",
+          "leaving_atom_id_2": "HO2",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "5",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "6",
+          "comp_id_1": "MAN",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "3",
+          "comp_id_2": "BMA",
+          "atom_id_2": "O6",
+          "leaving_atom_id_2": "HO6",
+          "value_order": "sing",
+          "details": "?"
+        },
+        {
+          "link_id": "6",
+          "entity_id": "2",
+          "entity_branch_list_num_1": "7",
+          "comp_id_1": "NAG",
+          "atom_id_1": "C1",
+          "leaving_atom_id_1": "O1",
+          "entity_branch_list_num_2": "6",
+          "comp_id_2": "MAN",
+          "atom_id_2": "O2",
+          "leaving_atom_id_2": "HO2",
+          "value_order": "sing",
+          "details": "?"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2VUZ/2VUZ_r_b.pdb",
+          "sha256": "010940dec8054fd63b8fcbc514caf7d3ba89da552bf6e851642cdfc031eed845",
+          "bytes": 80340,
+          "filename": "2VUZ_r_b.pdb",
+          "archive": "data/archive/external/2VUZ_r_b.pdb.gz"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2VUZ/2VUZ_l_b.pdb",
+          "sha256": "9bd92f9e6803830fcf44e41f710ce71f061ad05583091d601faef0845a9d2b50",
+          "bytes": 7371,
+          "filename": "2VUZ_l_b.pdb",
+          "archive": "data/archive/external/2VUZ_l_b.pdb.gz"
+        }
+      ],
+      "receptor_cofactors": [
+        {
+          "source_resname": "CA2",
+          "source_atom_name": "CA+2",
+          "element": "CA",
+          "ccd_id": "CA",
+          "formal_charge": 2,
+          "expected_count": 1,
+          "autodock_atom_type": "Ca"
+        }
+      ],
+      "receptor_numbering_map": "benchmarks/sources/2VUZ_receptor_numbering.json",
+      "receptor_numbering_map_sha256": "41f5741b85ded645a7a7ab11dd654f67dcc6fb10e459ea876574adf700d5dd7d"
+    }
+  ],
+  "license_source": {
+    "filename": "HADDOCK_DATA_LICENSE",
+    "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bytes": 11357,
+    "archive": "data/archive/external/HADDOCK_DATA_LICENSE.gz"
+  },
+  "gal3_panel_frozen_analysis": {
+    "panel_id": "sindrewicz_2019_gal3_itc",
+    "receptor_case": "1KJL",
+    "information_regime": "1KJL_LacNAc_oracle_box_shared_by_all_ligand_identities",
+    "reducing_end_forms": {
+      "LacNAc": {
+        "alpha": [
+          "NDG",
+          "GAL"
+        ],
+        "beta": [
+          "NAG",
+          "GAL"
+        ]
+      },
+      "lactose": {
+        "alpha": [
+          "GLC",
+          "GAL"
+        ],
+        "beta": [
+          "BGC",
+          "GAL"
+        ]
+      },
+      "galactose": {
+        "alpha": [
+          "GLA"
+        ],
+        "beta": [
+          "GAL"
+        ]
+      }
+    },
+    "score_summary": "Within each anomer separately, arithmetic mean of seed-specific Top-1 Vina scores; lower predicts stronger binding. Do not fit or average anomer populations.",
+    "endpoints": [
+      "descriptive_Spearman",
+      "descriptive_Kendall",
+      "heavy_atom_count_rank_baseline"
+    ],
+    "excluded_endpoints": [
+      "pose_RMSD",
+      "binary_AUROC",
+      "binary_AUPRC",
+      "held_out_generalization"
+    ],
+    "reason": "All three measured compounds are binders. Input coordinates are generated, not experimental pose ground truth."
+  },
+  "embedding_policy": {
+    "stage": "development",
+    "initial": "ETKDGv3 default coordinates, seed20261024, one thread",
+    "fallback": "ETKDGv3 random initial coordinates, same seed, maxIterations1000",
+    "adopted_after": "2VUZ initial development embedding failure, before 2VUZ docking",
+    "mmff": "MMFF94 convergence required within1000iterations",
+    "max_attempts": 2
+  },
+  "calcium_preparation_policy": {
+    "stage": "development",
+    "adopted_after": "1PWB and2VUZ initial required-calcium preparation blocks, before docking either case",
+    "model": "Meeko standalone [Ca+2] with fixed+2 charge and Ca atom type; native receptor coordinate/atom identity retained",
+    "limitation": "Vina fixed ion model does not reproduce specialized calcium coordination or polarization; not an assay-validated ion model"
+  }
+}

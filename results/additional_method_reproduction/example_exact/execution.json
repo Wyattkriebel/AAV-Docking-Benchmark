@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vina-carb",
+    "--config",
+    "config_vc.txt",
+    "--log",
+    "vina-carb.log"
+  ],
+  "input_sources": "../example_inputs/manifest.json",
+  "information_regime": "releasedknown-site tutorial; native-like input conformation; software execution validation only",
+  "configuration_modified": false,
+  "status": "completed",
+  "environment": {
+    "VINA_CARB": "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-original/VC_1_0"
+  },
+  "exit_code": 0,
+  "wall_seconds": 34.54346174999955,
+  "artifact_sha256": {
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "LeY-xray_vc_out.pdbqt": "cb63cbd6b7672beaeab0e0796269e111b293d02143c291eabfccbb871ff93f88",
+    "LeY-xray.pdbqt": "b08eb0ce5f2f6eca4d9c15ab6547da5823e7c21a6bbd5d2c1815758ca7aaf936",
+    "vina-carb.log": "65e020a088957c36aa8fe9b2ce65a221a788f2507507c1805b29df0e37d48fef",
+    "receptor.pdbqt": "133b81637a4d7a1d683c1ef9503f1dcc5bdb9051c4d51eb9c6e1cf642c9f40c0",
+    "stdout.log": "27260f64d2114f1da7c51b5bb8f2616d70b736ab872e0314d6abada5a8c883bd",
+    "config_vc.txt": "4930b3810517d4568a719fb4d47bbef449d737be2e365bdef668e5b0bb28376f",
+    "VC_log.txt": "edf874a5f061936bb945875910b0b00e8f210f9e3e9ad90d19c856c98c0086d1"
+  }
+}

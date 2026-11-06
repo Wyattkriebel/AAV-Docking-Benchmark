@@ -1,0 +1,1991 @@
+{
+  "amendment_sha256": "a4bb0a3b6ef72d15314ccf02b30842d55ac640b83d2d5a0b417e9f2bc572f8c9",
+  "operator_count": 60,
+  "operators": [
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 1.351549596622253e-13,
+      "fit_CA_rmsd_A": 1.4848515691508487e-14,
+      "target_chain": "A",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 5.1728291973635394e-14,
+      "whole_capsid_refinement_CA_rmsd_A": 2.5759581646927526e-14
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.03436265292429323,
+      "fit_CA_rmsd_A": 0.0005239788052559045,
+      "target_chain": "B",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024829030425184164,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006068199972824479
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.044948491100565514,
+      "fit_CA_rmsd_A": 0.0005213634779898138,
+      "target_chain": "C",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.020880428688315366,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005604364450035372
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04183198568235199,
+      "fit_CA_rmsd_A": 0.00052604933163525,
+      "target_chain": "D",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.020880428687792076,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005604364450036293
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.05784088579805446,
+      "fit_CA_rmsd_A": 0.000515889748423258,
+      "target_chain": "E",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024829030425203378,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006068199972824638
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.03846523589067993,
+      "fit_CA_rmsd_A": 0.0005122228235164737,
+      "target_chain": "F",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.020981133214412043,
+      "whole_capsid_refinement_CA_rmsd_A": 0.0030334523288042935
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.05763395946981135,
+      "fit_CA_rmsd_A": 0.000515889748423258,
+      "target_chain": "G",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02723876879219465,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006195575547996213
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.05499220618736237,
+      "fit_CA_rmsd_A": 0.0005134437092645651,
+      "target_chain": "H",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.027333446271289582,
+      "whole_capsid_refinement_CA_rmsd_A": 0.00623696389107234
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.09783299908753505,
+      "fit_CA_rmsd_A": 0.0005076830729043292,
+      "target_chain": "I",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02723876879239079,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006195575547995862
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.041875736097883275,
+      "fit_CA_rmsd_A": 0.00051071590494645,
+      "target_chain": "J",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.021380139449683276,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005793591822132567
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.046164171664005785,
+      "fit_CA_rmsd_A": 0.0005155007286562389,
+      "target_chain": "K",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02191843661693476,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005760763048005737
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.034700893102833044,
+      "fit_CA_rmsd_A": 0.0004980438565440608,
+      "target_chain": "L",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.020863233986925665,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005395298643160593
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.08859003173114743,
+      "fit_CA_rmsd_A": 0.0005077986639510109,
+      "target_chain": "M",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024843114327053984,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005814012650792723
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.06505982297215807,
+      "fit_CA_rmsd_A": 0.0005153143825102151,
+      "target_chain": "N",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02286294022820527,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005846188520390287
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.08084930586489036,
+      "fit_CA_rmsd_A": 0.0005195605069914594,
+      "target_chain": "O",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02169124432109318,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005887805633039514
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.05407896902542491,
+      "fit_CA_rmsd_A": 0.0005136960056901816,
+      "target_chain": "P",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02486968210189554,
+      "whole_capsid_refinement_CA_rmsd_A": 0.00609917116476517
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.09740936399907582,
+      "fit_CA_rmsd_A": 0.0005076599362250899,
+      "target_chain": "Q",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02733344627111129,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006236963891072683
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.036110151811114516,
+      "fit_CA_rmsd_A": 0.0005238949003849722,
+      "target_chain": "R",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024869682101577174,
+      "whole_capsid_refinement_CA_rmsd_A": 0.00609917116476425
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04205424409166569,
+      "fit_CA_rmsd_A": 0.0005106870219481656,
+      "target_chain": "S",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.021918436616816434,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005760763048005562
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.042430174189332294,
+      "fit_CA_rmsd_A": 0.0005154321368733882,
+      "target_chain": "T",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.021919386737185874,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005705075172343828
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.03467979656812976,
+      "fit_CA_rmsd_A": 0.0004985506774658489,
+      "target_chain": "U",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02477427099753291,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005562197205346701
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04478010241383926,
+      "fit_CA_rmsd_A": 0.0005213634779898138,
+      "target_chain": "V",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024843114327283138,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005814012650794098
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.0422793123399763,
+      "fit_CA_rmsd_A": 0.0005262081565973434,
+      "target_chain": "W",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02086323398779614,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005395298643161205
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.08770559161358746,
+      "fit_CA_rmsd_A": 0.0005059084154905522,
+      "target_chain": "X",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024774270997607328,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005562197205346559
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.06548256171740689,
+      "fit_CA_rmsd_A": 0.000516552679213717,
+      "target_chain": "Y",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.023164231209086183,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005757744563226581
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.08204067574710923,
+      "fit_CA_rmsd_A": 0.0005170764719062262,
+      "target_chain": "Z",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.022862940228143246,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005846188520392102
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04147298775401855,
+      "fit_CA_rmsd_A": 0.0005191718071071969,
+      "target_chain": "1",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02742150760797536,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005369410345182232
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.11454086258132322,
+      "fit_CA_rmsd_A": 0.0005018196898127828,
+      "target_chain": "2",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.027421507607768212,
+      "whole_capsid_refinement_CA_rmsd_A": 0.00536941034518288
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.11447341001685277,
+      "fit_CA_rmsd_A": 0.0005021768058301444,
+      "target_chain": "3",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02738897738916318,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005218024598437744
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04166311521907908,
+      "fit_CA_rmsd_A": 0.0005171146212334402,
+      "target_chain": "4",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02738897738917605,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005218024598437889
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.11414784116192367,
+      "fit_CA_rmsd_A": 0.0005032079181674968,
+      "target_chain": "5",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.027285150402719973,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005219811345552409
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.11096281396477735,
+      "fit_CA_rmsd_A": 0.0005115803442668468,
+      "target_chain": "6",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.027843612687874157,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005236451432793942
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.1149641393570252,
+      "fit_CA_rmsd_A": 0.0005250424985630526,
+      "target_chain": "a",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.029934287503370672,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005949048907490245
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.08910340953452217,
+      "fit_CA_rmsd_A": 0.0005149747607403318,
+      "target_chain": "b",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.025014009920161395,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005621186442465655
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.06513787264117675,
+      "fit_CA_rmsd_A": 0.0005159640572429319,
+      "target_chain": "c",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02291032906086058,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005789683548814756
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.05496936090157984,
+      "fit_CA_rmsd_A": 0.0005143523294156005,
+      "target_chain": "d",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024972729744134482,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006168325014630951
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.042312767297852355,
+      "fit_CA_rmsd_A": 0.000514378437414683,
+      "target_chain": "e",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.020628178612081625,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005443222540691358
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.08082388584132352,
+      "fit_CA_rmsd_A": 0.0005195685621181375,
+      "target_chain": "f",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.021740281909793407,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005847115700571524
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04353085813236606,
+      "fit_CA_rmsd_A": 0.0005152412302392778,
+      "target_chain": "g",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02235763241064438,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005749036888247693
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.044252009839844016,
+      "fit_CA_rmsd_A": 0.0005169214594410955,
+      "target_chain": "h",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02784361268787392,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005236451432793714
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.0877584594729497,
+      "fit_CA_rmsd_A": 0.0005064976847081097,
+      "target_chain": "i",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024673252101003462,
+      "whole_capsid_refinement_CA_rmsd_A": 0.00578191240782626
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.044845569550864425,
+      "fit_CA_rmsd_A": 0.0005213634779898138,
+      "target_chain": "j",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.020635849270507985,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005581484774723043
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04420653809431799,
+      "fit_CA_rmsd_A": 0.0005142832052148797,
+      "target_chain": "k",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.027549635292146556,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006107693826396858
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.041358278786730866,
+      "fit_CA_rmsd_A": 0.0005179301864402051,
+      "target_chain": "l",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.022910329060750637,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005789683548814777
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.03421334249674064,
+      "fit_CA_rmsd_A": 0.000499630440715929,
+      "target_chain": "m",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02075410198157042,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005304459523910354
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.057880561850540975,
+      "fit_CA_rmsd_A": 0.0005142422804182629,
+      "target_chain": "n",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024972729744095083,
+      "whole_capsid_refinement_CA_rmsd_A": 0.00616832501463072
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.09791284987238,
+      "fit_CA_rmsd_A": 0.000505231345070847,
+      "target_chain": "o",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.027549635291873778,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006107693826396469
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04109270754843799,
+      "fit_CA_rmsd_A": 0.0005107025304287848,
+      "target_chain": "p",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.021347180021442105,
+      "whole_capsid_refinement_CA_rmsd_A": 0.0030597261924565416
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.059742752401167214,
+      "fit_CA_rmsd_A": 0.0005089062253642711,
+      "target_chain": "q",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024679471738166606,
+      "whole_capsid_refinement_CA_rmsd_A": 0.0061632767995955145
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.054961457859986323,
+      "fit_CA_rmsd_A": 0.000509109435629641,
+      "target_chain": "r",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024785147584193593,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006162901820446187
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.037404040651373406,
+      "fit_CA_rmsd_A": 0.0005052420213678843,
+      "target_chain": "s",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.020773696126881656,
+      "whole_capsid_refinement_CA_rmsd_A": 0.0029941047552935218
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.034941255093397156,
+      "fit_CA_rmsd_A": 0.0005021161314603431,
+      "target_chain": "t",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.020635849269919633,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005581484774723605
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.03678283400229854,
+      "fit_CA_rmsd_A": 0.0005148543084979492,
+      "target_chain": "u",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02493667326971309,
+      "whole_capsid_refinement_CA_rmsd_A": 0.0059657411320214555
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04176193987282912,
+      "fit_CA_rmsd_A": 0.0005120527692900515,
+      "target_chain": "v",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.021740281909969725,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005847115700571116
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.0458249233440502,
+      "fit_CA_rmsd_A": 0.0005224411681061871,
+      "target_chain": "w",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02728515040251441,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005219811345550835
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.04359723410202451,
+      "fit_CA_rmsd_A": 0.0005137278616957794,
+      "target_chain": "x",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.02183940024426003,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005801670836093644
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.05489278962913196,
+      "fit_CA_rmsd_A": 0.0005136736340904035,
+      "target_chain": "y",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.024973479885268796,
+      "whole_capsid_refinement_CA_rmsd_A": 0.006216250193253293
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.05117221456232946,
+      "fit_CA_rmsd_A": 0.0005259775500815757,
+      "target_chain": "z",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.025014009920317597,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005621186442465951
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.06522484416817118,
+      "fit_CA_rmsd_A": 0.0005153143825102151,
+      "target_chain": "7",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.022357632410173404,
+      "whole_capsid_refinement_CA_rmsd_A": 0.005749036888247398
+    },
+    {
+      "all_residue_identities_match": true,
+      "chain_proposal_whole_capsid_max_A": 0.0809345604548052,
+      "fit_CA_rmsd_A": 0.0005192744619654195,
+      "target_chain": "8",
+      "whole_capsid_atom_correspondence_bijective": true,
+      "whole_capsid_max_CA_displacement_A": 0.021839400244597195,
+      "whole_capsid_refinement_CA_rmsd_A": 0.00580167083609317
+    }
+  ],
+  "reference_chain": "A",
+  "source": "protein C-alpha chain fits propose identities, whole-capsid fits refine operators; no native ligand",
+  "tolerance_A": 0.1,
+  "transforms": [
+    {
+      "rotation": [
+        [
+          1.0,
+          2.459426153552321e-16,
+          8.197169702118025e-18
+        ],
+        [
+          1.9043146412397428e-16,
+          1.0000000000000002,
+          9.374695023241791e-17
+        ],
+        [
+          -1.3625488254811322e-17,
+          -8.45457550385479e-17,
+          1.0
+        ]
+      ],
+      "translation": [
+        0.0,
+        1.8634724839594607e-20,
+        0.0
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.3090169943998089,
+          0.8090187740237162,
+          -0.49999712044098066
+        ],
+        [
+          -0.8090176064603174,
+          0.49999852183294863,
+          0.30901778363402715
+        ],
+        [
+          0.49999900960834726,
+          0.30901472690153475,
+          0.8090184725632921
+        ]
+      ],
+      "translation": [
+        -2.285166884446301e-05,
+        0.00011540948170714888,
+        -7.132655762526556e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.8090169944037214,
+          0.5000022674365671,
+          -0.30901332548008426
+        ],
+        [
+          -0.49999921073189174,
+          -0.3090208645069855,
+          0.8090160039003197
+        ],
+        [
+          0.30901827135859644,
+          0.8090141147456243,
+          0.5000038700939208
+        ]
+      ],
+      "translation": [
+        -0.00015894473368456428,
+        0.0001325856662858072,
+        -8.194170938902428e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.8090169944037222,
+          -0.4999992107318906,
+          0.30901827135859566
+        ],
+        [
+          0.5000022674365653,
+          -0.30902086450698396,
+          0.809014114745627
+        ],
+        [
+          -0.3090133254800855,
+          0.8090160039003206,
+          0.5000038700939183
+        ]
+      ],
+      "translation": [
+        -0.0002202032044513254,
+        2.7791650197302275e-05,
+        -1.7175676541588577e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.30901699439980995,
+          -0.8090176064603175,
+          0.4999990096083472
+        ],
+        [
+          0.8090187740237157,
+          0.49999852183294924,
+          0.30901472690153503
+        ],
+        [
+          -0.4999971204409803,
+          0.30901778363402654,
+          0.8090184725632924
+        ]
+      ],
+      "translation": [
+        -0.00012196995676806455,
+        -5.415079799801127e-05,
+        3.346708503708726e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.9999999999968008,
+          -6.050375886329028e-12,
+          2.529410499759712e-06
+        ],
+        [
+          -6.0491219127700214e-12,
+          -0.9999999999885584,
+          -4.78360588761729e-06
+        ],
+        [
+          2.529410499759715e-06,
+          -4.783605887617289e-06,
+          0.9999999999853595
+        ]
+      ],
+      "translation": [
+        -0.0002095878666538246,
+        -2.0656924733938322e-05,
+        2.1571303056788175e-10
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.3090157297240394,
+          0.8090152146605635,
+          0.5000036612174366
+        ],
+        [
+          -0.8090179923904922,
+          -0.5000000000487137,
+          0.3090143814448503
+        ],
+        [
+          0.49999916677088246,
+          -0.30902165360862355,
+          0.8090157296551257
+        ]
+      ],
+      "translation": [
+        -8.761782513620971e-05,
+        3.349371306497186e-05,
+        3.346725132880385e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.3090169944132511,
+          -0.809015996282683,
+          -0.5000016149199302
+        ],
+        [
+          0.8090156006012188,
+          0.500001478267735,
+          -0.30901825142526557
+        ],
+        [
+          0.5000022551425638,
+          -0.30901721552175254,
+          0.8090155161451065
+        ]
+      ],
+      "translation": [
+        -6.139945944039072e-06,
+        -0.00012573766410487497,
+        -7.771056190341067e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.3090157297240406,
+          -0.8090179923904918,
+          0.4999991667708832
+        ],
+        [
+          0.8090152146605648,
+          -0.5000000000487143,
+          -0.3090216536086214
+        ],
+        [
+          0.5000036612174353,
+          0.30901438144485144,
+          0.8090157296551262
+        ]
+      ],
+      "translation": [
+        -7.09059578509844e-05,
+        -6.447940251924026e-05,
+        2.7083589503156953e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.49999732922592766,
+          0.3090153795715228,
+          0.809019261794926
+        ],
+        [
+          0.30901537957151926,
+          -0.8090200105053463,
+          0.499996117775128
+        ],
+        [
+          0.8090192617949273,
+          0.4999961177751258,
+          0.3090173397312738
+        ]
+      ],
+      "translation": [
+        -6.0290476575241856e-05,
+        7.161369663405827e-05,
+        9.907880076804996e-06
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.49999937550466,
+          -0.30901411495731507,
+          -0.8090184801672314
+        ],
+        [
+          -0.3090192495331354,
+          0.8090176187165627,
+          -0.4999975960183813
+        ],
+        [
+          0.8090165189369913,
+          0.5000007693627373,
+          0.3090169942312929
+        ]
+      ],
+      "translation": [
+        3.811976394539306e-05,
+        2.355979585198868e-05,
+        -0.00016998105659336344
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.8090177760483725,
+          -0.5000002211223252,
+          0.30901459013349264
+        ],
+        [
+          0.4999977324953254,
+          0.3090169945755707,
+          -0.809018395688883
+        ],
+        [
+          0.30901861681341675,
+          0.8090168576371616,
+          0.4999992185210047
+        ]
+      ],
+      "translation": [
+        2.0943925058273383e-05,
+        3.417485313958571e-05,
+        -3.388794075053461e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.8090162127669002,
+          0.5000012570589463,
+          -0.3090170066837345
+        ],
+        [
+          -0.5000007892532511,
+          0.3090169944749175,
+          -0.8090165065508952
+        ],
+        [
+          -0.3090177636098421,
+          0.8090162174302575,
+          0.5000007817077987
+        ]
+      ],
+      "translation": [
+        -6.097163436598314e-05,
+        0.00013896901320015502,
+        -9.865379259228112e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.5000006244851689,
+          0.3090160040442477,
+          0.8090169866937077
+        ],
+        [
+          0.3090186093595298,
+          0.8090163697827415,
+          -0.5000000124930578
+        ],
+        [
+          -0.8090159915501944,
+          0.5000016226654473,
+          0.3090169942705028
+        ]
+      ],
+      "translation": [
+        -0.0001429137888667676,
+        8.83257794426594e-05,
+        -4.2054371440745377e-07
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.5000026707900079,
+          -0.30901473934892376,
+          -0.8090162050713052
+        ],
+        [
+          -0.30901473934892737,
+          -0.8090187615886651,
+          0.4999985342605093
+        ],
+        [
+          -0.8090162050713037,
+          0.4999985342605119,
+          0.3090214323786725
+        ]
+      ],
+      "translation": [
+        -0.00025409140170734763,
+        6.8480918784513e-06,
+        -0.00015965215876075482
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.3090182591000628,
+          0.8090183880683307,
+          -0.4999969633008652
+        ],
+        [
+          -0.8090163822399858,
+          -0.500000000044944,
+          -0.30901859688760097
+        ],
+        [
+          -0.5000002088100487,
+          0.30901334554089455,
+          0.8090182590445855
+        ]
+      ],
+      "translation": [
+        -0.00020344811723610256,
+        0.0001050811111005943,
+        -7.770976021668763e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.30901699441325314,
+          0.8090156006012187,
+          0.5000022551425638
+        ],
+        [
+          -0.8090159962826808,
+          0.5000014782677372,
+          -0.30901721552175465
+        ],
+        [
+          -0.5000016149199326,
+          -0.30901825142526373,
+          0.809015516145106
+        ]
+      ],
+      "translation": [
+        -0.00013868184032298837,
+        4.382234814133579e-05,
+        2.7083934302681728e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.3090182591000618,
+          -0.8090163822399844,
+          -0.5000002088100508
+        ],
+        [
+          0.8090183880683285,
+          -0.5000000000449455,
+          0.309013345540897
+        ],
+        [
+          -0.49999696330086874,
+          -0.3090185968876013,
+          0.809018259044583
+        ]
+      ],
+      "translation": [
+        -0.00018673637822120512,
+        -0.00013606606525341515,
+        -7.132695172505396e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.4999993755046589,
+          -0.30901924953314003,
+          0.8090165189369906
+        ],
+        [
+          -0.3090141149573143,
+          0.8090176187165611,
+          0.500000769362741
+        ],
+        [
+          -0.8090184801672322,
+          -0.49999759601838073,
+          0.30901699423129014
+        ]
+      ],
+      "translation": [
+        -0.00014929736480058251,
+        -9.227066883532012e-05,
+        9.907600642447683e-06
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.5000014217938119,
+          0.30901798491362087,
+          -0.8090157373031079
+        ],
+        [
+          0.309017984913619,
+          -0.8090152269179146,
+          -0.5000022476098301
+        ],
+        [
+          -0.8090157373031089,
+          -0.5000022476098287,
+          0.30901664871172624
+        ]
+      ],
+      "translation": [
+        -0.0002477080604485032,
+        -4.421590746101141e-05,
+        -0.0001699808572269071
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.809016994420996,
+          0.4999987429189983,
+          0.3090190282449277
+        ],
+        [
+          -0.4999997788172813,
+          -0.3090131245529795,
+          -0.8090186092029495
+        ],
+        [
+          -0.30901735213526044,
+          -0.8090192494208197,
+          0.4999961301309105
+        ]
+      ],
+      "translation": [
+        -0.00023053187740208292,
+        -5.483161545257509e-05,
+        -3.388783567369208e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.8090162127669014,
+          -0.50000078925325,
+          -0.3090177636098409
+        ],
+        [
+          0.5000012570589463,
+          0.30901699447492076,
+          0.8090162174302569
+        ],
+        [
+          -0.3090170066837326,
+          -0.809016506550895,
+          0.5000007817078012
+        ]
+      ],
+      "translation": [
+        -5.064334031049596e-05,
+        -0.00015324219878718958,
+        -8.194253002240121e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.8090177760483724,
+          0.4999977324953244,
+          0.30901861681342097
+        ],
+        [
+          -0.5000002211223273,
+          0.30901699457556847,
+          0.8090168576371615
+        ],
+        [
+          0.30901459013349075,
+          -0.8090183956888852,
+          0.49999921852100243
+        ]
+      ],
+      "translation": [
+        1.0615294363333221e-05,
+        -4.84484925651003e-05,
+        -1.717615081047988e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.8090169944209964,
+          -0.4999997788172807,
+          -0.30901735213526205
+        ],
+        [
+          0.49999874291899793,
+          -0.309013124552977,
+          -0.8090192494208208
+        ],
+        [
+          0.3090190282449276,
+          -0.809018609202951,
+          0.4999961301309082
+        ]
+      ],
+      "translation": [
+        -0.00014861648180151496,
+        -0.0001596254659628153,
+        -9.86543959188426e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.4999985781888312,
+          -0.3090198740534464,
+          0.8090167731568604
+        ],
+        [
+          -0.3090198740534536,
+          -0.8090139779720976,
+          -0.5000031008761331
+        ],
+        [
+          0.8090167731568577,
+          -0.500003100876138,
+          0.30901255616092954
+        ]
+      ],
+      "translation": [
+        -6.667407876238766e-05,
+        -0.00010898270220843465,
+        -4.2111205453916525e-07
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.5000006244851695,
+          0.3090186093595276,
+          -0.8090159915501948
+        ],
+        [
+          0.30901600404424817,
+          0.8090163697827417,
+          0.5000016226654455
+        ],
+        [
+          0.8090169866937074,
+          -0.5000000124930575,
+          0.3090169942705038
+        ]
+      ],
+      "translation": [
+        4.450313135265101e-05,
+        -2.750425295054788e-05,
+        -0.0001596526185336106
+      ]
+    },
+    {
+      "rotation": [
+        [
+          2.2750904126055773e-06,
+          0.9999999999916249,
+          3.4021970105950616e-06
+        ],
+        [
+          -1.1270584118330903e-06,
+          -3.4021944461679605e-06,
+          0.999999999993578
+        ],
+        [
+          0.9999999999967768,
+          -2.275094247637664e-06,
+          1.127050671216119e-06
+        ]
+      ],
+      "translation": [
+        1.1036262909776002e-05,
+        9.446559580844378e-05,
+        -0.00010550144340672424
+      ]
+    },
+    {
+      "rotation": [
+        [
+          2.275090413740076e-06,
+          -1.127058411678799e-06,
+          0.9999999999967768
+        ],
+        [
+          0.9999999999916246,
+          -3.4021944460997426e-06,
+          -2.275094248001202e-06
+        ],
+        [
+          3.4021970102861406e-06,
+          0.9999999999935775,
+          1.127050671330904e-06
+        ]
+      ],
+      "translation": [
+        -9.446526197581235e-05,
+        0.0001055017774314919,
+        -1.1035928926174065e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -2.275082062523087e-06,
+          3.6565390501643642e-06,
+          -0.9999999999907266
+        ],
+        [
+          -0.9999999999964577,
+          -1.3814028532025922e-06,
+          2.2750770115453738e-06
+        ],
+        [
+          -1.3813945342385506e-06,
+          0.9999999999923606,
+          3.6565421932887494e-06
+        ]
+      ],
+      "translation": [
+        -0.0001151226635560804,
+        0.00010550229950403446,
+        -0.0002206237485795981
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -2.275082061501278e-06,
+          -0.9999999999964579,
+          -1.3813945348044828e-06
+        ],
+        [
+          3.656539050081837e-06,
+          -1.3814028538197868e-06,
+          0.9999999999923608
+        ],
+        [
+          -0.9999999999907266,
+          2.2750770109187663e-06,
+          3.6565421931103435e-06
+        ]
+      ],
+      "translation": [
+        -0.0002206243963265224,
+        -0.00011512201586302252,
+        -0.0001055016516786031
+      ]
+    },
+    {
+      "rotation": [
+        [
+          2.542565019921231e-07,
+          -3.6565508600923244e-06,
+          0.9999999999932826
+        ],
+        [
+          -0.9999999999941803,
+          3.402190898818094e-06,
+          2.542689421418545e-07
+        ],
+        [
+          -3.4021918286438744e-06,
+          -0.9999999999875274,
+          -3.6565499943689433e-06
+        ]
+      ],
+      "translation": [
+        -0.00011512263258256483,
+        -0.00012615864898876645,
+        -1.1036456924347934e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -2.54261495684109e-07,
+          1.1270514697120837e-06,
+          -0.999999999999333
+        ],
+        [
+          0.9999999999990138,
+          1.3814023041597963e-06,
+          -2.5425993898920683e-07
+        ],
+        [
+          1.3814020172647616e-06,
+          -0.9999999999984112,
+          -1.1270518208662501e-06
+        ]
+      ],
+      "translation": [
+        -9.446576107324152e-05,
+        -0.00012615816876677347,
+        -0.00022062432881832136
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.8090172232091513,
+          -0.5000006325233968,
+          0.3090153718298785
+        ],
+        [
+          -0.5000006325233978,
+          0.30902187477135923,
+          -0.8090147392903279
+        ],
+        [
+          0.30901537182987676,
+          -0.8090147392903283,
+          -0.5000046515622087
+        ]
+      ],
+      "translation": [
+        -0.00015894510814498032,
+        -0.000153241927419408,
+        -0.00014971838529582795
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.8090159839930325,
+          -0.5000028919141836,
+          0.309014960351823
+        ],
+        [
+          -0.4999993673938391,
+          -0.30901598412028036,
+          0.809017771228751
+        ],
+        [
+          -0.3090206631433347,
+          -0.8090155929496217,
+          -0.500000000114826
+        ]
+      ],
+      "translation": [
+        -6.097197947858872e-05,
+        -0.0001596254722715839,
+        -0.0001330065499410331
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.49999795371062056,
+          -0.3090170144859543,
+          -0.8090182513660488
+        ],
+        [
+          0.30901823914110643,
+          -0.8090169942496638,
+          0.4999992308927773
+        ],
+        [
+          -0.8090177835890392,
+          -0.49999998777342686,
+          -0.3090149479608581
+        ]
+      ],
+      "translation": [
+        -0.00014291428022499054,
+        -0.00010898207314984273,
+        -0.00023123959151902777
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.3090186293160487,
+          -0.809017763598283,
+          0.49999774491297794
+        ],
+        [
+          -0.809014590192577,
+          0.5000016349314146,
+          0.3090206431962905
+        ],
+        [
+          -0.5000028795828753,
+          -0.3090123351071039,
+          -0.8090169943582692
+        ]
+      ],
+      "translation": [
+        -0.000203448446931523,
+        -0.0001257372823808116,
+        -0.0001539502217949179
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.8090167656343189,
+          0.500000845590472,
+          -0.3090162250293641
+        ],
+        [
+          0.5000008455904685,
+          0.30901985413285793,
+          -0.8090153794338668
+        ],
+        [
+          -0.3090162250293696,
+          -0.809015379433865,
+          -0.5000030884985389
+        ]
+      ],
+      "translation": [
+        -0.00022020353103379222,
+        -4.844778748154241e-05,
+        -0.00021448426322243796
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.5000000000171884,
+          0.30901574979057916,
+          0.8090174697521545
+        ],
+        [
+          -0.3090143691332745,
+          0.8090193860444155,
+          -0.49999775266843133
+        ],
+        [
+          -0.8090179971125344,
+          -0.49999689937606967,
+          -0.30901938606233154
+        ]
+      ],
+      "translation": [
+        -0.00025409132555511164,
+        -2.7504160786604794e-05,
+        -7.20076952125323e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.4999999999935835,
+          -0.3090169745186601,
+          0.8090170019633398
+        ],
+        [
+          0.3090208844443371,
+          0.8090146024426335,
+          0.5000014660096787
+        ],
+        [
+          -0.8090155084939079,
+          0.5000038824788485,
+          -0.3090146024420559
+        ]
+      ],
+      "translation": [
+        -0.0002477078549510843,
+        2.3559825592519624e-05,
+        -6.167901294677725e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -2.5426149567095213e-07,
+          0.9999999999990137,
+          1.3814020176857986e-06
+        ],
+        [
+          1.1270514701757997e-06,
+          1.3814023044555776e-06,
+          -0.9999999999984106
+        ],
+        [
+          -0.9999999999993324,
+          -2.5425993900265285e-07,
+          -1.1270518212530238e-06
+        ]
+      ],
+      "translation": [
+        -0.00022062421062901135,
+        9.446587933678955e-05,
+        -0.0001261582869672057
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.8090152023649622,
+          0.5000014137133122,
+          0.30901939846402593
+        ],
+        [
+          0.5000014137133122,
+          0.30901211411104396,
+          0.8090179847304463
+        ],
+        [
+          0.3090193984640263,
+          0.809017984730446,
+          -0.4999969117460821
+        ]
+      ],
+      "translation": [
+        -0.00014861622357310227,
+        0.0001389691840824632,
+        -0.00013300572480055655
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.8090180048216974,
+          0.4999991543516677,
+          0.30901571727330907
+        ],
+        [
+          0.4999985862615406,
+          -0.3090180049418838,
+          -0.8090174821091314
+        ],
+        [
+          -0.309016636462798,
+          0.8090171310110532,
+          -0.5000000001198638
+        ]
+      ],
+      "translation": [
+        -5.0643137190133897e-05,
+        0.00013258571886179722,
+        -0.00014971783865627897
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.3090153595129722,
+          0.8090170067119473,
+          0.5000009904349274
+        ],
+        [
+          0.8090186168585044,
+          0.49999836515638013,
+          -0.30901539187765376
+        ],
+        [
+          -0.49999838515881384,
+          0.30901960729343253,
+          -0.8090169943498045
+        ]
+      ],
+      "translation": [
+        -0.00018673623669410188,
+        0.00011540986011689987,
+        -0.00016033307248078678
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.4999979537106206,
+          0.3090182391411048,
+          -0.8090177835890402
+        ],
+        [
+          -0.30901701448595337,
+          -0.8090169942496656,
+          -0.49999998777342425
+        ],
+        [
+          -0.8090182513660491,
+          0.49999923089277576,
+          -0.3090149479608593
+        ]
+      ],
+      "translation": [
+        -0.0001492975172532726,
+        7.161438798277786e-05,
+        -0.00024156771978437749
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.8090187864686977,
+          -0.4999971080227278,
+          -0.30901698191139
+        ],
+        [
+          -0.4999971080227278,
+          0.3090141349956198,
+          0.8090198738855662
+        ],
+        [
+          -0.3090169819113898,
+          0.8090198738855663,
+          -0.49999534852692246
+        ]
+      ],
+      "translation": [
+        -0.00023053199473943375,
+        3.417549913382095e-05,
+        -0.00019777207804048583
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.3090186293160533,
+          -0.8090145901925759,
+          -0.5000028795828748
+        ],
+        [
+          -0.8090177635982813,
+          0.5000016349314181,
+          -0.309012335107103
+        ],
+        [
+          0.49999774491297816,
+          0.3090206431962882,
+          -0.8090169943582699
+        ]
+      ],
+      "translation": [
+        -8.761829139478309e-05,
+        -5.4150118533401066e-05,
+        -0.00026512752638521264
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.30901535951297393,
+          0.8090186168585035,
+          -0.49999838515881406
+        ],
+        [
+          0.8090170067119459,
+          0.4999983651563827,
+          0.30901960729343353
+        ],
+        [
+          0.5000009904349298,
+          -0.309015391877652,
+          -0.8090169943498039
+        ]
+      ],
+      "translation": [
+        -7.090620974722924e-05,
+        4.382296336313624e-05,
+        -0.0002587439068221197
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.9999999999947594,
+          -2.0207958254578224e-06,
+          -2.5294095221290216e-06
+        ],
+        [
+          -2.0207958254578207e-06,
+          -0.9999999999979581,
+          2.5560895189346404e-12
+        ],
+        [
+          -2.529409522129023e-06,
+          2.55509713277541e-12,
+          -0.9999999999968009
+        ]
+      ],
+      "translation": [
+        -3.1381789525396046e-10,
+        -2.065658243384703e-05,
+        -0.00023166049683107266
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.3090173646195192,
+          0.8090169819871657,
+          -0.49999979121994087
+        ],
+        [
+          0.8090169819871669,
+          -0.5000001567329367,
+          -0.3090167732072387
+        ],
+        [
+          -0.49999979121993926,
+          -0.30901677320724147,
+          -0.809017207886582
+        ]
+      ],
+      "translation": [
+        -0.00012197024583857667,
+        3.3494462021868844e-05,
+        -0.00026512727318705754
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.3090140948081742,
+          -0.809016225083782,
+          -0.5000030367518504
+        ],
+        [
+          -0.8090162250837829,
+          -0.499999843359421,
+          0.3090192618458285
+        ],
+        [
+          -0.5000030367518489,
+          0.30901926184583106,
+          -0.809014251448754
+        ]
+      ],
+      "translation": [
+        -0.00013868231128485233,
+        -6.447865037877078e-05,
+        -0.00025874408014896775
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.9999999999979582,
+          2.020786233625036e-06,
+          4.83338343386127e-12
+        ],
+        [
+          2.020786233609554e-06,
+          0.9999999999865171,
+          4.783597226225052e-06
+        ],
+        [
+          4.832965447069124e-12,
+          4.783597226952713e-06,
+          -0.9999999999885589
+        ]
+      ],
+      "translation": [
+        -0.0002095881387108043,
+        7.658669297775961e-10,
+        -0.000231660182118593
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.8090180048216986,
+          0.499998586261538,
+          -0.30901663646279787
+        ],
+        [
+          0.49999915435166536,
+          -0.3090180049418822,
+          0.8090171310110545
+        ],
+        [
+          0.30901571727330823,
+          -0.8090174821091333,
+          -0.5000000001198608
+        ]
+      ],
+      "translation": [
+        2.0943627804508974e-05,
+        -5.4831477502848775e-05,
+        -0.0001977726089402611
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.3090166241847686,
+          -0.8090193985010281,
+          0.4999963388130804
+        ],
+        [
+          -0.8090193985010281,
+          -0.4999968869313768,
+          -0.3090157373144083
+        ],
+        [
+          0.49999633881308014,
+          -0.30901573731440907,
+          -0.8090197372533926
+        ]
+      ],
+      "translation": [
+        -2.285203547856906e-05,
+        -0.00013606601796250202,
+        -0.00016033388134633649
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.5000000000171849,
+          -0.30901436913327246,
+          -0.8090179971125373
+        ],
+        [
+          0.30901574979058194,
+          0.8090193860444163,
+          -0.49999689937606656
+        ],
+        [
+          0.8090174697521555,
+          -0.4999977526684311,
+          -0.3090193860623292
+        ]
+      ],
+      "translation": [
+        -6.029096027003103e-05,
+        -9.227015720988379e-05,
+        -0.00024156822431640963
+      ]
+    },
+    {
+      "rotation": [
+        [
+          2.5425650176488427e-07,
+          -0.9999999999941798,
+          -3.4021918283525997e-06
+        ],
+        [
+          -3.656550859509394e-06,
+          3.402190899180387e-06,
+          -0.9999999999875269
+        ],
+        [
+          0.9999999999932819,
+          2.542689424147215e-07,
+          -3.6565499944628463e-06
+        ]
+      ],
+      "translation": [
+        1.1036024927978512e-05,
+        -0.00011512220055506363,
+        -0.00012615908126533995
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.5000020462889199,
+          0.3090131045099314,
+          0.8090172154830989
+        ],
+        [
+          -0.30901961974818376,
+          -0.8090169942490261,
+          0.4999983776243271
+        ],
+        [
+          0.809014726885476,
+          -0.5000024042516252,
+          -0.3090190405541597
+        ]
+      ],
+      "translation": [
+        3.811983234963428e-05,
+        -4.421645524546211e-05,
+        -6.167953657098223e-05
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.30901989400231,
+          0.8090153718114467,
+          0.5000008332828932
+        ],
+        [
+          0.8090153718114449,
+          -0.5000031131489763,
+          0.30901620509954086
+        ],
+        [
+          0.500000833282896,
+          0.3090162050995361,
+          -0.809016780853334
+        ]
+      ],
+      "translation": [
+        -6.139809205950487e-06,
+        0.00010508109410695555,
+        -0.00015394991929878262
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.809015983993034,
+          -0.4999993673938387,
+          -0.3090206631433321
+        ],
+        [
+          -0.500002891914182,
+          -0.3090159841202838,
+          -0.8090155929496212
+        ],
+        [
+          0.3090149603518223,
+          0.8090177712287498,
+          -0.5000000001148276
+        ]
+      ],
+      "translation": [
+        1.0615121896892258e-05,
+        2.7791888914780988e-05,
+        -0.00021448437283562986
+      ]
+    },
+    {
+      "rotation": [
+        [
+          -0.4999999999935816,
+          0.30902088444433606,
+          -0.8090155084939094
+        ],
+        [
+          -0.3090169745186607,
+          0.8090146024426343,
+          0.5000038824788462
+        ],
+        [
+          0.8090170019633406,
+          0.500001466009678,
+          -0.30901460244205503
+        ]
+      ],
+      "translation": [
+        -6.667417125670346e-05,
+        8.832625440232192e-05,
+        -0.00023123921598844577
+      ]
+    },
+    {
+      "rotation": [
+        [
+          0.5000020462889144,
+          -0.30901961974818654,
+          0.8090147268854779
+        ],
+        [
+          0.30901310450993347,
+          -0.8090169942490246,
+          -0.5000024042516255
+        ],
+        [
+          0.8090172154831013,
+          0.4999983776243273,
+          -0.30901904055415325
+        ]
+      ],
+      "translation": [
+        4.4503276794123325e-05,
+        6.847580520935268e-06,
+        -7.200799070877843e-05
+      ]
+    }
+  ]
+}

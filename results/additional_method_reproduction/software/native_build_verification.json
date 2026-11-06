@@ -1,0 +1,46 @@
+{
+  "boost_sha256": "953db31e016db7bb207f11432bef7df100516eeb746843fa0486a222e3fd49cb",
+  "current_method_lock_sha256": "ebe5b1fdbc14c14dcd8943702eb71890d00a2b884b4c52f4808d9fb0c1ad3634",
+  "fresh_installation_output_sha256": "cb63cbd6b7672beaeab0e0796269e111b293d02143c291eabfccbb871ff93f88",
+  "fresh_installer_replay_output_byte_exact": true,
+  "gnu_allocator_compatibility_symbol_linked_into_executable": false,
+  "installation_lock_sha256": "38a790160d6ee2d5eef5d6fca9e88846016a267709206179fe1932ffaf10093c",
+  "manual_output_sha256": "cb63cbd6b7672beaeab0e0796269e111b293d02143c291eabfccbb871ff93f88",
+  "observed_native_executable_sha256": "b213157502e059457900075953c10e0f6adc913b845e57bdef5bb8f62ca67d54",
+  "original_build_lock_snapshot_sha256": "38a790160d6ee2d5eef5d6fca9e88846016a267709206179fe1932ffaf10093c",
+  "platform": "Darwin arm64",
+  "schema_version": 1,
+  "scope": "Two native source builds and tutorial execution on one macOS arm64 host; no across-platform native repeatability claim.",
+  "source_sha256": "47d170bf434beb74f36d1688658c0ddf715629b79bdbcb0c49da28ed7a68d31f",
+  "status": "verified",
+  "unchanged_algorithm_sources": [
+    {
+      "file": "src/lib/canonicals.txt",
+      "original_and_observed_sha256": "e8a172eb760c2bfb457a2860a0608f821a6a4f34116e28672ea434b104948ad7"
+    },
+    {
+      "file": "src/lib/model.cpp",
+      "original_and_observed_sha256": "2d7e9bc8f1dc991a0f514868ad44bf7572eef3deee74c58154dd447be4a4800a"
+    },
+    {
+      "file": "src/lib/model.h",
+      "original_and_observed_sha256": "b65ab224ae003a41c0c6135ba13917c74b3450fd0bbd099d1846a3fb1b0e8a91"
+    },
+    {
+      "file": "src/lib/monte_carlo.cpp",
+      "original_and_observed_sha256": "f11c6eb12df59783fc123e8ca2091d5ca8b8588ce39a40178031d2b96f1a539d"
+    },
+    {
+      "file": "src/lib/parse_pdbqt.cpp",
+      "original_and_observed_sha256": "cc1346220cc29b411144d72942880757cf7c882c919da352e789afdbf408df8a"
+    },
+    {
+      "file": "src/lib/parse_pdbqt.h",
+      "original_and_observed_sha256": "f7ccdcffc20d37ed10a83b414db5a22c3188bba4fbc41f0f565c020074cb993f"
+    },
+    {
+      "file": "src/lib/quasi_newton.cpp",
+      "original_and_observed_sha256": "561204b7807cbd424d218e0e98b5bfb6cc5a11e2d030c18479791547d4263cd7"
+    }
+  ]
+}

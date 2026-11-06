@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "archive": "holo_complete.pdb.gz",
+      "archive_sha256": "13bbe14821b52f063cf370369a8c9ee47cd980c557053023d17b9ed7471a68ae",
+      "filename": "holo_complete.pdb",
+      "original_bytes": 88614,
+      "sha256": "8e4d97c8dea91c481f6d9861e0cfe9da60ad312f939e4c5d0d3a78ced3188e65"
+    },
+    {
+      "archive": "holo_complete.pdbqt.gz",
+      "archive_sha256": "e75e0e6dd32dfb362fa12fba325ddbe1262c16fc93b8701998a886595311e19e",
+      "filename": "holo_complete.pdbqt",
+      "original_bytes": 106720,
+      "sha256": "aad250573b44f0ddf2a25a1fd2a21ca252ec2325d2f50086959dde2f873cd6cc"
+    },
+    {
+      "archive": "holo_complete_atom_changes.json.gz",
+      "archive_sha256": "d741d4db34b272fefb8528d510b7a55878537dbe3dfd96a7245908c715fccade",
+      "filename": "holo_complete_atom_changes.json",
+      "original_bytes": 181541,
+      "sha256": "c4119632bdaeb8ae1728f2ec98ac7a51b0584add7f20ae540cf23b6872b7909e"
+    },
+    {
+      "archive": "ligand.pdbqt.gz",
+      "archive_sha256": "cc3b1a18cd00fd9b4c3eba978e8dc029238f815a49eaedb1b5b61eb09e3f0b21",
+      "filename": "ligand.pdbqt",
+      "original_bytes": 2507,
+      "sha256": "710101a0dd90e5eb3aec366721901d20f0b769efb03951907d8aed10103a6e04"
+    },
+    {
+      "archive": "ligand.sdf.gz",
+      "archive_sha256": "16105fcefdd14de5ee351b474ee149ac27f017a10d6d0aac05a517ff9812e970",
+      "filename": "ligand.sdf",
+      "original_bytes": 3244,
+      "sha256": "05da2a8a612fc3bc07381942558e2ce38c086a1bae201423b684f1157fed35e1"
+    },
+    {
+      "archive": "preparation.json.gz",
+      "archive_sha256": "dbe1e9df4ebb6615447ce8d23993fc5f399131d0e66ebc0c61557debae2e1009",
+      "filename": "preparation.json",
+      "original_bytes": 6086,
+      "sha256": "aaaa195f44f1c6d1b2642c68077fef1d135a40f5114657ed5195752dad3f6a56"
+    },
+    {
+      "archive": "receptor_preparation.json.gz",
+      "archive_sha256": "8393901faf69ed4c51cac430156658963df094ab849ba212cff66949e5f33fe8",
+      "filename": "receptor_preparation.json",
+      "original_bytes": 215221,
+      "sha256": "77fbd11ed7ebb1e13b2f2a89e8a13f47ebbf048864abf60539adafaaebdd2bcc"
+    },
+    {
+      "archive": "reference.json.gz",
+      "archive_sha256": "389912c5f991c7548cff3cd4ead2205f8a51461b1ace4a445001da1fff81f4bc",
+      "filename": "reference.json",
+      "original_bytes": 5376,
+      "sha256": "3f21aaae4c4b0c19ce2b57d088bd943e418996512b20bc9ae627ca1f4dff6126"
+    },
+    {
+      "archive": "source_graph.json.gz",
+      "archive_sha256": "5610174e911e0a63049d1476ed6305df27a71d5e93ae1def7429096a42af5506",
+      "filename": "source_graph.json",
+      "original_bytes": 6564,
+      "sha256": "74410d39e7f9f2b2274c84bf78fac0c97c09dd99fd30386b6956444ca4885a47"
+    }
+  ],
+  "schema_version": 1
+}

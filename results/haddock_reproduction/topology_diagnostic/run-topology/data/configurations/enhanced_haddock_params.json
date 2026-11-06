@@ -1,0 +1,62 @@
+{
+    "cns_exec": "",
+    "ncores": 1,
+    "max_cpus": true,
+    "mode": "local",
+    "batch_type": "slurm",
+    "queue": "",
+    "queue_limit": 100,
+    "concat": 1,
+    "self_contained": false,
+    "clean": false,
+    "offline": false,
+    "debug": true,
+    "preprocess": false,
+    "postprocess": true,
+    "gen_archive": false,
+    "run_dir": "run-topology",
+    "molecules": [
+        "data/1LMQ_r_u.pdb",
+        "data/1LMQ_l_u.pdb"
+    ],
+    "topoaa.1": {
+        "molecules": [
+            "data/1LMQ_r_u.pdb",
+            "data/1LMQ_l_u.pdb"
+        ],
+        "mol1": {
+            "cyclicpept": false,
+            "nhisd": 0,
+            "hisd_1": NaN,
+            "nhise": 0,
+            "hise_1": NaN,
+            "charged_nter": false,
+            "charged_cter": false,
+            "5_phosphate": false
+        },
+        "mol2": {
+            "cyclicpept": false,
+            "nhisd": 0,
+            "hisd_1": NaN,
+            "nhise": 0,
+            "hise_1": NaN,
+            "charged_nter": false,
+            "charged_cter": false,
+            "5_phosphate": false
+        },
+        "autohis": true,
+        "autotoppar": false,
+        "delenph": true,
+        "hydrogen_build": "all",
+        "log_level": "quiet",
+        "iniseed": 917,
+        "ligand_param_fname": "",
+        "ligand_top_fname": "",
+        "limit": true,
+        "set_bfactor": true,
+        "tolerance": 0,
+        "cyclicpept_dist": 2.0,
+        "disulphide_dist": 2.2,
+        "acecys_dist": 4.0
+    }
+}

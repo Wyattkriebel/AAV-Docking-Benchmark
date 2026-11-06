@@ -1,0 +1,61 @@
+{
+  "cases": {
+    "1GNY": {
+      "canonical_isomeric_smiles": "O[C@@H]1[C@@H](O)[C@H](O[C@@H]2CO[C@@H](O[C@@H]3CO[C@@H](O[C@@H]4CO[C@@H](O[C@@H]5CO[C@@H](O)[C@H](O)[C@H]5O)[C@H](O)[C@H]4O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)OC[C@H]1O",
+      "source_archive": "results/development/1GNY/inputs/preparation.json.gz",
+      "source_archive_sha256": "382842afaa0d85910f25f40107ae07b3917f74ba44ea8ce48f32a8fbb9bd630a",
+      "source_chemical_field": "chemistry.isomeric_smiles",
+      "source_member_sha256": "e138dfd8c331d47d4477c8b20966c4ad9a09a5021b82a05eec43b1f69f9f2e7d"
+    },
+    "2RDK": {
+      "canonical_isomeric_smiles": "OC[C@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]2O)[C@@H](O)[C@@H](O)[C@@H]1O",
+      "source_archive": "results/structural_test/source_preparation.tar.gz",
+      "source_archive_sha256": "88915e34c2ae8e5202831799dec3e53be1ad08af097c8cb0845d536cde29ef40",
+      "source_chemical_field": "isomeric_smiles",
+      "source_member": "2RDK/chemistry.json",
+      "source_member_sha256": "9b78ad2e47255d961d66583d55599b1ed800e006423556805ba3003e27dfc19b"
+    },
+    "3ZWE": {
+      "canonical_isomeric_smiles": "C[C@@H]1O[C@@H](O[C@H]2[C@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](O)O[C@@H]3CO)O[C@H](CO)[C@H](O)[C@@H]2O[C@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@@H]1O",
+      "source_archive": "results/structural_test/source_preparation.tar.gz",
+      "source_archive_sha256": "88915e34c2ae8e5202831799dec3e53be1ad08af097c8cb0845d536cde29ef40",
+      "source_chemical_field": "isomeric_smiles",
+      "source_member": "3ZWE/chemistry.json",
+      "source_member_sha256": "4fa270c8351e8a8718575a451036ca714cc2b5631675af8651ff956c5dbffa30"
+    },
+    "4R9F": {
+      "canonical_isomeric_smiles": "OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@H](O)[C@H](O)O[C@@H]2CO)[C@@H](O)[C@@H](O)[C@@H]1O",
+      "source_archive": "results/structural_test/source_preparation.tar.gz",
+      "source_archive_sha256": "88915e34c2ae8e5202831799dec3e53be1ad08af097c8cb0845d536cde29ef40",
+      "source_chemical_field": "isomeric_smiles",
+      "source_member": "4R9F/chemistry.json",
+      "source_member_sha256": "b28b88b8fdce00c580f1709e4d2e857676585d0541f52fdf11eee50cd0f87df4"
+    },
+    "5HZA": {
+      "canonical_isomeric_smiles": "C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O)O[C@H](CO)[C@H]2O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@@H]1O",
+      "source_archive": "results/structural_test/source_preparation.tar.gz",
+      "source_archive_sha256": "88915e34c2ae8e5202831799dec3e53be1ad08af097c8cb0845d536cde29ef40",
+      "source_chemical_field": "isomeric_smiles",
+      "source_member": "5HZA/chemistry.json",
+      "source_member_sha256": "0e3006cba865e1a00905557d6a71e5b7d5f8fb1ff4293f57984e9b20be32609f"
+    },
+    "5V6F": {
+      "canonical_isomeric_smiles": "OC[C@H]1O[C@H](OC[C@H]2O[C@@H](O)[C@@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]3O)[C@@H]2O)[C@@H](O)[C@@H](O)[C@@H]1O",
+      "source_archive": "results/structural_test/source_preparation.tar.gz",
+      "source_archive_sha256": "88915e34c2ae8e5202831799dec3e53be1ad08af097c8cb0845d536cde29ef40",
+      "source_chemical_field": "isomeric_smiles",
+      "source_member": "5V6F/chemistry.json",
+      "source_member_sha256": "8fdf41a743a65bcd911fe425881ef037f249fe958fe8b7a1ac40c8ecfc3482b4"
+    },
+    "8I5U": {
+      "canonical_isomeric_smiles": "OC[C@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O)O[C@H](CO)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+      "source_archive": "results/structural_test/source_preparation.tar.gz",
+      "source_archive_sha256": "88915e34c2ae8e5202831799dec3e53be1ad08af097c8cb0845d536cde29ef40",
+      "source_chemical_field": "isomeric_smiles",
+      "source_member": "8I5U/chemistry.json",
+      "source_member_sha256": "ccf2622575ebcbb57f06781bcaf787e378703d3bb527d469422c1d4ec641f093"
+    }
+  },
+  "purpose": "Independent pre-existing chemical graph expectations; no coordinate or outcome fields",
+  "schema_version": 1
+}

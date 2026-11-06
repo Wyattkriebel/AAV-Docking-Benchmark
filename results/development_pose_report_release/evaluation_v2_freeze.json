@@ -1,0 +1,164 @@
+{
+  "basis_commit": "ffd02f67f3ac44632abf7d41f7c1ea31a47df211",
+  "corrected_diagnostic_outcomes_consulted": true,
+  "default_byte_exact": true,
+  "frozen_at_UTC": "2026-11-03T22:09:16.677607+00:00",
+  "implementation_amendment": {
+    "bytes": 4223,
+    "path": "benchmarks/qualified_pose_atom_order_amendment.json",
+    "sha256": "93e75fd44e036a007b3e37bb7fa40c83f911ea366eb581e4254704f9f59d47da"
+  },
+  "independent_source_review": {
+    "bytes": 4459,
+    "path": "results/development_pose_report_release/v2_source_review/independent_review.json",
+    "sha256": "3395c37cc9dfdc8030741277d0cc9741c39b34692ca6358fd16897d9c616c5cb"
+  },
+  "invalid_v1_outcomes_consulted": true,
+  "native_scores_coordinates_ids_order_types_counts_decisions_hashes_exact": true,
+  "new_provenance_fields_protected_exact": true,
+  "new_six_case_structural_accuracy_consulted": false,
+  "official_corrected_v2_report_absent_at_freeze": true,
+  "orchestration_verifier_pinned_by_its_git_commit_instead_of_this_receipt": true,
+  "outputs": {
+    "markdown": "docs/QUALIFIED_BLIND_POSE_V2_RESULTS.md",
+    "summary": "results/development_pose_report_release/qualified_pose_v2_summary.json"
+  },
+  "planned_cross_platform_absolute_derived_tolerance": 1e-10,
+  "relative_tolerance": 0,
+  "schema_version": 1,
+  "source_closure": "Static transitive local package imports including function scope; no imports executed by this freeze writer.",
+  "source_files": [
+    {
+      "bytes": 100,
+      "path": "aav_benchmark/__init__.py",
+      "sha256": "b14ad2e329cfba8f37814b2ea8a35ebb579eaa6ad1b7b1dbba7dccc242160c0c"
+    },
+    {
+      "bytes": 30216,
+      "path": "aav_benchmark/aav.py",
+      "sha256": "dbd05bbedaf6b2d9eb4ba8ebdc3b152d178b21af28b43cb4bafb337d17661983"
+    },
+    {
+      "bytes": 8775,
+      "path": "aav_benchmark/development_report_replay.py",
+      "sha256": "701797cb8492fbc39b2b18dc5f0e7b26b2b9680c269b574bc97ad0cb45dd5b99"
+    },
+    {
+      "bytes": 17312,
+      "path": "aav_benchmark/engine.py",
+      "sha256": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8"
+    },
+    {
+      "bytes": 41340,
+      "path": "aav_benchmark/external.py",
+      "sha256": "2b224a39a71db9a4856c384d11d48de986c89d1b6afd733166936e57ed0caf1f"
+    },
+    {
+      "bytes": 17250,
+      "path": "aav_benchmark/metrics.py",
+      "sha256": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec"
+    },
+    {
+      "bytes": 15481,
+      "path": "aav_benchmark/p2rank.py",
+      "sha256": "09626e040e0e176150b5d7944e274847796893aafaaf0122c43dc3df85d405e5"
+    },
+    {
+      "bytes": 4011,
+      "path": "aav_benchmark/provenance.py",
+      "sha256": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f"
+    },
+    {
+      "bytes": 47480,
+      "path": "aav_benchmark/qualified_pose.py",
+      "sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525"
+    },
+    {
+      "bytes": 55545,
+      "path": "aav_benchmark/qualified_pose_v2.py",
+      "sha256": "1c65a796e1ea14184add305c321ac9dcda6fdd38ad1de59f3a36092b8f71b48b"
+    },
+    {
+      "bytes": 20297,
+      "path": "aav_benchmark/replay_workspace.py",
+      "sha256": "9609a20bf4927c96b92c0e1c0e95a1816745d7eaf4483cb83bba3ae5c18af9cf"
+    },
+    {
+      "bytes": 14142,
+      "path": "aav_benchmark/report_replay.py",
+      "sha256": "a6340ec4779fa546eb5673fecaca7b976415b78dbdfb1804b1b3c55c8f2bb048"
+    },
+    {
+      "bytes": 13287,
+      "path": "aav_benchmark/site_archive.py",
+      "sha256": "ab6245c922cee2c7a45adb6ce2548f56cb61c733ac723a6c26c188d225584caa"
+    },
+    {
+      "bytes": 15674,
+      "path": "aav_benchmark/site_experiment.py",
+      "sha256": "1ce375cdd89c5cb60d507ec1cb5ebd603f34015348e64faae9f24d3d8f64351e"
+    },
+    {
+      "bytes": 12830,
+      "path": "aav_benchmark/site_geometry.py",
+      "sha256": "0b76f95db2e383604c43a1963829b928f9a030943647cae49f00d221d384d481"
+    },
+    {
+      "bytes": 25399,
+      "path": "aav_benchmark/site_prediction_verification.py",
+      "sha256": "a98c9428ed66789491c0f22a43392ff9bba157179c7e849276c308726f0f67e9"
+    },
+    {
+      "bytes": 18807,
+      "path": "aav_benchmark/site_reproduction.py",
+      "sha256": "4b486c58be30802c02697f0b4220a766dfaa5d3079e0c4b33de4577b696f9911"
+    },
+    {
+      "bytes": 11941,
+      "path": "aav_benchmark/site_truth.py",
+      "sha256": "7d981ea8ac4c65d00152ec484b0713f6c2abb167d8f698bb1f31ac2b5c9e6909"
+    },
+    {
+      "bytes": 30340,
+      "path": "aav_benchmark/sites.py",
+      "sha256": "244319d42bb57492cfbae1b704c85bb6f003447eb64a88651e5fd1c1755779b4"
+    },
+    {
+      "bytes": 18924,
+      "path": "aav_benchmark/surface.py",
+      "sha256": "b4d620e079f0085c8bd6cc7faa9a7e0a86dd43cefba983f9018bc2739d71979d"
+    },
+    {
+      "bytes": 2270,
+      "path": "docs/DEVELOPMENT_REPORT_REPLAY.md",
+      "sha256": "01a5c24377e26640312f6093c16ef663989d36067b3ccfe4f9fb0387a01c1586"
+    },
+    {
+      "bytes": 585,
+      "path": "pyproject.toml",
+      "sha256": "78767421bb10c3919b1d91c39be5d5fa65c2646652ad59bd3cacfb2771b4b3c1"
+    },
+    {
+      "bytes": 1667,
+      "path": "scripts/compare_development_report_replay.py",
+      "sha256": "5f3e569646c010aaa4857a2a321343fb95dd4e36f2091694466f507a96e9978f"
+    },
+    {
+      "bytes": 2094,
+      "path": "scripts/regenerate_qualified_pose_v2_report.py",
+      "sha256": "a62f49931ecae628dd48ce57afd98a452a55aeebd85146675777fa05dda0cc1e"
+    },
+    {
+      "bytes": 13459,
+      "path": "tests/test_development_report_replay.py",
+      "sha256": "55beb7e546db2ea8096579fc58a6ad2ea3953effcde6ce4284649eb21226ea0a"
+    },
+    {
+      "bytes": 17838,
+      "path": "tests/test_qualified_pose_v2.py",
+      "sha256": "851c73bb0d63bdf8f7939f97af641f7b76e8167c6681a9238d01ad46bc132cf4"
+    }
+  ],
+  "stage": "After invalid v1 and corrected diagnostic outcomes; before official V2 report. Implementation correction, not pre-outcome redesign.",
+  "unknown_fields_have_no_tolerance": true
+}

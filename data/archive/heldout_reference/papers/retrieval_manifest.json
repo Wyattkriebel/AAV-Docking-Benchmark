@@ -1,0 +1,261 @@
+[
+  {
+    "pdb_id": "2RDK",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2327273/",
+    "archive": "data/archive/heldout_reference/papers/2RDK.PMC2327273.html",
+    "sha256": "e073536313d0b238791616cdafd266ab2210abacbbcaeda630d3187a61085a51",
+    "bytes": 165630,
+    "retrieved_date": "2026-11-03",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "3ZWE",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3281725/",
+    "archive": "data/archive/heldout_reference/papers/3ZWE.PMC3281725.html",
+    "sha256": "cc6862bbb0dab7183c85317131af66c9d1b61cdc956e1ad7db971a54b9a1e267",
+    "bytes": 243380,
+    "retrieved_date": "2026-11-03",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "4R9F",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4263893/",
+    "archive": "data/archive/heldout_reference/papers/4R9F.PMC4263893.html",
+    "sha256": "1c72c83e4e5f7373a4bab4e9e43b8132ecc34f6a54792eb9116e12060aed34c8",
+    "bytes": 221009,
+    "retrieved_date": "2026-11-03",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5HZA",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4836343/",
+    "archive": "data/archive/heldout_reference/papers/5HZA.PMC4836343.html",
+    "sha256": "ab03eaa8012e27648822896692effb18a69af82e26924a318cab3528e06c2702",
+    "bytes": 155540,
+    "retrieved_date": "2026-11-03",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5V6F",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5825169/",
+    "archive": "data/archive/heldout_reference/papers/5V6F.PMC5825169.html",
+    "sha256": "1121b748ff30f37e8bdf39cef10e211da2de0a82d1d21e6ff215b6b6016b93a0",
+    "bytes": 280222,
+    "retrieved_date": "2026-11-03",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "8I5U",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10167657/",
+    "archive": "data/archive/heldout_reference/papers/8I5U.PMC10167657.html",
+    "sha256": "9778d6513debc95a451a396bf812bdbd4f83d4aa335f2032c6d5333a585e3cf9",
+    "bytes": 268840,
+    "retrieved_date": "2026-11-03",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2WAB",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2661963/",
+    "archive": "data/archive/heldout_reference/papers/2WAB.PMC2661963.html",
+    "bytes": 217221,
+    "sha256": "6ff77f4536dc59eba723f5285cb2072811e2433e769fbf3873e08b80243114a1",
+    "status": "retrieved",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "3A2S",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2872391/",
+    "archive": "data/archive/heldout_reference/papers/3A2S.PMC2872391.html",
+    "bytes": 206159,
+    "sha256": "ceec1a3e437db50a6a99aed1024bb2bc97218ad2418ce87aa39dd3f930bf0ddc",
+    "status": "retrieved",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "1I3H",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11453694/",
+    "archive": "data/archive/heldout_reference/papers/1I3H.primary_abstract.html",
+    "bytes": 20320,
+    "sha256": "e0c65d6dc79fbad733d3296005d69cf2249682e7bc0d9c7333488b2391e10ca3",
+    "status": "retrieved",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2G7C",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16622409/",
+    "archive": "data/archive/heldout_reference/papers/2G7C.primary_abstract.html",
+    "bytes": 19211,
+    "sha256": "42268e95badb2efaed5301ca6f0e2c69c6f9e44ce41e1004b38685ffae3956d1",
+    "status": "retrieved",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2GUP",
+    "url": "https://www.rcsb.org/structure/2GUP",
+    "archive": "data/archive/heldout_reference/papers/2GUP.deposition_page.html",
+    "bytes": 117056,
+    "sha256": "a8b4ce7da8752bab4ab3c434a5d7089b94d74daa30b898305fa8077cadcc31a0",
+    "status": "retrieved",
+    "retrieved_date": "2026-11-03"
+  },
+  {
+    "pdb_id": "2WNB",
+    "url": "https://www.nature.com/articles/nsmb.1685.pdf",
+    "archive": "data/archive/heldout_reference/papers/2WNB.publisher_response.html",
+    "bytes": 281809,
+    "sha256": "daf607c5ac03be6393c4f4e84237868200ddb8093f02872a4f06c5cdaa274a2f",
+    "status": "retrieved_nonpaper_response",
+    "retrieved_date": "2026-11-03",
+    "content_validation": "URL requestedPDF but returnedHTML, not a paperPDF; cannot count as fulltextaccess"
+  },
+  {
+    "pdb_id": "2WNB",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnsmb.1685/MediaObjects/41594_2009_BFnsmb1685_MOESM12_ESM.pdf",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/2WNB.supplement.pdf",
+    "bytes": 824961,
+    "sha256": "f52fe95e0fa58472079fb82badb960948ab73ea85a8de23e8d1400430aa42a03",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "8I5U",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/10167657/bin/cs3c00620_si_001.pdf",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/8I5U.supplement.pdf.response.html",
+    "bytes": 21496,
+    "sha256": "adb44e88e4ca744074e0744e098d6dcd454c74b2462fe29a26ee265ec2798346",
+    "status": "retrieved_nonpaper_response"
+  },
+  {
+    "pdb_id": "3ZWE",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/3281725/bin/supp_M111.314831_jbc.M111.314831-1.pdf",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/3ZWE.supplement.pdf.response.html",
+    "bytes": 21542,
+    "sha256": "866003de65a013eb27a7cd5014435cb7ecf25a299e0cc6467b988bd309eda067",
+    "status": "retrieved_nonpaper_response"
+  },
+  {
+    "pdb_id": "1I3H",
+    "url": "https://api.crossref.org/works/10.1006%2Fjmbi.2001.4806",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/1I3H.crossref.json",
+    "bytes": 14303,
+    "sha256": "8e881b28e7f53b7ad400549a9fa37ca392523de025d47b5cca2d8754c12783a7",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2G7C",
+    "url": "https://api.crossref.org/works/10.1038%2Fnsmb1084",
+    "retrieved_date": "2026-11-03",
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "pdb_id": "2RDK",
+    "url": "https://api.crossref.org/works/10.1110%2Fps.083472808",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/2RDK.crossref.json",
+    "bytes": 7642,
+    "sha256": "b4daa8ff5088b5d56fd8d0bf3ed6f615eea372aa495fa69a79a3f1714052d84b",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "2WAB",
+    "url": "https://api.crossref.org/works/10.1371%2FJOURNAL.PBIO.1000071",
+    "retrieved_date": "2026-11-03",
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "pdb_id": "2WNB",
+    "url": "https://api.crossref.org/works/10.1038%2FNSMB.1685",
+    "retrieved_date": "2026-11-03",
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "pdb_id": "3A2S",
+    "url": "https://api.crossref.org/works/10.1073%2Fpnas.0912115107",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/3A2S.crossref.json",
+    "bytes": 34189,
+    "sha256": "de64d26936023265e74abdfcf342b73a0b0a6a3a910bb6f9e7060cb76229c805",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "3ZWE",
+    "url": "https://api.crossref.org/works/10.1074%2FJBC.M111.314831",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/3ZWE.crossref.json",
+    "bytes": 19660,
+    "sha256": "8173cd0d58b50c70d923d16f946225e20d6c4f559e1876cb4123f128ad5a017c",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "4R9F",
+    "url": "https://api.crossref.org/works/10.1074%2Fjbc.M114.579904",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/4R9F.crossref.json",
+    "bytes": 15606,
+    "sha256": "14fd713fd1ca10e83e6a5dc96ee275ae22acbab2e131949b6634b15bf54e7192",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5HZA",
+    "url": "https://api.crossref.org/works/10.1128%2FJVI.03223-15",
+    "retrieved_date": "2026-11-03",
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "pdb_id": "5V6F",
+    "url": "https://api.crossref.org/works/10.1371%2Fjournal.ppat.1006841",
+    "retrieved_date": "2026-11-03",
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "pdb_id": "8I5U",
+    "url": "https://api.crossref.org/works/10.1021%2Facscatal.3c00620",
+    "retrieved_date": "2026-11-03",
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "pdb_id": "3ZWE",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f551/3281725/4e44e06e08d5/zbc0071296490004.jpg",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/3ZWE.primary_density_figure.jpg",
+    "bytes": 234381,
+    "sha256": "4ab558a9daf57f5ab9f789b50dba8289976f05f7ee8b0cba9bcc71c289a3a212",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "4R9F",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/225d/4263893/0f5bdeb00290/zbc0011503750004.jpg",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/4R9F.primary_density_figure.jpg",
+    "bytes": 119652,
+    "sha256": "ec3eb293c67b393534ce61a58d0d02f7f1446bcd2f9cb3d0ba9af57f9f43367c",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5HZA",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9e5f/4836343/9880810b7efd/zjv9990915740002.jpg",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/5HZA.primary_density_figure.jpg",
+    "bytes": 193791,
+    "sha256": "6d33616e54a31076bf66d20c8edf35008a48fa4bf2b38ac29fe8fc1f2b7c72a8",
+    "status": "retrieved"
+  },
+  {
+    "pdb_id": "5V6F",
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f1ed/5825169/a67ed439b686/ppat.1006841.g004.jpg",
+    "retrieved_date": "2026-11-03",
+    "archive": "data/archive/heldout_reference/papers/5V6F.primary_density_figure.jpg",
+    "bytes": 149562,
+    "sha256": "05369660ebe8c3862fb905972477f0900e171d986d9949957a82545084aa5f75",
+    "status": "retrieved"
+  }
+]

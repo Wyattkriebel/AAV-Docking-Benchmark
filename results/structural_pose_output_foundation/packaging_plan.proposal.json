@@ -1,0 +1,266 @@
+{
+  "destination": "results/structural_pose_output_foundation/raw",
+  "exclusions": [
+    {
+      "kind": "derived",
+      "path": "results/structural_pose_v3/global_reports",
+      "reason": "Future byte-exact four-report packet is released and archived separately after authorized accuracy.",
+      "scope": "tree"
+    },
+    {
+      "kind": "derived",
+      "path": "results/structural_pose_v3/global_report_release/generation_receipt.json",
+      "reason": "Future original report-generation receipt belongs with the separate exact four-report packet.",
+      "scope": "file"
+    },
+    {
+      "kind": "derived",
+      "path": "results/structural_pose_v3/global_report_release/released_reports_binding.json",
+      "reason": "Future byte binding belongs with the separate exact four-report packet.",
+      "scope": "file"
+    },
+    {
+      "kind": "derived",
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit",
+      "reason": "Root-authorized separate atom-order QA publication packet; not raw producer evidence. Preserve via its own exact publication allowlist.",
+      "scope": "tree"
+    }
+  ],
+  "historical_first_job": {
+    "archive": {
+      "bytes": 3254709,
+      "path": "results/haddock_paired_cohort/orchestration_recovery/completed_first_job_raw.tar.gz",
+      "sha256": "c15799f6e92d38cf98d4d4c509a367ce14633faeb6a434dd5d0156ba23895ed7"
+    },
+    "manifest": {
+      "bytes": 55318,
+      "path": "results/haddock_paired_cohort/orchestration_recovery/completed_first_job_manifest.json",
+      "sha256": "7bbae28624ea8556e6b903ef638598e996f7fdb6e4695d7e9e4aff49af043ac2"
+    },
+    "member_count": 240,
+    "target_prefix": "results/haddock_paired_cohort"
+  },
+  "limits": {
+    "max_files": 1000,
+    "max_gzip_bytes": 100000000,
+    "max_raw_bytes": 70000000
+  },
+  "must_be_absent": [
+    "results/haddock_paired_cohort/orchestration_recovery/coordinator.lock"
+  ],
+  "profile": "real_frozen_structural_outputs",
+  "schema_version": 1,
+  "source_contracts": [
+    {
+      "bytes": 11596,
+      "path": "PROTOCOL.md",
+      "sha256": "84d632968fb81cbf50900e29fe4120baa15b182453bd81a4ec04afb8e715a590"
+    },
+    {
+      "bytes": 37278,
+      "path": "aav_benchmark/additional_method.py",
+      "sha256": "f98d66c9b2798fc8ff925b1b25113bd104e94744481473d3cc11f5aa1a3d80bd"
+    },
+    {
+      "bytes": 31320,
+      "path": "aav_benchmark/assembly_control_report.py",
+      "sha256": "869f9e11f373458b9020d675db5a69f6d34b48c8b151149d8f453630fb3d3876"
+    },
+    {
+      "bytes": 41509,
+      "path": "aav_benchmark/common_pose_rescoring.py",
+      "sha256": "afa086f24fd5ab691b8a77c8a87276448cf09223b5eb9483b1ef92cb4aae4005"
+    },
+    {
+      "bytes": 17312,
+      "path": "aav_benchmark/engine.py",
+      "sha256": "62417e0d3c05519589e63a7fa3ad398efef1a069a4e8becea355ff1d671b1af8"
+    },
+    {
+      "bytes": 26113,
+      "path": "aav_benchmark/global_pose_report_gate.py",
+      "sha256": "b42a849b136778414ddf821fc12d1f04f68ebab82f1a5075a6a52ad470ecc8cb"
+    },
+    {
+      "bytes": 14046,
+      "path": "aav_benchmark/haddock_cohort_preparation.py",
+      "sha256": "ef0ca4c30b95a6e7907d66da9f3b197f987cbedce7cb96b15d8c96155ec07739"
+    },
+    {
+      "bytes": 34361,
+      "path": "aav_benchmark/haddock_cohort_resume.py",
+      "sha256": "6a2b233ebc817c5c1c64ed8f47da5fda609a3eca99083ec8a58f972cf884490a"
+    },
+    {
+      "bytes": 21858,
+      "path": "aav_benchmark/haddock_paired_cohort.py",
+      "sha256": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6"
+    },
+    {
+      "bytes": 61151,
+      "path": "aav_benchmark/haddock_pose_report.py",
+      "sha256": "b87b150592c963c956bcb7d470acf13dbade63f642b4c51714060f5c49b07260"
+    },
+    {
+      "bytes": 52568,
+      "path": "aav_benchmark/heldout_pose_report.py",
+      "sha256": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c"
+    },
+    {
+      "bytes": 41449,
+      "path": "aav_benchmark/heldout_reference.py",
+      "sha256": "fa4ea12beb98d6eaee70fdb5387f8bcd90c03d6489cca008f1d4dc47f2d83e28"
+    },
+    {
+      "bytes": 17250,
+      "path": "aav_benchmark/metrics.py",
+      "sha256": "18514ad7af53b3a6f5faedc317893b9d6be0e4a4b6a88e28cfcf86e1ee37a2ec"
+    },
+    {
+      "bytes": 27787,
+      "path": "aav_benchmark/neighborhood_coverage.py",
+      "sha256": "11b1e6e40f6000477f7346692e0d1fcbc1814741db07417db231383a54013fd2"
+    },
+    {
+      "bytes": 30840,
+      "path": "aav_benchmark/paired_common_pose_report.py",
+      "sha256": "31d08b280b9827276680e6a21afd1ec911f4d27f67fdff72e89be8999715bd5e"
+    },
+    {
+      "bytes": 25722,
+      "path": "aav_benchmark/paired_common_pose_rescoring.py",
+      "sha256": "3dabfa786f62e90c3c5e3062a65797f7a18c9497b69a610c2c6143c52a5d8269"
+    },
+    {
+      "bytes": 47057,
+      "path": "aav_benchmark/paired_method_report.py",
+      "sha256": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe"
+    },
+    {
+      "bytes": 24969,
+      "path": "aav_benchmark/prospective_vina_carb.py",
+      "sha256": "760fbe874a55c661c3cf4858ffd1c73d6aa84961cb69c28b678c7b5568d6bc75"
+    },
+    {
+      "bytes": 4011,
+      "path": "aav_benchmark/provenance.py",
+      "sha256": "1b5a5b932989c13cf1d14323440b3496f8c39c74f91f251688b7543fd515680f"
+    },
+    {
+      "bytes": 12968,
+      "path": "aav_benchmark/public_source_replay.py",
+      "sha256": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943"
+    },
+    {
+      "bytes": 47480,
+      "path": "aav_benchmark/qualified_pose.py",
+      "sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525"
+    },
+    {
+      "bytes": 12830,
+      "path": "aav_benchmark/site_geometry.py",
+      "sha256": "0b76f95db2e383604c43a1963829b928f9a030943647cae49f00d221d384d481"
+    },
+    {
+      "bytes": 25956,
+      "path": "aav_benchmark/statistics.py",
+      "sha256": "f8bb4e93865c14947c499493f9c8ebd4a55cb82c93d502317c3984e75202e64e"
+    },
+    {
+      "bytes": 10414,
+      "path": "benchmarks/global_pose_report_gate.json",
+      "sha256": "ab0f9613b80f90d82725bd37d4e3d766285081848cce175437fd7e7c405746ee"
+    },
+    {
+      "bytes": 4128,
+      "path": "benchmarks/haddock_pose_evaluation.json",
+      "sha256": "ac851e21bf513055ea3bfd444c679cf2d66c7f28bbb1791e368ded551c878924"
+    },
+    {
+      "bytes": 163459,
+      "path": "benchmarks/method_protocol_public_distribution.json",
+      "sha256": "bed3115a6ab2685aa3c9cd790ff5080e931ee813c37c720188b4e44901570beb"
+    },
+    {
+      "bytes": 9689,
+      "path": "benchmarks/structural_assembly_pose_evaluation.json",
+      "sha256": "a96bc6ab1d0425ce6e6b55a76736ecd35746b78e7d71facd464995b4ad72ffbf"
+    },
+    {
+      "bytes": 5684,
+      "path": "benchmarks/structural_assembly_pose_v3_experiment.json",
+      "sha256": "f249e3e542fa5bb4fb4e8ab00d9f7752cb2b8959bf0303409cd783291da22062"
+    },
+    {
+      "bytes": 2986,
+      "path": "benchmarks/structural_contrast_evaluation.json",
+      "sha256": "7862b8230cf19961b0e50e021075dbd3070ffcddfdf798fd13bf07595c9fc329"
+    },
+    {
+      "bytes": 4834,
+      "path": "benchmarks/structural_paired_common_pose_evaluation.json",
+      "sha256": "6196409753091dedaad360c039de451c1240c061dc65ac37c70cac67c99ad36e"
+    },
+    {
+      "bytes": 2828,
+      "path": "benchmarks/structural_paired_method_evaluation_v2.json",
+      "sha256": "4922b83f6e28b221900bac1ee0b52fd6e8056f97e245c277bbd71ca28f4e807e"
+    },
+    {
+      "bytes": 5479,
+      "path": "benchmarks/structural_pose_v3_common_pool.json",
+      "sha256": "11d658e719292e72c8dbb7531cf361411b0134162d8363bfce4605fd9b28fd0e"
+    },
+    {
+      "bytes": 31284,
+      "path": "benchmarks/structural_pose_v3_experiment.json",
+      "sha256": "9d0d52456f2beab72cb007f5023663711aefa5eb55859ea845e4739190ceea2d"
+    },
+    {
+      "bytes": 9244,
+      "path": "benchmarks/structural_test_vina_carb.json",
+      "sha256": "8b9b75de3fc0df376f867e2319d75b30b3f1f2b66a270f1a1af3e80c44454936"
+    },
+    {
+      "bytes": 2265,
+      "path": "results/additional_method_reproduction/build/fixed_pose_score.cpp",
+      "sha256": "6d1d95a78af6f6adb306268b1fe846b1ec5ffeb879c1b7143e1c9bd8b300da08"
+    },
+    {
+      "bytes": 107008,
+      "path": "results/haddock_prospective_preparation/artifact_manifest.json",
+      "sha256": "4c84ea371ce45621987b1d3c9bb1c4c73708915128b85eb8db8ef7ca8e02d4f9"
+    },
+    {
+      "bytes": 11069,
+      "path": "results/haddock_prospective_preparation/preparation_receipt.json",
+      "sha256": "9acaf59029d153b66764bacb8ba485ad26b7c27cc097b57237e1e2d8f62756cf"
+    },
+    {
+      "bytes": 6659787,
+      "path": "results/haddock_prospective_preparation/topology_artifacts.tar.gz",
+      "sha256": "9ec8eb2c63810096b48bddb8b71d08d6b884faf14472a2ef5d1c8aaf253295c8"
+    },
+    {
+      "bytes": 48772,
+      "path": "results/method_protocol_source_distribution/haddock_recovered_first_job_manifest.json",
+      "sha256": "45788837ffbba52d56e177789267e707bbefce64c7f6c1f57d59a547d5b4572f"
+    },
+    {
+      "bytes": 161134,
+      "path": "results/prepared_input_foundation/prepared_inputs_manifest.json",
+      "sha256": "359ac7ac03395d7fc1fb9e666450882bf611ace3f12cafad9a95b2a5ee27d311"
+    },
+    {
+      "bytes": 1762,
+      "path": "results/structural_pose_v3/global_report_release/replay_comparison_freeze.json",
+      "sha256": "d31a9018e3b2514d41da4e71959941b4bf7767b14547ff80721b7f173ae29941"
+    }
+  ],
+  "source_protocol_commit": "f68775d62551fb76dbd45c98210520b8c752c195",
+  "source_roots": {
+    "assembly": "results/structural_assembly_pose_v3",
+    "haddock": "results/haddock_paired_cohort",
+    "main": "results/structural_pose_v3"
+  }
+}

@@ -1,0 +1,4020 @@
+{
+  "schema_version": 1,
+  "curation_date": "2026-10-30",
+  "status": "frozen_site_only_development_reference_decisions_before_new_pocket_outcome_review",
+  "decision_communication": "Eligibility and case-specific cautions sent to coordinating agent before this auditor received or inspected new pocket outcomes; no new prediction outcomes were used.",
+  "source_cohort": "AAV9 plus all seven cases already frozen in benchmarks/external_cohort.json; no post-outcome case selection.",
+  "eligibility_policy": {
+    "required_criteria": [
+      "A primary structural publication explicitly assigns a noncovalent glycan-recognition surface or anchor.",
+      "Deposited modeled ligand coordinates correspond to the pinned reference representation; target residue/chain identity is explicit.",
+      "Deposited validation diagnostics are inspected per selected ligand copy and their gaps/outliers retained.",
+      "Receptor representation, omitted constructs/subunits and assembly discrepancies are explicit. Prediction input uses the entire released bound receptor or complete deposited capsid without ligand-derived crops.",
+      "The accepted claim is approximate recovery of that published modeled site; no unseen map certification, atomic pose quality, biological specificity or independent-family generalization."
+    ],
+    "universal_resolution_or_RSCC_cutoff": null,
+    "quality_decisions_use_prediction_outcomes": false,
+    "native_information_allowed_for_prediction_preparation": false,
+    "local_density_review_performed": false,
+    "unknown_atomic_quality_is_not_pass": true,
+    "site_only_does_not_promote_atomic_or_specificity_eligibility": true,
+    "confirmatory_test_cohort": false,
+    "family_assignment_status": "Descriptive source-family labels; sequence, fold, training-set and homolog independence not audited. SP-D and codakine are both C-type lectins.",
+    "primary_site_target": "Published modeled ligand footprint for an operational site-location comparison; incomplete ligand references measure only modeled footprint.",
+    "endpoint_provenance": "PROTOCOL.md center-to-nearest-native-heavy-atom Top-1/Top-5 at 4 A, with 3/5 A sensitivity and residue coverage; no new threshold chosen from outcomes.",
+    "interpretation_limits": [
+      "A site-only accepted case may have an uncertain exact atom placement.",
+      "Residue-overlap targets are model-derived geometric diagnostics, not independently certified atom contacts.",
+      "Full released receptor does not mean complete biological assembly or full-length protein.",
+      "Holo protein conformation can expose a site and this remains a holo site-localization experiment.",
+      "All cases remain development references; no independent confirmatory or fold-split claims."
+    ]
+  },
+  "source_record": "benchmarks/sources/site_reference_sources.json",
+  "cases": [
+    {
+      "case_id": "aav9",
+      "pdb_id": "7MTZ",
+      "reference_ledger_case_id": "AAV9_7MTZ_7MT0",
+      "role": "development_site_only_diagnostic",
+      "source_family_label": "AAV_capsid",
+      "source_family_description": "AAV9 parvovirus capsid; 60 symmetry-related glycan sites form one site class and one system-level observation.",
+      "eligible_site_only": true,
+      "site_quality_stratum": "published_site_weak_atomic_anchor",
+      "atomic_pose_eligible": false,
+      "confirmatory_site": false,
+      "specificity_eligible": false,
+      "eligibility_reason": "Penzes et al. Results/Fig. 4 localize ligand-dependent density at the previously mapped galactose-recognition pocket near the threefold spike wall, corroborating an approximate site. Sixty deposited GAL positions represent one symmetry-equivalent site class.",
+      "atomic_and_context_cautions": "The paper calls glycan density poorly defined and models ring-shaped beta-galactose; Methods report dosing N-acetylgalactosamine whereas the deposited component is GAL. The article associates 7MTZ with 2.7 A while current deposition reports 2.43 A. No deposited local ligand fit metrics in the archived validation, and all 60 GAL copies carry a torsion flag. This is not an independently certified atomic pose.",
+      "primary_source_id": "7MTZ_primary_structure",
+      "nominal_resolution_A": 2.43,
+      "paper_reported_7MTZ_resolution_A": 2.7,
+      "coordinate_source": {
+        "url": "https://files.rcsb.org/download/7MTZ.cif",
+        "archive": "data/archive/7MTZ.cif.gz",
+        "uncompressed_sha256": "680d2c5f39ed6f4899718f55f5f0891e4cd7fbfd1fce8e9f555f45b7de64d582",
+        "revision_date": "2025-06-04"
+      },
+      "validation_review": {
+        "source_record": "benchmarks/sources/reference_validation.json#7MTZ",
+        "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/mt/7mtz/7mtz_validation.xml.gz",
+        "compressed_sha256": "51276c0bdeecc0954e451bb42e84f560b7075f0aa4e013bf3b0ddb037f2adba3",
+        "source_revision_date": "2025-06-04",
+        "report_creation_date": "Mar 20, 2026 -- 02:42 AM UTC",
+        "ligand_residue_count": 60,
+        "local_ligand_fit_metrics_available": false,
+        "selected_ligand_geometry_flag_counts": {
+          "mog-torsion-outlier": 60
+        },
+        "local_density_independently_viewed": false
+      },
+      "receptor_scope": {
+        "prediction_representation": "Ligand-stripped complete deposited 60-subunit capsid, materialized once; no reference-neighborhood crop.",
+        "selected_deposited_assembly_id": "1",
+        "deposited_protein_chain_count": 60,
+        "assembly_operator": "Identity 1 over already expanded deposited 60-mer; do not expand twice.",
+        "complete_deposited_capsid_claim": true,
+        "complete_biological_assembly_claim": false,
+        "known_missing_biological_context": "Ordered modeled capsid region only; disordered VP N-terminal regions and full cell-surface glycoconjugate are not represented."
+      },
+      "evaluation_only": {
+        "permitted_use": "Evaluate only after ligand-free inputs and candidate ranks are frozen; no ligand sites or mutagenesis residues may define prediction sectors or crops.",
+        "native_ligand_atom_rule": "All 12 modeled GAL heavy atoms at each of 60 equivalent sites.",
+        "contact_rule": "Protein heavy atoms strictly less than 4.0 A from native GAL heavy atoms; geometric contact labels need not equal the paper biochemical direct-contact prose.",
+        "site_class_count": 1,
+        "symmetry_copy_count": 60,
+        "site_copies": [
+          {
+            "deposited_ligand_author_chain": "A",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "IB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "A",
+                "author_resnum": "503",
+                "label_chain": "A",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0569
+              },
+              {
+                "author_chain": "I",
+                "author_resnum": "470",
+                "label_chain": "I",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.139
+              },
+              {
+                "author_chain": "I",
+                "author_resnum": "473",
+                "label_chain": "I",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8538
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "B",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "JB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "B",
+                "author_resnum": "503",
+                "label_chain": "B",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0559
+              },
+              {
+                "author_chain": "L",
+                "author_resnum": "470",
+                "label_chain": "L",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1431
+              },
+              {
+                "author_chain": "L",
+                "author_resnum": "473",
+                "label_chain": "L",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8668
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "C",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "KB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "C",
+                "author_resnum": "503",
+                "label_chain": "C",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0578
+              },
+              {
+                "author_chain": "M",
+                "author_resnum": "470",
+                "label_chain": "M",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1416
+              },
+              {
+                "author_chain": "M",
+                "author_resnum": "473",
+                "label_chain": "M",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8583
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "D",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "LB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "D",
+                "author_resnum": "503",
+                "label_chain": "D",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              },
+              {
+                "author_chain": "P",
+                "author_resnum": "470",
+                "label_chain": "P",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1443
+              },
+              {
+                "author_chain": "P",
+                "author_resnum": "473",
+                "label_chain": "P",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8636
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "E",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "MB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "E",
+                "author_resnum": "503",
+                "label_chain": "E",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0574
+              },
+              {
+                "author_chain": "F",
+                "author_resnum": "470",
+                "label_chain": "F",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.145
+              },
+              {
+                "author_chain": "F",
+                "author_resnum": "473",
+                "label_chain": "F",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8643
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "F",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "NB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "F",
+                "author_resnum": "503",
+                "label_chain": "F",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              },
+              {
+                "author_chain": "Q",
+                "author_resnum": "470",
+                "label_chain": "Q",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1372
+              },
+              {
+                "author_chain": "Q",
+                "author_resnum": "473",
+                "label_chain": "Q",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8572
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "G",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "OB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "A",
+                "author_resnum": "470",
+                "label_chain": "A",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1501
+              },
+              {
+                "author_chain": "A",
+                "author_resnum": "473",
+                "label_chain": "A",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8703
+              },
+              {
+                "author_chain": "G",
+                "author_resnum": "503",
+                "label_chain": "G",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0574
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "H",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "PB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "H",
+                "author_resnum": "503",
+                "label_chain": "H",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0566
+              },
+              {
+                "author_chain": "Y",
+                "author_resnum": "470",
+                "label_chain": "Y",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1452
+              },
+              {
+                "author_chain": "Y",
+                "author_resnum": "473",
+                "label_chain": "Y",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8652
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "I",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "QB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "G",
+                "author_resnum": "470",
+                "label_chain": "G",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1396
+              },
+              {
+                "author_chain": "G",
+                "author_resnum": "473",
+                "label_chain": "G",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8638
+              },
+              {
+                "author_chain": "I",
+                "author_resnum": "503",
+                "label_chain": "I",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "J",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "RB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "B",
+                "author_resnum": "470",
+                "label_chain": "B",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1424
+              },
+              {
+                "author_chain": "B",
+                "author_resnum": "473",
+                "label_chain": "B",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.866
+              },
+              {
+                "author_chain": "J",
+                "author_resnum": "503",
+                "label_chain": "J",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "K",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "SB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "8",
+                "author_resnum": "470",
+                "label_chain": "HB",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1449
+              },
+              {
+                "author_chain": "8",
+                "author_resnum": "473",
+                "label_chain": "HB",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8627
+              },
+              {
+                "author_chain": "K",
+                "author_resnum": "503",
+                "label_chain": "K",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0572
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "L",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "TB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "J",
+                "author_resnum": "470",
+                "label_chain": "J",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1425
+              },
+              {
+                "author_chain": "J",
+                "author_resnum": "473",
+                "label_chain": "J",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8652
+              },
+              {
+                "author_chain": "L",
+                "author_resnum": "503",
+                "label_chain": "L",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "M",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "UB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "2",
+                "author_resnum": "470",
+                "label_chain": "BA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1317
+              },
+              {
+                "author_chain": "2",
+                "author_resnum": "473",
+                "label_chain": "BA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8597
+              },
+              {
+                "author_chain": "M",
+                "author_resnum": "503",
+                "label_chain": "M",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "N",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "VB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "D",
+                "author_resnum": "470",
+                "label_chain": "D",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1454
+              },
+              {
+                "author_chain": "D",
+                "author_resnum": "473",
+                "label_chain": "D",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8637
+              },
+              {
+                "author_chain": "N",
+                "author_resnum": "503",
+                "label_chain": "N",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0566
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "O",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "WB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "O",
+                "author_resnum": "503",
+                "label_chain": "O",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0561
+              },
+              {
+                "author_chain": "h",
+                "author_resnum": "470",
+                "label_chain": "NA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1445
+              },
+              {
+                "author_chain": "h",
+                "author_resnum": "473",
+                "label_chain": "NA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8637
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "P",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "XB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "N",
+                "author_resnum": "470",
+                "label_chain": "N",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1461
+              },
+              {
+                "author_chain": "N",
+                "author_resnum": "473",
+                "label_chain": "N",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8655
+              },
+              {
+                "author_chain": "P",
+                "author_resnum": "503",
+                "label_chain": "P",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0566
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "Q",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "YB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "E",
+                "author_resnum": "470",
+                "label_chain": "E",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1396
+              },
+              {
+                "author_chain": "E",
+                "author_resnum": "473",
+                "label_chain": "E",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8638
+              },
+              {
+                "author_chain": "Q",
+                "author_resnum": "503",
+                "label_chain": "Q",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "R",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "ZB",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "R",
+                "author_resnum": "503",
+                "label_chain": "R",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0559
+              },
+              {
+                "author_chain": "U",
+                "author_resnum": "470",
+                "label_chain": "U",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1431
+              },
+              {
+                "author_chain": "U",
+                "author_resnum": "473",
+                "label_chain": "U",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8668
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "S",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "AC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "R",
+                "author_resnum": "470",
+                "label_chain": "R",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1424
+              },
+              {
+                "author_chain": "R",
+                "author_resnum": "473",
+                "label_chain": "R",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.866
+              },
+              {
+                "author_chain": "S",
+                "author_resnum": "503",
+                "label_chain": "S",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "T",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "BC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "T",
+                "author_resnum": "503",
+                "label_chain": "T",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0572
+              },
+              {
+                "author_chain": "f",
+                "author_resnum": "470",
+                "label_chain": "LA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1449
+              },
+              {
+                "author_chain": "f",
+                "author_resnum": "473",
+                "label_chain": "LA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8627
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "U",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "CC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "S",
+                "author_resnum": "470",
+                "label_chain": "S",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1425
+              },
+              {
+                "author_chain": "S",
+                "author_resnum": "473",
+                "label_chain": "S",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8652
+              },
+              {
+                "author_chain": "U",
+                "author_resnum": "503",
+                "label_chain": "U",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "V",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "DC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "V",
+                "author_resnum": "503",
+                "label_chain": "V",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0578
+              },
+              {
+                "author_chain": "X",
+                "author_resnum": "470",
+                "label_chain": "X",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1416
+              },
+              {
+                "author_chain": "X",
+                "author_resnum": "473",
+                "label_chain": "X",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8583
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "W",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "EC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "H",
+                "author_resnum": "470",
+                "label_chain": "H",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1443
+              },
+              {
+                "author_chain": "H",
+                "author_resnum": "473",
+                "label_chain": "H",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8636
+              },
+              {
+                "author_chain": "W",
+                "author_resnum": "503",
+                "label_chain": "W",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "X",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "FC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "5",
+                "author_resnum": "470",
+                "label_chain": "EA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1317
+              },
+              {
+                "author_chain": "5",
+                "author_resnum": "473",
+                "label_chain": "EA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8599
+              },
+              {
+                "author_chain": "X",
+                "author_resnum": "503",
+                "label_chain": "X",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "Y",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "GC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "W",
+                "author_resnum": "470",
+                "label_chain": "W",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1454
+              },
+              {
+                "author_chain": "W",
+                "author_resnum": "473",
+                "label_chain": "W",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8637
+              },
+              {
+                "author_chain": "Y",
+                "author_resnum": "503",
+                "label_chain": "Y",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0566
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "Z",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "HC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "Z",
+                "author_resnum": "503",
+                "label_chain": "Z",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0561
+              },
+              {
+                "author_chain": "w",
+                "author_resnum": "470",
+                "label_chain": "CB",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1445
+              },
+              {
+                "author_chain": "w",
+                "author_resnum": "473",
+                "label_chain": "CB",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8627
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "1",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "IC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "1",
+                "author_resnum": "503",
+                "label_chain": "AA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0569
+              },
+              {
+                "author_chain": "K",
+                "author_resnum": "470",
+                "label_chain": "K",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1461
+              },
+              {
+                "author_chain": "K",
+                "author_resnum": "473",
+                "label_chain": "K",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.865
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "2",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "JC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "2",
+                "author_resnum": "503",
+                "label_chain": "BA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0568
+              },
+              {
+                "author_chain": "C",
+                "author_resnum": "470",
+                "label_chain": "C",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.142
+              },
+              {
+                "author_chain": "C",
+                "author_resnum": "473",
+                "label_chain": "C",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8679
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "3",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "KC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "3",
+                "author_resnum": "503",
+                "label_chain": "CA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0568
+              },
+              {
+                "author_chain": "j",
+                "author_resnum": "470",
+                "label_chain": "PA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.142
+              },
+              {
+                "author_chain": "j",
+                "author_resnum": "473",
+                "label_chain": "PA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8679
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "4",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "LC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "4",
+                "author_resnum": "503",
+                "label_chain": "DA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0569
+              },
+              {
+                "author_chain": "T",
+                "author_resnum": "470",
+                "label_chain": "T",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1461
+              },
+              {
+                "author_chain": "T",
+                "author_resnum": "473",
+                "label_chain": "T",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.865
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "5",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "MC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "5",
+                "author_resnum": "503",
+                "label_chain": "EA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0568
+              },
+              {
+                "author_chain": "V",
+                "author_resnum": "470",
+                "label_chain": "V",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.142
+              },
+              {
+                "author_chain": "V",
+                "author_resnum": "473",
+                "label_chain": "V",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8679
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "6",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "NC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "6",
+                "author_resnum": "503",
+                "label_chain": "FA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0568
+              },
+              {
+                "author_chain": "a",
+                "author_resnum": "470",
+                "label_chain": "GA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1336
+              },
+              {
+                "author_chain": "a",
+                "author_resnum": "473",
+                "label_chain": "GA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8665
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "a",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "OC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "a",
+                "author_resnum": "503",
+                "label_chain": "GA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0564
+              },
+              {
+                "author_chain": "b",
+                "author_resnum": "470",
+                "label_chain": "HA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1324
+              },
+              {
+                "author_chain": "b",
+                "author_resnum": "473",
+                "label_chain": "HA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8605
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "b",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "PC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "6",
+                "author_resnum": "470",
+                "label_chain": "FA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1323
+              },
+              {
+                "author_chain": "6",
+                "author_resnum": "473",
+                "label_chain": "FA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8597
+              },
+              {
+                "author_chain": "b",
+                "author_resnum": "503",
+                "label_chain": "HA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "c",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "QC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "c",
+                "author_resnum": "503",
+                "label_chain": "IA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0566
+              },
+              {
+                "author_chain": "e",
+                "author_resnum": "470",
+                "label_chain": "KA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1454
+              },
+              {
+                "author_chain": "e",
+                "author_resnum": "473",
+                "label_chain": "KA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8637
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "d",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "RC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "c",
+                "author_resnum": "470",
+                "label_chain": "IA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1461
+              },
+              {
+                "author_chain": "c",
+                "author_resnum": "473",
+                "label_chain": "IA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8663
+              },
+              {
+                "author_chain": "d",
+                "author_resnum": "503",
+                "label_chain": "JA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "e",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "SC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "d",
+                "author_resnum": "470",
+                "label_chain": "JA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1443
+              },
+              {
+                "author_chain": "d",
+                "author_resnum": "473",
+                "label_chain": "JA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8636
+              },
+              {
+                "author_chain": "e",
+                "author_resnum": "503",
+                "label_chain": "KA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0574
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "f",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "TC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "4",
+                "author_resnum": "470",
+                "label_chain": "DA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1445
+              },
+              {
+                "author_chain": "4",
+                "author_resnum": "473",
+                "label_chain": "DA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8637
+              },
+              {
+                "author_chain": "f",
+                "author_resnum": "503",
+                "label_chain": "LA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0561
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "g",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "UC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "O",
+                "author_resnum": "470",
+                "label_chain": "O",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1449
+              },
+              {
+                "author_chain": "O",
+                "author_resnum": "473",
+                "label_chain": "O",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8627
+              },
+              {
+                "author_chain": "g",
+                "author_resnum": "503",
+                "label_chain": "MA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0572
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "h",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "VC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "g",
+                "author_resnum": "470",
+                "label_chain": "MA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1461
+              },
+              {
+                "author_chain": "g",
+                "author_resnum": "473",
+                "label_chain": "MA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.865
+              },
+              {
+                "author_chain": "h",
+                "author_resnum": "503",
+                "label_chain": "NA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0569
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "i",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "WC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "3",
+                "author_resnum": "470",
+                "label_chain": "CA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1317
+              },
+              {
+                "author_chain": "3",
+                "author_resnum": "473",
+                "label_chain": "CA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8599
+              },
+              {
+                "author_chain": "i",
+                "author_resnum": "503",
+                "label_chain": "OA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "j",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "XC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "i",
+                "author_resnum": "470",
+                "label_chain": "OA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1416
+              },
+              {
+                "author_chain": "i",
+                "author_resnum": "473",
+                "label_chain": "OA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8583
+              },
+              {
+                "author_chain": "j",
+                "author_resnum": "503",
+                "label_chain": "PA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0578
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "k",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "YC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "k",
+                "author_resnum": "503",
+                "label_chain": "QA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              },
+              {
+                "author_chain": "m",
+                "author_resnum": "470",
+                "label_chain": "SA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1431
+              },
+              {
+                "author_chain": "m",
+                "author_resnum": "473",
+                "label_chain": "SA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8668
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "l",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "ZC",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "k",
+                "author_resnum": "470",
+                "label_chain": "QA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1434
+              },
+              {
+                "author_chain": "k",
+                "author_resnum": "473",
+                "label_chain": "QA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8655
+              },
+              {
+                "author_chain": "l",
+                "author_resnum": "503",
+                "label_chain": "RA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0573
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "m",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "AD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "l",
+                "author_resnum": "470",
+                "label_chain": "RA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1425
+              },
+              {
+                "author_chain": "l",
+                "author_resnum": "473",
+                "label_chain": "RA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8661
+              },
+              {
+                "author_chain": "m",
+                "author_resnum": "503",
+                "label_chain": "SA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "n",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "BD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "n",
+                "author_resnum": "503",
+                "label_chain": "TA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0574
+              },
+              {
+                "author_chain": "p",
+                "author_resnum": "470",
+                "label_chain": "VA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.145
+              },
+              {
+                "author_chain": "p",
+                "author_resnum": "473",
+                "label_chain": "VA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8643
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "o",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "CD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "n",
+                "author_resnum": "470",
+                "label_chain": "TA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1396
+              },
+              {
+                "author_chain": "n",
+                "author_resnum": "473",
+                "label_chain": "TA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8638
+              },
+              {
+                "author_chain": "o",
+                "author_resnum": "503",
+                "label_chain": "UA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "p",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "DD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "o",
+                "author_resnum": "470",
+                "label_chain": "UA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1372
+              },
+              {
+                "author_chain": "o",
+                "author_resnum": "473",
+                "label_chain": "UA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8572
+              },
+              {
+                "author_chain": "p",
+                "author_resnum": "503",
+                "label_chain": "VA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "q",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "ED",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "q",
+                "author_resnum": "503",
+                "label_chain": "WA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              },
+              {
+                "author_chain": "s",
+                "author_resnum": "470",
+                "label_chain": "YA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.145
+              },
+              {
+                "author_chain": "s",
+                "author_resnum": "473",
+                "label_chain": "YA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8653
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "r",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "FD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "q",
+                "author_resnum": "470",
+                "label_chain": "WA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1423
+              },
+              {
+                "author_chain": "q",
+                "author_resnum": "473",
+                "label_chain": "WA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8621
+              },
+              {
+                "author_chain": "r",
+                "author_resnum": "503",
+                "label_chain": "XA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0572
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "s",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "GD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "r",
+                "author_resnum": "470",
+                "label_chain": "XA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1429
+              },
+              {
+                "author_chain": "r",
+                "author_resnum": "473",
+                "label_chain": "XA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8649
+              },
+              {
+                "author_chain": "s",
+                "author_resnum": "503",
+                "label_chain": "YA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0561
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "t",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "HD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "t",
+                "author_resnum": "503",
+                "label_chain": "ZA",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              },
+              {
+                "author_chain": "v",
+                "author_resnum": "470",
+                "label_chain": "BB",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1425
+              },
+              {
+                "author_chain": "v",
+                "author_resnum": "473",
+                "label_chain": "BB",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8652
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "u",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "ID",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "t",
+                "author_resnum": "470",
+                "label_chain": "ZA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1431
+              },
+              {
+                "author_chain": "t",
+                "author_resnum": "473",
+                "label_chain": "ZA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8668
+              },
+              {
+                "author_chain": "u",
+                "author_resnum": "503",
+                "label_chain": "AB",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "v",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "JD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "u",
+                "author_resnum": "470",
+                "label_chain": "AB",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1434
+              },
+              {
+                "author_chain": "u",
+                "author_resnum": "473",
+                "label_chain": "AB",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8662
+              },
+              {
+                "author_chain": "v",
+                "author_resnum": "503",
+                "label_chain": "BB",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0567
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "w",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "KD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "w",
+                "author_resnum": "503",
+                "label_chain": "CB",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0569
+              },
+              {
+                "author_chain": "x",
+                "author_resnum": "470",
+                "label_chain": "DB",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1449
+              },
+              {
+                "author_chain": "x",
+                "author_resnum": "473",
+                "label_chain": "DB",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8657
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "x",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "LD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "Z",
+                "author_resnum": "470",
+                "label_chain": "Z",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1449
+              },
+              {
+                "author_chain": "Z",
+                "author_resnum": "473",
+                "label_chain": "Z",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8627
+              },
+              {
+                "author_chain": "x",
+                "author_resnum": "503",
+                "label_chain": "DB",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0564
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "y",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "MD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "7",
+                "author_resnum": "470",
+                "label_chain": "GB",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1461
+              },
+              {
+                "author_chain": "7",
+                "author_resnum": "473",
+                "label_chain": "GB",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8655
+              },
+              {
+                "author_chain": "y",
+                "author_resnum": "503",
+                "label_chain": "EB",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0566
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "z",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "ND",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "y",
+                "author_resnum": "470",
+                "label_chain": "EB",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1443
+              },
+              {
+                "author_chain": "y",
+                "author_resnum": "473",
+                "label_chain": "EB",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8636
+              },
+              {
+                "author_chain": "z",
+                "author_resnum": "503",
+                "label_chain": "FB",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.057
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "7",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "OD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "7",
+                "author_resnum": "503",
+                "label_chain": "GB",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0566
+              },
+              {
+                "author_chain": "z",
+                "author_resnum": "470",
+                "label_chain": "FB",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1454
+              },
+              {
+                "author_chain": "z",
+                "author_resnum": "473",
+                "label_chain": "FB",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8637
+              }
+            ]
+          },
+          {
+            "deposited_ligand_author_chain": "8",
+            "deposited_ligand_author_resnum": "801",
+            "deposited_ligand_label_chain": "PD",
+            "resname": "GAL",
+            "native_heavy_atom_count": 12,
+            "native_contact_residues_4A": [
+              {
+                "author_chain": "1",
+                "author_resnum": "470",
+                "label_chain": "AA",
+                "label_resnum": "252",
+                "resname": "ASN",
+                "min_heavy_atom_distance_A": 3.1445
+              },
+              {
+                "author_chain": "1",
+                "author_resnum": "473",
+                "label_chain": "AA",
+                "label_resnum": "255",
+                "resname": "VAL",
+                "min_heavy_atom_distance_A": 3.8637
+              },
+              {
+                "author_chain": "8",
+                "author_resnum": "503",
+                "label_chain": "HB",
+                "label_resnum": "285",
+                "resname": "TRP",
+                "min_heavy_atom_distance_A": 3.0561
+              }
+            ]
+          }
+        ],
+        "paper_pocket_residues_author_numbering": [
+          "ASP271",
+          "ASN272",
+          "TYR446",
+          "ASN470",
+          "TRP503"
+        ],
+        "paper_reported_direct_glycan_contact": "TRP503",
+        "representative_geometric_contact_description": "GAL author A801 (label IB) contacts TRP503 on author A and ASN470/VAL473 on neighboring author I under the geometric 4 A rule."
+      }
+    },
+    {
+      "case_id": "154L",
+      "pdb_id": "154L",
+      "role": "development_site_only_reference",
+      "source_family_label": "goose_type_lysozyme",
+      "source_family_description": "Goose-type lysozyme; a catalytic carbohydrate cleft, not a lectin-family fold split.",
+      "eligible_site_only": true,
+      "site_quality_stratum": "published_site_weak_atomic_anchor",
+      "atomic_pose_eligible": false,
+      "confirmatory_site": false,
+      "specificity_eligible": false,
+      "eligibility_reason": "Weaver et al. explicitly locate the noncovalent chitotriose in the catalytic B/C/D subsites. Exact deposited/released coordinate correspondence gives a published-site target despite weak ligand validation. This supports approximate site localization only.",
+      "atomic_and_context_cautions": "Published assignment corroborates the cleft, but RSCC 0.602-0.794 and the EDS/depositor R discrepancy do not independently validate any exact glycan pose. No density inspected.",
+      "primary_source_id": "154L_primary_structure",
+      "nominal_resolution_A": 1.6,
+      "coordinate_source": {
+        "url": "https://files.rcsb.org/download/154L.cif",
+        "sha256": "a883c45350c4fdd0812123e47d9ea77b3e4fdbb1aaa80b2f0192f6e0658e62ca",
+        "revision_date": "2024-11-20T00:00:00.000+00:00"
+      },
+      "validation_review": {
+        "source_record": "benchmarks/sources/reference_validation.json#154L",
+        "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/54/154l/154l_validation.xml.gz",
+        "compressed_sha256": "37d32af40b475637745d4193eaf7127ed6c6d72000007997d8e2e136a8c51914",
+        "source_revision_date": "2024-11-20",
+        "report_creation_date": "Mar 14, 2026 -- 02:31 PM UTC",
+        "selected_ligand_residue_count": 3,
+        "selected_ligand_residue_metrics": {
+          "rscc_range": [
+            0.602,
+            0.794
+          ],
+          "rsr_range": [
+            0.12,
+            0.162
+          ],
+          "avgoccu_range": [
+            1.0,
+            1.0
+          ],
+          "owab_range": [
+            30.87,
+            40.89
+          ]
+        },
+        "selected_ligand_geometry_flag_counts": {
+          "mog-angle-outlier": 12,
+          "mog-torsion-outlier": 4,
+          "mog-bond-outlier": 1
+        },
+        "entry_warnings": {
+          "eds_rfactor_warning": {
+            "present": true,
+            "eds_R": 0.3099,
+            "depositor_R": 0.159
+          }
+        },
+        "local_density_independently_viewed": false,
+        "interpretation": "Deposited report diagnostics reviewed; they support case-specific uncertainty statements, not map certification or a universal numerical pass threshold."
+      },
+      "receptor_scope": {
+        "prediction_representation": "all atoms in pinned released bound receptor, with no ligand-defined crop or site restrictions",
+        "released_receptor_source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/154L/154L_r_b.pdb",
+          "sha256": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b",
+          "bytes": 116154,
+          "filename": "154L_r_b.pdb",
+          "archive": "data/archive/external/154L_r_b.pdb.gz"
+        },
+        "prepared_chains": [
+          "A"
+        ],
+        "deposited_author_chains": [
+          "A"
+        ],
+        "selected_deposited_assembly_id": "1",
+        "deposited_assembly_rows": [
+          [
+            "1",
+            "author_defined_assembly",
+            "?",
+            "monomeric",
+            "1"
+          ]
+        ],
+        "complete_biological_assembly_claim": false,
+        "recognition_calcium_retained_in_released_source": false,
+        "known_missing_biological_context": "No additional protein subunit in deposited monomer assembly 1; complete biological function is not established by coordinates alone."
+      },
+      "evaluation_only": {
+        "permitted_use": "Read only after predicted inputs and candidate ranks are frozen; native atom identities, coordinates, contact residues, papers and validation must not guide pocket prediction or random-surface preparation.",
+        "native_ligand_atom_rule": "All heavy atoms of the modeled released ligand; no reconstructed missing tail and no pose-derived core selection.",
+        "coordinate_correspondence_method": "Exact atom name and coordinates at deposited 0.001 A precision; renamed calcium considered separately.",
+        "ligand_residue_map": [
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 1,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "1",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 2,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "2",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 3,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "3",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          }
+        ],
+        "ligand_atoms": 43,
+        "ligand_exact_deposited_atom_matches": 43,
+        "receptor_atom_count": 1432,
+        "receptor_exact_deposited_atom_matches": 1432,
+        "unmatched_receptor_atoms": [],
+        "contact_rule": "Protein heavy atoms strictly less than 4.0 A from any modeled native ligand heavy atom; calcium is not a protein-residue contact.",
+        "native_contact_residues_4A": [
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 73,
+            "prepared_resname": "GLU",
+            "min_heavy_atom_distance_A": 2.7978,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "73",
+              "label_chain": "A",
+              "label_resnum": "73",
+              "insertion_code": "",
+              "resname": "GLU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 95,
+            "prepared_resname": "GLN",
+            "min_heavy_atom_distance_A": 3.9351,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "95",
+              "label_chain": "A",
+              "label_resnum": "95",
+              "insertion_code": "",
+              "resname": "GLN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 96,
+            "prepared_resname": "VAL",
+            "min_heavy_atom_distance_A": 3.8886,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "96",
+              "label_chain": "A",
+              "label_resnum": "96",
+              "insertion_code": "",
+              "resname": "VAL"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 97,
+            "prepared_resname": "ASP",
+            "min_heavy_atom_distance_A": 2.9972,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "97",
+              "label_chain": "A",
+              "label_resnum": "97",
+              "insertion_code": "",
+              "resname": "ASP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 100,
+            "prepared_resname": "SER",
+            "min_heavy_atom_distance_A": 3.8803,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "100",
+              "label_chain": "A",
+              "label_resnum": "100",
+              "insertion_code": "",
+              "resname": "SER"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 101,
+            "prepared_resname": "HIS",
+            "min_heavy_atom_distance_A": 2.9338,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "101",
+              "label_chain": "A",
+              "label_resnum": "101",
+              "insertion_code": "",
+              "resname": "HIS"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 119,
+            "prepared_resname": "ILE",
+            "min_heavy_atom_distance_A": 3.8405,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "119",
+              "label_chain": "A",
+              "label_resnum": "119",
+              "insertion_code": "",
+              "resname": "ILE"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 123,
+            "prepared_resname": "PHE",
+            "min_heavy_atom_distance_A": 3.2183,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "123",
+              "label_chain": "A",
+              "label_resnum": "123",
+              "insertion_code": "",
+              "resname": "PHE"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 147,
+            "prepared_resname": "TYR",
+            "min_heavy_atom_distance_A": 2.9545,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "147",
+              "label_chain": "A",
+              "label_resnum": "147",
+              "insertion_code": "",
+              "resname": "TYR"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 148,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 3.3822,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "148",
+              "label_chain": "A",
+              "label_resnum": "148",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 150,
+            "prepared_resname": "GLY",
+            "min_heavy_atom_distance_A": 3.7779,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "150",
+              "label_chain": "A",
+              "label_resnum": "150",
+              "insertion_code": "",
+              "resname": "GLY"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 165,
+            "prepared_resname": "THR",
+            "min_heavy_atom_distance_A": 3.6408,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "165",
+              "label_chain": "A",
+              "label_resnum": "165",
+              "insertion_code": "",
+              "resname": "THR"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "1GNY",
+      "pdb_id": "1GNY",
+      "role": "development_site_only_reference",
+      "source_family_label": "CBM15",
+      "source_family_description": "Noncatalytic family-15 carbohydrate-binding module of Xyn10C; the released domain is not the GH10 catalytic domain or complete multidomain enzyme.",
+      "eligible_site_only": true,
+      "site_quality_stratum": "published_site_local_fit_caveats",
+      "atomic_pose_eligible": false,
+      "confirmatory_site": false,
+      "specificity_eligible": false,
+      "eligibility_reason": "Szabo et al. describe the xylopentaose-bound 20-25 A concave groove and tryptophan stacking. The five deposited sugar residues map exactly to the released reference and local-fit diagnostics support using this groove as a site target.",
+      "atomic_and_context_cautions": "The terminal residues are less supported (RSCC down to 0.808 and one mean occupancy 0.95); bond/angle flags remain. No local-density or stereochemical certification.",
+      "primary_source_id": "1GNY_primary_structure",
+      "nominal_resolution_A": 1.63,
+      "coordinate_source": {
+        "url": "https://files.rcsb.org/download/1GNY.cif",
+        "sha256": "cca70307b2ba7c918e9ed4dc170f17975df86ca931ce7f1dec5014bb81a96329",
+        "revision_date": "2024-11-06T00:00:00.000+00:00"
+      },
+      "validation_review": {
+        "source_record": "benchmarks/sources/reference_validation.json#1GNY",
+        "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/gn/1gny/1gny_validation.xml.gz",
+        "compressed_sha256": "b30bfca9ed464cf318f1e89653388729ac9a85d55bb4d0a4b2b5049ba66a6db5",
+        "source_revision_date": "2024-11-06",
+        "report_creation_date": "Mar  7, 2026 -- 04:08 AM UTC",
+        "selected_ligand_residue_count": 5,
+        "selected_ligand_residue_metrics": {
+          "rscc_range": [
+            0.808,
+            0.971
+          ],
+          "rsr_range": [
+            0.054,
+            0.138
+          ],
+          "avgoccu_range": [
+            0.95,
+            1.0
+          ],
+          "owab_range": [
+            16.07,
+            41.45
+          ]
+        },
+        "selected_ligand_geometry_flag_counts": {
+          "mog-angle-outlier": 8,
+          "mog-bond-outlier": 5
+        },
+        "entry_warnings": {},
+        "local_density_independently_viewed": false,
+        "interpretation": "Deposited report diagnostics reviewed; they support case-specific uncertainty statements, not map certification or a universal numerical pass threshold."
+      },
+      "receptor_scope": {
+        "prediction_representation": "all atoms in pinned released bound receptor, with no ligand-defined crop or site restrictions",
+        "released_receptor_source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_r_b.pdb",
+          "sha256": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf",
+          "bytes": 90963,
+          "filename": "1GNY_r_b.pdb",
+          "archive": "data/archive/external/1GNY_r_b.pdb.gz"
+        },
+        "prepared_chains": [
+          "A"
+        ],
+        "deposited_author_chains": [
+          "A"
+        ],
+        "selected_deposited_assembly_id": "1",
+        "deposited_assembly_rows": [
+          [
+            "1",
+            "author_and_software_defined_assembly",
+            "PQS",
+            "monomeric",
+            "1"
+          ]
+        ],
+        "complete_biological_assembly_claim": false,
+        "recognition_calcium_retained_in_released_source": false,
+        "known_missing_biological_context": "The isolated CBM15 domain omits the catalytic GH10 module/linker."
+      },
+      "evaluation_only": {
+        "permitted_use": "Read only after predicted inputs and candidate ranks are frozen; native atom identities, coordinates, contact residues, papers and validation must not guide pocket prediction or random-surface preparation.",
+        "native_ligand_atom_rule": "All heavy atoms of the modeled released ligand; no reconstructed missing tail and no pose-derived core selection.",
+        "coordinate_correspondence_method": "Exact atom name and coordinates at deposited 0.001 A precision; renamed calcium considered separately.",
+        "ligand_residue_map": [
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 1,
+            "prepared_resname": "XYP",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "1",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "XYP"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 2,
+            "prepared_resname": "XYP",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "2",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "XYP"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 3,
+            "prepared_resname": "XYP",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "3",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "XYP"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 4,
+            "prepared_resname": "XYP",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "4",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "XYP"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 5,
+            "prepared_resname": "XYP",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "5",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "XYP"
+            }
+          }
+        ],
+        "ligand_atoms": 46,
+        "ligand_exact_deposited_atom_matches": 46,
+        "receptor_atom_count": 1121,
+        "receptor_exact_deposited_atom_matches": 1121,
+        "unmatched_receptor_atoms": [],
+        "contact_rule": "Protein heavy atoms strictly less than 4.0 A from any modeled native ligand heavy atom; calcium is not a protein-residue contact.",
+        "native_contact_residues_4A": [
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 16,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 2.6179,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "106",
+              "label_chain": "A",
+              "label_resnum": "16",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 17,
+            "prepared_resname": "ALA",
+            "min_heavy_atom_distance_A": 3.7318,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "107",
+              "label_chain": "A",
+              "label_resnum": "17",
+              "insertion_code": "",
+              "resname": "ALA"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 18,
+            "prepared_resname": "SER",
+            "min_heavy_atom_distance_A": 3.6039,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "108",
+              "label_chain": "A",
+              "label_resnum": "18",
+              "insertion_code": "",
+              "resname": "SER"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 81,
+            "prepared_resname": "GLN",
+            "min_heavy_atom_distance_A": 2.6647,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "171",
+              "label_chain": "A",
+              "label_resnum": "81",
+              "insertion_code": "",
+              "resname": "GLN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 86,
+            "prepared_resname": "TRP",
+            "min_heavy_atom_distance_A": 3.378,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "176",
+              "label_chain": "A",
+              "label_resnum": "86",
+              "insertion_code": "",
+              "resname": "TRP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 87,
+            "prepared_resname": "SER",
+            "min_heavy_atom_distance_A": 3.7372,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "177",
+              "label_chain": "A",
+              "label_resnum": "87",
+              "insertion_code": "",
+              "resname": "SER"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 91,
+            "prepared_resname": "TRP",
+            "min_heavy_atom_distance_A": 3.4552,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "181",
+              "label_chain": "A",
+              "label_resnum": "91",
+              "insertion_code": "",
+              "resname": "TRP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 92,
+            "prepared_resname": "ASP",
+            "min_heavy_atom_distance_A": 3.9171,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "182",
+              "label_chain": "A",
+              "label_resnum": "92",
+              "insertion_code": "",
+              "resname": "ASP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 127,
+            "prepared_resname": "GLN",
+            "min_heavy_atom_distance_A": 3.0471,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "217",
+              "label_chain": "A",
+              "label_resnum": "127",
+              "insertion_code": "",
+              "resname": "GLN"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "1KJL",
+      "pdb_id": "1KJL",
+      "role": "development_site_only_reference",
+      "source_family_label": "galectin",
+      "source_family_description": "Human galectin-3 carbohydrate-recognition domain; the N-terminal region of full-length galectin-3 is absent.",
+      "eligible_site_only": true,
+      "site_quality_stratum": "published_site_weak_atomic_anchor",
+      "atomic_pose_eligible": false,
+      "confirmatory_site": false,
+      "specificity_eligible": false,
+      "eligibility_reason": "Sorme et al. solve the galectin-3 CRD with LacNAc and compare its binding region with a substituted inhibitor. The GAL anchor has RSCC 0.902 and identifies the canonical CRD surface even though the NAG portion and entry-wide fit need caution.",
+      "atomic_and_context_cautions": "NAG RSCC 0.751 with clash/bond flags and EDS/depositor R discrepancy leave the full atomic pose unresolved. One released terminal oxygen differs from deposited coordinates, far from this site. No density inspected.",
+      "primary_source_id": "1KJL_primary_structure",
+      "nominal_resolution_A": 1.4,
+      "coordinate_source": {
+        "url": "https://files.rcsb.org/download/1KJL.cif",
+        "sha256": "df637376e7f2ecbaf6a0f8c1c9d1a4923b3c047b0c32891db2d7dea5c44a5e90",
+        "revision_date": "2023-08-16T00:00:00.000+00:00"
+      },
+      "validation_review": {
+        "source_record": "benchmarks/sources/reference_validation.json#1KJL",
+        "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/kj/1kjl/1kjl_validation.xml.gz",
+        "compressed_sha256": "a5f821e6aafe776047a53264c657d381324dc28fe7034c539e6aa29972c1f720",
+        "source_revision_date": "2023-08-16",
+        "report_creation_date": "Mar  6, 2026 -- 12:46 PM UTC",
+        "selected_ligand_residue_count": 2,
+        "selected_ligand_residue_metrics": {
+          "rscc_range": [
+            0.751,
+            0.902
+          ],
+          "rsr_range": [
+            0.094,
+            0.188
+          ],
+          "avgoccu_range": [
+            1.0,
+            1.0
+          ],
+          "owab_range": [
+            15.79,
+            24.74
+          ]
+        },
+        "selected_ligand_geometry_flag_counts": {
+          "clash": 2,
+          "mog-bond-outlier": 1
+        },
+        "entry_warnings": {
+          "eds_rfactor_warning": {
+            "present": true,
+            "eds_R": 0.3104,
+            "depositor_R": 0.186
+          }
+        },
+        "local_density_independently_viewed": false,
+        "interpretation": "Deposited report diagnostics reviewed; they support case-specific uncertainty statements, not map certification or a universal numerical pass threshold."
+      },
+      "receptor_scope": {
+        "prediction_representation": "all atoms in pinned released bound receptor, with no ligand-defined crop or site restrictions",
+        "released_receptor_source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1KJL/1KJL_r_b.pdb",
+          "sha256": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae",
+          "bytes": 89829,
+          "filename": "1KJL_r_b.pdb",
+          "archive": "data/archive/external/1KJL_r_b.pdb.gz"
+        },
+        "prepared_chains": [
+          "A"
+        ],
+        "deposited_author_chains": [
+          "A"
+        ],
+        "selected_deposited_assembly_id": "1",
+        "deposited_assembly_rows": [
+          [
+            "1",
+            "author_defined_assembly",
+            "?",
+            "monomeric",
+            "1"
+          ]
+        ],
+        "complete_biological_assembly_claim": false,
+        "recognition_calcium_retained_in_released_source": false,
+        "known_missing_biological_context": "The CRD construct omits the N-terminal region of full-length galectin-3."
+      },
+      "evaluation_only": {
+        "permitted_use": "Read only after predicted inputs and candidate ranks are frozen; native atom identities, coordinates, contact residues, papers and validation must not guide pocket prediction or random-surface preparation.",
+        "native_ligand_atom_rule": "All heavy atoms of the modeled released ligand; no reconstructed missing tail and no pose-derived core selection.",
+        "coordinate_correspondence_method": "Exact atom name and coordinates at deposited 0.001 A precision; renamed calcium considered separately.",
+        "ligand_residue_map": [
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 1,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "1",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 2,
+            "prepared_resname": "GAL",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "2",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "GAL"
+            }
+          }
+        ],
+        "ligand_atoms": 26,
+        "ligand_exact_deposited_atom_matches": 26,
+        "receptor_atom_count": 1107,
+        "receptor_exact_deposited_atom_matches": 1106,
+        "unmatched_receptor_atoms": [
+          {
+            "atom_name": "O",
+            "resname": "SER",
+            "chain": "A",
+            "resnum": 132,
+            "xyz": [
+              16.782,
+              0.841,
+              -10.473
+            ],
+            "element": "O"
+          }
+        ],
+        "contact_rule": "Protein heavy atoms strictly less than 4.0 A from any modeled native ligand heavy atom; calcium is not a protein-residue contact.",
+        "native_contact_residues_4A": [
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 46,
+            "prepared_resname": "HIS",
+            "min_heavy_atom_distance_A": 2.8011,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "158",
+              "label_chain": "A",
+              "label_resnum": "54",
+              "insertion_code": "",
+              "resname": "HIS"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 48,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 3.1287,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "160",
+              "label_chain": "A",
+              "label_resnum": "56",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 50,
+            "prepared_resname": "ARG",
+            "min_heavy_atom_distance_A": 2.7703,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "162",
+              "label_chain": "A",
+              "label_resnum": "58",
+              "insertion_code": "",
+              "resname": "ARG"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 62,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 2.7402,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "174",
+              "label_chain": "A",
+              "label_resnum": "70",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 69,
+            "prepared_resname": "TRP",
+            "min_heavy_atom_distance_A": 3.7654,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "181",
+              "label_chain": "A",
+              "label_resnum": "77",
+              "insertion_code": "",
+              "resname": "TRP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 72,
+            "prepared_resname": "GLU",
+            "min_heavy_atom_distance_A": 2.5382,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "184",
+              "label_chain": "A",
+              "label_resnum": "80",
+              "insertion_code": "",
+              "resname": "GLU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 74,
+            "prepared_resname": "ARG",
+            "min_heavy_atom_distance_A": 3.5175,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "186",
+              "label_chain": "A",
+              "label_resnum": "82",
+              "insertion_code": "",
+              "resname": "ARG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "1QFO",
+      "pdb_id": "1QFO",
+      "role": "development_site_only_reference",
+      "source_family_label": "siglec",
+      "source_family_description": "Mouse sialoadhesin N-terminal V-set immunoglobulin-like domain; not the full extracellular receptor.",
+      "eligible_site_only": true,
+      "site_quality_stratum": "published_site_local_fit_caveats",
+      "atomic_pose_eligible": false,
+      "confirmatory_site": false,
+      "specificity_eligible": false,
+      "eligibility_reason": "May et al. identify the functional N-terminal sialic-acid-recognition template in the 3-prime-sialyllactose complex. Exact coordinate mapping selects deposited protein author B and ligand author/label E; all three selected ligand residues have RSCC 0.928-0.934.",
+      "atomic_and_context_cautions": "The selected reducing GLC has a chirality outlier and selected SIA has two angle flags. Site eligibility does not repair or certify that full graph/atomic stereochemistry. Weaker isolated SIA at C201 is not the selected reference.",
+      "primary_source_id": "1QFO_primary_structure",
+      "nominal_resolution_A": 1.85,
+      "coordinate_source": {
+        "url": "https://files.rcsb.org/download/1QFO.cif",
+        "sha256": "ac932455ee2d2de9726af0e52c9c733831b4d3e8f1afc67f52b23e849989ffc1",
+        "revision_date": "2024-10-30T00:00:00.000+00:00"
+      },
+      "validation_review": {
+        "source_record": "benchmarks/sources/reference_validation.json#1QFO",
+        "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/qf/1qfo/1qfo_validation.xml.gz",
+        "compressed_sha256": "cf4a74cd5b18351a55fdcb762ca40939392e1f236265eedf50de351a71b86318",
+        "source_revision_date": "2024-10-30",
+        "report_creation_date": "Mar 14, 2026 -- 07:55 PM UTC",
+        "selected_ligand_residue_count": 3,
+        "selected_ligand_residue_metrics": {
+          "rscc_range": [
+            0.928,
+            0.934
+          ],
+          "rsr_range": [
+            0.071,
+            0.079
+          ],
+          "avgoccu_range": [
+            1.0,
+            1.0
+          ],
+          "owab_range": [
+            24.75,
+            27.79
+          ]
+        },
+        "selected_ligand_geometry_flag_counts": {
+          "chiral-outlier": 1,
+          "mog-angle-outlier": 2
+        },
+        "entry_warnings": {},
+        "local_density_independently_viewed": false,
+        "interpretation": "Deposited report diagnostics reviewed; they support case-specific uncertainty statements, not map certification or a universal numerical pass threshold."
+      },
+      "receptor_scope": {
+        "prediction_representation": "all atoms in pinned released bound receptor, with no ligand-defined crop or site restrictions",
+        "released_receptor_source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1QFO/1QFO_r_b.pdb",
+          "sha256": "c40a29bb1cca0e6c9e77c3f603afa8a5f774fa36acfc7026e38bd3aec758100a",
+          "bytes": 73953,
+          "filename": "1QFO_r_b.pdb",
+          "archive": "data/archive/external/1QFO_r_b.pdb.gz"
+        },
+        "prepared_chains": [
+          "A"
+        ],
+        "deposited_author_chains": [
+          "B"
+        ],
+        "selected_deposited_assembly_id": "2",
+        "deposited_assembly_rows": [
+          [
+            "1",
+            "author_defined_assembly",
+            "?",
+            "monomeric",
+            "1"
+          ],
+          [
+            "2",
+            "author_defined_assembly",
+            "?",
+            "monomeric",
+            "1"
+          ],
+          [
+            "3",
+            "author_defined_assembly",
+            "?",
+            "monomeric",
+            "1"
+          ]
+        ],
+        "complete_biological_assembly_claim": false,
+        "recognition_calcium_retained_in_released_source": false,
+        "known_missing_biological_context": "Only the N-terminal receptor domain, not full-length sialoadhesin."
+      },
+      "evaluation_only": {
+        "permitted_use": "Read only after predicted inputs and candidate ranks are frozen; native atom identities, coordinates, contact residues, papers and validation must not guide pocket prediction or random-surface preparation.",
+        "native_ligand_atom_rule": "All heavy atoms of the modeled released ligand; no reconstructed missing tail and no pose-derived core selection.",
+        "coordinate_correspondence_method": "Exact atom name and coordinates at deposited 0.001 A precision; renamed calcium considered separately.",
+        "ligand_residue_map": [
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 1,
+            "prepared_resname": "GLC",
+            "deposited": {
+              "author_chain": "E",
+              "author_resnum": "1",
+              "label_chain": "E",
+              "label_resnum": ".",
+              "resname": "GLC"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 2,
+            "prepared_resname": "GAL",
+            "deposited": {
+              "author_chain": "E",
+              "author_resnum": "2",
+              "label_chain": "E",
+              "label_resnum": ".",
+              "resname": "GAL"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 3,
+            "prepared_resname": "SIA",
+            "deposited": {
+              "author_chain": "E",
+              "author_resnum": "3",
+              "label_chain": "E",
+              "label_resnum": ".",
+              "resname": "SIA"
+            }
+          }
+        ],
+        "ligand_atoms": 43,
+        "ligand_exact_deposited_atom_matches": 43,
+        "receptor_atom_count": 911,
+        "receptor_exact_deposited_atom_matches": 911,
+        "unmatched_receptor_atoms": [],
+        "contact_rule": "Protein heavy atoms strictly less than 4.0 A from any modeled native ligand heavy atom; calcium is not a protein-residue contact.",
+        "native_contact_residues_4A": [
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 2,
+            "prepared_resname": "TRP",
+            "min_heavy_atom_distance_A": 3.2978,
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "2",
+              "label_chain": "B",
+              "label_resnum": "2",
+              "insertion_code": "",
+              "resname": "TRP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 43,
+            "prepared_resname": "TYR",
+            "min_heavy_atom_distance_A": 2.6429,
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "44",
+              "label_chain": "B",
+              "label_resnum": "44",
+              "insertion_code": "",
+              "resname": "TYR"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 96,
+            "prepared_resname": "ARG",
+            "min_heavy_atom_distance_A": 2.8585,
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "97",
+              "label_chain": "B",
+              "label_resnum": "97",
+              "insertion_code": "",
+              "resname": "ARG"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 101,
+            "prepared_resname": "SER",
+            "min_heavy_atom_distance_A": 2.6886,
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "103",
+              "label_chain": "B",
+              "label_resnum": "103",
+              "insertion_code": "",
+              "resname": "SER"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 103,
+            "prepared_resname": "ARG",
+            "min_heavy_atom_distance_A": 2.9086,
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "105",
+              "label_chain": "B",
+              "label_resnum": "105",
+              "insertion_code": "",
+              "resname": "ARG"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 104,
+            "prepared_resname": "TRP",
+            "min_heavy_atom_distance_A": 3.5162,
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "106",
+              "label_chain": "B",
+              "label_resnum": "106",
+              "insertion_code": "",
+              "resname": "TRP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 105,
+            "prepared_resname": "LEU",
+            "min_heavy_atom_distance_A": 2.7758,
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "107",
+              "label_chain": "B",
+              "label_resnum": "107",
+              "insertion_code": "",
+              "resname": "LEU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 107,
+            "prepared_resname": "VAL",
+            "min_heavy_atom_distance_A": 3.8067,
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "109",
+              "label_chain": "B",
+              "label_resnum": "109",
+              "insertion_code": "",
+              "resname": "VAL"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "2J1T",
+      "pdb_id": "2J1T",
+      "role": "development_site_only_reference",
+      "source_family_label": "CBM47_fucolectin_related",
+      "source_family_description": "One fucose-binding CBM47 from a Streptococcus pneumoniae GH98-associated modular protein; not the complete multivalent parent protein.",
+      "eligible_site_only": true,
+      "site_quality_stratum": "published_site_local_fit_caveats",
+      "atomic_pose_eligible": false,
+      "confirmatory_site": false,
+      "specificity_eligible": false,
+      "eligibility_reason": "Boraston et al. report ligand-bound CBM47 structures and the Lewis Y recognition surface. The selected C-chain tetrasaccharide maps exactly and all four modeled residues have local-fit support (RSCC 0.899-0.973).",
+      "atomic_and_context_cautions": "Nine angle and two torsion flags are present in the four selected residues. Their atoms and local density have not been independently inspected, so atomic eligibility remains unresolved.",
+      "primary_source_id": "2J1T_primary_structure",
+      "nominal_resolution_A": 1.6,
+      "coordinate_source": {
+        "url": "https://files.rcsb.org/download/2J1T.cif",
+        "sha256": "a2aa0a444e5893a883c311a469d9ff75279d500b213b7696b34ba7e22a22609d",
+        "revision_date": "2024-05-08T00:00:00.000+00:00"
+      },
+      "validation_review": {
+        "source_record": "benchmarks/sources/reference_validation.json#2J1T",
+        "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/j1/2j1t/2j1t_validation.xml.gz",
+        "compressed_sha256": "259c1bbfa882918d10baff321a3262292174a609068571a8004dcf3b7f0bd60a",
+        "source_revision_date": "2024-05-08",
+        "report_creation_date": "Mar  6, 2026 -- 02:16 AM UTC",
+        "selected_ligand_residue_count": 4,
+        "selected_ligand_residue_metrics": {
+          "rscc_range": [
+            0.899,
+            0.973
+          ],
+          "rsr_range": [
+            0.049,
+            0.091
+          ],
+          "avgoccu_range": [
+            1.0,
+            1.0
+          ],
+          "owab_range": [
+            22.31,
+            34.06
+          ]
+        },
+        "selected_ligand_geometry_flag_counts": {
+          "mog-angle-outlier": 9,
+          "mog-torsion-outlier": 2
+        },
+        "entry_warnings": {},
+        "local_density_independently_viewed": false,
+        "interpretation": "Deposited report diagnostics reviewed; they support case-specific uncertainty statements, not map certification or a universal numerical pass threshold."
+      },
+      "receptor_scope": {
+        "prediction_representation": "all atoms in pinned released bound receptor, with no ligand-defined crop or site restrictions",
+        "released_receptor_source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2J1T/2J1T_r_b.pdb",
+          "sha256": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a",
+          "bytes": 87075,
+          "filename": "2J1T_r_b.pdb",
+          "archive": "data/archive/external/2J1T_r_b.pdb.gz"
+        },
+        "prepared_chains": [
+          "A"
+        ],
+        "deposited_author_chains": [
+          "A"
+        ],
+        "selected_deposited_assembly_id": "1",
+        "deposited_assembly_rows": [
+          [
+            "1",
+            "author_and_software_defined_assembly",
+            "PQS",
+            "monomeric",
+            "1"
+          ],
+          [
+            "2",
+            "author_and_software_defined_assembly",
+            "PQS",
+            "monomeric",
+            "1"
+          ]
+        ],
+        "complete_biological_assembly_claim": false,
+        "recognition_calcium_retained_in_released_source": false,
+        "known_missing_biological_context": "Only one CBM47, not the full multi-module protein."
+      },
+      "evaluation_only": {
+        "permitted_use": "Read only after predicted inputs and candidate ranks are frozen; native atom identities, coordinates, contact residues, papers and validation must not guide pocket prediction or random-surface preparation.",
+        "native_ligand_atom_rule": "All heavy atoms of the modeled released ligand; no reconstructed missing tail and no pose-derived core selection.",
+        "coordinate_correspondence_method": "Exact atom name and coordinates at deposited 0.001 A precision; renamed calcium considered separately.",
+        "ligand_residue_map": [
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 1,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "C",
+              "author_resnum": "1",
+              "label_chain": "C",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 2,
+            "prepared_resname": "GAL",
+            "deposited": {
+              "author_chain": "C",
+              "author_resnum": "2",
+              "label_chain": "C",
+              "label_resnum": ".",
+              "resname": "GAL"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 3,
+            "prepared_resname": "FUC",
+            "deposited": {
+              "author_chain": "C",
+              "author_resnum": "3",
+              "label_chain": "C",
+              "label_resnum": ".",
+              "resname": "FUC"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 4,
+            "prepared_resname": "FUC",
+            "deposited": {
+              "author_chain": "C",
+              "author_resnum": "4",
+              "label_chain": "C",
+              "label_resnum": ".",
+              "resname": "FUC"
+            }
+          }
+        ],
+        "ligand_atoms": 46,
+        "ligand_exact_deposited_atom_matches": 46,
+        "receptor_atom_count": 1073,
+        "receptor_exact_deposited_atom_matches": 1073,
+        "unmatched_receptor_atoms": [],
+        "contact_rule": "Protein heavy atoms strictly less than 4.0 A from any modeled native ligand heavy atom; calcium is not a protein-residue contact.",
+        "native_contact_residues_4A": [
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 18,
+            "prepared_resname": "TYR",
+            "min_heavy_atom_distance_A": 3.5429,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "31",
+              "label_chain": "A",
+              "label_resnum": "31",
+              "insertion_code": "",
+              "resname": "TYR"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 34,
+            "prepared_resname": "PHE",
+            "min_heavy_atom_distance_A": 3.838,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "47",
+              "label_chain": "A",
+              "label_resnum": "47",
+              "insertion_code": "",
+              "resname": "PHE"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 35,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 2.6811,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "48",
+              "label_chain": "A",
+              "label_resnum": "48",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 41,
+            "prepared_resname": "HIS",
+            "min_heavy_atom_distance_A": 2.6813,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "54",
+              "label_chain": "A",
+              "label_resnum": "54",
+              "insertion_code": "",
+              "resname": "HIS"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 68,
+            "prepared_resname": "ARG",
+            "min_heavy_atom_distance_A": 2.8984,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "81",
+              "label_chain": "A",
+              "label_resnum": "81",
+              "insertion_code": "",
+              "resname": "ARG"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 70,
+            "prepared_resname": "ASP",
+            "min_heavy_atom_distance_A": 3.5612,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "83",
+              "label_chain": "A",
+              "label_resnum": "83",
+              "insertion_code": "",
+              "resname": "ASP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 72,
+            "prepared_resname": "GLU",
+            "min_heavy_atom_distance_A": 2.6881,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "85",
+              "label_chain": "A",
+              "label_resnum": "85",
+              "insertion_code": "",
+              "resname": "GLU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 75,
+            "prepared_resname": "ARG",
+            "min_heavy_atom_distance_A": 2.8985,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "88",
+              "label_chain": "A",
+              "label_resnum": "88",
+              "insertion_code": "",
+              "resname": "ARG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "1PWB",
+      "pdb_id": "1PWB",
+      "role": "development_site_only_reference",
+      "source_family_label": "collectin_C_type_lectin",
+      "source_family_description": "Human surfactant protein D neck/CRD construct; one released chain versus the experimental homotrimer.",
+      "eligible_site_only": true,
+      "site_quality_stratum": "published_site_local_fit_caveats",
+      "atomic_pose_eligible": false,
+      "confirmatory_site": false,
+      "specificity_eligible": false,
+      "eligibility_reason": "Shrive et al. solve maltose-bound recombinant SP-D and describe carbohydrate recognition by the CRDs. The released A-chain site retains its recognition calcium and the selected deposited D-chain maltose maps exactly, with RSCC 0.849-0.961.",
+      "atomic_and_context_cautions": "The released receptor has one chain, whereas deposited assembly 1 and the paper describe a trimer. This is a full released-chain surface localization test, not a complete-assembly test; dry preparation and selected alternate conformers limit physical interpretation.",
+      "primary_source_id": "1PWB_primary_structure",
+      "nominal_resolution_A": 1.4,
+      "coordinate_source": {
+        "url": "https://files.rcsb.org/download/1PWB.cif",
+        "sha256": "2a51985b47bb986ab968e559d23e7b0ecdb37860a60972020629c648641aa38d",
+        "revision_date": "2024-11-13T00:00:00.000+00:00"
+      },
+      "validation_review": {
+        "source_record": "benchmarks/sources/reference_validation.json#1PWB",
+        "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/pw/1pwb/1pwb_validation.xml.gz",
+        "compressed_sha256": "814374aa8d9bb076092a1732bc38fc5e98da7e3d14b5713f814bf2bdaf822656",
+        "source_revision_date": "2024-11-13",
+        "report_creation_date": "Mar  5, 2026 -- 03:42 AM UTC",
+        "selected_ligand_residue_count": 2,
+        "selected_ligand_residue_metrics": {
+          "rscc_range": [
+            0.849,
+            0.961
+          ],
+          "rsr_range": [
+            0.071,
+            0.131
+          ],
+          "avgoccu_range": [
+            1.0,
+            1.0
+          ],
+          "owab_range": [
+            17.07,
+            30.69
+          ]
+        },
+        "selected_ligand_geometry_flag_counts": {
+          "clash": 2,
+          "mog-angle-outlier": 1
+        },
+        "entry_warnings": {},
+        "local_density_independently_viewed": false,
+        "interpretation": "Deposited report diagnostics reviewed; they support case-specific uncertainty statements, not map certification or a universal numerical pass threshold."
+      },
+      "receptor_scope": {
+        "prediction_representation": "all atoms in pinned released bound receptor, with no ligand-defined crop or site restrictions",
+        "released_receptor_source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1PWB/1PWB_r_b.pdb",
+          "sha256": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce",
+          "bytes": 93717,
+          "filename": "1PWB_r_b.pdb",
+          "archive": "data/archive/external/1PWB_r_b.pdb.gz"
+        },
+        "prepared_chains": [
+          "A"
+        ],
+        "deposited_author_chains": [
+          "A"
+        ],
+        "selected_deposited_assembly_id": "1",
+        "deposited_assembly_rows": [
+          [
+            "1",
+            "author_and_software_defined_assembly",
+            "PISA",
+            "trimeric",
+            "3"
+          ]
+        ],
+        "complete_biological_assembly_claim": false,
+        "recognition_calcium_retained_in_released_source": true,
+        "known_missing_biological_context": "Two other chains of the recombinant trimer are absent. Full-length physiological SP-D oligomers are outside this construct."
+      },
+      "evaluation_only": {
+        "permitted_use": "Read only after predicted inputs and candidate ranks are frozen; native atom identities, coordinates, contact residues, papers and validation must not guide pocket prediction or random-surface preparation.",
+        "native_ligand_atom_rule": "All heavy atoms of the modeled released ligand; no reconstructed missing tail and no pose-derived core selection.",
+        "coordinate_correspondence_method": "Exact atom name and coordinates at deposited 0.001 A precision; renamed calcium considered separately.",
+        "ligand_residue_map": [
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 1,
+            "prepared_resname": "GLC",
+            "deposited": {
+              "author_chain": "D",
+              "author_resnum": "1",
+              "label_chain": "D",
+              "label_resnum": ".",
+              "resname": "GLC"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 2,
+            "prepared_resname": "GLC",
+            "deposited": {
+              "author_chain": "D",
+              "author_resnum": "2",
+              "label_chain": "D",
+              "label_resnum": ".",
+              "resname": "GLC"
+            }
+          }
+        ],
+        "ligand_atoms": 23,
+        "ligand_exact_deposited_atom_matches": 23,
+        "receptor_atom_count": 1155,
+        "receptor_exact_deposited_atom_matches": 1154,
+        "unmatched_receptor_atoms": [
+          {
+            "atom_name": "CA+2",
+            "resname": "CA2",
+            "chain": "A",
+            "resnum": 401,
+            "xyz": [
+              27.099,
+              -12.975,
+              14.558
+            ],
+            "element": "CA"
+          }
+        ],
+        "contact_rule": "Protein heavy atoms strictly less than 4.0 A from any modeled native ligand heavy atom; calcium is not a protein-residue contact.",
+        "native_contact_residues_4A": [
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 117,
+            "prepared_resname": "GLU",
+            "min_heavy_atom_distance_A": 2.4829,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "321",
+              "label_chain": "A",
+              "label_resnum": "143",
+              "insertion_code": "",
+              "resname": "GLU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 119,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 2.9273,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "323",
+              "label_chain": "A",
+              "label_resnum": "145",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 125,
+            "prepared_resname": "GLU",
+            "min_heavy_atom_distance_A": 2.603,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "329",
+              "label_chain": "A",
+              "label_resnum": "151",
+              "insertion_code": "",
+              "resname": "GLU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 137,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 2.9432,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "341",
+              "label_chain": "A",
+              "label_resnum": "163",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 138,
+            "prepared_resname": "ASP",
+            "min_heavy_atom_distance_A": 3.0544,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "342",
+              "label_chain": "A",
+              "label_resnum": "164",
+              "insertion_code": "",
+              "resname": "ASP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 139,
+            "prepared_resname": "ARG",
+            "min_heavy_atom_distance_A": 3.2359,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "343",
+              "label_chain": "A",
+              "label_resnum": "165",
+              "insertion_code": "",
+              "resname": "ARG"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "2VUZ",
+      "pdb_id": "2VUZ",
+      "role": "development_site_only_reference",
+      "source_family_label": "codakine_C_type_lectin",
+      "source_family_description": "Codakine C-type lectin; shares the broad C-type lectin fold category with SP-D, so these labels do not establish fold independence.",
+      "eligible_site_only": true,
+      "site_quality_stratum": "published_site_local_fit_caveats",
+      "atomic_pose_eligible": false,
+      "confirmatory_site": false,
+      "specificity_eligible": false,
+      "eligibility_reason": "Gourdine et al. identify the calcium-mediated N-glycan-recognition site and explicitly report that capping galactosides were not modeled. The seven deposited/released residues and their site map exactly; the resolved fragment can localize the binding surface.",
+      "atomic_and_context_cautions": "Only seven of the titled nine sugars are modeled; RSCC spans 0.700-0.939 with geometry flags. HYP91 is omitted from the released protein. The paper describes a disulfide dimer, but current assembly metadata is monomeric and an intermolecular Cys44 disulfide uses crystal operator 4_555. Complete biological context is unresolved.",
+      "primary_source_id": "2VUZ_primary_structure",
+      "nominal_resolution_A": 1.7,
+      "coordinate_source": {
+        "url": "https://files.rcsb.org/download/2VUZ.cif",
+        "sha256": "fd1edcd6228042ba02383eeb2c524dd1bea3c4605a614d46a01201956ff22f8a",
+        "revision_date": "2023-12-13T00:00:00.000+00:00"
+      },
+      "validation_review": {
+        "source_record": "benchmarks/sources/reference_validation.json#2VUZ",
+        "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/vu/2vuz/2vuz_validation.xml.gz",
+        "compressed_sha256": "55b7b1cc72fafd7892ab2b61f77e9df2251cb1a487bbceb693978ffa5675c0de",
+        "source_revision_date": "2023-12-13",
+        "report_creation_date": "Mar  5, 2026 -- 06:40 PM UTC",
+        "selected_ligand_residue_count": 7,
+        "selected_ligand_residue_metrics": {
+          "rscc_range": [
+            0.7,
+            0.939
+          ],
+          "rsr_range": [
+            0.077,
+            0.165
+          ],
+          "avgoccu_range": [
+            1.0,
+            1.0
+          ],
+          "owab_range": [
+            23.8,
+            49.24
+          ]
+        },
+        "selected_ligand_geometry_flag_counts": {
+          "mog-angle-outlier": 18,
+          "mog-torsion-outlier": 5,
+          "mog-bond-outlier": 2
+        },
+        "entry_warnings": {},
+        "local_density_independently_viewed": false,
+        "interpretation": "Deposited report diagnostics reviewed; they support case-specific uncertainty statements, not map certification or a universal numerical pass threshold."
+      },
+      "receptor_scope": {
+        "prediction_representation": "all atoms in pinned released bound receptor, with no ligand-defined crop or site restrictions",
+        "released_receptor_source": {
+          "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/2VUZ/2VUZ_r_b.pdb",
+          "sha256": "010940dec8054fd63b8fcbc514caf7d3ba89da552bf6e851642cdfc031eed845",
+          "bytes": 80340,
+          "filename": "2VUZ_r_b.pdb",
+          "archive": "data/archive/external/2VUZ_r_b.pdb.gz"
+        },
+        "prepared_chains": [
+          "A"
+        ],
+        "deposited_author_chains": [
+          "A"
+        ],
+        "selected_deposited_assembly_id": "1",
+        "deposited_assembly_rows": [
+          [
+            "1",
+            "author_and_software_defined_assembly",
+            "PQS",
+            "monomeric",
+            "1"
+          ]
+        ],
+        "complete_biological_assembly_claim": false,
+        "recognition_calcium_retained_in_released_source": true,
+        "known_missing_biological_context": "Dimer context disputed by current deposited monomer annotation versus paper/intermolecular Cys44 symmetry disulfide; no biological-assembly completeness claim."
+      },
+      "evaluation_only": {
+        "permitted_use": "Read only after predicted inputs and candidate ranks are frozen; native atom identities, coordinates, contact residues, papers and validation must not guide pocket prediction or random-surface preparation.",
+        "native_ligand_atom_rule": "All heavy atoms of the modeled released ligand; no reconstructed missing tail and no pose-derived core selection.",
+        "coordinate_correspondence_method": "Exact atom name and coordinates at deposited 0.001 A precision; renamed calcium considered separately.",
+        "ligand_residue_map": [
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 1,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "1",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 2,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "2",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 3,
+            "prepared_resname": "BMA",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "3",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "BMA"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 4,
+            "prepared_resname": "MAN",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "4",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "MAN"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 5,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "5",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 6,
+            "prepared_resname": "MAN",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "6",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "MAN"
+            }
+          },
+          {
+            "prepared_chain": "B",
+            "prepared_resnum": 7,
+            "prepared_resname": "NAG",
+            "deposited": {
+              "author_chain": "B",
+              "author_resnum": "7",
+              "label_chain": "B",
+              "label_resnum": ".",
+              "resname": "NAG"
+            }
+          }
+        ],
+        "ligand_atoms": 90,
+        "ligand_exact_deposited_atom_matches": 90,
+        "receptor_atom_count": 990,
+        "receptor_exact_deposited_atom_matches": 989,
+        "unmatched_receptor_atoms": [
+          {
+            "atom_name": "CA+2",
+            "resname": "CA2",
+            "chain": "A",
+            "resnum": 201,
+            "xyz": [
+              -8.855,
+              -20.933,
+              10.964
+            ],
+            "element": "CA"
+          }
+        ],
+        "contact_rule": "Protein heavy atoms strictly less than 4.0 A from any modeled native ligand heavy atom; calcium is not a protein-residue contact.",
+        "native_contact_residues_4A": [
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 61,
+            "prepared_resname": "SER",
+            "min_heavy_atom_distance_A": 3.91,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "61",
+              "label_chain": "A",
+              "label_resnum": "61",
+              "insertion_code": "",
+              "resname": "SER"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 62,
+            "prepared_resname": "PHE",
+            "min_heavy_atom_distance_A": 3.495,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "62",
+              "label_chain": "A",
+              "label_resnum": "62",
+              "insertion_code": "",
+              "resname": "PHE"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 92,
+            "prepared_resname": "GLU",
+            "min_heavy_atom_distance_A": 2.8159,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "93",
+              "label_chain": "A",
+              "label_resnum": "93",
+              "insertion_code": "",
+              "resname": "GLU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 94,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 2.7824,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "95",
+              "label_chain": "A",
+              "label_resnum": "95",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 96,
+            "prepared_resname": "SER",
+            "min_heavy_atom_distance_A": 2.492,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "97",
+              "label_chain": "A",
+              "label_resnum": "97",
+              "insertion_code": "",
+              "resname": "SER"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 100,
+            "prepared_resname": "GLU",
+            "min_heavy_atom_distance_A": 2.4765,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "101",
+              "label_chain": "A",
+              "label_resnum": "101",
+              "insertion_code": "",
+              "resname": "GLU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 106,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 2.9151,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "107",
+              "label_chain": "A",
+              "label_resnum": "107",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 107,
+            "prepared_resname": "TRP",
+            "min_heavy_atom_distance_A": 2.9228,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "108",
+              "label_chain": "A",
+              "label_resnum": "108",
+              "insertion_code": "",
+              "resname": "TRP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 111,
+            "prepared_resname": "ASN",
+            "min_heavy_atom_distance_A": 2.9756,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "112",
+              "label_chain": "A",
+              "label_resnum": "112",
+              "insertion_code": "",
+              "resname": "ASN"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 112,
+            "prepared_resname": "ASP",
+            "min_heavy_atom_distance_A": 2.8502,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "113",
+              "label_chain": "A",
+              "label_resnum": "113",
+              "insertion_code": "",
+              "resname": "ASP"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 113,
+            "prepared_resname": "LEU",
+            "min_heavy_atom_distance_A": 3.8624,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "114",
+              "label_chain": "A",
+              "label_resnum": "114",
+              "insertion_code": "",
+              "resname": "LEU"
+            }
+          },
+          {
+            "prepared_chain": "A",
+            "prepared_residue_number": 114,
+            "prepared_resname": "ARG",
+            "min_heavy_atom_distance_A": 3.1913,
+            "deposited": {
+              "author_chain": "A",
+              "author_resnum": "115",
+              "label_chain": "A",
+              "label_resnum": "115",
+              "insertion_code": "",
+              "resname": "ARG"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

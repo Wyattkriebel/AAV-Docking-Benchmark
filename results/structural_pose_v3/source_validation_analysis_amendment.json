@@ -1,0 +1,19 @@
+{
+  "amendment_id": "public_source_derived_bond_roundoff_v1",
+  "created_utc": "2026-11-03T18:19:50.575299+00:00",
+  "density_policy_unchanged": true,
+  "derived_bond_distance_tolerance_A": 1e-12,
+  "native_execution_unchanged": true,
+  "new_public_wrapper_sha256": "1b587519586d4f2bdb0476e1e7c6c6eae2c3e7422725015387490993eea5f943",
+  "no_pose_or_site_accuracy_consulted": true,
+  "observed_first_Linux_difference_A": 2.220446049250313e-16,
+  "original_plan_retained": true,
+  "pose_metrics_thresholds_ranks_statistics_unchanged": true,
+  "prior_evaluation_plan": {
+    "path": "benchmarks/structural_paired_method_evaluation.json",
+    "sha256": "01e8affd432d519d76b3266b85297f3b259dee895f4fe571f52a7703a17709cd"
+  },
+  "prior_public_wrapper_sha256": "7aeba6abce1779fe5630735482c3460acf86defa7a82d08a5c8ca0cc08a4a4e2",
+  "raw_sources_and_qualification_decisions_unchanged": true,
+  "schema_version": 1
+}

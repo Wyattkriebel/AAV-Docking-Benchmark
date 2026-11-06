@@ -1,0 +1,3107 @@
+{
+  "schema_version": 1,
+  "case_id": "3ZWE",
+  "profile_id": "ccd_ideal_pyranose_v3",
+  "policy_sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+  "algorithm_source_sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e",
+  "ring_math_source_sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+  "schema": {
+    "case_id": "3ZWE",
+    "residues": [
+      {
+        "branch_num": "1",
+        "ccd_id": "BGC"
+      },
+      {
+        "branch_num": "2",
+        "ccd_id": "GAL"
+      },
+      {
+        "branch_num": "3",
+        "ccd_id": "FUC"
+      },
+      {
+        "branch_num": "4",
+        "ccd_id": "GLA"
+      }
+    ],
+    "branch_links": [
+      {
+        "link_id": "2",
+        "entity_id": "3",
+        "entity_branch_list_num_1": "2",
+        "comp_id_1": "GAL",
+        "atom_id_1": "C1",
+        "leaving_atom_id_1": "O1",
+        "entity_branch_list_num_2": "1",
+        "comp_id_2": "BGC",
+        "atom_id_2": "O4",
+        "leaving_atom_id_2": "HO4",
+        "value_order": "sing",
+        "details": null
+      },
+      {
+        "link_id": "3",
+        "entity_id": "3",
+        "entity_branch_list_num_1": "3",
+        "comp_id_1": "FUC",
+        "atom_id_1": "C1",
+        "leaving_atom_id_1": "O1",
+        "entity_branch_list_num_2": "2",
+        "comp_id_2": "GAL",
+        "atom_id_2": "O2",
+        "leaving_atom_id_2": "HO2",
+        "value_order": "sing",
+        "details": null
+      },
+      {
+        "link_id": "4",
+        "entity_id": "3",
+        "entity_branch_list_num_1": "4",
+        "comp_id_1": "GLA",
+        "atom_id_1": "C1",
+        "leaving_atom_id_1": "O1",
+        "entity_branch_list_num_2": "2",
+        "comp_id_2": "GAL",
+        "atom_id_2": "O3",
+        "leaving_atom_id_2": "HO3",
+        "value_order": "sing",
+        "details": null
+      }
+    ],
+    "ccd_sources": {
+      "BGC": {
+        "filename": "BGC.ccd.cif",
+        "url": "https://files.rcsb.org/ligands/download/BGC.cif",
+        "bytes": 9789,
+        "sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+        "archive_path": "data/archive/heldout_candidates/BGC.ccd.cif.gz",
+        "archive_sha256": "710d4054abadc80ee0221a76f5e02ee7de949a8c48f9c71621f8f79b352d6a1e",
+        "archive_bytes": 2707,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes"
+      },
+      "FUC": {
+        "filename": "FUC.ccd.cif",
+        "url": "https://files.rcsb.org/ligands/download/FUC.cif",
+        "bytes": 8787,
+        "sha256": "b05b59fd2eae453a012a24ab319c5a7cf0dec6620fc67f58b46be01a77aacc83",
+        "archive_path": "data/archive/heldout_candidates/FUC.ccd.cif.gz",
+        "archive_sha256": "3f86139928f928c978af53742a594f713fc8fb2897590adc500ab0f19ded37f2",
+        "archive_bytes": 2497,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes"
+      },
+      "GAL": {
+        "filename": "GAL.ccd.cif",
+        "url": "https://files.rcsb.org/ligands/download/GAL.cif",
+        "bytes": 9091,
+        "sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+        "archive_path": "data/archive/heldout_candidates/GAL.ccd.cif.gz",
+        "archive_sha256": "b1c504912f7a44756b7bf20bcdbad98aebe3a767a30aff7030578d04e57c2d5d",
+        "archive_bytes": 2599,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes"
+      },
+      "GLA": {
+        "filename": "GLA.ccd.cif",
+        "url": "https://files.rcsb.org/ligands/download/GLA.cif",
+        "bytes": 8989,
+        "sha256": "b25f41e8fac93225b955151c538d0996ea0a7032077d2dc5465083ee4d54ba96",
+        "archive_path": "data/archive/heldout_candidates/GLA.ccd.cif.gz",
+        "archive_sha256": "a9538086f659090fe2bb9b3af024effac30d4ea4f8ed5fcb111595959badc7d3",
+        "archive_bytes": 2570,
+        "archive_encoding": "gzip mtime=0; decompress to source bytes"
+      }
+    },
+    "source_metadata": {
+      "path": "benchmarks/heldout_candidate_inventory.json",
+      "sha256": "11c185ea93bf637ddc4fe4818aa4c2114a87f83e34d7d40c2cd01759f9280458"
+    },
+    "experimental_coordinates_read": false
+  },
+  "chemical_graph": {
+    "isomeric_smiles": "C[C@@H]1O[C@@H](O[C@H]2[C@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](O)O[C@@H]3CO)O[C@H](CO)[C@H](O)[C@@H]2O[C@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@@H]1O",
+    "heavy_atom_count": 44,
+    "formal_charge": 0,
+    "declared_links": [
+      [
+        "2:GAL:C1",
+        "1:BGC:O4"
+      ],
+      [
+        "3:FUC:C1",
+        "2:GAL:O2"
+      ],
+      [
+        "4:GLA:C1",
+        "2:GAL:O3"
+      ]
+    ],
+    "leaving_replacements": {
+      "2:GAL:O1": "1:BGC:O4",
+      "3:FUC:O1": "2:GAL:O2",
+      "4:GLA:O1": "2:GAL:O3"
+    },
+    "ccd_sources": {
+      "BGC": {
+        "path": "/Users/alec/AAV-Docking-Benchmark/data/archive/heldout_candidates/BGC.ccd.cif.gz",
+        "archive_sha256": "710d4054abadc80ee0221a76f5e02ee7de949a8c48f9c71621f8f79b352d6a1e",
+        "uncompressed_sha256": "f5bb693508c257f731303e53d18fdcc03cd572bfce1d289c21ec1a2e76f3bb82",
+        "coordinate_fields": "pdbx_model_Cartn_{x,y,z}_ideal only"
+      },
+      "FUC": {
+        "path": "/Users/alec/AAV-Docking-Benchmark/data/archive/heldout_candidates/FUC.ccd.cif.gz",
+        "archive_sha256": "3f86139928f928c978af53742a594f713fc8fb2897590adc500ab0f19ded37f2",
+        "uncompressed_sha256": "b05b59fd2eae453a012a24ab319c5a7cf0dec6620fc67f58b46be01a77aacc83",
+        "coordinate_fields": "pdbx_model_Cartn_{x,y,z}_ideal only"
+      },
+      "GAL": {
+        "path": "/Users/alec/AAV-Docking-Benchmark/data/archive/heldout_candidates/GAL.ccd.cif.gz",
+        "archive_sha256": "b1c504912f7a44756b7bf20bcdbad98aebe3a767a30aff7030578d04e57c2d5d",
+        "uncompressed_sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+        "coordinate_fields": "pdbx_model_Cartn_{x,y,z}_ideal only"
+      },
+      "GLA": {
+        "path": "/Users/alec/AAV-Docking-Benchmark/data/archive/heldout_candidates/GLA.ccd.cif.gz",
+        "archive_sha256": "a9538086f659090fe2bb9b3af024effac30d4ea4f8ed5fcb111595959badc7d3",
+        "uncompressed_sha256": "b25f41e8fac93225b955151c538d0996ea0a7032077d2dc5465083ee4d54ba96",
+        "coordinate_fields": "pdbx_model_Cartn_{x,y,z}_ideal only"
+      }
+    },
+    "experimental_coordinates_read": false,
+    "input_graph_conformer_count": 0
+  },
+  "atom_map": [
+    {
+      "rdkit_index": 0,
+      "canonical_atom_key": "1:BGC:C2",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 1,
+      "canonical_atom_key": "1:BGC:C3",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 2,
+      "canonical_atom_key": "1:BGC:C4",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 3,
+      "canonical_atom_key": "1:BGC:C5",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 4,
+      "canonical_atom_key": "1:BGC:C6",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "C6",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 5,
+      "canonical_atom_key": "1:BGC:C1",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 6,
+      "canonical_atom_key": "1:BGC:O1",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "O1",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 7,
+      "canonical_atom_key": "1:BGC:O2",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 8,
+      "canonical_atom_key": "1:BGC:O3",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 9,
+      "canonical_atom_key": "1:BGC:O4",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 10,
+      "canonical_atom_key": "1:BGC:O5",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 11,
+      "canonical_atom_key": "1:BGC:O6",
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "atom_name": "O6",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 12,
+      "canonical_atom_key": "2:GAL:C1",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 13,
+      "canonical_atom_key": "2:GAL:C2",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 14,
+      "canonical_atom_key": "2:GAL:C3",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 15,
+      "canonical_atom_key": "2:GAL:C4",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 16,
+      "canonical_atom_key": "2:GAL:C5",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 17,
+      "canonical_atom_key": "2:GAL:C6",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "C6",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 18,
+      "canonical_atom_key": "2:GAL:O2",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 19,
+      "canonical_atom_key": "2:GAL:O3",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 20,
+      "canonical_atom_key": "2:GAL:O4",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 21,
+      "canonical_atom_key": "2:GAL:O5",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 22,
+      "canonical_atom_key": "2:GAL:O6",
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "atom_name": "O6",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 23,
+      "canonical_atom_key": "3:FUC:C1",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 24,
+      "canonical_atom_key": "3:FUC:C2",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 25,
+      "canonical_atom_key": "3:FUC:C3",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 26,
+      "canonical_atom_key": "3:FUC:C4",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 27,
+      "canonical_atom_key": "3:FUC:C5",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 28,
+      "canonical_atom_key": "3:FUC:C6",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "C6",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 29,
+      "canonical_atom_key": "3:FUC:O2",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 30,
+      "canonical_atom_key": "3:FUC:O3",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 31,
+      "canonical_atom_key": "3:FUC:O4",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 32,
+      "canonical_atom_key": "3:FUC:O5",
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 33,
+      "canonical_atom_key": "4:GLA:C1",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "C1",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 34,
+      "canonical_atom_key": "4:GLA:C2",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "C2",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 35,
+      "canonical_atom_key": "4:GLA:C3",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "C3",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "rdkit_index": 36,
+      "canonical_atom_key": "4:GLA:C4",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "C4",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 37,
+      "canonical_atom_key": "4:GLA:C5",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "C5",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "rdkit_index": 38,
+      "canonical_atom_key": "4:GLA:C6",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "C6",
+      "element": "C",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 39,
+      "canonical_atom_key": "4:GLA:O2",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "O2",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 40,
+      "canonical_atom_key": "4:GLA:O3",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "O3",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 41,
+      "canonical_atom_key": "4:GLA:O4",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "O4",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 42,
+      "canonical_atom_key": "4:GLA:O5",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "O5",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    },
+    {
+      "rdkit_index": 43,
+      "canonical_atom_key": "4:GLA:O6",
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "atom_name": "O6",
+      "element": "O",
+      "formal_charge": 0,
+      "ccd_stereo_config": "N"
+    }
+  ],
+  "ring_templates": [
+    {
+      "branch_num": "1",
+      "ccd_id": "BGC",
+      "indices": [
+        5,
+        0,
+        1,
+        2,
+        3,
+        10
+      ],
+      "ideal_xyz": [
+        [
+          -0.694,
+          1.404,
+          0.269
+        ],
+        [
+          -1.599,
+          0.273,
+          -0.228
+        ],
+        [
+          -1.032,
+          -1.069,
+          0.244
+        ],
+        [
+          0.406,
+          -1.21,
+          -0.265
+        ],
+        [
+          1.234,
+          -0.022,
+          0.232
+        ],
+        [
+          0.635,
+          1.195,
+          -0.215
+        ]
+      ],
+      "ideal_torsions": [
+        -57.03621618038851,
+        56.97584473994936,
+        -57.587978586021286,
+        61.149513251593476,
+        -61.16659465323958,
+        57.655430512078006
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.5931063787865727,
+        "q2_A": 0.015070895055894415,
+        "q3_A": -0.5929148713597389,
+        "theta_deg": 178.54395153869956,
+        "phi_deg": 297.24396793592854,
+        "q2_cos_phi_A": 0.006899159122299562,
+        "q2_sin_phi_A": -0.013399010455663265,
+        "chair_pole_distance_deg": 1.4560484613004405,
+        "cp_plane_rms_A": 0.24213466520283064,
+        "cp_plane_max_abs_A": 0.2507476035392671,
+        "least_squares_plane_rms_A": 0.2421046228110244,
+        "ring_bond_min_A": 1.4281803107451103,
+        "ring_bond_max_A": 1.5319288495227186,
+        "ring_angle_min_deg": 109.01369428621375,
+        "ring_angle_max_deg": 114.10893960539653,
+        "mean_plane_z_A": [
+          -0.23807325124677292,
+          0.24676437216282546,
+          -0.2507476035392671,
+          0.24603971399965635,
+          -0.23734859308360373,
+          0.233365361707162
+        ],
+        "ring_bond_lengths_A": [
+          1.531402951544759,
+          1.5314166643993397,
+          1.5319288495227186,
+          1.5309921619655666,
+          1.4281803107451103,
+          1.4297475301604825
+        ],
+        "ring_angles_deg": [
+          109.3596299200657,
+          109.1694680308546,
+          109.01369428621375,
+          109.17073750185679,
+          109.43844745441781,
+          114.10893960539653
+        ],
+        "fourier_reconstruction_max_error_A": 1.942890293094024e-16,
+        "cp_mean_plane_constraint_max_error_A": 2.7755575615628914e-17
+      }
+    },
+    {
+      "branch_num": "2",
+      "ccd_id": "GAL",
+      "indices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        21
+      ],
+      "ideal_xyz": [
+        [
+          0.516,
+          1.409,
+          -0.191
+        ],
+        [
+          1.522,
+          0.302,
+          0.136
+        ],
+        [
+          1.103,
+          -0.986,
+          -0.578
+        ],
+        [
+          -0.322,
+          -1.352,
+          -0.152
+        ],
+        [
+          -1.258,
+          -0.182,
+          -0.468
+        ],
+        [
+          -0.793,
+          0.992,
+          0.202
+        ]
+      ],
+      "ideal_torsions": [
+        -57.000831657257486,
+        56.99416246452318,
+        -57.57851641195724,
+        61.111271695114596,
+        -61.12282019966255,
+        57.61247926845875
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.5928019999621578,
+        "q2_A": 0.015068195823607473,
+        "q3_A": -0.5926104628115804,
+        "theta_deg": 178.54346472993313,
+        "phi_deg": 299.93612866863657,
+        "q2_cos_phi_A": 0.007519546173714113,
+        "q2_sin_phi_A": -0.013057831011311302,
+        "chair_pole_distance_deg": 1.4565352700668655,
+        "cp_plane_rms_A": 0.24201040306810986,
+        "cp_plane_max_abs_A": 0.25063182986327087,
+        "least_squares_plane_rms_A": 0.24198030677984472,
+        "ring_bond_min_A": 1.4289223211917434,
+        "ring_bond_max_A": 1.5316843669633766,
+        "ring_angle_min_deg": 109.0207618022541,
+        "ring_angle_max_deg": 114.12683459454244,
+        "mean_plane_z_A": [
+          -0.2375907963462487,
+          0.24629041785569322,
+          -0.25063182986327087,
+          0.24627362036140404,
+          -0.2375739988519594,
+          0.2332325868443818
+        ],
+        "ring_bond_lengths_A": [
+          1.5311479353739794,
+          1.531111034510561,
+          1.5316843669633766,
+          1.5312909586358827,
+          1.4294757780389284,
+          1.4289223211917434
+        ],
+        "ring_angles_deg": [
+          109.39976388301152,
+          109.1959372594859,
+          109.0207618022541,
+          109.19022942082967,
+          109.38718257966542,
+          114.12683459454244
+        ],
+        "fourier_reconstruction_max_error_A": 1.3877787807814457e-16,
+        "cp_mean_plane_constraint_max_error_A": 1.1102230246251565e-16
+      }
+    },
+    {
+      "branch_num": "3",
+      "ccd_id": "FUC",
+      "indices": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        32
+      ],
+      "ideal_xyz": [
+        [
+          1.41,
+          0.468,
+          -0.41
+        ],
+        [
+          0.12,
+          0.513,
+          -1.233
+        ],
+        [
+          -0.831,
+          -0.576,
+          -0.728
+        ],
+        [
+          -1.016,
+          -0.402,
+          0.783
+        ],
+        [
+          0.359,
+          -0.379,
+          1.454
+        ],
+        [
+          1.116,
+          0.724,
+          0.961
+        ]
+      ],
+      "ideal_torsions": [
+        53.82601331751911,
+        -53.88238024841069,
+        61.331412842066854,
+        -67.63670641534634,
+        67.63455059210806,
+        -61.29735502620992
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.6218528680007531,
+        "q2_A": 0.05867080878184857,
+        "q3_A": 0.6190789332852846,
+        "theta_deg": 5.413816104708986,
+        "phi_deg": 299.7084640393435,
+        "q2_cos_phi_A": 0.02907648905125124,
+        "q2_sin_phi_A": -0.050959018706885496,
+        "chair_pole_distance_deg": 5.413816104708986,
+        "cp_plane_rms_A": 0.2538703702813577,
+        "cp_plane_max_abs_A": 0.28661108491976656,
+        "least_squares_plane_rms_A": 0.25385743946446965,
+        "ring_bond_min_A": 1.4253466245092805,
+        "ring_bond_max_A": 1.532195157282518,
+        "ring_angle_min_deg": 107.64819153160946,
+        "ring_angle_max_deg": 109.75638844721796,
+        "mean_plane_z_A": [
+          0.2695252349567384,
+          -0.23565206621288118,
+          0.21886474743205211,
+          -0.2359505973950802,
+          0.26982376613893744,
+          -0.28661108491976656
+        ],
+        "ring_bond_lengths_A": [
+          1.5308344129918168,
+          1.531452578436564,
+          1.532195157282518,
+          1.5301617561552112,
+          1.4257303391595482,
+          1.4253466245092805
+        ],
+        "ring_angles_deg": [
+          109.75638844721796,
+          108.97177465964333,
+          108.62759513580627,
+          109.00546319510113,
+          109.70096646021292,
+          107.64819153160946
+        ],
+        "fourier_reconstruction_max_error_A": 1.1102230246251565e-16,
+        "cp_mean_plane_constraint_max_error_A": 1.5265566588595902e-16
+      }
+    },
+    {
+      "branch_num": "4",
+      "ccd_id": "GLA",
+      "indices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        42
+      ],
+      "ideal_xyz": [
+        [
+          1.424,
+          -0.489,
+          -0.382
+        ],
+        [
+          0.392,
+          -0.498,
+          -1.512
+        ],
+        [
+          -0.65,
+          0.592,
+          -1.244
+        ],
+        [
+          -1.222,
+          0.387,
+          0.163
+        ],
+        [
+          -0.068,
+          0.33,
+          1.166
+        ],
+        [
+          0.783,
+          -0.771,
+          0.859
+        ]
+      ],
+      "ideal_torsions": [
+        -53.79086944532403,
+        53.831040029422,
+        -61.308448917532964,
+        67.61452174517166,
+        -67.59107780347473,
+        61.26378935666108
+      ],
+      "ideal_pucker": {
+        "Q_A": 0.62128320237727,
+        "q2_A": 0.05839357106265168,
+        "q3_A": -0.618532948527972,
+        "theta_deg": 174.60688657918362,
+        "phi_deg": 119.59958113226773,
+        "q2_cos_phi_A": -0.02884265830490038,
+        "q2_sin_phi_A": 0.0507731248137803,
+        "chair_pole_distance_deg": 5.393113420816377,
+        "cp_plane_rms_A": 0.2536378052644347,
+        "cp_plane_max_abs_A": 0.2862277395072465,
+        "least_squares_plane_rms_A": 0.2536251354523975,
+        "ring_bond_min_A": 1.424951227235515,
+        "ring_bond_max_A": 1.5325984470826008,
+        "ring_angle_min_deg": 107.65960590220381,
+        "ring_angle_max_deg": 109.78876459295064,
+        "mean_plane_z_A": [
+          -0.2691673353685958,
+          0.23545461469346637,
+          -0.21880229815698762,
+          0.23586270229563863,
+          -0.2695754229707678,
+          0.2862277395072465
+        ],
+        "ring_bond_lengths_A": [
+          1.5303610685063833,
+          1.5315639066000477,
+          1.5325984470826008,
+          1.530024182815422,
+          1.4250091227778157,
+          1.424951227235515
+        ],
+        "ring_angles_deg": [
+          109.78876459295064,
+          108.9899808408628,
+          108.62487047247447,
+          108.98421398946157,
+          109.75364975176444,
+          107.65960590220381
+        ],
+        "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+        "cp_mean_plane_constraint_max_error_A": 2.7755575615628914e-16
+      }
+    }
+  ],
+  "stereo_tests": [
+    {
+      "center": "1:BGC:C2",
+      "neighbors": [
+        "1:BGC:C1",
+        "1:BGC:C3",
+        "1:BGC:O2"
+      ],
+      "ideal_signed_volume": -2.5892659809999996,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "1:BGC:C3",
+      "neighbors": [
+        "1:BGC:C2",
+        "1:BGC:C4",
+        "1:BGC:O3"
+      ],
+      "ideal_signed_volume": 2.590559964,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "1:BGC:C4",
+      "neighbors": [
+        "1:BGC:C3",
+        "1:BGC:C5",
+        "1:BGC:O4"
+      ],
+      "ideal_signed_volume": -2.5851967310000004,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "1:BGC:C5",
+      "neighbors": [
+        "1:BGC:C4",
+        "1:BGC:C6",
+        "1:BGC:O5"
+      ],
+      "ideal_signed_volume": -2.5762360330000003,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "1:BGC:C1",
+      "neighbors": [
+        "1:BGC:C2",
+        "1:BGC:O1",
+        "1:BGC:O5"
+      ],
+      "ideal_signed_volume": 2.4098358869999994,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "2:GAL:C1",
+      "neighbors": [
+        "2:GAL:C2",
+        "1:BGC:O4",
+        "2:GAL:O5"
+      ],
+      "ideal_signed_volume": 2.4085281780000005,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "2:GAL:C2",
+      "neighbors": [
+        "2:GAL:C1",
+        "2:GAL:C3",
+        "2:GAL:O2"
+      ],
+      "ideal_signed_volume": -2.584779819,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "2:GAL:C3",
+      "neighbors": [
+        "2:GAL:C2",
+        "2:GAL:C4",
+        "2:GAL:O3"
+      ],
+      "ideal_signed_volume": 2.5900119239999997,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "2:GAL:C4",
+      "neighbors": [
+        "2:GAL:C3",
+        "2:GAL:C5",
+        "2:GAL:O4"
+      ],
+      "ideal_signed_volume": 2.583990438,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "2:GAL:C5",
+      "neighbors": [
+        "2:GAL:C4",
+        "2:GAL:C6",
+        "2:GAL:O5"
+      ],
+      "ideal_signed_volume": -2.577056074,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "3:FUC:C1",
+      "neighbors": [
+        "3:FUC:C2",
+        "2:GAL:O2",
+        "3:FUC:O5"
+      ],
+      "ideal_signed_volume": 2.3933837309999992,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "3:FUC:C2",
+      "neighbors": [
+        "3:FUC:C1",
+        "3:FUC:C3",
+        "3:FUC:O2"
+      ],
+      "ideal_signed_volume": 2.58731694,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "3:FUC:C3",
+      "neighbors": [
+        "3:FUC:C2",
+        "3:FUC:C4",
+        "3:FUC:O3"
+      ],
+      "ideal_signed_volume": -2.596897174,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "3:FUC:C4",
+      "neighbors": [
+        "3:FUC:C3",
+        "3:FUC:C5",
+        "3:FUC:O4"
+      ],
+      "ideal_signed_volume": -2.5797142710000003,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "3:FUC:C5",
+      "neighbors": [
+        "3:FUC:C4",
+        "3:FUC:C6",
+        "3:FUC:O5"
+      ],
+      "ideal_signed_volume": 2.5627068660000005,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "4:GLA:C1",
+      "neighbors": [
+        "4:GLA:C2",
+        "2:GAL:O3",
+        "4:GLA:O5"
+      ],
+      "ideal_signed_volume": -2.3931466909999997,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "4:GLA:C2",
+      "neighbors": [
+        "4:GLA:C1",
+        "4:GLA:C3",
+        "4:GLA:O2"
+      ],
+      "ideal_signed_volume": -2.5858802020000002,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "4:GLA:C3",
+      "neighbors": [
+        "4:GLA:C2",
+        "4:GLA:C4",
+        "4:GLA:O3"
+      ],
+      "ideal_signed_volume": 2.599193362,
+      "ccd_stereo_config": "S"
+    },
+    {
+      "center": "4:GLA:C4",
+      "neighbors": [
+        "4:GLA:C3",
+        "4:GLA:C5",
+        "4:GLA:O4"
+      ],
+      "ideal_signed_volume": 2.5835322039999995,
+      "ccd_stereo_config": "R"
+    },
+    {
+      "center": "4:GLA:C5",
+      "neighbors": [
+        "4:GLA:C4",
+        "4:GLA:C6",
+        "4:GLA:O5"
+      ],
+      "ideal_signed_volume": -2.561328574,
+      "ccd_stereo_config": "R"
+    }
+  ],
+  "search": {
+    "candidate_slots": 20,
+    "attempts": [
+      {
+        "slot": 0,
+        "seed": 20261024,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          994,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 1,
+        "seed": 20261025,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          990,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 2,
+        "seed": 20261026,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          987,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 3,
+        "seed": 20261027,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          993,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 4,
+        "seed": 20261028,
+        "embedding_return_code": 0,
+        "embedding_failure_counts": [
+          690,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mmff_return_code": 0,
+        "constrained_mmff_energy": 332.5976969398776,
+        "validation": {
+          "valid": true,
+          "failures": [],
+          "rings": [
+            {
+              "branch_num": "1",
+              "ccd_id": "BGC",
+              "pucker": {
+                "Q_A": 0.5820592302191351,
+                "q2_A": 0.038049096563047,
+                "q3_A": -0.5808142678464674,
+                "theta_deg": 176.25191361148714,
+                "phi_deg": 145.50337246732747,
+                "q2_cos_phi_A": -0.03135852539720811,
+                "q2_sin_phi_A": 0.021549399856532647,
+                "chair_pole_distance_deg": 3.74808638851286,
+                "cp_plane_rms_A": 0.23762468568567394,
+                "cp_plane_max_abs_A": 0.2569435583933407,
+                "least_squares_plane_rms_A": 0.23759002035850602,
+                "ring_bond_min_A": 1.4250044456282498,
+                "ring_bond_max_A": 1.5383301697457155,
+                "ring_angle_min_deg": 109.50507501855515,
+                "ring_angle_max_deg": 112.136659588112,
+                "mean_plane_z_A": [
+                  -0.25522128500480834,
+                  0.23539415853680823,
+                  -0.21728930545734026,
+                  0.2190115788458728,
+                  -0.23883870531387283,
+                  0.2569435583933407
+                ],
+                "ring_bond_lengths_A": [
+                  1.5356455052731317,
+                  1.5265054708897532,
+                  1.5380812974962865,
+                  1.5383301697457155,
+                  1.435057083501801,
+                  1.4250044456282498
+                ],
+                "ring_angles_deg": [
+                  109.50507501855515,
+                  109.73174227534143,
+                  110.58552601482974,
+                  109.61308774027468,
+                  110.47439420630306,
+                  112.136659588112
+                ],
+                "fourier_reconstruction_max_error_A": 1.6653345369377348e-16,
+                "cp_mean_plane_constraint_max_error_A": 3.3306690738754696e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 5.077542746280649,
+                "theta_difference_to_CCD_ideal_deg": 2.2920379272124194,
+                "Q_difference_to_CCD_ideal_A": -0.011047148567437604,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.007338007780148814,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 1.9722800172845325
+              },
+              "max_pair_distance_difference_A": 0.027010146628153375,
+              "max_torsion_difference_deg": 5.000087915686208,
+              "failures": []
+            },
+            {
+              "branch_num": "2",
+              "ccd_id": "GAL",
+              "pucker": {
+                "Q_A": 0.5919838093354443,
+                "q2_A": 0.019723487956299617,
+                "q3_A": -0.5916551483238706,
+                "theta_deg": 178.09068798972086,
+                "phi_deg": 209.68567667095903,
+                "q2_cos_phi_A": -0.01713488561635051,
+                "q2_sin_phi_A": -0.00976788984770408,
+                "chair_pole_distance_deg": 1.9093120102791374,
+                "cp_plane_rms_A": 0.2416763781434805,
+                "cp_plane_max_abs_A": 0.2514350336704969,
+                "least_squares_plane_rms_A": 0.24164489758887062,
+                "ring_bond_min_A": 1.425488032628162,
+                "ring_bond_max_A": 1.547318431292917,
+                "ring_angle_min_deg": 107.84853209961754,
+                "ring_angle_max_deg": 112.58794173854194,
+                "mean_plane_z_A": [
+                  -0.2514350336704969,
+                  0.25137256318278234,
+                  -0.24147973235964876,
+                  0.23164937202423,
+                  -0.23171184251194477,
+                  0.2416046733350779
+                ],
+                "ring_bond_lengths_A": [
+                  1.547318431292917,
+                  1.5457957662813364,
+                  1.535699736480766,
+                  1.537234783234896,
+                  1.4325246353675913,
+                  1.425488032628162
+                ],
+                "ring_angles_deg": [
+                  110.45556289180932,
+                  107.84853209961754,
+                  109.78387653169624,
+                  109.61711149471213,
+                  110.50739880057708,
+                  112.58794173854194
+                ],
+                "fourier_reconstruction_max_error_A": 2.498001805406602e-16,
+                "cp_mean_plane_constraint_max_error_A": 3.3306690738754696e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 2.406344615890971,
+                "theta_difference_to_CCD_ideal_deg": 0.452776740212272,
+                "Q_difference_to_CCD_ideal_A": -0.0008181906267135108,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.01617049591893749,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 1.5388928560005013
+              },
+              "max_pair_distance_difference_A": 0.02709053636951575,
+              "max_torsion_difference_deg": 1.929990062892955,
+              "failures": []
+            },
+            {
+              "branch_num": "3",
+              "ccd_id": "FUC",
+              "pucker": {
+                "Q_A": 0.5918131112437768,
+                "q2_A": 0.039187099632615255,
+                "q3_A": 0.5905142926825924,
+                "theta_deg": 3.7966366954462756,
+                "phi_deg": 349.2066672402899,
+                "q2_cos_phi_A": 0.03849384256378101,
+                "q2_sin_phi_A": -0.0073384509463071575,
+                "chair_pole_distance_deg": 3.7966366954462756,
+                "cp_plane_rms_A": 0.24160669093937184,
+                "cp_plane_max_abs_A": 0.2633008808484875,
+                "least_squares_plane_rms_A": 0.2415825063241027,
+                "ring_bond_min_A": 1.4174275372631264,
+                "ring_bond_max_A": 1.5479526908732109,
+                "ring_angle_min_deg": 109.22158854330927,
+                "ring_angle_max_deg": 111.4605712413291,
+                "mean_plane_z_A": [
+                  0.2633008808484875,
+                  -0.24851944019216332,
+                  0.226295009825821,
+                  -0.2188520201158034,
+                  0.23363346077212832,
+                  -0.25585789113847
+                ],
+                "ring_bond_lengths_A": [
+                  1.5479526908732109,
+                  1.526185708769874,
+                  1.529829392105043,
+                  1.5331756064862612,
+                  1.4231515831594501,
+                  1.4174275372631264
+                ],
+                "ring_angles_deg": [
+                  109.43393650941064,
+                  109.2502117770812,
+                  109.22158854330927,
+                  109.8143537102806,
+                  111.4605712413291,
+                  110.84447344785312
+                ],
+                "fourier_reconstruction_max_error_A": 2.7755575615628914e-16,
+                "cp_mean_plane_constraint_max_error_A": 5.134781488891349e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 4.12312814514017,
+                "theta_difference_to_CCD_ideal_deg": 1.6171794092627105,
+                "Q_difference_to_CCD_ideal_A": -0.030039756756976344,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.017118277881394084,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.196281916243663
+              },
+              "max_pair_distance_difference_A": 0.037398162239921984,
+              "max_torsion_difference_deg": 5.00059952748407,
+              "failures": []
+            },
+            {
+              "branch_num": "4",
+              "ccd_id": "GLA",
+              "pucker": {
+                "Q_A": 0.5829644015321478,
+                "q2_A": 0.025777347724933987,
+                "q3_A": -0.5823942151137862,
+                "theta_deg": 177.46568583538829,
+                "phi_deg": 117.50570470007378,
+                "q2_cos_phi_A": -0.011904931056622088,
+                "q2_sin_phi_A": 0.02286360147197362,
+                "chair_pole_distance_deg": 2.5343141646117147,
+                "cp_plane_rms_A": 0.2379942203267883,
+                "cp_plane_max_abs_A": 0.2526299010073454,
+                "least_squares_plane_rms_A": 0.23797340249619564,
+                "ring_bond_min_A": 1.4174879238228286,
+                "ring_bond_max_A": 1.5405700263508075,
+                "ring_angle_min_deg": 109.52196765064835,
+                "ring_angle_max_deg": 111.18559270444305,
+                "mean_plane_z_A": [
+                  -0.24463475784647148,
+                  0.2297662995353718,
+                  -0.22289298438514749,
+                  0.23088812754602178,
+                  -0.2457565858571209,
+                  0.2526299010073454
+                ],
+                "ring_bond_lengths_A": [
+                  1.5405700263508075,
+                  1.5279958661000588,
+                  1.5295615817669708,
+                  1.538304185336201,
+                  1.4262389867037177,
+                  1.4174879238228286
+                ],
+                "ring_angles_deg": [
+                  111.18559270444305,
+                  109.52196765064835,
+                  109.71667954109951,
+                  109.54223760859348,
+                  111.0096379715533,
+                  110.72456012978981
+                ],
+                "fourier_reconstruction_max_error_A": 2.7755575615628914e-16,
+                "cp_mean_plane_constraint_max_error_A": 8.881784197001252e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 2.861985288725183,
+                "theta_difference_to_CCD_ideal_deg": 2.8587992562046622,
+                "Q_difference_to_CCD_ideal_A": -0.03831880084512218,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.010208957844424216,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.064954227586
+              },
+              "max_pair_distance_difference_A": 0.0390366275141405,
+              "max_torsion_difference_deg": 5.000237961297756,
+              "failures": []
+            }
+          ],
+          "stereochemistry": [
+            {
+              "center": "1:BGC:C2",
+              "neighbors": [
+                "1:BGC:C1",
+                "1:BGC:C3",
+                "1:BGC:O2"
+              ],
+              "ideal_signed_volume": -2.5892659809999996,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5120408563307173,
+              "status": "consistent"
+            },
+            {
+              "center": "1:BGC:C3",
+              "neighbors": [
+                "1:BGC:C2",
+                "1:BGC:C4",
+                "1:BGC:O3"
+              ],
+              "ideal_signed_volume": 2.590559964,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5534756825743616,
+              "status": "consistent"
+            },
+            {
+              "center": "1:BGC:C4",
+              "neighbors": [
+                "1:BGC:C3",
+                "1:BGC:C5",
+                "1:BGC:O4"
+              ],
+              "ideal_signed_volume": -2.5851967310000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": -2.6676302996995145,
+              "status": "consistent"
+            },
+            {
+              "center": "1:BGC:C5",
+              "neighbors": [
+                "1:BGC:C4",
+                "1:BGC:C6",
+                "1:BGC:O5"
+              ],
+              "ideal_signed_volume": -2.5762360330000003,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5841490800511573,
+              "status": "consistent"
+            },
+            {
+              "center": "1:BGC:C1",
+              "neighbors": [
+                "1:BGC:C2",
+                "1:BGC:O1",
+                "1:BGC:O5"
+              ],
+              "ideal_signed_volume": 2.4098358869999994,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.4054717861396235,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C1",
+              "neighbors": [
+                "2:GAL:C2",
+                "1:BGC:O4",
+                "2:GAL:O5"
+              ],
+              "ideal_signed_volume": 2.4085281780000005,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.43556179640688,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C2",
+              "neighbors": [
+                "2:GAL:C1",
+                "2:GAL:C3",
+                "2:GAL:O2"
+              ],
+              "ideal_signed_volume": -2.584779819,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.691709196293141,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C3",
+              "neighbors": [
+                "2:GAL:C2",
+                "2:GAL:C4",
+                "2:GAL:O3"
+              ],
+              "ideal_signed_volume": 2.5900119239999997,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.576771567159201,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C4",
+              "neighbors": [
+                "2:GAL:C3",
+                "2:GAL:C5",
+                "2:GAL:O4"
+              ],
+              "ideal_signed_volume": 2.583990438,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.581224788566958,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C5",
+              "neighbors": [
+                "2:GAL:C4",
+                "2:GAL:C6",
+                "2:GAL:O5"
+              ],
+              "ideal_signed_volume": -2.577056074,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5075991422027157,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C1",
+              "neighbors": [
+                "3:FUC:C2",
+                "2:GAL:O2",
+                "3:FUC:O5"
+              ],
+              "ideal_signed_volume": 2.3933837309999992,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.252597679913084,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C2",
+              "neighbors": [
+                "3:FUC:C1",
+                "3:FUC:C3",
+                "3:FUC:O2"
+              ],
+              "ideal_signed_volume": 2.58731694,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.460133931597856,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C3",
+              "neighbors": [
+                "3:FUC:C2",
+                "3:FUC:C4",
+                "3:FUC:O3"
+              ],
+              "ideal_signed_volume": -2.596897174,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5944044522936807,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C4",
+              "neighbors": [
+                "3:FUC:C3",
+                "3:FUC:C5",
+                "3:FUC:O4"
+              ],
+              "ideal_signed_volume": -2.5797142710000003,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": -2.5264369445124486,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C5",
+              "neighbors": [
+                "3:FUC:C4",
+                "3:FUC:C6",
+                "3:FUC:O5"
+              ],
+              "ideal_signed_volume": 2.5627068660000005,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.499267212425413,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C1",
+              "neighbors": [
+                "4:GLA:C2",
+                "2:GAL:O3",
+                "4:GLA:O5"
+              ],
+              "ideal_signed_volume": -2.3931466909999997,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": -2.247078118888731,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C2",
+              "neighbors": [
+                "4:GLA:C1",
+                "4:GLA:C3",
+                "4:GLA:O2"
+              ],
+              "ideal_signed_volume": -2.5858802020000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5118894478794704,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C3",
+              "neighbors": [
+                "4:GLA:C2",
+                "4:GLA:C4",
+                "4:GLA:O3"
+              ],
+              "ideal_signed_volume": 2.599193362,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.56844090971442,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C4",
+              "neighbors": [
+                "4:GLA:C3",
+                "4:GLA:C5",
+                "4:GLA:O4"
+              ],
+              "ideal_signed_volume": 2.5835322039999995,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.586096084087219,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C5",
+              "neighbors": [
+                "4:GLA:C4",
+                "4:GLA:C6",
+                "4:GLA:O5"
+              ],
+              "ideal_signed_volume": -2.561328574,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.501604210389303,
+              "status": "consistent"
+            }
+          ],
+          "min_nonbonded_heavy_vdw_sum_ratio": 0.8397284298807202
+        },
+        "unconstrained_mmff_energy_at_selected_geometry": 332.38998993127507,
+        "status": "valid"
+      },
+      {
+        "slot": 5,
+        "seed": 20261029,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          995,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 6,
+        "seed": 20261030,
+        "embedding_return_code": 0,
+        "embedding_failure_counts": [
+          536,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mmff_return_code": 0,
+        "constrained_mmff_energy": 336.0556490689853,
+        "validation": {
+          "valid": true,
+          "failures": [],
+          "rings": [
+            {
+              "branch_num": "1",
+              "ccd_id": "BGC",
+              "pucker": {
+                "Q_A": 0.5873534772153515,
+                "q2_A": 0.04495123350561637,
+                "q3_A": -0.5856308511368642,
+                "theta_deg": 175.61075757942905,
+                "phi_deg": 145.1397611658248,
+                "q2_cos_phi_A": -0.0368846774107806,
+                "q2_sin_phi_A": 0.025693072334368634,
+                "chair_pole_distance_deg": 4.389242420570952,
+                "cp_plane_rms_A": 0.23978605297117273,
+                "cp_plane_max_abs_A": 0.26257701920274945,
+                "least_squares_plane_rms_A": 0.23974990847566413,
+                "ring_bond_min_A": 1.425509227815207,
+                "ring_bond_max_A": 1.5422470620582873,
+                "ring_angle_min_deg": 109.36812028826284,
+                "ring_angle_max_deg": 111.81219090750551,
+                "mean_plane_z_A": [
+                  -0.26037817225160836,
+                  0.23688394686838116,
+                  -0.21558856843629398,
+                  0.2177874153874353,
+                  -0.24128164077066266,
+                  0.26257701920274945
+                ],
+                "ring_bond_lengths_A": [
+                  1.5371795572917883,
+                  1.5288109468724858,
+                  1.5353223906508002,
+                  1.5422470620582873,
+                  1.4411327775895224,
+                  1.425509227815207
+                ],
+                "ring_angles_deg": [
+                  109.36812028826284,
+                  109.6438969559096,
+                  110.32306092486742,
+                  110.14009192679256,
+                  109.87139157745125,
+                  111.81219090750551
+                ],
+                "fourier_reconstruction_max_error_A": 2.498001805406602e-16,
+                "cp_mean_plane_constraint_max_error_A": 8.881784197001252e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 5.716752569660027,
+                "theta_difference_to_CCD_ideal_deg": 2.933193959270511,
+                "Q_difference_to_CCD_ideal_A": -0.005752901571221214,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.012952466844412092,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.2967486978910188
+              },
+              "max_pair_distance_difference_A": 0.026937639433368687,
+              "max_torsion_difference_deg": 5.000126911982477,
+              "failures": []
+            },
+            {
+              "branch_num": "2",
+              "ccd_id": "GAL",
+              "pucker": {
+                "Q_A": 0.5783168042362408,
+                "q2_A": 0.02861600606879256,
+                "q3_A": -0.5776083883209188,
+                "theta_deg": 177.16375840510554,
+                "phi_deg": 125.16756902321424,
+                "q2_cos_phi_A": -0.01648195235947918,
+                "q2_sin_phi_A": 0.023392756352106765,
+                "chair_pole_distance_deg": 2.83624159489446,
+                "cp_plane_rms_A": 0.2360968466759698,
+                "cp_plane_max_abs_A": 0.25226194508141353,
+                "least_squares_plane_rms_A": 0.2360562938275601,
+                "ring_bond_min_A": 1.4132752817692418,
+                "ring_bond_max_A": 1.5504846525205958,
+                "ring_angle_min_deg": 108.9926867677087,
+                "ring_angle_max_deg": 112.78282202717331,
+                "mean_plane_z_A": [
+                  -0.24532349672111797,
+                  0.22886918872930695,
+                  -0.21935332909779093,
+                  0.22629177745808626,
+                  -0.2427460854498976,
+                  0.25226194508141353
+                ],
+                "ring_bond_lengths_A": [
+                  1.5504846525205958,
+                  1.5438333349258633,
+                  1.5355159411359047,
+                  1.530653566558354,
+                  1.4350178975222891,
+                  1.4132752817692418
+                ],
+                "ring_angles_deg": [
+                  110.63485414641958,
+                  108.9926867677087,
+                  110.14083535465123,
+                  110.73819620828618,
+                  109.51255945456094,
+                  112.78282202717331
+                ],
+                "fourier_reconstruction_max_error_A": 1.6653345369377348e-16,
+                "cp_mean_plane_constraint_max_error_A": 4.0245584642661925e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 4.288764722715327,
+                "theta_difference_to_CCD_ideal_deg": 1.3797063248275947,
+                "Q_difference_to_CCD_ideal_A": -0.014485195725917,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.019336717146616333,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 1.5479667874565166
+              },
+              "max_pair_distance_difference_A": 0.030837097224348575,
+              "max_torsion_difference_deg": 5.000110980332408,
+              "failures": []
+            },
+            {
+              "branch_num": "3",
+              "ccd_id": "FUC",
+              "pucker": {
+                "Q_A": 0.5805191191408237,
+                "q2_A": 0.026710481460305004,
+                "q3_A": 0.5799043006119169,
+                "theta_deg": 2.6371885236027763,
+                "phi_deg": 305.17865756814945,
+                "q2_cos_phi_A": 0.015388653410617625,
+                "q2_sin_phi_A": -0.02183206737918294,
+                "chair_pole_distance_deg": 2.6371885236027763,
+                "cp_plane_rms_A": 0.23699593797082885,
+                "cp_plane_max_abs_A": 0.2521032946415914,
+                "least_squares_plane_rms_A": 0.23697068590319553,
+                "ring_bond_min_A": 1.4171690236303838,
+                "ring_bond_max_A": 1.5438042391143716,
+                "ring_angle_min_deg": 109.45587982201444,
+                "ring_angle_max_deg": 111.17548989775091,
+                "mean_plane_z_A": [
+                  0.2456295825465432,
+                  -0.2302712272624088,
+                  0.22138658407332257,
+                  -0.22786029616837145,
+                  0.24321865145250554,
+                  -0.2521032946415914
+                ],
+                "ring_bond_lengths_A": [
+                  1.5438042391143716,
+                  1.5289309838397096,
+                  1.5290076434862891,
+                  1.5372482837477834,
+                  1.4211757224493273,
+                  1.4171690236303838
+                ],
+                "ring_angles_deg": [
+                  110.94016087010812,
+                  109.45587982201444,
+                  109.93893822899,
+                  109.54758738004772,
+                  111.17548989775091,
+                  111.03644482504184
+                ],
+                "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+                "cp_mean_plane_constraint_max_error_A": 3.469446951953614e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 2.799912872245842,
+                "theta_difference_to_CCD_ideal_deg": 2.7766275811062098,
+                "Q_difference_to_CCD_ideal_A": -0.041333748859929464,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.012969826122554817,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.388253293432385
+              },
+              "max_pair_distance_difference_A": 0.03825260639409844,
+              "max_torsion_difference_deg": 5.00025131695665,
+              "failures": []
+            },
+            {
+              "branch_num": "4",
+              "ccd_id": "GLA",
+              "pucker": {
+                "Q_A": 0.5745741586061961,
+                "q2_A": 0.04434517747679719,
+                "q3_A": -0.5728603398495741,
+                "theta_deg": 175.5735553292037,
+                "phi_deg": 103.45263165534766,
+                "q2_cos_phi_A": -0.010316523874691778,
+                "q2_sin_phi_A": 0.04312846044773167,
+                "chair_pole_distance_deg": 4.426444670796286,
+                "cp_plane_rms_A": 0.234568917995692,
+                "cp_plane_max_abs_A": 0.2584116085600793,
+                "least_squares_plane_rms_A": 0.23454632480670348,
+                "ring_bond_min_A": 1.4101393896388328,
+                "ring_bond_max_A": 1.539372800847528,
+                "ring_angle_min_deg": 109.64584453750619,
+                "ring_angle_max_deg": 111.48543120597901,
+                "mean_plane_z_A": [
+                  -0.23982550225429064,
+                  0.21528314811234778,
+                  -0.20932690027619302,
+                  0.22791300658198185,
+                  -0.2524553607239246,
+                  0.2584116085600793
+                ],
+                "ring_bond_lengths_A": [
+                  1.539372800847528,
+                  1.5296355625168134,
+                  1.5291961468475141,
+                  1.5327078584566987,
+                  1.431055046878269,
+                  1.4101393896388328
+                ],
+                "ring_angles_deg": [
+                  111.48543120597901,
+                  110.05090496298213,
+                  110.36647887559094,
+                  109.64584453750619,
+                  110.88695193213853,
+                  110.62953779348616
+                ],
+                "fourier_reconstruction_max_error_A": 2.220446049250313e-16,
+                "cp_mean_plane_constraint_max_error_A": 6.661338147750939e-16
+              },
+              "comparison": {
+                "pucker_vector_angle_to_CCD_ideal_deg": 1.6773272827487764,
+                "theta_difference_to_CCD_ideal_deg": 0.9666687500200908,
+                "Q_difference_to_CCD_ideal_A": -0.04670904377107388,
+                "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.014811837596682143,
+                "max_abs_ring_angle_difference_to_CCD_ideal_deg": 2.969931891282357
+              },
+              "max_pair_distance_difference_A": 0.03563811896180358,
+              "max_torsion_difference_deg": 5.00047211964403,
+              "failures": []
+            }
+          ],
+          "stereochemistry": [
+            {
+              "center": "1:BGC:C2",
+              "neighbors": [
+                "1:BGC:C1",
+                "1:BGC:C3",
+                "1:BGC:O2"
+              ],
+              "ideal_signed_volume": -2.5892659809999996,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5133721736371464,
+              "status": "consistent"
+            },
+            {
+              "center": "1:BGC:C3",
+              "neighbors": [
+                "1:BGC:C2",
+                "1:BGC:C4",
+                "1:BGC:O3"
+              ],
+              "ideal_signed_volume": 2.590559964,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.578666686701317,
+              "status": "consistent"
+            },
+            {
+              "center": "1:BGC:C4",
+              "neighbors": [
+                "1:BGC:C3",
+                "1:BGC:C5",
+                "1:BGC:O4"
+              ],
+              "ideal_signed_volume": -2.5851967310000004,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": -2.244924254072964,
+              "status": "consistent"
+            },
+            {
+              "center": "1:BGC:C5",
+              "neighbors": [
+                "1:BGC:C4",
+                "1:BGC:C6",
+                "1:BGC:O5"
+              ],
+              "ideal_signed_volume": -2.5762360330000003,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.606743168913554,
+              "status": "consistent"
+            },
+            {
+              "center": "1:BGC:C1",
+              "neighbors": [
+                "1:BGC:C2",
+                "1:BGC:O1",
+                "1:BGC:O5"
+              ],
+              "ideal_signed_volume": 2.4098358869999994,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.4187555472862297,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C1",
+              "neighbors": [
+                "2:GAL:C2",
+                "1:BGC:O4",
+                "2:GAL:O5"
+              ],
+              "ideal_signed_volume": 2.4085281780000005,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.373001786290992,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C2",
+              "neighbors": [
+                "2:GAL:C1",
+                "2:GAL:C3",
+                "2:GAL:O2"
+              ],
+              "ideal_signed_volume": -2.584779819,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.709901855120203,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C3",
+              "neighbors": [
+                "2:GAL:C2",
+                "2:GAL:C4",
+                "2:GAL:O3"
+              ],
+              "ideal_signed_volume": 2.5900119239999997,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.6185233790484435,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C4",
+              "neighbors": [
+                "2:GAL:C3",
+                "2:GAL:C5",
+                "2:GAL:O4"
+              ],
+              "ideal_signed_volume": 2.583990438,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.5152800875768953,
+              "status": "consistent"
+            },
+            {
+              "center": "2:GAL:C5",
+              "neighbors": [
+                "2:GAL:C4",
+                "2:GAL:C6",
+                "2:GAL:O5"
+              ],
+              "ideal_signed_volume": -2.577056074,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5655533986976855,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C1",
+              "neighbors": [
+                "3:FUC:C2",
+                "2:GAL:O2",
+                "3:FUC:O5"
+              ],
+              "ideal_signed_volume": 2.3933837309999992,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.2023299616873775,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C2",
+              "neighbors": [
+                "3:FUC:C1",
+                "3:FUC:C3",
+                "3:FUC:O2"
+              ],
+              "ideal_signed_volume": 2.58731694,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5074477585979484,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C3",
+              "neighbors": [
+                "3:FUC:C2",
+                "3:FUC:C4",
+                "3:FUC:O3"
+              ],
+              "ideal_signed_volume": -2.596897174,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.579532552163839,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C4",
+              "neighbors": [
+                "3:FUC:C3",
+                "3:FUC:C5",
+                "3:FUC:O4"
+              ],
+              "ideal_signed_volume": -2.5797142710000003,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": -2.577263539576007,
+              "status": "consistent"
+            },
+            {
+              "center": "3:FUC:C5",
+              "neighbors": [
+                "3:FUC:C4",
+                "3:FUC:C6",
+                "3:FUC:O5"
+              ],
+              "ideal_signed_volume": 2.5627068660000005,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.487246874898393,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C1",
+              "neighbors": [
+                "4:GLA:C2",
+                "2:GAL:O3",
+                "4:GLA:O5"
+              ],
+              "ideal_signed_volume": -2.3931466909999997,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": -2.1785159108498737,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C2",
+              "neighbors": [
+                "4:GLA:C1",
+                "4:GLA:C3",
+                "4:GLA:O2"
+              ],
+              "ideal_signed_volume": -2.5858802020000002,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.5545138108089276,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C3",
+              "neighbors": [
+                "4:GLA:C2",
+                "4:GLA:C4",
+                "4:GLA:O3"
+              ],
+              "ideal_signed_volume": 2.599193362,
+              "ccd_stereo_config": "S",
+              "observed_signed_volume": 2.5542587102717915,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C4",
+              "neighbors": [
+                "4:GLA:C3",
+                "4:GLA:C5",
+                "4:GLA:O4"
+              ],
+              "ideal_signed_volume": 2.5835322039999995,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": 2.5392197387991087,
+              "status": "consistent"
+            },
+            {
+              "center": "4:GLA:C5",
+              "neighbors": [
+                "4:GLA:C4",
+                "4:GLA:C6",
+                "4:GLA:O5"
+              ],
+              "ideal_signed_volume": -2.561328574,
+              "ccd_stereo_config": "R",
+              "observed_signed_volume": -2.4627557318139477,
+              "status": "consistent"
+            }
+          ],
+          "min_nonbonded_heavy_vdw_sum_ratio": 0.8432750406480398
+        },
+        "unconstrained_mmff_energy_at_selected_geometry": 335.8628506881439,
+        "status": "valid"
+      },
+      {
+        "slot": 7,
+        "seed": 20261031,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          993,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 8,
+        "seed": 20261032,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          989,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 9,
+        "seed": 20261033,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          991,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 10,
+        "seed": 20261034,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          995,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 11,
+        "seed": 20261035,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          990,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 12,
+        "seed": 20261036,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          992,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 13,
+        "seed": 20261037,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          989,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 14,
+        "seed": 20261038,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          995,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 15,
+        "seed": 20261039,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          990,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 16,
+        "seed": 20261040,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          990,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 17,
+        "seed": 20261041,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          993,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 18,
+        "seed": 20261042,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          994,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      },
+      {
+        "slot": 19,
+        "seed": 20261043,
+        "embedding_return_code": -1,
+        "embedding_failure_counts": [
+          992,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "embedding_failed"
+      }
+    ],
+    "valid_candidate_count": 2,
+    "status": "selected",
+    "selected_slot": 4,
+    "selected_unconstrained_mmff_energy": 332.38998993127507,
+    "coordinates_source": "Independent ETKDG with chemical-ideal intraring bounds/dihedrals; no source/native pose or coordMap"
+  },
+  "no_docking_or_accuracy_evaluation": true,
+  "serialized_sdf_validation": {
+    "valid": true,
+    "failures": [],
+    "rings": [
+      {
+        "branch_num": "1",
+        "ccd_id": "BGC",
+        "pucker": {
+          "Q_A": 0.5820357392863371,
+          "q2_A": 0.03804536233109759,
+          "q3_A": -0.5807909711864403,
+          "theta_deg": 176.2521305096303,
+          "phi_deg": 145.46458770671484,
+          "q2_cos_phi_A": -0.03134085478527975,
+          "q2_sin_phi_A": 0.02156850519235181,
+          "chair_pole_distance_deg": 3.747869490369709,
+          "cp_plane_rms_A": 0.2376150955525178,
+          "cp_plane_max_abs_A": 0.2569384991733439,
+          "least_squares_plane_rms_A": 0.23758040710303635,
+          "ring_bond_min_A": 1.424943974337237,
+          "ring_bond_max_A": 1.5382781445499378,
+          "ring_angle_min_deg": 109.50272319305093,
+          "ring_angle_max_deg": 112.13917395348987,
+          "mean_plane_z_A": [
+            -0.2552015720506252,
+            0.2353699939809923,
+            -0.21727534303407797,
+            0.21901227015679675,
+            -0.2388438482264297,
+            0.2569384991733439
+          ],
+          "ring_bond_lengths_A": [
+            1.5357041186374412,
+            1.5265151587848707,
+            1.5381193614281041,
+            1.5382781445499378,
+            1.4350202019483909,
+            1.424943974337237
+          ],
+          "ring_angles_deg": [
+            109.50272319305093,
+            109.73477546310129,
+            110.5842085062431,
+            109.61222025643066,
+            110.47664331566855,
+            112.13917395348987
+          ],
+          "fourier_reconstruction_max_error_A": 1.1102230246251565e-16,
+          "cp_mean_plane_constraint_max_error_A": 9.71445146547012e-17
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 5.077672270563071,
+          "theta_difference_to_CCD_ideal_deg": 2.2918210290692684,
+          "Q_difference_to_CCD_ideal_A": -0.011070639500235568,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.007285982584371187,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 1.9697656519066555
+        },
+        "max_pair_distance_difference_A": 0.026970145160881476,
+        "max_torsion_difference_deg": 5.003165150543538,
+        "failures": []
+      },
+      {
+        "branch_num": "2",
+        "ccd_id": "GAL",
+        "pucker": {
+          "Q_A": 0.5919417497931624,
+          "q2_A": 0.01975501082536819,
+          "q3_A": -0.5916120136503995,
+          "theta_deg": 178.08749938724532,
+          "phi_deg": 209.71391583007014,
+          "q2_cos_phi_A": -0.01715744723496384,
+          "q2_sin_phi_A": -0.0097919587973932,
+          "chair_pole_distance_deg": 1.912500612754684,
+          "cp_plane_rms_A": 0.24165920740724628,
+          "cp_plane_max_abs_A": 0.25143044997037245,
+          "least_squares_plane_rms_A": 0.24162770321089247,
+          "ring_bond_min_A": 1.4253915216529105,
+          "ring_bond_max_A": 1.5473581809005954,
+          "ring_angle_min_deg": 107.84894409295067,
+          "ring_angle_max_deg": 112.58981391866524,
+          "mean_plane_z_A": [
+            -0.25143044997037245,
+            0.25137350097921235,
+            -0.24146764419949918,
+            0.231618736410946,
+            -0.23167568540210592,
+            0.24158154218181893
+          ],
+          "ring_bond_lengths_A": [
+            1.5473581809005954,
+            1.5457407706339379,
+            1.5356899621994016,
+            1.537173698708119,
+            1.4325184885368845,
+            1.4253915216529105
+          ],
+          "ring_angles_deg": [
+            110.45559097950596,
+            107.84894409295067,
+            109.78346402249647,
+            109.61951562291392,
+            110.50891388877595,
+            112.58981391866524
+          ],
+          "fourier_reconstruction_max_error_A": 2.7755575615628914e-16,
+          "cp_mean_plane_constraint_max_error_A": 2.7755575615628914e-16
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 2.4083132619633187,
+          "theta_difference_to_CCD_ideal_deg": 0.4559653426878185,
+          "Q_difference_to_CCD_ideal_A": -0.0008602501689953801,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.016210245526615985,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 1.5370206758772014
+        },
+        "max_pair_distance_difference_A": 0.02703111096752675,
+        "max_torsion_difference_deg": 1.9326540729168187,
+        "failures": []
+      },
+      {
+        "branch_num": "3",
+        "ccd_id": "FUC",
+        "pucker": {
+          "Q_A": 0.5917920185031293,
+          "q2_A": 0.03909382786767799,
+          "q3_A": 0.5904993359747838,
+          "theta_deg": 3.787722066063887,
+          "phi_deg": 349.22290984562943,
+          "q2_cos_phi_A": 0.03840429472539873,
+          "q2_sin_phi_A": -0.007310097399648469,
+          "chair_pole_distance_deg": 3.787722066063887,
+          "cp_plane_rms_A": 0.24159807986406134,
+          "cp_plane_max_abs_A": 0.2632430743294987,
+          "least_squares_plane_rms_A": 0.24157387269422814,
+          "ring_bond_min_A": 1.4173448239578117,
+          "ring_bond_max_A": 1.5479698252873022,
+          "ring_angle_min_deg": 109.22177171916697,
+          "ring_angle_max_deg": 111.4608177116948,
+          "mean_plane_z_A": [
+            0.2632430743294987,
+            -0.24850166068080082,
+            0.22632893078305427,
+            -0.21889761453400502,
+            0.23363902818270277,
+            -0.255811758080449
+          ],
+          "ring_bond_lengths_A": [
+            1.5479698252873022,
+            1.5261825742682293,
+            1.5298527249379268,
+            1.5331715690032863,
+            1.4231219975813738,
+            1.4173448239578117
+          ],
+          "ring_angles_deg": [
+            109.43843541225044,
+            109.2482572101933,
+            109.22177171916697,
+            109.81130457847617,
+            111.4608177116948,
+            110.84735222696479
+          ],
+          "fourier_reconstruction_max_error_A": 3.885780586188048e-16,
+          "cp_mean_plane_constraint_max_error_A": 9.43689570931383e-16
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 4.123616098096006,
+          "theta_difference_to_CCD_ideal_deg": 1.6260940386450993,
+          "Q_difference_to_CCD_ideal_A": -0.030060849497623776,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.01713541229548543,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.1991606953553315
+        },
+        "max_pair_distance_difference_A": 0.03734623907479806,
+        "max_torsion_difference_deg": 5.001732623155419,
+        "failures": []
+      },
+      {
+        "branch_num": "4",
+        "ccd_id": "GLA",
+        "pucker": {
+          "Q_A": 0.5829827936405347,
+          "q2_A": 0.025821715781192387,
+          "q3_A": -0.5824106598226355,
+          "theta_deg": 177.46140105452318,
+          "phi_deg": 117.51873792675701,
+          "q2_cos_phi_A": -0.011930631352075715,
+          "q2_sin_phi_A": 0.022900241077891473,
+          "chair_pole_distance_deg": 2.5385989454768207,
+          "cp_plane_rms_A": 0.23800172887359533,
+          "cp_plane_max_abs_A": 0.25266235337082865,
+          "least_squares_plane_rms_A": 0.23798095007872758,
+          "ring_bond_min_A": 1.4174885149446537,
+          "ring_bond_max_A": 1.5405521282968648,
+          "ring_angle_min_deg": 109.52418106427186,
+          "ring_angle_max_deg": 111.1843196649099,
+          "mean_plane_z_A": [
+            -0.24465630944324435,
+            0.22976211229293753,
+            -0.2228739590702139,
+            0.23088000299779843,
+            -0.24577420014810547,
+            0.25266235337082865
+          ],
+          "ring_bond_lengths_A": [
+            1.5405521282968648,
+            1.5280523158583281,
+            1.5296218356182025,
+            1.5382894526063682,
+            1.4262563479262764,
+            1.4174885149446537
+          ],
+          "ring_angles_deg": [
+            111.1843196649099,
+            109.52418106427186,
+            109.71152839386356,
+            109.5475622517459,
+            111.00513185442809,
+            110.72503530601468
+          ],
+          "fourier_reconstruction_max_error_A": 2.7755575615628914e-16,
+          "cp_mean_plane_constraint_max_error_A": 8.881784197001252e-16
+        },
+        "comparison": {
+          "pucker_vector_angle_to_CCD_ideal_deg": 2.857671030131595,
+          "theta_difference_to_CCD_ideal_deg": 2.854514475339556,
+          "Q_difference_to_CCD_ideal_A": -0.038300408736735236,
+          "max_abs_ring_bond_difference_to_CCD_ideal_A": 0.010191059790481516,
+          "max_abs_ring_angle_difference_to_CCD_ideal_deg": 3.0654294038108674
+        },
+        "max_pair_distance_difference_A": 0.03905812066079006,
+        "max_torsion_difference_deg": 4.996658945314294,
+        "failures": []
+      }
+    ],
+    "stereochemistry": [
+      {
+        "center": "1:BGC:C2",
+        "neighbors": [
+          "1:BGC:C1",
+          "1:BGC:C3",
+          "1:BGC:O2"
+        ],
+        "ideal_signed_volume": -2.5892659809999996,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.511878034702001,
+        "status": "consistent"
+      },
+      {
+        "center": "1:BGC:C3",
+        "neighbors": [
+          "1:BGC:C2",
+          "1:BGC:C4",
+          "1:BGC:O3"
+        ],
+        "ideal_signed_volume": 2.590559964,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.553367608106999,
+        "status": "consistent"
+      },
+      {
+        "center": "1:BGC:C4",
+        "neighbors": [
+          "1:BGC:C3",
+          "1:BGC:C5",
+          "1:BGC:O4"
+        ],
+        "ideal_signed_volume": -2.5851967310000004,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": -2.667666848298999,
+        "status": "consistent"
+      },
+      {
+        "center": "1:BGC:C5",
+        "neighbors": [
+          "1:BGC:C4",
+          "1:BGC:C6",
+          "1:BGC:O5"
+        ],
+        "ideal_signed_volume": -2.5762360330000003,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.5839227271510006,
+        "status": "consistent"
+      },
+      {
+        "center": "1:BGC:C1",
+        "neighbors": [
+          "1:BGC:C2",
+          "1:BGC:O1",
+          "1:BGC:O5"
+        ],
+        "ideal_signed_volume": 2.4098358869999994,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.4054350839789995,
+        "status": "consistent"
+      },
+      {
+        "center": "2:GAL:C1",
+        "neighbors": [
+          "2:GAL:C2",
+          "1:BGC:O4",
+          "2:GAL:O5"
+        ],
+        "ideal_signed_volume": 2.4085281780000005,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.4353972645080004,
+        "status": "consistent"
+      },
+      {
+        "center": "2:GAL:C2",
+        "neighbors": [
+          "2:GAL:C1",
+          "2:GAL:C3",
+          "2:GAL:O2"
+        ],
+        "ideal_signed_volume": -2.584779819,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.6918311021730004,
+        "status": "consistent"
+      },
+      {
+        "center": "2:GAL:C3",
+        "neighbors": [
+          "2:GAL:C2",
+          "2:GAL:C4",
+          "2:GAL:O3"
+        ],
+        "ideal_signed_volume": 2.5900119239999997,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.576520747511999,
+        "status": "consistent"
+      },
+      {
+        "center": "2:GAL:C4",
+        "neighbors": [
+          "2:GAL:C3",
+          "2:GAL:C5",
+          "2:GAL:O4"
+        ],
+        "ideal_signed_volume": 2.583990438,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.5811596724949983,
+        "status": "consistent"
+      },
+      {
+        "center": "2:GAL:C5",
+        "neighbors": [
+          "2:GAL:C4",
+          "2:GAL:C6",
+          "2:GAL:O5"
+        ],
+        "ideal_signed_volume": -2.577056074,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.5073233581400007,
+        "status": "consistent"
+      },
+      {
+        "center": "3:FUC:C1",
+        "neighbors": [
+          "3:FUC:C2",
+          "2:GAL:O2",
+          "3:FUC:O5"
+        ],
+        "ideal_signed_volume": 2.3933837309999992,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.2526944694940005,
+        "status": "consistent"
+      },
+      {
+        "center": "3:FUC:C2",
+        "neighbors": [
+          "3:FUC:C1",
+          "3:FUC:C3",
+          "3:FUC:O2"
+        ],
+        "ideal_signed_volume": 2.58731694,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.4599095878690003,
+        "status": "consistent"
+      },
+      {
+        "center": "3:FUC:C3",
+        "neighbors": [
+          "3:FUC:C2",
+          "3:FUC:C4",
+          "3:FUC:O3"
+        ],
+        "ideal_signed_volume": -2.596897174,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.5946401582559986,
+        "status": "consistent"
+      },
+      {
+        "center": "3:FUC:C4",
+        "neighbors": [
+          "3:FUC:C3",
+          "3:FUC:C5",
+          "3:FUC:O4"
+        ],
+        "ideal_signed_volume": -2.5797142710000003,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": -2.526262950983999,
+        "status": "consistent"
+      },
+      {
+        "center": "3:FUC:C5",
+        "neighbors": [
+          "3:FUC:C4",
+          "3:FUC:C6",
+          "3:FUC:O5"
+        ],
+        "ideal_signed_volume": 2.5627068660000005,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.499238525385998,
+        "status": "consistent"
+      },
+      {
+        "center": "4:GLA:C1",
+        "neighbors": [
+          "4:GLA:C2",
+          "2:GAL:O3",
+          "4:GLA:O5"
+        ],
+        "ideal_signed_volume": -2.3931466909999997,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": -2.2469872442069994,
+        "status": "consistent"
+      },
+      {
+        "center": "4:GLA:C2",
+        "neighbors": [
+          "4:GLA:C1",
+          "4:GLA:C3",
+          "4:GLA:O2"
+        ],
+        "ideal_signed_volume": -2.5858802020000002,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.511821238308,
+        "status": "consistent"
+      },
+      {
+        "center": "4:GLA:C3",
+        "neighbors": [
+          "4:GLA:C2",
+          "4:GLA:C4",
+          "4:GLA:O3"
+        ],
+        "ideal_signed_volume": 2.599193362,
+        "ccd_stereo_config": "S",
+        "observed_signed_volume": 2.568484038300001,
+        "status": "consistent"
+      },
+      {
+        "center": "4:GLA:C4",
+        "neighbors": [
+          "4:GLA:C3",
+          "4:GLA:C5",
+          "4:GLA:O4"
+        ],
+        "ideal_signed_volume": 2.5835322039999995,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": 2.586067881648001,
+        "status": "consistent"
+      },
+      {
+        "center": "4:GLA:C5",
+        "neighbors": [
+          "4:GLA:C4",
+          "4:GLA:C6",
+          "4:GLA:O5"
+        ],
+        "ideal_signed_volume": -2.561328574,
+        "ccd_stereo_config": "R",
+        "observed_signed_volume": -2.5016840485240004,
+        "status": "consistent"
+      }
+    ],
+    "min_nonbonded_heavy_vdw_sum_ratio": 0.8397305286379931
+  },
+  "selected_sdf_sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518"
+}

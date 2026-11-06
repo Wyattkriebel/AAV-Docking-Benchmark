@@ -1,0 +1,168 @@
+{
+  "all_public_source_numerical_and_lineage_controls_execute": true,
+  "amendment_id": "public_method_source_fixture_adapters_v1",
+  "current_source_map_entries_unchanged": 59,
+  "distribution": {
+    "bytes": 163459,
+    "path": "benchmarks/method_protocol_public_distribution.json",
+    "sha256": "bed3115a6ab2685aa3c9cd790ff5080e931ee813c37c720188b4e44901570beb"
+  },
+  "frozen_implementation_count": 14,
+  "frozen_implementation_sources": [
+    {
+      "bytes": 31320,
+      "path": "aav_benchmark/assembly_control_report.py",
+      "sha256": "869f9e11f373458b9020d675db5a69f6d34b48c8b151149d8f453630fb3d3876"
+    },
+    {
+      "bytes": 41509,
+      "path": "aav_benchmark/common_pose_rescoring.py",
+      "sha256": "afa086f24fd5ab691b8a77c8a87276448cf09223b5eb9483b1ef92cb4aae4005"
+    },
+    {
+      "bytes": 26113,
+      "path": "aav_benchmark/global_pose_report_gate.py",
+      "sha256": "b42a849b136778414ddf821fc12d1f04f68ebab82f1a5075a6a52ad470ecc8cb"
+    },
+    {
+      "bytes": 14046,
+      "path": "aav_benchmark/haddock_cohort_preparation.py",
+      "sha256": "ef0ca4c30b95a6e7907d66da9f3b197f987cbedce7cb96b15d8c96155ec07739"
+    },
+    {
+      "bytes": 34361,
+      "path": "aav_benchmark/haddock_cohort_resume.py",
+      "sha256": "6a2b233ebc817c5c1c64ed8f47da5fda609a3eca99083ec8a58f972cf884490a"
+    },
+    {
+      "bytes": 21858,
+      "path": "aav_benchmark/haddock_paired_cohort.py",
+      "sha256": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6"
+    },
+    {
+      "bytes": 61151,
+      "path": "aav_benchmark/haddock_pose_report.py",
+      "sha256": "b87b150592c963c956bcb7d470acf13dbade63f642b4c51714060f5c49b07260"
+    },
+    {
+      "bytes": 52568,
+      "path": "aav_benchmark/heldout_pose_report.py",
+      "sha256": "78d9edc1097454338f5d0285a07025a19488622610095b8ad94cc04152bc997c"
+    },
+    {
+      "bytes": 27787,
+      "path": "aav_benchmark/neighborhood_coverage.py",
+      "sha256": "11b1e6e40f6000477f7346692e0d1fcbc1814741db07417db231383a54013fd2"
+    },
+    {
+      "bytes": 30840,
+      "path": "aav_benchmark/paired_common_pose_report.py",
+      "sha256": "31d08b280b9827276680e6a21afd1ec911f4d27f67fdff72e89be8999715bd5e"
+    },
+    {
+      "bytes": 25722,
+      "path": "aav_benchmark/paired_common_pose_rescoring.py",
+      "sha256": "3dabfa786f62e90c3c5e3062a65797f7a18c9497b69a610c2c6143c52a5d8269"
+    },
+    {
+      "bytes": 47057,
+      "path": "aav_benchmark/paired_method_report.py",
+      "sha256": "2d9db55bc6a7e7282f0fb2420d1f7887a0dfde4f3d3804a115bd18bf5388cdbe"
+    },
+    {
+      "bytes": 24969,
+      "path": "aav_benchmark/prospective_vina_carb.py",
+      "sha256": "760fbe874a55c661c3cf4858ffd1c73d6aa84961cb69c28b678c7b5568d6bc75"
+    },
+    {
+      "bytes": 47480,
+      "path": "aav_benchmark/qualified_pose.py",
+      "sha256": "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525"
+    }
+  ],
+  "historical_first_job_retained_without_rerun": true,
+  "historical_test_copies_unchanged": true,
+  "ignored_live_trees_used": false,
+  "local_installation_tests_optional_environment": "AAV_LOCAL_NATIVE_VALIDATION=1",
+  "no_new_native_predictions_scoring_or_accuracy_calls": true,
+  "optional_local_tests": [
+    "ActualGlycanTopologyControls.test_local_CNS_executable_matches_the_retained_pre_execution_pin",
+    "PairedCohortSourceControls.test_local_full_installation_satisfies_every_original_execution_pin",
+    "RecoveryControls.test_local_full_installation_satisfies_the_original_execution_freeze"
+  ],
+  "original_scientific_freezes_and_receipts_unchanged": true,
+  "packaging_after_native_execution_started": true,
+  "protected_supplemental_or_worksharing_included": false,
+  "schema_version": 1,
+  "scope": "Public temporary test fixtures and archive packaging only; no scientific input, native output, implementation, metric or receipt change.",
+  "test_adaptations": [
+    {
+      "active_public_test": {
+        "bytes": 8281,
+        "path": "tests/test_haddock_cohort_preparation.py",
+        "sha256": "6960757998d3bcd7721acd452e38dc0dbaa0db9e933b6a37684b5c20632cb490"
+      },
+      "frozen_historical_archive": {
+        "bytes": 6659787,
+        "path": "results/haddock_prospective_preparation/topology_artifacts.tar.gz",
+        "sha256": "9ec8eb2c63810096b48bddb8b71d08d6b884faf14472a2ef5d1c8aaf253295c8"
+      },
+      "historical_archived_test_pin_reproduced": true,
+      "historical_member": "source_snapshot/test_haddock_cohort_preparation.py",
+      "historical_test_bytes": 7114,
+      "historical_test_sha256": "ae0b895b6f83aba60bef1b414f18c854a1319437c823b77f8fc81a74f3f96e00",
+      "old_receipt_test_pin_matches_current_test": false
+    },
+    {
+      "active_public_test": {
+        "bytes": 6005,
+        "path": "tests/test_haddock_paired_topology.py",
+        "sha256": "5cc98fb8a544f880946157beedbe16ad384de0f34b11290a7e3b4d835487c1da"
+      },
+      "frozen_historical_archive": {
+        "bytes": 6659787,
+        "path": "results/haddock_prospective_preparation/topology_artifacts.tar.gz",
+        "sha256": "9ec8eb2c63810096b48bddb8b71d08d6b884faf14472a2ef5d1c8aaf253295c8"
+      },
+      "historical_archived_test_pin_reproduced": true,
+      "historical_member": "source_snapshot/test_haddock_paired_topology.py",
+      "historical_test_bytes": 5144,
+      "historical_test_sha256": "0ea439812b332cd4ea6609c4aabeb6dcc3318b3eb7596de5cb04420803e2f5aa",
+      "old_receipt_test_pin_matches_current_test": false
+    },
+    {
+      "active_public_test": {
+        "bytes": 11687,
+        "path": "tests/test_haddock_paired_cohort.py",
+        "sha256": "cb74a357c8be4f91317f9e0af2e9792197da4e6f7fa7c139e7b4d0f89e0a7fa4"
+      },
+      "frozen_historical_archive": {
+        "bytes": 1014171,
+        "path": "results/haddock_paired_cohort/prepared_inputs.tar.gz",
+        "sha256": "079d11a8e96b1b9ea45d63f8a5fdd3fef8916659a1510815c3da1d9671897f71"
+      },
+      "historical_archived_test_pin_reproduced": true,
+      "historical_member": "source_snapshot/test_haddock_paired_cohort.py",
+      "historical_test_bytes": 9280,
+      "historical_test_sha256": "d36018735da8a9c927ffdd3f78820c04329847878113eb73e1ef8d54e7c77b70",
+      "old_receipt_test_pin_matches_current_test": false
+    },
+    {
+      "active_public_test": {
+        "bytes": 14646,
+        "path": "tests/test_haddock_cohort_resume.py",
+        "sha256": "fcc997bcd66196d39aba939e6778a29580673ad1e4cba25cbb379df9b499e4d4"
+      },
+      "frozen_historical_archive": {
+        "bytes": 49245,
+        "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_metadata.tar.gz",
+        "sha256": "d8df825f6ede8e77a01c7b6806856131f8949eb7e4714b64cf5aa7295f6abfc9"
+      },
+      "historical_archived_test_pin_reproduced": true,
+      "historical_member": "orchestration_recovery/source_snapshot/test_haddock_cohort_resume.py",
+      "historical_test_bytes": 11039,
+      "historical_test_sha256": "17d6d07cd1c65d9696a7ba6d53a1b31907875eb6aa8cd0adbfa24ace86caf4fb",
+      "old_receipt_test_pin_matches_current_test": false
+    }
+  ]
+}

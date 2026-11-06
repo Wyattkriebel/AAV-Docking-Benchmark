@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-03T17:44:16.090050+00:00",
+  "status": "execution_ready_source_only_waiting_for_root_freeze",
+  "no_cohort_docking_started": true,
+  "no_accuracy_evaluation": true,
+  "prepared_plan": {
+    "path": "results/haddock_paired_cohort/prepared_plan.json",
+    "sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2",
+    "bytes": 297244
+  },
+  "source_code": [
+    {
+      "path": "aav_benchmark/haddock_paired_cohort.py",
+      "sha256": "2286023e47908c168b67a119ded26777919697f6ee682985b6938d0c9a7b5bf6",
+      "bytes": 21858
+    },
+    {
+      "path": "benchmarks/haddock_paired_cohort_v2_proposal.json",
+      "sha256": "f3a72af252bed3c7e2ad764c6a7a6d763fa1f9ab4c4cc93b9f27fe1c92d7c038",
+      "bytes": 6030
+    },
+    {
+      "path": "benchmarks/haddock_assembly_protocol_amendment.json",
+      "sha256": "38b3ce51782c38cd1e419b3d2fa9b20c81560689105de6f4c71e42c525ce1149",
+      "bytes": 2399
+    },
+    {
+      "path": "scripts/validate_haddock_air_syntax.py",
+      "sha256": "904c91452b3cb14c5a11eebae22ec7f76d9ead33c36d077d2c4474d47295b6f6",
+      "bytes": 3831
+    },
+    {
+      "path": "tests/test_haddock_paired_cohort.py",
+      "sha256": "d36018735da8a9c927ffdd3f78820c04329847878113eb73e1ef8d54e7c77b70",
+      "bytes": 9280
+    },
+    {
+      "path": "docs/HADDOCK_PAIRED_COHORT.md",
+      "sha256": "2560eca3174391cbb365f1b7457b8c925190d46b0e2ed30589909affdcc4628f",
+      "bytes": 11760
+    }
+  ],
+  "archive": {
+    "path": "results/haddock_paired_cohort/prepared_inputs.tar.gz",
+    "sha256": "079d11a8e96b1b9ea45d63f8a5fdd3fef8916659a1510815c3da1d9671897f71",
+    "bytes": 1014171
+  },
+  "archive_manifest": {
+    "path": "results/haddock_paired_cohort/prepared_inputs_manifest.json",
+    "sha256": "cfa9804a17824b72455402fd64b4e5307f623535d4a8f6b855cc9b916cec2f34",
+    "bytes": 38910
+  },
+  "archived_files": 215,
+  "source_preflight_receipt": {
+    "path": "results/haddock_prospective_preparation/preparation_receipt.json",
+    "sha256": "9acaf59029d153b66764bacb8ba485ad26b7c27cc097b57237e1e2d8f62756cf",
+    "bytes": 11069
+  },
+  "condition_denominator": 36,
+  "seed_cell_denominator": 108,
+  "ready_conditions": 13,
+  "ready_native_jobs": 39,
+  "source_gate_failed_seed_cells": 45,
+  "predictor_unavailable_seed_cells": 6,
+  "ncores": 1,
+  "initial_slots_per_seed": 20,
+  "refinement_slots_per_seed_maximum": 20,
+  "clustering": false,
+  "native_reference_or_interface_restraints": false,
+  "CNS_AIR_parse_checks": 13,
+  "CNS_AIR_parse_passed": 13,
+  "HADDOCK_setup_only_probes": 3,
+  "runtime_source_files_pinned": 370,
+  "validation": {
+    "passed": 31,
+    "failed": 0,
+    "command": ".venv/bin/python -m pytest -q tests/test_ideal_ring_conformers.py tests/test_haddock_cohort_preparation.py tests/test_haddock_paired_topology.py tests/test_haddock_paired_cohort.py"
+  },
+  "foreground_command": ".venv/bin/python -m aav_benchmark.haddock_paired_cohort --run-all-foreground --plan results/haddock_paired_cohort/prepared_plan.json --freeze ROOT_FREEZE_PATH.json",
+  "root_freeze_required_fields": {
+    "status": "frozen_before_first_HADDOCK_cohort_pose",
+    "execution_authorized": true,
+    "prepared_plan": {
+      "sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2"
+    }
+  },
+  "interpretation": "New bounded guided feasibility workflow, generic box-to-AIR adaptation; not hard-box equivalence or exact released clustering workflow. Source gates retained across all108 cells. External qualified-pose analysis requires independent code/plan freeze before accuracy.",
+  "native_software_manifest": {
+    "path": "results/haddock_paired_cohort/native_software_manifest.json",
+    "sha256": "83514208eb1bb0c589f78fd8f13fcd8c9b1d9e1b95d0c2927b174b0bb80abe51",
+    "bytes": 89744
+  },
+  "assembly_protocol_failed_seed_cells": 18,
+  "assembly_protocol_amendment": {
+    "path": "benchmarks/haddock_assembly_protocol_amendment.json",
+    "sha256": "38b3ce51782c38cd1e419b3d2fa9b20c81560689105de6f4c71e42c525ce1149",
+    "bytes": 2399
+  },
+  "native_score_weights": {
+    "path": "results/haddock_paired_cohort/native_score_weights.json",
+    "sha256": "2155d5cdf095f0050060eacd0b1e9699beed653e670cee75eeedb171cad54433",
+    "bytes": 2704
+  }
+}

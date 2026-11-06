@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "source": "6T1D.cif",
+  "source_sha256": "b6aff9dad0e696d5179ba3fe52fac851bc858deb9287859f950cf3e4f0149eef",
+  "selection_frozen_on": "2026-11-03",
+  "selection_rule": "Choose author-defined assembly 1; lexical first protein author chain, then lexical first attached glycan label_asym_id. Choose the centroid of the nonreducing GLA heavy atoms as known-site center.",
+  "selected_site": {
+    "protein_author_chain": "A",
+    "glycan_label_asym_id": "G",
+    "galactosyl_author_chain": "G",
+    "galactosyl_author_seq_id": 2,
+    "galactosyl_heavy_atoms": 11,
+    "calcium": {
+      "author_chain": "A",
+      "author_residue": 401,
+      "label_asym_id": "S",
+      "min_GLA_distance_A": 2.357
+    },
+    "contacts_under4A": [
+      {
+        "chain": "A",
+        "author_residue": 97,
+        "resname": "ASP",
+        "minimum_heavy_atom_distance_A": 2.897
+      },
+      {
+        "chain": "A",
+        "author_residue": 98,
+        "resname": "ASP",
+        "minimum_heavy_atom_distance_A": 2.256
+      },
+      {
+        "chain": "A",
+        "author_residue": 140,
+        "resname": "VAL",
+        "minimum_heavy_atom_distance_A": 3.622
+      },
+      {
+        "chain": "A",
+        "author_residue": 143,
+        "resname": "SER",
+        "minimum_heavy_atom_distance_A": 2.668
+      },
+      {
+        "chain": "A",
+        "author_residue": 144,
+        "resname": "PRO",
+        "minimum_heavy_atom_distance_A": 3.338
+      }
+    ],
+    "centroid_GLAnonH_A": [
+      21.664,
+      44.973364,
+      26.502545
+    ]
+  },
+  "selected_site_original_depositor_alias": "protein A, melibiose MLB 501 in _pdbx_branch_scheme; current remediated atom_site uses glycan chain G residues GLC 1 / GLA 2.",
+  "selected_site_glycan_completeness": "GLA 2 has 11 heavy atoms because O1 is replaced by the glycosidic bond to GLC O6. GLC 1 has only O6 observed. The unresolved glucose tail is not treated as atomic pose truth.",
+  "selected_native_Ca_coordination_under3A": [
+    {
+      "auth_chain": "A",
+      "auth_residue": "97",
+      "comp": "ASP",
+      "atom": "OD1",
+      "distance_A": 2.423
+    },
+    {
+      "auth_chain": "A",
+      "auth_residue": "98",
+      "comp": "ASP",
+      "atom": "OD2",
+      "distance_A": 2.382
+    },
+    {
+      "auth_chain": "A",
+      "auth_residue": "138",
+      "comp": "ASN",
+      "atom": "OD1",
+      "distance_A": 2.303
+    },
+    {
+      "auth_chain": "A",
+      "auth_residue": "143",
+      "comp": "SER",
+      "atom": "OG",
+      "distance_A": 2.358
+    },
+    {
+      "auth_chain": "A",
+      "auth_residue": "144",
+      "comp": "PRO",
+      "atom": "O",
+      "distance_A": 2.581
+    },
+    {
+      "auth_chain": "G",
+      "auth_residue": "2",
+      "comp": "GLA",
+      "atom": "O3",
+      "distance_A": 2.357
+    },
+    {
+      "auth_chain": "G",
+      "auth_residue": "2",
+      "comp": "GLA",
+      "atom": "O4",
+      "distance_A": 2.844
+    }
+  ],
+  "assembly_1_sites": [
+    {
+      "protein_author_chain": "A",
+      "glycan_label_asym_id": "G",
+      "galactosyl_author_chain": "G",
+      "galactosyl_author_seq_id": 2,
+      "galactosyl_heavy_atoms": 11,
+      "calcium": {
+        "author_chain": "A",
+        "author_residue": 401,
+        "label_asym_id": "S",
+        "min_GLA_distance_A": 2.357
+      },
+      "contacts_under4A": [
+        {
+          "chain": "A",
+          "author_residue": 97,
+          "resname": "ASP",
+          "minimum_heavy_atom_distance_A": 2.897
+        },
+        {
+          "chain": "A",
+          "author_residue": 98,
+          "resname": "ASP",
+          "minimum_heavy_atom_distance_A": 2.256
+        },
+        {
+          "chain": "A",
+          "author_residue": 140,
+          "resname": "VAL",
+          "minimum_heavy_atom_distance_A": 3.622
+        },
+        {
+          "chain": "A",
+          "author_residue": 143,
+          "resname": "SER",
+          "minimum_heavy_atom_distance_A": 2.668
+        },
+        {
+          "chain": "A",
+          "author_residue": 144,
+          "resname": "PRO",
+          "minimum_heavy_atom_distance_A": 3.338
+        }
+      ],
+      "centroid_GLAnonH_A": [
+        21.664,
+        44.973364,
+        26.502545
+      ]
+    },
+    {
+      "protein_author_chain": "A",
+      "glycan_label_asym_id": "H",
+      "galactosyl_author_chain": "H",
+      "galactosyl_author_seq_id": 2,
+      "galactosyl_heavy_atoms": 11,
+      "calcium": {
+        "author_chain": "A",
+        "author_residue": 402,
+        "label_asym_id": "T",
+        "min_GLA_distance_A": 2.071
+      },
+      "contacts_under4A": [
+        {
+          "chain": "A",
+          "author_residue": 259,
+          "resname": "ASP",
+          "minimum_heavy_atom_distance_A": 2.663
+        },
+        {
+          "chain": "A",
+          "author_residue": 260,
+          "resname": "ASP",
+          "minimum_heavy_atom_distance_A": 2.415
+        },
+        {
+          "chain": "A",
+          "author_residue": 277,
+          "resname": "TYR",
+          "minimum_heavy_atom_distance_A": 3.373
+        },
+        {
+          "chain": "A",
+          "author_residue": 303,
+          "resname": "GLY",
+          "minimum_heavy_atom_distance_A": 2.705
+        },
+        {
+          "chain": "A",
+          "author_residue": 305,
+          "resname": "PRO",
+          "minimum_heavy_atom_distance_A": 2.683
+        },
+        {
+          "chain": "A",
+          "author_residue": 363,
+          "resname": "PRO",
+          "minimum_heavy_atom_distance_A": 3.713
+        }
+      ],
+      "centroid_GLAnonH_A": [
+        12.544818,
+        27.796455,
+        68.370182
+      ]
+    },
+    {
+      "protein_author_chain": "B",
+      "glycan_label_asym_id": "I",
+      "galactosyl_author_chain": "I",
+      "galactosyl_author_seq_id": 2,
+      "galactosyl_heavy_atoms": 11,
+      "calcium": {
+        "author_chain": "B",
+        "author_residue": 401,
+        "label_asym_id": "U",
+        "min_GLA_distance_A": 2.492
+      },
+      "contacts_under4A": [
+        {
+          "chain": "B",
+          "author_residue": 97,
+          "resname": "ASP",
+          "minimum_heavy_atom_distance_A": 3.413
+        },
+        {
+          "chain": "B",
+          "author_residue": 98,
+          "resname": "ASP",
+          "minimum_heavy_atom_distance_A": 2.767
+        },
+        {
+          "chain": "B",
+          "author_residue": 115,
+          "resname": "PHE",
+          "minimum_heavy_atom_distance_A": 3.699
+        },
+        {
+          "chain": "B",
+          "author_residue": 140,
+          "resname": "VAL",
+          "minimum_heavy_atom_distance_A": 3.873
+        },
+        {
+          "chain": "B",
+          "author_residue": 143,
+          "resname": "SER",
+          "minimum_heavy_atom_distance_A": 3.113
+        },
+        {
+          "chain": "B",
+          "author_residue": 144,
+          "resname": "PRO",
+          "minimum_heavy_atom_distance_A": 3.514
+        }
+      ],
+      "centroid_GLAnonH_A": [
+        11.547182,
+        -45.539091,
+        32.919818
+      ]
+    },
+    {
+      "protein_author_chain": "B",
+      "glycan_label_asym_id": "J",
+      "galactosyl_author_chain": "J",
+      "galactosyl_author_seq_id": 2,
+      "galactosyl_heavy_atoms": 11,
+      "calcium": {
+        "author_chain": "B",
+        "author_residue": 402,
+        "label_asym_id": "V",
+        "min_GLA_distance_A": 2.474
+      },
+      "contacts_under4A": [
+        {
+          "chain": "B",
+          "author_residue": 259,
+          "resname": "ASP",
+          "minimum_heavy_atom_distance_A": 2.62
+        },
+        {
+          "chain": "B",
+          "author_residue": 260,
+          "resname": "ASP",
+          "minimum_heavy_atom_distance_A": 2.539
+        },
+        {
+          "chain": "B",
+          "author_residue": 277,
+          "resname": "TYR",
+          "minimum_heavy_atom_distance_A": 3.711
+        },
+        {
+          "chain": "B",
+          "author_residue": 303,
+          "resname": "GLY",
+          "minimum_heavy_atom_distance_A": 3.442
+        },
+        {
+          "chain": "B",
+          "author_residue": 305,
+          "resname": "PRO",
+          "minimum_heavy_atom_distance_A": 2.822
+        },
+        {
+          "chain": "B",
+          "author_residue": 363,
+          "resname": "PRO",
+          "minimum_heavy_atom_distance_A": 3.031
+        }
+      ],
+      "centroid_GLAnonH_A": [
+        50.420818,
+        -28.070909,
+        49.253727
+      ]
+    }
+  ],
+  "sites_per_chain": 2,
+  "sites_per_dimer": 4,
+  "asymmetric_unit_dimers": 3,
+  "experimental_units": 1,
+  "calcium_in_assembly_1": [
+    {
+      "author_chain": "A",
+      "author_residue": 401,
+      "label_asym_id": "S"
+    },
+    {
+      "author_chain": "A",
+      "author_residue": 402,
+      "label_asym_id": "T"
+    },
+    {
+      "author_chain": "B",
+      "author_residue": 401,
+      "label_asym_id": "U"
+    },
+    {
+      "author_chain": "B",
+      "author_residue": 402,
+      "label_asym_id": "V"
+    }
+  ],
+  "protein_heavy_atom_completeness": {
+    "method": "Count unique heavy atom names for every observed standard amino acid against standard residue heavy atom counts; no modeled repairs.",
+    "chains_A_B_observed_author_range": "36-373 inclusive",
+    "observed_polymer_residues_per_chain": 338,
+    "observed_unique_heavy_atoms_per_chain": 2517,
+    "total_heavy_protein_atoms_AB": 5034,
+    "observed_residues_with_missing_standard_heavy_atom_count": [],
+    "scope": "Complete heavy atoms for observed residues; 18 declared N-terminal residues per chain are unmodeled. No claim of a full-length all-atom model."
+  },
+  "preparation_decisions_not_made_here": [
+    "Ca parameterization and retained water policy",
+    "hydrogen/protonation rules",
+    "box extent",
+    "ligand ring sampling",
+    "score handling"
+  ]
+}

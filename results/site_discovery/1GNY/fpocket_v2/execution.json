@@ -1,0 +1,1388 @@
+{
+  "artifacts": {
+    "input_revision.json": {
+      "bytes": 1011,
+      "sha256": "892684e02488873691196281c1da161065947189e757a543ab0ad733c90dbe34"
+    },
+    "predictions.json": {
+      "bytes": 16580,
+      "sha256": "330e36f4c36a12cf4fbb87ea997afe0c94b2bf90962763e3f9728ca10709bec4"
+    },
+    "receptor.cif": {
+      "bytes": 77812,
+      "sha256": "0531ad29649a5fb8ee883232cb6513eab41564a5c01887af9a840e8e183b27c0"
+    },
+    "receptor_out/pockets/pocket1_atm.cif": {
+      "bytes": 3452,
+      "sha256": "1fd6a04bbd25ee15a9354ddee67c5d89516e3cfdce4126e0e4f9da08ba99711c"
+    },
+    "receptor_out/pockets/pocket1_vert.pqr": {
+      "bytes": 3603,
+      "sha256": "7a9821ee6b0e10a4afe9128a43b56905c6decd9632d41bdef85b1c60d6c6c416"
+    },
+    "receptor_out/pockets/pocket2_atm.cif": {
+      "bytes": 2954,
+      "sha256": "85f1064f2d66d5d742c97712c178b9c2d13c2d6b520061c40c6b89708e3ebba9"
+    },
+    "receptor_out/pockets/pocket2_vert.pqr": {
+      "bytes": 2955,
+      "sha256": "c105017e093712391961bf4836cb05f4e5ce50592c0746d93ac7e72c806af722"
+    },
+    "receptor_out/pockets/pocket3_atm.cif": {
+      "bytes": 3008,
+      "sha256": "1d5f3076a901a2f1897ba39dcc4cd6aa48b3268f65fca2965b9e8a211f0e4bab"
+    },
+    "receptor_out/pockets/pocket3_vert.pqr": {
+      "bytes": 2811,
+      "sha256": "eefc71567d59eec70ee10c9a616cc93a8264c3412d118981ae953a88b23f4088"
+    },
+    "receptor_out/pockets/pocket4_atm.cif": {
+      "bytes": 2700,
+      "sha256": "5e57f68f88fa28ff640135aae4053e3a87e92d4728058323ae0da73cee26e9e5"
+    },
+    "receptor_out/pockets/pocket4_vert.pqr": {
+      "bytes": 2380,
+      "sha256": "699d50073dd0d9a02489ef0109f6b5438d97324a18e3ffb1b4dc28e771d5632e"
+    },
+    "receptor_out/pockets/pocket5_atm.cif": {
+      "bytes": 2606,
+      "sha256": "c90b2062dc875dbefb063f7be715b5026b3ee317d5b63bb6db3bc943ea369410"
+    },
+    "receptor_out/pockets/pocket5_vert.pqr": {
+      "bytes": 2235,
+      "sha256": "cd649b5b5f707c71e3ebf821a781db269d4b6b1e050fbf5748e4ce8bdaba07e9"
+    },
+    "receptor_out/receptor_cif.pml": {
+      "bytes": 773,
+      "sha256": "5d06f0765f321a3bea16d09ef6c0e62a9707a5425327faffc9d873edd206726b"
+    },
+    "receptor_out/receptor_cif.tcl": {
+      "bytes": 914,
+      "sha256": "218dc995fd8e00336b71e7616dd71d8f28a1d104ec7452e1ac0b2bcfefa8c4b1"
+    },
+    "receptor_out/receptor_cif_PYMOL.sh": {
+      "bytes": 35,
+      "sha256": "69d1a5aa88c375e1d77322ce8ab7e5978f7238a3cb518c0ac02e433bc313ef76"
+    },
+    "receptor_out/receptor_cif_VMD.sh": {
+      "bytes": 53,
+      "sha256": "ea7bcffbed6e4fc9bfeee2712b75289fe0fdbc408c24d88126ce38ba00d49bcb"
+    },
+    "receptor_out/receptor_info.txt": {
+      "bytes": 2792,
+      "sha256": "d61a5511a6bcd097b86fe0630f57cef7b04e7f0924753a383a49bba3135f2abc"
+    },
+    "receptor_out/receptor_out.cif": {
+      "bytes": 105808,
+      "sha256": "a21053fd0e2047619d22309de770010564d4d50667b7c315ad8d868192cc2196"
+    },
+    "receptor_out/receptor_pockets.pqr": {
+      "bytes": 8386,
+      "sha256": "0f1d583138ce325bee7c4040de37db2311c03ab2dbd0e60f578297c382849e3c"
+    },
+    "receptor_preparation.json": {
+      "bytes": 2430,
+      "sha256": "15a8b96655469007bc5c26763cd1a35a576e5589a632609e04a26f7538e3c011"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 68,
+      "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+    }
+  },
+  "center_definition": "unweighted arithmetic mean of alpha-sphere centers in pocketN_vert.pqr (three-decimal Angstrom output)",
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066/bin/fpocket",
+    "-f",
+    "receptor.cif",
+    "-m",
+    "3.4",
+    "-M",
+    "6.2",
+    "-i",
+    "15",
+    "-D",
+    "2.4",
+    "-A",
+    "3",
+    "-p",
+    "0.0",
+    "-v",
+    "300",
+    "-C",
+    "s",
+    "-e",
+    "e",
+    "-w",
+    "m"
+  ],
+  "commit": "4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+  "cpu_seconds": 0.208276,
+  "cwd": "/Users/alec/AAV-Docking-Benchmark/results/site_discovery/1GNY/fpocket_v2",
+  "ended_at_utc": "2026-10-30T20:21:33.414507+00:00",
+  "executable_sha256": "43ba162227d8b49cd261bc3e53d752b96588ff7ca72e5e639bbde838ce613eae",
+  "information_regime": "full_surface_site_agnostic",
+  "input_serialization_revision": 2,
+  "input_sha256": "0531ad29649a5fb8ee883232cb6513eab41564a5c01887af9a840e8e183b27c0",
+  "installation": {
+    "algorithm_source_modifications": [],
+    "build_command": [
+      "make",
+      "bin/fpocket",
+      "-j2",
+      "ARCH=MACOSXARM64",
+      "CFLAGS=-W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile",
+      "QCFLAGS=-O -g -ansi -Isrc/qhull/src"
+    ],
+    "build_cwd": "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+    "build_evidence": {
+      "LICENSE": "cf22a1b400afa433f68fa0ffb8c2454d3b6bebb34466693512ca63aaa52dcc6b",
+      "QHULL_COPYING.txt": "1fe14ebaaf61385d3edd0418d406fbd83d823c6645027481cc88e7b152acdc27",
+      "build.stderr.log": "1cce47725d52eedceef863fb9b466ac0f6ed347189f59ee478bc71691c90f943",
+      "build.stdout.log": "6ed1c80a6f31e3b9afef855cf608521cb400f3fcc9af84e2ee18a3d93f96a063",
+      "compiler.txt": "d23e1e266991777af51323c8a611147c28082ac12f936caa38bc345779f78483",
+      "version_banner.txt": "0d9a397e81459adb089c6f42043ffa7698519cb14681305dae11907c7845d58d"
+    },
+    "build_evidence_dir": "/Users/alec/AAV-Docking-Benchmark/results/site_methods/software/fpocket",
+    "commit": "4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+    "executable": "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066/bin/fpocket",
+    "executable_sha256": "43ba162227d8b49cd261bc3e53d752b96588ff7ca72e5e639bbde838ce613eae",
+    "method": "fpocket",
+    "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "release": "4.2.3",
+    "schema_version": 1,
+    "source_sha256": "62807fc21854e26a39e440e499cb27e1128a614509513921b83c3e239c35ae54",
+    "source_url": "https://codeload.github.com/Discngine/fpocket/tar.gz/4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066"
+  },
+  "logical_cpus": 10,
+  "method": "fpocket",
+  "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+  "no_pockets_reported": false,
+  "peak_memory_bytes": 10207232,
+  "peak_memory_scope": "process-family cumulative child high-water mark; not isolated per-run RSS",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "pocket_count": 5,
+  "predictions": [
+    {
+      "alpha_sphere_count": 34,
+      "atom_ids": [
+        [
+          "A",
+          16,
+          "",
+          "ASN",
+          "ND2"
+        ],
+        [
+          "A",
+          16,
+          "",
+          "ASN",
+          "OD1"
+        ],
+        [
+          "A",
+          17,
+          "",
+          "ALA",
+          "O"
+        ],
+        [
+          "A",
+          18,
+          "",
+          "SER",
+          "CA"
+        ],
+        [
+          "A",
+          18,
+          "",
+          "SER",
+          "CB"
+        ],
+        [
+          "A",
+          18,
+          "",
+          "SER",
+          "O"
+        ],
+        [
+          "A",
+          81,
+          "",
+          "GLN",
+          "NE2"
+        ],
+        [
+          "A",
+          81,
+          "",
+          "GLN",
+          "OE1"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "C"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CB"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CD1"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CD2"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CE2"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CE3"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CG"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CH2"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CZ2"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "CZ3"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "NE1"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP",
+          "O"
+        ],
+        [
+          "A",
+          87,
+          "",
+          "SER",
+          "CA"
+        ],
+        [
+          "A",
+          87,
+          "",
+          "SER",
+          "N"
+        ],
+        [
+          "A",
+          91,
+          "",
+          "TRP",
+          "CH2"
+        ],
+        [
+          "A",
+          127,
+          "",
+          "GLN",
+          "NE2"
+        ]
+      ],
+      "center": [
+        25.033323529411774,
+        3.6172058823529407,
+        4.703499999999998
+      ],
+      "center_A": [
+        25.033323529411774,
+        3.6172058823529407,
+        4.703499999999998
+      ],
+      "rank": 1,
+      "raw_footprint": "pockets/pocket1_atm.cif",
+      "raw_vertices": "pockets/pocket1_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          16,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          17,
+          "",
+          "ALA"
+        ],
+        [
+          "A",
+          18,
+          "",
+          "SER"
+        ],
+        [
+          "A",
+          81,
+          "",
+          "GLN"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP"
+        ],
+        [
+          "A",
+          87,
+          "",
+          "SER"
+        ],
+        [
+          "A",
+          91,
+          "",
+          "TRP"
+        ],
+        [
+          "A",
+          127,
+          "",
+          "GLN"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 16,
+          "resname": "ASN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 17,
+          "resname": "ALA"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 18,
+          "resname": "SER"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 81,
+          "resname": "GLN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 86,
+          "resname": "TRP"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 87,
+          "resname": "SER"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 91,
+          "resname": "TRP"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 127,
+          "resname": "GLN"
+        }
+      ],
+      "score": 0.3421
+    },
+    {
+      "alpha_sphere_count": 25,
+      "atom_ids": [
+        [
+          "A",
+          76,
+          "",
+          "LEU",
+          "O"
+        ],
+        [
+          "A",
+          78,
+          "",
+          "ILE",
+          "CB"
+        ],
+        [
+          "A",
+          78,
+          "",
+          "ILE",
+          "CD1"
+        ],
+        [
+          "A",
+          78,
+          "",
+          "ILE",
+          "CG1"
+        ],
+        [
+          "A",
+          78,
+          "",
+          "ILE",
+          "N"
+        ],
+        [
+          "A",
+          93,
+          "",
+          "CYS",
+          "CB"
+        ],
+        [
+          "A",
+          94,
+          "",
+          "LEU",
+          "C"
+        ],
+        [
+          "A",
+          94,
+          "",
+          "LEU",
+          "N"
+        ],
+        [
+          "A",
+          94,
+          "",
+          "LEU",
+          "O"
+        ],
+        [
+          "A",
+          95,
+          "",
+          "ALA",
+          "CB"
+        ],
+        [
+          "A",
+          95,
+          "",
+          "ALA",
+          "N"
+        ],
+        [
+          "A",
+          107,
+          "",
+          "THR",
+          "O"
+        ],
+        [
+          "A",
+          108,
+          "",
+          "LEU",
+          "CA"
+        ],
+        [
+          "A",
+          108,
+          "",
+          "LEU",
+          "CB"
+        ],
+        [
+          "A",
+          108,
+          "",
+          "LEU",
+          "CD1"
+        ],
+        [
+          "A",
+          108,
+          "",
+          "LEU",
+          "CD2"
+        ],
+        [
+          "A",
+          109,
+          "",
+          "THR",
+          "N"
+        ],
+        [
+          "A",
+          109,
+          "",
+          "THR",
+          "O"
+        ]
+      ],
+      "center": [
+        35.6372,
+        7.685560000000001,
+        19.378519999999998
+      ],
+      "center_A": [
+        35.6372,
+        7.685560000000001,
+        19.378519999999998
+      ],
+      "rank": 2,
+      "raw_footprint": "pockets/pocket2_atm.cif",
+      "raw_vertices": "pockets/pocket2_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          76,
+          "",
+          "LEU"
+        ],
+        [
+          "A",
+          78,
+          "",
+          "ILE"
+        ],
+        [
+          "A",
+          93,
+          "",
+          "CYS"
+        ],
+        [
+          "A",
+          94,
+          "",
+          "LEU"
+        ],
+        [
+          "A",
+          95,
+          "",
+          "ALA"
+        ],
+        [
+          "A",
+          107,
+          "",
+          "THR"
+        ],
+        [
+          "A",
+          108,
+          "",
+          "LEU"
+        ],
+        [
+          "A",
+          109,
+          "",
+          "THR"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 76,
+          "resname": "LEU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 78,
+          "resname": "ILE"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 93,
+          "resname": "CYS"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 94,
+          "resname": "LEU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 95,
+          "resname": "ALA"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 107,
+          "resname": "THR"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 108,
+          "resname": "LEU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 109,
+          "resname": "THR"
+        }
+      ],
+      "score": 0.2441
+    },
+    {
+      "alpha_sphere_count": 23,
+      "atom_ids": [
+        [
+          "A",
+          5,
+          "",
+          "ILE",
+          "CG2"
+        ],
+        [
+          "A",
+          6,
+          "",
+          "GLU",
+          "O"
+        ],
+        [
+          "A",
+          7,
+          "",
+          "VAL",
+          "CA"
+        ],
+        [
+          "A",
+          7,
+          "",
+          "VAL",
+          "CG1"
+        ],
+        [
+          "A",
+          7,
+          "",
+          "VAL",
+          "CG2"
+        ],
+        [
+          "A",
+          8,
+          "",
+          "ASP",
+          "CB"
+        ],
+        [
+          "A",
+          8,
+          "",
+          "ASP",
+          "N"
+        ],
+        [
+          "A",
+          8,
+          "",
+          "ASP",
+          "O"
+        ],
+        [
+          "A",
+          8,
+          "",
+          "ASP",
+          "OD2"
+        ],
+        [
+          "A",
+          11,
+          "",
+          "ASN",
+          "C"
+        ],
+        [
+          "A",
+          11,
+          "",
+          "ASN",
+          "CB"
+        ],
+        [
+          "A",
+          11,
+          "",
+          "ASN",
+          "O"
+        ],
+        [
+          "A",
+          12,
+          "",
+          "GLY",
+          "CA"
+        ],
+        [
+          "A",
+          12,
+          "",
+          "GLY",
+          "N"
+        ],
+        [
+          "A",
+          12,
+          "",
+          "GLY",
+          "O"
+        ],
+        [
+          "A",
+          46,
+          "",
+          "PHE",
+          "CB"
+        ],
+        [
+          "A",
+          46,
+          "",
+          "PHE",
+          "CD2"
+        ],
+        [
+          "A",
+          47,
+          "",
+          "ASP",
+          "O"
+        ],
+        [
+          "A",
+          48,
+          "",
+          "ILE",
+          "CD1"
+        ]
+      ],
+      "center": [
+        16.60291304347826,
+        13.005217391304345,
+        18.36786956521739
+      ],
+      "center_A": [
+        16.60291304347826,
+        13.005217391304345,
+        18.36786956521739
+      ],
+      "rank": 3,
+      "raw_footprint": "pockets/pocket3_atm.cif",
+      "raw_vertices": "pockets/pocket3_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          5,
+          "",
+          "ILE"
+        ],
+        [
+          "A",
+          6,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          7,
+          "",
+          "VAL"
+        ],
+        [
+          "A",
+          8,
+          "",
+          "ASP"
+        ],
+        [
+          "A",
+          11,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          12,
+          "",
+          "GLY"
+        ],
+        [
+          "A",
+          46,
+          "",
+          "PHE"
+        ],
+        [
+          "A",
+          47,
+          "",
+          "ASP"
+        ],
+        [
+          "A",
+          48,
+          "",
+          "ILE"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 5,
+          "resname": "ILE"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 6,
+          "resname": "GLU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 7,
+          "resname": "VAL"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 8,
+          "resname": "ASP"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 11,
+          "resname": "ASN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 12,
+          "resname": "GLY"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 46,
+          "resname": "PHE"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 47,
+          "resname": "ASP"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 48,
+          "resname": "ILE"
+        }
+      ],
+      "score": 0.2235
+    },
+    {
+      "alpha_sphere_count": 17,
+      "atom_ids": [
+        [
+          "A",
+          50,
+          "",
+          "ARG",
+          "NH2"
+        ],
+        [
+          "A",
+          83,
+          "",
+          "LYS",
+          "CB"
+        ],
+        [
+          "A",
+          83,
+          "",
+          "LYS",
+          "CD"
+        ],
+        [
+          "A",
+          83,
+          "",
+          "LYS",
+          "CE"
+        ],
+        [
+          "A",
+          83,
+          "",
+          "LYS",
+          "NZ"
+        ],
+        [
+          "A",
+          83,
+          "",
+          "LYS",
+          "O"
+        ],
+        [
+          "A",
+          84,
+          "",
+          "GLU",
+          "CB"
+        ],
+        [
+          "A",
+          84,
+          "",
+          "GLU",
+          "OE1"
+        ],
+        [
+          "A",
+          123,
+          "",
+          "ALA",
+          "O"
+        ],
+        [
+          "A",
+          124,
+          "",
+          "ARG",
+          "CA"
+        ],
+        [
+          "A",
+          124,
+          "",
+          "ARG",
+          "CG"
+        ],
+        [
+          "A",
+          124,
+          "",
+          "ARG",
+          "NH1"
+        ],
+        [
+          "A",
+          125,
+          "",
+          "ASP",
+          "CB"
+        ],
+        [
+          "A",
+          125,
+          "",
+          "ASP",
+          "N"
+        ],
+        [
+          "A",
+          125,
+          "",
+          "ASP",
+          "OD2"
+        ]
+      ],
+      "center": [
+        16.533411764705885,
+        13.599823529411763,
+        3.539470588235294
+      ],
+      "center_A": [
+        16.533411764705885,
+        13.599823529411763,
+        3.539470588235294
+      ],
+      "rank": 4,
+      "raw_footprint": "pockets/pocket4_atm.cif",
+      "raw_vertices": "pockets/pocket4_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          50,
+          "",
+          "ARG"
+        ],
+        [
+          "A",
+          83,
+          "",
+          "LYS"
+        ],
+        [
+          "A",
+          84,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          123,
+          "",
+          "ALA"
+        ],
+        [
+          "A",
+          124,
+          "",
+          "ARG"
+        ],
+        [
+          "A",
+          125,
+          "",
+          "ASP"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 50,
+          "resname": "ARG"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 83,
+          "resname": "LYS"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 84,
+          "resname": "GLU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 123,
+          "resname": "ALA"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 124,
+          "resname": "ARG"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 125,
+          "resname": "ASP"
+        }
+      ],
+      "score": 0.2061
+    },
+    {
+      "alpha_sphere_count": 15,
+      "atom_ids": [
+        [
+          "A",
+          75,
+          "",
+          "ASN",
+          "ND2"
+        ],
+        [
+          "A",
+          77,
+          "",
+          "GLN",
+          "CD"
+        ],
+        [
+          "A",
+          77,
+          "",
+          "GLN",
+          "NE2"
+        ],
+        [
+          "A",
+          77,
+          "",
+          "GLN",
+          "OE1"
+        ],
+        [
+          "A",
+          91,
+          "",
+          "TRP",
+          "O"
+        ],
+        [
+          "A",
+          92,
+          "",
+          "ASP",
+          "C"
+        ],
+        [
+          "A",
+          92,
+          "",
+          "ASP",
+          "O"
+        ],
+        [
+          "A",
+          93,
+          "",
+          "CYS",
+          "O"
+        ],
+        [
+          "A",
+          94,
+          "",
+          "LEU",
+          "CB"
+        ],
+        [
+          "A",
+          94,
+          "",
+          "LEU",
+          "CD1"
+        ],
+        [
+          "A",
+          94,
+          "",
+          "LEU",
+          "CD2"
+        ],
+        [
+          "A",
+          133,
+          "",
+          "LYS",
+          "CB"
+        ],
+        [
+          "A",
+          133,
+          "",
+          "LYS",
+          "CE"
+        ],
+        [
+          "A",
+          133,
+          "",
+          "LYS",
+          "CG"
+        ]
+      ],
+      "center": [
+        38.9202,
+        3.914266666666667,
+        11.532866666666667
+      ],
+      "center_A": [
+        38.9202,
+        3.914266666666667,
+        11.532866666666667
+      ],
+      "rank": 5,
+      "raw_footprint": "pockets/pocket5_atm.cif",
+      "raw_vertices": "pockets/pocket5_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          75,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          77,
+          "",
+          "GLN"
+        ],
+        [
+          "A",
+          91,
+          "",
+          "TRP"
+        ],
+        [
+          "A",
+          92,
+          "",
+          "ASP"
+        ],
+        [
+          "A",
+          93,
+          "",
+          "CYS"
+        ],
+        [
+          "A",
+          94,
+          "",
+          "LEU"
+        ],
+        [
+          "A",
+          133,
+          "",
+          "LYS"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 75,
+          "resname": "ASN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 77,
+          "resname": "GLN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 91,
+          "resname": "TRP"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 92,
+          "resname": "ASP"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 93,
+          "resname": "CYS"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 94,
+          "resname": "LEU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 133,
+          "resname": "LYS"
+        }
+      ],
+      "score": 0.0626
+    }
+  ],
+  "randomness": "unmodified upstream srand(time(NULL)) for Voronoi perturbation and Monte Carlo volume; no CLI seed available; wall-clock seeding and all raw outputs retained; bitwise repeatability is not claimed",
+  "ranking": "preserve upstream pocket number (original fpocket score order), not druggability or native distance",
+  "receptor_output_audit": {
+    "expected_protein_heavy_atoms": 1121,
+    "max_displacement_A": 0.0,
+    "observed_protein_heavy_atoms": 1121,
+    "status": "passed"
+  },
+  "release": "4.2.3",
+  "returncode": 0,
+  "runtime_seconds": 0.3782077079958981,
+  "schema_version": 1,
+  "source_sha256": "62807fc21854e26a39e440e499cb27e1128a614509513921b83c3e239c35ae54",
+  "started_at_utc": "2026-10-30T20:21:33.021728+00:00",
+  "status": "completed",
+  "superseded_input_sha256": "b316822409f4a5e31a016a076762c315d1595672b281bd7dfc83cab0f7b9ba5c"
+}

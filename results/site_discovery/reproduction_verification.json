@@ -1,0 +1,721 @@
+{
+  "all_tables_exact": true,
+  "comparison_policy": "Explicit derived geometry floats only; a separate square-Angstrom tolerance applies exclusively to accumulated estimated_probe_exposed_surface_area_A2. Copied coordinates, scores, provenance, ranks, counts, decisions and shapes are exact. Original and replay artifact hashes checked independently before semantic comparison.",
+  "eligible_conditions": 9,
+  "existing_raw_or_prepared_inputs_used": false,
+  "native_truth_sources": [
+    {
+      "archive": "data/archive/7MTZ.cif.gz",
+      "archive_sha256": "627f72c60e92fd1d8ce6ade5f28560d2e222a48e13f4efdf2ac735ca48250705",
+      "filename": "7MTZ.cif",
+      "sha256": "680d2c5f39ed6f4899718f55f5f0891e4cd7fbfd1fce8e9f555f45b7de64d582"
+    },
+    {
+      "archive": "data/archive/external/154L_r_b.pdb.gz",
+      "archive_sha256": "5c3988e01b35fbc4a24b418c38caa412b6c0b1ac00e99cb381ef5bd7d1000941",
+      "filename": "external/154L_r_b.pdb",
+      "sha256": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b"
+    },
+    {
+      "archive": "data/archive/external/154L_l_b.pdb.gz",
+      "archive_sha256": "45845c0d40460be2d548dcb58aa9e47a0692fbcdd968b3933c94276a253e8177",
+      "filename": "external/154L_l_b.pdb",
+      "sha256": "2fa82dfad993e0d3db4f35ff0b3a1ac3d06002019c5560050a2db3cfcd5f8033"
+    },
+    {
+      "archive": "data/archive/external/1GNY_r_b.pdb.gz",
+      "archive_sha256": "cae36d5953cbbca932bea686a1da8871301a69d0f0de1f614acc3edf75f77a3f",
+      "filename": "external/1GNY_r_b.pdb",
+      "sha256": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf"
+    },
+    {
+      "archive": "data/archive/external/1GNY_l_b.pdb.gz",
+      "archive_sha256": "14ba1151af712363a7fc00c92ba2caad505df8b733abaa01c5364463c0cebdd7",
+      "filename": "external/1GNY_l_b.pdb",
+      "sha256": "0fb5a662a78bf229dbb93736d39d108d852f4441e3bb1b1825e5ab524a2e6fd1"
+    },
+    {
+      "archive": "data/archive/external/1KJL_r_b.pdb.gz",
+      "archive_sha256": "f60f065a27449155cba73ddfd279d55bd6f73a22d8532d889822aa6ac7b7392e",
+      "filename": "external/1KJL_r_b.pdb",
+      "sha256": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae"
+    },
+    {
+      "archive": "data/archive/external/1KJL_l_b.pdb.gz",
+      "archive_sha256": "df7e827bbd586acc6facd8ea58a35203a93e4b7005888800deb3c084e6880a29",
+      "filename": "external/1KJL_l_b.pdb",
+      "sha256": "eecffcadd2404b277fbe1a86efe3f7fd7b4409a422c4f9fa9f7d8e2744f48d37"
+    },
+    {
+      "archive": "data/archive/external/1QFO_r_b.pdb.gz",
+      "archive_sha256": "6c9f915e9744bb467d1369f02345b5189696d493e7010c7f55c7673e5c21223a",
+      "filename": "external/1QFO_r_b.pdb",
+      "sha256": "c40a29bb1cca0e6c9e77c3f603afa8a5f774fa36acfc7026e38bd3aec758100a"
+    },
+    {
+      "archive": "data/archive/external/1QFO_l_b.pdb.gz",
+      "archive_sha256": "252b1fdf8778a362c550d7c4a79a33e617db6c9d4cbb73060bf67886ee264450",
+      "filename": "external/1QFO_l_b.pdb",
+      "sha256": "f95582e589f11bc5d0d9e36474a9ca81243e9ba734620fd60f205a5b7d5fc80f"
+    },
+    {
+      "archive": "data/archive/external/2J1T_r_b.pdb.gz",
+      "archive_sha256": "24629d424e30406f0eb0e8979545aa80133f54389c1211abcf72eee2ae3e330d",
+      "filename": "external/2J1T_r_b.pdb",
+      "sha256": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a"
+    },
+    {
+      "archive": "data/archive/external/2J1T_l_b.pdb.gz",
+      "archive_sha256": "55a938c344335bd3d9f5ef8026cdec0a5e625ddba71441b12f655a8422eb22c0",
+      "filename": "external/2J1T_l_b.pdb",
+      "sha256": "45a8497e4e345d525ac03099284db6594ff61885e9d3389869d748fd71b00553"
+    },
+    {
+      "archive": "data/archive/external/1PWB_r_b.pdb.gz",
+      "archive_sha256": "a08e805d7504194b57dab8724bf891a96d11ea8aae5dbc113826b65cdb96cfbd",
+      "filename": "external/1PWB_r_b.pdb",
+      "sha256": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce"
+    },
+    {
+      "archive": "data/archive/external/1PWB_l_b.pdb.gz",
+      "archive_sha256": "b5761da473954a40a8b787cfa94f3fbf3bb050c6229dc1a16eae6599e71919a1",
+      "filename": "external/1PWB_l_b.pdb",
+      "sha256": "83e14a2a4036f3d8311b661f967430e6b37a710575356956f12ec87d0b97ac1a"
+    },
+    {
+      "archive": "data/archive/external/2VUZ_r_b.pdb.gz",
+      "archive_sha256": "12133efd7d0394c4a30baa0eb19376abf73ee66874a1cddac684078b88d0847d",
+      "filename": "external/2VUZ_r_b.pdb",
+      "sha256": "010940dec8054fd63b8fcbc514caf7d3ba89da552bf6e851642cdfc031eed845"
+    },
+    {
+      "archive": "data/archive/external/2VUZ_l_b.pdb.gz",
+      "archive_sha256": "5a1b97694384fcab4198c82b9db115ac5a5c0b4d6c3ce590870b609c842a36f3",
+      "filename": "external/2VUZ_l_b.pdb",
+      "sha256": "9bd92f9e6803830fcf44e41f710ce71f061ad05583091d601faef0845a9d2b50"
+    }
+  ],
+  "network_used": false,
+  "numeric_tolerance": 1e-10,
+  "predictor_archives": {
+    "corrected_completed_conditions": 16,
+    "corrected_workflow_failures": 2,
+    "verified_corrected_method_conditions": 18,
+    "verified_initial_CIF_reader_failures": 9
+  },
+  "schema_version": 2,
+  "scientific_predictors_executed": false,
+  "source_evaluation_sha256": "d5043c7160598b100b9c8b78d792ec26a3abde60b88cfa1d288d9fb8ebc57a5f",
+  "status": "verified",
+  "surface_area_tolerance_A2": 1e-06,
+  "surface_area_tolerance_field": "estimated_probe_exposed_surface_area_A2",
+  "surface_max_numeric_difference_by_field": {
+    "center_A": 0.0,
+    "estimated_probe_exposed_surface_area_A2": 0.0,
+    "footprint_max_atom_distance_A": 0.0,
+    "footprint_radius_A": 0.0,
+    "min_center_separation_A": 0.0,
+    "patch_radius_A": 0.0,
+    "probe_radius_A": 0.0
+  },
+  "surface_nulls": [
+    {
+      "all_replicates_exact": true,
+      "condition_id": "aav9_holo",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "1c1c1955082757dd08de07b866b5eba452ee2f20b56182b53c5833cc375bd6d6",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "chain_proposal_whole_capsid_max_A": 0.0,
+          "fit_CA_rmsd_A": 0.0,
+          "rotation": 0.0,
+          "translation": 0.0,
+          "whole_capsid_max_CA_displacement_A": 0.0,
+          "whole_capsid_refinement_CA_rmsd_A": 0.0
+        }
+      },
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    },
+    {
+      "all_replicates_exact": true,
+      "condition_id": "aav9_apo",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "6fc12a7f55bc0f92113cbb7b1c74defc39e0f5a227fdee94695860a74411e41e",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "chain_proposal_whole_capsid_max_A": 0.0,
+          "fit_CA_rmsd_A": 0.0,
+          "rotation": 0.0,
+          "translation": 0.0,
+          "whole_capsid_max_CA_displacement_A": 0.0,
+          "whole_capsid_refinement_CA_rmsd_A": 0.0
+        }
+      },
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    },
+    {
+      "all_replicates_exact": true,
+      "condition_id": "154L",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "3f02b7e48b6dbff2c5f1efbf1b33b25299f6158894e9f83a9a8436d7796a814f",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": null,
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    },
+    {
+      "all_replicates_exact": true,
+      "condition_id": "1GNY",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "81815f92c65842b1735da076c288dbe2617ba1942ce9e8e8a656fc169ed303d5",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": null,
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    },
+    {
+      "all_replicates_exact": true,
+      "condition_id": "1KJL",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "87dcdc8663ec5d07cffd2149a4fadbf28c5e251961603e8de2b492fc57ceac0c",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": null,
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    },
+    {
+      "all_replicates_exact": true,
+      "condition_id": "1QFO",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "c495479a3f3d8f6ce12f66b98afe9efad7057f42d1cfccfa872bdad731d205af",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": null,
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    },
+    {
+      "all_replicates_exact": true,
+      "condition_id": "2J1T",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "0e2c4692f7e2e0b715ccfbe99784f6bf386a8b9ee065e23ceefb3aaef61c3c6b",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": null,
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    },
+    {
+      "all_replicates_exact": true,
+      "condition_id": "1PWB",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "4eedaf7859330f54bc1c56643291474c42ecfffda0e85c86357ac624b43ebc76",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": null,
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    },
+    {
+      "all_replicates_exact": true,
+      "condition_id": "2VUZ",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "center_A": 0.0,
+        "estimated_probe_exposed_surface_area_A2": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "min_center_separation_A": 0.0,
+        "patch_radius_A": 0.0,
+        "probe_radius_A": 0.0
+      },
+      "record_sha256": "54d2e0d98001ccbda606291c66b716159bae53549e08c473bb421b294d639617",
+      "replicates_resampled": 100,
+      "source_symmetry_recomputed": null,
+      "surface_area_recomputation": {
+        "exact_recomputation": true,
+        "max_numeric_difference": 0.0,
+        "max_numeric_difference_by_field": {
+          "estimated_probe_exposed_surface_area_A2": 0.0
+        }
+      }
+    }
+  ],
+  "table_max_numeric_difference_by_field": {
+    "CA_rmsd_A": 0.0,
+    "best_returned_distance_A": 0.0,
+    "center": 0.0,
+    "center_A": 0.0,
+    "center_to_native_atom_A": 0.0,
+    "common_footprint_radius_A": 0.0,
+    "contact_cutoff_A": 0.0,
+    "coordinates": 0.0,
+    "evaluated_center_A": 0.0,
+    "footprint_max_atom_distance_A": 0.0,
+    "footprint_radius_A": 0.0,
+    "precision": 0.0,
+    "probability": 0.0,
+    "recall": 0.0,
+    "rotation": 0.0,
+    "score": 0.0,
+    "top1_common_interface_recall": 0.0,
+    "top1_distance_A": 0.0,
+    "top1_method_interface_recall": 0.0,
+    "top1_success_3A": 0.0,
+    "top1_success_4A": 0.0,
+    "top1_success_5A": 0.0,
+    "top5_common_union_interface_recall": 0.0,
+    "top5_method_union_interface_recall": 0.0,
+    "top5_min_distance_A": 0.0,
+    "top5_success_3A": 0.0,
+    "top5_success_4A": 0.0,
+    "top5_success_5A": 0.0,
+    "translation": 0.0
+  },
+  "tables": [
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/aav9_holo/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/aav9_holo/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "probability": 0.0,
+        "recall": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/aav9_apo/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/aav9_apo/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "CA_rmsd_A": 0.0,
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "probability": 0.0,
+        "recall": 0.0,
+        "rotation": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0,
+        "translation": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/154L/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/154L/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "probability": 0.0,
+        "recall": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/1GNY/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/1GNY/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "probability": 0.0,
+        "recall": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/1KJL/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/1KJL/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "probability": 0.0,
+        "recall": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/1QFO/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/1QFO/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/2J1T/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/2J1T/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/1PWB/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/1PWB/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "probability": 0.0,
+        "recall": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/2VUZ/evaluation_reference.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "contact_cutoff_A": 0.0,
+        "coordinates": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/2VUZ/evaluation_details.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "best_returned_distance_A": 0.0,
+        "center": 0.0,
+        "center_A": 0.0,
+        "center_to_native_atom_A": 0.0,
+        "common_footprint_radius_A": 0.0,
+        "evaluated_center_A": 0.0,
+        "footprint_max_atom_distance_A": 0.0,
+        "footprint_radius_A": 0.0,
+        "precision": 0.0,
+        "probability": 0.0,
+        "recall": 0.0,
+        "score": 0.0,
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0
+      }
+    },
+    {
+      "exact_recomputation": true,
+      "file": "results/site_discovery/evaluation.json",
+      "max_numeric_difference": 0.0,
+      "max_numeric_difference_by_field": {
+        "top1_common_interface_recall": 0.0,
+        "top1_distance_A": 0.0,
+        "top1_method_interface_recall": 0.0,
+        "top1_success_3A": 0.0,
+        "top1_success_4A": 0.0,
+        "top1_success_5A": 0.0,
+        "top5_common_union_interface_recall": 0.0,
+        "top5_method_union_interface_recall": 0.0,
+        "top5_min_distance_A": 0.0,
+        "top5_success_3A": 0.0,
+        "top5_success_4A": 0.0,
+        "top5_success_5A": 0.0
+      }
+    }
+  ],
+  "verifier_sha256": "4b486c58be30802c02697f0b4220a766dfaa5d3079e0c4b33de4577b696f9911"
+}

@@ -1,0 +1,54 @@
+### clustrmsd output ###
+
+Clustering parameters 
+> linkage_type=average
+> criterion=distance
+> clust_cutoff=2.50
+> min_population=1
+
+-----------------------------------------------
+
+Total # of clusters: 6
+
+-----------------------------------------------
+Cluster 1 (#1, n=4, top1_avg_score = -117.28)
+
+clt_rank	model_name	score
+1	flexref_5.pdb	-117.28
+2	flexref_9.pdb	-109.32
+3	flexref_8.pdb	-106.70	*
+4	flexref_7.pdb	-105.46
+
+-----------------------------------------------
+Cluster 2 (#3, n=2, top1_avg_score = -99.22)
+
+clt_rank	model_name	score
+1	flexref_4.pdb	-99.22
+2	flexref_1.pdb	-85.62	*
+
+-----------------------------------------------
+Cluster 3 (#6, n=1, top1_avg_score = -93.21)
+
+clt_rank	model_name	score
+1	flexref_6.pdb	-93.21	*
+
+-----------------------------------------------
+Cluster 4 (#4, n=1, top1_avg_score = -90.54)
+
+clt_rank	model_name	score
+1	flexref_11.pdb	-90.54	*
+
+-----------------------------------------------
+Cluster 5 (#2, n=3, top1_avg_score = -85.80)
+
+clt_rank	model_name	score
+1	flexref_2.pdb	-85.80
+2	flexref_3.pdb	-84.73	*
+3	flexref_10.pdb	-58.29
+
+-----------------------------------------------
+Cluster 6 (#5, n=1, top1_avg_score = -78.26)
+
+clt_rank	model_name	score
+1	flexref_12.pdb	-78.26	*
+-----------------------------------------------

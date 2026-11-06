@@ -1,0 +1,48 @@
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/fpmain.c -o obj/fpmain.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/psorting.c -o obj/psorting.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/pscoring.c -o obj/pscoring.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/utils.c -o obj/utils.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/pertable.c -o obj/pertable.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/memhandler.c -o obj/memhandler.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/voronoi.c -o obj/voronoi.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/sort.c -o obj/sort.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/calc.c -o obj/calc.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/writepdb.c -o obj/writepdb.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/rpdb.c -o obj/rpdb.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/tparams.c -o obj/tparams.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/fparams.c -o obj/fparams.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/pocket.c -o obj/pocket.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/refine.c -o obj/refine.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/descriptors.c -o obj/descriptors.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/aa.c -o obj/aa.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/fpocket.c -o obj/fpocket.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/write_visu.c -o obj/write_visu.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/fpout.c -o obj/fpout.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/atom.c -o obj/atom.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/writepocket.c -o obj/writepocket.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/voronoi_lst.c -o obj/voronoi_lst.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/asa.c -o obj/asa.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/clusterlib.c -o obj/clusterlib.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/energy.c -o obj/energy.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/topology.c -o obj/topology.o
+clang -W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile -c src/read_mmcif.c -o obj/read_mmcif.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/geom2.c -o src/qhull/src/libqhull/geom2.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/geom.c -o src/qhull/src/libqhull/geom.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/global.c -o src/qhull/src/libqhull/global.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/io.c -o src/qhull/src/libqhull/io.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/libqhull.c -o src/qhull/src/libqhull/libqhull.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/mem.c -o src/qhull/src/libqhull/mem.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/merge.c -o src/qhull/src/libqhull/merge.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/poly2.c -o src/qhull/src/libqhull/poly2.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/poly.c -o src/qhull/src/libqhull/poly.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/qset.c -o src/qhull/src/libqhull/qset.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/random.c -o src/qhull/src/libqhull/random.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/rboxlib.c -o src/qhull/src/libqhull/rboxlib.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/stat.c -o src/qhull/src/libqhull/stat.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/user.c -o src/qhull/src/libqhull/user.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/usermem.c -o src/qhull/src/libqhull/usermem.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/userprintf.c -o src/qhull/src/libqhull/userprintf.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/libqhull/userprintf_rbox.c -o src/qhull/src/libqhull/userprintf_rbox.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/qvoronoi/qvoronoi.c -o src/qhull/src/qvoronoi/qvoronoi.o
+clang -O -g -ansi -Isrc/qhull/src -c src/qhull/src/qconvex/qconvex.c -o src/qhull/src/qconvex/qconvex.o
+LD_LIBRARY_PATH=plugins/MACOSXARM64/molfile clang obj/fpmain.o obj/psorting.o obj/pscoring.o obj/utils.o obj/pertable.o obj/memhandler.o obj/voronoi.o obj/sort.o obj/calc.o obj/writepdb.o obj/rpdb.o obj/tparams.o obj/fparams.o obj/pocket.o obj/refine.o obj/descriptors.o obj/aa.o obj/fpocket.o obj/write_visu.o obj/fpout.o obj/atom.o obj/writepocket.o obj/voronoi_lst.o obj/asa.o obj/clusterlib.o obj/energy.o obj/topology.o obj/read_mmcif.o src/qhull/src/libqhull/geom2.o src/qhull/src/libqhull/geom.o src/qhull/src/libqhull/global.o src/qhull/src/libqhull/io.o src/qhull/src/libqhull/libqhull.o src/qhull/src/libqhull/mem.o src/qhull/src/libqhull/merge.o src/qhull/src/libqhull/poly2.o src/qhull/src/libqhull/poly.o src/qhull/src/libqhull/qset.o src/qhull/src/libqhull/random.o src/qhull/src/libqhull/rboxlib.o src/qhull/src/libqhull/stat.o src/qhull/src/libqhull/user.o src/qhull/src/libqhull/usermem.o src/qhull/src/libqhull/userprintf.o src/qhull/src/libqhull/userprintf_rbox.o src/qhull/src/qvoronoi/qvoronoi.o src/qhull/src/qconvex/qconvex.o -o bin/fpocket -lm -Lplugins/MACOSXARM64/molfile plugins/MACOSXARM64/molfile/libmolfile_plugin.a -lstdc++

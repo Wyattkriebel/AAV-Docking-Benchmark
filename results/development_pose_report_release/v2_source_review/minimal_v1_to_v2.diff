@@ -1,0 +1,258 @@
+diff --git a/aav_benchmark/qualified_pose.py b/aav_benchmark/qualified_pose_v2.py
+index 6d6ef2f..b94b881 100644
+--- a/aav_benchmark/qualified_pose.py
++++ b/aav_benchmark/qualified_pose_v2.py
+@@ -1,4 +1,4 @@
+-"""Portable evaluation of the frozen predicted-box/oracle pose comparison.
++"""Atom-order-corrected evaluation of the frozen development pose comparison.
+ 
+ Atomic truth enters only after the fixed workflow ledger has been checked. The
+ default refuses incomplete execution; a pending-only inspection never reports
+@@ -27,7 +27,7 @@ from .metrics import contact_metrics, contact_pairs, fit_receptor
+ from .provenance import sha256, write_json, write_text_atomic
+ from .site_geometry import read_receptor
+ from .site_prediction_verification import restore_site_inputs
+-from .site_reproduction import compare_site_values
++from .development_report_replay import compare_development_report_values
+ 
+ 
+ _DERIVED_FLOAT_FIELDS = frozenset({
+@@ -137,6 +137,102 @@ def pooled_poses(boxes, seed, site_budget):
+     return [{**row, "pooled_rank": i} for i, row in enumerate(rows, 1)]
+ 
+ 
++_V1_EVALUATOR_SHA256 = "c77333c8fbda7fe81f79fbe99211a65f3c91f51382daaa80f2fb89bd12dfc525"
++
++
++def _atom_order_permutation(actual_names, canonical_names):
++    """Require a complete named full-parent bijection, never a scored-core mask."""
++    for names in (actual_names, canonical_names):
++        if (not isinstance(names, list) or not names
++                or any(not isinstance(name, str) or not name for name in names)
++                or len(names) != len(set(names))):
++            raise ValueError("Atom order requires nonempty unique string name lists")
++    if len(actual_names) != len(canonical_names) or set(actual_names) != set(canonical_names):
++        raise ValueError("Box and canonical full-parent atom names are not a complete bijection")
++    actual_index = {name: index for index, name in enumerate(actual_names)}
++    return [actual_index[name] for name in canonical_names]
++
++
++def canonicalize_pooled_poses(rows, boxes, canonical_names):
++    """Permute raw named rows into parent order without changing coordinates/ranks."""
++    by_box = {box["id"]: box for box in boxes}
++    if len(by_box) != len(boxes):
++        raise ValueError("Duplicate source box identity for atom-order correction")
++    corrected = []
++    for row in rows:
++        if row.get("box_id") not in by_box:
++            raise ValueError("Pooled pose refers to an unknown source box")
++        box = by_box[row["box_id"]]
++        permutation = _atom_order_permutation(box.get("names"), canonical_names)
++        try:
++            xyz = np.asarray(row["coordinates"])
++        except (TypeError, ValueError) as error:
++            raise ValueError("Raw full-parent coordinates must be a finite numeric Nx3 array") from error
++        if (xyz.dtype.kind not in "fiu" or xyz.shape != (len(permutation), 3)
++                or not np.isfinite(xyz).all()):
++            raise ValueError("Raw full-parent coordinates must be a finite numeric Nx3 array")
++        coordinates = xyz[permutation].copy()
++        if not np.array_equal(coordinates[np.argsort(permutation)], xyz):
++            raise ValueError("Atom-order correction changed coordinate values")
++        corrected.append({**row, "coordinates": coordinates})
++    return corrected
++
++
++def _atom_order_reference(evidence, directory, reference_raw):
++    manifest = evidence.json(Path(directory) / "inputs/manifest.json")
++    entries = [entry for entry in manifest["files"] if entry["filename"] == "reference.json"]
++    if len(entries) != 1 or hashlib.sha256(reference_raw).hexdigest() != entries[0]["sha256"]:
++        raise ValueError("Atom-order reference is not bound to its archived bytes")
++    entry = entries[0]
++    return {"archive": (Path(directory) / "inputs" / entry["archive"]).as_posix(),
++            "archive_sha256": entry["archive_sha256"], "reference_sha256": entry["sha256"]}
++
++
++def _geometry_baseline(evidence, directory, sdf):
++    manifest = evidence.json(Path(directory) / "inputs/manifest.json")
++    entries = [entry for entry in manifest["files"] if entry["filename"] == "ligand.sdf"]
++    if len(entries) != 1 or hashlib.sha256(sdf).hexdigest() != entries[0]["sha256"]:
++        raise ValueError("Legacy geometry baseline is not bound to its archived SDF")
++    entry = entries[0]
++    return {"source": "archived_independent_legacy_SDF",
++            "archive": (Path(directory) / "inputs" / entry["archive"]).as_posix(),
++            "archive_sha256": entry["archive_sha256"], "uncompressed_sha256": entry["sha256"],
++            "exact_executed_box_PDBQT_baseline": False,
++            "coordinate_lineage": "same independent initializer; SDF coordinates precede PDBQT and box-translation coordinate rounding",
++            "applies_to_fields": ["max_heavy_bond_length_change_from_input_A",
++                                  "max_ring_pair_distance_change_from_input_A",
++                                  "glycosidic_links[].input_distance_A"]}
++
++
++def _atom_order_provenance(boxes, canonical_names, canonical_reference, geometry_baseline=None):
++    return [{"box_id": box["id"], "raw_box_names": list(box["names"]),
++             "canonical_parent_names": list(canonical_names),
++             "canonical_to_raw_indices": _atom_order_permutation(box["names"], canonical_names),
++             "raw_reference": box["atom_order_reference"], "canonical_reference": canonical_reference,
++             "geometry_diagnostic_baseline": geometry_baseline,
++             "operation": "coordinate-row permutation only; no coordinate arithmetic, loss or duplication"}
++            for box in boxes if "names" in box]
++
++
++def _implementation_amendment(evidence, relative, expected, freeze):
++    if (not isinstance(expected, str) or re.fullmatch(r"[0-9a-f]{64}", expected) is None
++            or not isinstance(relative, (str, Path))):
++        raise ValueError("V2 requires an explicit checksum-pinned implementation amendment")
++    amendment = evidence.json(relative, expected)
++    required = {"schema_version": 1, "implementation": "qualified_pose_v2",
++                "evaluator_sha256": sha256(Path(__file__)),
++                "superseded_evaluator_sha256": _V1_EVALUATOR_SHA256,
++                "correction": "bijective_atom_name_coordinate_permutation",
++                "outcome_timing": "after_invalid_v1_and_corrected_diagnostic_outcomes",
++                "invalid_v1_outcomes_consulted": True, "corrected_diagnostic_outcomes_consulted": True,
++                "configuration_sha256": freeze["configuration_sha256"],
++                "atomic_reference_ledger_sha256": freeze["atomic_reference_ledger_sha256"]}
++    if any(type(amendment.get(key)) is not type(value) or amendment[key] != value
++           for key, value in required.items()):
++        raise ValueError("V2 amendment must bind this evaluator and disclose post-outcome correction timing")
++    return {"path": Path(relative).as_posix(), "sha256": expected, "record": amendment}
++
++
+ def accuracy_summary(rows, field):
+     """Zero recovery for failed eligible pools; no denominator shrinking."""
+     values = [float(row[field]) for row in rows]
+@@ -269,6 +365,7 @@ def _all_execution(evidence, config, freeze, inventory, oracle):
+                     raise ValueError("The original frozen six-Angstrom neighborhood rule changed")
+                 box["preparation"] = prep
+                 box["names"] = reference["names"]
++                box["atom_order_reference"] = _atom_order_reference(evidence, relative, files["reference.json"])
+                 runs_path = relative / "runs.json"
+                 if not (evidence.root / runs_path).is_file():
+                     pending.append(f"{cid}/{method}/{box_id}:missing")
+@@ -496,7 +593,8 @@ def aggregate_conditions(rows, scope, method, site_budget, alignment):
+             "note": "three seeds averaged within each complex first; equal complex weighting; no independent-family reliability interval"}
+ 
+ 
+-def generate_qualified_pose_report(root, *, allow_pending=False):
++def generate_qualified_pose_report(root, *, allow_pending=False, implementation_amendment=None,
++                                   implementation_amendment_sha256=None):
+     root = Path(root).resolve()
+     evidence = Evidence(root)
+     config = evidence.json("benchmarks/blind_pose_experiment.json")
+@@ -519,6 +617,8 @@ def generate_qualified_pose_report(root, *, allow_pending=False):
+                 "denominator": denominator, "pending": pending}, "# Qualified pose report pending\n\nThe frozen run denominator is incomplete. No atomic accuracy aggregate is reported.\n"
+     if denominator["terminal_seed_runs"] != 156:
+         raise ValueError("The full frozen seed denominator is not terminal")
++    amendment = _implementation_amendment(evidence, implementation_amendment,
++                                           implementation_amendment_sha256, freeze)
+     records = {row["case_id"]: row for row in ledger["cases"]}
+     qualified = [row for row in ledger["cases"] if row["atomic_pose_eligible"]]
+     if (len(qualified) != 6 or sum(row["full_ligand_eligible"] for row in qualified) != 2
+@@ -542,14 +642,19 @@ def generate_qualified_pose_report(root, *, allow_pending=False):
+             fits, contacts, residues = _protein_alignment(keys, protein, native_keys, native_protein, native)
+             native_index = {key: i for i, key in enumerate(native_keys)}
+             old = _old_inputs(evidence, cid)
+-            mapping = graph = None
++            mapping = graph = canonical_names = canonical_reference = geometry_baseline = None
+             if old is not None:
+                 reference = json.loads(old["reference.json"])
++                canonical_names = reference["names"]
++                canonical_reference = _atom_order_reference(evidence, Path("results/development") / cid, old["reference.json"])
++                geometry_baseline = _geometry_baseline(evidence, Path("results/development") / cid, old["ligand.sdf"])
+                 mapping = qualified_atom_map(record, reference)
+                 graph = ParentGeometry(old["ligand.sdf"], reference, mapping)
+             contexts[cid] = {"record": record, "native": native, "protein": protein, "native_protein": native_protein,
+                              "native_keys": native_keys, "fits": fits, "contacts": contacts, "mapping": mapping,
+                              "graph": graph, "controls": controls, "interface_residue_count": len(residues),
++                             "canonical_names": canonical_names, "canonical_reference": canonical_reference,
++                             "geometry_baseline": geometry_baseline,
+                              "source_to_native_indices": [native_index[key] for key in keys]}
+     rows = []
+     for condition in conditions:
+@@ -571,11 +676,15 @@ def generate_qualified_pose_report(root, *, allow_pending=False):
+                       scored_prepared_residue_numbers=record["scored_prepared_residue_numbers"],
+                       native_controls=context["controls"], native_interface_residue_count=context["interface_residue_count"],
+                       atom_mapping=context["mapping"], chemical_scored_atom_map_count=len(context["graph"].scored_maps) if context["graph"] else None,
+-                      receptor_alignments={label: fit["metadata"] for label, fit in context["fits"].items()}, site_budgets={})
++                      receptor_alignments={label: fit["metadata"] for label, fit in context["fits"].items()}, site_budgets={},
++                      atom_order_correction=_atom_order_provenance(condition["boxes"], context["canonical_names"],
++                                                                  context["canonical_reference"], context["geometry_baseline"]),
++                      geometry_diagnostic_baseline=context["geometry_baseline"])
+         for budget in config["candidate_budgets"]:
+             evaluations = []
+             for seed in config["seeds"]:
+                 pool = pooled_poses(condition["boxes"], seed, budget)
++                pool = canonicalize_pooled_poses(pool, condition["boxes"], context["canonical_names"])
+                 scored = _score_pool(pool, context["native"], context["protein"], context["native_protein"],
+                                      context["native_keys"], context["fits"], context["contacts"], context["graph"],
+                                      context["source_to_native_indices"]) if pool else []
+@@ -611,11 +720,14 @@ def generate_qualified_pose_report(root, *, allow_pending=False):
+                                "modeled_core_complexes": 4, "atomic_eligible_method_conditions": 18,
+                                "atomic_reference_ineligible_method_conditions": 9},
+                "conditions": rows, "aggregates": aggregates, "paired_contrasts": paired, "source_sha256": evidence.sources,
+-               "evaluator_sha256": sha256(Path(__file__)), "metrics_sha256": sha256(Path(__file__).with_name("metrics.py")),
+-               "comparison_code_sha256": sha256(Path(__file__).with_name("site_reproduction.py")),
++               "evaluator_sha256": sha256(Path(__file__)), "implementation_amendment": amendment,
++               "superseded_evaluator_sha256": _V1_EVALUATOR_SHA256,
++               "metrics_sha256": sha256(Path(__file__).with_name("metrics.py")),
++               "comparison_code_sha256": sha256(Path(__file__).with_name("development_report_replay.py")),
+                "limitations": ["Existing development systems, not untouched families or a confirmatory precision claim.",
+                    "Core-only recovery is not complete-ligand recovery; full parent graphs were never truncated to fit the reference.",
+                    "RMSD successes are geometric endpoints; ring-pucker and glycosidic torsion energetic validity remain uncertified.",
++                   "Geometry change-from-input diagnostics use the archived independent legacy SDF conformer before PDBQT/translation rounding, not the exact executed box PDBQT coordinates.",
+                    "All docking uses the frozen dry protein model and six-Angstrom whole-chain neighborhood selection; no general eight-Angstrom Vina coverage claim.",
+                    "Top5 site search uses up to five boxes versus one oracle box; total compute is not matched.",
+                    "No retained near-native pose does not prove absence among internal unretained sampling candidates."]}
+@@ -624,6 +736,7 @@ def generate_qualified_pose_report(root, *, allow_pending=False):
+ 
+ def render_qualified_pose_markdown(summary):
+     lines = ["# Qualified predicted-site and oracle-site pose results", "",
++             "V2 corrects atom ordering by a complete named coordinate-row permutation. This implementation amendment follows invalid v1 results and corrected diagnostic outcomes; it is not pre-outcome.", "",
+              "This development comparison separates complete modeled ligands from independently qualified modeled cores. No core result is called whole-ligand recovery.", "",
+              f"The fixed workflow contains {summary['denominator']['eligible_conditions']} conditions and {summary['denominator']['scheduled_seed_runs']} scheduled seed runs. Atomic accuracy is eligible for six external complexes: two complete models and four modeled cores. AAV9 and 154L remain atomic-reference ineligible. Unsupported 1QFO chemistry remains zero workflow recovery within the eligible core denominator.", "",
+              "Each cell below is the mean of three seed-specific success indicators per complex, then the equal-weight mean across complexes. The primary cutoff is receptor-aligned RMSD ≤2 Å. Site budget means searched candidate boxes; pose rank means energy-ranked returned poses within that site budget.", ""]
+@@ -648,21 +761,25 @@ def render_qualified_pose_markdown(summary):
+     lines.extend(["## Interpretation and verification", "",
+         "No independent ligand fit is used. Global alignment uses all corresponding protein backbone N/CA/C/O atoms. Local alignment uses backbone atoms of native qualified-core contact residues, solely during evaluation. Chemically valid full-parent automorphisms preserve source graph/stereochemistry; the same chosen map supplies RMSD and contacts. Native controls give zero RMSD, full native contacts and 5 Å error after the known [3,4,0] Å translation.", "",
+         "Per-pose 3D stereochemistry, bond-length changes, ring-distance changes, linkage distances and full-parent/protein severe overlaps are recorded separately. These diagnostics do not certify ring pucker, glycosidic torsion energies or overall physical validity. Primary RMSD success is not silently converted into a pose-validity claim.", "",
++        "The geometry fields named change_from_input and glycosidic input_distance_A use the archived independent legacy SDF conformer. It shares the executed ligand's initializer lineage but precedes PDBQT and box-translation coordinate rounding; it is not an exact executed-box PDBQT baseline.", "",
+         "All failures retain their eligible workflow denominator. Three seeds, capsid copies and repeated boxes are not independent biological observations. Full-model and core strata are small development samples; no family-level reliability interval or universal docking conclusion is earned.", "",
+         "Inputs restore from checked-in preparation archives, while native coordinates enter only this evaluator after execution completeness is verified. Frozen configuration, reference ledger, original structural sources, input/pose hashes, commands and raw Vina log tables are checked. The summary retains every pooled candidate identity and source checksum.", "",
+-        "Machine-readable results: [qualified_pose_summary.json](../results/blind_pose/qualified_pose_summary.json). Atomic eligibility: [atomic_reference_ledger.json](../benchmarks/atomic_reference_ledger.json).", ""])
++        "Machine-readable results: [qualified_pose_v2_summary.json](../results/development_pose_report_release/qualified_pose_v2_summary.json). Atomic eligibility: [atomic_reference_ledger.json](../benchmarks/atomic_reference_ledger.json).", ""])
+     return "\n".join(lines)
+ 
+ 
+ def write_qualified_pose_report(root, *, summary_output=None, markdown_output=None, check=False, allow_pending=False,
+-                                numeric_tolerance=0.0):
++                                numeric_tolerance=0.0, implementation_amendment=None,
++                                implementation_amendment_sha256=None):
+     if (isinstance(numeric_tolerance, bool) or not math.isfinite(numeric_tolerance)
+             or not 0 <= numeric_tolerance <= 1e-8):
+         raise ValueError("Numeric tolerance must be finite, explicit and at most1e-8")
+     root = Path(root).resolve()
+-    summary, markdown = generate_qualified_pose_report(root, allow_pending=allow_pending)
+-    summary_path = Path(summary_output) if summary_output else root / "results/blind_pose/qualified_pose_summary.json"
+-    markdown_path = Path(markdown_output) if markdown_output else root / "docs/QUALIFIED_BLIND_POSE_RESULTS.md"
++    summary, markdown = generate_qualified_pose_report(root, allow_pending=allow_pending,
++        implementation_amendment=implementation_amendment,
++        implementation_amendment_sha256=implementation_amendment_sha256)
++    summary_path = Path(summary_output) if summary_output else root / "results/development_pose_report_release/qualified_pose_v2_summary.json"
++    markdown_path = Path(markdown_output) if markdown_output else root / "docs/QUALIFIED_BLIND_POSE_V2_RESULTS.md"
+     for path, content in [(summary_path, json.dumps(summary, sort_keys=True, indent=2, allow_nan=False) + "\n"), (markdown_path, markdown)]:
+         if check:
+             if not path.is_file():
+@@ -670,11 +787,9 @@ def write_qualified_pose_report(root, *, summary_output=None, markdown_output=No
+             if path.read_text() != content:
+                 if path != summary_path or numeric_tolerance == 0:
+                     raise ValueError(f"Qualified pose report is stale: {path}")
+-                comparison = compare_site_values(json.loads(path.read_text()), summary,
+-                    numeric_tolerance=numeric_tolerance, derived_fields=_DERIVED_FLOAT_FIELDS)
+-                changed = {k: v for k, v in comparison["max_numeric_difference_by_field"].items() if v}
+-                print(f"Qualified pose JSON derived-float comparison: maximum difference {comparison['max_numeric_difference']:.17g}; "
+-                      f"explicit tolerance {numeric_tolerance:g}; differences by field {changed}")
++                comparison = compare_development_report_values(json.loads(path.read_text()), summary,
++                    numeric_tolerance=numeric_tolerance)
++                print(f"Qualified pose V2 JSON derived-float comparison: {comparison}")
+         else:
+             write_text_atomic(path, content)
+     return summary_path, markdown_path

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "verified_completed_outputs_adopted_without_rerun",
+  "job_id": "strict/2RDK/fpocket/box01/s104729",
+  "completion_proof": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/orphan_completion_proof.json",
+    "sha256": "7312e033822d71b9221339ccfd45de783ee95261c96015cf06d12502793c7e8d",
+    "bytes": 109868
+  },
+  "recovery_plan": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_plan.json",
+    "sha256": "330bf31f9061d435e615e4e23712e627255e1774aeb82c70aee2af88c86dba38",
+    "bytes": 1671
+  },
+  "recovery_freeze": {
+    "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_freeze.json",
+    "sha256": "f131dbcffc56a7b6e83ec93b6a085ddf7478d5aa523ad5c1b4214a9e8cce5e9c",
+    "bytes": 1292
+  },
+  "original_plan": {
+    "path": "results/haddock_paired_cohort/prepared_plan.json",
+    "sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2",
+    "bytes": 297244
+  },
+  "original_driver_failure": {
+    "path": "results/haddock_paired_cohort/execution_driver.log",
+    "sha256": "573eda32b82f5886ec2f2325f5a096d17761983090c817479ef4ce9b1ad2b757",
+    "bytes": 1690
+  },
+  "native_rerun": false,
+  "original_native_return_code": null,
+  "original_process_CPU_seconds": null,
+  "native_self_reported_elapsed_seconds": 373,
+  "no_accuracy_evaluation": true
+}

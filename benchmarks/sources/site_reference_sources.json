@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "retrieved_date": "2026-10-30",
+  "review_limits": "Primary publications were read at the stated scope; RCSB/wwPDB structural and validation metadata were inspected. Full density maps were not downloaded or inspected. Exact-model atomic claims remain unresolved.",
+  "primary_sources": [
+    {
+      "source_id": "154L_primary_structure",
+      "pdb_id": "154L",
+      "title": "The refined structures of goose lysozyme and its complex with a bound trisaccharide show that the \"goose-type\" lysozymes lack a catalytic aspartate residue.",
+      "doi": "10.1016/S0022-2836(95)80038-7",
+      "pubmed_id": 7823320,
+      "primary_publication_url": "https://doi.org/10.1016/S0022-2836(95)80038-7",
+      "deposition_url": "https://www.rcsb.org/structure/154L",
+      "review_scope": "primary_publication_abstract_as_reproduced_by_deposition; 2J1T also publisher PDF abstract",
+      "retrieved_date": "2026-10-30",
+      "metadata_url": "https://data.rcsb.org/rest/v1/core/entry/154L"
+    },
+    {
+      "source_id": "1GNY_primary_structure",
+      "pdb_id": "1GNY",
+      "title": "Structure of a Family 15 Carbohydrate-Binding Module in Complex with Xylopentaose: Evidence that Xylan Binds in an Approximate Three-Fold Helical Conformation",
+      "doi": "10.1074/JBC.M109558200",
+      "pubmed_id": 11598143,
+      "primary_publication_url": "https://doi.org/10.1074/JBC.M109558200",
+      "deposition_url": "https://www.rcsb.org/structure/1GNY",
+      "review_scope": "primary_publication_abstract_as_reproduced_by_deposition; 2J1T also publisher PDF abstract",
+      "retrieved_date": "2026-10-30",
+      "metadata_url": "https://data.rcsb.org/rest/v1/core/entry/1GNY"
+    },
+    {
+      "source_id": "1KJL_primary_structure",
+      "pdb_id": "1KJL",
+      "title": "Structural and thermodynamic studies on cation-Pi interactions in lectin-ligand complexes: high-affinity galectin-3 inhibitors through fine-tuning of an arginine-arene interaction.",
+      "doi": "10.1021/ja043475p",
+      "pubmed_id": 15701008,
+      "primary_publication_url": "https://doi.org/10.1021/ja043475p",
+      "deposition_url": "https://www.rcsb.org/structure/1KJL",
+      "review_scope": "primary_publication_abstract_as_reproduced_by_deposition; 2J1T also publisher PDF abstract",
+      "retrieved_date": "2026-10-30",
+      "metadata_url": "https://data.rcsb.org/rest/v1/core/entry/1KJL"
+    },
+    {
+      "source_id": "1QFO_primary_structure",
+      "pdb_id": "1QFO",
+      "title": "Crystal structure of the N-terminal domain of sialoadhesin in complex with 3' sialyllactose at 1.85 A resolution.",
+      "doi": "10.1016/S1097-2765(00)80071-4",
+      "pubmed_id": 9660955,
+      "primary_publication_url": "https://doi.org/10.1016/S1097-2765(00)80071-4",
+      "deposition_url": "https://www.rcsb.org/structure/1QFO",
+      "review_scope": "primary_publication_abstract_as_reproduced_by_deposition; 2J1T also publisher PDF abstract",
+      "retrieved_date": "2026-10-30",
+      "metadata_url": "https://data.rcsb.org/rest/v1/core/entry/1QFO"
+    },
+    {
+      "source_id": "2J1T_primary_structure",
+      "pdb_id": "2J1T",
+      "title": "Blood Group Antigen Recognition by a Streptococcus Pneumoniae Virulence Factor",
+      "doi": "10.1074/JBC.M607620200",
+      "pubmed_id": 16987809,
+      "primary_publication_url": "https://www.jbc.org/article/S0021925819350045/pdf",
+      "deposition_url": "https://www.rcsb.org/structure/2J1T",
+      "review_scope": "primary_publication_abstract_as_reproduced_by_deposition; 2J1T also publisher PDF abstract",
+      "retrieved_date": "2026-10-30",
+      "metadata_url": "https://data.rcsb.org/rest/v1/core/entry/2J1T"
+    },
+    {
+      "source_id": "1PWB_primary_structure",
+      "pdb_id": "1PWB",
+      "title": "High-resolution structural insights into ligand binding and immune cell recognition by human lung surfactant protein D",
+      "doi": "10.1016/S0022-2836(03)00761-7",
+      "pubmed_id": 12888356,
+      "primary_publication_url": "https://doi.org/10.1016/S0022-2836(03)00761-7",
+      "deposition_url": "https://www.rcsb.org/structure/1PWB",
+      "review_scope": "primary_publication_abstract_as_reproduced_by_deposition; 2J1T also publisher PDF abstract",
+      "retrieved_date": "2026-10-30",
+      "metadata_url": "https://data.rcsb.org/rest/v1/core/entry/1PWB"
+    },
+    {
+      "source_id": "2VUZ_primary_structure",
+      "pdb_id": "2VUZ",
+      "title": "High Affinity Interaction between a Bivalve C-Type Lectin and a Biantennary Complex-Type N-Glycan Revealed by Crystallography and Microcalorimetry.",
+      "doi": "10.1074/JBC.M804353200",
+      "pubmed_id": 18687680,
+      "primary_publication_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2662075/",
+      "deposition_url": "https://www.rcsb.org/structure/2VUZ",
+      "review_scope": "full_text_results_and_methods",
+      "retrieved_date": "2026-10-30",
+      "metadata_url": "https://data.rcsb.org/rest/v1/core/entry/2VUZ"
+    },
+    {
+      "source_id": "7MTZ_primary_structure",
+      "pdb_id": "7MTZ",
+      "title": "Adeno-associated Virus 9 Structural Rearrangements Induced by Endosomal Trafficking pH and Glycan Attachment.",
+      "doi": "10.1128/JVI.00843-21",
+      "pubmed_id": 34260280,
+      "primary_publication_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8428384/",
+      "deposition_url": "https://www.rcsb.org/structure/7MTZ",
+      "review_scope": "full_text_results_and_methods",
+      "retrieved_date": "2026-10-30",
+      "metadata_url": "https://data.rcsb.org/rest/v1/core/entry/7MTZ"
+    }
+  ],
+  "deposited_metadata_note": "Author/label identifiers and assembly rows are taken from deposited mmCIF; published interpretation and current assembly metadata can differ.",
+  "source_benchmark_commit": "344e4a41a300b68b7ee3585895a460c863545ddb",
+  "validation_source_record": "benchmarks/sources/reference_validation.json"
+}

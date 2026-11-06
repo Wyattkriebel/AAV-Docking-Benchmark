@@ -1,0 +1,74 @@
+{
+  "analysis_role": "new chemical alternatives on one source-qualified assay; no independent-family generalization",
+  "box_center": [
+    25.2627272727,
+    54.7563636364,
+    25.8168181818
+  ],
+  "box_information": "known Gal9C binding site from independent 2010 native glycan structure, identical for all alternatives; not blind and not alternative pose truth",
+  "box_size": [
+    24.0,
+    24.0,
+    24.0
+  ],
+  "cases": [
+    "gal9c_1",
+    "gal9c_14",
+    "gal9c_4",
+    "gal9c_17",
+    "gal9c_5",
+    "gal9c_18",
+    "gal9c_6",
+    "gal9c_19",
+    "gal9c_7",
+    "gal9c_20",
+    "gal9c_8",
+    "gal9c_21"
+  ],
+  "clash_distance_A": 1.5,
+  "clash_note": "Distance-only severe-overlap screen, not full chemical validity",
+  "classifier_threshold": null,
+  "client_freeze_date": "2026-10-30",
+  "confirmatory_status": "not frozen; reference quality, family splits, assay labels and precision gates pending",
+  "contact_cutoff_A": 4,
+  "cpu": 2,
+  "decision": "Descriptive; no useful-performance floor or reliability certification",
+  "descriptor_baselines": [
+    "heavy_atom_count_higher",
+    "heavy_atom_count_lower",
+    "formal_charge"
+  ],
+  "embedding_seed": 20261024,
+  "energy_range_kcal_mol": 10,
+  "exhaustiveness": 16,
+  "frozen_before_new_docking": true,
+  "information_regime": "true-site-local",
+  "method": "AutoDock Vina 1.2.7 standard Vina score",
+  "min_rmsd_A": 0.5,
+  "num_modes": 20,
+  "panel_sha256": "95e1c0f938951f81a25fa3c494bdfc5a8a00bdd9908aa9d166d4b9b954a7f082",
+  "panel_source": "benchmarks/specificity_resolution.json",
+  "primary_pose_threshold_A": 2,
+  "purpose": "Prospective fixed-workflow scoring of six size/charge-matched Gal9C epimer pairs against actual measured binding vs operational NB at 2mM; one assay context, no universal nonbinding or calibrated classifier claim",
+  "receptor_audit_sha256": "ada9bd162368c62dbd53ca3a172c3920fc6141a4d75ef9b1bfba8f573cb1fb89",
+  "schema_version": 1,
+  "score_aggregation": "mean of seed-specific top-ranked Vina energies per compound; lower predicts measured binding; all 3 seeds required",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "sensitivity_thresholds_A": [
+    1,
+    3
+  ],
+  "source_receptor_pdb": "3NV3",
+  "source_receptor_sha256": "4f58b9dbb3d1eaf40200b4cc7f18fd04e642785f6fb27116f75376977629d0b0",
+  "specificity": "Not eligible without qualified independent assay labels",
+  "specificity_metrics": [
+    "AUROC",
+    "average_precision",
+    "within_epimer_pair_concordance",
+    "rank_correlation_among_measured_binders_only"
+  ]
+}

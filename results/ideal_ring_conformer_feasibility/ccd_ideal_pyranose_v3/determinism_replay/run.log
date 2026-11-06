@@ -1,0 +1,15 @@
+{'case_id': '2RDK', 'status': 'selected', 'valid_candidate_count': 19, 'selected_slot': 8, 'report_sha256': '39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146'}
+{
+  "schema_version": 1,
+  "profile_id": "ccd_ideal_pyranose_v3",
+  "cases": [
+    {
+      "case_id": "2RDK",
+      "status": "selected",
+      "valid_candidate_count": 19,
+      "selected_slot": 8,
+      "report_sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146"
+    }
+  ],
+  "no_docking_or_accuracy_evaluation": true
+}

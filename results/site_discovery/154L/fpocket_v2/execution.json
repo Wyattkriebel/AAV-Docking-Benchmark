@@ -1,0 +1,1229 @@
+{
+  "artifacts": {
+    "input_revision.json": {
+      "bytes": 1011,
+      "sha256": "f79660dec165e36f2f9d23ad6a71498ab732e811a85234e64d56622b391e38ec"
+    },
+    "predictions.json": {
+      "bytes": 14483,
+      "sha256": "2b110e9644cae97787fc784f92554ef6046d7906b7067ee7599919d943cc9e38"
+    },
+    "receptor.cif": {
+      "bytes": 99876,
+      "sha256": "45d8afa1ad8a3ef8dfa91bef4059a093ba67ad51fffef40f7aa09f24071daa72"
+    },
+    "receptor_out/pockets/pocket1_atm.cif": {
+      "bytes": 3659,
+      "sha256": "ff7e872c89abf074819e6a22ee32f5958dc11058b407c390e6c65aa36ac98ed9"
+    },
+    "receptor_out/pockets/pocket1_vert.pqr": {
+      "bytes": 3963,
+      "sha256": "63cbd764f5a9d6b9d32eda6046e62e9334abb949ed09f279b1085d7cc7439861"
+    },
+    "receptor_out/pockets/pocket2_atm.cif": {
+      "bytes": 3497,
+      "sha256": "8c19b3b0c127bd12baf555d31ec7705227f245e8feb6f5a318ace997b0b3e0e2"
+    },
+    "receptor_out/pockets/pocket2_vert.pqr": {
+      "bytes": 2739,
+      "sha256": "63cc909087d0498f2441bb48d64bbd8d2971ce72c397b22018d08ae1052217de"
+    },
+    "receptor_out/pockets/pocket3_atm.cif": {
+      "bytes": 2976,
+      "sha256": "f22af21e7f9afe7681ecb0280aee7b10e7b282835e71941438d5cd335a4426e1"
+    },
+    "receptor_out/pockets/pocket3_vert.pqr": {
+      "bytes": 2954,
+      "sha256": "a8225a467ec3db43629c3de0b68b83083b167ce15f2cc3d0c80af9d393ed62cb"
+    },
+    "receptor_out/pockets/pocket4_atm.cif": {
+      "bytes": 2600,
+      "sha256": "c3f9d3c635597fa9c20275b3855f35e800f8bb6c9b68a14a693b89175fe2d9b2"
+    },
+    "receptor_out/pockets/pocket4_vert.pqr": {
+      "bytes": 2379,
+      "sha256": "921f3ca8e4dedcd7474e5b746e640a8e495f499ed2f3e1d314956e40e01dfba9"
+    },
+    "receptor_out/receptor_cif.pml": {
+      "bytes": 773,
+      "sha256": "5d06f0765f321a3bea16d09ef6c0e62a9707a5425327faffc9d873edd206726b"
+    },
+    "receptor_out/receptor_cif.tcl": {
+      "bytes": 914,
+      "sha256": "218dc995fd8e00336b71e7616dd71d8f28a1d104ec7452e1ac0b2bcfefa8c4b1"
+    },
+    "receptor_out/receptor_cif_PYMOL.sh": {
+      "bytes": 35,
+      "sha256": "69d1a5aa88c375e1d77322ce8ab7e5978f7238a3cb518c0ac02e433bc313ef76"
+    },
+    "receptor_out/receptor_cif_VMD.sh": {
+      "bytes": 53,
+      "sha256": "ea7bcffbed6e4fc9bfeee2712b75289fe0fdbc408c24d88126ce38ba00d49bcb"
+    },
+    "receptor_out/receptor_info.txt": {
+      "bytes": 2235,
+      "sha256": "d73be98260beada63f91ffa8e24d3ab52edb45e9a336080d9ff613ef5f594e1f"
+    },
+    "receptor_out/receptor_out.cif": {
+      "bytes": 131890,
+      "sha256": "6198f3339b1d7dce22839f15e66eebc5a9013c9fa3557c6e02b5c319d8eb7071"
+    },
+    "receptor_out/receptor_pockets.pqr": {
+      "bytes": 7594,
+      "sha256": "159f8c797f316aab810a979c5748aea25c008862ed2ee4fc48aaa6b7e90e210e"
+    },
+    "receptor_preparation.json": {
+      "bytes": 2430,
+      "sha256": "bd2675e0a756ce13699491556a3593501a78223ed6d7f90723100e9c97918d87"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout.log": {
+      "bytes": 68,
+      "sha256": "20628cc571c36f7819097754697b6f1ad1ce748eb9339e7e096c93d88073ed50"
+    }
+  },
+  "center_definition": "unweighted arithmetic mean of alpha-sphere centers in pocketN_vert.pqr (three-decimal Angstrom output)",
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066/bin/fpocket",
+    "-f",
+    "receptor.cif",
+    "-m",
+    "3.4",
+    "-M",
+    "6.2",
+    "-i",
+    "15",
+    "-D",
+    "2.4",
+    "-A",
+    "3",
+    "-p",
+    "0.0",
+    "-v",
+    "300",
+    "-C",
+    "s",
+    "-e",
+    "e",
+    "-w",
+    "m"
+  ],
+  "commit": "4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+  "cpu_seconds": 0.220166,
+  "cwd": "/Users/alec/AAV-Docking-Benchmark/results/site_discovery/154L/fpocket_v2",
+  "ended_at_utc": "2026-10-30T20:21:32.807313+00:00",
+  "executable_sha256": "43ba162227d8b49cd261bc3e53d752b96588ff7ca72e5e639bbde838ce613eae",
+  "information_regime": "full_surface_site_agnostic",
+  "input_serialization_revision": 2,
+  "input_sha256": "45d8afa1ad8a3ef8dfa91bef4059a093ba67ad51fffef40f7aa09f24071daa72",
+  "installation": {
+    "algorithm_source_modifications": [],
+    "build_command": [
+      "make",
+      "bin/fpocket",
+      "-j2",
+      "ARCH=MACOSXARM64",
+      "CFLAGS=-W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile",
+      "QCFLAGS=-O -g -ansi -Isrc/qhull/src"
+    ],
+    "build_cwd": "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+    "build_evidence": {
+      "LICENSE": "cf22a1b400afa433f68fa0ffb8c2454d3b6bebb34466693512ca63aaa52dcc6b",
+      "QHULL_COPYING.txt": "1fe14ebaaf61385d3edd0418d406fbd83d823c6645027481cc88e7b152acdc27",
+      "build.stderr.log": "1cce47725d52eedceef863fb9b466ac0f6ed347189f59ee478bc71691c90f943",
+      "build.stdout.log": "6ed1c80a6f31e3b9afef855cf608521cb400f3fcc9af84e2ee18a3d93f96a063",
+      "compiler.txt": "d23e1e266991777af51323c8a611147c28082ac12f936caa38bc345779f78483",
+      "version_banner.txt": "0d9a397e81459adb089c6f42043ffa7698519cb14681305dae11907c7845d58d"
+    },
+    "build_evidence_dir": "/Users/alec/AAV-Docking-Benchmark/results/site_methods/software/fpocket",
+    "commit": "4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+    "executable": "/Users/alec/AAV-Docking-Benchmark/tools/fpocket-4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066/bin/fpocket",
+    "executable_sha256": "43ba162227d8b49cd261bc3e53d752b96588ff7ca72e5e639bbde838ce613eae",
+    "method": "fpocket",
+    "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "release": "4.2.3",
+    "schema_version": 1,
+    "source_sha256": "62807fc21854e26a39e440e499cb27e1128a614509513921b83c3e239c35ae54",
+    "source_url": "https://codeload.github.com/Discngine/fpocket/tar.gz/4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066"
+  },
+  "logical_cpus": 10,
+  "method": "fpocket",
+  "method_lock_sha256": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0",
+  "no_pockets_reported": false,
+  "peak_memory_bytes": 11288576,
+  "peak_memory_scope": "process-family cumulative child high-water mark; not isolated per-run RSS",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "pocket_count": 4,
+  "predictions": [
+    {
+      "alpha_sphere_count": 39,
+      "atom_ids": [
+        [
+          "A",
+          73,
+          "",
+          "GLU",
+          "OE1"
+        ],
+        [
+          "A",
+          73,
+          "",
+          "GLU",
+          "OE2"
+        ],
+        [
+          "A",
+          95,
+          "",
+          "GLN",
+          "O"
+        ],
+        [
+          "A",
+          96,
+          "",
+          "VAL",
+          "CA"
+        ],
+        [
+          "A",
+          97,
+          "",
+          "ASP",
+          "CB"
+        ],
+        [
+          "A",
+          97,
+          "",
+          "ASP",
+          "N"
+        ],
+        [
+          "A",
+          97,
+          "",
+          "ASP",
+          "OD2"
+        ],
+        [
+          "A",
+          100,
+          "",
+          "SER",
+          "OG"
+        ],
+        [
+          "A",
+          101,
+          "",
+          "HIS",
+          "CD2"
+        ],
+        [
+          "A",
+          101,
+          "",
+          "HIS",
+          "NE2"
+        ],
+        [
+          "A",
+          119,
+          "",
+          "ILE",
+          "CD1"
+        ],
+        [
+          "A",
+          119,
+          "",
+          "ILE",
+          "CG2"
+        ],
+        [
+          "A",
+          123,
+          "",
+          "PHE",
+          "CE2"
+        ],
+        [
+          "A",
+          123,
+          "",
+          "PHE",
+          "CZ"
+        ],
+        [
+          "A",
+          146,
+          "",
+          "ALA",
+          "O"
+        ],
+        [
+          "A",
+          147,
+          "",
+          "TYR",
+          "CE1"
+        ],
+        [
+          "A",
+          147,
+          "",
+          "TYR",
+          "CE2"
+        ],
+        [
+          "A",
+          147,
+          "",
+          "TYR",
+          "CZ"
+        ],
+        [
+          "A",
+          147,
+          "",
+          "TYR",
+          "O"
+        ],
+        [
+          "A",
+          147,
+          "",
+          "TYR",
+          "OH"
+        ],
+        [
+          "A",
+          148,
+          "",
+          "ASN",
+          "CA"
+        ],
+        [
+          "A",
+          148,
+          "",
+          "ASN",
+          "ND2"
+        ],
+        [
+          "A",
+          148,
+          "",
+          "ASN",
+          "O"
+        ],
+        [
+          "A",
+          149,
+          "",
+          "ALA",
+          "C"
+        ],
+        [
+          "A",
+          150,
+          "",
+          "GLY",
+          "CA"
+        ],
+        [
+          "A",
+          150,
+          "",
+          "GLY",
+          "N"
+        ]
+      ],
+      "center": [
+        14.539897435897437,
+        31.54512820512821,
+        26.496666666666663
+      ],
+      "center_A": [
+        14.539897435897437,
+        31.54512820512821,
+        26.496666666666663
+      ],
+      "rank": 1,
+      "raw_footprint": "pockets/pocket1_atm.cif",
+      "raw_vertices": "pockets/pocket1_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          73,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          95,
+          "",
+          "GLN"
+        ],
+        [
+          "A",
+          96,
+          "",
+          "VAL"
+        ],
+        [
+          "A",
+          97,
+          "",
+          "ASP"
+        ],
+        [
+          "A",
+          100,
+          "",
+          "SER"
+        ],
+        [
+          "A",
+          101,
+          "",
+          "HIS"
+        ],
+        [
+          "A",
+          119,
+          "",
+          "ILE"
+        ],
+        [
+          "A",
+          123,
+          "",
+          "PHE"
+        ],
+        [
+          "A",
+          146,
+          "",
+          "ALA"
+        ],
+        [
+          "A",
+          147,
+          "",
+          "TYR"
+        ],
+        [
+          "A",
+          148,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          149,
+          "",
+          "ALA"
+        ],
+        [
+          "A",
+          150,
+          "",
+          "GLY"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 73,
+          "resname": "GLU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 95,
+          "resname": "GLN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 96,
+          "resname": "VAL"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 97,
+          "resname": "ASP"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 100,
+          "resname": "SER"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 101,
+          "resname": "HIS"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 119,
+          "resname": "ILE"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 123,
+          "resname": "PHE"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 146,
+          "resname": "ALA"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 147,
+          "resname": "TYR"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 148,
+          "resname": "ASN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 149,
+          "resname": "ALA"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 150,
+          "resname": "GLY"
+        }
+      ],
+      "score": 0.2655
+    },
+    {
+      "alpha_sphere_count": 22,
+      "atom_ids": [
+        [
+          "A",
+          58,
+          "",
+          "LYS",
+          "NZ"
+        ],
+        [
+          "A",
+          104,
+          "",
+          "GLN",
+          "NE2"
+        ],
+        [
+          "A",
+          104,
+          "",
+          "GLN",
+          "OE1"
+        ],
+        [
+          "A",
+          110,
+          "",
+          "GLU",
+          "CD"
+        ],
+        [
+          "A",
+          110,
+          "",
+          "GLU",
+          "CG"
+        ],
+        [
+          "A",
+          110,
+          "",
+          "GLU",
+          "OE1"
+        ],
+        [
+          "A",
+          110,
+          "",
+          "GLU",
+          "OE2"
+        ],
+        [
+          "A",
+          111,
+          "",
+          "VAL",
+          "CA"
+        ],
+        [
+          "A",
+          111,
+          "",
+          "VAL",
+          "CG1"
+        ],
+        [
+          "A",
+          111,
+          "",
+          "VAL",
+          "CG2"
+        ],
+        [
+          "A",
+          111,
+          "",
+          "VAL",
+          "O"
+        ],
+        [
+          "A",
+          114,
+          "",
+          "THR",
+          "CB"
+        ],
+        [
+          "A",
+          114,
+          "",
+          "THR",
+          "CG2"
+        ],
+        [
+          "A",
+          114,
+          "",
+          "THR",
+          "OG1"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "CA"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "CB"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "CG"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "N"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "O"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN",
+          "OE1"
+        ],
+        [
+          "A",
+          118,
+          "",
+          "THR",
+          "CB"
+        ],
+        [
+          "A",
+          118,
+          "",
+          "THR",
+          "CG2"
+        ],
+        [
+          "A",
+          118,
+          "",
+          "THR",
+          "OG1"
+        ],
+        [
+          "A",
+          119,
+          "",
+          "ILE",
+          "CG1"
+        ]
+      ],
+      "center": [
+        19.61195454545454,
+        26.702272727272717,
+        39.683954545454554
+      ],
+      "center_A": [
+        19.61195454545454,
+        26.702272727272717,
+        39.683954545454554
+      ],
+      "rank": 2,
+      "raw_footprint": "pockets/pocket2_atm.cif",
+      "raw_vertices": "pockets/pocket2_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          58,
+          "",
+          "LYS"
+        ],
+        [
+          "A",
+          104,
+          "",
+          "GLN"
+        ],
+        [
+          "A",
+          110,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          111,
+          "",
+          "VAL"
+        ],
+        [
+          "A",
+          114,
+          "",
+          "THR"
+        ],
+        [
+          "A",
+          115,
+          "",
+          "GLN"
+        ],
+        [
+          "A",
+          118,
+          "",
+          "THR"
+        ],
+        [
+          "A",
+          119,
+          "",
+          "ILE"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 58,
+          "resname": "LYS"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 104,
+          "resname": "GLN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 110,
+          "resname": "GLU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 111,
+          "resname": "VAL"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 114,
+          "resname": "THR"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 115,
+          "resname": "GLN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 118,
+          "resname": "THR"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 119,
+          "resname": "ILE"
+        }
+      ],
+      "score": 0.2602
+    },
+    {
+      "alpha_sphere_count": 25,
+      "atom_ids": [
+        [
+          "A",
+          153,
+          "",
+          "ASN",
+          "O"
+        ],
+        [
+          "A",
+          155,
+          "",
+          "ARG",
+          "CB"
+        ],
+        [
+          "A",
+          155,
+          "",
+          "ARG",
+          "CZ"
+        ],
+        [
+          "A",
+          155,
+          "",
+          "ARG",
+          "N"
+        ],
+        [
+          "A",
+          155,
+          "",
+          "ARG",
+          "NH1"
+        ],
+        [
+          "A",
+          155,
+          "",
+          "ARG",
+          "NH2"
+        ],
+        [
+          "A",
+          155,
+          "",
+          "ARG",
+          "O"
+        ],
+        [
+          "A",
+          156,
+          "",
+          "SER",
+          "CB"
+        ],
+        [
+          "A",
+          156,
+          "",
+          "SER",
+          "OG"
+        ],
+        [
+          "A",
+          159,
+          "",
+          "ARG",
+          "CB"
+        ],
+        [
+          "A",
+          159,
+          "",
+          "ARG",
+          "CD"
+        ],
+        [
+          "A",
+          159,
+          "",
+          "ARG",
+          "NE"
+        ],
+        [
+          "A",
+          159,
+          "",
+          "ARG",
+          "NH2"
+        ],
+        [
+          "A",
+          159,
+          "",
+          "ARG",
+          "O"
+        ],
+        [
+          "A",
+          162,
+          "",
+          "ILE",
+          "CB"
+        ],
+        [
+          "A",
+          162,
+          "",
+          "ILE",
+          "CD1"
+        ],
+        [
+          "A",
+          162,
+          "",
+          "ILE",
+          "CG2"
+        ],
+        [
+          "A",
+          162,
+          "",
+          "ILE",
+          "O"
+        ]
+      ],
+      "center": [
+        5.54796,
+        46.856480000000005,
+        20.42616
+      ],
+      "center_A": [
+        5.54796,
+        46.856480000000005,
+        20.42616
+      ],
+      "rank": 3,
+      "raw_footprint": "pockets/pocket3_atm.cif",
+      "raw_vertices": "pockets/pocket3_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          153,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          155,
+          "",
+          "ARG"
+        ],
+        [
+          "A",
+          156,
+          "",
+          "SER"
+        ],
+        [
+          "A",
+          159,
+          "",
+          "ARG"
+        ],
+        [
+          "A",
+          162,
+          "",
+          "ILE"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 153,
+          "resname": "ASN"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 155,
+          "resname": "ARG"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 156,
+          "resname": "SER"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 159,
+          "resname": "ARG"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 162,
+          "resname": "ILE"
+        }
+      ],
+      "score": 0.2004
+    },
+    {
+      "alpha_sphere_count": 17,
+      "atom_ids": [
+        [
+          "A",
+          24,
+          "",
+          "GLU",
+          "OE1"
+        ],
+        [
+          "A",
+          40,
+          "",
+          "ARG",
+          "CB"
+        ],
+        [
+          "A",
+          40,
+          "",
+          "ARG",
+          "CD"
+        ],
+        [
+          "A",
+          40,
+          "",
+          "ARG",
+          "CG"
+        ],
+        [
+          "A",
+          41,
+          "",
+          "ASP",
+          "OD1"
+        ],
+        [
+          "A",
+          75,
+          "",
+          "HIS",
+          "CB"
+        ],
+        [
+          "A",
+          75,
+          "",
+          "HIS",
+          "CD2"
+        ],
+        [
+          "A",
+          75,
+          "",
+          "HIS",
+          "CE1"
+        ],
+        [
+          "A",
+          75,
+          "",
+          "HIS",
+          "CG"
+        ],
+        [
+          "A",
+          75,
+          "",
+          "HIS",
+          "ND1"
+        ],
+        [
+          "A",
+          75,
+          "",
+          "HIS",
+          "NE2"
+        ],
+        [
+          "A",
+          78,
+          "",
+          "LYS",
+          "CB"
+        ],
+        [
+          "A",
+          78,
+          "",
+          "LYS",
+          "NZ"
+        ],
+        [
+          "A",
+          79,
+          "",
+          "VAL",
+          "CG1"
+        ]
+      ],
+      "center": [
+        -1.0392352941176473,
+        17.67788235294117,
+        23.784941176470593
+      ],
+      "center_A": [
+        -1.0392352941176473,
+        17.67788235294117,
+        23.784941176470593
+      ],
+      "rank": 4,
+      "raw_footprint": "pockets/pocket4_atm.cif",
+      "raw_vertices": "pockets/pocket4_vert.pqr",
+      "residue_keys": [
+        [
+          "A",
+          24,
+          "",
+          "GLU"
+        ],
+        [
+          "A",
+          40,
+          "",
+          "ARG"
+        ],
+        [
+          "A",
+          41,
+          "",
+          "ASP"
+        ],
+        [
+          "A",
+          75,
+          "",
+          "HIS"
+        ],
+        [
+          "A",
+          78,
+          "",
+          "LYS"
+        ],
+        [
+          "A",
+          79,
+          "",
+          "VAL"
+        ]
+      ],
+      "residues": [
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 24,
+          "resname": "GLU"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 40,
+          "resname": "ARG"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 41,
+          "resname": "ASP"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 75,
+          "resname": "HIS"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 78,
+          "resname": "LYS"
+        },
+        {
+          "chain": "A",
+          "insertion_code": "",
+          "number": 79,
+          "resname": "VAL"
+        }
+      ],
+      "score": 0.1363
+    }
+  ],
+  "randomness": "unmodified upstream srand(time(NULL)) for Voronoi perturbation and Monte Carlo volume; no CLI seed available; wall-clock seeding and all raw outputs retained; bitwise repeatability is not claimed",
+  "ranking": "preserve upstream pocket number (original fpocket score order), not druggability or native distance",
+  "receptor_output_audit": {
+    "expected_protein_heavy_atoms": 1432,
+    "max_displacement_A": 0.0,
+    "observed_protein_heavy_atoms": 1432,
+    "status": "passed"
+  },
+  "release": "4.2.3",
+  "returncode": 0,
+  "runtime_seconds": 0.4176013329997659,
+  "schema_version": 1,
+  "source_sha256": "62807fc21854e26a39e440e499cb27e1128a614509513921b83c3e239c35ae54",
+  "started_at_utc": "2026-10-30T20:21:32.376334+00:00",
+  "status": "completed",
+  "superseded_input_sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7"
+}

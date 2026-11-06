@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "outcomes_consulted": false,
+  "coordinator_agreed_before_new_metrics": true,
+  "decisions": {
+    "154L": {"full_ligand_complete": true, "additional_residue_blocks": {}, "reason": "All three whole residues fail the frozen density/RSCC gates; severe angle errors also affect residues1/2. No atomic core qualifies."},
+    "1GNY": {"full_ligand_complete": true, "additional_residue_blocks": {}, "reason": "All five whole residues pass; full xylopentaose corresponds chemically and atom-for-atom. Residue1 is borderline9/10 atom density support and terminal fit remains a caution."},
+    "1KJL": {"full_ligand_complete": true, "additional_residue_blocks": {}, "reason": "NAG1 fails local-fit, density-coverage and negative-difference gates. Retain only whole GAL2, without adding a missing glycosidic leaving oxygen or changing the complete LacNAc graph."},
+    "1QFO": {"full_ligand_complete": true, "additional_residue_blocks": {}, "reason": "GLC1 C1 is wrong hand in wwPDB and independently inverted against the CCD ideal named-neighbor signed volume. No coordinate repair or relabeling; score only connected GAL2/SIA3. The complete released parent graph still has this chemical defect and must not be treated as repaired by excluding GLC from scoring."},
+    "2J1T": {"full_ligand_complete": true, "additional_residue_blocks": {"1": "Touches unresolved deposited glycosidic-link geometry at NAG1 O3-FUC4 C1 (1.613 A); no interresidue ideal/sigma or validated native repair available.", "4": "Touches the same unresolved NAG1 O3-FUC4 C1 (1.613 A) linkage. Exclude both whole residues under chemical-consistency adjudication."}, "reason": "Numerical local fit and chirality gates alone pass all four residues, and primary paper reports well-defined Lewis Y density. Deposited struct_conn covale1 links NAG1 O4-GAL2 C1 at1.413 A, covale2 links NAG1 O3-FUC4 C1 at1.613 A, covale3 links GAL2 O2-FUC3 C1 at1.418 A. The unusually long second C-O linkage is unresolved native geometry; no invented Z-score is assigned from generic CCD values. Conservative modeled-core endpoint is GAL2/FUC3, excluding all residues touching the disputed bond."},
+    "1PWB": {"full_ligand_complete": true, "additional_residue_blocks": {}, "reason": "Both maltose residues pass. Other trimer chains are >22 A from the selected D ligand; released chain retains recognition calcium. Alternate Arg343 conformation and absent trimer remain explicit scope caveats."},
+    "2VUZ": {"full_ligand_complete": false, "additional_residue_blocks": {}, "reason": "Only7 of9 sugars plus no Asn modeled. Residues1/2 fail density, residue7 has angleZ=-5.49. Largest connected remaining component is BMA3-MAN4-NAG5 plus MAN6 (47 atoms). Omitted HYP91 is >4 A from this core (minimum4.052 A), although its carbonylO is3.873 A from excluded NAG7. Dimer/assembly disagreement retained."}
+  }
+}

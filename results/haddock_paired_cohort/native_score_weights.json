@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "source_only": true,
+  "stages": {
+    "rigidbody": {
+      "default_source": {
+        "path": "tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/modules/sampling/rigidbody/defaults.yaml",
+        "sha256": "3f751bfd0cf1f74ddd0dc92b097c206b7cd75b07a3df763d84874d533e4d2698",
+        "bytes": 157212
+      },
+      "native_default_weights": {
+        "w_dist": 0.01,
+        "w_air": 0.01,
+        "w_bsa": -0.01,
+        "w_cdih": 0.0,
+        "w_dani": 0.01,
+        "w_deint": 0.0,
+        "w_desolv": 1.0,
+        "w_elec": 1.0,
+        "w_lcc": -400.0,
+        "w_rg": 0.1,
+        "w_sani": 0.1,
+        "w_sym": 0.1,
+        "w_vdw": 0.01,
+        "w_vean": 0.1,
+        "w_xpcs": 0.1,
+        "w_xrdc": 0.1,
+        "w_zres": 0.1
+      },
+      "explicit_config_weight_overrides": {
+        "w_vdw": 1.0
+      },
+      "effective_declared_weights": {
+        "w_dist": 0.01,
+        "w_air": 0.01,
+        "w_bsa": -0.01,
+        "w_cdih": 0.0,
+        "w_dani": 0.01,
+        "w_deint": 0.0,
+        "w_desolv": 1.0,
+        "w_elec": 1.0,
+        "w_lcc": -400.0,
+        "w_rg": 0.1,
+        "w_sani": 0.1,
+        "w_sym": 0.1,
+        "w_vdw": 1.0,
+        "w_vean": 0.1,
+        "w_xpcs": 0.1,
+        "w_xrdc": 0.1,
+        "w_zres": 0.1
+      }
+    },
+    "flexref": {
+      "default_source": {
+        "path": "tools/haddock3-2026.10.1/env/lib/python3.11/site-packages/haddock/modules/refinement/flexref/defaults.yaml",
+        "sha256": "563f9c3f5a54a2bef1fa5fe4d24c465b6a9b36b3a58b434dbeadf710def73f6f",
+        "bytes": 184552
+      },
+      "native_default_weights": {
+        "w_air": 0.1,
+        "w_bsa": -0.01,
+        "w_cdih": 0.0,
+        "w_dani": 0.1,
+        "w_deint": 0.0,
+        "w_desolv": 1.0,
+        "w_elec": 1.0,
+        "w_lcc": -10000.0,
+        "w_rg": 1.0,
+        "w_sani": 0.1,
+        "w_sym": 0.1,
+        "w_vdw": 1.0,
+        "w_vean": 0.1,
+        "w_xpcs": 0.1,
+        "w_xrdc": 0.1,
+        "w_zres": 0.1
+      },
+      "explicit_config_weight_overrides": {},
+      "effective_declared_weights": {
+        "w_air": 0.1,
+        "w_bsa": -0.01,
+        "w_cdih": 0.0,
+        "w_dani": 0.1,
+        "w_deint": 0.0,
+        "w_desolv": 1.0,
+        "w_elec": 1.0,
+        "w_lcc": -10000.0,
+        "w_rg": 1.0,
+        "w_sani": 0.1,
+        "w_sym": 0.1,
+        "w_vdw": 1.0,
+        "w_vean": 0.1,
+        "w_xpcs": 0.1,
+        "w_xrdc": 0.1,
+        "w_zres": 0.1
+      }
+    }
+  },
+  "interpretation": "Source-defined weights. Actual retained native stage params.cfg and io.json scores are authoritative; portable reports preserve exact native scores without assuming a historical HADDOCK formula."
+}

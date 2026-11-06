@@ -1,0 +1,21 @@
+{
+  "configuration_sha256": "34471bf89037ead38f2180c5ccc353f1640e06313ff7320ee497ed890cff6c1c",
+  "input_source_sha256": {
+    "154L": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b",
+    "1GNY": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf",
+    "1KJL": "e026fce5c09397fd33a8122ea5e74d9fb3afb889bc2602d9358d51f7b8b8fbae",
+    "1PWB": "197776ec5b7d82843fb9ee3c9ae8da4c1339dff12af44612b67e9b1e2edce1ce",
+    "1QFO": "c40a29bb1cca0e6c9e77c3f603afa8a5f774fa36acfc7026e38bd3aec758100a",
+    "2J1T": "74527ff3e56d2bcf513bd3f73b8e99a6b3a2fde72498db9c9c10034905bf389a",
+    "2VUZ": "010940dec8054fd63b8fcbc514caf7d3ba89da552bf6e851642cdfc031eed845",
+    "aav9_apo": "3ed60cbf0170dc8f6a7a79cec521ad0a81ca98d71b4c246e3b3ec654cf4108b2",
+    "aav9_holo": "680d2c5f39ed6f4899718f55f5f0891e4cd7fbfd1fce8e9f555f45b7de64d582"
+  },
+  "method_lock_sha256": {
+    "benchmarks/p2rank.lock.json": "37d1206c9875bf090eb4115c9845acf0188bcb216e929735f5cddf8d96383160",
+    "benchmarks/site_methods.lock.json": "47e6416d197276a1b2efe95c401c521acb119549e1deb91b66edaac042fc6bb0"
+  },
+  "parameters_frozen_before_scientific_predictions": true,
+  "prior_smoke_tests": "Installation/serialization probes excluded; no new native-site metrics consulted",
+  "reference_ledger_sha256": "4eea470aac11e6a29f73a392f72adbe33e98c6584d18d5d7727be15312f354b1"
+}

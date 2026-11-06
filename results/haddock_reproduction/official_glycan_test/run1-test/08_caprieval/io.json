@@ -1,0 +1,1030 @@
+{
+    "input": [
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_1.pdb",
+            "file_type": {
+                "py/reduce": [
+                    {
+                        "py/type": "haddock.libs.libontology.Format"
+                    },
+                    {
+                        "py/tuple": [
+                            "pdb"
+                        ]
+                    }
+                ]
+            },
+            "full_name": "flexref_1.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_1_model_1.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_1.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "data",
+                            "07_flexref",
+                            "ambig.tbl"
+                        ]
+                    }
+                ]
+            },
+            "score": -85.619874,
+            "seed": 920,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "created": "2026-11-03 08:11:07",
+                    "file_name": "1LMQ_r_u_haddock.psf",
+                    "file_type": {
+                        "py/reduce": [
+                            {
+                                "py/type": "haddock.libs.libontology.Format"
+                            },
+                            {
+                                "py/tuple": [
+                                    "psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "full_name": "1LMQ_r_u_haddock.psf",
+                    "md5": null,
+                    "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "00_topoaa",
+                                    "1LMQ_r_u_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                },
+                {
+                    "created": "2026-11-03 08:11:07",
+                    "file_name": "1LMQ_l_u_haddock.psf",
+                    "file_type": {
+                        "py/id": 11
+                    },
+                    "full_name": "1LMQ_l_u_haddock.psf",
+                    "md5": null,
+                    "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/00_topoaa",
+                    "py/object": "haddock.libs.libontology.TopologyFile",
+                    "rel_path": {
+                        "py/reduce": [
+                            {
+                                "py/type": "pathlib.PosixPath"
+                            },
+                            {
+                                "py/tuple": [
+                                    "..",
+                                    "00_topoaa",
+                                    "1LMQ_l_u_haddock.psf"
+                                ]
+                            }
+                        ]
+                    },
+                    "restr_fname": null
+                }
+            ],
+            "unw_energies": {
+                "air": 3.97326,
+                "angles": 1594.9,
+                "bonds": 199.523,
+                "bsa": 1137.55,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 1.2657,
+                "dihe": 756.513,
+                "elec": -27.1881,
+                "improper": 699.184,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -71.9342,
+                "vdw": -48.7193,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_2.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_2.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_1_model_2.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_2.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -85.79874,
+            "seed": 929,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 30.466,
+                "angles": 1721.24,
+                "bonds": 212.192,
+                "bsa": 921.757,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 1.74713,
+                "dihe": 754.277,
+                "elec": -45.3547,
+                "improper": 707.793,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -50.9089,
+                "vdw": -36.0202,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_3.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_3.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_1_model_3.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_3.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -84.72746999999998,
+            "seed": 926,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 37.6819,
+                "angles": 1704.38,
+                "bonds": 215.445,
+                "bsa": 878.629,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -1.79687,
+                "dihe": 747.428,
+                "elec": -48.7366,
+                "improper": 700.749,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -40.2306,
+                "vdw": -29.1759,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_4.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_4.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_1_model_4.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_4.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -99.218427,
+            "seed": 930,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 5.68483,
+                "angles": 1602.49,
+                "bonds": 201.155,
+                "bsa": 1111.49,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -1.10481,
+                "dihe": 751.458,
+                "elec": -38.707,
+                "improper": 695.746,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -81.8824,
+                "vdw": -48.8602,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_5.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_5.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_2_model_1.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_5.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -117.2753408,
+            "seed": 925,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 0.311592,
+                "angles": 1770.47,
+                "bonds": 219.859,
+                "bsa": 841.038,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 0.53438,
+                "dihe": 751.949,
+                "elec": -68.5391,
+                "improper": 709.568,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -109.119,
+                "vdw": -40.8914,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_6.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_6.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_2_model_2.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_6.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -93.20539,
+            "seed": 922,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 30.8079,
+                "angles": 1704.91,
+                "bonds": 217.601,
+                "bsa": 867.292,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -3.93896,
+                "dihe": 749.03,
+                "elec": -43.1751,
+                "improper": 829.972,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -52.8664,
+                "vdw": -40.4992,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_7.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_7.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_2_model_3.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_7.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -105.45705000000001,
+            "seed": 918,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 39.3958,
+                "angles": 1749.21,
+                "bonds": 214.914,
+                "bsa": 811.253,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 0.8661,
+                "dihe": 748.603,
+                "elec": -62.6495,
+                "improper": 710.276,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -62.7544,
+                "vdw": -39.5007,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_8.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_8.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_2_model_4.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_8.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -106.701925035,
+            "seed": 934,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 0.03965965,
+                "angles": 1756.48,
+                "bonds": 216.806,
+                "bsa": 853.879,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": 0.446199,
+                "dihe": 755.632,
+                "elec": -65.0945,
+                "improper": 711.718,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -98.5737,
+                "vdw": -33.5188,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_9.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_9.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_2_model_5.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_9.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -109.316053,
+            "seed": 932,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 24.9944,
+                "angles": 1765.67,
+                "bonds": 220.022,
+                "bsa": 864.699,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -0.432903,
+                "dihe": 744.859,
+                "elec": -59.4635,
+                "improper": 709.322,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -77.7413,
+                "vdw": -43.2721,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_10.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_10.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_3_model_1.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_10.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -58.292939999999994,
+            "seed": 933,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 40.5378,
+                "angles": 1732.67,
+                "bonds": 221.769,
+                "bsa": 725.469,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -2.57503,
+                "dihe": 747.117,
+                "elec": -26.3573,
+                "improper": 707.822,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -11.9792,
+                "vdw": -26.1597,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_11.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_11.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_4_model_1.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_11.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -90.53962999999999,
+            "seed": 937,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 26.8347,
+                "angles": 1577.19,
+                "bonds": 198.948,
+                "bsa": 890.991,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -2.35519,
+                "dihe": 749.398,
+                "elec": -40.423,
+                "improper": 697.198,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -55.1233,
+                "vdw": -41.535,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        },
+        {
+            "aa_topology": [
+                null,
+                null
+            ],
+            "cgtoaa_tbl": [
+                null,
+                null
+            ],
+            "clt_id": null,
+            "clt_model_rank": null,
+            "clt_rank": null,
+            "created": "2026-11-03 08:12:04",
+            "file_name": "flexref_12.pdb",
+            "file_type": {
+                "py/id": 5
+            },
+            "full_name": "flexref_12.pdb",
+            "ligand_param_fname": null,
+            "ligand_top_fname": null,
+            "md5": null,
+            "ori_name": "cluster_4_model_2.pdb",
+            "path": "/Users/alec/AAV-Docking-Benchmark/results/haddock_reproduction/official_glycan_test/run1-test/07_flexref",
+            "py/object": "haddock.libs.libontology.PDBFile",
+            "rel_path": {
+                "py/reduce": [
+                    {
+                        "py/type": "pathlib.PosixPath"
+                    },
+                    {
+                        "py/tuple": [
+                            "..",
+                            "07_flexref",
+                            "flexref_12.pdb"
+                        ]
+                    }
+                ]
+            },
+            "restr_fname": {
+                "py/id": 7
+            },
+            "score": -78.26442,
+            "seed": 935,
+            "shape": [
+                null,
+                null
+            ],
+            "topology": [
+                {
+                    "py/id": 10
+                },
+                {
+                    "py/id": 13
+                }
+            ],
+            "unw_energies": {
+                "air": 35.8741,
+                "angles": 1738.97,
+                "bonds": 218.095,
+                "bsa": 844.767,
+                "cdih": 0.0,
+                "coup": 0.0,
+                "dani": 0.0,
+                "desolv": -2.92336,
+                "dihe": 756.361,
+                "elec": -46.1084,
+                "improper": 700.764,
+                "rdcs": 0.0,
+                "rg": 0.0,
+                "sym": 0.0,
+                "total": -34.6067,
+                "vdw": -24.3724,
+                "vean": 0.0,
+                "xpcs": 0.0
+            }
+        }
+    ],
+    "output": [
+        {
+            "py/id": 2
+        },
+        {
+            "py/id": 16
+        },
+        {
+            "py/id": 23
+        },
+        {
+            "py/id": 30
+        },
+        {
+            "py/id": 37
+        },
+        {
+            "py/id": 44
+        },
+        {
+            "py/id": 51
+        },
+        {
+            "py/id": 58
+        },
+        {
+            "py/id": 65
+        },
+        {
+            "py/id": 72
+        },
+        {
+            "py/id": 79
+        },
+        {
+            "py/id": 86
+        }
+    ]
+}

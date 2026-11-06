@@ -1,0 +1,52 @@
+{
+  "accuracy_computed": false,
+  "blocking_findings": [],
+  "checked_invariants": [
+    "Three frozen report entrypoints perform pending and full216/full108/full72 terminal checks before their first source-context call.",
+    "Source-context readiness sentinel validates entry-frame counters, inspects no context arguments, and derives directly from BaseException.",
+    "Known metric/statistical/native aliases are blocked by name and original identity; patches restore on all exits.",
+    "Pure fixed-union probe uses temporary source indexing and checked read-only fixed-score/export validation; it calls no experimental-reference context, accuracy or native execution.",
+    "Running guard, reader sources, transitive declared metric-source maps, plans and evaluation receipts are hash-bound; imports resolve to the reviewed root.",
+    "Four isolated fresh readiness results are required before any unpatched report call; real mode also requires explicit authorization.",
+    "Union metrics consume the freshly generated main report in memory.",
+    "Strict JSON serialization precedes atomic publication to a fresh workspace output directory."
+  ],
+  "documentation": {
+    "bytes": 6738,
+    "path": "docs/GLOBAL_POSE_REPORT_GATE.md",
+    "sha256": "6152d736cecb78d00fcd3590082338e0b8c9090d17de3c6b81801e60b9102f42"
+  },
+  "guard_source": {
+    "bytes": 26113,
+    "path": "aav_benchmark/global_pose_report_gate.py",
+    "sha256": "b42a849b136778414ddf821fc12d1f04f68ebab82f1a5075a6a52ad470ecc8cb"
+  },
+  "live_readiness_probes_invoked": false,
+  "live_report_readers_invoked": false,
+  "native_jobs_launched": false,
+  "nonblocking_notes": [
+    "Explicit BLOCKED_NAMES entries for execute_one and _invoke_fixed_pose could provide future defense in depth. Current reviewed probe paths invoke neither, and their subprocess launch path is already blocked; no source change is required before this freeze.",
+    "Concurrent fixed-score record/manifest publication may produce a transient validation failure; this fails closed and cannot release accuracy."
+  ],
+  "process_signals_sent": false,
+  "proposal": {
+    "bytes": 10419,
+    "path": "benchmarks/global_pose_report_gate.proposal.json",
+    "sha256": "79ca3567ac258f9772740552103f4093b16fcbc4a2325f5c632328fe359fb2ca"
+  },
+  "reservations_created": false,
+  "review_scope": "Reviewed source-pinned barrier for these known readers, not an arbitrary-Python sandbox; no live readiness or accuracy claims.",
+  "reviewed_at_utc": "2026-11-03T19:25:09.960993+00:00",
+  "reviewer": "/root/pol_pr_review",
+  "schema_version": 1,
+  "source_or_frozen_artifacts_modified": false,
+  "status": "independent_source_review_passed_no_blocking_findings",
+  "synthetic_tests": {
+    "command": ".venv/bin/python -m pytest -q tests/test_global_pose_report_gate.py",
+    "failed": 0,
+    "observed_duration_seconds": 0.53,
+    "passed": 15,
+    "path": "tests/test_global_pose_report_gate.py",
+    "sha256": "ba34b9ccb418a12d15b1fec5e107dba658af56b8d40775d66843a9b8304a4c59"
+  }
+}

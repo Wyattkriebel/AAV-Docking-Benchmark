@@ -1,0 +1,67 @@
+{
+  "frozen_before_scientific_execution": true,
+  "methods": {
+    "fpocket": {
+      "build": {
+        "macos_arm64": {
+          "ARCH": "MACOSXARM64",
+          "CFLAGS": "-W -Wextra -Wwrite-strings -Wstrict-prototypes -DM_OS_MAC -DMNO_MEM_DEBUG -O2 -g -std=gnu99 -Iplugins/include -Iplugins/MACOSXARM64/molfile",
+          "QCFLAGS": "-O -g -ansi -Isrc/qhull/src",
+          "reason": "upstream -pg is unsupported on Apple arm64; explicit Qhull header include needed for direct bin/fpocket target; algorithm sources unmodified"
+        },
+        "target": "bin/fpocket"
+      },
+      "center_definition": "unweighted arithmetic mean of alpha-sphere centers in pocketN_vert.pqr (three-decimal Angstrom output)",
+      "commit": "4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+      "footprint_definition": "receptor atoms contacted by alpha spheres, from pocketN_atm.cif; residue if >=1 footprint atom; exact source identity mapping and coordinate audit required",
+      "license": "MIT; bundled Qhull and molfile licenses also apply",
+      "license_files": {
+        "LICENSE": "cf22a1b400afa433f68fa0ffb8c2454d3b6bebb34466693512ca63aaa52dcc6b",
+        "QHULL_COPYING.txt": "1fe14ebaaf61385d3edd0418d406fbd83d823c6645027481cc88e7b152acdc27"
+      },
+      "parameters": [
+        "-m",
+        "3.4",
+        "-M",
+        "6.2",
+        "-i",
+        "15",
+        "-D",
+        "2.4",
+        "-A",
+        "3",
+        "-p",
+        "0.0",
+        "-v",
+        "300",
+        "-C",
+        "s",
+        "-e",
+        "e",
+        "-w",
+        "m"
+      ],
+      "parameters_basis": "explicit upstream 4.2.3 headers/fparams.h defaults; no ligand, pocket, chain-selection, or learned re-ranking options",
+      "randomness": "unmodified upstream srand(time(NULL)) for Voronoi perturbation and Monte Carlo volume; no CLI seed available; wall-clock seeding and all raw outputs retained; bitwise repeatability is not claimed",
+      "ranking": "preserve upstream pocket number (original fpocket score order), not druggability or native distance",
+      "release": "4.2.3",
+      "release_url": "https://github.com/Discngine/fpocket/releases/tag/4.2.3",
+      "replicates": 1,
+      "source_sha256": "62807fc21854e26a39e440e499cb27e1128a614509513921b83c3e239c35ae54",
+      "source_url": "https://codeload.github.com/Discngine/fpocket/tar.gz/4bb0d8447f62fee77e2c3c29f54b5fcaf5e2c066",
+      "version_banner_caveat": "release 4.2.3 source retains internal help banner fpocket 4.0; authenticate by release commit, tarball and executable checksums"
+    }
+  },
+  "receptor_policy": {
+    "aav_assembly": "assembly 1 materialized once with existing identity-operator/60-subunit audit; no reference neighborhood",
+    "alternate_conformers": "fail rather than select using a native ligand",
+    "coordinates": "preserve source heavy-atom coordinates; no minimization, alignment, protonation, or added atoms",
+    "metals": "metal-free discovery baseline; no claim of retained-calcium equivalence to the docking baseline",
+    "nonprotein": "remove all waters, metals, ions, glycans and other nonprotein residues uniformly",
+    "other_assemblies": "entire deposited receptor supplied to preparer; biological completeness remains a separately qualified condition",
+    "protein": "all canonical amino-acid heavy atoms from one complete declared input model; no distance-based selection"
+  },
+  "schema_version": 1,
+  "scientific_execution": "Do not use installation/parser probes in reported denominators; all scientific runs start only after this file is frozen.",
+  "scope": "development_site_discovery_only"
+}

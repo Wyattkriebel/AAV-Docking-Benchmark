@@ -1,0 +1,54 @@
+{
+  "condition_id": "154L",
+  "files": [
+    {
+      "archive": "original_receptor.cif.gz",
+      "archive_sha256": "72e4fd7d9711c24423d0f09d61e487493fe84b0fd295a80dffd418817a7580c2",
+      "filename": "receptor.cif",
+      "revision": "original",
+      "sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7"
+    },
+    {
+      "archive": "original_receptor.cif.atoms.tsv.gz.gz",
+      "archive_sha256": "aeba1a1adf3d29236ca01a02bd973dae8cf92725b91c29f8ce61ac6511f84728",
+      "filename": "receptor.cif.atoms.tsv.gz",
+      "revision": "original",
+      "sha256": "3e9b78ac860937682187fd5d3e5a5727a552052fca84bcd8c73b271e88a1b761"
+    },
+    {
+      "archive": "original_receptor.cif.manifest.json.gz",
+      "archive_sha256": "ba530fc42e8bd6cc35f6dcd1ccc1bee585e1b98515dd72ed8c129e259bc5d445",
+      "filename": "receptor.cif.manifest.json",
+      "revision": "original",
+      "sha256": "9c646ebf1b0714bd6235c2703f2add0c73dd345eeb032d8e2bfc0d401773fd63"
+    },
+    {
+      "archive": "fpocket_compatibility_receptor.cif.gz",
+      "archive_sha256": "d64448cf4645b294fbabbc27ffc863ead397190918d374bb388a14497269e677",
+      "filename": "receptor.cif",
+      "revision": "fpocket_compatibility",
+      "sha256": "45d8afa1ad8a3ef8dfa91bef4059a093ba67ad51fffef40f7aa09f24071daa72"
+    },
+    {
+      "archive": "fpocket_compatibility_receptor.cif.atoms.tsv.gz.gz",
+      "archive_sha256": "aeba1a1adf3d29236ca01a02bd973dae8cf92725b91c29f8ce61ac6511f84728",
+      "filename": "receptor.cif.atoms.tsv.gz",
+      "revision": "fpocket_compatibility",
+      "sha256": "3e9b78ac860937682187fd5d3e5a5727a552052fca84bcd8c73b271e88a1b761"
+    },
+    {
+      "archive": "fpocket_compatibility_receptor.cif.manifest.json.gz",
+      "archive_sha256": "16cf525cf64fe2f071e3da607522c0c5fe6a61e2597961fb7b66c447a26afb01",
+      "filename": "receptor.cif.manifest.json",
+      "revision": "fpocket_compatibility",
+      "sha256": "bd2675e0a756ce13699491556a3593501a78223ed6d7f90723100e9c97918d87"
+    },
+    {
+      "archive": "fpocket_compatibility_receptor.cif.revision.json.gz",
+      "archive_sha256": "ff728374ebc8382bff2a6ee9b985048400d98286b8f1a2b80802f61482849402",
+      "filename": "receptor.cif.revision.json",
+      "revision": "fpocket_compatibility",
+      "sha256": "f79660dec165e36f2f9d23ad6a71498ab732e811a85234e64d56622b391e38ec"
+    }
+  ]
+}

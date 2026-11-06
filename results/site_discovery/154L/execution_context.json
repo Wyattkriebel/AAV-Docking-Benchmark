@@ -1,0 +1,7 @@
+{
+  "condition_id": "154L",
+  "configuration_sha256": "34471bf89037ead38f2180c5ccc353f1640e06313ff7320ee497ed890cff6c1c",
+  "prediction_does_not_read_native_reference": true,
+  "receptor_sha256": "2465be751105da6b17d7077a0565d47be2ccb0ac348df4ca54b9631829ddfab7",
+  "reference_ledger_sha256": "4eea470aac11e6a29f73a392f72adbe33e98c6584d18d5d7727be15312f354b1"
+}

@@ -1,0 +1,307 @@
+{
+  "algorithm_snapshot_sha256": "8e1e75f0e67b6ae8376a8b70d3ba02ff4f5d9f5c327e4b9b1f4180641c48321e",
+  "cases": [
+    {
+      "all_saved_product_gates_pass": true,
+      "case_id": "1GNY",
+      "expected_full_parent_isomeric_graph_matches": true,
+      "independently_reassigned_3D_stereo_matches_expected_graph": true,
+      "max_chair_pole_distance_deg": 6.497231711431965,
+      "max_named_pucker_angle_to_CCD_deg": 2.5487627411496185,
+      "minimum_abs_chiral_volume_A3": 2.3852954396259993,
+      "minimum_nonbonded_heavy_vdw_sum_ratio": 0.8399096847558746,
+      "report_sha256": "f53fcded7a3fa4bb3895d6d0f408b403ebe7d663d1a2f44f44d2cf0f3e6a3352",
+      "ring_count": 5,
+      "saved_sdf_sha256": "a4cf7fc4cd3e50f580835d58f113041b20f64091dac0b308a414065c34090092",
+      "serialized_canonical_keys_complete": true,
+      "source_sdf_unchanged": true,
+      "stereocenter_count": 20,
+      "temporary_copy_glycosidic_rotation_controls": [
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 0.0,
+          "rotation_deg": 5.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 2.220446049250313e-16,
+          "rotation_deg": 10.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 1.1102230246251565e-16,
+          "rotation_deg": 20.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 6.661338147750939e-16,
+          "rotation_deg": 30.0
+        }
+      ]
+    },
+    {
+      "all_saved_product_gates_pass": true,
+      "case_id": "2RDK",
+      "expected_full_parent_isomeric_graph_matches": true,
+      "independently_reassigned_3D_stereo_matches_expected_graph": true,
+      "max_chair_pole_distance_deg": 4.278944044111427,
+      "max_named_pucker_angle_to_CCD_deg": 3.479493341940561,
+      "minimum_abs_chiral_volume_A3": 2.2371227344799993,
+      "minimum_nonbonded_heavy_vdw_sum_ratio": 0.8432327284066097,
+      "report_sha256": "39952bed3406af12e09155f0a6c2e5c8190424bbfd4a329902604eb4303c5146",
+      "ring_count": 2,
+      "saved_sdf_sha256": "0441e3b260744e50ad10059b82b546fbcfd9bf486e82d8f30d2db5ef9e9b700b",
+      "serialized_canonical_keys_complete": true,
+      "source_sdf_unchanged": true,
+      "stereocenter_count": 10,
+      "temporary_copy_glycosidic_rotation_controls": [
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 2.220446049250313e-16,
+          "rotation_deg": 5.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 1.1102230246251565e-16,
+          "rotation_deg": 10.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 3.3306690738754696e-16,
+          "rotation_deg": 20.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 2.220446049250313e-16,
+          "rotation_deg": 30.0
+        }
+      ]
+    },
+    {
+      "all_saved_product_gates_pass": true,
+      "case_id": "3ZWE",
+      "expected_full_parent_isomeric_graph_matches": true,
+      "independently_reassigned_3D_stereo_matches_expected_graph": true,
+      "max_chair_pole_distance_deg": 3.787722066063887,
+      "max_named_pucker_angle_to_CCD_deg": 5.077672270563071,
+      "minimum_abs_chiral_volume_A3": 2.2469872442069994,
+      "minimum_nonbonded_heavy_vdw_sum_ratio": 0.8397305286379931,
+      "report_sha256": "79fc05ec8ad0aa129be915644b5f3ffb87fb5ff62cabec820501b62560552d1e",
+      "ring_count": 4,
+      "saved_sdf_sha256": "45fda3ef936a109c825785626acca22b6e13792468668c89710fe6dbec742518",
+      "serialized_canonical_keys_complete": true,
+      "source_sdf_unchanged": true,
+      "stereocenter_count": 20,
+      "temporary_copy_glycosidic_rotation_controls": [
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 0.0,
+          "rotation_deg": 5.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 0.0,
+          "rotation_deg": 10.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 0.0,
+          "rotation_deg": 20.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 1.1102230246251565e-16,
+          "rotation_deg": 30.0
+        }
+      ]
+    },
+    {
+      "all_saved_product_gates_pass": true,
+      "case_id": "4R9F",
+      "expected_full_parent_isomeric_graph_matches": true,
+      "independently_reassigned_3D_stereo_matches_expected_graph": true,
+      "max_chair_pole_distance_deg": 5.533082912184909,
+      "max_named_pucker_angle_to_CCD_deg": 0.9332392297712312,
+      "minimum_abs_chiral_volume_A3": 2.3731745708970013,
+      "minimum_nonbonded_heavy_vdw_sum_ratio": 0.8430856701616,
+      "report_sha256": "453d4255f8ca3882f43d122ee369ca3244777800705e5de8f6f3920b5c2543a0",
+      "ring_count": 2,
+      "saved_sdf_sha256": "5cc6f5015d65ec8b94de45b2ce34d4e58e2181f4ad698b9bcf07080903a884bb",
+      "serialized_canonical_keys_complete": true,
+      "source_sdf_unchanged": true,
+      "stereocenter_count": 10,
+      "temporary_copy_glycosidic_rotation_controls": [
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 0.0,
+          "rotation_deg": 5.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 2.220446049250313e-16,
+          "rotation_deg": 10.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 2.220446049250313e-16,
+          "rotation_deg": 20.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 0.0,
+          "rotation_deg": 30.0
+        }
+      ]
+    },
+    {
+      "all_saved_product_gates_pass": true,
+      "case_id": "5HZA",
+      "expected_full_parent_isomeric_graph_matches": true,
+      "independently_reassigned_3D_stereo_matches_expected_graph": true,
+      "max_chair_pole_distance_deg": 3.4538684444421306,
+      "max_named_pucker_angle_to_CCD_deg": 3.527957209536692,
+      "minimum_abs_chiral_volume_A3": 2.2418183410799988,
+      "minimum_nonbonded_heavy_vdw_sum_ratio": 0.8434405918657937,
+      "report_sha256": "e249572be02279c115a605bcccbda782926d53cd88a3c270956a51e90a726b90",
+      "ring_count": 3,
+      "saved_sdf_sha256": "d8e532d3cdce5815aacee220c60351e0ed60d9b59f1f7a370627a96fb353afe4",
+      "serialized_canonical_keys_complete": true,
+      "source_sdf_unchanged": true,
+      "stereocenter_count": 15,
+      "temporary_copy_glycosidic_rotation_controls": [
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 6.661338147750939e-16,
+          "rotation_deg": 5.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 6.661338147750939e-16,
+          "rotation_deg": 10.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 4.440892098500626e-16,
+          "rotation_deg": 20.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 4.440892098500626e-16,
+          "rotation_deg": 30.0
+        }
+      ]
+    },
+    {
+      "all_saved_product_gates_pass": true,
+      "case_id": "5V6F",
+      "expected_full_parent_isomeric_graph_matches": true,
+      "independently_reassigned_3D_stereo_matches_expected_graph": true,
+      "max_chair_pole_distance_deg": 4.361062567478712,
+      "max_named_pucker_angle_to_CCD_deg": 1.839192578812866,
+      "minimum_abs_chiral_volume_A3": 2.2131633662809995,
+      "minimum_nonbonded_heavy_vdw_sum_ratio": 0.8427982956366414,
+      "report_sha256": "206429c99377683cfb1db8913669cf818bfa69fc138be0b13c058ce3d3a4adbd",
+      "ring_count": 3,
+      "saved_sdf_sha256": "3817dc1c936a6c3cba04552fb983f66064bd91154b58af55932c036e38e60852",
+      "serialized_canonical_keys_complete": true,
+      "source_sdf_unchanged": true,
+      "stereocenter_count": 15,
+      "temporary_copy_glycosidic_rotation_controls": [
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 5.551115123125783e-16,
+          "rotation_deg": 5.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 2.220446049250313e-16,
+          "rotation_deg": 10.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 1.1102230246251565e-16,
+          "rotation_deg": 20.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 1.1102230246251565e-16,
+          "rotation_deg": 30.0
+        }
+      ]
+    },
+    {
+      "all_saved_product_gates_pass": true,
+      "case_id": "8I5U",
+      "expected_full_parent_isomeric_graph_matches": true,
+      "independently_reassigned_3D_stereo_matches_expected_graph": true,
+      "max_chair_pole_distance_deg": 3.545308432287328,
+      "max_named_pucker_angle_to_CCD_deg": 4.991618882870634,
+      "minimum_abs_chiral_volume_A3": 2.411238932328,
+      "minimum_nonbonded_heavy_vdw_sum_ratio": 0.846241351353433,
+      "report_sha256": "14c54433ba30720e5da2852cd112a8ccbd19091c4b7e73a5c6dc9b373a18fe71",
+      "ring_count": 2,
+      "saved_sdf_sha256": "451faa8a6bad34f59524083543b9fef7c5fb4468114fe27efb5273871cb7709a",
+      "serialized_canonical_keys_complete": true,
+      "source_sdf_unchanged": true,
+      "stereocenter_count": 10,
+      "temporary_copy_glycosidic_rotation_controls": [
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 5.551115123125783e-16,
+          "rotation_deg": 5.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 0.0,
+          "rotation_deg": 10.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 2.220446049250313e-16,
+          "rotation_deg": 20.0
+        },
+        {
+          "all_gates_valid": true,
+          "failures": [],
+          "max_ring_Q_change_A": 0.0,
+          "rotation_deg": 30.0
+        }
+      ]
+    }
+  ],
+  "golden_expected_graphs_sha256": "5afa84cc93b616a3a3de1f007669ddbe0f2d6e4d3e1d4a6937311874716f57de",
+  "interpretation": "Saved-product chemistry and geometry checks; no free-energy, population, affinity or experimental accuracy claim",
+  "no_embedding_optimization_docking_or_native_scoring_executed": true,
+  "policy_sha256": "6d132fc05dc6d391db3457a7b84a788195dae9fac38dc463db96315c194581f4",
+  "review_source_sha256": "5a3d727b64de8329e54f200403588d03b56d70612585b65dc279f9d7f3685df6",
+  "ring_geometry_snapshot_sha256": "84de4c99c3187e671314d0d0ee2efde36e31b2fd35125aede3b38e4729357367",
+  "schema_version": 1,
+  "status": "independently_reviewed_all_saved_products"
+}

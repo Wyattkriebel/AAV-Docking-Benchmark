@@ -1,0 +1,10 @@
+{
+  "url": "https://raw.githubusercontent.com/haddocking/haddock3/815fcc14100896e35d1795058465cb547f37a8c5/src/haddock/cns/bin/arm64-darwin.bin",
+  "source_commit": "815fcc14100896e35d1795058465cb547f37a8c5",
+  "bytes": 4171768,
+  "sha256": "e6febf74eccb740f8bc5d49955cc8fc202025d5d642e129e7738e7280ad95a88",
+  "first4bytes_hex": "cffaedfe",
+  "execution_performed": false,
+  "scope": "Read-only public pinned binary provenance; actual installed binary must be independently hashed and preflighted.",
+  "license_context": "Pinned HADDOCK3 DISCLAIMER says CNS free for nonprofit use and proper license required for commercial applications; no registration, new legal affirmation or commercial-use entitlement asserted."
+}

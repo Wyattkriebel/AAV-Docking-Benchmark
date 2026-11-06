@@ -1,0 +1,8 @@
+{
+  "all216eligible_method_outcomes_required_before_accuracy": true,
+  "evaluation_plan_sha256": "01e8affd432d519d76b3266b85297f3b259dee895f4fe571f52a7703a17709cd",
+  "frozen_at_UTC": "2026-11-03T17:49:56.446353+00:00",
+  "frozen_before_test_pose_accuracy": true,
+  "new_test_pose_accuracy_consulted": false,
+  "new_test_site_accuracy_consulted": false
+}

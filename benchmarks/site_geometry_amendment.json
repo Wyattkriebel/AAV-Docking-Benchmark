@@ -1,0 +1,17 @@
+{
+  "chain_fit_max_CA_rmsd_A": 0.05,
+  "change": "Only source-derived approximate receptor-symmetry certification guard: maximum full-capsid CA deviation0.05to0.1Angstrom for BOTHstates",
+  "decision_before_any_site_metric_evaluation": true,
+  "effective_operator_max_CA_displacement_A": 0.1,
+  "failed_geometry_checks_preserved": true,
+  "method_parameters_or_candidate_ranks_changed": false,
+  "not_confirmatory": true,
+  "original_configuration_sha256": "34471bf89037ead38f2180c5ccc353f1640e06313ff7320ee497ed890cff6c1c",
+  "rationale": "An independent protein-only audit found all60bijective residue-preserving apo operators after global refinement with maximum0.073316A; 0.1A is2.5percentofthe4Aclassdistance. Native-site and predictor outcome metrics were not consulted for this source-geometry guard. Matrices are fitted from receptor CA only.",
+  "schema_version": 1,
+  "unchanged_scientific_endpoints": {
+    "footprint_radius_A": 8.0,
+    "primary_site_distance_A": 4.0,
+    "spatial_candidate_merge_A": 4.0
+  }
+}

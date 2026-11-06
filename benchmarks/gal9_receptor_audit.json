@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-30",
+  "panel_id": "mahanti_2019_gal9c_matched_epimers",
+  "receptor_pdb_id": "3NV3",
+  "decision": {
+    "sequence_compatibility_gate": "pass",
+    "blocking_binding_site_sequence_mismatch": false,
+    "supports_known_site_exploratory_CRD_docking": true,
+    "exact_assayed_construct_reproduced": false,
+    "meaning": "The entire 138-residue deposited structural core is identical to the reported assay Gal9C region; every annotated binding-site residue and every native-GAL contact residue is observed and identical. Missing N-terminal assay residues and fusion/batch provenance remain explicit approximations.",
+    "not_established": [
+      "identity of the physical 2019 assay batch or plasmid sequence",
+      "thioredoxin cleavage status in the assay",
+      "equivalence of a tagged 151-residue assay construct to the isolated 138-residue crystal core in all solution properties",
+      "atomic ligand-pose reference quality or a site-blind information regime"
+    ]
+  },
+  "sources": {
+    "structure": {
+      "url": "https://files.rcsb.org/download/3NV3.cif",
+      "rcsb_url": "https://www.rcsb.org/structure/3NV3",
+      "doi": "10.2210/pdb3NV3/pdb",
+      "checksum_key": "3NV3.cif"
+    },
+    "structure_primary_paper": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2978625/",
+      "doi": "10.1074/jbc.M110.163402",
+      "retrieved_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2978625/?report=xml",
+      "actual_content_type": "HTML",
+      "checksum_key": "Gal9_2010_structure.html"
+    },
+    "canonical_UniProt": {
+      "accession": "O00182",
+      "fasta_url": "https://rest.uniprot.org/uniprotkb/O00182.fasta",
+      "json_url": "https://rest.uniprot.org/uniprotkb/O00182.json",
+      "entry_version": 218,
+      "sequence_version": 2,
+      "last_sequence_update": "1998-07-15",
+      "retrieval_date": "2026-10-30",
+      "note": "Current Q53FQ0 is a secondary accession of O00182 and its REST requests return the same canonical record, not a separate 323-residue isoform FASTA."
+    },
+    "isoform_UniProt": {
+      "accession": "O00182-2",
+      "fasta_url": "https://rest.uniprot.org/uniprotkb/O00182-2.fasta",
+      "current_name": "Medium",
+      "checksum_key": "O00182-2.fasta"
+    },
+    "assay_construct_method": {
+      "doi": "10.1002/cbic.201600285",
+      "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/27411623/Delaine_et_al_2016_ChemBioChem.pdf",
+      "locator": "Expression constructs, expression, and purification of recombinant galectins",
+      "checksum_key": "Delaine2016.pdf",
+      "inheritance": "Mahanti 2019 SI S2 adopts earlier galectin-specific methods and cites Delaine 2016 as reference 3."
+    },
+    "checksums": {
+      "3NV3.cif": {
+        "bytes": 192199,
+        "sha256": "4f58b9dbb3d1eaf40200b4cc7f18fd04e642785f6fb27116f75376977629d0b0"
+      },
+      "O00182.fasta": {
+        "bytes": 438,
+        "sha256": "82ee91d88c1c1e317e7e3845516ecc1b8d241fc652044b33291b5d08e6a98813"
+      },
+      "O00182.json": {
+        "bytes": 73535,
+        "sha256": "d31aae86d2e3122f858072249baaae44dd8f1a212652f0bd08d51c5e04df8837"
+      },
+      "O00182-2.fasta": {
+        "bytes": 411,
+        "sha256": "2b5a7901b03e0d39d31288e314506dae13c1f447ed13a3ea96e29c3dc4ba0b67"
+      },
+      "Delaine2016.pdf": {
+        "bytes": 1789168,
+        "sha256": "5ce075d012555ba15417f37e1370e3091e1394c2e69f9a0bc6a963b814cce7cf"
+      },
+      "Gal9_2010_structure.html": {
+        "bytes": 187831,
+        "sha256": "41acbd55ac84f23ceda871dd3a4c35d7ed0b8bebe90fe359b58a10e007c74fe7"
+      }
+    }
+  },
+  "reported_assay_construct": {
+    "protein": "human Gal9 C-terminal domain",
+    "reported_canonical_residue_range_inclusive": [
+      205,
+      355
+    ],
+    "reported_length": 151,
+    "reported_template": "I.M.A.G.E. clone 2208156 (ATCC)",
+    "expression_vector": "pET-32 Ek/LIC",
+    "reported_fusion": "thioredoxin",
+    "fusion_cleavage_described_in_recovered_method": false,
+    "actual_fusion_status": null,
+    "reported_forward_primer": "GACGACGACAAGATGGGACAGATGTTCTCTACTCCC",
+    "forward_primer_gene_specific_21nt": "GGACAGATGTTCTCTACTCCC",
+    "translated_gene_specific_7aa": "GQMFSTP",
+    "canonical205_211": "GQMFSTP",
+    "forward_primer_start_consistent_with_reported205": true,
+    "primer_note": "The seven gene-specific codons corroborate the reported starting residue. No sequence of the actual 2019 expression batch was recovered; the remainder follows the reported residue range and reviewed canonical sequence.",
+    "canonical_sequence_205_355": "GQMFSTPAIPPMMYPHPAYPMPFITTILGGLYPSKSILLSGTVLPSAQRFHINLCSGNHIAFHLNPRFDENAVVRNTQIDNSWGSEERSLPRKMPFVRGQSFSVWILCEAHCLKVAVDGQHLFEYYHRLRNLPTINRLEVGGDIQLTHVQT"
+  },
+  "structural_sequence": {
+    "entity_id": "1",
+    "protein_auth_chain": "A",
+    "declared_entity_length": 138,
+    "declared_entity_sequence": "YPHPAYPMPFITTILGGLYPSKSILLSGTVLPSAQRFHINLCSGNHIAFHLNPRFDENAVVRNTQIDNSWGSEERSLPRKMPFVRGQSFSVWILCEAHCLKVAVDGQHLFEYYHRLRNLPTINRLEVGGDIQLTHVQT",
+    "original_mmcif_reference_accession": "Q53FQ0",
+    "original_db_residue_range_inclusive": [
+      186,
+      323
+    ],
+    "original_historical_description": "Galectin 9 short isoform variant",
+    "canonical_O00182_range_inclusive": [
+      218,
+      355
+    ],
+    "current_O00182_2_range_inclusive": [
+      186,
+      323
+    ],
+    "observed_auth_range_inclusive": [
+      188,
+      323
+    ],
+    "observed_canonical_range_inclusive": [
+      220,
+      355
+    ],
+    "observed_residue_count": 136,
+    "unmodeled_entity_residues": [
+      {
+        "auth_residue": 186,
+        "canonical_residue": 218,
+        "letter": "Y"
+      },
+      {
+        "auth_residue": 187,
+        "canonical_residue": 219,
+        "letter": "P"
+      }
+    ],
+    "expression_fusion_source": "GST in pGEX-4T-2",
+    "GST_cleavage_confirmed_by_primary_paper": true,
+    "GST_cleavage_method": "60 units thrombin at 293 K overnight; cleaved target Gal9C eluted",
+    "exact_shared_region_identity": {
+      "matches": 138,
+      "aligned_residues": 138,
+      "substitutions": 0,
+      "insertions_within_shared_region": 0,
+      "deletions_within_shared_region": 0,
+      "fraction_identity": 1.0,
+      "coverage_of_reported151residue_assay_construct": 0.9139072847682119
+    }
+  },
+  "isoform_numbering_resolution": {
+    "canonical_length": 355,
+    "current_isoform2_length": 323,
+    "current_isoform2_deleted_canonical_range_inclusive": [
+      149,
+      180
+    ],
+    "deletion_length": 32,
+    "current_isoform2_sequence_equals_canonical_with_that_deletion": true,
+    "PDB_auth_to_canonical_offset_in_core": 32,
+    "mapping_equation": "canonical residue = PDB auth residue + 32; PDB entity label_seq_id = auth residue - 185",
+    "current_isoform3_name": "Short",
+    "current_isoform3_deleted_canonical_range_inclusive": [
+      149,
+      192
+    ],
+    "do_not_equate_historical_short_name_to_current_isoform3": true,
+    "basis": "Exact amino-acid equality establishes the mapping independently of changing isoform names."
+  },
+  "truncation_audit": {
+    "reported_assay_residues_absent_from_declared_structural_construct": {
+      "canonical_range_inclusive": [
+        205,
+        217
+      ],
+      "sequence": "GQMFSTPAIPPMM",
+      "count": 13
+    },
+    "additional_declared_but_unmodeled_structural_residues": {
+      "canonical_range_inclusive": [
+        218,
+        219
+      ],
+      "sequence": "YP",
+      "count": 2
+    },
+    "UniProt_Cterminal_galectin_domain": {
+      "canonical_range_inclusive": [
+        227,
+        355
+      ],
+      "all129_residues_observed": true,
+      "substitutions": 0
+    },
+    "first_observed_residue": {
+      "canonical_number": 220,
+      "PDB_auth_number": 188,
+      "letter": "H",
+      "minimum_distance_to_native_GAL_A": 27.09627
+    },
+    "interpretation": "The 13 omitted assay residues and two unmodeled structural residues precede the annotated C-terminal galectin domain. Their omission is a terminal construct approximation; no binding-site substitution or missing annotated CRD residue is present."
+  },
+  "binding_site_audit": {
+    "native_ligand": "GAL, label/auth chain B, auth residue 3",
+    "local_contact_definition": "any protein heavy atom within 6.0 A of any modeled native GAL heavy atom; cutoff fixed for sequence audit without docking outcomes",
+    "contact_cutoff_A": 6.0,
+    "contact_residues": [
+      {
+        "auth_seq_id": 221,
+        "label_seq_id": 36,
+        "pdb_residue": "ARG",
+        "canonical_residue_number": 253,
+        "min_distance_to_native_GAL_A": 4.6177,
+        "observed_heavy_atoms": 11,
+        "observed_letter": "R",
+        "canonical_letter": "R",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 235,
+        "label_seq_id": 50,
+        "pdb_residue": "HIS",
+        "canonical_residue_number": 267,
+        "min_distance_to_native_GAL_A": 2.79585,
+        "observed_heavy_atoms": 10,
+        "observed_letter": "H",
+        "canonical_letter": "H",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 237,
+        "label_seq_id": 52,
+        "pdb_residue": "ASN",
+        "canonical_residue_number": 269,
+        "min_distance_to_native_GAL_A": 3.05496,
+        "observed_heavy_atoms": 8,
+        "observed_letter": "N",
+        "canonical_letter": "N",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 239,
+        "label_seq_id": 54,
+        "pdb_residue": "ARG",
+        "canonical_residue_number": 271,
+        "min_distance_to_native_GAL_A": 2.98589,
+        "observed_heavy_atoms": 11,
+        "observed_letter": "R",
+        "canonical_letter": "R",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 246,
+        "label_seq_id": 61,
+        "pdb_residue": "VAL",
+        "canonical_residue_number": 278,
+        "min_distance_to_native_GAL_A": 4.16168,
+        "observed_heavy_atoms": 7,
+        "observed_letter": "V",
+        "canonical_letter": "V",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 247,
+        "label_seq_id": 62,
+        "pdb_residue": "ARG",
+        "canonical_residue_number": 279,
+        "min_distance_to_native_GAL_A": 5.45721,
+        "observed_heavy_atoms": 11,
+        "observed_letter": "R",
+        "canonical_letter": "R",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 248,
+        "label_seq_id": 63,
+        "pdb_residue": "ASN",
+        "canonical_residue_number": 280,
+        "min_distance_to_native_GAL_A": 2.8538,
+        "observed_heavy_atoms": 8,
+        "observed_letter": "N",
+        "canonical_letter": "N",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 255,
+        "label_seq_id": 70,
+        "pdb_residue": "TRP",
+        "canonical_residue_number": 287,
+        "min_distance_to_native_GAL_A": 3.67034,
+        "observed_heavy_atoms": 14,
+        "observed_letter": "W",
+        "canonical_letter": "W",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 256,
+        "label_seq_id": 71,
+        "pdb_residue": "GLY",
+        "canonical_residue_number": 288,
+        "min_distance_to_native_GAL_A": 5.21839,
+        "observed_heavy_atoms": 4,
+        "observed_letter": "G",
+        "canonical_letter": "G",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 258,
+        "label_seq_id": 73,
+        "pdb_residue": "GLU",
+        "canonical_residue_number": 290,
+        "min_distance_to_native_GAL_A": 2.74127,
+        "observed_heavy_atoms": 9,
+        "observed_letter": "E",
+        "canonical_letter": "E",
+        "identity_match": true
+      }
+    ],
+    "contact_residue_count": 10,
+    "contact_sequence_substitutions": 0,
+    "uniprot_binding_site_canonical_positions": [
+      267,
+      271,
+      281,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293
+    ],
+    "uniprot_annotated_binding_residue_checks": [
+      {
+        "auth_seq_id": 235,
+        "label_seq_id": 50,
+        "pdb_residue": "HIS",
+        "canonical_residue_number": 267,
+        "min_distance_to_native_GAL_A": 2.79585,
+        "observed_heavy_atoms": 10,
+        "observed_letter": "H",
+        "canonical_letter": "H",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 239,
+        "label_seq_id": 54,
+        "pdb_residue": "ARG",
+        "canonical_residue_number": 271,
+        "min_distance_to_native_GAL_A": 2.98589,
+        "observed_heavy_atoms": 11,
+        "observed_letter": "R",
+        "canonical_letter": "R",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 249,
+        "label_seq_id": 64,
+        "pdb_residue": "THR",
+        "canonical_residue_number": 281,
+        "min_distance_to_native_GAL_A": 6.16599,
+        "observed_heavy_atoms": 7,
+        "observed_letter": "T",
+        "canonical_letter": "T",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 255,
+        "label_seq_id": 70,
+        "pdb_residue": "TRP",
+        "canonical_residue_number": 287,
+        "min_distance_to_native_GAL_A": 3.67034,
+        "observed_heavy_atoms": 14,
+        "observed_letter": "W",
+        "canonical_letter": "W",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 256,
+        "label_seq_id": 71,
+        "pdb_residue": "GLY",
+        "canonical_residue_number": 288,
+        "min_distance_to_native_GAL_A": 5.21839,
+        "observed_heavy_atoms": 4,
+        "observed_letter": "G",
+        "canonical_letter": "G",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 257,
+        "label_seq_id": 72,
+        "pdb_residue": "SER",
+        "canonical_residue_number": 289,
+        "min_distance_to_native_GAL_A": 6.28241,
+        "observed_heavy_atoms": 6,
+        "observed_letter": "S",
+        "canonical_letter": "S",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 258,
+        "label_seq_id": 73,
+        "pdb_residue": "GLU",
+        "canonical_residue_number": 290,
+        "min_distance_to_native_GAL_A": 2.74127,
+        "observed_heavy_atoms": 9,
+        "observed_letter": "E",
+        "canonical_letter": "E",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 259,
+        "label_seq_id": 74,
+        "pdb_residue": "GLU",
+        "canonical_residue_number": 291,
+        "min_distance_to_native_GAL_A": 6.80391,
+        "observed_heavy_atoms": 9,
+        "observed_letter": "E",
+        "canonical_letter": "E",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 260,
+        "label_seq_id": 75,
+        "pdb_residue": "ARG",
+        "canonical_residue_number": 292,
+        "min_distance_to_native_GAL_A": 6.30208,
+        "observed_heavy_atoms": 11,
+        "observed_letter": "R",
+        "canonical_letter": "R",
+        "identity_match": true
+      },
+      {
+        "auth_seq_id": 261,
+        "label_seq_id": 76,
+        "pdb_residue": "SER",
+        "canonical_residue_number": 293,
+        "min_distance_to_native_GAL_A": 11.81753,
+        "observed_heavy_atoms": 6,
+        "observed_letter": "S",
+        "canonical_letter": "S",
+        "identity_match": true
+      }
+    ],
+    "all_annotated_binding_residues_observed_and_identical": true,
+    "all_observed_protein_residues_match_canonical": true,
+    "observed_residue_identity_matches": 136,
+    "observed_residue_substitutions": 0,
+    "site_center_definition": "native GAL heavy-atom centroid, independent 2010 glycan structure",
+    "site_center_A": [
+      25.262727272727272,
+      54.75636363636365,
+      25.81681818181818
+    ]
+  },
+  "curation_boundaries": {
+    "frozen_specificity_panel_modified": false,
+    "ligand_or_label_changes": false,
+    "docking_or_score_tuning_performed": false,
+    "independent_sequence_verification": "Parent site-reference agent and a separately delegated primary-paper audit independently obtained the same canonical 218-355 exact match."
+  }
+}

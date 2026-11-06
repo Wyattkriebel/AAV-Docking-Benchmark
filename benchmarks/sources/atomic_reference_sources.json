@@ -1,0 +1,1235 @@
+{
+  "schema_version": 1,
+  "retrieved_date": "2026-11-03",
+  "source_only": true,
+  "prediction_outcomes_consulted": false,
+  "review_scope": "All7 frozen released external development cases; selected copies fixed by existing site-reference provenance. Coordinate/SF/validationXML/weightedmap coefficients retrieved, actual maps Fourier reconstructed and sampled; all ring-plane contour figures visually reviewed. Primary-paper scopes individually explicit.",
+  "ledger": "benchmarks/atomic_reference_ledger.json",
+  "ledger_sha256": "8ed3887e2575f8ed92d73562f9b79c088036f326ed177af2c71b55522eedf383",
+  "frozen_policy": {
+    "archive": "data/archive/atomic_reference/qualification_policy.json",
+    "sha256": "93887a57a341a8b40eb1f755a4617570ee09fe703f6c4213ca891e5d5ef8f733"
+  },
+  "manual_adjudications": {
+    "archive": "data/archive/atomic_reference/manual_adjudications.json",
+    "sha256": "8d6c8dfe5daf6718038c11944bcadd77db19d66449885cab9894de578d471fd1"
+  },
+  "source_diagnostics": {
+    "archive": "data/archive/atomic_reference/source_diagnostics.json",
+    "sha256": "4a79eef61de8def234b62f47ca1630bd843b2166315195de4df3cf9454f0d8ab"
+  },
+  "coordinate_and_experimental_sources": [
+    {
+      "pdb_id": "154L",
+      "kind": "coordinate",
+      "url": "https://files.rcsb.org/download/154L.cif",
+      "archive": "data/archive/atomic_reference/154l.cif",
+      "bytes": 212971,
+      "sha256": "a883c45350c4fdd0812123e47d9ea77b3e4fdbb1aaa80b2f0192f6e0658e62ca",
+      "retrieved_at": "2026-11-03T15:09:01.122896+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 16:49:31 GMT",
+        "ETag": "W/\"33a7c6430800f59b4c0dc739a3dafb34-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "154L",
+      "kind": "structure_factors",
+      "url": "https://files.rcsb.org/download/154L-sf.cif",
+      "archive": "data/archive/atomic_reference/154l-sf.cif",
+      "bytes": 791131,
+      "sha256": "ab0cf7826efe0601c464af0f8170116dbd7780a74c405ea006ffedadc06ae600",
+      "retrieved_at": "2026-11-03T15:09:01.241280+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 19:11:40 GMT",
+        "ETag": "W/\"6f9f18ebd1c9ea8774a25811d0847e48-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "154L",
+      "kind": "validation_xml",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/54/154l/154l_validation.xml.gz",
+      "archive": "data/archive/atomic_reference/154l_validation.xml.gz",
+      "bytes": 14131,
+      "sha256": "37d32af40b475637745d4193eaf7127ed6c6d72000007997d8e2e136a8c51914",
+      "retrieved_at": "2026-11-03T15:09:01.326624+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 13:01:30 GMT",
+        "ETag": "\"662fbb502517c9b1d637df59712db3f7\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "154L",
+      "kind": "validation_pdf",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/54/154l/154l_full_validation.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "pdb_id": "154L",
+      "kind": "2fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/54/154l/154l_validation_2fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/154l_validation_2fo-fc_map_coef.cif.gz",
+      "bytes": 324645,
+      "sha256": "d41334683e271945bfdaeeb627e4bfd9e44005e6e919e79ee9e25e005211c94b",
+      "retrieved_at": "2026-11-03T15:09:01.193043+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 13:01:30 GMT",
+        "ETag": "\"fa78fb59d2449d4f955c606071e9f998\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "154L",
+      "kind": "fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/54/154l/154l_validation_fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/154l_validation_fo-fc_map_coef.cif.gz",
+      "bytes": 325460,
+      "sha256": "37bb05228b01117e9417e932f10521fc7a5c8651b53fb360beaccf183e8f7714",
+      "retrieved_at": "2026-11-03T15:09:01.221960+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 13:01:30 GMT",
+        "ETag": "\"bdfbce7c345cfda4bf0db4c8bf62f5b9\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1GNY",
+      "kind": "coordinate",
+      "url": "https://files.rcsb.org/download/1GNY.cif",
+      "archive": "data/archive/atomic_reference/1gny.cif",
+      "bytes": 209861,
+      "sha256": "cca70307b2ba7c918e9ed4dc170f17975df86ca931ce7f1dec5014bb81a96329",
+      "retrieved_at": "2026-11-03T15:09:01.216822+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 17:09:15 GMT",
+        "ETag": "W/\"0d8b596aaf64412cf13796b4f71fdf9e-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1GNY",
+      "kind": "structure_factors",
+      "url": "https://files.rcsb.org/download/1GNY-sf.cif",
+      "archive": "data/archive/atomic_reference/1gny-sf.cif",
+      "bytes": 862677,
+      "sha256": "f92d08efef3054cd5af845e436b92f3d576981e97850481c106b5fa81997780c",
+      "retrieved_at": "2026-11-03T15:09:01.356930+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 19:30:45 GMT",
+        "ETag": "W/\"652c1c8e978f8ea6ff8d0c759ffc93f1-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1GNY",
+      "kind": "validation_xml",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/gn/1gny/1gny_validation.xml.gz",
+      "archive": "data/archive/atomic_reference/1gny_validation.xml.gz",
+      "bytes": 12679,
+      "sha256": "b30bfca9ed464cf318f1e89653388729ac9a85d55bb4d0a4b2b5049ba66a6db5",
+      "retrieved_at": "2026-11-03T15:09:01.090621+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 14:46:00 GMT",
+        "ETag": "\"620f0092e3b7fd320db9e2a22eafe09b\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1GNY",
+      "kind": "validation_pdf",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/gn/1gny/1gny_full_validation.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "pdb_id": "1GNY",
+      "kind": "2fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/gn/1gny/1gny_validation_2fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/1gny_validation_2fo-fc_map_coef.cif.gz",
+      "bytes": 326784,
+      "sha256": "6327039c7c69dc990697a9d0ad586540d4eb8d3354cbd520e4e1b9e006dcde55",
+      "retrieved_at": "2026-11-03T15:09:01.366724+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 14:46:00 GMT",
+        "ETag": "\"ab4dd3352e0cb17ac8259519551efd9a\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1GNY",
+      "kind": "fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/gn/1gny/1gny_validation_fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/1gny_validation_fo-fc_map_coef.cif.gz",
+      "bytes": 328816,
+      "sha256": "1b3bc547fffe6a342e999eb1811b3abd85a15978cc1954af2271d74518c8dc46",
+      "retrieved_at": "2026-11-03T15:09:01.353924+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 14:46:00 GMT",
+        "ETag": "\"d3b6c474a3278966b154145b43855191\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1KJL",
+      "kind": "coordinate",
+      "url": "https://files.rcsb.org/download/1KJL.cif",
+      "archive": "data/archive/atomic_reference/1kjl.cif",
+      "bytes": 195530,
+      "sha256": "df637376e7f2ecbaf6a0f8c1c9d1a4923b3c047b0c32891db2d7dea5c44a5e90",
+      "retrieved_at": "2026-11-03T15:09:01.382656+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 17:20:00 GMT",
+        "ETag": "W/\"269623671ae24bede7827605bb9b6c9e-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1KJL",
+      "kind": "structure_factors",
+      "url": "https://files.rcsb.org/download/1KJL-sf.cif",
+      "archive": "data/archive/atomic_reference/1kjl-sf.cif",
+      "bytes": 1002786,
+      "sha256": "3dc047d9cb2973c6e789e39541317a29aaed0f86292e7036af566acd124fd592",
+      "retrieved_at": "2026-11-03T15:09:01.483011+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 19:40:57 GMT",
+        "ETag": "W/\"1660573035007c31ddd521f3d0be0e22-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1KJL",
+      "kind": "validation_xml",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/kj/1kjl/1kjl_validation.xml.gz",
+      "archive": "data/archive/atomic_reference/1kjl_validation.xml.gz",
+      "bytes": 11695,
+      "sha256": "a5f821e6aafe776047a53264c657d381324dc28fe7034c539e6aa29972c1f720",
+      "retrieved_at": "2026-11-03T15:09:01.360633+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 15:45:49 GMT",
+        "ETag": "\"75367216bf6050f11b228405e44aab7a\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1KJL",
+      "kind": "validation_pdf",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/kj/1kjl/1kjl_full_validation.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "pdb_id": "1KJL",
+      "kind": "2fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/kj/1kjl/1kjl_validation_2fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/1kjl_validation_2fo-fc_map_coef.cif.gz",
+      "bytes": 393646,
+      "sha256": "01ca59f4a600b27c02871e96aa07b69f783f7b0a86c4aa252076bcce292aed7e",
+      "retrieved_at": "2026-11-03T15:09:01.524011+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 15:45:49 GMT",
+        "ETag": "\"3ce8b2c66a646f2e184f96fde92473d2\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1KJL",
+      "kind": "fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/kj/1kjl/1kjl_validation_fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/1kjl_validation_fo-fc_map_coef.cif.gz",
+      "bytes": 391774,
+      "sha256": "31a07df8f0749af454c3648ebef7b4a4170f908c93203eda1e7c24472e57d2a6",
+      "retrieved_at": "2026-11-03T15:09:01.447265+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 15:45:49 GMT",
+        "ETag": "\"7944d7a8d36ce2f57c00b6034c65dee7\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1QFO",
+      "kind": "coordinate",
+      "url": "https://files.rcsb.org/download/1QFO.cif",
+      "archive": "data/archive/atomic_reference/1qfo.cif",
+      "bytes": 358268,
+      "sha256": "ac932455ee2d2de9726af0e52c9c733831b4d3e8f1afc67f52b23e849989ffc1",
+      "retrieved_at": "2026-11-03T15:09:01.621643+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 17:35:03 GMT",
+        "ETag": "W/\"5c56fdab355964f6cc89521d04a9cec7-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1QFO",
+      "kind": "structure_factors",
+      "url": "https://files.rcsb.org/download/1QFO-sf.cif",
+      "archive": "data/archive/atomic_reference/1qfo-sf.cif",
+      "bytes": 1328027,
+      "sha256": "d8afa42b77feacb84127d5a51940ef39c58814eef2f8f0f70810cb3e3fb3a32b",
+      "retrieved_at": "2026-11-03T15:09:02.245972+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 19:54:30 GMT",
+        "ETag": "W/\"63f5125ec7718338843f0bc7eb1b39d3-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1QFO",
+      "kind": "validation_xml",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/qf/1qfo/1qfo_validation.xml.gz",
+      "archive": "data/archive/atomic_reference/1qfo_validation.xml.gz",
+      "bytes": 21395,
+      "sha256": "cf4a74cd5b18351a55fdcb762ca40939392e1f236265eedf50de351a71b86318",
+      "retrieved_at": "2026-11-03T15:09:01.515015+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 17:08:52 GMT",
+        "ETag": "\"343e9cc2fd7222fb031571686d7ac457\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1QFO",
+      "kind": "validation_pdf",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/qf/1qfo/1qfo_full_validation.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "pdb_id": "1QFO",
+      "kind": "2fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/qf/1qfo/1qfo_validation_2fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/1qfo_validation_2fo-fc_map_coef.cif.gz",
+      "bytes": 507264,
+      "sha256": "ef47acf833c3acb9f655ec0fad19b67d447cf9c6f9057adde4cc0c1d510a4b08",
+      "retrieved_at": "2026-11-03T15:09:01.904766+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 17:08:52 GMT",
+        "ETag": "\"e779cb5df09a3def743869955561d9d2\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1QFO",
+      "kind": "fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/qf/1qfo/1qfo_validation_fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/1qfo_validation_fo-fc_map_coef.cif.gz",
+      "bytes": 508440,
+      "sha256": "3f25b0f11d5e4d82828d13b308885425f06e1c0b9c2c3e8f5cbfe9a665e11263",
+      "retrieved_at": "2026-11-03T15:09:01.676466+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 17:08:52 GMT",
+        "ETag": "\"b30f8e4cda2eee69a9790063f1116b8c\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2J1T",
+      "kind": "coordinate",
+      "url": "https://files.rcsb.org/download/2J1T.cif",
+      "archive": "data/archive/atomic_reference/2j1t.cif",
+      "bytes": 582840,
+      "sha256": "a2aa0a444e5893a883c311a469d9ff75279d500b213b7696b34ba7e22a22609d",
+      "retrieved_at": "2026-11-03T15:09:01.877487+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 17:15:55 GMT",
+        "ETag": "W/\"2dc018096653278552c21cf00d4cd6f2-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2J1T",
+      "kind": "structure_factors",
+      "url": "https://files.rcsb.org/download/2J1T-sf.cif",
+      "archive": "data/archive/atomic_reference/2j1t-sf.cif",
+      "bytes": 2014601,
+      "sha256": "6346cf46906c0ae179d8d05c0ac72cd715847451b513021714bd0bef20334b64",
+      "retrieved_at": "2026-11-03T15:09:02.100947+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 19:37:50 GMT",
+        "ETag": "W/\"bb8b9e82e383c8600e926af6ed97dec9-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2J1T",
+      "kind": "validation_xml",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/j1/2j1t/2j1t_validation.xml.gz",
+      "archive": "data/archive/atomic_reference/2j1t_validation.xml.gz",
+      "bytes": 21039,
+      "sha256": "259c1bbfa882918d10baff321a3262292174a609068571a8004dcf3b7f0bd60a",
+      "retrieved_at": "2026-11-03T15:09:01.671629+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 15:24:13 GMT",
+        "ETag": "\"a3891b3af9dc54245ebe8d599ae3ed35\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2J1T",
+      "kind": "validation_pdf",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/j1/2j1t/2j1t_full_validation.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "pdb_id": "2J1T",
+      "kind": "2fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/j1/2j1t/2j1t_validation_2fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/2j1t_validation_2fo-fc_map_coef.cif.gz",
+      "bytes": 513275,
+      "sha256": "c2da2c2f8c9ce0324226de2bdab2ccb0a9cdccac092b14f01212ab2c60cf34fd",
+      "retrieved_at": "2026-11-03T15:09:02.219727+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 15:24:13 GMT",
+        "ETag": "\"a827c511441f1a7da4ed092f90249b02\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2J1T",
+      "kind": "fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/j1/2j1t/2j1t_validation_fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/2j1t_validation_fo-fc_map_coef.cif.gz",
+      "bytes": 513457,
+      "sha256": "7d1e1388c8a80a5179f7e3221f7c61a43983a094252faf3b32fd48734819762c",
+      "retrieved_at": "2026-11-03T15:09:01.753953+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 15:24:13 GMT",
+        "ETag": "\"7ac7b66a14801214f0c1163f202f8ca8\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1PWB",
+      "kind": "coordinate",
+      "url": "https://files.rcsb.org/download/1PWB.cif",
+      "archive": "data/archive/atomic_reference/1pwb.cif",
+      "bytes": 503282,
+      "sha256": "2a51985b47bb986ab968e559d23e7b0ecdb37860a60972020629c648641aa38d",
+      "retrieved_at": "2026-11-03T15:09:02.146271+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 17:33:36 GMT",
+        "ETag": "W/\"841678e7804747b714bd2a0ff1e031c7-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1PWB",
+      "kind": "structure_factors",
+      "url": "https://files.rcsb.org/download/1PWB-sf.cif",
+      "archive": "data/archive/atomic_reference/1pwb-sf.cif",
+      "bytes": 4896305,
+      "sha256": "3c330b90f6f5c40710785ca655865470ea99213290dc4645cbba48a1ce6e5de7",
+      "retrieved_at": "2026-11-03T15:09:02.258257+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 19:53:00 GMT",
+        "ETag": "W/\"4ed78a62a002cc4413e1ecf7fe5ff133-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1PWB",
+      "kind": "validation_xml",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/pw/1pwb/1pwb_validation.xml.gz",
+      "archive": "data/archive/atomic_reference/1pwb_validation.xml.gz",
+      "bytes": 29218,
+      "sha256": "814374aa8d9bb076092a1732bc38fc5e98da7e3d14b5713f814bf2bdaf822656",
+      "retrieved_at": "2026-11-03T15:09:01.793517+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 17:00:44 GMT",
+        "ETag": "\"fc407da9131cbb43cd71a806d3531ba6\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1PWB",
+      "kind": "validation_pdf",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/pw/1pwb/1pwb_full_validation.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "pdb_id": "1PWB",
+      "kind": "2fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/pw/1pwb/1pwb_validation_2fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/1pwb_validation_2fo-fc_map_coef.cif.gz",
+      "bytes": 1888639,
+      "sha256": "a871c6a383fa6fcecf816bf56095ed064a204acb62b3690f338df8bfdc5b5cd9",
+      "retrieved_at": "2026-11-03T15:09:02.423055+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 17:00:44 GMT",
+        "ETag": "\"fbb94fb856a0ffc6c32d9d5d885fb6ca\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "1PWB",
+      "kind": "fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/pw/1pwb/1pwb_validation_fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/1pwb_validation_fo-fc_map_coef.cif.gz",
+      "bytes": 1889470,
+      "sha256": "5063c88bf7f3d2fae7ce43bb5df345ac7f770bf65972ec77b0f701dd073faa2c",
+      "retrieved_at": "2026-11-03T15:09:02.440427+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 17:00:44 GMT",
+        "ETag": "\"99cb3e9cf72bf56f42e6a760503e7421\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2VUZ",
+      "kind": "coordinate",
+      "url": "https://files.rcsb.org/download/2VUZ.cif",
+      "archive": "data/archive/atomic_reference/2vuz.cif",
+      "bytes": 200919,
+      "sha256": "fd1edcd6228042ba02383eeb2c524dd1bea3c4605a614d46a01201956ff22f8a",
+      "retrieved_at": "2026-11-03T15:09:02.211158+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 17:48:04 GMT",
+        "ETag": "W/\"93df2788c9b056261c8f16888c6db5a4-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2VUZ",
+      "kind": "structure_factors",
+      "url": "https://files.rcsb.org/download/2VUZ-sf.cif",
+      "archive": "data/archive/atomic_reference/2vuz-sf.cif",
+      "bytes": 688550,
+      "sha256": "631f783b79550adcfae7956aa30c167249051343a5e7c5591bc7eaf86e98a4f1",
+      "retrieved_at": "2026-11-03T15:09:02.359257+00:00",
+      "http_headers": {
+        "Content-Type": "chemical/x-cif",
+        "Last-Modified": "Thu, 25 Sep 2025 20:09:16 GMT",
+        "ETag": "W/\"dcc810b3034e69d519503b3e516a98f0-identity\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2VUZ",
+      "kind": "validation_xml",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/vu/2vuz/2vuz_validation.xml.gz",
+      "archive": "data/archive/atomic_reference/2vuz_validation.xml.gz",
+      "bytes": 11431,
+      "sha256": "55b7b1cc72fafd7892ab2b61f77e9df2251cb1a487bbceb693978ffa5675c0de",
+      "retrieved_at": "2026-11-03T15:09:02.082440+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 18:20:07 GMT",
+        "ETag": "\"ec1f1470c84058f051705312710473f2\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2VUZ",
+      "kind": "validation_pdf",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/vu/2vuz/2vuz_full_validation.pdf",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "pdb_id": "2VUZ",
+      "kind": "2fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/vu/2vuz/2vuz_validation_2fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/2vuz_validation_2fo-fc_map_coef.cif.gz",
+      "bytes": 258259,
+      "sha256": "dd874dafa7d8245ae52302d2ec1c3b65d0a1b4fb573c3ee952a6079847f4fb45",
+      "retrieved_at": "2026-11-03T15:09:02.501394+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 18:20:07 GMT",
+        "ETag": "\"2b899ce22bd289f60a9571ec4c3c89f9\""
+      },
+      "status": "retrieved"
+    },
+    {
+      "pdb_id": "2VUZ",
+      "kind": "fofc_coefficients",
+      "url": "https://files.rcsb.org/pub/pdb/validation_reports/vu/2vuz/2vuz_validation_fo-fc_map_coef.cif.gz",
+      "archive": "data/archive/atomic_reference/2vuz_validation_fo-fc_map_coef.cif.gz",
+      "bytes": 258007,
+      "sha256": "8934320566e388bd6a92a9f1b67feb336ac44745a68665a69e82503d3297833b",
+      "retrieved_at": "2026-11-03T15:09:02.479276+00:00",
+      "http_headers": {
+        "Content-Type": "application/gzip",
+        "Last-Modified": "Sun, 26 Apr 2026 18:20:07 GMT",
+        "ETag": "\"f4b8681db4d7462038511311bc0385eb\""
+      },
+      "status": "retrieved"
+    }
+  ],
+  "chemical_component_dictionary_sources": [
+    {
+      "component_id": "BMA",
+      "url": "https://files.rcsb.org/ligands/download/BMA.cif",
+      "archive": "data/archive/external/BMA.cif.gz",
+      "sha256": "a37d666700210c43e09a57206b6c6ccdb90e4762108a7d0e1b1dcc57e10acc47",
+      "uncompressed_sha256": "3663ac87ab4fbdab73c7c80915c1e0d15cac7e61f3f43f14df9eb3d5261974b8",
+      "license": "PDB archive CC0 1.0; reuse existing previously pinned CCD archive"
+    },
+    {
+      "component_id": "FUC",
+      "url": "https://files.rcsb.org/ligands/download/FUC.cif",
+      "archive": "data/archive/external/FUC.cif.gz",
+      "sha256": "29f3bde33e08c49cf35fc660aa45569e88d070e193174f0fe016039cc784abfb",
+      "uncompressed_sha256": "b05b59fd2eae453a012a24ab319c5a7cf0dec6620fc67f58b46be01a77aacc83",
+      "license": "PDB archive CC0 1.0; reuse existing previously pinned CCD archive"
+    },
+    {
+      "component_id": "GAL",
+      "url": "https://files.rcsb.org/ligands/download/GAL.cif",
+      "archive": "data/archive/external/GAL.cif.gz",
+      "sha256": "0e52976ad39c490473559393320675e07414b068b7152ffeef51710e64037837",
+      "uncompressed_sha256": "404cefc4700fba1eb89e24f7cdaf5b831138c7056cd796ed7ef24e82ce0bc45a",
+      "license": "PDB archive CC0 1.0; reuse existing previously pinned CCD archive"
+    },
+    {
+      "component_id": "GLC",
+      "url": "https://files.rcsb.org/ligands/download/GLC.cif",
+      "archive": "data/archive/external/GLC.cif.gz",
+      "sha256": "e97a6353b66b0ba47c2ad2f714d550ac8753d657d31f1567bf5840e8e7a261cc",
+      "uncompressed_sha256": "07eedff69de20c995d0aaf1f582bc6b9ecbf63bd6b4702dbb5141dcb3ab0f260",
+      "license": "PDB archive CC0 1.0; reuse existing previously pinned CCD archive"
+    },
+    {
+      "component_id": "MAN",
+      "url": "https://files.rcsb.org/ligands/download/MAN.cif",
+      "archive": "data/archive/external/MAN.cif.gz",
+      "sha256": "fd9bdc23e2218941b011f8dc7f29558bb0dc7c3b53e2aec310f5145893e57063",
+      "uncompressed_sha256": "79bc85094a794dfccdb827470fed9124e2dcaac2266d366d120d242d3d7aa8d5",
+      "license": "PDB archive CC0 1.0; reuse existing previously pinned CCD archive"
+    },
+    {
+      "component_id": "NAG",
+      "url": "https://files.rcsb.org/ligands/download/NAG.cif",
+      "archive": "data/archive/external/NAG.cif.gz",
+      "sha256": "34acfbdbf655e8ee704112cb7ede8fca8489db9e5ae6211dbe1cc1469da726bb",
+      "uncompressed_sha256": "eada750ebb20e7abd76ef486c0a8278e461309e1cdde415545bb1c63c09bfb0f",
+      "license": "PDB archive CC0 1.0; reuse existing previously pinned CCD archive"
+    },
+    {
+      "component_id": "SIA",
+      "url": "https://files.rcsb.org/ligands/download/SIA.cif",
+      "archive": "data/archive/external/SIA.cif.gz",
+      "sha256": "be60a891c41feaa845542990ca02f5836b89c773caab9b2d7617ec3988415745",
+      "uncompressed_sha256": "1ee62433895cb1c445ed36e6698353df5a2e6b7424cca901d6ea1e3327892bb2",
+      "license": "PDB archive CC0 1.0; reuse existing previously pinned CCD archive"
+    },
+    {
+      "component_id": "XYP",
+      "url": "https://files.rcsb.org/ligands/download/XYP.cif",
+      "archive": "data/archive/external/XYP.cif.gz",
+      "sha256": "d8d670ba1a20a096a79e1dfa2bee4cf574cadbacc022ae11e81ff11283bb4b4e",
+      "uncompressed_sha256": "811c097c84bf069c094b5c1977c9760d5c9d5ccf7266c22c5dba6dab5ad5739e",
+      "license": "PDB archive CC0 1.0; reuse existing previously pinned CCD archive"
+    }
+  ],
+  "primary_sources": [
+    {
+      "pdb_id": "154L",
+      "doi": "10.1016/S0022-2836(95)80038-7",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022283695800387",
+      "access_scope": "publisher_abstract_and_deposition_reproduced_abstract",
+      "density_evidence": "No residue-specific density statement or figure was accessible in the primary abstract; no claim of independently viewed paper density.",
+      "ligand_and_context_evidence": "The primary abstract reports 1.6 A refinement of goose lysozyme with a GlcNAc trisaccharide occupying analogous B/C/D subsites. It describes conserved protein-backbone interactions with the acetamido group in subsite C.",
+      "locations": [
+        "Abstract"
+      ],
+      "license_context": "No OA license found in Crossref; full primary text not archived."
+    },
+    {
+      "pdb_id": "1GNY",
+      "doi": "10.1074/JBC.M109558200",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021925820881459",
+      "access_scope": "publisher_and_deposition_abstract_only; full PDF inaccessible via HTTP403",
+      "density_evidence": "The abstract states five observed binding subsites but supplies no residue-specific electron-density figure or fit diagnostic. This does not independently certify terminal xylose atom positions.",
+      "ligand_and_context_evidence": "Isolated noncatalytic CBM15 from Pseudomonas cellulosa/Cellvibrio japonicus Xyn10C binds xylopentaose in a 20-25 A concave groove. Two tryptophan stacking faces separated by about 240 degrees complement approximate threefold helical ligand conformation; 2/3 hydroxyls exposed in four of five subsites.",
+      "locations": [
+        "Abstract"
+      ],
+      "license_context": "Crossref and Elsevier API metadata identify CC BY 4.0 for published version; retrieved XML is metadata only, not full text."
+    },
+    {
+      "pdb_id": "1KJL",
+      "doi": "10.1021/ja043475p",
+      "url": "https://pubs.acs.org/doi/10.1021/ja043475p",
+      "access_scope": "deposition_reproduced_primary_abstract; ACS publisher returned HTTP403",
+      "density_evidence": "No ligand density figure or residue-specific density statement accessible in reviewed primary abstract.",
+      "ligand_and_context_evidence": "The reported crystal structures are the human galectin-3 carbohydrate recognition domain complexed with LacNAc and with an aromatic high-affinity inhibitor; those are different complexes. Arg144 orientation changes in the inhibitor complex relative to LacNAc. The LacNAc reference must not be assigned inhibitor density/interaction evidence.",
+      "locations": [
+        "Abstract"
+      ],
+      "license_context": "No OA license present in Crossref metadata; unauthorized third-party mirror not downloaded."
+    },
+    {
+      "pdb_id": "1QFO",
+      "doi": "10.1016/S1097-2765(00)80071-4",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1097276500800714",
+      "access_scope": "indexed_publisher_full_text_Results_and_Discussion_and_Figure_1_caption; raw full-text retrieval failed",
+      "density_evidence": "Results reports clear sialyllactose density for protein molecules A and B, whereas molecule C shows only sialic acid and disordered lactose. Figure 1A depicts complete 3-prime sialyllactose bound to molecule B in the final 2Fo-Fc map contoured at 1 sigma. This directly concerns the already fixed selected deposited protein B/glycan E copy; no new copy selection made.",
+      "ligand_and_context_evidence": "The construct is the functional N-terminal 119-residue SnD1 domain, with three crystallographic molecules. A/B contain residues 1-118, C 1-119. Density is poor for protein residues33-34 and102 in all copies. Main article refinement is1.85 A at295K, R20.6%/Rfree25%; 2.3 A100K data are a separate comparison.",
+      "locations": [
+        "Results and Discussion first paragraph",
+        "Figure 1A caption",
+        "Table 1"
+      ],
+      "license_context": "Publisher labels open archive under Elsevier user license; Crossref license https://www.elsevier.com/open-access/userlicense/1.0/. No raw full text archived."
+    },
+    {
+      "pdb_id": "2J1T",
+      "doi": "10.1074/JBC.M607620200",
+      "url": "https://www.jbc.org/article/S0021925819350045/pdf",
+      "access_scope": "indexed_publisher_full_PDF_specific_Results_and_Figure_5_caption; raw PDF retrieval HTTP403",
+      "density_evidence": "Primary Results says oligosaccharide density was well defined and allowed unambiguous modeling for H-trisaccharide, A-tetrasaccharide analogue and Lewis y. Fig5D shows Lewis y with maximum-likelihood/sigma-A-weighted 2Fo-Fc map at1 sigma, corresponding to0.28 e/A^3. Only one of two crystallographic SpX-1 molecules binds oligosaccharide; packing occludes the other.",
+      "ligand_and_context_evidence": "This is the SpX-1 fucose-binding module from the C-terminal CBM47 triplet of1038-aa SpGH98. The paper describes the alpha1,2 terminal fucose recognition and additional interactions for the Lewis y antigen. Complete multivalent parent protein is outside the crystal module.",
+      "locations": [
+        "Results around Figure5",
+        "Figure5D caption",
+        "Introduction"
+      ],
+      "license_context": "Publisher indexed PDF and official Elsevier metadata identify CC BY; Crossref identifies CC BY4.0. Downloaded XML is citation/license metadata only."
+    },
+    {
+      "pdb_id": "1PWB",
+      "doi": "10.1016/S0022-2836(03)00761-7",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283603007617",
+      "access_scope": "publisher_abstract_and_section_excerpts_Overall_structures_Maltose_binding_Preparation",
+      "density_evidence": "Reviewed publisher excerpt says the first24 residues (hSP-D179-202) lack visible electron density; ligand-bound structure is described as monosaccharide recognition with minimal conformational change. No full maltose density figure was accessible in this review.",
+      "ligand_and_context_evidence": "The construct is a recombinant human homotrimer with each chain Gly179-Phe355. Three CRDs236-355 are spatially separated and linked through coiled-coil neck203-235; therefore released single-chain receptor does not represent the published full trimer.",
+      "locations": [
+        "Overall structures excerpt",
+        "Maltose binding excerpt",
+        "Preparation of rfhSP-D excerpt"
+      ],
+      "license_context": "No OA license found in Crossref; only accessible publisher excerpts reviewed, no full text archived."
+    },
+    {
+      "pdb_id": "2VUZ",
+      "doi": "10.1074/JBC.M804353200",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2662075/",
+      "access_scope": "downloaded_primary_full_text; Methods_Results_Figures1_4_5_Table3_reviewed",
+      "density_evidence": "Methods reports initially clear residual density for at least five sugar monomers, manual building according to known chemistry, with no ambiguous glycosidic linkage. Results identifies five initial residues then two further GlcNAc residues; both antennal capping Gal and Asn could not be located. Fig4A presents final weighted2mFo-DFc map at1 sigma (0.34 e/A^3). Seven modeled sugars are not the complete administered nonasaccharide-Asn ligand.",
+      "ligand_and_context_evidence": "The alpha1-6-arm mannose O3/O4 coordinate recognition calcium. The alpha1-3-arm mannose has no direct protein contact; its GlcNAc stacks onTrp108. Both chitobiose core residues lack direct protein contact. Paper reports a disulfide dimer in crystal2-fold symmetry and Cys bridge2.33 A for complex, possibly radiation damaged (native2.05 A). Pro91 is4-hydroxyproline.",
+      "locations": [
+        "Structure determination Methods",
+        "Crystal Structure of Codakine-Nona-Asn Results",
+        "Figure4",
+        "Table3",
+        "Overall Structure of Codakine",
+        "Figure5"
+      ],
+      "license_context": "PMC archived version shows copyright2008 ASBMB; current published version CC BY4.0 according to Crossref (from2020-09-18). Both provenance and current license retained."
+    }
+  ],
+  "primary_paper_evidence": {
+    "archive": "data/archive/atomic_reference/papers/primary_paper_evidence.json",
+    "sha256": "cdb28f679f03ca838f9c767ba4636874fb8224b00d2f7aa0a0cf6851bd248bce"
+  },
+  "guides": [
+    {
+      "url": "https://www.rcsb.org/docs/general-help/electron-density-maps-and-coefficient-files",
+      "archive": "data/archive/atomic_reference/rcsb_density_map_guide.html",
+      "bytes": 88356,
+      "sha256": "afeef401ec94c8151e102832bec0f5830da98faaf6166970059775b06f889601"
+    },
+    {
+      "url": "https://www.wwpdb.org/about/usage-policies",
+      "archive": "data/archive/atomic_reference/wwpdb_usage_policy.html",
+      "bytes": 14815,
+      "sha256": "3aa07e42a4fbf6651f9e21f5a9d253c6fc6a7414d943278b69c167de1aecc419"
+    },
+    {
+      "url": "https://www.rcsb.org/docs/general-help/ligand-structure-quality-in-pdb-structures",
+      "archive": "data/archive/atomic_reference/rcsb_ligand_quality_guide.html",
+      "bytes": 100219,
+      "sha256": "86b2e5585d23d6ac4579144e86678f6bb179c2558a08992a7f47642d7f2f389e"
+    }
+  ],
+  "license_context": {
+    "PDB_archive": "CC0 1.0 Universal per wwPDB usage policy; original structure authors cited. Coordinate/structure-factor/CCD data and validation products retrieved from PDB archive paths.",
+    "PDB_policy_url": "https://www.wwpdb.org/about/usage-policies",
+    "published_articles": "Separate publisher licenses; each primary_sources license_context and archived paper/Crossref manifest retains what was actually accessible. No blanket CC0 assertion for articles.",
+    "released_HADDOCK_source": "Pinned existing protein-glycans upstream commit344e4a41a300b68b7ee3585895a460c863545ddb; archived upstream LICENSE is Apache2.0 (data/archive/external/HADDOCK_DATA_LICENSE.gz). Underlying structural data retain PDB provenance."
+  },
+  "replay_archives": {
+    "original_computation": "data/archive/atomic_reference/inspect_sources.py",
+    "receptor_context_computation": "data/archive/atomic_reference/inspect_receptor_context.py",
+    "density_figures": "data/archive/atomic_reference/render_density_slices.py",
+    "decision_freezer": "data/archive/atomic_reference/freeze_ledger.py"
+  },
+  "archived_files": [
+    {
+      "archive": "data/archive/atomic_reference/154l-sf.cif",
+      "sha256": "ab0cf7826efe0601c464af0f8170116dbd7780a74c405ea006ffedadc06ae600",
+      "bytes": 791131
+    },
+    {
+      "archive": "data/archive/atomic_reference/154l.cif",
+      "sha256": "a883c45350c4fdd0812123e47d9ea77b3e4fdbb1aaa80b2f0192f6e0658e62ca",
+      "bytes": 212971
+    },
+    {
+      "archive": "data/archive/atomic_reference/154l_validation.xml.gz",
+      "sha256": "37d32af40b475637745d4193eaf7127ed6c6d72000007997d8e2e136a8c51914",
+      "bytes": 14131
+    },
+    {
+      "archive": "data/archive/atomic_reference/154l_validation_2fo-fc_map_coef.cif.gz",
+      "sha256": "d41334683e271945bfdaeeb627e4bfd9e44005e6e919e79ee9e25e005211c94b",
+      "bytes": 324645
+    },
+    {
+      "archive": "data/archive/atomic_reference/154l_validation_fo-fc_map_coef.cif.gz",
+      "sha256": "37bb05228b01117e9417e932f10521fc7a5c8651b53fb360beaccf183e8f7714",
+      "bytes": 325460
+    },
+    {
+      "archive": "data/archive/atomic_reference/1gny-sf.cif",
+      "sha256": "f92d08efef3054cd5af845e436b92f3d576981e97850481c106b5fa81997780c",
+      "bytes": 862677
+    },
+    {
+      "archive": "data/archive/atomic_reference/1gny.cif",
+      "sha256": "cca70307b2ba7c918e9ed4dc170f17975df86ca931ce7f1dec5014bb81a96329",
+      "bytes": 209861
+    },
+    {
+      "archive": "data/archive/atomic_reference/1gny_validation.xml.gz",
+      "sha256": "b30bfca9ed464cf318f1e89653388729ac9a85d55bb4d0a4b2b5049ba66a6db5",
+      "bytes": 12679
+    },
+    {
+      "archive": "data/archive/atomic_reference/1gny_validation_2fo-fc_map_coef.cif.gz",
+      "sha256": "6327039c7c69dc990697a9d0ad586540d4eb8d3354cbd520e4e1b9e006dcde55",
+      "bytes": 326784
+    },
+    {
+      "archive": "data/archive/atomic_reference/1gny_validation_fo-fc_map_coef.cif.gz",
+      "sha256": "1b3bc547fffe6a342e999eb1811b3abd85a15978cc1954af2271d74518c8dc46",
+      "bytes": 328816
+    },
+    {
+      "archive": "data/archive/atomic_reference/1kjl-sf.cif",
+      "sha256": "3dc047d9cb2973c6e789e39541317a29aaed0f86292e7036af566acd124fd592",
+      "bytes": 1002786
+    },
+    {
+      "archive": "data/archive/atomic_reference/1kjl.cif",
+      "sha256": "df637376e7f2ecbaf6a0f8c1c9d1a4923b3c047b0c32891db2d7dea5c44a5e90",
+      "bytes": 195530
+    },
+    {
+      "archive": "data/archive/atomic_reference/1kjl_validation.xml.gz",
+      "sha256": "a5f821e6aafe776047a53264c657d381324dc28fe7034c539e6aa29972c1f720",
+      "bytes": 11695
+    },
+    {
+      "archive": "data/archive/atomic_reference/1kjl_validation_2fo-fc_map_coef.cif.gz",
+      "sha256": "01ca59f4a600b27c02871e96aa07b69f783f7b0a86c4aa252076bcce292aed7e",
+      "bytes": 393646
+    },
+    {
+      "archive": "data/archive/atomic_reference/1kjl_validation_fo-fc_map_coef.cif.gz",
+      "sha256": "31a07df8f0749af454c3648ebef7b4a4170f908c93203eda1e7c24472e57d2a6",
+      "bytes": 391774
+    },
+    {
+      "archive": "data/archive/atomic_reference/1pwb-sf.cif",
+      "sha256": "3c330b90f6f5c40710785ca655865470ea99213290dc4645cbba48a1ce6e5de7",
+      "bytes": 4896305
+    },
+    {
+      "archive": "data/archive/atomic_reference/1pwb.cif",
+      "sha256": "2a51985b47bb986ab968e559d23e7b0ecdb37860a60972020629c648641aa38d",
+      "bytes": 503282
+    },
+    {
+      "archive": "data/archive/atomic_reference/1pwb_validation.xml.gz",
+      "sha256": "814374aa8d9bb076092a1732bc38fc5e98da7e3d14b5713f814bf2bdaf822656",
+      "bytes": 29218
+    },
+    {
+      "archive": "data/archive/atomic_reference/1pwb_validation_2fo-fc_map_coef.cif.gz",
+      "sha256": "a871c6a383fa6fcecf816bf56095ed064a204acb62b3690f338df8bfdc5b5cd9",
+      "bytes": 1888639
+    },
+    {
+      "archive": "data/archive/atomic_reference/1pwb_validation_fo-fc_map_coef.cif.gz",
+      "sha256": "5063c88bf7f3d2fae7ce43bb5df345ac7f770bf65972ec77b0f701dd073faa2c",
+      "bytes": 1889470
+    },
+    {
+      "archive": "data/archive/atomic_reference/1qfo-sf.cif",
+      "sha256": "d8afa42b77feacb84127d5a51940ef39c58814eef2f8f0f70810cb3e3fb3a32b",
+      "bytes": 1328027
+    },
+    {
+      "archive": "data/archive/atomic_reference/1qfo.cif",
+      "sha256": "ac932455ee2d2de9726af0e52c9c733831b4d3e8f1afc67f52b23e849989ffc1",
+      "bytes": 358268
+    },
+    {
+      "archive": "data/archive/atomic_reference/1qfo_validation.xml.gz",
+      "sha256": "cf4a74cd5b18351a55fdcb762ca40939392e1f236265eedf50de351a71b86318",
+      "bytes": 21395
+    },
+    {
+      "archive": "data/archive/atomic_reference/1qfo_validation_2fo-fc_map_coef.cif.gz",
+      "sha256": "ef47acf833c3acb9f655ec0fad19b67d447cf9c6f9057adde4cc0c1d510a4b08",
+      "bytes": 507264
+    },
+    {
+      "archive": "data/archive/atomic_reference/1qfo_validation_fo-fc_map_coef.cif.gz",
+      "sha256": "3f25b0f11d5e4d82828d13b308885425f06e1c0b9c2c3e8f5cbfe9a665e11263",
+      "bytes": 508440
+    },
+    {
+      "archive": "data/archive/atomic_reference/2j1t-sf.cif",
+      "sha256": "6346cf46906c0ae179d8d05c0ac72cd715847451b513021714bd0bef20334b64",
+      "bytes": 2014601
+    },
+    {
+      "archive": "data/archive/atomic_reference/2j1t.cif",
+      "sha256": "a2aa0a444e5893a883c311a469d9ff75279d500b213b7696b34ba7e22a22609d",
+      "bytes": 582840
+    },
+    {
+      "archive": "data/archive/atomic_reference/2j1t_validation.xml.gz",
+      "sha256": "259c1bbfa882918d10baff321a3262292174a609068571a8004dcf3b7f0bd60a",
+      "bytes": 21039
+    },
+    {
+      "archive": "data/archive/atomic_reference/2j1t_validation_2fo-fc_map_coef.cif.gz",
+      "sha256": "c2da2c2f8c9ce0324226de2bdab2ccb0a9cdccac092b14f01212ab2c60cf34fd",
+      "bytes": 513275
+    },
+    {
+      "archive": "data/archive/atomic_reference/2j1t_validation_fo-fc_map_coef.cif.gz",
+      "sha256": "7d1e1388c8a80a5179f7e3221f7c61a43983a094252faf3b32fd48734819762c",
+      "bytes": 513457
+    },
+    {
+      "archive": "data/archive/atomic_reference/2vuz-sf.cif",
+      "sha256": "631f783b79550adcfae7956aa30c167249051343a5e7c5591bc7eaf86e98a4f1",
+      "bytes": 688550
+    },
+    {
+      "archive": "data/archive/atomic_reference/2vuz.cif",
+      "sha256": "fd1edcd6228042ba02383eeb2c524dd1bea3c4605a614d46a01201956ff22f8a",
+      "bytes": 200919
+    },
+    {
+      "archive": "data/archive/atomic_reference/2vuz_validation.xml.gz",
+      "sha256": "55b7b1cc72fafd7892ab2b61f77e9df2251cb1a487bbceb693978ffa5675c0de",
+      "bytes": 11431
+    },
+    {
+      "archive": "data/archive/atomic_reference/2vuz_validation_2fo-fc_map_coef.cif.gz",
+      "sha256": "dd874dafa7d8245ae52302d2ec1c3b65d0a1b4fb573c3ee952a6079847f4fb45",
+      "bytes": 258259
+    },
+    {
+      "archive": "data/archive/atomic_reference/2vuz_validation_fo-fc_map_coef.cif.gz",
+      "sha256": "8934320566e388bd6a92a9f1b67feb336ac44745a68665a69e82503d3297833b",
+      "bytes": 258007
+    },
+    {
+      "archive": "data/archive/atomic_reference/density_slices/154l_ring_planes.png",
+      "sha256": "0f8f6825f8eb90d89cc3826ce44e2029b8539061d248f8d46e54a44d71c81ff3",
+      "bytes": 331324
+    },
+    {
+      "archive": "data/archive/atomic_reference/density_slices/1gny_ring_planes.png",
+      "sha256": "5e99b8a685e27a3fb3026717db10aed8b92f0172d62317e3ffb22abb8a022b9b",
+      "bytes": 293918
+    },
+    {
+      "archive": "data/archive/atomic_reference/density_slices/1kjl_ring_planes.png",
+      "sha256": "0e93e1c61217b4050c27cfd0a91ff79f423feb0db5786c60646539d0cfccdf2e",
+      "bytes": 190527
+    },
+    {
+      "archive": "data/archive/atomic_reference/density_slices/1pwb_ring_planes.png",
+      "sha256": "81192d01d9307d2a50167f1275581e6c76d88e2a89278c7ade9d20ec9a64c6a7",
+      "bytes": 135426
+    },
+    {
+      "archive": "data/archive/atomic_reference/density_slices/1qfo_ring_planes.png",
+      "sha256": "32bb8878a2ae98a10d534b5fd152d485964a8341d3829a73bc12d6459475543c",
+      "bytes": 241218
+    },
+    {
+      "archive": "data/archive/atomic_reference/density_slices/2j1t_ring_planes.png",
+      "sha256": "09d1cc8a2f02cefaa56acccad5db31d9fa11add3929b4619e0795ab73ba3e33b",
+      "bytes": 320546
+    },
+    {
+      "archive": "data/archive/atomic_reference/density_slices/2vuz_ring_planes.png",
+      "sha256": "3ae2beb39b971fa244e63c54763abbdec545f0bfcd0d893db25ed5ce89db9159",
+      "bytes": 548726
+    },
+    {
+      "archive": "data/archive/atomic_reference/freeze_ledger.py",
+      "sha256": "ba76be7244d11a4e39cfd613fb8114ceaddd21627c58e0c5d63b9aa480c23609",
+      "bytes": 5828
+    },
+    {
+      "archive": "data/archive/atomic_reference/guide_retrieval_manifest.json",
+      "sha256": "8a065e65a38a899506436b3a7a8f340508187ca24d4b1da609d1bff10f853d2c",
+      "bytes": 811
+    },
+    {
+      "archive": "data/archive/atomic_reference/inspect_receptor_context.py",
+      "sha256": "d3d8759a03e26b86d8b8997d7ed1f4b97ee28902637dee3582ec262b048d637e",
+      "bytes": 2884
+    },
+    {
+      "archive": "data/archive/atomic_reference/inspect_sources.py",
+      "sha256": "af09c0b76e786dda38f0b8e91700475e095fc6ba4665bd85d060d218729757cf",
+      "bytes": 8313
+    },
+    {
+      "archive": "data/archive/atomic_reference/manual_adjudications.json",
+      "sha256": "8d6c8dfe5daf6718038c11944bcadd77db19d66449885cab9894de578d471fd1",
+      "bytes": 2900
+    },
+    {
+      "archive": "data/archive/atomic_reference/papers/1gny_crossref.json",
+      "sha256": "0786fc9a48cbb81dd8f1a18d0950d635baadbeb142508af6e6357ad3fe67691c",
+      "bytes": 11036
+    },
+    {
+      "archive": "data/archive/atomic_reference/papers/1gny_primary.xml",
+      "sha256": "944d243f2f085c1288cd906ead7d1ce9b8ba4c26fa172eb2341900417fc7899a",
+      "bytes": 2031
+    },
+    {
+      "archive": "data/archive/atomic_reference/papers/2j1t_crossref.json",
+      "sha256": "2e384d52d9831db3fe6c451c1319835f87120adaf329e6bc2653efe4740d3f52",
+      "bytes": 8491
+    },
+    {
+      "archive": "data/archive/atomic_reference/papers/2j1t_primary.xml",
+      "sha256": "04128ca62ce7e9714f08ddfc6de964cac2c885baea82a0f433b04b7827bf2e86",
+      "bytes": 2096
+    },
+    {
+      "archive": "data/archive/atomic_reference/papers/2vuz_crossref.json",
+      "sha256": "6f0e065b0fb35671dfb67f9884a0afd07908ca8a9b5f6105975ffbed29124657",
+      "bytes": 15081
+    },
+    {
+      "archive": "data/archive/atomic_reference/papers/2vuz_pmc.html",
+      "sha256": "50c78193ca461018ac934182152d08aef406b5e77689b25c5e37f307d426f9ef",
+      "bytes": 215595
+    },
+    {
+      "archive": "data/archive/atomic_reference/papers/primary_paper_evidence.json",
+      "sha256": "cdb28f679f03ca838f9c767ba4636874fb8224b00d2f7aa0a0cf6851bd248bce",
+      "bytes": 8240
+    },
+    {
+      "archive": "data/archive/atomic_reference/papers/retrieval_manifest.json",
+      "sha256": "33805406e4a6b751eef325306f7eea6c83cbea62b3f0f653ba79f0dfd32e8900",
+      "bytes": 7289
+    },
+    {
+      "archive": "data/archive/atomic_reference/qualification_policy.json",
+      "sha256": "93887a57a341a8b40eb1f755a4617570ee09fe703f6c4213ca891e5d5ef8f733",
+      "bytes": 2749
+    },
+    {
+      "archive": "data/archive/atomic_reference/rcsb_density_map_guide.html",
+      "sha256": "afeef401ec94c8151e102832bec0f5830da98faaf6166970059775b06f889601",
+      "bytes": 88356
+    },
+    {
+      "archive": "data/archive/atomic_reference/rcsb_ligand_quality_guide.html",
+      "sha256": "86b2e5585d23d6ac4579144e86678f6bb179c2558a08992a7f47642d7f2f389e",
+      "bytes": 100219
+    },
+    {
+      "archive": "data/archive/atomic_reference/receptor_context_diagnostics.json",
+      "sha256": "36a4e485af44de1a8fdc64e4d7f72075d67f32e0feb37c46bd62cc45acf420b3",
+      "bytes": 5624
+    },
+    {
+      "archive": "data/archive/atomic_reference/render_density_slices.py",
+      "sha256": "ce4075b9d6880a399662eeada147534f91d0cb1ae01cb1e6bff0a7274cb31ee9",
+      "bytes": 3236
+    },
+    {
+      "archive": "data/archive/atomic_reference/retrieval_manifest.json",
+      "sha256": "abf8fc82b93c115b49d5fa0eb2ab9d9761a4c9709df1ee189f53880c795880b0",
+      "bytes": 22206
+    },
+    {
+      "archive": "data/archive/atomic_reference/source_diagnostics.json",
+      "sha256": "4a79eef61de8def234b62f47ca1630bd843b2166315195de4df3cf9454f0d8ab",
+      "bytes": 419738
+    },
+    {
+      "archive": "data/archive/atomic_reference/wwpdb_usage_policy.html",
+      "sha256": "3aa07e42a4fbf6651f9e21f5a9d253c6fc6a7414d943278b69c167de1aecc419",
+      "bytes": 14815
+    },
+    {
+      "archive": "data/archive/external/BMA.cif.gz",
+      "sha256": "a37d666700210c43e09a57206b6c6ccdb90e4762108a7d0e1b1dcc57e10acc47",
+      "bytes": 2521
+    },
+    {
+      "archive": "data/archive/external/FUC.cif.gz",
+      "sha256": "29f3bde33e08c49cf35fc660aa45569e88d070e193174f0fe016039cc784abfb",
+      "bytes": 2497
+    },
+    {
+      "archive": "data/archive/external/GAL.cif.gz",
+      "sha256": "0e52976ad39c490473559393320675e07414b068b7152ffeef51710e64037837",
+      "bytes": 2599
+    },
+    {
+      "archive": "data/archive/external/GLC.cif.gz",
+      "sha256": "e97a6353b66b0ba47c2ad2f714d550ac8753d657d31f1567bf5840e8e7a261cc",
+      "bytes": 2595
+    },
+    {
+      "archive": "data/archive/external/MAN.cif.gz",
+      "sha256": "fd9bdc23e2218941b011f8dc7f29558bb0dc7c3b53e2aec310f5145893e57063",
+      "bytes": 2675
+    },
+    {
+      "archive": "data/archive/external/NAG.cif.gz",
+      "sha256": "34acfbdbf655e8ee704112cb7ede8fca8489db9e5ae6211dbe1cc1469da726bb",
+      "bytes": 3071
+    },
+    {
+      "archive": "data/archive/external/SIA.cif.gz",
+      "sha256": "be60a891c41feaa845542990ca02f5836b89c773caab9b2d7617ec3988415745",
+      "bytes": 3438
+    },
+    {
+      "archive": "data/archive/external/XYP.cif.gz",
+      "sha256": "d8d670ba1a20a096a79e1dfa2bee4cf574cadbacc022ae11e81ff11283bb4b4e",
+      "bytes": 2364
+    },
+    {
+      "archive": "data/archive/external/HADDOCK_DATA_LICENSE.gz",
+      "sha256": "9442645a1822b02798ff58ed352474d97bd70d566a0e4c65f77f5ec1fcd48b6a",
+      "bytes": 3968
+    },
+    {
+      "archive": "data/archive/external/154L_l_b.pdb.gz",
+      "sha256": "45845c0d40460be2d548dcb58aa9e47a0692fbcdd968b3933c94276a253e8177",
+      "bytes": 959
+    },
+    {
+      "archive": "data/archive/external/154L_r_b.pdb.gz",
+      "sha256": "5c3988e01b35fbc4a24b418c38caa412b6c0b1ac00e99cb381ef5bd7d1000941",
+      "bytes": 28294
+    },
+    {
+      "archive": "data/archive/external/1GNY_l_b.pdb.gz",
+      "sha256": "14ba1151af712363a7fc00c92ba2caad505df8b733abaa01c5364463c0cebdd7",
+      "bytes": 991
+    },
+    {
+      "archive": "data/archive/external/1GNY_r_b.pdb.gz",
+      "sha256": "cae36d5953cbbca932bea686a1da8871301a69d0f0de1f614acc3edf75f77a3f",
+      "bytes": 22108
+    },
+    {
+      "archive": "data/archive/external/1KJL_l_b.pdb.gz",
+      "sha256": "df7e827bbd586acc6facd8ea58a35203a93e4b7005888800deb3c084e6880a29",
+      "bytes": 615
+    },
+    {
+      "archive": "data/archive/external/1KJL_r_b.pdb.gz",
+      "sha256": "f60f065a27449155cba73ddfd279d55bd6f73a22d8532d889822aa6ac7b7392e",
+      "bytes": 21718
+    },
+    {
+      "archive": "data/archive/external/1QFO_l_b.pdb.gz",
+      "sha256": "252b1fdf8778a362c550d7c4a79a33e617db6c9d4cbb73060bf67886ee264450",
+      "bytes": 959
+    },
+    {
+      "archive": "data/archive/external/1QFO_r_b.pdb.gz",
+      "sha256": "6c9f915e9744bb467d1369f02345b5189696d493e7010c7f55c7673e5c21223a",
+      "bytes": 18702
+    },
+    {
+      "archive": "data/archive/external/2J1T_l_b.pdb.gz",
+      "sha256": "55a938c344335bd3d9f5ef8026cdec0a5e625ddba71441b12f655a8422eb22c0",
+      "bytes": 1010
+    },
+    {
+      "archive": "data/archive/external/2J1T_r_b.pdb.gz",
+      "sha256": "24629d424e30406f0eb0e8979545aa80133f54389c1211abcf72eee2ae3e330d",
+      "bytes": 21070
+    },
+    {
+      "archive": "data/archive/external/1PWB_l_b.pdb.gz",
+      "sha256": "b5761da473954a40a8b787cfa94f3fbf3bb050c6229dc1a16eae6599e71919a1",
+      "bytes": 546
+    },
+    {
+      "archive": "data/archive/external/1PWB_r_b.pdb.gz",
+      "sha256": "a08e805d7504194b57dab8724bf891a96d11ea8aae5dbc113826b65cdb96cfbd",
+      "bytes": 22780
+    },
+    {
+      "archive": "data/archive/external/2VUZ_l_b.pdb.gz",
+      "sha256": "5a1b97694384fcab4198c82b9db115ac5a5c0b4d6c3ce590870b609c842a36f3",
+      "bytes": 1909
+    },
+    {
+      "archive": "data/archive/external/2VUZ_r_b.pdb.gz",
+      "sha256": "12133efd7d0394c4a30baa0eb19376abf73ee66874a1cddac684078b88d0847d",
+      "bytes": 19865
+    }
+  ],
+  "access_limits": "ValidationPDF requests returned403 for all7; XML and both coefficient files retrieved successfully. Primary full text inaccessible for154L,1GNY,1KJL;1PWB excerpts only. Indexed primary fulltext scopes for1QFO/2J1T explicit. Missing paper access did not substitute for actual downloaded local-map evidence.",
+  "derived_replay_report": {
+    "archive": "data/archive/atomic_reference/replay_verification.json",
+    "sha256": "42bbbe8f997ada39835c123227004f421fcd78ac26355dfa5d142d3017e6f20c",
+    "bytes": 2640,
+    "role": "Read-only replay output, not an input to replay or part of archived_files checksum inventory, avoiding a self-referential report hash/count."
+  }
+}

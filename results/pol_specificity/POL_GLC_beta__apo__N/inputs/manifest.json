@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "archive": "apo_Ca_retained.pdb.gz",
+      "archive_sha256": "a9013b6227c4bd3169aab616d583b2499f9e080c8d020901fc35ac04cb429cc4",
+      "filename": "apo_Ca_retained.pdb",
+      "original_bytes": 820692,
+      "sha256": "7504942f24c7eb5ead95cf059b025523a242e0c56433da786a965954f122e447"
+    },
+    {
+      "archive": "apo_Ca_retained.pdbqt.gz",
+      "archive_sha256": "609cdc9287ac52978cfe54ee8ada469938b4480b0c4292a0d25d725f9140cb9e",
+      "filename": "apo_Ca_retained.pdbqt",
+      "original_bytes": 491200,
+      "sha256": "c4c5c64fb20ee4c30f4d90c4e4602c48da17241f81f9998331c2822cc028e658"
+    },
+    {
+      "archive": "apo_Ca_retained_atom_changes.json.gz",
+      "archive_sha256": "83ed597818c49aed9076b9fbe65c935047d5af6a4a8ace9a866e52fcaaf53ea0",
+      "filename": "apo_Ca_retained_atom_changes.json",
+      "original_bytes": 849692,
+      "sha256": "93e87472840f194b52d8185ca35562b7eb7392cf36187904293cb681e246b1cc"
+    },
+    {
+      "archive": "apo_dry.pdb.gz",
+      "archive_sha256": "11c9cbcc625430873f3fe374755de1cc82efc4f222e2d8945ec890d3e7c81b5e",
+      "filename": "apo_dry.pdb",
+      "original_bytes": 820368,
+      "sha256": "d1f1985c4e857281dd50f994b9684e6a8bf0d5f9b0614a03f4f17278c68b91d4"
+    },
+    {
+      "archive": "apo_dry.pdbqt.gz",
+      "archive_sha256": "df5f77c626b0b9077b580a8b4afb1d39bf073794a8694dcdca364f78b17af475",
+      "filename": "apo_dry.pdbqt",
+      "original_bytes": 490880,
+      "sha256": "c0088e88bcd4143fa7cbf6eeb510e8a9bdeb421ef05a91dcf47485823ed5f7f4"
+    },
+    {
+      "archive": "apo_dry_atom_changes.json.gz",
+      "archive_sha256": "07e0e7961547a42127e59dd20d52d859b1e13eb4228ccb49ec82fdf5d463746e",
+      "filename": "apo_dry_atom_changes.json",
+      "original_bytes": 847830,
+      "sha256": "e0fcd2f91664bbc0757991e2ff69ae853cdd274b5f862ba51c77b0e298ef2d20"
+    },
+    {
+      "archive": "chemistry.json.gz",
+      "archive_sha256": "5d30e924265b24fe2eb16b941aebcabf550b50357d91de4109ced5dd4504a0a4",
+      "filename": "chemistry.json",
+      "original_bytes": 716,
+      "sha256": "9c63022960521546fb7d5751bdd75d74b89e59f8275e476c5fdeeaaa9324cbfd"
+    },
+    {
+      "archive": "ligand.pdbqt.gz",
+      "archive_sha256": "68169ac471d55cdc3441db859a86c850d43a9abbd7b66b237a8d683f93049e11",
+      "filename": "ligand.pdbqt",
+      "original_bytes": 1754,
+      "sha256": "8777e06b532fea324b52aa448527a5209ef9e639acab622b330c101aa75ce4b1"
+    },
+    {
+      "archive": "ligand.sdf.gz",
+      "archive_sha256": "f02344627d0ee0a5d02b63710822ed2d65b39fcfc6d67756095a2c42892998c5",
+      "filename": "ligand.sdf",
+      "original_bytes": 2069,
+      "sha256": "f118afde4c6e7ec9dbb98ffc5dacf02a78f89f0c98903e6ea0d0856caa0009f5"
+    },
+    {
+      "archive": "preparation.json.gz",
+      "archive_sha256": "ecb380c2d99b5f40333c0c973750e4f3294910d84610823365c7db0305480a53",
+      "filename": "preparation.json",
+      "original_bytes": 2277,
+      "sha256": "a1d9d98ed4625c7e5781d2c3aebc83df5a24c0bbfbc1ea90331e5545dab280da"
+    },
+    {
+      "archive": "reference.json.gz",
+      "archive_sha256": "bf0ba25533f30f26b1aadadfe4c09f75a103c9d75f0c4a8c893e58f612a156b9",
+      "filename": "reference.json",
+      "original_bytes": 3501,
+      "sha256": "345dd5b992497ec2d138714e632941bcd111957763c91056ca71862a1637c52f"
+    },
+    {
+      "archive": "source_graph.json.gz",
+      "archive_sha256": "faf5fe66a9527bdcc03689c1d48c4b6d9baf8149dcc167aac1d2d4e35492ddc8",
+      "filename": "source_graph.json",
+      "original_bytes": 2842,
+      "sha256": "cfc6ed77025218c6c07e9bf8ba13f9b463599cd2eff4a9e48c485dce374698ca"
+    }
+  ],
+  "schema_version": 1
+}

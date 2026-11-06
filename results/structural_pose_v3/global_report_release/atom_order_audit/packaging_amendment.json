@@ -1,0 +1,73 @@
+{
+  "actual_pose_or_native_ligand_coordinates_read": false,
+  "all_original_assertions_preserved": true,
+  "documentation": {
+    "bytes": 3519,
+    "path": "docs/STRUCTURAL_ATOM_ORDER_AUDIT.md",
+    "sha256": "163a031be115e1b85fba02f74c9187eb33b937d3dadb9a1d321ff435361852d5"
+  },
+  "empirical_pose_or_native_reference_metrics_computed": false,
+  "external_output_freshness": "Caller precondition; portable CLI enforces outside-root placement, preserving original external writer semantics.",
+  "frozen_implementations_verified_unchanged": 14,
+  "frozen_source_map_bindings_verified_unchanged": 59,
+  "global_gate_or_frozen_metric_implementation_changed": false,
+  "historical_distribution": {
+    "bytes": 163459,
+    "path": "benchmarks/method_protocol_public_distribution.json",
+    "sha256": "bed3115a6ab2685aa3c9cd790ff5080e931ee813c37c720188b4e44901570beb"
+  },
+  "historical_root_files_verified_unchanged": 735,
+  "independent_publication_review": {
+    "bytes": 5154,
+    "path": "results/structural_pose_v3/global_report_release/atom_order_audit/independent_publication_review.json",
+    "sha256": "d98e4545a3cfc3bf5d3bf9147cfc7003ddc3779f0e3f31271914b89ce9db683e"
+  },
+  "independent_review_timing": "Published review artifact restates the earlier independent HADDOCK/assembly handoff and separately reviews this post-audit path-only package; not a new prospective scientific freeze.",
+  "native_execution": false,
+  "normalizing_declared_path_changes_recovers_original_script_exactly": true,
+  "original_evidence_preserved_byte_exact": {
+    "audit_json": {
+      "bytes": 57484,
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit.json",
+      "sha256": "c3284c9854f68bbf697f6195a10fc1da2c51dd75fbbb07b170042534be105f64"
+    },
+    "audit_script": {
+      "bytes": 10195,
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit.py",
+      "sha256": "605921a826d9475f0f739e7c79e3420317ce46b083ec18e47cd0063bb2883fc1"
+    },
+    "source_proof_and_independent_review_summary": {
+      "bytes": 10460,
+      "path": "results/structural_pose_v3/global_report_release/atom_order_audit/original_audit_proof.md",
+      "sha256": "bd563781bb522158dadd9f51f3ca1bc7128d087bacbdd791d004b4b06ee0c1d4"
+    }
+  },
+  "original_metadata_and_synthetic_results_reproduced_byte_exact": true,
+  "original_result_sha256": "c3284c9854f68bbf697f6195a10fc1da2c51dd75fbbb07b170042534be105f64",
+  "packaged_at_UTC": "2026-11-03T21:55:29.848316+00:00",
+  "portability_changes": [
+    "Add argparse --root/--output paths",
+    "Resolve audited root and require output outside it",
+    "Use supplied root for imports and relative evidence paths",
+    "Use supplied output JSON path"
+  ],
+  "portable_patch": {
+    "bytes": 2510,
+    "path": "results/structural_pose_v3/global_report_release/atom_order_audit/portability.patch",
+    "sha256": "d51e131993eea74f79281d943732709824df69c2ac250270300b2f656910a649"
+  },
+  "portable_replay_verification": {
+    "bytes": 25004,
+    "path": "results/structural_pose_v3/global_report_release/atom_order_audit/portable_replay_verification.json",
+    "sha256": "8a9128affd8d6355a64a00f47a889cec0f9eaf4fd23d7f9d677d268edbaa935a"
+  },
+  "portable_script": {
+    "bytes": 10605,
+    "path": "results/structural_pose_v3/global_report_release/atom_order_audit/audit_atom_order.py",
+    "sha256": "dca696f7000c83f188ce231bb5ea1eb4076b3fb008e08c0146840957c367761c"
+  },
+  "schema_version": 1,
+  "scientific_or_synthetic_algorithm_changes": false,
+  "scientific_purpose_complete": false,
+  "scope": "Post-audit software-QA publication only; no observed structural metrics or scientific re-freeze"
+}

@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/Users/alec/AAV-Docking-Benchmark/tools/vina-carb-1.0-replay-build/VC_1_0/autodock_vina_1_1_2/build/native-arm64/vc-fixed-pose-score",
+    "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/example_inputs/receptor.pdbqt",
+    "/Users/alec/AAV-Docking-Benchmark/results/additional_method_reproduction/fixed_pose_validation/model_06/ligand.pdbqt"
+  ],
+  "exit_code": 0,
+  "result": {
+    "glycosidic_links": 3,
+    "fully_supported_links": 3,
+    "intramolecular_reference": 0,
+    "base_shared0": -8.091118382258614,
+    "chi_coefficient0": 0,
+    "chi_coefficient1": 0,
+    "combined_shared0": -8.091118382258614,
+    "original_score_only_base": -6.321425849636432,
+    "pose_intramolecular_energy": -3.2698078017500287,
+    "nonbonded_cutoff_A": 8,
+    "model_rank": 6,
+    "reported_fullsearch_score": -6.4,
+    "common_reference_offset": -1.6911183822586136
+  }
+}

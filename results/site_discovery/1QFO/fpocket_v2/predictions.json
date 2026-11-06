@@ -1,0 +1,1362 @@
+[
+  {
+    "alpha_sphere_count": 28,
+    "atom_ids": [
+      [
+        "A",
+        50,
+        "",
+        "VAL",
+        "O"
+      ],
+      [
+        "A",
+        51,
+        "",
+        "ILE",
+        "CD1"
+      ],
+      [
+        "A",
+        51,
+        "",
+        "ILE",
+        "CG2"
+      ],
+      [
+        "A",
+        52,
+        "",
+        "HIS",
+        "C"
+      ],
+      [
+        "A",
+        52,
+        "",
+        "HIS",
+        "N"
+      ],
+      [
+        "A",
+        52,
+        "",
+        "HIS",
+        "O"
+      ],
+      [
+        "A",
+        53,
+        "",
+        "SER",
+        "CA"
+      ],
+      [
+        "A",
+        53,
+        "",
+        "SER",
+        "CB"
+      ],
+      [
+        "A",
+        53,
+        "",
+        "SER",
+        "N"
+      ],
+      [
+        "A",
+        56,
+        "",
+        "PRO",
+        "CB"
+      ],
+      [
+        "A",
+        56,
+        "",
+        "PRO",
+        "O"
+      ],
+      [
+        "A",
+        59,
+        "",
+        "VAL",
+        "CB"
+      ],
+      [
+        "A",
+        59,
+        "",
+        "VAL",
+        "CG1"
+      ],
+      [
+        "A",
+        59,
+        "",
+        "VAL",
+        "CG2"
+      ],
+      [
+        "A",
+        63,
+        "",
+        "PHE",
+        "O"
+      ],
+      [
+        "A",
+        64,
+        "",
+        "ARG",
+        "CA"
+      ],
+      [
+        "A",
+        64,
+        "",
+        "ARG",
+        "CG"
+      ],
+      [
+        "A",
+        64,
+        "",
+        "ARG",
+        "CZ"
+      ],
+      [
+        "A",
+        64,
+        "",
+        "ARG",
+        "NE"
+      ],
+      [
+        "A",
+        64,
+        "",
+        "ARG",
+        "NH1"
+      ],
+      [
+        "A",
+        64,
+        "",
+        "ARG",
+        "NH2"
+      ],
+      [
+        "A",
+        65,
+        "",
+        "GLY",
+        "N"
+      ],
+      [
+        "A",
+        67,
+        "",
+        "ALA",
+        "O"
+      ],
+      [
+        "A",
+        69,
+        "",
+        "LEU",
+        "CB"
+      ],
+      [
+        "A",
+        69,
+        "",
+        "LEU",
+        "CD2"
+      ]
+    ],
+    "center": [
+      2.7506785714285713,
+      65.99985714285712,
+      10.498892857142854
+    ],
+    "center_A": [
+      2.7506785714285713,
+      65.99985714285712,
+      10.498892857142854
+    ],
+    "rank": 1,
+    "raw_footprint": "pockets/pocket1_atm.cif",
+    "raw_vertices": "pockets/pocket1_vert.pqr",
+    "residue_keys": [
+      [
+        "A",
+        50,
+        "",
+        "VAL"
+      ],
+      [
+        "A",
+        51,
+        "",
+        "ILE"
+      ],
+      [
+        "A",
+        52,
+        "",
+        "HIS"
+      ],
+      [
+        "A",
+        53,
+        "",
+        "SER"
+      ],
+      [
+        "A",
+        56,
+        "",
+        "PRO"
+      ],
+      [
+        "A",
+        59,
+        "",
+        "VAL"
+      ],
+      [
+        "A",
+        63,
+        "",
+        "PHE"
+      ],
+      [
+        "A",
+        64,
+        "",
+        "ARG"
+      ],
+      [
+        "A",
+        65,
+        "",
+        "GLY"
+      ],
+      [
+        "A",
+        67,
+        "",
+        "ALA"
+      ],
+      [
+        "A",
+        69,
+        "",
+        "LEU"
+      ]
+    ],
+    "residues": [
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 50,
+        "resname": "VAL"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 51,
+        "resname": "ILE"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 52,
+        "resname": "HIS"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 53,
+        "resname": "SER"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 56,
+        "resname": "PRO"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 59,
+        "resname": "VAL"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 63,
+        "resname": "PHE"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 64,
+        "resname": "ARG"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 65,
+        "resname": "GLY"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 67,
+        "resname": "ALA"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 69,
+        "resname": "LEU"
+      }
+    ],
+    "score": 0.4034
+  },
+  {
+    "alpha_sphere_count": 22,
+    "atom_ids": [
+      [
+        "A",
+        46,
+        "",
+        "LYS",
+        "NZ"
+      ],
+      [
+        "A",
+        62,
+        "",
+        "ARG",
+        "CB"
+      ],
+      [
+        "A",
+        62,
+        "",
+        "ARG",
+        "CZ"
+      ],
+      [
+        "A",
+        62,
+        "",
+        "ARG",
+        "NE"
+      ],
+      [
+        "A",
+        62,
+        "",
+        "ARG",
+        "NH1"
+      ],
+      [
+        "A",
+        62,
+        "",
+        "ARG",
+        "NH2"
+      ],
+      [
+        "A",
+        62,
+        "",
+        "ARG",
+        "O"
+      ],
+      [
+        "A",
+        66,
+        "",
+        "ARG",
+        "CZ"
+      ],
+      [
+        "A",
+        66,
+        "",
+        "ARG",
+        "NE"
+      ],
+      [
+        "A",
+        66,
+        "",
+        "ARG",
+        "NH2"
+      ],
+      [
+        "A",
+        86,
+        "",
+        "LYS",
+        "CB"
+      ],
+      [
+        "A",
+        86,
+        "",
+        "LYS",
+        "CD"
+      ],
+      [
+        "A",
+        86,
+        "",
+        "LYS",
+        "CE"
+      ],
+      [
+        "A",
+        86,
+        "",
+        "LYS",
+        "CG"
+      ],
+      [
+        "A",
+        86,
+        "",
+        "LYS",
+        "NZ"
+      ],
+      [
+        "A",
+        88,
+        "",
+        "GLU",
+        "CB"
+      ],
+      [
+        "A",
+        88,
+        "",
+        "GLU",
+        "CG"
+      ],
+      [
+        "A",
+        88,
+        "",
+        "GLU",
+        "OE1"
+      ],
+      [
+        "A",
+        89,
+        "",
+        "ASP",
+        "OD1"
+      ]
+    ],
+    "center": [
+      -11.682318181818182,
+      66.50277272727273,
+      4.170681818181818
+    ],
+    "center_A": [
+      -11.682318181818182,
+      66.50277272727273,
+      4.170681818181818
+    ],
+    "rank": 2,
+    "raw_footprint": "pockets/pocket2_atm.cif",
+    "raw_vertices": "pockets/pocket2_vert.pqr",
+    "residue_keys": [
+      [
+        "A",
+        46,
+        "",
+        "LYS"
+      ],
+      [
+        "A",
+        62,
+        "",
+        "ARG"
+      ],
+      [
+        "A",
+        66,
+        "",
+        "ARG"
+      ],
+      [
+        "A",
+        86,
+        "",
+        "LYS"
+      ],
+      [
+        "A",
+        88,
+        "",
+        "GLU"
+      ],
+      [
+        "A",
+        89,
+        "",
+        "ASP"
+      ]
+    ],
+    "residues": [
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 46,
+        "resname": "LYS"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 62,
+        "resname": "ARG"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 66,
+        "resname": "ARG"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 86,
+        "resname": "LYS"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 88,
+        "resname": "GLU"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 89,
+        "resname": "ASP"
+      }
+    ],
+    "score": 0.2698
+  },
+  {
+    "alpha_sphere_count": 24,
+    "atom_ids": [
+      [
+        "A",
+        42,
+        "",
+        "ASP",
+        "CA"
+      ],
+      [
+        "A",
+        42,
+        "",
+        "ASP",
+        "OD1"
+      ],
+      [
+        "A",
+        43,
+        "",
+        "TYR",
+        "CB"
+      ],
+      [
+        "A",
+        43,
+        "",
+        "TYR",
+        "CD2"
+      ],
+      [
+        "A",
+        43,
+        "",
+        "TYR",
+        "CE2"
+      ],
+      [
+        "A",
+        43,
+        "",
+        "TYR",
+        "N"
+      ],
+      [
+        "A",
+        44,
+        "",
+        "SER",
+        "CB"
+      ],
+      [
+        "A",
+        44,
+        "",
+        "SER",
+        "N"
+      ],
+      [
+        "A",
+        44,
+        "",
+        "SER",
+        "OG"
+      ],
+      [
+        "A",
+        92,
+        "",
+        "THR",
+        "CB"
+      ],
+      [
+        "A",
+        92,
+        "",
+        "THR",
+        "CG2"
+      ],
+      [
+        "A",
+        92,
+        "",
+        "THR",
+        "OG1"
+      ],
+      [
+        "A",
+        94,
+        "",
+        "ASN",
+        "ND2"
+      ],
+      [
+        "A",
+        94,
+        "",
+        "ASN",
+        "OD1"
+      ],
+      [
+        "A",
+        105,
+        "",
+        "LEU",
+        "CD2"
+      ],
+      [
+        "A",
+        107,
+        "",
+        "VAL",
+        "CA"
+      ],
+      [
+        "A",
+        107,
+        "",
+        "VAL",
+        "CB"
+      ],
+      [
+        "A",
+        107,
+        "",
+        "VAL",
+        "CG1"
+      ],
+      [
+        "A",
+        107,
+        "",
+        "VAL",
+        "O"
+      ]
+    ],
+    "center": [
+      -9.508583333333334,
+      48.99895833333332,
+      12.91925
+    ],
+    "center_A": [
+      -9.508583333333334,
+      48.99895833333332,
+      12.91925
+    ],
+    "rank": 3,
+    "raw_footprint": "pockets/pocket3_atm.cif",
+    "raw_vertices": "pockets/pocket3_vert.pqr",
+    "residue_keys": [
+      [
+        "A",
+        42,
+        "",
+        "ASP"
+      ],
+      [
+        "A",
+        43,
+        "",
+        "TYR"
+      ],
+      [
+        "A",
+        44,
+        "",
+        "SER"
+      ],
+      [
+        "A",
+        92,
+        "",
+        "THR"
+      ],
+      [
+        "A",
+        94,
+        "",
+        "ASN"
+      ],
+      [
+        "A",
+        105,
+        "",
+        "LEU"
+      ],
+      [
+        "A",
+        107,
+        "",
+        "VAL"
+      ]
+    ],
+    "residues": [
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 42,
+        "resname": "ASP"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 43,
+        "resname": "TYR"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 44,
+        "resname": "SER"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 92,
+        "resname": "THR"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 94,
+        "resname": "ASN"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 105,
+        "resname": "LEU"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 107,
+        "resname": "VAL"
+      }
+    ],
+    "score": 0.2442
+  },
+  {
+    "alpha_sphere_count": 17,
+    "atom_ids": [
+      [
+        "A",
+        5,
+        "",
+        "SER",
+        "O"
+      ],
+      [
+        "A",
+        5,
+        "",
+        "SER",
+        "OG"
+      ],
+      [
+        "A",
+        6,
+        "",
+        "SER",
+        "C"
+      ],
+      [
+        "A",
+        6,
+        "",
+        "SER",
+        "CA"
+      ],
+      [
+        "A",
+        6,
+        "",
+        "SER",
+        "O"
+      ],
+      [
+        "A",
+        7,
+        "",
+        "PRO",
+        "CA"
+      ],
+      [
+        "A",
+        7,
+        "",
+        "PRO",
+        "CD"
+      ],
+      [
+        "A",
+        7,
+        "",
+        "PRO",
+        "CG"
+      ],
+      [
+        "A",
+        7,
+        "",
+        "PRO",
+        "N"
+      ],
+      [
+        "A",
+        21,
+        "",
+        "PRO",
+        "C"
+      ],
+      [
+        "A",
+        21,
+        "",
+        "PRO",
+        "CB"
+      ],
+      [
+        "A",
+        21,
+        "",
+        "PRO",
+        "O"
+      ],
+      [
+        "A",
+        22,
+        "",
+        "CYS",
+        "N"
+      ],
+      [
+        "A",
+        23,
+        "",
+        "ILE",
+        "CD1"
+      ],
+      [
+        "A",
+        23,
+        "",
+        "ILE",
+        "CG1"
+      ],
+      [
+        "A",
+        23,
+        "",
+        "ILE",
+        "CG2"
+      ]
+    ],
+    "center": [
+      -7.5814705882352955,
+      57.63400000000001,
+      28.48458823529412
+    ],
+    "center_A": [
+      -7.5814705882352955,
+      57.63400000000001,
+      28.48458823529412
+    ],
+    "rank": 4,
+    "raw_footprint": "pockets/pocket4_atm.cif",
+    "raw_vertices": "pockets/pocket4_vert.pqr",
+    "residue_keys": [
+      [
+        "A",
+        5,
+        "",
+        "SER"
+      ],
+      [
+        "A",
+        6,
+        "",
+        "SER"
+      ],
+      [
+        "A",
+        7,
+        "",
+        "PRO"
+      ],
+      [
+        "A",
+        21,
+        "",
+        "PRO"
+      ],
+      [
+        "A",
+        22,
+        "",
+        "CYS"
+      ],
+      [
+        "A",
+        23,
+        "",
+        "ILE"
+      ]
+    ],
+    "residues": [
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 5,
+        "resname": "SER"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 6,
+        "resname": "SER"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 7,
+        "resname": "PRO"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 21,
+        "resname": "PRO"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 22,
+        "resname": "CYS"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 23,
+        "resname": "ILE"
+      }
+    ],
+    "score": 0.2268
+  },
+  {
+    "alpha_sphere_count": 17,
+    "atom_ids": [
+      [
+        "A",
+        3,
+        "",
+        "GLY",
+        "C"
+      ],
+      [
+        "A",
+        3,
+        "",
+        "GLY",
+        "CA"
+      ],
+      [
+        "A",
+        3,
+        "",
+        "GLY",
+        "O"
+      ],
+      [
+        "A",
+        4,
+        "",
+        "VAL",
+        "N"
+      ],
+      [
+        "A",
+        4,
+        "",
+        "VAL",
+        "O"
+      ],
+      [
+        "A",
+        5,
+        "",
+        "SER",
+        "CB"
+      ],
+      [
+        "A",
+        5,
+        "",
+        "SER",
+        "N"
+      ],
+      [
+        "A",
+        23,
+        "",
+        "ILE",
+        "CD1"
+      ],
+      [
+        "A",
+        23,
+        "",
+        "ILE",
+        "CG1"
+      ],
+      [
+        "A",
+        23,
+        "",
+        "ILE",
+        "O"
+      ],
+      [
+        "A",
+        24,
+        "",
+        "PHE",
+        "C"
+      ],
+      [
+        "A",
+        24,
+        "",
+        "PHE",
+        "CA"
+      ],
+      [
+        "A",
+        24,
+        "",
+        "PHE",
+        "O"
+      ],
+      [
+        "A",
+        25,
+        "",
+        "SER",
+        "CB"
+      ],
+      [
+        "A",
+        25,
+        "",
+        "SER",
+        "OG"
+      ]
+    ],
+    "center": [
+      -1.5461176470588236,
+      51.978352941176475,
+      28.89588235294118
+    ],
+    "center_A": [
+      -1.5461176470588236,
+      51.978352941176475,
+      28.89588235294118
+    ],
+    "rank": 5,
+    "raw_footprint": "pockets/pocket5_atm.cif",
+    "raw_vertices": "pockets/pocket5_vert.pqr",
+    "residue_keys": [
+      [
+        "A",
+        3,
+        "",
+        "GLY"
+      ],
+      [
+        "A",
+        4,
+        "",
+        "VAL"
+      ],
+      [
+        "A",
+        5,
+        "",
+        "SER"
+      ],
+      [
+        "A",
+        23,
+        "",
+        "ILE"
+      ],
+      [
+        "A",
+        24,
+        "",
+        "PHE"
+      ],
+      [
+        "A",
+        25,
+        "",
+        "SER"
+      ]
+    ],
+    "residues": [
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 3,
+        "resname": "GLY"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 4,
+        "resname": "VAL"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 5,
+        "resname": "SER"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 23,
+        "resname": "ILE"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 24,
+        "resname": "PHE"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 25,
+        "resname": "SER"
+      }
+    ],
+    "score": 0.1856
+  },
+  {
+    "alpha_sphere_count": 15,
+    "atom_ids": [
+      [
+        "A",
+        13,
+        "",
+        "LEU",
+        "CB"
+      ],
+      [
+        "A",
+        13,
+        "",
+        "LEU",
+        "CD2"
+      ],
+      [
+        "A",
+        13,
+        "",
+        "LEU",
+        "CG"
+      ],
+      [
+        "A",
+        14,
+        "",
+        "SER",
+        "CB"
+      ],
+      [
+        "A",
+        14,
+        "",
+        "SER",
+        "N"
+      ],
+      [
+        "A",
+        14,
+        "",
+        "SER",
+        "O"
+      ],
+      [
+        "A",
+        115,
+        "",
+        "THR",
+        "CG2"
+      ],
+      [
+        "A",
+        115,
+        "",
+        "THR",
+        "O"
+      ],
+      [
+        "A",
+        116,
+        "",
+        "THR",
+        "C"
+      ],
+      [
+        "A",
+        116,
+        "",
+        "THR",
+        "CA"
+      ],
+      [
+        "A",
+        116,
+        "",
+        "THR",
+        "O"
+      ],
+      [
+        "A",
+        116,
+        "",
+        "THR",
+        "OG1"
+      ]
+    ],
+    "center": [
+      -22.0752,
+      72.57766666666666,
+      15.857000000000001
+    ],
+    "center_A": [
+      -22.0752,
+      72.57766666666666,
+      15.857000000000001
+    ],
+    "rank": 6,
+    "raw_footprint": "pockets/pocket6_atm.cif",
+    "raw_vertices": "pockets/pocket6_vert.pqr",
+    "residue_keys": [
+      [
+        "A",
+        13,
+        "",
+        "LEU"
+      ],
+      [
+        "A",
+        14,
+        "",
+        "SER"
+      ],
+      [
+        "A",
+        115,
+        "",
+        "THR"
+      ],
+      [
+        "A",
+        116,
+        "",
+        "THR"
+      ]
+    ],
+    "residues": [
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 13,
+        "resname": "LEU"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 14,
+        "resname": "SER"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 115,
+        "resname": "THR"
+      },
+      {
+        "chain": "A",
+        "insertion_code": "",
+        "number": 116,
+        "resname": "THR"
+      }
+    ],
+    "score": 0.1537
+  }
+]

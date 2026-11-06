@@ -1,0 +1,52 @@
+{
+  "accuracy_computed": false,
+  "atom_or_coordinate_records": false,
+  "cases": [
+    {
+      "expected_status": "valid_writer_compatible",
+      "id": "complete_prefix",
+      "log_text": "AutoDock Vina v1.2.7\nmode | affinity | dist from best mode\n | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n 1 -5 0 0\n 2 -4 0 0\n",
+      "saved_text": "MODEL 1\nREMARK VINA RESULT: -5.000 0.000 0.000\nENDMDL\nMODEL 2\nREMARK VINA RESULT: -4.000 0.000 0.000\nENDMDL\n"
+    },
+    {
+      "expected_status": "valid_writer_compatible",
+      "id": "proven_outside_suffix",
+      "log_text": "AutoDock Vina v1.2.7\nmode | affinity | dist from best mode\n | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n 1 -5 0 0\n 2 6.02 0 0\n",
+      "saved_text": "MODEL 1\nREMARK VINA RESULT: -5.000 0.000 0.000\nENDMDL\n"
+    },
+    {
+      "expected_status": "valid_writer_compatible",
+      "id": "ambiguous_boundary_suffix",
+      "log_text": "AutoDock Vina v1.2.7\nmode | affinity | dist from best mode\n | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n 1 -5 0 0\n 2 5 0 0\n",
+      "saved_text": "MODEL 1\nREMARK VINA RESULT: -5.000 0.000 0.000\nENDMDL\n"
+    },
+    {
+      "expected_status": "invalid_output",
+      "id": "inside_window_omission",
+      "log_text": "AutoDock Vina v1.2.7\nmode | affinity | dist from best mode\n | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n 1 -5 0 0\n 2 4.99 0 0\n",
+      "saved_text": "MODEL 1\nREMARK VINA RESULT: -5.000 0.000 0.000\nENDMDL\n"
+    },
+    {
+      "expected_status": "invalid_output",
+      "id": "incompatible_adjacent_score_bins",
+      "log_text": "AutoDock Vina v1.2.7\nmode | affinity | dist from best mode\n | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n 1 -5.123 0 0\n",
+      "saved_text": "MODEL 1\nREMARK VINA RESULT: -5.124 0.000 0.000\nENDMDL\n"
+    },
+    {
+      "expected_status": "invalid_output",
+      "id": "noncontiguous_log_rank",
+      "log_text": "AutoDock Vina v1.2.7\nmode | affinity | dist from best mode\n | (kcal/mol) | rmsd l.b.| rmsd u.b.\n-----+------------+----------+----------\n 1 -5 0 0\n 3 -4 0 0\n",
+      "saved_text": "MODEL 1\nREMARK VINA RESULT: -5.000 0.000 0.000\nENDMDL\nMODEL 2\nREMARK VINA RESULT: -4.000 0.000 0.000\nENDMDL\n"
+    },
+    {
+      "expected_status": "invalid_output",
+      "id": "injected_row_before_separator",
+      "log_text": "AutoDock Vina v1.2.7\nmode | affinity | dist from best mode\n | (kcal/mol) | rmsd l.b.| rmsd u.b.\n 1 -5 0 0\n-----+------------+----------+----------\n 1 -5 0 0\n",
+      "saved_text": "MODEL 1\nREMARK VINA RESULT: -5.000 0.000 0.000\nENDMDL\n"
+    }
+  ],
+  "kind": "synthetic_software_io_controls",
+  "molecular_source_required": false,
+  "native_execution": false,
+  "schema_version": 1
+}

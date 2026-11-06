@@ -1,0 +1,149 @@
+../src/AMBER/crdsnaps.c:41:4: warning: comparison of array 'cstst' equal to a null pointer is always false [-Wtautological-pointer-compare]
+   41 | if(cstst==NULL) mywhine("Error reading coordinate file."); 
+      |    ^~~~~  ~~~~
+1 warning generated.
+../src/AMBER/parse_amber_prmtop.c:312:9: warning: explicitly assigning value of variable of type 'int' to itself [-Wself-assign]
+  312 |                 for(pc=pc;pc<NextRes;pc++){
+      |                     ~~^~~
+../src/AMBER/parse_amber_prmtop.c:326:9: warning: explicitly assigning value of variable of type 'int' to itself [-Wself-assign]
+  326 |                 for(pc=pc;pc<P[0].NATOM;pc++){
+      |                     ~~^~~
+../src/AMBER/parse_amber_prmtop.c:595:3: warning: variable 'pA4' is uninitialized when used here [-Wuninitialized]
+  595 |                 pA4/=3; 
+      |                 ^~~
+../src/AMBER/parse_amber_prmtop.c:15:44: note: initialize the variable 'pA4' to silence this warning
+   15 | int pa=0,pb=0,pc=0,pd=0,pA1=0,pA2=0,pA3,pA4,pI1=0;
+      |                                            ^
+      |                                             = 0
+3 warnings generated.
+../src/AMBER/read_prep.c:57:7: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   57 | rpuse=malloc_usable_size(M[0].r);
+      |       ^
+1 error generated.
+../src/AMBER/write_amber_prmtop.c:55:9: warning: explicitly assigning value of variable of type 'int' to itself [-Wself-assign]
+   55 |                 for(wc=wc;wc<P[0].S[wa].npl;wc++){ // each entry
+      |                     ~~^~~
+../src/AMBER/write_amber_prmtop.c:61:8: warning: explicitly assigning value of variable of type 'int' to itself [-Wself-assign]
+   61 |         for(wc=wc;wc<P[0].S[wa].nt;wc++){ // write the last incomplete line
+      |             ~~^~~
+2 warnings generated.
+../src/PDB/load_pdb.c:167:21: warning: comparison of array 'ln[li].f[bi].c' equal to a null pointer is always false [-Wtautological-pointer-compare]
+  167 |     if(ln[li].f[bi].c==NULL) break;
+      |        ~~~~~~~~~~~~~^  ~~~~
+../src/PDB/load_pdb.c:217:23: warning: comparison of array 'ln[li].f[bi].c' equal to a null pointer is always false [-Wtautological-pointer-compare]
+  217 |       if(ln[li].f[bi].c==NULL) break;
+      |          ~~~~~~~~~~~~~^  ~~~~
+../src/PDB/load_pdb.c:516:24: warning: comparison of array '(*(ln + i)).f[3].c' equal to a null pointer is always false [-Wtautological-pointer-compare]
+  516 |                                 if(((*(ln+i)).f[3].c==NULL)||((*(ln+i)).f[3].c[0]=='\0')){strcpy(atmName,"    ");}
+      |                                     ~~~~~~~~~~~~~~~^  ~~~~
+../src/PDB/load_pdb.c:518:25: warning: comparison of array '(*(ln + i)).f[17].c' equal to a null pointer is always false [-Wtautological-pointer-compare]
+  518 |                                 if(((*(ln+i)).f[17].c==NULL)||((*(ln+i)).f[17].c[0]=='\0')){strcpy(atmElem,"  ");}
+      |                                     ~~~~~~~~~~~~~~~~^  ~~~~
+../src/PDB/load_pdb.c:531:23: warning: comparison of array '(*(ln + i)).f[7].c' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+  531 |                                 if((*(ln+i)).f[7].c!=NULL){
+      |                                    ~~~~~~~~~~~~~~~^  ~~~~
+../src/PDB/load_pdb.c:790:10: warning: comparison of array 'name' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+  790 |       if(name!=NULL){(*curAtm).D = strdup(name);}
+      |          ^~~~  ~~~~
+../src/PDB/load_pdb.c:797:10: warning: comparison of array 'name' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+  797 |       if(name!=NULL){(*curAtm).N = strdup(name);}
+      |          ^~~~  ~~~~
+../src/PDB/load_pdb.c:801:25: warning: comparison of array '(*(ln + i)).f[7].c' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+  801 |       if((*(ln+i)).f[7].c!=NULL){
+      |          ~~~~~~~~~~~~~~~^  ~~~~
+8 warnings generated.
+../src/PDB/writePDB.c:418:15: warning: comparing a pointer to a null character constant; did you mean to compare to NULL? [-Wpointer-compare]
+  418 | if((a[0].cID!='\0')&&(a[0].cID!=NULL)){strncat(line,a[0].cID,1);}
+      |               ^~~~
+      |               (void *)0
+../src/PDB/writePDB.c:419:20: warning: comparing a pointer to a null character constant; did you mean to compare to NULL? [-Wpointer-compare]
+  419 | else if((r[0].cID!='\0')&&(a[0].cID!=NULL)){strncat(line,r[0].cID,1);}
+      |                    ^~~~
+      |                    (void *)0
+../src/PDB/writePDB.c:432:13: warning: comparing a pointer to a null character constant; did you mean to compare to NULL? [-Wpointer-compare]
+  432 | if(r[0].IC=='\0'){strcat(line," ");}
+      |             ^~~~
+      |             (void *)0
+3 warnings generated.
+../src/debugging_utilities/dprint_X.c:43:8: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   43 |                 puse=malloc_usable_size(t[0].bo);
+      |                      ^
+../src/debugging_utilities/dprint_X.c:75:8: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   75 |                 puse=malloc_usable_size(a[0].mb);
+      |                      ^
+../src/debugging_utilities/dprint_X.c:111:8: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  111 |                 puse=malloc_usable_size(bs[0].b);
+      |                      ^
+../src/debugging_utilities/dprint_X.c:131:8: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  131 |                 puse=malloc_usable_size(r[0].a);
+      |                      ^
+../src/debugging_utilities/dprint_X.c:172:8: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  172 |                 puse=malloc_usable_size(m[0].r);
+      |                      ^
+5 errors generated.
+../src/structural_calculations/get_dipole.c:39:9: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   39 |                         tuse=malloc_usable_size(m[0].r[ta].a[tb].xa);
+      |                              ^
+1 error generated.
+../src/structural_calculations/normalize_X_vectors.c:21:8: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   21 |                 nuse=malloc_usable_size(m[0].r[na].a[nb].v);
+      |                      ^
+1 error generated.
+../src/structural_calculations/translate_zero_to_coord.c:26:9: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   26 |                         tuse=malloc_usable_size(m[0].r[ta].a[tb].xa);
+      |                              ^
+../src/structural_calculations/translate_zero_to_coord.c:37:9: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   37 |                         tuse=malloc_usable_size(m[0].r[ta].a[tb].xa);
+      |                              ^
+../src/structural_calculations/translate_zero_to_coord.c:48:9: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   48 |                         tuse=malloc_usable_size(m[0].r[ta].a[tb].xa);
+      |                              ^
+3 errors generated.
+../src/structural_calculations/vector_atom_movements.c:37:9: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   37 |                         tuse=malloc_usable_size(m[0].r[ta].a[tb].xa);
+      |                              ^
+../src/structural_calculations/vector_atom_movements.c:49:9: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   49 |                         tuse=malloc_usable_size(m[0].r[ta].a[tb].xa);
+      |                              ^
+../src/structural_calculations/vector_atom_movements.c:61:9: error: call to undeclared function 'malloc_usable_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   61 |                         tuse=malloc_usable_size(m[0].r[ta].a[tb].xa);
+      |                              ^
+3 errors generated.
+../src/structure_utilities/location_utilities.c:45:8: warning: variable 'moli_set' is uninitialized when used here [-Wuninitialized]
+   45 | return moli_set;
+      |        ^~~~~~~~
+../src/structure_utilities/location_utilities.c:43:1: note: variable 'moli_set' is declared here
+   43 | molindex_set moli_set;
+      | ^
+../src/structure_utilities/location_utilities.c:51:8: warning: variable 'moli_set' is uninitialized when used here [-Wuninitialized]
+   51 | return moli_set;
+      |        ^~~~~~~~
+../src/structure_utilities/location_utilities.c:49:1: note: variable 'moli_set' is declared here
+   49 | molindex_set moli_set;
+      | ^
+../src/structure_utilities/location_utilities.c:57:8: warning: variable 'moli_set' is uninitialized when used here [-Wuninitialized]
+   57 | return moli_set;
+      |        ^~~~~~~~
+../src/structure_utilities/location_utilities.c:55:1: note: variable 'moli_set' is declared here
+   55 | molindex_set moli_set;
+      | ^
+../src/structure_utilities/location_utilities.c:66:8: warning: variable 'moli_set' is uninitialized when used here [-Wuninitialized]
+   66 | return moli_set;
+      |        ^~~~~~~~
+../src/structure_utilities/location_utilities.c:64:1: note: variable 'moli_set' is declared here
+   64 | molindex_set moli_set;
+      | ^
+../src/structure_utilities/location_utilities.c:72:8: warning: variable 'moli_set' is uninitialized when used here [-Wuninitialized]
+   72 | return moli_set;
+      |        ^~~~~~~~
+../src/structure_utilities/location_utilities.c:70:1: note: variable 'moli_set' is declared here
+   70 | molindex_set moli_set;
+      | ^
+../src/structure_utilities/location_utilities.c:78:8: warning: variable 'moli_set' is uninitialized when used here [-Wuninitialized]
+   78 | return moli_set;
+      |        ^~~~~~~~
+../src/structure_utilities/location_utilities.c:76:1: note: variable 'moli_set' is declared here
+   76 | molindex_set moli_set;
+      | ^
+6 warnings generated.
+make: *** [justC] Error 1

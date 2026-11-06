@@ -1,0 +1,139 @@
+{
+  "binary_repeatability": "Observed binary hash authenticates this retained execution only; different build paths/compilers need source/build provenance, not a claim of identical native bytes.",
+  "boost": {
+    "build_standard": "C++98",
+    "checksum_url": "https://archives.boost.io/release/1.75.0/source/boost_1_75_0.tar.bz2.json",
+    "libraries": [
+      "system",
+      "thread",
+      "serialization",
+      "filesystem",
+      "program_options"
+    ],
+    "license": "BSL-1.0",
+    "sha256": "953db31e016db7bb207f11432bef7df100516eeb746843fa0486a222e3fd49cb",
+    "upstream_commit": "b7b1371294b4bdfc8d85e49236ebced114bc1d8f",
+    "url": "https://archives.boost.io/release/1.75.0/source/boost_1_75_0.tar.bz2",
+    "version": "1.75.0"
+  },
+  "cohort_role": "Released-example method validation; paired-cohort settings must be frozen separately before new cohort execution",
+  "fixed_pose_rescorer": {
+    "algorithm_source_modified": false,
+    "chi_coefficients": [
+      0.0,
+      1.0
+    ],
+    "chi_cutoff_kcal_mol": 2.0,
+    "formula": "original model::eval_adjusted(scoring,precalculate,naive_non_cache,authentic,pose,0) + original model::eval_chi(chi_coeff,chi_cutoff)",
+    "fullsearch_comparison": "A common reference shifts all scores equally only for the same ligand/torsion normalization. Verify normalization before pooling; do not substitute per-pose score_only.",
+    "nonbonded_cutoff_A": 8.0,
+    "ordinary_vina_1_2_7_cutoff_source": "https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/v1.2.7/src/lib/scoring_function.h",
+    "purpose": "within-one-fixed-ligand common-pose-pool ranking; absolute scores must not be interpreted as calibrated cross-ligand affinities",
+    "shared_intramolecular_reference": 0.0,
+    "source": "results/additional_method_reproduction/build/fixed_pose_score.cpp",
+    "source_sha256": "6d1d95a78af6f6adb306268b1fe846b1ec5ffeb879c1b7143e1c9bd8b300da08",
+    "weights": [
+      -0.035579,
+      -0.005156,
+      0.840245,
+      -0.035069,
+      -0.587439,
+      0.05846
+    ]
+  },
+  "method_id": "vina_carb_1_0",
+  "native_build_support": [
+    "Darwin arm64 with Apple clang and make"
+  ],
+  "observed_executable_sha256": "fb519a0e2e6f709f820b720963ba454942e376238a3976384a2b77f4f8b4f5d4",
+  "original_patched_file_sha256": {
+    "src/lib/glylib/inc/mylib.h": "387f54b4244b07062b7b743d544ebc240d22f0c72e6cdbcfd3adc5b5cc0f61cc",
+    "src/main/main.cpp": "ac793fd915988148e8baf058ae7dae695e2a64ca93641e7f60ea5ff200230618",
+    "src/split/split.cpp": "234428eaf6807c521a8b6da4e7bac823d1ac373e3a89c50f8ffd472476b9c5be"
+  },
+  "portability_replacements": {
+    "src/lib/glylib/inc/mylib.h": [
+      [
+        "#include <malloc.h>",
+        "#if defined(__APPLE__)\n#include <malloc/malloc.h>\n#define malloc_usable_size malloc_size\n#else\n#include <malloc.h>\n#endif"
+      ]
+    ],
+    "src/main/main.cpp": [
+      [
+        "path(str, boost::filesystem::native)",
+        "path(str)"
+      ],
+      [
+        ".native_file_string()",
+        ".string()"
+      ]
+    ],
+    "src/split/split.cpp": [
+      [
+        "path(str, boost::filesystem::native)",
+        "path(str)"
+      ],
+      [
+        ".native_file_string()",
+        ".string()"
+      ]
+    ]
+  },
+  "required_input_conventions": {
+    "atom_names": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "O5"
+    ],
+    "atom_serials": "contiguous in record order, starting at 1",
+    "donor": "C1 only; non-C1/sialic donors explicitly unsupported by this adapter",
+    "environment": "VINA_CARB points to the extracted VC_1_0 directory",
+    "residue_ids": "distinct sequential number for each source monosaccharide",
+    "ring": "complete supported pyranose ring; upstream VC_log must confirm both phi and psi recognition",
+    "supported_acceptors": [
+      "O2",
+      "O3",
+      "O4",
+      "O6"
+    ]
+  },
+  "schema_version": 1,
+  "score_only_warning": "The original --score_only code path omits CHI. It is not a carbohydrate-aware common-pose rescoring operation.",
+  "search_differences_from_vina_1_2_7": [
+    "Vina-Carb is based on Vina 1.1.2",
+    "post-search distinct pose separation is hard-coded at 1 Angstrom",
+    "CHI cutoff explicitly set; default discrepancy between manual and original source is avoided by specifying it"
+  ],
+  "seed_interpretation_audit": "Checked against original main.cpp and observedlogseed0 before anybenchmarkcohortexecution.",
+  "source": {
+    "bytes": 13561777,
+    "kind": "original authors versioned distribution; no Git commit claimed",
+    "license": "Apache-2.0 as distributed",
+    "license_file": "VC_1_0/autodock_vina_1_1_2/LICENSE",
+    "manual": "https://glycam.org/docs/othertoolsservice/download-docs/publication-materials/vina-carb/",
+    "sha256": "47d170bf434beb74f36d1688658c0ddf715629b79bdbcb0c49da28ed7a68d31f",
+    "url": "https://glycam.org/docs/othertoolsservice/download/Software/publication-software/vina-carb_1.0.tgz"
+  },
+  "tutorial": {
+    "commit": "0dc9185a318887a712482650ae667b45c30f1da6",
+    "config_sha256": "4930b3810517d4568a719fb4d47bbef449d737be2e365bdef668e5b0bb28376f",
+    "configuration_changes": false,
+    "path": "flex_lig",
+    "repository": "https://github.com/glycodynamics/Tutorial-Protein-glycan-docking",
+    "role": "published CCBRC university tutorial workflow replay; not the original Vina-Carb paper benchmark",
+    "seed_semantics": "Explicit seed0 is fixed in thisoriginalversion; auto_seed iscalledonlywhen --seedisabsent (src/main/main.cpp lines592\u2013593). Acrossbuilds exactcoordinates are not assumed."
+  },
+  "unchanged_algorithm_source_sha256": {
+    "src/lib/canonicals.txt": "e8a172eb760c2bfb457a2860a0608f821a6a4f34116e28672ea434b104948ad7",
+    "src/lib/model.cpp": "2d7e9bc8f1dc991a0f514868ad44bf7572eef3deee74c58154dd447be4a4800a",
+    "src/lib/model.h": "b65ab224ae003a41c0c6135ba13917c74b3450fd0bbd099d1846a3fb1b0e8a91",
+    "src/lib/monte_carlo.cpp": "f11c6eb12df59783fc123e8ca2091d5ca8b8588ce39a40178031d2b96f1a539d",
+    "src/lib/parse_pdbqt.cpp": "cc1346220cc29b411144d72942880757cf7c882c919da352e789afdbf408df8a",
+    "src/lib/parse_pdbqt.h": "f7ccdcffc20d37ed10a83b414db5a22c3188bba4fbc41f0f565c020074cb993f",
+    "src/lib/quasi_newton.cpp": "561204b7807cbd424d218e0e98b5bfb6cc5a11e2d030c18479791547d4263cd7"
+  },
+  "version_banner": "Vina-Carb 1.0 (August 30, 2015)"
+}

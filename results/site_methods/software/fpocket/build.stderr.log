@@ -1,0 +1,245 @@
+src/fpmain.c:231:50: warning: unused parameter 'ligan' [-Wunused-parameter]
+  231 | s_pdb *open_file_format(char *fpath, const char *ligan, const int keep_lig, int model_number, s_fparams *par)
+      |                                                  ^
+src/fpmain.c:231:81: warning: unused parameter 'model_number' [-Wunused-parameter]
+  231 | s_pdb *open_file_format(char *fpath, const char *ligan, const int keep_lig, int model_number, s_fparams *par)
+      |                                                                                 ^
+src/fpmain.c:242:47: warning: unused parameter 'ligan' [-Wunused-parameter]
+  242 | void read_file_format(s_pdb *pdb, const char *ligan, const int keep_lig, int model_number, s_fparams *par)
+      |                                               ^
+src/fpmain.c:242:78: warning: unused parameter 'model_number' [-Wunused-parameter]
+  242 | void read_file_format(s_pdb *pdb, const char *ligan, const int keep_lig, int model_number, s_fparams *par)
+      |                                                                              ^
+4 warnings generated.
+src/writepdb.c:94:11: warning: comparison between pointer and integer ('char' and 'void *') [-Wpointer-integer-compare]
+   94 |         if(insert!=NULL) {
+      |            ~~~~~~^ ~~~~
+src/writepdb.c:76:72: warning: unused parameter 'occ' [-Wunused-parameter]
+   76 |                                                  int res_id, const char insert, float x, float y, float z, float occ,
+      |                                                                                                                  ^
+src/writepdb.c:210:16: warning: unused parameter 'bfactor' [-Wunused-parameter]
+  210 |                                                    float bfactor, int abpa, const char *symbol, int charge, float abpa_prob)
+      |                                                          ^
+3 warnings generated.
+src/rpdb.c:112:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+  112 |     {"Cl", 1.948, 0.061},
+      |      ^~~~
+src/rpdb.c:113:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+  113 |     {"Br", 2.22, 0.320},
+      |      ^~~~
+src/fparams.c:296:24: warning: incompatible pointer types passing 'char *(*)[8000]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+  296 |                 strcpy(&residue_string, pt);
+      |                        ^~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_string.h:249:40: note: expanded from macro 'strcpy'
+  249 | #define strcpy(...) __strcpy_chk_func (__VA_ARGS__)
+      |                                        ^~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/secure/_string.h:172:27: note: expanded from macro '__strcpy_chk_func'
+  172 |                 __builtin___strcpy_chk (dest, __VA_ARGS__, __darwin_obsz (dest))
+      |                                         ^~~~
+src/fparams.c:297:23: warning: incompatible pointer types assigning to 'char *' from 'char *[8000]' [-Wincompatible-pointer-types]
+  297 |                 rest2 = residue_string;
+      |                       ^ ~~~~~~~~~~~~~~
+2 warnings generated.
+2 warnings generated.
+src/pocket.c:575:60: warning: unused parameter 'pdb' [-Wunused-parameter]
+  575 | void set_pockets_descriptors(c_lst_pockets *pockets,s_pdb *pdb,s_fparams *params, s_pdb *pdb_w_lig)
+      |                                                            ^
+1 warning generated.
+src/clusterlib.c:1005:27: warning: '/*' within block comment [-Wcomment]
+ 1005 |   if (!tweight) return 0; /* usually due to empty clusters */
+      |                           ^
+src/clusterlib.c:1488:29: warning: unused parameter 'weight' [-Wunused-parameter]
+ 1488 |   int** mask2, const double weight[], int index1, int index2, int transpose)
+      |                             ^
+src/clusterlib.c:1616:16: warning: unused parameter 'weight' [-Wunused-parameter]
+ 1616 |   const double weight[], int index1, int index2, int transpose)
+      |                ^
+src/energy.c:16:7: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   16 |     { "C3", 1.9080, 0.1094},
+      |       ^~~~
+src/energy.c:17:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   17 |     {"C4", 1.9080, 0.1094},
+      |      ^~~~
+src/energy.c:18:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   18 |     {"C5", 1.9080, 0.0860},
+      |      ^~~~
+src/energy.c:19:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   19 |     {"C6", 1.9080, 0.0860},
+      |      ^~~~
+src/energy.c:21:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   21 |     {"HO", 0.0000, 0.0000},
+      |      ^~~~
+src/energy.c:22:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   22 |     {"HS", 0.6000, 0.0157},
+      |      ^~~~
+src/energy.c:23:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   23 |     {"HC", 1.4870, 0.0157},
+      |      ^~~~
+src/energy.c:24:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   24 |     {"H1", 1.3870, 0.0157},
+      |      ^~~~
+src/energy.c:25:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   25 |     {"H2", 1.2870, 0.0157},
+      |      ^~~~
+src/energy.c:26:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   26 |     {"H3", 1.1870, 0.0157},
+      |      ^~~~
+src/energy.c:27:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   27 |     {"HP", 1.1000, 0.0157},
+      |      ^~~~
+src/energy.c:28:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   28 |     {"HA", 1.4590, 0.0150},
+      |      ^~~~
+src/energy.c:29:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   29 |     {"H4", 1.4090, 0.0150},
+      |      ^~~~
+src/energy.c:30:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   30 |     {"H5", 1.3590, 0.0150},
+      |      ^~~~
+src/energy.c:31:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   31 |     {"HW", 0.0000, 0.0000},
+      |      ^~~~
+src/energy.c:32:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   32 |     {"HZ", 1.4590, 0.0150},
+      |      ^~~~
+src/energy.c:34:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   34 |     {"O2", 1.6612, 0.2100},
+      |      ^~~~
+src/energy.c:35:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   35 |     {"OW", 1.7683, 0.1520},
+      |      ^~~~
+src/energy.c:36:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   36 |     {"OH", 1.7210, 0.2104},
+      |      ^~~~
+src/energy.c:37:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   37 |     {"OS", 1.6837, 0.1700},
+      |      ^~~~
+src/energy.c:38:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   38 |     {"CT", 1.9080, 0.1094},
+      |      ^~~~
+src/energy.c:40:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   40 |     {"N3", 1.8240, 0.1700},
+      |      ^~~~
+src/energy.c:42:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   42 |     {"SH", 2.0000, 0.2500},
+      |      ^~~~
+src/energy.c:45:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   45 |     {"Cl", 1.948, 0.265},
+      |      ^~~~
+src/energy.c:46:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   46 |     {"Br", 2.22, 0.320},
+      |      ^~~~
+src/energy.c:48:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   48 |     {"LP", 0.00, 0.0000},
+      |      ^~~~
+src/energy.c:49:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   49 |     {"C*", 1.9080, 0.0860} //keep C* always as last element !
+      |      ^~~~
+27 warnings generated.
+src/topology.c:12:30: warning: unused parameter 'v' [-Wunused-parameter]
+   12 | static int register_cb(void *v, vmdplugin_t *p) {
+      |                              ^
+src/topology.c:23:7: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   23 |     { "C3", 1.9080, 0.1094},
+      |       ^~~~
+src/topology.c:24:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   24 |     {"C4", 1.9080, 0.1094},
+      |      ^~~~
+src/topology.c:25:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   25 |     {"C5", 1.9080, 0.0860},
+      |      ^~~~
+src/topology.c:26:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   26 |     {"C6", 1.9080, 0.0860},
+      |      ^~~~
+src/topology.c:28:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   28 |     {"HO", 0.0000, 0.0000},
+      |      ^~~~
+src/topology.c:29:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   29 |     {"HS", 0.6000, 0.0157},
+      |      ^~~~
+src/topology.c:30:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   30 |     {"HC", 1.4870, 0.0157},
+      |      ^~~~
+src/topology.c:31:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   31 |     {"H1", 1.3870, 0.0157},
+      |      ^~~~
+src/topology.c:32:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   32 |     {"H2", 1.2870, 0.0157},
+      |      ^~~~
+src/topology.c:33:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   33 |     {"H3", 1.1870, 0.0157},
+      |      ^~~~
+src/topology.c:34:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   34 |     {"HP", 1.1000, 0.0157},
+      |      ^~~~
+src/topology.c:35:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   35 |     {"HA", 1.4590, 0.0150},
+      |      ^~~~
+src/topology.c:36:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   36 |     {"H4", 1.4090, 0.0150},
+      |      ^~~~
+src/topology.c:37:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   37 |     {"H5", 1.3590, 0.0150},
+      |      ^~~~
+src/topology.c:38:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   38 |     {"HW", 0.0000, 0.0000},
+      |      ^~~~
+src/topology.c:39:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   39 |     {"HZ", 1.4590, 0.0150},
+      |      ^~~~
+src/topology.c:41:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   41 |     {"O2", 1.6612, 0.2100},
+      |      ^~~~
+src/topology.c:42:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   42 |     {"OW", 1.7683, 0.1520},
+      |      ^~~~
+src/topology.c:43:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   43 |     {"OH", 1.7210, 0.2104},
+      |      ^~~~
+src/topology.c:44:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   44 |     {"OS", 1.6837, 0.1700},
+      |      ^~~~
+src/topology.c:45:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   45 |     {"CT", 1.9080, 0.1094},
+      |      ^~~~
+src/topology.c:47:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   47 |     {"N3", 1.8240, 0.1700},
+      |      ^~~~
+src/topology.c:49:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   49 |     {"SH", 2.0000, 0.2500},
+      |      ^~~~
+src/topology.c:52:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   52 |     {"Cl", 1.948, 0.265},
+      |      ^~~~
+src/topology.c:53:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   53 |     {"Br", 2.22, 0.320},
+      |      ^~~~
+src/topology.c:55:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   55 |     {"LP", 0.00, 0.0000},
+      |      ^~~~
+src/topology.c:56:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   56 |     {"N*", 1.8240, 0.1700},
+      |      ^~~~
+src/topology.c:57:6: warning: initializer-string for character array is too long, array size is 2 but initializer has size 3 (including the null terminating character); did you mean to use the 'nonstring' attribute? [-Wunterminated-string-initialization]
+   57 |     {"C*", 1.9080, 0.0860}      //keep C* always as last element !
+      |      ^~~~
+29 warnings generated.
+src/read_mmcif.c:23:30: warning: unused parameter 'v' [-Wunused-parameter]
+   23 | static int register_cb(void *v, vmdplugin_t *p)
+      |                              ^
+1 warning generated.
+3 warnings generated.
+src/qhull/src/qvoronoi/qvoronoi.c:285:39: warning: passing 'const char *[6]' to parameter of type 'char **' discards qualifiers in nested pointer types [-Wincompatible-pointer-types-discards-qualifiers]
+  285 |   qh_init_A (fin, fout, stderr, argc, argv);  /* sets qh qhull_command */
+      |                                       ^~~~
+src/qhull/src/libqhull/libqhull.h:1083:79: note: passing argument to parameter 'argv' here
+ 1083 | void    qh_init_A(FILE *infile, FILE *outfile, FILE *errfile, int argc, char *argv[]);
+      |                                                                               ^
+src/qhull/src/qconvex/qconvex.c:72:38: warning: passing 'const char *[2]' to parameter of type 'char **' discards qualifiers in nested pointer types [-Wincompatible-pointer-types-discards-qualifiers]
+   72 |   qh_init_A(fin, fout, stderr, argc, argv);  /* sets qh qhull_command */
+      |                                      ^~~~
+src/qhull/src/libqhull/libqhull.h:1083:79: note: passing argument to parameter 'argv' here
+ 1083 | void    qh_init_A(FILE *infile, FILE *outfile, FILE *errfile, int argc, char *argv[]);
+      |                                                                               ^
+1 warning generated.
+1 warning generated.

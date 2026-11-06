@@ -1,0 +1,2362 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "pdb_id": "154L",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/54/154l/154l_validation.xml.gz",
+      "compressed_sha256": "37d32af40b475637745d4193eaf7127ed6c6d72000007997d8e2e136a8c51914",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar 14, 2026 -- 02:31 PM UTC",
+      "source_revision_date": "2024-11-20",
+      "entry_warnings": {
+        "eds_rfactor_warning": {
+          "present": true,
+          "eds_R": 0.3099,
+          "depositor_R": 0.159
+        }
+      },
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "num-H-reduce": "14",
+            "mogul_rmsz_numbonds": "15",
+            "owab": "40.890",
+            "rscc": "0.602",
+            "mogul_bonds_rmsz": "1.10",
+            "avgoccu": "1.000",
+            "NatomsEDS": "15",
+            "rsr": "0.162",
+            "EDIAm": "0.094",
+            "mogul_rmsz_numangles": "21",
+            "mogul_angles_rmsz": "2.87",
+            "OPIA": "6.670",
+            "model": "1",
+            "chain": "B",
+            "resnum": "1",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 6,
+            "mog-torsion-outlier": 4
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "12",
+            "mogul_rmsz_numbonds": "14",
+            "owab": "30.870",
+            "rscc": "0.794",
+            "mogul_bonds_rmsz": "1.00",
+            "avgoccu": "1.000",
+            "NatomsEDS": "14",
+            "rsr": "0.120",
+            "EDIAm": "0.198",
+            "mogul_rmsz_numangles": "17",
+            "mogul_angles_rmsz": "1.85",
+            "OPIA": "21.430",
+            "model": "1",
+            "chain": "B",
+            "resnum": "2",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2,
+            "mog-bond-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "13",
+            "mogul_rmsz_numbonds": "14",
+            "owab": "38.910",
+            "rscc": "0.668",
+            "mogul_bonds_rmsz": "0.68",
+            "avgoccu": "1.000",
+            "NatomsEDS": "14",
+            "rsr": "0.131",
+            "EDIAm": "0.108",
+            "mogul_rmsz_numangles": "17",
+            "mogul_angles_rmsz": "1.64",
+            "OPIA": "28.570",
+            "model": "1",
+            "chain": "B",
+            "resnum": "3",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 4
+          }
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "1GNY",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/gn/1gny/1gny_validation.xml.gz",
+      "compressed_sha256": "b30bfca9ed464cf318f1e89653388729ac9a85d55bb4d0a4b2b5049ba66a6db5",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar  7, 2026 -- 04:08 AM UTC",
+      "source_revision_date": "2024-11-06",
+      "entry_warnings": {},
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "rscc": "0.894",
+            "rsr": "0.116",
+            "EDIAm": "0.201",
+            "OPIA": "60.000",
+            "owab": "31.770",
+            "avgoccu": "0.950",
+            "NatomsEDS": "10",
+            "mogul_bonds_rmsz": "1.56",
+            "mogul_rmsz_numbonds": "10",
+            "mogul_angles_rmsz": "1.15",
+            "mogul_rmsz_numangles": "14",
+            "model": "1",
+            "chain": "B",
+            "resnum": "1",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "XYP",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2,
+            "mog-bond-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "rscc": "0.971",
+            "rsr": "0.054",
+            "EDIAm": "1.030",
+            "OPIA": "100.000",
+            "owab": "16.070",
+            "avgoccu": "1.000",
+            "NatomsEDS": "9",
+            "mogul_bonds_rmsz": "1.24",
+            "mogul_rmsz_numbonds": "9",
+            "mogul_angles_rmsz": "0.60",
+            "mogul_rmsz_numangles": "10",
+            "model": "1",
+            "chain": "B",
+            "resnum": "2",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "XYP",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-bond-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "rscc": "0.960",
+            "rsr": "0.054",
+            "EDIAm": "1.036",
+            "OPIA": "100.000",
+            "owab": "16.480",
+            "avgoccu": "1.000",
+            "NatomsEDS": "9",
+            "mogul_bonds_rmsz": "1.38",
+            "mogul_rmsz_numbonds": "9",
+            "mogul_angles_rmsz": "0.97",
+            "mogul_rmsz_numangles": "10",
+            "model": "1",
+            "chain": "B",
+            "resnum": "3",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "XYP",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 1,
+            "mog-bond-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "rscc": "0.906",
+            "rsr": "0.097",
+            "EDIAm": "0.914",
+            "OPIA": "77.780",
+            "owab": "28.040",
+            "avgoccu": "1.000",
+            "NatomsEDS": "9",
+            "mogul_bonds_rmsz": "1.65",
+            "mogul_rmsz_numbonds": "9",
+            "mogul_angles_rmsz": "1.02",
+            "mogul_rmsz_numangles": "10",
+            "model": "1",
+            "chain": "B",
+            "resnum": "4",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "XYP",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 1,
+            "mog-bond-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "rscc": "0.808",
+            "rsr": "0.138",
+            "EDIAm": "0.447",
+            "OPIA": "44.440",
+            "owab": "41.450",
+            "avgoccu": "1.000",
+            "NatomsEDS": "9",
+            "mogul_bonds_rmsz": "1.33",
+            "mogul_rmsz_numbonds": "9",
+            "mogul_angles_rmsz": "1.86",
+            "mogul_rmsz_numangles": "10",
+            "model": "1",
+            "chain": "B",
+            "resnum": "5",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "XYP",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 4,
+            "mog-bond-outlier": 1
+          }
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "1KJL",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/kj/1kjl/1kjl_validation.xml.gz",
+      "compressed_sha256": "a5f821e6aafe776047a53264c657d381324dc28fe7034c539e6aa29972c1f720",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar  6, 2026 -- 12:46 PM UTC",
+      "source_revision_date": "2023-08-16",
+      "entry_warnings": {
+        "eds_rfactor_warning": {
+          "present": true,
+          "eds_R": 0.3104,
+          "depositor_R": 0.186
+        }
+      },
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "num-H-reduce": "14",
+            "mogul_angles_rmsz": "0.69",
+            "OPIA": "66.670",
+            "mogul_rmsz_numangles": "21",
+            "EDIAm": "0.163",
+            "rscc": "0.751",
+            "owab": "24.740",
+            "avgoccu": "1.000",
+            "NatomsEDS": "15",
+            "mogul_bonds_rmsz": "0.83",
+            "mogul_rmsz_numbonds": "15",
+            "rsr": "0.188",
+            "model": "1",
+            "chain": "B",
+            "resnum": "1",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "clash": 2,
+            "mog-bond-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "10",
+            "mogul_angles_rmsz": "0.52",
+            "OPIA": "100.000",
+            "mogul_rmsz_numangles": "15",
+            "EDIAm": "0.974",
+            "rscc": "0.902",
+            "owab": "15.790",
+            "avgoccu": "1.000",
+            "NatomsEDS": "11",
+            "mogul_bonds_rmsz": "0.50",
+            "mogul_rmsz_numbonds": "11",
+            "rsr": "0.094",
+            "model": "1",
+            "chain": "B",
+            "resnum": "2",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {}
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "1QFO",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/qf/1qfo/1qfo_validation.xml.gz",
+      "compressed_sha256": "cf4a74cd5b18351a55fdcb762ca40939392e1f236265eedf50de351a71b86318",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar 14, 2026 -- 07:55 PM UTC",
+      "source_revision_date": "2024-10-30",
+      "entry_warnings": {},
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "num-H-reduce": "18",
+            "OPIA": "9.520",
+            "rsr": "0.160",
+            "EDIAm": "0.148",
+            "owab": "54.160",
+            "mogul_bonds_rmsz": "0.73",
+            "NatomsEDS": "21",
+            "mogul_rmsz_numangles": "24",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numbonds": "21",
+            "mogul_angles_rmsz": "1.03",
+            "rscc": "0.764",
+            "model": "1",
+            "chain": "C",
+            "resnum": "201",
+            "said": "F",
+            "ent": "3",
+            "seq": ".",
+            "icode": " ",
+            "resname": "SIA",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "clash": 1,
+            "mog-angle-outlier": 2,
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "11",
+            "ligand_chirality_outlier": "yes",
+            "OPIA": "16.670",
+            "rsr": "0.138",
+            "EDIAm": "0.155",
+            "owab": "54.060",
+            "mogul_bonds_rmsz": "0.38",
+            "NatomsEDS": "12",
+            "mogul_rmsz_numangles": "17",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.32",
+            "rscc": "0.815",
+            "model": "1",
+            "chain": "D",
+            "resnum": "1",
+            "said": "D",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GLC",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "chiral-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "9",
+            "OPIA": "45.450",
+            "rsr": "0.112",
+            "EDIAm": "0.730",
+            "owab": "40.660",
+            "mogul_bonds_rmsz": "0.42",
+            "NatomsEDS": "11",
+            "mogul_rmsz_numangles": "15",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numbonds": "11",
+            "mogul_angles_rmsz": "0.33",
+            "rscc": "0.855",
+            "model": "1",
+            "chain": "D",
+            "resnum": "2",
+            "said": "D",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {}
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "17",
+            "OPIA": "80.000",
+            "rsr": "0.096",
+            "EDIAm": "0.900",
+            "owab": "28.660",
+            "mogul_bonds_rmsz": "0.68",
+            "NatomsEDS": "20",
+            "mogul_rmsz_numangles": "21",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numbonds": "20",
+            "mogul_angles_rmsz": "0.94",
+            "rscc": "0.911",
+            "model": "1",
+            "chain": "D",
+            "resnum": "3",
+            "said": "D",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "SIA",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "clash": 1,
+            "mog-angle-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "11",
+            "ligand_chirality_outlier": "yes",
+            "OPIA": "83.330",
+            "rsr": "0.079",
+            "EDIAm": "0.850",
+            "owab": "27.790",
+            "mogul_bonds_rmsz": "0.39",
+            "NatomsEDS": "12",
+            "mogul_rmsz_numangles": "17",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.36",
+            "rscc": "0.928",
+            "model": "1",
+            "chain": "E",
+            "resnum": "1",
+            "said": "E",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GLC",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "chiral-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "9",
+            "OPIA": "100.000",
+            "rsr": "0.073",
+            "EDIAm": "0.958",
+            "owab": "25.410",
+            "mogul_bonds_rmsz": "0.42",
+            "NatomsEDS": "11",
+            "mogul_rmsz_numangles": "15",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numbonds": "11",
+            "mogul_angles_rmsz": "0.41",
+            "rscc": "0.932",
+            "model": "1",
+            "chain": "E",
+            "resnum": "2",
+            "said": "E",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {}
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "17",
+            "OPIA": "90.000",
+            "rsr": "0.071",
+            "EDIAm": "0.940",
+            "owab": "24.750",
+            "mogul_bonds_rmsz": "0.69",
+            "NatomsEDS": "20",
+            "mogul_rmsz_numangles": "21",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numbonds": "20",
+            "mogul_angles_rmsz": "1.00",
+            "rscc": "0.934",
+            "model": "1",
+            "chain": "E",
+            "resnum": "3",
+            "said": "E",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "SIA",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2
+          }
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "2J1T",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/j1/2j1t/2j1t_validation.xml.gz",
+      "compressed_sha256": "259c1bbfa882918d10baff321a3262292174a609068571a8004dcf3b7f0bd60a",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar  6, 2026 -- 02:16 AM UTC",
+      "source_revision_date": "2024-05-08",
+      "entry_warnings": {},
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "num-H-reduce": "13",
+            "owab": "34.060",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numangles": "21",
+            "mogul_bonds_rmsz": "0.66",
+            "mogul_angles_rmsz": "1.34",
+            "EDIAm": "0.497",
+            "mogul_rmsz_numbonds": "15",
+            "OPIA": "80.000",
+            "rscc": "0.929",
+            "rsr": "0.079",
+            "NatomsEDS": "15",
+            "model": "1",
+            "chain": "C",
+            "resnum": "1",
+            "said": "C",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 3,
+            "mog-torsion-outlier": 2
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "9",
+            "owab": "26.320",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numangles": "15",
+            "mogul_bonds_rmsz": "0.63",
+            "mogul_angles_rmsz": "1.23",
+            "EDIAm": "0.974",
+            "mogul_rmsz_numbonds": "11",
+            "OPIA": "100.000",
+            "rscc": "0.956",
+            "rsr": "0.063",
+            "NatomsEDS": "11",
+            "model": "1",
+            "chain": "C",
+            "resnum": "2",
+            "said": "C",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "10",
+            "owab": "22.310",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numangles": "14",
+            "mogul_bonds_rmsz": "0.85",
+            "mogul_angles_rmsz": "1.22",
+            "EDIAm": "0.908",
+            "mogul_rmsz_numbonds": "10",
+            "OPIA": "80.000",
+            "rscc": "0.973",
+            "rsr": "0.049",
+            "NatomsEDS": "10",
+            "model": "1",
+            "chain": "C",
+            "resnum": "3",
+            "said": "C",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "FUC",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "10",
+            "owab": "33.010",
+            "avgoccu": "1.000",
+            "mogul_rmsz_numangles": "14",
+            "mogul_bonds_rmsz": "0.68",
+            "mogul_angles_rmsz": "1.37",
+            "EDIAm": "0.863",
+            "mogul_rmsz_numbonds": "10",
+            "OPIA": "70.000",
+            "rscc": "0.899",
+            "rsr": "0.091",
+            "NatomsEDS": "10",
+            "model": "1",
+            "chain": "C",
+            "resnum": "4",
+            "said": "C",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "FUC",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2
+          }
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "2VUZ",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/vu/2vuz/2vuz_validation.xml.gz",
+      "compressed_sha256": "55b7b1cc72fafd7892ab2b61f77e9df2251cb1a487bbceb693978ffa5675c0de",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar  5, 2026 -- 06:40 PM UTC",
+      "source_revision_date": "2023-12-13",
+      "entry_warnings": {},
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "num-H-reduce": "14",
+            "EDIAm": "0.134",
+            "NatomsEDS": "15",
+            "mogul_bonds_rmsz": "0.60",
+            "avgoccu": "1.000",
+            "owab": "49.240",
+            "mogul_rmsz_numangles": "21",
+            "rscc": "0.700",
+            "rsr": "0.149",
+            "OPIA": "6.670",
+            "mogul_rmsz_numbonds": "15",
+            "mogul_angles_rmsz": "1.07",
+            "model": "1",
+            "chain": "B",
+            "resnum": "1",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 1,
+            "mog-torsion-outlier": 2
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "12",
+            "EDIAm": "0.164",
+            "NatomsEDS": "14",
+            "mogul_bonds_rmsz": "0.77",
+            "avgoccu": "1.000",
+            "owab": "41.960",
+            "mogul_rmsz_numangles": "17",
+            "rscc": "0.843",
+            "rsr": "0.165",
+            "OPIA": "35.710",
+            "mogul_rmsz_numbonds": "14",
+            "mogul_angles_rmsz": "1.32",
+            "model": "1",
+            "chain": "B",
+            "resnum": "2",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2,
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "8",
+            "EDIAm": "0.940",
+            "NatomsEDS": "11",
+            "mogul_bonds_rmsz": "0.92",
+            "avgoccu": "1.000",
+            "owab": "23.800",
+            "mogul_rmsz_numangles": "15",
+            "rscc": "0.939",
+            "rsr": "0.077",
+            "OPIA": "100.000",
+            "mogul_rmsz_numbonds": "11",
+            "mogul_angles_rmsz": "1.33",
+            "model": "1",
+            "chain": "B",
+            "resnum": "3",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "BMA",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2,
+            "mog-torsion-outlier": 2
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "9",
+            "EDIAm": "0.847",
+            "NatomsEDS": "11",
+            "mogul_bonds_rmsz": "0.74",
+            "avgoccu": "1.000",
+            "owab": "30.460",
+            "mogul_rmsz_numangles": "15",
+            "rscc": "0.922",
+            "rsr": "0.090",
+            "OPIA": "63.640",
+            "mogul_rmsz_numbonds": "11",
+            "mogul_angles_rmsz": "1.39",
+            "model": "1",
+            "chain": "B",
+            "resnum": "4",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "MAN",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 3
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "13",
+            "EDIAm": "0.241",
+            "NatomsEDS": "14",
+            "mogul_bonds_rmsz": "0.72",
+            "avgoccu": "1.000",
+            "owab": "38.520",
+            "mogul_rmsz_numangles": "17",
+            "rscc": "0.862",
+            "rsr": "0.130",
+            "OPIA": "28.570",
+            "mogul_rmsz_numbonds": "14",
+            "mogul_angles_rmsz": "1.30",
+            "model": "1",
+            "chain": "B",
+            "resnum": "5",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 3
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "8",
+            "EDIAm": "0.900",
+            "NatomsEDS": "11",
+            "mogul_bonds_rmsz": "0.86",
+            "avgoccu": "1.000",
+            "owab": "26.030",
+            "mogul_rmsz_numangles": "15",
+            "rscc": "0.909",
+            "rsr": "0.092",
+            "OPIA": "90.910",
+            "mogul_rmsz_numbonds": "11",
+            "mogul_angles_rmsz": "1.31",
+            "model": "1",
+            "chain": "B",
+            "resnum": "6",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "MAN",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 2,
+            "mog-bond-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "13",
+            "EDIAm": "0.664",
+            "NatomsEDS": "14",
+            "mogul_bonds_rmsz": "1.00",
+            "avgoccu": "1.000",
+            "owab": "35.610",
+            "mogul_rmsz_numangles": "17",
+            "rscc": "0.865",
+            "rsr": "0.111",
+            "OPIA": "64.290",
+            "mogul_rmsz_numbonds": "14",
+            "mogul_angles_rmsz": "2.02",
+            "model": "1",
+            "chain": "B",
+            "resnum": "7",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "NAG",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 5,
+            "mog-bond-outlier": 1
+          }
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "1PWB",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/pw/1pwb/1pwb_validation.xml.gz",
+      "compressed_sha256": "814374aa8d9bb076092a1732bc38fc5e98da7e3d14b5713f814bf2bdaf822656",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar  5, 2026 -- 03:42 AM UTC",
+      "source_revision_date": "2024-11-13",
+      "entry_warnings": {},
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "num-H-reduce": "10",
+            "mogul_rmsz_numangles": "17",
+            "rscc": "0.936",
+            "OPIA": "83.330",
+            "mogul_bonds_rmsz": "0.36",
+            "mogul_angles_rmsz": "0.37",
+            "owab": "19.720",
+            "NatomsEDS": "12",
+            "EDIAm": "0.921",
+            "avgoccu": "1.000",
+            "rsr": "0.099",
+            "mogul_rmsz_numbonds": "12",
+            "model": "1",
+            "chain": "B",
+            "resnum": "405",
+            "said": "H",
+            "ent": "4",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GLC",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "clash": 1,
+            "mog-torsion-outlier": 2
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "11",
+            "mogul_rmsz_numangles": "17",
+            "rscc": "0.924",
+            "OPIA": "75.000",
+            "mogul_bonds_rmsz": "0.29",
+            "mogul_angles_rmsz": "0.33",
+            "owab": "21.930",
+            "NatomsEDS": "12",
+            "EDIAm": "0.800",
+            "avgoccu": "1.000",
+            "rsr": "0.113",
+            "mogul_rmsz_numbonds": "12",
+            "model": "1",
+            "chain": "C",
+            "resnum": "405",
+            "said": "L",
+            "ent": "4",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GLC",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 2
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "11",
+            "mogul_rmsz_numangles": "17",
+            "rscc": "0.849",
+            "OPIA": "75.000",
+            "mogul_bonds_rmsz": "0.34",
+            "mogul_angles_rmsz": "0.39",
+            "owab": "30.690",
+            "NatomsEDS": "12",
+            "EDIAm": "0.846",
+            "avgoccu": "1.000",
+            "rsr": "0.131",
+            "mogul_rmsz_numbonds": "12",
+            "model": "1",
+            "chain": "D",
+            "resnum": "1",
+            "said": "D",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GLC",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "clash": 1
+          }
+        },
+        {
+          "attributes": {
+            "num-H-reduce": "8",
+            "mogul_rmsz_numangles": "15",
+            "rscc": "0.961",
+            "OPIA": "100.000",
+            "mogul_bonds_rmsz": "0.51",
+            "mogul_angles_rmsz": "0.67",
+            "owab": "17.070",
+            "NatomsEDS": "11",
+            "EDIAm": "1.040",
+            "avgoccu": "1.000",
+            "rsr": "0.071",
+            "mogul_rmsz_numbonds": "11",
+            "model": "1",
+            "chain": "D",
+            "resnum": "2",
+            "said": "D",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GLC",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "clash": 1,
+            "mog-angle-outlier": 1
+          }
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "7MTZ",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/mt/7mtz/7mtz_validation.xml.gz",
+      "compressed_sha256": "51276c0bdeecc0954e451bb42e84f560b7075f0aa4e013bf3b0ddb037f2adba3",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar 20, 2026 -- 02:42 AM UTC",
+      "source_revision_date": "2025-06-04",
+      "entry_warnings": {},
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "A",
+            "resnum": "801",
+            "said": "IB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "B",
+            "resnum": "801",
+            "said": "JB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "C",
+            "resnum": "801",
+            "said": "KB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "D",
+            "resnum": "801",
+            "said": "LB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "E",
+            "resnum": "801",
+            "said": "MB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "F",
+            "resnum": "801",
+            "said": "NB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "G",
+            "resnum": "801",
+            "said": "OB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "H",
+            "resnum": "801",
+            "said": "PB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "I",
+            "resnum": "801",
+            "said": "QB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "J",
+            "resnum": "801",
+            "said": "RB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "K",
+            "resnum": "801",
+            "said": "SB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "L",
+            "resnum": "801",
+            "said": "TB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "M",
+            "resnum": "801",
+            "said": "UB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "N",
+            "resnum": "801",
+            "said": "VB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "O",
+            "resnum": "801",
+            "said": "WB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "P",
+            "resnum": "801",
+            "said": "XB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "Q",
+            "resnum": "801",
+            "said": "YB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "R",
+            "resnum": "801",
+            "said": "ZB",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "S",
+            "resnum": "801",
+            "said": "AC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "T",
+            "resnum": "801",
+            "said": "BC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "U",
+            "resnum": "801",
+            "said": "CC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "V",
+            "resnum": "801",
+            "said": "DC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "W",
+            "resnum": "801",
+            "said": "EC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "X",
+            "resnum": "801",
+            "said": "FC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "Y",
+            "resnum": "801",
+            "said": "GC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "Z",
+            "resnum": "801",
+            "said": "HC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "1",
+            "resnum": "801",
+            "said": "IC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "2",
+            "resnum": "801",
+            "said": "JC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "3",
+            "resnum": "801",
+            "said": "KC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "4",
+            "resnum": "801",
+            "said": "LC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "5",
+            "resnum": "801",
+            "said": "MC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "6",
+            "resnum": "801",
+            "said": "NC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "a",
+            "resnum": "801",
+            "said": "OC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "b",
+            "resnum": "801",
+            "said": "PC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "c",
+            "resnum": "801",
+            "said": "QC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "d",
+            "resnum": "801",
+            "said": "RC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "e",
+            "resnum": "801",
+            "said": "SC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "f",
+            "resnum": "801",
+            "said": "TC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "g",
+            "resnum": "801",
+            "said": "UC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "h",
+            "resnum": "801",
+            "said": "VC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "i",
+            "resnum": "801",
+            "said": "WC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "j",
+            "resnum": "801",
+            "said": "XC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "k",
+            "resnum": "801",
+            "said": "YC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "l",
+            "resnum": "801",
+            "said": "ZC",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "m",
+            "resnum": "801",
+            "said": "AD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "n",
+            "resnum": "801",
+            "said": "BD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "o",
+            "resnum": "801",
+            "said": "CD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "p",
+            "resnum": "801",
+            "said": "DD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "q",
+            "resnum": "801",
+            "said": "ED",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "r",
+            "resnum": "801",
+            "said": "FD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "s",
+            "resnum": "801",
+            "said": "GD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "t",
+            "resnum": "801",
+            "said": "HD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "u",
+            "resnum": "801",
+            "said": "ID",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "v",
+            "resnum": "801",
+            "said": "JD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "w",
+            "resnum": "801",
+            "said": "KD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.53",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "x",
+            "resnum": "801",
+            "said": "LD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "y",
+            "resnum": "801",
+            "said": "MD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "z",
+            "resnum": "801",
+            "said": "ND",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.86",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "7",
+            "resnum": "801",
+            "said": "OD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "mogul_bonds_rmsz": "0.52",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_angles_rmsz": "0.87",
+            "mogul_rmsz_numangles": "17",
+            "model": "1",
+            "chain": "8",
+            "resnum": "801",
+            "said": "PD",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "GAL",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-torsion-outlier": 1
+          }
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "7MT0",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/mt/7mt0/7mt0_validation.xml.gz",
+      "compressed_sha256": "901260d0c948fc5e5dc86003c7284fb1494daa7c435c12865041bac815bbf3d6",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar 20, 2026 -- 10:40 AM UTC",
+      "source_revision_date": "2025-06-04",
+      "entry_warnings": {},
+      "ligand_residue_validation": [],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    },
+    {
+      "pdb_id": "5UF6",
+      "source_url": "https://files.rcsb.org/pub/pdb/validation_reports/uf/5uf6/5uf6_validation.xml.gz",
+      "compressed_sha256": "b20da7e4c4033fdf070cbf9ad4a0ac233dff9b3d56a510ce9b9df1c14329a944",
+      "retrieved_date": "2026-10-28",
+      "validation_creation_date": "Mar  8, 2026 -- 01:52 AM UTC",
+      "source_revision_date": "2024-03-06",
+      "entry_warnings": {},
+      "ligand_residue_validation": [
+        {
+          "attributes": {
+            "residue_inclusion": "0.0000",
+            "Q_score": "0.031",
+            "mogul_angles_rmsz": "1.29",
+            "mogul_rmsz_numbonds": "21",
+            "mogul_bonds_rmsz": "1.22",
+            "mogul_rmsz_numangles": "26",
+            "model": "1",
+            "chain": "B",
+            "resnum": "1",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "ZDO",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 1,
+            "mog-bond-outlier": 2,
+            "mog-torsion-outlier": 3
+          }
+        },
+        {
+          "attributes": {
+            "residue_inclusion": "0.0000",
+            "Q_score": "-0.076",
+            "mogul_angles_rmsz": "0.72",
+            "mogul_rmsz_numbonds": "16",
+            "mogul_bonds_rmsz": "1.17",
+            "mogul_rmsz_numangles": "16",
+            "num-H-reduce": "6",
+            "model": "1",
+            "chain": "B",
+            "resnum": "2",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "IDS",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-bond-outlier": 2,
+            "mog-torsion-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "residue_inclusion": "0.0000",
+            "Q_score": "0.003",
+            "mogul_angles_rmsz": "1.51",
+            "mogul_rmsz_numbonds": "23",
+            "mogul_bonds_rmsz": "1.25",
+            "mogul_rmsz_numangles": "26",
+            "num-H-reduce": "7",
+            "model": "1",
+            "chain": "B",
+            "resnum": "3",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "SUS",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 3,
+            "mog-bond-outlier": 3,
+            "mog-torsion-outlier": 9
+          }
+        },
+        {
+          "attributes": {
+            "residue_inclusion": "0.0000",
+            "Q_score": "0.167",
+            "mogul_angles_rmsz": "1.04",
+            "mogul_rmsz_numbonds": "12",
+            "mogul_bonds_rmsz": "0.71",
+            "mogul_rmsz_numangles": "14",
+            "num-H-reduce": "6",
+            "model": "1",
+            "chain": "B",
+            "resnum": "4",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "BDP",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 1
+          }
+        },
+        {
+          "attributes": {
+            "residue_inclusion": "0.0000",
+            "Q_score": "-0.046",
+            "mogul_angles_rmsz": "1.29",
+            "mogul_rmsz_numbonds": "19",
+            "mogul_bonds_rmsz": "1.22",
+            "mogul_rmsz_numangles": "23",
+            "num-H-reduce": "8",
+            "model": "1",
+            "chain": "B",
+            "resnum": "5",
+            "said": "B",
+            "ent": "2",
+            "seq": ".",
+            "icode": " ",
+            "resname": "SGN",
+            "altcode": " "
+          },
+          "geometry_outlier_counts": {
+            "mog-angle-outlier": 1,
+            "mog-bond-outlier": 2,
+            "mog-torsion-outlier": 2
+          }
+        }
+      ],
+      "interpretation": "Machine-extracted diagnostic only; not independent density/map or stereochemical review."
+    }
+  ]
+}

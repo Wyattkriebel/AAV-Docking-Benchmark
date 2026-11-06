@@ -1,0 +1,15 @@
+{
+  "HADDOCK_cohort_pose_or_accuracy_outcomes_consulted": false,
+  "concurrent_native_jobs": 1,
+  "execution_authorized": true,
+  "frozen_at_UTC": "2026-11-03T17:47:34.835554+00:00",
+  "native_cpus_per_job": 1,
+  "other_frozen_workflows_executing_without_accuracy_evaluation": true,
+  "prepared_plan": {
+    "path": "results/haddock_paired_cohort/prepared_plan.json",
+    "sha256": "c447d1216d63cf5d19fb5a214a312cb35f2a67599f9c732a1a33276b3ca2c6f2"
+  },
+  "schema_version": 1,
+  "scope": "all108eligiblecells;39readyjobs;strictsource-preserving single-protein-chain adapter;20rigidbody then all available up to20flexref; individual scores, no native-reference modules",
+  "status": "frozen_before_first_HADDOCK_cohort_pose"
+}

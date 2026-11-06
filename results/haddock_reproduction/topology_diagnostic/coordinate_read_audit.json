@@ -1,0 +1,20 @@
+{
+  "source": "results/haddock_reproduction/topology_diagnostic/run-topology/0_topoaa/1LMQ_l_u.out.gz",
+  "readc_error_count": 37,
+  "acetyl_heavy_alias_error_count": 12,
+  "acetyl_heavy_alias_errors": [
+    "%READC-ERR: atom B    1    NDG  C2N  not found in molecular structure",
+    "%READC-ERR: atom B    1    NDG  CME  not found in molecular structure",
+    "%READC-ERR: atom B    1    NDG  O2N  not found in molecular structure",
+    "%READC-ERR: atom B    2    NAG  C2N  not found in molecular structure",
+    "%READC-ERR: atom B    2    NAG  O2N  not found in molecular structure",
+    "%READC-ERR: atom B    2    NAG  CME  not found in molecular structure",
+    "%READC-ERR: atom B    3    NAG  C2N  not found in molecular structure",
+    "%READC-ERR: atom B    3    NAG  O2N  not found in molecular structure",
+    "%READC-ERR: atom B    3    NAG  CME  not found in molecular structure",
+    "%READC-ERR: atom B    4    NAG  C2N  not found in molecular structure",
+    "%READC-ERR: atom B    4    NAG  O2N  not found in molecular structure",
+    "%READC-ERR: atom B    4    NAG  CME  not found in molecular structure"
+  ],
+  "interpretation": "Official GLYCAM heavy aliases are not recognized by CNS, so their standard counterparts and missing reducing O1 are built. This confirms actual rebuilding rather than a coordinate-preserving rename."
+}

@@ -1,0 +1,14 @@
+{
+  "common_reference_offset_admits_all_printed_score_intervals": true,
+  "fullsearch_printed_score_unit_kcal_mol": 0.1,
+  "offset_range_kcal_mol": [
+    -1.6911183822586136,
+    -1.6150104717171025
+  ],
+  "poses": 10,
+  "scope": "Retained tutorial poses and unchanged scoring objects; within-fixed-ligand ranking only, no experimental pose adjudication",
+  "source_fullsearch_rank_order_preserved": true,
+  "source_sha256": "e450180cad643f9d58b886f770272e835615487e251977b7cdc920899d41943d",
+  "status": "verified",
+  "torsion_normalization_scale": 0.5412221879448169
+}

@@ -1,0 +1,130 @@
+#################################################################
+#	 		Vina-Carb Results	 	     	#
+#################################################################
+
+WARNING: at low exhaustiveness, it may be impossible to utilize all CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 0
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... 	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 3.94158
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 3.94144
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 3.95582
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 3.42575
+	BEFORE corresponding chi_energy: 2.86938
+	BEFORE corresponding chi_energy: 5.39615
+	BEFORE corresponding chi_energy: 2.14388
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 2.01256
+	BEFORE corresponding chi_energy: 5.32034
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 4.00783
+	BEFORE corresponding chi_energy: 3.61855
+	BEFORE corresponding chi_energy: 4.06917
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 3.96261
+	BEFORE corresponding chi_energy: 0
+	BEFORE corresponding chi_energy: 5.47492
+	BEFORE corresponding chi_energy: 3.98576
+	BEFORE corresponding chi_energy: 4.19311
+	BEFORE corresponding chi_energy: 4.0116
+	BEFORE corresponding chi_energy: 5.43657
+	BEFORE corresponding chi_energy: 4.25832
+	BEFORE corresponding chi_energy: 5.37802
+	BEFORE corresponding chi_energy: 3.93379
+	BEFORE corresponding chi_energy: 3.91617
+	BEFORE corresponding chi_energy: 5.37411
+	BEFORE corresponding chi_energy: 5.48842
+	BEFORE corresponding chi_energy: 5.39987
+	BEFORE corresponding chi_energy: 5.51969
+	BEFORE corresponding chi_energy: 9.4071
+	BEFORE corresponding chi_energy: 11.6317
+	BEFORE corresponding chi_energy: 5.56106
+	BEFORE corresponding chi_energy: 7.9712
+	BEFORE corresponding chi_energy: 9.21127
+	BEFORE corresponding chi_energy: 18.7887
+	BEFORE corresponding chi_energy: 24.7802
+	BEFORE corresponding chi_energy: 11.1003
+done.
+
+mode |   affinity |   chi   |  affinity | dist from best mode
+     | (kcal/mol) |  energy |  - chi    | rmsd l.b.| rmsd u.b.
+-----+------------+---------+--------------------+------------
+   1         -7.6      0.0      -7.6      0.000      0.000
+   2         -7.0      0.0      -7.0      2.401      7.557
+   3         -6.8      0.0      -6.8      1.923      5.885
+   4         -6.6      0.0      -6.6      2.215      6.009
+   5         -6.5      0.0      -6.5      2.326      7.253
+   6         -6.4      0.0      -6.4      2.637      6.958
+   7         -6.4      0.0      -6.4      2.479      6.083
+   8         -6.4      0.0      -6.4      2.867      8.272
+   9         -6.3      0.0      -6.3      2.778      7.176
+  10         -6.1      0.0      -6.1      2.246      5.766
+Writing output ... done.

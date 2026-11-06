@@ -1,0 +1,840 @@
+MODEL 1
+REMARK VINA RESULT:    -4.554      0.000      0.000
+REMARK INTER + INTRA:          -5.741
+REMARK INTER:                  -5.486
+REMARK INTRA:                  -0.255
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1      -1.048 -13.342  -3.390  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1      -0.582 -14.109  -4.640  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       0.806 -14.699  -4.382  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       1.786 -13.603  -3.947  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       1.192 -12.795  -2.781  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1      -0.127 -12.299  -3.092  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1      -2.335 -12.776  -3.609  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1      -2.300 -11.875  -3.239  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1      -1.506 -15.158  -4.965  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1      -2.181 -14.737  -5.536  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       1.275 -15.323  -5.590  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       1.609 -14.617  -6.173  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       2.051 -11.579  -2.430  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       1.769 -10.524  -3.353  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       2.428  -9.829  -3.151  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       2.065 -12.755  -5.069  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       1.444 -12.001  -5.019  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.385      1.961      2.573
+REMARK INTER + INTRA:          -5.537
+REMARK INTER:                  -5.501
+REMARK INTRA:                  -0.036
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       1.002 -13.975  -5.679  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       1.074 -15.171  -4.713  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       0.613 -14.726  -3.324  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       1.426 -13.516  -2.848  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       1.416 -12.416  -3.923  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       1.834 -12.922  -5.207  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       1.434 -14.362  -6.978  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       0.992 -15.210  -7.169  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       0.251 -16.250  -5.179  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       0.784 -16.702  -5.865  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       0.784 -15.822  -2.408  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -0.087 -16.010  -2.011  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       2.358 -11.263  -3.571  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       1.607 -10.221  -2.942  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       1.591  -9.492  -3.596  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       2.765 -13.938  -2.558  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       3.146 -13.279  -1.944  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.344      6.441      8.173
+REMARK INTER + INTRA:          -5.487
+REMARK INTER:                  -5.240
+REMARK INTRA:                  -0.247
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1      -1.451  -5.891   0.435  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1      -2.509  -6.882   0.953  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1      -1.884  -7.764   2.037  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1      -0.620  -8.452   1.510  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       0.328  -7.413   0.888  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1      -0.342  -6.604  -0.101  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1      -2.006  -5.064  -0.581  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1      -1.661  -5.405  -1.426  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1      -3.642  -6.182   1.486  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1      -3.803  -5.444   0.864  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1      -2.848  -8.753   2.439  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -2.367  -9.588   2.586  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       1.520  -8.070   0.189  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       1.099  -8.571  -1.082  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       1.895  -8.520  -1.650  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1      -0.996  -9.445   0.546  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1      -0.256  -9.521  -0.090  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.187     11.010     13.400
+REMARK INTER + INTRA:          -5.298
+REMARK INTER:                  -5.035
+REMARK INTRA:                  -0.263
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       8.017  -3.772   3.457  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       6.635  -3.152   3.730  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       5.629  -4.269   4.018  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       5.616  -5.292   2.876  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       7.049  -5.764   2.573  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       7.939  -4.653   2.342  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       8.969  -2.753   3.177  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       9.818  -3.070   3.537  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       6.695  -2.250   4.844  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       7.615  -1.916   4.854  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       4.323  -3.687   4.169  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       4.408  -2.930   4.777  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       7.108  -6.648   1.325  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       7.320  -5.822   0.177  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       7.536  -4.938   0.538  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       5.019  -4.692   1.719  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       5.503  -3.860   1.546  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.100      1.243      3.523
+REMARK INTER + INTRA:          -5.194
+REMARK INTER:                  -5.166
+REMARK INTRA:                  -0.028
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       1.035 -12.511  -3.567  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       1.700 -13.350  -4.672  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       0.702 -13.564  -5.812  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1      -0.597 -14.183  -5.283  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1      -1.128 -13.364  -4.095  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1      -0.121 -13.183  -3.079  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       1.942 -12.305  -2.490  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       1.406 -12.332  -1.676  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       2.876 -12.695  -5.168  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       3.400 -12.472  -4.372  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       1.297 -14.435  -6.790  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       2.257 -14.457  -6.616  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1      -2.323 -14.041  -3.420  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1      -3.254 -13.039  -3.004  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1      -3.458 -12.531  -3.815  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1      -0.343 -15.541  -4.898  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       0.025 -15.517  -3.992  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.052      6.198      8.446
+REMARK INTER + INTRA:          -5.136
+REMARK INTER:                  -4.872
+REMARK INTRA:                  -0.264
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1      -0.178  -7.493   0.503  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1      -1.350  -6.514   0.311  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1      -2.384  -6.740   1.416  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1      -2.824  -8.208   1.450  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1      -1.593  -9.129   1.508  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1      -0.656  -8.833   0.453  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       0.794  -7.308  -0.519  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       1.643  -7.599  -0.140  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1      -0.887  -5.156   0.346  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1      -1.683  -4.610   0.185  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1      -3.519  -5.894   1.167  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -3.190  -5.079   0.745  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1      -1.973 -10.604   1.363  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1      -2.068 -10.928  -0.026  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1      -1.264 -10.542  -0.431  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1      -3.617  -8.484   0.288  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1      -3.373  -7.821  -0.389  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.023      2.016      4.317
+REMARK INTER + INTRA:          -5.101
+REMARK INTER:                  -4.856
+REMARK INTRA:                  -0.245
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       2.335 -13.851  -1.740  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       2.872 -12.475  -2.173  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       1.827 -11.778  -3.048  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       1.432 -12.671  -4.230  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       1.036 -14.070  -3.728  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       2.059 -14.645  -2.889  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       3.293 -14.522  -0.932  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       4.165 -14.184  -1.207  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       3.169 -11.663  -1.028  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       3.529 -12.283  -0.361  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       2.379 -10.542  -3.532  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       3.326 -10.694  -3.709  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       0.806 -15.049  -4.881  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       0.336 -14.326  -6.022  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1      -0.253 -13.634  -5.657  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       2.532 -12.747  -5.146  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       3.351 -12.688  -4.614  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.921      1.373      4.180
+REMARK INTER + INTRA:          -4.978
+REMARK INTER:                  -4.720
+REMARK INTRA:                  -0.258
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       1.743 -13.770  -3.040  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       0.528 -12.902  -3.413  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1      -0.757 -13.671  -3.098  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1      -0.753 -15.036  -3.797  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       0.552 -15.787  -3.483  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       1.714 -14.985  -3.779  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       2.952 -13.078  -3.331  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       2.689 -12.236  -3.745  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       0.547 -11.664  -2.687  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       0.960 -11.017  -3.294  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1      -1.882 -12.895  -3.546  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -2.496 -13.503  -3.997  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       0.682 -17.075  -4.299  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       1.172 -16.755  -5.604  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       0.633 -15.991  -5.896  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1      -0.904 -14.838  -5.209  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1      -0.102 -14.373  -5.520  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.916      1.717      3.730
+REMARK INTER + INTRA:          -4.972
+REMARK INTER:                  -4.746
+REMARK INTRA:                  -0.226
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1      -0.318 -12.517  -2.079  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       0.862 -11.578  -1.771  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       1.439 -11.044  -3.084  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       1.817 -12.201  -4.016  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       0.630 -13.167  -4.169  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       0.126 -13.601  -2.888  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1      -0.866 -13.034  -0.873  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1      -0.729 -12.345  -0.196  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       0.437 -10.485  -0.944  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1      -0.518 -10.377  -1.133  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       2.602 -10.252  -2.789  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       2.442  -9.801  -1.939  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       1.014 -14.429  -4.945  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       1.773 -14.056  -6.098  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       1.952 -14.897  -6.565  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       2.963 -12.876  -3.481  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       2.636 -13.683  -3.034  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:    -3.746      4.475      6.635
+REMARK INTER + INTRA:          -4.767
+REMARK INTER:                  -4.528
+REMARK INTRA:                  -0.239
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       0.509 -10.613  -0.194  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       1.531  -9.662  -0.841  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       1.839  -8.518   0.128  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       0.547  -7.813   0.558  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1      -0.474  -8.845   1.068  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1      -0.686  -9.903   0.111  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       0.200 -11.683  -1.080  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       0.518 -12.495  -0.645  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       2.740 -10.363  -1.169  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       2.897 -10.173  -2.116  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       2.713  -7.582  -0.526  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       2.154  -6.962  -1.030  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1      -1.840  -8.212   1.340  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1      -1.659  -6.832   1.669  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1      -1.420  -6.828   2.619  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       0.022  -7.080  -0.557  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1      -0.922  -7.321  -0.638  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 11
+REMARK VINA RESULT:    -3.744      1.429      3.680
+REMARK INTER + INTRA:          -4.765
+REMARK INTER:                  -4.530
+REMARK INTRA:                  -0.235
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1      -0.354 -12.935  -2.805  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       1.049 -12.710  -3.398  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       1.078 -13.236  -4.835  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       0.630 -14.702  -4.883  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1      -0.713 -14.868  -4.153  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1      -0.667 -14.323  -2.819  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1      -0.404 -12.461  -1.464  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1      -1.212 -12.842  -1.073  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       1.389 -11.317  -3.381  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       0.538 -10.846  -3.278  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       2.418 -13.117  -5.343  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       3.028 -13.280  -4.600  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1      -1.113 -16.339  -4.018  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1      -0.516 -17.086  -5.081  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1      -1.122 -17.840  -5.232  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       1.645 -15.519  -4.283  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       1.310 -16.438  -4.285  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 12
+REMARK VINA RESULT:    -3.621     10.111     12.208
+REMARK INTER + INTRA:          -4.617
+REMARK INTER:                  -4.356
+REMARK INTRA:                  -0.261
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       5.977  -6.639   2.031  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       7.034  -5.963   1.139  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       8.265  -5.624   1.983  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       7.869  -4.777   3.198  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       6.718  -5.453   3.962  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       5.611  -5.765   3.092  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       4.818  -6.956   1.269  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       4.478  -7.794   1.632  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       7.407  -6.824   0.053  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       7.830  -7.599   0.475  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       9.201  -4.901   1.165  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       8.774  -4.065   0.901  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       6.169  -4.560   5.077  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       5.095  -3.771   4.558  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       4.442  -3.723   5.286  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       7.490  -3.469   2.750  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       7.534  -3.477   1.773  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 13
+REMARK VINA RESULT:    -3.604      1.492      4.267
+REMARK INTER + INTRA:          -4.596
+REMARK INTER:                  -4.346
+REMARK INTRA:                  -0.250
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       1.937 -11.555  -2.851  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       0.771 -11.457  -1.850  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       0.187 -12.852  -1.618  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1      -0.213 -13.498  -2.949  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       0.962 -13.438  -3.940  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       1.473 -12.097  -4.082  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       2.492 -10.267  -3.091  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       2.141  -9.687  -2.390  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       1.217 -10.899  -0.606  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       1.713 -11.619  -0.165  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1      -0.964 -12.734  -0.764  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -0.656 -12.819   0.157  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       0.555 -13.908  -5.339  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1      -0.443 -14.925  -5.219  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1      -0.816 -15.020  -6.119  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1      -1.361 -12.817  -3.472  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1      -2.114 -13.035  -2.886  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 14
+REMARK VINA RESULT:    -3.599      2.138      3.948
+REMARK INTER + INTRA:          -4.590
+REMARK INTER:                  -4.330
+REMARK INTRA:                  -0.260
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       1.320 -15.483  -3.299  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       2.313 -14.520  -2.624  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       1.817 -13.082  -2.796  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       1.580 -12.766  -4.277  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       0.688 -13.846  -4.913  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       1.208 -15.171  -4.683  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       1.764 -16.827  -3.160  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       2.735 -16.785  -3.084  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       2.450 -14.826  -1.229  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       2.742 -15.760  -1.200  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       2.802 -12.186  -2.255  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       3.248 -11.752  -3.007  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       0.570 -13.672  -6.428  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       1.599 -14.433  -7.068  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       1.687 -15.244  -6.526  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       2.846 -12.688  -4.945  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       3.315 -11.911  -4.581  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 15
+REMARK VINA RESULT:    -3.513      9.769     11.222
+REMARK INTER + INTRA:          -4.486
+REMARK INTER:                  -4.245
+REMARK INTRA:                  -0.240
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1     -10.661 -14.145  -9.657  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1     -10.326 -14.703  -8.262  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1      -9.873 -13.557  -7.355  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1      -8.709 -12.792  -7.994  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1      -9.070 -12.383  -9.433  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1      -9.514 -13.512 -10.213  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1     -11.078 -15.194 -10.523  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1     -11.146 -14.800 -11.412  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1     -11.468 -15.357  -7.690  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1     -11.104 -15.969  -7.020  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1      -9.464 -14.104  -6.090  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -8.718 -14.708  -6.260  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1      -7.876 -11.775 -10.172  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1      -7.173 -10.900  -9.286  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1      -7.460  -9.999  -9.540  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1      -7.539 -13.620  -7.975  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1      -7.828 -14.517  -7.710  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 16
+REMARK VINA RESULT:    -3.437     10.186     12.263
+REMARK INTER + INTRA:          -4.395
+REMARK INTER:                  -4.147
+REMARK INTRA:                  -0.247
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       8.321  -5.600   2.022  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       7.257  -6.613   1.562  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       5.912  -5.899   1.412  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       5.537  -5.178   2.712  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       6.701  -4.287   3.179  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       7.936  -5.027   3.266  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       9.581  -6.243   2.176  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1      10.186  -5.569   2.537  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       7.633  -7.213   0.314  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       6.815  -7.624  -0.030  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       4.906  -6.873   1.085  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       5.358  -7.727   0.953  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       6.445  -3.687   4.562  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       5.038  -3.494   4.735  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       4.785  -2.849   4.044  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       5.207  -6.154   3.709  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       5.956  -6.781   3.754  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 17
+REMARK VINA RESULT:    -3.424      5.489      7.306
+REMARK INTER + INTRA:          -4.380
+REMARK INTER:                  -4.129
+REMARK INTRA:                  -0.250
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       3.151 -10.074   0.331  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       2.085  -9.483  -0.610  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       1.699  -8.086  -0.120  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       1.251  -8.132   1.345  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       2.308  -8.854   2.199  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       2.637 -10.149   1.656  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       3.521 -11.378  -0.099  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       2.787 -11.966   0.159  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       2.580  -9.411  -1.955  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       2.739  -8.459  -2.118  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       0.630  -7.587  -0.943  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -0.044  -7.209  -0.350  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       1.826  -9.083   3.633  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       1.056  -7.955   4.054  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       1.717  -7.289   4.336  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1      -0.016  -8.798   1.425  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1      -0.376  -8.620   2.317  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 18
+REMARK VINA RESULT:    -3.414      9.705     11.066
+REMARK INTER + INTRA:          -4.367
+REMARK INTER:                  -4.108
+REMARK INTRA:                  -0.259
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1      -9.934 -11.250  -9.014  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1      -8.422 -10.958  -9.007  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1      -7.700 -12.017  -9.844  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1      -8.045 -13.425  -9.345  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1      -9.571 -13.594  -9.252  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1     -10.178 -12.543  -8.473  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1     -10.627 -10.282  -8.235  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1      -9.948  -9.668  -7.900  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1      -8.156  -9.651  -9.537  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1      -7.550  -9.799 -10.291  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1      -6.283 -11.796  -9.745  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -6.095 -11.507  -8.832  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1      -9.962 -14.918  -8.592  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1      -9.889 -14.771  -7.171  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1     -10.393 -15.530  -6.813  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1      -7.427 -13.632  -8.068  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1      -8.142 -13.630  -7.401  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 19
+REMARK VINA RESULT:    -3.354      1.517      2.056
+REMARK INTER + INTRA:          -4.295
+REMARK INTER:                  -4.082
+REMARK INTRA:                  -0.213
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1      -1.175 -13.473  -3.181  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1      -1.227 -15.003  -3.346  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       0.052 -15.616  -2.770  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       1.291 -14.981  -3.412  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       1.205 -13.448  -3.326  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1      -0.039 -12.952  -3.861  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1      -2.351 -12.878  -3.717  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1      -2.348 -13.085  -4.669  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1      -2.374 -15.546  -2.677  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1      -2.921 -14.772  -2.437  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       0.040 -17.031  -3.024  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1      -0.460 -17.177  -3.849  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       2.329 -12.766  -4.109  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       2.080 -12.916  -5.509  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       2.941 -13.184  -5.891  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       1.383 -15.413  -4.776  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       2.082 -14.876  -5.200  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL
+MODEL 20
+REMARK VINA RESULT:    -3.325      3.703      6.671
+REMARK INTER + INTRA:          -4.260
+REMARK INTER:                  -4.024
+REMARK INTRA:                  -0.236
+REMARK UNBOUND:                -0.255
+REMARK SMILES OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O
+REMARK SMILES IDX 5 1 7 2 9 3 11 4 3 5 4 6 6 7 8 9 10 11 2 13 1 14 12 16
+REMARK H PARENT 6 8 8 10 10 12 1 15 12 17
+ROOT
+ATOM      1 L000 GAL B   1       3.363  -9.939   1.215  1.00  0.00    +0.279 C 
+ATOM      2 L001 GAL B   1       2.771  -8.663   0.589  1.00  0.00    +0.201 C 
+ATOM      3 L002 GAL B   1       1.477  -9.015  -0.147  1.00  0.00    +0.179 C 
+ATOM      4 L003 GAL B   1       1.724 -10.130  -1.170  1.00  0.00    +0.177 C 
+ATOM      5 L004 GAL B   1       2.437 -11.316  -0.498  1.00  0.00    +0.178 C 
+ATOM      6 L010 GAL B   1       3.630 -10.897   0.197  1.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7 L006 GAL B   1       4.573  -9.638   1.899  1.00  0.00    -0.366 OA
+ATOM      8  H   UNL     1       4.331  -9.035   2.625  1.00  0.00    +0.213 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+ATOM      9 L007 GAL B   1       2.507  -7.678   1.599  1.00  0.00    -0.385 OA
+ATOM     10  H   UNL     1       3.381  -7.470   1.988  1.00  0.00    +0.211 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11 L008 GAL B   1       0.990  -7.838  -0.814  1.00  0.00    -0.387 OA
+ATOM     12  H   UNL     1       0.044  -7.746  -0.593  1.00  0.00    +0.211 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13 L005 GAL B   1       2.865 -12.377  -1.513  1.00  0.00    +0.191 C 
+BRANCH  13  14
+ATOM     14 L011 GAL B   1       1.803 -12.585  -2.449  1.00  0.00    -0.394 OA
+ATOM     15  H   UNL     1       0.982 -12.450  -1.933  1.00  0.00    +0.210 HD
+ENDBRANCH  13  14
+ENDBRANCH   5  13
+BRANCH   4  16
+ATOM     16 L009 GAL B   1       2.507  -9.606  -2.251  1.00  0.00    -0.387 OA
+ATOM     17  H   UNL     1       1.956  -9.665  -3.057  1.00  0.00    +0.211 HD
+ENDBRANCH   4  16
+TORSDOF 6
+ENDMDL

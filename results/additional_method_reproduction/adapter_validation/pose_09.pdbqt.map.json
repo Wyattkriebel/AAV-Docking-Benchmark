@@ -1,0 +1,996 @@
+{
+  "atoms": [
+    {
+      "atom_type": "C",
+      "carb_name": "C1",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": 0.282,
+      "generated_name": "L001",
+      "hydrogen": false,
+      "serial": 1,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "C1"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C2",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": 0.171,
+      "generated_name": "L002",
+      "hydrogen": false,
+      "serial": 2,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "C2"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C3",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": 0.183,
+      "generated_name": "L003",
+      "hydrogen": false,
+      "serial": 3,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "C3"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C4",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": 0.187,
+      "generated_name": "L004",
+      "hydrogen": false,
+      "serial": 4,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "C4"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C5",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": 0.18,
+      "generated_name": "L005",
+      "hydrogen": false,
+      "serial": 5,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "C5"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O5",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": -0.349,
+      "generated_name": "L006",
+      "hydrogen": false,
+      "serial": 6,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "O5"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O4",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": -0.348,
+      "generated_name": "L007",
+      "hydrogen": false,
+      "serial": 7,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "O4"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C1",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": 0.292,
+      "generated_name": "L008",
+      "hydrogen": false,
+      "serial": 8,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "C1"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C2",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": 0.211,
+      "generated_name": "L009",
+      "hydrogen": false,
+      "serial": 9,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "C2"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C3",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": 0.183,
+      "generated_name": "L010",
+      "hydrogen": false,
+      "serial": 10,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "C3"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C4",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": 0.18,
+      "generated_name": "L011",
+      "hydrogen": false,
+      "serial": 11,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "C4"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C5",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": 0.179,
+      "generated_name": "L012",
+      "hydrogen": false,
+      "serial": 12,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "C5"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O5",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": -0.348,
+      "generated_name": "L013",
+      "hydrogen": false,
+      "serial": 13,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "O5"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O2",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": -0.346,
+      "generated_name": "L014",
+      "hydrogen": false,
+      "serial": 14,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "O2"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C1",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": 0.292,
+      "generated_name": "L015",
+      "hydrogen": false,
+      "serial": 15,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "C1"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C2",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": 0.204,
+      "generated_name": "L016",
+      "hydrogen": false,
+      "serial": 16,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "C2"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C3",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": 0.183,
+      "generated_name": "L017",
+      "hydrogen": false,
+      "serial": 17,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "C3"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C4",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": 0.178,
+      "generated_name": "L018",
+      "hydrogen": false,
+      "serial": 18,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "C4"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C5",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": 0.152,
+      "generated_name": "L019",
+      "hydrogen": false,
+      "serial": 19,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "C5"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C6",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": 0.042,
+      "generated_name": "L020",
+      "hydrogen": false,
+      "serial": 20,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "C6"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O5",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": -0.351,
+      "generated_name": "L021",
+      "hydrogen": false,
+      "serial": 21,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "O5"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O2",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": -0.388,
+      "generated_name": "L022",
+      "hydrogen": false,
+      "serial": 22,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "O2"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.21,
+      "generated_name": "H023",
+      "hydrogen": true,
+      "serial": 23,
+      "source_key": null
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O3",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": -0.39,
+      "generated_name": "L024",
+      "hydrogen": false,
+      "serial": 24,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "O3"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.21,
+      "generated_name": "H025",
+      "hydrogen": true,
+      "serial": 25,
+      "source_key": null
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O4",
+      "carb_resname": "FUC",
+      "carb_resnum": 3,
+      "charge": -0.39,
+      "generated_name": "L026",
+      "hydrogen": false,
+      "serial": 26,
+      "source_key": [
+        "A",
+        3,
+        "",
+        "FUC",
+        "O4"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.21,
+      "generated_name": "H027",
+      "hydrogen": true,
+      "serial": 27,
+      "source_key": null
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O3",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": -0.39,
+      "generated_name": "L028",
+      "hydrogen": false,
+      "serial": 28,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "O3"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.21,
+      "generated_name": "H029",
+      "hydrogen": true,
+      "serial": 29,
+      "source_key": null
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O4",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": -0.39,
+      "generated_name": "L030",
+      "hydrogen": false,
+      "serial": 30,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "O4"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.21,
+      "generated_name": "H031",
+      "hydrogen": true,
+      "serial": 31,
+      "source_key": null
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C6",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": 0.198,
+      "generated_name": "L032",
+      "hydrogen": false,
+      "serial": 32,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "C6"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O6",
+      "carb_resname": "GAL",
+      "carb_resnum": 2,
+      "charge": -0.398,
+      "generated_name": "L033",
+      "hydrogen": false,
+      "serial": 33,
+      "source_key": [
+        "A",
+        2,
+        "",
+        "GAL",
+        "O6"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.209,
+      "generated_name": "H034",
+      "hydrogen": true,
+      "serial": 34,
+      "source_key": null
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C6",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": 0.198,
+      "generated_name": "L035",
+      "hydrogen": false,
+      "serial": 35,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "C6"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O6",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": -0.398,
+      "generated_name": "L036",
+      "hydrogen": false,
+      "serial": 36,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "O6"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.209,
+      "generated_name": "H037",
+      "hydrogen": true,
+      "serial": 37,
+      "source_key": null
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O3",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": -0.348,
+      "generated_name": "L038",
+      "hydrogen": false,
+      "serial": 38,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "O3"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C1",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": 0.292,
+      "generated_name": "L039",
+      "hydrogen": false,
+      "serial": 39,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "C1"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C2",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": 0.204,
+      "generated_name": "L040",
+      "hydrogen": false,
+      "serial": 40,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "C2"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C3",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": 0.183,
+      "generated_name": "L041",
+      "hydrogen": false,
+      "serial": 41,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "C3"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C4",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": 0.178,
+      "generated_name": "L042",
+      "hydrogen": false,
+      "serial": 42,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "C4"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C5",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": 0.152,
+      "generated_name": "L043",
+      "hydrogen": false,
+      "serial": 43,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "C5"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O5",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": -0.351,
+      "generated_name": "L044",
+      "hydrogen": false,
+      "serial": 44,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "O5"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C6",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": 0.042,
+      "generated_name": "L045",
+      "hydrogen": false,
+      "serial": 45,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "C6"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O2",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": -0.388,
+      "generated_name": "L046",
+      "hydrogen": false,
+      "serial": 46,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "O2"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.21,
+      "generated_name": "H047",
+      "hydrogen": true,
+      "serial": 47,
+      "source_key": null
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O3",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": -0.39,
+      "generated_name": "L048",
+      "hydrogen": false,
+      "serial": 48,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "O3"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.21,
+      "generated_name": "H049",
+      "hydrogen": true,
+      "serial": 49,
+      "source_key": null
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O4",
+      "carb_resname": "FUC",
+      "carb_resnum": 4,
+      "charge": -0.39,
+      "generated_name": "L050",
+      "hydrogen": false,
+      "serial": 50,
+      "source_key": [
+        "A",
+        4,
+        "",
+        "FUC",
+        "O4"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.21,
+      "generated_name": "H051",
+      "hydrogen": true,
+      "serial": 51,
+      "source_key": null
+    },
+    {
+      "atom_type": "N",
+      "carb_name": "N2",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": -0.349,
+      "generated_name": "L052",
+      "hydrogen": false,
+      "serial": 52,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "N2"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.163,
+      "generated_name": "H053",
+      "hydrogen": true,
+      "serial": 53,
+      "source_key": null
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C7",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": 0.214,
+      "generated_name": "L054",
+      "hydrogen": false,
+      "serial": 54,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "C7"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O7",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": -0.274,
+      "generated_name": "L055",
+      "hydrogen": false,
+      "serial": 55,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "O7"
+      ]
+    },
+    {
+      "atom_type": "C",
+      "carb_name": "C8",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": 0.117,
+      "generated_name": "L056",
+      "hydrogen": false,
+      "serial": 56,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "C8"
+      ]
+    },
+    {
+      "atom_type": "OA",
+      "carb_name": "O1",
+      "carb_resname": "NDG",
+      "carb_resnum": 1,
+      "charge": -0.369,
+      "generated_name": "L057",
+      "hydrogen": false,
+      "serial": 57,
+      "source_key": [
+        "A",
+        1,
+        "",
+        "NDG",
+        "O1"
+      ]
+    },
+    {
+      "atom_type": "HD",
+      "carb_name": "H",
+      "carb_resname": "HDP",
+      "carb_resnum": 9999,
+      "charge": 0.212,
+      "generated_name": "H058",
+      "hydrogen": true,
+      "serial": 58,
+      "source_key": null
+    }
+  ],
+  "coordinates_charges_types_and_torsion_tree_preserved": true,
+  "expected_glycosidic_links": [
+    {
+      "branch_serials": [
+        7,
+        8
+      ],
+      "source_keys": [
+        [
+          "A",
+          1,
+          "",
+          "NDG",
+          "O4"
+        ],
+        [
+          "A",
+          2,
+          "",
+          "GAL",
+          "C1"
+        ]
+      ]
+    },
+    {
+      "branch_serials": [
+        14,
+        15
+      ],
+      "source_keys": [
+        [
+          "A",
+          2,
+          "",
+          "GAL",
+          "O2"
+        ],
+        [
+          "A",
+          3,
+          "",
+          "FUC",
+          "C1"
+        ]
+      ]
+    },
+    {
+      "branch_serials": [
+        38,
+        39
+      ],
+      "source_keys": [
+        [
+          "A",
+          1,
+          "",
+          "NDG",
+          "O3"
+        ],
+        [
+          "A",
+          4,
+          "",
+          "FUC",
+          "C1"
+        ]
+      ]
+    }
+  ],
+  "heavy_atoms": 46,
+  "ligand_sha256": "d343f8bfa11664a3b11eba88364422206f697339ca084a07b37e5d59aa028eb2",
+  "model_rank": 9,
+  "native_coordinates_accessed": false,
+  "pose_file_sha256": "5eeafda5ad929d8922d3dde87c4552f742dc3cfaaae925c9b70c45d54640808f",
+  "prepared_input_sha256": "ddbd9399d4b6e67e7a0015061421d049d9ba5512412c2f95fda5fa162ac50337",
+  "schema_version": 1,
+  "source": "retained computational pose; not experimental coordinates",
+  "source_sha256": "61a2507bc3b5e66f74611ae68174679b62109ca5b619ffb3e0d7a06a51066834"
+}

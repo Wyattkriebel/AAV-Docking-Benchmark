@@ -1,0 +1,118 @@
+{
+  "accuracy_evaluated": false,
+  "condition_count": 12,
+  "conditions": [
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/fpocket/prepared/condition.json",
+      "condition_sha256": "447136b29a284c8b15631a1f96fb08231f321373860866129a66d25ef861f4bd",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "strict_monomer",
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/p2rank/prepared/condition.json",
+      "condition_sha256": "7b4be11c80d2942b4e20f63a271c1866053cb18acc40cb9b61fd10f28012ea6e",
+      "method": "p2rank",
+      "prepared_jobs": 1,
+      "receptor_profile": "strict_monomer",
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_assembly_pose_v3/strict_monomer/3ZWE/oracle/prepared/condition.json",
+      "condition_sha256": "ff1a3dcb358d710fdd7651fa1f17b14fae882877b37e8a4913fdc4b091c171f6",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "strict_monomer",
+      "status": "prepared"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_assembly_pose_v3/strict_monomer/5HZA/fpocket/prepared/condition.json",
+      "condition_sha256": "21e2c9bf13a694bdbfbecb8649b3254a44631d121e826418a39fdc7fc4d18ee4",
+      "method": "fpocket",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict_monomer",
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_assembly_pose_v3/strict_monomer/5HZA/p2rank/prepared/condition.json",
+      "condition_sha256": "272826a6b9fd43edbb94bc94b8a414e91603f89ff562f0579c57b22900099edf",
+      "method": "p2rank",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict_monomer",
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_assembly_pose_v3/strict_monomer/5HZA/oracle/prepared/condition.json",
+      "condition_sha256": "225ce4e21fd9dd3d6c231e0e30c059bf7f00140678d0708f10e2e7394f0aea13",
+      "method": "oracle",
+      "prepared_jobs": 0,
+      "receptor_profile": "strict_monomer",
+      "status": "preparation_failed"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/fpocket/prepared/condition.json",
+      "condition_sha256": "e9a5be16c053d346c8c4c0af12a4930c9ff7edb7a260279a5970db67e135b9b4",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair_monomer",
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/p2rank/prepared/condition.json",
+      "condition_sha256": "aa8b9e3962aa79a381062cbc95aafdf2a6dae2bcbef0921340d544dd5344033b",
+      "method": "p2rank",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair_monomer",
+      "status": "prepared"
+    },
+    {
+      "case_id": "3ZWE",
+      "condition_path": "results/structural_assembly_pose_v3/repair_monomer/3ZWE/oracle/prepared/condition.json",
+      "condition_sha256": "5e6efee762f2c1fddc638816a3fb875bfb2f087bc120c8e8bc668db72d64dc68",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair_monomer",
+      "status": "prepared"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_assembly_pose_v3/repair_monomer/5HZA/fpocket/prepared/condition.json",
+      "condition_sha256": "70f535c493c662e1aaa9cc757f52d27ad6943525fade64bcc2c0eda3bb5d98ce",
+      "method": "fpocket",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair_monomer",
+      "status": "prepared"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_assembly_pose_v3/repair_monomer/5HZA/p2rank/prepared/condition.json",
+      "condition_sha256": "f1254acca7f1c61d4753ca43b7b053d3eee6328aa68fd61f8d5bf6463fcf1b2b",
+      "method": "p2rank",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair_monomer",
+      "status": "prepared"
+    },
+    {
+      "case_id": "5HZA",
+      "condition_path": "results/structural_assembly_pose_v3/repair_monomer/5HZA/oracle/prepared/condition.json",
+      "condition_sha256": "a28c99430ec2804a46a3d15eb8f584c9430db406c0813044d643a84eab00a407",
+      "method": "oracle",
+      "prepared_jobs": 1,
+      "receptor_profile": "repair_monomer",
+      "status": "prepared"
+    }
+  ],
+  "eligible_seed_slots": 36,
+  "expected_conditions": 12,
+  "no_docking_started": true,
+  "status": "complete"
+}

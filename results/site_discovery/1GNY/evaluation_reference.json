@@ -1,0 +1,764 @@
+{
+  "apo_coordinate_transform_applied": false,
+  "atomic_pose_eligible": false,
+  "case_id": "1GNY",
+  "confirmatory_site": false,
+  "contact_cutoff_A": 4.0,
+  "contact_rule": "canonical protein heavy atoms strictly less than 4.0 A from modeled native ligand heavy atoms",
+  "coordinate_frame": "pinned_holo_source",
+  "eligible_site_only": true,
+  "evaluation_only": true,
+  "native_protein_atom_count": 1121,
+  "native_protein_chain_count": 1,
+  "pdb_id": "1GNY",
+  "reference_limitations": "The terminal residues are less supported (RSCC down to 0.808 and one mean occupancy 0.95); bond/angle flags remain. No local-density or stereochemical certification.",
+  "schema_version": 1,
+  "site_class_count": 1,
+  "site_quality_stratum": "published_site_local_fit_caveats",
+  "site_reference_ledger": "benchmarks/site_reference_ledger.json",
+  "site_reference_ledger_sha256": "4eea470aac11e6a29f73a392f72adbe33e98c6584d18d5d7727be15312f354b1",
+  "sites": [
+    {
+      "atom_keys": [
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "O1"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "C1"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "C2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "C3"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "C4"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "C5"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "O2"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "O3"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "O4"
+        ],
+        [
+          "B",
+          1,
+          "",
+          "XYP",
+          "O5"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "C1"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "C2"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "C3"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "C4"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "C5"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "O2"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "O3"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "O4"
+        ],
+        [
+          "B",
+          2,
+          "",
+          "XYP",
+          "O5"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "C1"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "C2"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "C3"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "C4"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "C5"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "O2"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "O3"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "O4"
+        ],
+        [
+          "B",
+          3,
+          "",
+          "XYP",
+          "O5"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "C1"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "C2"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "C3"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "C4"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "C5"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "O2"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "O3"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "O4"
+        ],
+        [
+          "B",
+          4,
+          "",
+          "XYP",
+          "O5"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "C1"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "C2"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "C3"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "C4"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "C5"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "O2"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "O3"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "O4"
+        ],
+        [
+          "B",
+          5,
+          "",
+          "XYP",
+          "O5"
+        ]
+      ],
+      "coordinates": [
+        [
+          16.97,
+          2.394,
+          2.587
+        ],
+        [
+          18.005,
+          2.151,
+          3.527
+        ],
+        [
+          18.849,
+          1.02,
+          3.038
+        ],
+        [
+          20.089,
+          0.854,
+          3.895
+        ],
+        [
+          20.756,
+          2.201,
+          4.114
+        ],
+        [
+          19.722,
+          3.155,
+          4.656
+        ],
+        [
+          18.022,
+          -0.094,
+          3.226
+        ],
+        [
+          21.039,
+          -0.002,
+          3.313
+        ],
+        [
+          21.798,
+          2.04,
+          5.04
+        ],
+        [
+          18.763,
+          3.275,
+          3.633
+        ],
+        [
+          22.816,
+          3.004,
+          4.781
+        ],
+        [
+          23.482,
+          3.293,
+          6.117
+        ],
+        [
+          24.737,
+          4.141,
+          5.926
+        ],
+        [
+          25.614,
+          3.565,
+          4.81
+        ],
+        [
+          24.752,
+          3.323,
+          3.587
+        ],
+        [
+          22.589,
+          4.01,
+          6.964
+        ],
+        [
+          25.476,
+          4.209,
+          7.136
+        ],
+        [
+          26.609,
+          4.517,
+          4.509
+        ],
+        [
+          23.671,
+          2.462,
+          3.872
+        ],
+        [
+          27.933,
+          4.05,
+          4.226
+        ],
+        [
+          28.433,
+          4.804,
+          3.008
+        ],
+        [
+          29.854,
+          4.35,
+          2.729
+        ],
+        [
+          30.722,
+          4.553,
+          3.953
+        ],
+        [
+          30.057,
+          3.865,
+          5.123
+        ],
+        [
+          27.618,
+          4.509,
+          1.877
+        ],
+        [
+          30.444,
+          5.144,
+          1.715
+        ],
+        [
+          31.999,
+          3.966,
+          3.712
+        ],
+        [
+          28.705,
+          4.311,
+          5.3
+        ],
+        [
+          33.05,
+          4.638,
+          4.355
+        ],
+        [
+          34.147,
+          3.625,
+          4.607
+        ],
+        [
+          35.393,
+          4.292,
+          5.14
+        ],
+        [
+          35.742,
+          5.487,
+          4.281
+        ],
+        [
+          34.507,
+          6.363,
+          4.156
+        ],
+        [
+          33.714,
+          2.629,
+          5.522
+        ],
+        [
+          36.486,
+          3.394,
+          5.191
+        ],
+        [
+          36.762,
+          6.157,
+          4.977
+        ],
+        [
+          33.445,
+          5.636,
+          3.559
+        ],
+        [
+          37.769,
+          6.768,
+          4.139
+        ],
+        [
+          38.585,
+          7.795,
+          4.923
+        ],
+        [
+          39.899,
+          8.206,
+          4.241
+        ],
+        [
+          40.515,
+          7.128,
+          3.364
+        ],
+        [
+          39.463,
+          6.285,
+          2.666
+        ],
+        [
+          37.902,
+          9.017,
+          5.156
+        ],
+        [
+          40.84,
+          8.591,
+          5.228
+        ],
+        [
+          41.32,
+          7.773,
+          2.403
+        ],
+        [
+          38.571,
+          5.793,
+          3.64
+        ]
+      ],
+      "deposited_ligand_residue_map": [
+        {
+          "deposited": {
+            "author_chain": "B",
+            "author_resnum": "1",
+            "label_chain": "B",
+            "label_resnum": ".",
+            "resname": "XYP"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "XYP",
+          "prepared_resnum": 1
+        },
+        {
+          "deposited": {
+            "author_chain": "B",
+            "author_resnum": "2",
+            "label_chain": "B",
+            "label_resnum": ".",
+            "resname": "XYP"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "XYP",
+          "prepared_resnum": 2
+        },
+        {
+          "deposited": {
+            "author_chain": "B",
+            "author_resnum": "3",
+            "label_chain": "B",
+            "label_resnum": ".",
+            "resname": "XYP"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "XYP",
+          "prepared_resnum": 3
+        },
+        {
+          "deposited": {
+            "author_chain": "B",
+            "author_resnum": "4",
+            "label_chain": "B",
+            "label_resnum": ".",
+            "resname": "XYP"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "XYP",
+          "prepared_resnum": 4
+        },
+        {
+          "deposited": {
+            "author_chain": "B",
+            "author_resnum": "5",
+            "label_chain": "B",
+            "label_resnum": ".",
+            "resname": "XYP"
+          },
+          "prepared_chain": "B",
+          "prepared_resname": "XYP",
+          "prepared_resnum": 5
+        }
+      ],
+      "id": "1GNY:released_modeled_glycan",
+      "interface_residue_keys": [
+        [
+          "A",
+          16,
+          "",
+          "ASN"
+        ],
+        [
+          "A",
+          17,
+          "",
+          "ALA"
+        ],
+        [
+          "A",
+          18,
+          "",
+          "SER"
+        ],
+        [
+          "A",
+          81,
+          "",
+          "GLN"
+        ],
+        [
+          "A",
+          86,
+          "",
+          "TRP"
+        ],
+        [
+          "A",
+          87,
+          "",
+          "SER"
+        ],
+        [
+          "A",
+          91,
+          "",
+          "TRP"
+        ],
+        [
+          "A",
+          92,
+          "",
+          "ASP"
+        ],
+        [
+          "A",
+          127,
+          "",
+          "GLN"
+        ]
+      ],
+      "names": [
+        "B:1:XYP:O1",
+        "B:1:XYP:C1",
+        "B:1:XYP:C2",
+        "B:1:XYP:C3",
+        "B:1:XYP:C4",
+        "B:1:XYP:C5",
+        "B:1:XYP:O2",
+        "B:1:XYP:O3",
+        "B:1:XYP:O4",
+        "B:1:XYP:O5",
+        "B:2:XYP:C1",
+        "B:2:XYP:C2",
+        "B:2:XYP:C3",
+        "B:2:XYP:C4",
+        "B:2:XYP:C5",
+        "B:2:XYP:O2",
+        "B:2:XYP:O3",
+        "B:2:XYP:O4",
+        "B:2:XYP:O5",
+        "B:3:XYP:C1",
+        "B:3:XYP:C2",
+        "B:3:XYP:C3",
+        "B:3:XYP:C4",
+        "B:3:XYP:C5",
+        "B:3:XYP:O2",
+        "B:3:XYP:O3",
+        "B:3:XYP:O4",
+        "B:3:XYP:O5",
+        "B:4:XYP:C1",
+        "B:4:XYP:C2",
+        "B:4:XYP:C3",
+        "B:4:XYP:C4",
+        "B:4:XYP:C5",
+        "B:4:XYP:O2",
+        "B:4:XYP:O3",
+        "B:4:XYP:O4",
+        "B:4:XYP:O5",
+        "B:5:XYP:C1",
+        "B:5:XYP:C2",
+        "B:5:XYP:C3",
+        "B:5:XYP:C4",
+        "B:5:XYP:C5",
+        "B:5:XYP:O2",
+        "B:5:XYP:O3",
+        "B:5:XYP:O4",
+        "B:5:XYP:O5"
+      ]
+    }
+  ],
+  "source_files": [
+    {
+      "expected_sha256": "0fb5a662a78bf229dbb93736d39d108d852f4441e3bb1b1825e5ab524a2e6fd1",
+      "path": "data/raw/external/1GNY_l_b.pdb",
+      "role": "native_ligand",
+      "sha256": "0fb5a662a78bf229dbb93736d39d108d852f4441e3bb1b1825e5ab524a2e6fd1",
+      "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_l_b.pdb"
+    },
+    {
+      "expected_sha256": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf",
+      "path": "data/raw/external/1GNY_r_b.pdb",
+      "role": "native_receptor",
+      "sha256": "b5c7c7094154c559f20f989d18b597fe0f991290fe2fe259f41c9088d900c7bf",
+      "url": "https://raw.githubusercontent.com/haddocking/protein-glycans/344e4a41a300b68b7ee3585895a460c863545ddb/pdb_files/1GNY/1GNY_r_b.pdb"
+    }
+  ],
+  "symmetry_copy_count": 1
+}

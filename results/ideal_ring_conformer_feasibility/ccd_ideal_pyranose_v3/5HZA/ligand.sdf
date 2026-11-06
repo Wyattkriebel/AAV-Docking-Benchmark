@@ -1,0 +1,152 @@
+
+     RDKit          3D
+
+ 65 67  0  0  0  0  0  0  0  0999 V2000
+   -1.3780   -2.3088    2.4099 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.7275   -1.8028    1.1150 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.7050   -1.3027    1.4082 C   0  0  1  0  0  0  0  0  0  0  0  0
+    1.4901   -2.4162    2.1251 C   0  0  1  0  0  0  0  0  0  0  0  0
+    2.9049   -1.9809    2.5242 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4699   -3.3413    3.0863 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.0535   -3.6870    4.3356 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6604   -2.9002    2.1591 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4968   -0.6962    0.5936 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3605   -0.9954    0.1673 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8139   -2.7987    3.3331 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8564   -0.8495    3.3915 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4879   -1.0934   -0.3673 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -3.5149    0.0452   -0.5121 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.8583    1.2476   -1.1912 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -2.1730    0.8158   -2.4866 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -1.2411   -0.3720   -2.2090 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.6030   -0.8942   -3.4925 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.0265    0.4781    0.7634 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8585    2.2418   -1.4818 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1835    0.4774   -3.4499 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9496   -1.4591   -1.6237 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8894    0.3420    0.1292 C   0  0  1  0  0  0  0  0  0  0  0  0
+    2.6526    0.4691   -1.2016 C   0  0  1  0  0  0  0  0  0  0  0  0
+    3.1729    1.8954   -1.3698 C   0  0  2  0  0  0  0  0  0  0  0  0
+    2.0377    2.9057   -1.2001 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.3289    2.6558    0.1404 C   0  0  1  0  0  0  0  0  0  0  0  0
+    0.1493    3.6094    0.3436 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7641   -0.4422   -1.2616 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7439    2.0424   -2.6814 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1240    2.7412   -2.2999 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8434    1.3057    0.2085 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6166    4.9430    0.5191 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5583   -1.4592    3.0810 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6896   -2.5972    0.3577 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6303   -0.4135    2.0491 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5876   -3.2951    1.4739 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4141   -2.7848    3.0665 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5095   -1.7227    1.6503 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3966   -4.2586    2.4893 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4949   -4.4008    4.6875 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9610   -3.2437    3.0246 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3150   -1.1242    4.1573 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.0302   -1.9608    0.0180 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3736   -0.2890   -1.1061 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1363    1.7162   -0.5136 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6120    1.6562   -2.9108 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4345   -0.0570   -1.5453 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0500   -0.1048   -4.0108 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0914   -1.7101   -3.2630 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3537   -1.3082   -4.1743 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.2906    0.3485    1.3946 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4167    2.2800   -0.6786 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8303    1.2102   -3.3971 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5806    0.4658    0.9717 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0027    0.2067   -2.0450 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9745    2.0954   -0.6486 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4270    3.9280   -1.2611 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0439    2.8114    0.9596 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4190    3.3223    1.2351 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5419    3.5801   -0.5050 H   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3714   -1.3274   -1.1329 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3493    1.2798   -2.7817 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6924    2.7674   -3.0977 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1720    5.5141    0.5308 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  1  6  1  0
+  1  8  1  0
+  2  3  1  0
+  2  9  1  0
+  3  4  1  0
+  3 10  1  0
+  4  5  1  0
+  4 11  1  0
+  5 12  1  0
+  6  7  1  0
+  6 11  1  0
+ 13 14  1  0
+ 13 22  1  0
+ 14 15  1  0
+ 14 19  1  0
+ 15 16  1  0
+ 15 20  1  0
+ 16 17  1  0
+ 16 21  1  0
+ 17 18  1  0
+ 17 22  1  0
+ 23 24  1  0
+ 23 32  1  0
+ 24 25  1  0
+ 24 29  1  0
+ 25 26  1  0
+ 25 30  1  0
+ 26 27  1  0
+ 26 31  1  0
+ 27 28  1  0
+ 27 32  1  0
+ 28 33  1  0
+ 13  9  1  0
+ 23 10  1  0
+  1 34  1  1
+  2 35  1  6
+  3 36  1  1
+  4 37  1  6
+  5 38  1  0
+  5 39  1  0
+  6 40  1  6
+  7 41  1  0
+  8 42  1  0
+ 12 43  1  0
+ 13 44  1  1
+ 14 45  1  6
+ 15 46  1  1
+ 16 47  1  6
+ 17 48  1  1
+ 18 49  1  0
+ 18 50  1  0
+ 18 51  1  0
+ 19 52  1  0
+ 20 53  1  0
+ 21 54  1  0
+ 23 55  1  1
+ 24 56  1  6
+ 25 57  1  1
+ 26 58  1  1
+ 27 59  1  1
+ 28 60  1  0
+ 28 61  1  0
+ 29 62  1  0
+ 30 63  1  0
+ 31 64  1  0
+ 33 65  1  0
+M  END
+>  <expected_chemical_graph>  (1) 
+{"atoms":[["1:BGC:C1","C",0,false],["1:BGC:C2","C",0,false],["1:BGC:C3","C",0,false],["1:BGC:C4","C",0,false],["1:BGC:C5","C",0,false],["1:BGC:C6","C",0,false],["1:BGC:O1","O",0,false],["1:BGC:O2","O",0,false],["1:BGC:O3","O",0,false],["1:BGC:O4","O",0,false],["1:BGC:O5","O",0,false],["1:BGC:O6","O",0,false],["2:FUC:C1","C",0,false],["2:FUC:C2","C",0,false],["2:FUC:C3","C",0,false],["2:FUC:C4","C",0,false],["2:FUC:C5","C",0,false],["2:FUC:C6","C",0,false],["2:FUC:O2","O",0,false],["2:FUC:O3","O",0,false],["2:FUC:O4","O",0,false],["2:FUC:O5","O",0,false],["3:GAL:C1","C",0,false],["3:GAL:C2","C",0,false],["3:GAL:C3","C",0,false],["3:GAL:C4","C",0,false],["3:GAL:C5","C",0,false],["3:GAL:C6","C",0,false],["3:GAL:O2","O",0,false],["3:GAL:O3","O",0,false],["3:GAL:O4","O",0,false],["3:GAL:O5","O",0,false],["3:GAL:O6","O",0,false]],"bonds":[[["1:BGC:C1","1:BGC:C2"],"SINGLE",false],[["1:BGC:C1","1:BGC:O1"],"SINGLE",false],[["1:BGC:C1","1:BGC:O5"],"SINGLE",false],[["1:BGC:C2","1:BGC:C3"],"SINGLE",false],[["1:BGC:C2","1:BGC:O2"],"SINGLE",false],[["1:BGC:C3","1:BGC:C4"],"SINGLE",false],[["1:BGC:C3","1:BGC:O3"],"SINGLE",false],[["1:BGC:C4","1:BGC:C5"],"SINGLE",false],[["1:BGC:C4","1:BGC:O4"],"SINGLE",false],[["1:BGC:C5","1:BGC:C6"],"SINGLE",false],[["1:BGC:C5","1:BGC:O5"],"SINGLE",false],[["1:BGC:C6","1:BGC:O6"],"SINGLE",false],[["1:BGC:O3","2:FUC:C1"],"SINGLE",false],[["1:BGC:O4","3:GAL:C1"],"SINGLE",false],[["2:FUC:C1","2:FUC:C2"],"SINGLE",false],[["2:FUC:C1","2:FUC:O5"],"SINGLE",false],[["2:FUC:C2","2:FUC:C3"],"SINGLE",false],[["2:FUC:C2","2:FUC:O2"],"SINGLE",false],[["2:FUC:C3","2:FUC:C4"],"SINGLE",false],[["2:FUC:C3","2:FUC:O3"],"SINGLE",false],[["2:FUC:C4","2:FUC:C5"],"SINGLE",false],[["2:FUC:C4","2:FUC:O4"],"SINGLE",false],[["2:FUC:C5","2:FUC:C6"],"SINGLE",false],[["2:FUC:C5","2:FUC:O5"],"SINGLE",false],[["3:GAL:C1","3:GAL:C2"],"SINGLE",false],[["3:GAL:C1","3:GAL:O5"],"SINGLE",false],[["3:GAL:C2","3:GAL:C3"],"SINGLE",false],[["3:GAL:C2","3:GAL:O2"],"SINGLE",false],[["3:GAL:C3","3:GAL:C4"],"SINGLE",false],[["3:GAL:C3","3:GAL:O3"],"SINGLE",false],[["3:GAL:C4","3:GAL:C5"],"SINGLE",false],[["3:GAL:C4","3:GAL:O4"],"SINGLE",false],[["3:GAL:C5","3:GAL:C6"],"SINGLE",false],[["3:GAL:C5","3:GAL:O5"],"SINGLE",false],[["3:GAL:C6","3:GAL:O6"],"SINGLE",false]],"isomeric_smiles":"C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O)O[C@H](CO)[C@H]2O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@@H]1O"}
+
+>  <profile_id>  (1) 
+ccd_ideal_pyranose_v3
+
+>  <canonical_atom_map>  (1) 
+[{"rdkit_index": 0, "canonical_atom_key": "1:BGC:C2", "branch_num": "1", "ccd_id": "BGC", "atom_name": "C2", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 1, "canonical_atom_key": "1:BGC:C3", "branch_num": "1", "ccd_id": "BGC", "atom_name": "C3", "element": "C", "formal_charge": 0, "ccd_stereo_config": "S"}, {"rdkit_index": 2, "canonical_atom_key": "1:BGC:C4", "branch_num": "1", "ccd_id": "BGC", "atom_name": "C4", "element": "C", "formal_charge": 0, "ccd_stereo_config": "S"}, {"rdkit_index": 3, "canonical_atom_key": "1:BGC:C5", "branch_num": "1", "ccd_id": "BGC", "atom_name": "C5", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 4, "canonical_atom_key": "1:BGC:C6", "branch_num": "1", "ccd_id": "BGC", "atom_name": "C6", "element": "C", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 5, "canonical_atom_key": "1:BGC:C1", "branch_num": "1", "ccd_id": "BGC", "atom_name": "C1", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 6, "canonical_atom_key": "1:BGC:O1", "branch_num": "1", "ccd_id": "BGC", "atom_name": "O1", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 7, "canonical_atom_key": "1:BGC:O2", "branch_num": "1", "ccd_id": "BGC", "atom_name": "O2", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 8, "canonical_atom_key": "1:BGC:O3", "branch_num": "1", "ccd_id": "BGC", "atom_name": "O3", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 9, "canonical_atom_key": "1:BGC:O4", "branch_num": "1", "ccd_id": "BGC", "atom_name": "O4", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 10, "canonical_atom_key": "1:BGC:O5", "branch_num": "1", "ccd_id": "BGC", "atom_name": "O5", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 11, "canonical_atom_key": "1:BGC:O6", "branch_num": "1", "ccd_id": "BGC", "atom_name": "O6", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 12, "canonical_atom_key": "2:FUC:C1", "branch_num": "2", "ccd_id": "FUC", "atom_name": "C1", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 13, "canonical_atom_key": "2:FUC:C2", "branch_num": "2", "ccd_id": "FUC", "atom_name": "C2", "element": "C", "formal_charge": 0, "ccd_stereo_config": "S"}, {"rdkit_index": 14, "canonical_atom_key": "2:FUC:C3", "branch_num": "2", "ccd_id": "FUC", "atom_name": "C3", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 15, "canonical_atom_key": "2:FUC:C4", "branch_num": "2", "ccd_id": "FUC", "atom_name": "C4", "element": "C", "formal_charge": 0, "ccd_stereo_config": "S"}, {"rdkit_index": 16, "canonical_atom_key": "2:FUC:C5", "branch_num": "2", "ccd_id": "FUC", "atom_name": "C5", "element": "C", "formal_charge": 0, "ccd_stereo_config": "S"}, {"rdkit_index": 17, "canonical_atom_key": "2:FUC:C6", "branch_num": "2", "ccd_id": "FUC", "atom_name": "C6", "element": "C", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 18, "canonical_atom_key": "2:FUC:O2", "branch_num": "2", "ccd_id": "FUC", "atom_name": "O2", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 19, "canonical_atom_key": "2:FUC:O3", "branch_num": "2", "ccd_id": "FUC", "atom_name": "O3", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 20, "canonical_atom_key": "2:FUC:O4", "branch_num": "2", "ccd_id": "FUC", "atom_name": "O4", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 21, "canonical_atom_key": "2:FUC:O5", "branch_num": "2", "ccd_id": "FUC", "atom_name": "O5", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 22, "canonical_atom_key": "3:GAL:C1", "branch_num": "3", "ccd_id": "GAL", "atom_name": "C1", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 23, "canonical_atom_key": "3:GAL:C2", "branch_num": "3", "ccd_id": "GAL", "atom_name": "C2", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 24, "canonical_atom_key": "3:GAL:C3", "branch_num": "3", "ccd_id": "GAL", "atom_name": "C3", "element": "C", "formal_charge": 0, "ccd_stereo_config": "S"}, {"rdkit_index": 25, "canonical_atom_key": "3:GAL:C4", "branch_num": "3", "ccd_id": "GAL", "atom_name": "C4", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 26, "canonical_atom_key": "3:GAL:C5", "branch_num": "3", "ccd_id": "GAL", "atom_name": "C5", "element": "C", "formal_charge": 0, "ccd_stereo_config": "R"}, {"rdkit_index": 27, "canonical_atom_key": "3:GAL:C6", "branch_num": "3", "ccd_id": "GAL", "atom_name": "C6", "element": "C", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 28, "canonical_atom_key": "3:GAL:O2", "branch_num": "3", "ccd_id": "GAL", "atom_name": "O2", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 29, "canonical_atom_key": "3:GAL:O3", "branch_num": "3", "ccd_id": "GAL", "atom_name": "O3", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 30, "canonical_atom_key": "3:GAL:O4", "branch_num": "3", "ccd_id": "GAL", "atom_name": "O4", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 31, "canonical_atom_key": "3:GAL:O5", "branch_num": "3", "ccd_id": "GAL", "atom_name": "O5", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}, {"rdkit_index": 32, "canonical_atom_key": "3:GAL:O6", "branch_num": "3", "ccd_id": "GAL", "atom_name": "O6", "element": "O", "formal_charge": 0, "ccd_stereo_config": "N"}]
+
+>  <atom.prop.canonical_atom_key>  (1) 
+1:BGC:C2 1:BGC:C3 1:BGC:C4 1:BGC:C5 1:BGC:C6 1:BGC:C1 1:BGC:O1 1:BGC:O2 1:BGC:O3 1:BGC:O4 1:BGC:O5 1:BGC:O6 2:FUC:C1 2:FUC:C2 2:FUC:C3 2:FUC:C4 2:FUC:C5 2:FUC:C6 2:FUC:O2 2:FUC:O3 2:FUC:O4
+2:FUC:O5 3:GAL:C1 3:GAL:C2 3:GAL:C3 3:GAL:C4 3:GAL:C5 3:GAL:C6 3:GAL:O2 3:GAL:O3 3:GAL:O4 3:GAL:O5 3:GAL:O6 n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a
+n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a n/a
+
+$$$$

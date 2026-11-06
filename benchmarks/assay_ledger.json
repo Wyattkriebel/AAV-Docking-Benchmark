@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "curation_date": "2026-10-28",
+  "status": "exploratory_quantitative_panel_curated; binary_and_confirmatory_specificity_open",
+  "eligible_evaluation_rows": [
+    {
+      "panel_id": "sindrewicz_2019_gal3_itc",
+      "ligand_id": "LacNAc",
+      "endpoint": "published_same_assay_quantitative_affinity",
+      "kd_uM": 24.0,
+      "kd_sem_uM": 3.6,
+      "binary_label": null,
+      "source_file": "galectin3_itc_panel.json",
+      "computational_status": "pending anomer sensitivity and construct approximation disclosure"
+    },
+    {
+      "panel_id": "sindrewicz_2019_gal3_itc",
+      "ligand_id": "lactose",
+      "endpoint": "published_same_assay_quantitative_affinity",
+      "kd_uM": 93.5,
+      "kd_sem_uM": 9.1,
+      "binary_label": null,
+      "source_file": "galectin3_itc_panel.json",
+      "computational_status": "pending anomer sensitivity and construct approximation disclosure"
+    },
+    {
+      "panel_id": "sindrewicz_2019_gal3_itc",
+      "ligand_id": "galactose",
+      "endpoint": "published_same_assay_quantitative_affinity",
+      "kd_uM": 3100.0,
+      "kd_sem_uM": 1100.0,
+      "binary_label": null,
+      "source_file": "galectin3_itc_panel.json",
+      "computational_status": "pending anomer sensitivity and construct approximation disclosure"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "mietzsch_2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3958061/",
+      "doi": "10.1128/JVI.03371-13",
+      "assay_context": "immobilized glycan fluorescence; not monovalent affinity",
+      "target_scope": "serotype-specific; AAV9 excluded",
+      "tested_synthetic_heparin_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "excluded_heterogeneous_ligand_ids": [
+        14
+      ],
+      "source_reported_AAV2_binding_ids": [
+        1,
+        7
+      ],
+      "source_reported_AAV3_binding_ids": [
+        1,
+        5,
+        7
+      ],
+      "evaluation_labels": null,
+      "presentation": "aminopentyl-linked oligosaccharides on NHS slides",
+      "particle_concentration_ug_ml": 100,
+      "printed_concentrations_mM": [
+        1,
+        0.25,
+        0.063,
+        0.016
+      ],
+      "technical_spots_per_concentration": 10,
+      "binding_buffer": "PBS-MK + 0.01% Tween20",
+      "incubation": "overnight, 4 C",
+      "AAV13_fig4_printed_concentration_mM": 0.25,
+      "other_fig4_serotypes_printed_concentration_mM": 1,
+      "detection_limit": null,
+      "eligibility": false,
+      "reasons": [
+        "full graph/stereochemistry per numbered compound not yet independently transcribed",
+        "raw per-compound fluorescence and detection threshold not recovered",
+        "source-reported positives are qualitative context, not frozen binary labels"
+      ]
+    },
+    {
+      "source_id": "CFG_primscreen_5347",
+      "target": "AAV2",
+      "url": "https://www.functionalglycomics.org/glycan-array/1005346",
+      "legacy_url": "https://www.functionalglycomics.org/glycomics/HServlet?operation=view&psId=primscreen_5347",
+      "data_filename": "AAV2_15429_v5.0_RESULTS.xls",
+      "array_version": "PA_v5",
+      "experiment_date": "2012-06-06",
+      "concentration_ug_ml": 200,
+      "source_result_nature": "Inconclusive",
+      "source_detection_label": "Alexa488",
+      "replicate_number": 1,
+      "raw_data_retrieved": false,
+      "download_access": "reCAPTCHA-protected POST on current public page",
+      "eligibility": false,
+      "reasons": [
+        "source explicitly marks result inconclusive",
+        "numeric workbook and complete graph inventory not retrieved",
+        "source labeling differs from paper description; preserve discrepancy"
+      ]
+    },
+    {
+      "source_id": "CFG_primscreen_5777",
+      "target": "AAV1",
+      "url": "https://www.functionalglycomics.org/glycan-array/1005776",
+      "legacy_url": "https://www.functionalglycomics.org/glycomics/HServlet?operation=view&psId=primscreen_5777",
+      "data_filename": "AAV1_16135_v5.1_RESULTS.xls",
+      "array_version": "PA_v51",
+      "experiment_date": "2013-01-24",
+      "concentration_ug_ml": 200,
+      "source_result_nature": "Inconclusive",
+      "source_detection_label": "Alexa488; project text DyLight488",
+      "replicate_number": 1,
+      "raw_data_retrieved": false,
+      "download_access": "reCAPTCHA-protected POST on current public page",
+      "eligibility": false,
+      "reasons": [
+        "source explicitly marks result inconclusive",
+        "numeric workbook and complete graph inventory not retrieved",
+        "label and buffer metadata require reconciliation"
+      ]
+    },
+    {
+      "source_id": "zhang_2013",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3859860/",
+      "doi": "10.1021/bi4008676",
+      "assay_context": "SPR and solution competition against immobilized heparin",
+      "target_scope": [
+        "AAV2",
+        "AAV6",
+        "AAV_DJ"
+      ],
+      "eligibility": false,
+      "reasons": [
+        "heterogeneous GAG preparations and size fractions do not supply exact graph identities",
+        "apparent avidity against multivalent particles cannot be equated to docking energy",
+        "numeric matched exact-glycan binding alternatives not curated"
+      ]
+    },
+    {
+      "source_id": "sindrewicz_2019_gal3_itc",
+      "url": "https://www.nature.com/articles/s41598-019-47658-8",
+      "doi": "10.1038/s41598-019-47658-8",
+      "qualified_endpoint": "exploratory quantitative ranking of 3 tested binders",
+      "panel_file": "galectin3_itc_panel.json",
+      "eligibility": true,
+      "limitations": [
+        "single target, three ligands; no binary nonbinding class",
+        "receptor CRD approximation to full-length assay",
+        "buffer pH and exact ionic composition not specified",
+        "solution reducing-end anomer proportions unspecified"
+      ]
+    }
+  ],
+  "label_policy": {
+    "unlisted_glycan": "untested, never negative",
+    "structural_decoy": "pose-ranking control, never experimental nonbinder",
+    "fluorescence_or_competition": "do not convert to KD",
+    "cross_serotype_transfer": false,
+    "raw_and_size_charge_matched_results_required": true,
+    "eligible_binary_labels_require": [
+      "tested chemical identity",
+      "same assay context",
+      "predeclared label or censoring rule",
+      "both classes",
+      "presentation/concentration/detection provenance"
+    ]
+  },
+  "specificity_conclusion": "A three-binder Gal3 affinity panel is available for exploratory score-ranking evaluation. Confirmatory and binary binding specificity remain unresolved."
+}

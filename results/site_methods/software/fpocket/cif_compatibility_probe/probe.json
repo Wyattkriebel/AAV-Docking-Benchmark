@@ -1,0 +1,22 @@
+{
+  "atoms": 100,
+  "attempt_v1": {
+    "error": "fpocket exited with status 1",
+    "input_sha256": "76d9773d831f531dec8c3b2fd49ac4c7b52e4f620bdf5c13d9a6fb1cdc183869",
+    "status": "failed"
+  },
+  "attempt_v2": {
+    "error": null,
+    "input_sha256": "63de818e77efac9c2246ca2ab743bda188c98f124dca2de5ffef4e4ab29933a6",
+    "pocket_count": 3,
+    "receptor_output_audit": {
+      "expected_protein_heavy_atoms": 100,
+      "max_displacement_A": 0.0,
+      "observed_protein_heavy_atoms": 100,
+      "status": "passed"
+    },
+    "status": "completed"
+  },
+  "change": "terminal CIF comment delimiter only",
+  "role": "synthetic software compatibility smoke test; excluded from all scientific denominators"
+}

@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "archive": "holo_complete.pdb.gz",
+      "archive_sha256": "5c3988e01b35fbc4a24b418c38caa412b6c0b1ac00e99cb381ef5bd7d1000941",
+      "filename": "holo_complete.pdb",
+      "original_bytes": 116154,
+      "sha256": "5fa580364dd40760aff010524f58c9abd9adc704cf8fd54f063f9d82ecc8aa6b"
+    },
+    {
+      "archive": "holo_complete.pdbqt.gz",
+      "archive_sha256": "4a8338023274d9c2d97828a7922345efd91fbef451f0416e3a9449ae7d47d6fd",
+      "filename": "holo_complete.pdbqt",
+      "original_bytes": 143440,
+      "sha256": "d8cb717725adfb7f06b2904b534fd0a591f212175fde1694e12e1d854977eea0"
+    },
+    {
+      "archive": "holo_complete_atom_changes.json.gz",
+      "archive_sha256": "8837da0f10e0aaefd415e0ff23f5deb1a49c063c08b5d2d2da643424b229f709",
+      "filename": "holo_complete_atom_changes.json",
+      "original_bytes": 237056,
+      "sha256": "83e0feaa241e292e2e679bdbf347180ef311fde816795f25efb0afd6811ae8c9"
+    },
+    {
+      "archive": "ligand.pdbqt.gz",
+      "archive_sha256": "109172bd1fe107a0eec293173ec017b3ccba0d9c316c68f66aaa68390ace67f8",
+      "filename": "ligand.pdbqt",
+      "original_bytes": 5504,
+      "sha256": "00f0d0755a33b2e4884de584f2cfb8feffab38f172f3034edcb4ea3252567dcb"
+    },
+    {
+      "archive": "ligand.sdf.gz",
+      "archive_sha256": "0aa01d203ca51f82bc16593a918b8cb3cb246ac3bddc886dffb7a6a3a13ea54d",
+      "filename": "ligand.sdf",
+      "original_bytes": 7075,
+      "sha256": "0bbc16a49e589a8690d3cab4c3631a975511b3a7337dd289ff5679d691619ce8"
+    },
+    {
+      "archive": "preparation.json.gz",
+      "archive_sha256": "b9fc6e2ba618df9b296a1f4b404cb57c560b9e26ed672256caf586194b30d9a4",
+      "filename": "preparation.json",
+      "original_bytes": 284074,
+      "sha256": "0e45b82533947fd395fd82ef53ae1d63ca74ef826116b90f5103321bd3a6cbd1"
+    },
+    {
+      "archive": "reference.json.gz",
+      "archive_sha256": "415676ed465610433ab1950c8d14c4c60fc77a28d4be7b72d5de886dc1176970",
+      "filename": "reference.json",
+      "original_bytes": 268338,
+      "sha256": "48b3c932e15148071c13143ad4b191a2d3941fe42343125bd4340dbba508f957"
+    }
+  ],
+  "schema_version": 1
+}

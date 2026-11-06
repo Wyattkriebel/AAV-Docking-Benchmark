@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "UNFROZEN_PROPOSAL_NO_DOCKING_AUTHORIZED",
+  "method": "HADDOCK3 2026.10.1 box_to_AIR_20_model_feasibility",
+  "cases": ["2RDK", "3ZWE", "4R9F", "5HZA", "5V6F", "8I5U"],
+  "receptor_profiles": ["strict", "repair"],
+  "information_arms": ["frozen_predicted_top1_box", "frozen_oracle_box"],
+  "CNS_base_seeds": [104729, 130363, 155921],
+  "model_seed_rule": "rigidbody uses base+model_index, model_index1..20. flexref sampling_factor1 inherits each input model seed; flexref.iniseed is not an independent refinement-seed control.",
+  "fixed_denominator": "6cases x2sourceprofiles x2informationarms x3seeds =72 workflow cells. Source/parameterization-gate failures remain explicit unavailable cells; no source case is discarded.",
+  "mandatory_source_gates": ["frozen_v3_independent_complete_parent", "actual_CNS_complete_glycan_graph_charge_stereo_and_ring_gates", "source_profile_protein_heavy_atom_inventory_and_coordinates_exact", "assembly_all_chains_preserved", "observed_OXT_terminal_rule", "nonempty_box_selected_protein_atoms", "verified_CNS_atom_identity_correspondence"],
+  "box_to_AIR": {
+    "source": "Only the separately frozen box center/full side lengths and independently audited protein coordinates. No native glycan coordinates or native contacts are read.",
+    "closed_box_rule": "Select exactly receptor protein heavy atoms whose absolute coordinate difference from the frozen center is <=side_length/2 in each Cartesian axis.",
+    "identity": "Use verified actual CNS segid,resid,name tuples, sorted deterministically; retain every receptor assembly chain. Glycan segid L with canonical CCD atom keys, and all full-parent heavy atoms.",
+    "restraint": "One OR-union protein atom selection against one OR-union of all glycan heavy atoms; assign (protein_union) (glycan_union) 2.0 2.0 0.0",
+    "random_removal": false,
+    "forbidden": ["native_contact_AIRs", "one_mandatory_contact_per_box_residue", "residue_expansion", "surface_accessibility_filter", "nearest_atom_fallback", "enlarging_empty_boxes"],
+    "empty_selection": "Explicit unavailable workflow cell, no fallback or replacement.",
+    "interpretation": "Coarse site prior through an ambiguous pseudo-distance. It is not a hard Cartesian box and not exact equivalence to Vina's spatial search restriction. Record selected atoms/box/source/AIR SHA per arm."
+  },
+  "workflow": {
+    "stages": ["topoaa", "rigidbody", "flexref"],
+    "topoaa": {"iniseed": 917, "autotoppar": false, "terminal_rule_policy": "benchmarks/haddock_terminal_amendment.json"},
+    "rigidbody": {"sampling": 20, "tolerance": 20, "w_vdw": 1, "ambig_fname": "box_air.tbl", "randremoval": false},
+    "flexref": {"sampling_factor": 1, "tolerance": 20, "ambig_fname": "box_air.tbl", "randremoval": false, "mdsteps_rigid": 500, "mdsteps_cool1": 500, "mdsteps_cool2": 1000, "mdsteps_cool3": 1000},
+    "ranking": "Default final HADDOCK score within each run; retain all successfully generated models and immutable model IDs. Optional common rescoring is a separate frozen analysis.",
+    "failed_models": "Retain as explicit failed slots, never replace or extend the20-slot pool."
+  },
+  "adaptations_from_released_example": ["New source-only box-derived single AIR instead of native-contact AIRs", "Native-reference caprieval omitted", "Native-interface RMSD clustering/selection omitted; every surviving rigidbody model is refined", "Three fixed base seeds", "Observed-OXT source-only topology amendment"],
+  "interpretation": "Small-sampling feasibility comparison, not recommended full HADDOCK sampling, not exact released-example reproduction, not certified unbiased method superiority. Source preparation and restraint representation differences must accompany any later result.",
+  "execution": "Root must freeze exact source receipts, receptor/source eligibility, boxes, AIR files, configs, seeds, resource budget, model identity and outcome analysis before first cohort docking pose. No background or cohort docking is executed by source-preparation scripts."
+}

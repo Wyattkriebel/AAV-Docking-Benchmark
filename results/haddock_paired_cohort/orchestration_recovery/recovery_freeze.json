@@ -1,0 +1,31 @@
+{
+  "concurrency_control_path": "results/haddock_paired_cohort/orchestration_recovery/concurrency_control.json",
+  "execution_authorized": true,
+  "experimental_accuracy_evaluated": false,
+  "frozen_at_UTC": "2026-11-03T18:34:01.494926+00:00",
+  "initial_concurrency_control": {
+    "bytes": 59,
+    "path": "results/haddock_paired_cohort/orchestration_recovery/concurrency_control.json",
+    "sha256": "969967d9c5698e9f10cac58cd7b0e3faaa95ae1fd2466098e5195779bafd6fd7"
+  },
+  "maximum_parallel_jobs": 6,
+  "native_cpus_per_job": 1,
+  "native_first_job_rerun": false,
+  "operational_concurrency_rule": {
+    "after_complete_maximum": 6,
+    "before_complete_maximum": 2,
+    "only_workflow_status_used": true,
+    "progress_path": "results/blind_pose/execution_progress.json",
+    "required_final_status": "complete",
+    "scheduled_seed_runs": 156
+  },
+  "recovery_plan": {
+    "bytes": 1671,
+    "path": "results/haddock_paired_cohort/orchestration_recovery/recovery_plan.json",
+    "sha256": "330bf31f9061d435e615e4e23712e627255e1774aeb82c70aee2af88c86dba38"
+  },
+  "required_authorized_status": "frozen_before_HADDOCK_orchestration_resumption",
+  "schema_version": 1,
+  "scientific_parameters_or_denominator_changed": false,
+  "status": "frozen_before_HADDOCK_orchestration_resumption"
+}
